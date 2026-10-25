@@ -1,0 +1,83 @@
+{
+  "schema": "janus-sql-nonthinking-v5",
+  "registeredAt": "2026-10-18T13:37:08.339890+00:00",
+  "status": "development_failed_not_scored",
+  "header": "InterCode Spider dev 官方预检通过的 1015 题；公开反馈后的执行模式开发修订 v5，显式非思考模式、请求温度0；不是整库或独立未见测试",
+  "commit": "c3e46d827cfc9d4c704ec078f7abf9f41e3191d8",
+  "arms": [
+    "native-trained-sql-output-contract-v5",
+    "native-untrained-sql-interface-v5"
+  ],
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "maxTurns": 40,
+  "maxOutputTokens": 4096,
+  "initialConcurrency": 16,
+  "maximumConcurrency": 16,
+  "sameSubset": true,
+  "sameOfficialReward": true,
+  "structuralChange": true,
+  "originalFreezeModified": false,
+  "paperReady": false,
+  "changes": [
+    "Keep v4 planner and executor prompt text exactly unchanged.",
+    "Both arms explicitly send thinking.type=disabled so requested temperature0 is supported; keep maxOutputTokens4096/maxTurns40 and original official reward.",
+    "Record actual reasoning token counts and reject a synthetic integration check that unexpectedly reasons."
+  ],
+  "question": "Under explicit non-thinking mode with temperature0, does the same frozen output contract improve official rewards against the matched no-plan control?",
+  "primaryMetric": "paired official reward sum difference over all 1015 locked cases",
+  "secondaryMetrics": [
+    "exact reward 1",
+    "weight prompt tokens",
+    "actual review consumption",
+    "empty outputs",
+    "finish reasons"
+  ],
+  "selectionRule": "One registered candidate. Synthetic development checks first. One valid official receipt per ID per arm; infrastructure errors only may resume. Preserve every version and score regardless of sign. No repeated target-score selection until winning.",
+  "targetExposure": "Adaptive pilot development after v3 and v4; no gold SQL or hidden expected outputs. Explicit mode correction changes the evaluation regime; old official rewards remain valid for their recorded regime.",
+  "targetQuestionOrGoldUsedForPromptSelection": true,
+  "syntheticChecksPassed": false,
+  "plannerSystemSha256": "87704c232a40076012a5c62b482cadf8e99536c3faf5d5eab2d06f52e887d84b",
+  "implementationFiles": {
+    "sql_capacity_gate.py": "d99d3f1b8505c8e033d73086f0d12413cab540afab79207463a2657911c3a3d7",
+    "sql_locked_environment.py": "68cd2a5c49dd88e4108e5f86261743b878506ad6633f428e6c995bf14ec695dc",
+    "sql_v5_generation.py": "43cbfc212ad312060676aa30c3703350deb183f5c83681f82b6b69492aa38420",
+    "sql_v5_planner_server.py": "1f81c086171568b84413d2fba1a1cf99d3a2c78d0566691cfba887786a37c62b",
+    "sql_v5_preplan_worker.py": "7b5530835f70df999bd53365a97d361cfa0f7a31ebac01da25b3133c2f0026b5",
+    "sql_v5_rpc.py": "804f3420ba870d0a364bf4f9269cda6d2e5944aac587830f892bcbefb0e85dd2",
+    "sql_v5_worker.py": "fd2b26f61761ed39a03fbd226fdfa2180d84144e21af2acdce41c1ed7b60491b"
+  },
+  "publicInputs": [
+    "query",
+    "db",
+    "db_tables"
+  ],
+  "prohibitedInputs": [
+    "gold SQL",
+    "reference outputs",
+    "official rewards",
+    "oracle receipts"
+  ],
+  "immutableOldResults": [
+    "sql-public-plan-v2",
+    "sql-public-start-v2",
+    "original trained",
+    "original start"
+  ],
+  "launchCondition": "No other benchmark worker; existing SQL container only; disk >=6 GiB; development checks passed; model resources safe. Do not alter active tau runtime.",
+  "previousCandidate": "sql-v4/pilot-summary.json",
+  "previousCandidateRewardDifference": -4.12,
+  "previousCandidatePreserved": true,
+  "fullExpansionRequires": "Complete same fixed 24-case pilot and all consumption audits, with positive trained-minus-matched-control official reward sum. No expansion on ties or losses.",
+  "goldSqlUsedForPromptSelection": false,
+  "hiddenExpectedOutputsUsedForPromptSelection": false,
+  "publicTargetQuestionsInspectedDuringDevelopment": true,
+  "thinking": {
+    "type": "disabled"
+  },
+  "modeAudit": "deepseek-mode-audit.json",
+  "syntheticCases": 6,
+  "syntheticExecutorRuns": 12,
+  "developmentResultSha256": "3128cf657281e9da5ac39c6da88c1c4c33e3c1b72fe8419508d039df27039dd1",
+  "developmentPlanSha256": "85440196d6995fc4da89e499f9baccc5293a7b3796c83b60f2d8d3a39f3c106c"
+}

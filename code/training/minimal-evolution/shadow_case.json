@@ -1,0 +1,13 @@
+{
+  "task": {"name":"影子接入回放样例","minimum":2,"factor":3,"dedupKey":"id","aggregate":"sum","outputNodeId":"total"},
+  "G_plan": {
+    "nodes":[{"id":"rows","op":"source","params":{}},{"id":"filter","op":"filter","params":{"minimum":2}},{"id":"unique","op":"dedup","params":{"key":"id"}},{"id":"scale","op":"scale","params":{"factor":1}},{"id":"total","op":"aggregate","params":{"method":"sum"}},{"id":"side","op":"scale","params":{"factor":1}}],
+    "edges":[["rows","filter"],["filter","unique"],["unique","scale"],["scale","total"],["rows","side"]]
+  },
+  "G_exec": {
+    "nodes":[{"id":"rows","op":"source","params":{}},{"id":"filter","op":"filter","params":{"minimum":2}},{"id":"unique","op":"dedup","params":{"key":"id"}},{"id":"scale","op":"scale","params":{"factor":3}},{"id":"total","op":"aggregate","params":{"method":"sum"}},{"id":"side","op":"scale","params":{"factor":9}}],
+    "edges":[["rows","filter"],["filter","unique"],["unique","scale"],["scale","total"],["rows","side"]]
+  },
+  "observedWorlds":[[{"id":"a","category":"A","quality":3,"value":4},{"id":"b","category":"B","quality":1,"value":7}],[{"id":"c","category":"C","quality":4,"value":5}]],
+  "executionEvidence":{"status":"completed","acceptance":"passed"}
+}

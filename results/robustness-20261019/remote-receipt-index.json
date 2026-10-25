@@ -1,0 +1,308 @@
+[
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-score-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-score-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "be6dbe576d3944a95637b968e64885e3fbd2217a1e4d10424dc3e6b17dcced1e",
+    "bytes": 65600,
+    "rows": 282,
+    "priorAuditDigestMatched": true,
+    "label": "bashFrozen"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-score-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-score-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "bd4271f7768591dbff541c39392d9bfbbf4cb05ba11d8a8d1cf7f0b879bf0056",
+    "bytes": 198246,
+    "rows": 1067,
+    "priorAuditDigestMatched": true,
+    "label": "sqlFrozen"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-bash-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-bash-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "ee7d1fe641e8628f8c6657b636e5efe1dfc51b3f8b6463dc657a3831c85be3ff",
+    "bytes": 75813,
+    "rows": 201,
+    "priorAuditDigestMatched": true,
+    "label": "bashStart"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "21ef83a5d281401639779ed57c4287ab0bf3936612a1c5f9dcfc7f7b95dd0de7",
+    "bytes": 157275,
+    "rows": 1015,
+    "priorAuditDigestMatched": true,
+    "label": "sqlStart"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-public-plan-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-public-plan-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "5969cbd9a0ffc54b737ee2064aa5f25fc0fbcbd3f287652f21af782e147b2f5a",
+    "bytes": 416007,
+    "rows": 1015,
+    "priorAuditDigestMatched": true,
+    "label": "sqlPublicPlan"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-public-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-public-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "58e8214982561213cc6117e93984878290cad59bca075397bcc4012e90252515",
+    "bytes": 250549,
+    "rows": 1015,
+    "priorAuditDigestMatched": true,
+    "label": "sqlPublicStart"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/tau-score-public-planner-v2-59a200c6d575d595120f1cb70fea53cef0632f6b/receipts.jsonl",
+    "destination": "receipts/tau-score-public-planner-v2-59a200c6d575d595120f1cb70fea53cef0632f6b/receipts.jsonl",
+    "sha256": "91b0d716ea48b643dea5eb38438f46619cad986553282cc0e1c18a6b0683d564",
+    "bytes": 183128,
+    "rows": 165,
+    "priorAuditDigestMatched": true,
+    "label": "tau-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/tau-start-59a200c6d575d595120f1cb70fea53cef0632f6b/receipts.jsonl",
+    "destination": "receipts/tau-start-59a200c6d575d595120f1cb70fea53cef0632f6b/receipts.jsonl",
+    "sha256": "c73271630fded44ccd8e33b9a6ab9651df928d16f31606a4961b36ae4441911e",
+    "bytes": 66595,
+    "rows": 165,
+    "priorAuditDigestMatched": true,
+    "label": "tau-start"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-review-v3-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-review-v3-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "ef3d414c48a7807328aeb594f2313df108e5a4ab5b08fdae6825e4125370efed",
+    "bytes": 9868,
+    "rows": 24,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v3-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-review-v3-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-review-v3-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "662e11fe74822b790fc41101592acf4e27c8ddfc9490fe9d17c2e5c567c6a4ba",
+    "bytes": 5763,
+    "rows": 24,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v3-pilot-start"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-output-v4-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-output-v4-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "0e5a9e87d2f7c93dd2272c95d4442b43f733251c81162b622afcf03caa229f3a",
+    "bytes": 9868,
+    "rows": 24,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v4-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-output-v4-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-output-v4-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "aa4ddf44da4845ef22c24548cac459f07904f9c227c75bff4055834856a82734",
+    "bytes": 5762,
+    "rows": 24,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v4-pilot-start"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-routing-v6-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-routing-v6-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "249c2631100436100570f7b3823200ce0db68617f963470a2881c2feb6588aab",
+    "bytes": 9986,
+    "rows": 24,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v6-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-routing-v6-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-routing-v6-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "553c01e77a3b7ee353afc2278004d4053170253f7ad31fbbccdfd0b60caad982",
+    "bytes": 5762,
+    "rows": 24,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v6-pilot-start"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-checker-v7-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-checker-v7-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "327b0031df8f8748296abf4c46537b0043fb9ac2fe0c10ad92e0476beb32353c",
+    "bytes": 13250,
+    "rows": 24,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v7-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-independent-v8-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-independent-v8-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "91994170184f21087b40ebdc67f282cacb39c1f7d4769bca137af1abab2eda58",
+    "bytes": 13394,
+    "rows": 24,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v8-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v9-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v9-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "d95e9a85a708becf08cf0d36c8f56735082e1e9472b1544bdaee5891b959ecf1",
+    "bytes": 26499,
+    "rows": 48,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v9-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v10-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v10-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "22922f877b6dea4aafb2585fd2e1ee5ad81e3ab0c6110324eca519cc950edbf5",
+    "bytes": 26547,
+    "rows": 48,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v10-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v11-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v11-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "620d3918ac1bd38f7a058a166959a24ddefaad87599d8e9eacee1a1a8eee9511",
+    "bytes": 26547,
+    "rows": 48,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v11-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v12-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v12-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "ae206e33b6fe0244e47eeb317c4941d22ed656a5cb0021b70edaa4d38e666327",
+    "bytes": 26547,
+    "rows": 48,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v12-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v13-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v13-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "eafd901802c3495f30216f42e78e1aae70e874ac659a229dcd9c0eaf23fed529",
+    "bytes": 26547,
+    "rows": 48,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v13-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v16-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v16-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "52fd23ce27c22aafeade8e77ed6883a5467442250dce57b1b7b0d95f128f3262",
+    "bytes": 36295,
+    "rows": 48,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v16-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v16-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v16-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "f285531880cd32e8e4ecbfe4d0c610629796592aa377d574acce5d4ee2ce2f1d",
+    "bytes": 766747,
+    "rows": 1015,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v16-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v16-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v16-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "cbabe053f7290d033eab157faada83870b16b7cfccf57c7d7f19c79b9efb5f70",
+    "bytes": 13515,
+    "rows": 48,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v16-full-start"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-independent-v8-validation02-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-independent-v8-validation02-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "199072ddb395d007d68dd4fcd37f59a60338ef6cafd6588fdaa6b8fdfdade534",
+    "bytes": 7753,
+    "rows": 24,
+    "priorAuditDigestMatched": true,
+    "label": "intercode-sql-independent-v8-validation02-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v17-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v17-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "1e9103eb469736b89ba870eda58b1099c5089b534ee1a189481ffd0cdfc07ef9",
+    "bytes": 36294,
+    "rows": 48,
+    "priorAuditDigestMatched": false,
+    "label": "sql-v17-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v18-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v18-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "9a959dd611ee356c3858bf76c80d9fc657a088618636c3a3aeb3fc5002973f3b",
+    "bytes": 36294,
+    "rows": 48,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v18-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v18-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v18-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "206ca18af8ee893afd6fe6e78fb2e02c9790824b348ea2a365404a5acaa36ae0",
+    "bytes": 767266,
+    "rows": 1015,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v18-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v18-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v18-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "345bad7795db310e07c992f0b4cede83e6ee75827d6d90303680fd89d096da80",
+    "bytes": 520593,
+    "rows": 1015,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v18-start"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v21-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v21-pilot-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "8796ed2eafbbca6c1c9dba808dfe5d217fcb7849e942417b1cf45e6e0a29d608",
+    "bytes": 36294,
+    "rows": 48,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v21-pilot-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-closed-v21-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "destination": "receipts/intercode-sql-closed-v21-trained-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8/receipts.jsonl",
+    "sha256": "8790ffdf04b11f8c1fa38fc7640a148861e7c4ce6ac2bc843c531f3c00b26c40",
+    "bytes": 767325,
+    "rows": 1015,
+    "priorAuditDigestMatched": true,
+    "label": "sql-v21-trained"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/native-target-1792237113891730500/target-receipts.json",
+    "destination": "receipts/native-target-1792237113891730500/target-receipts.json",
+    "sha256": "97828d1a739d5ba4feb1f7ae315ecd4231b7ce9e0bb5489cef00a19672a3486d",
+    "bytes": 1250494,
+    "rows": 184,
+    "priorAuditDigestMatched": true,
+    "label": "terminal-original-native-target-1792237113891730500"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/native-target-start-gap-1792289513905441700/target-receipts.json",
+    "destination": "receipts/native-target-start-gap-1792289513905441700/target-receipts.json",
+    "sha256": "2180f360bce6ae95da86965d660e477d2488fc318a2e61f3c6e787c1de503fd4",
+    "bytes": 68078,
+    "rows": 10,
+    "priorAuditDigestMatched": true,
+    "label": "terminal-original-native-target-start-gap-1792289513905441700"
+  },
+  {
+    "source": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/native-target-1792253052206330700/target-receipts.json",
+    "destination": "receipts/native-target-1792253052206330700/target-receipts.json",
+    "sha256": "84c64484f06c8834e709d65a59fba820fb37bfbda4b83496442eb4bbb281cc08",
+    "bytes": 557087,
+    "rows": 82,
+    "priorAuditDigestMatched": true,
+    "label": "terminal-original-native-target-1792253052206330700"
+  }
+]

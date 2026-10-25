@@ -1,0 +1,72 @@
+{
+  "at": 1792923771.5352395,
+  "bench": "tau",
+  "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+  "n": 165,
+  "expected": 165,
+  "officialSum": "112.0",
+  "complete": true,
+  "eligibleToReplace": false,
+  "formalRank": 6,
+  "infraFailures": 2,
+  "infraFailuresFromReceiptRows": 2,
+  "rawInfraFailuresByOwnedTasks": 2,
+  "paperReady": false,
+  "shards": [
+    {
+      "host": "benchmark-host-c",
+      "shard": 0,
+      "pid": 4136883,
+      "live": false,
+      "assigned": 83,
+      "completed": 83,
+      "receiptSha256": "4399cc73e241e07c481dd1e0ff8500ebaebaf4af61fd8e64dcc3f086758294f1"
+    },
+    {
+      "host": "benchmark-host-d",
+      "shard": 1,
+      "pid": 196805,
+      "live": false,
+      "assigned": 82,
+      "completed": 82,
+      "receiptSha256": "35f848b0bb11b3a6def037904da087dce3363798eb77a6b6e54d070ac879abd0"
+    }
+  ],
+  "controls": "verified-frozen-controls-20261025.json",
+  "rankingReportedOnlyForCompleteFull": true,
+  "measurementMode": "pilot-gated-full",
+  "receiptAudit": {
+    "noCrossWorkerDuplicates": true,
+    "noWithinWorkerOfficialDuplicates": true,
+    "taskPartitionValidated": true,
+    "fullScopeOnly": true,
+    "promptHashValidated": true,
+    "orderHashValidated": true
+  },
+  "domains": {
+    "airline": {
+      "n": 50,
+      "expected": 50,
+      "passes": 27
+    },
+    "retail": {
+      "n": 115,
+      "expected": 115,
+      "passes": 85
+    }
+  },
+  "differenceVsOldJanus": "-6.0",
+  "differenceVsVanilla": "-4.0",
+  "controlReceiptHashes": {
+    "vanilla": "4bb8bda777d119f1289df1c9c01dfa2658da5218f4b57182da9387d4827def94",
+    "expel": "c3ab4b48ad6c28116dfa721d19f4ba6c47266435cdc3cf9a5a472206412778ac",
+    "awm": "e8c83c0160fa32eca993d1f1656bc7760aae2ea5d0fb307a0f1b5bc516d11ed2",
+    "reasoning_bank": "30396b1f0b2edb752777c78fbba61d8519e6591e5a0c55d517aab613f6d5dc75",
+    "skillrl": "548917d1b3cb43fd5efaf398cb05e21dad51151f47f4cef146948f36b3c177db",
+    "cowork_x": "7c8f53b8a7ea4eaef2eb48d4421d963801cad940c29f2baa9f385e886628c4e8",
+    "rsea": "fd5584e71260be16a2239b216bbff5c65a28d2c869722a7b0c06c7f92fcc3236",
+    "janus": "bd2b798615f00b8f3e8300914e59b6bfc92d40c37f011015294bac41f45312fd"
+  },
+  "differenceVsAWM": "-8.0",
+  "differenceVsSkillRL": "-10.0"
+}

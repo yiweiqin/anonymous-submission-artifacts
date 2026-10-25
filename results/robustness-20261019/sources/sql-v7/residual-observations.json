@@ -1,0 +1,16 @@
+[
+  {
+    "id": "spider-889",
+    "allSavedObservationMessages": [
+      "Observation: rows=8 ('Battle of Adrianople', '14 April 1205', 'Bulgarian victory'), ('Battle of Serres', 'June 1205', 'Bulgarian victory'), ('Battle of Rusion', '31 January 1206', 'Bulgarian victory'), ('Battle of Rodosto', 'February 1206', 'Bulgarian victory'), ('Battle of Messinopolis', '4 September 1207', 'Bulgarian victory'), ('Battle of Boruy', 'June 1205', 'Bulgarian victory'), ('Battle of Philippopolis', '31 June 1208', 'Latin victory'), ('Siege of Constantinople', '1235', 'Two Year Truce')",
+      "Observation: rows=8 ('Battle of Adrianople', '14 April 1205', 'Bulgarian victory'), ('Battle of Serres', 'June 1205', 'Bulgarian victory'), ('Battle of Rusion', '31 January 1206', 'Bulgarian victory'), ('Battle of Rodosto', 'February 1206', 'Bulgarian victory'), ('Battle of Messinopolis', '4 September 1207', 'Bulgarian victory'), ('Battle of Boruy', 'June 1205', 'Bulgarian victory'), ('Battle of Philippopolis', '31 June 1208', 'Latin victory'), ('Siege of Constantinople', '1235', 'Two Year Truce')"
+    ]
+  },
+  {
+    "id": "spider-308",
+    "allSavedObservationMessages": [
+      "Observation: rows=8 (1101,), (1247,), (1304,), (1468,), (1501,), (1689,), (1709,), (1934,)",
+      "Observation: rows=8 (1101,), (1247,), (1304,), (1468,), (1501,), (1689,), (1709,), (1934,)"
+    ]
+  }
+]

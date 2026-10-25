@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "spider-464",
+      "rewardDifference": 1.0,
+      "sameInitialRequest": true,
+      "sameInitialResponse": true,
+      "trainedResponsesBeforeChecker": [
+        "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "controlResponses": [
+        "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "trainedResponsesAfterChecker": [
+        "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"semester name\",\n      \"semantic_owner\": \"Semesters.semester_name\",\n      \"schema_expression\": \"Semesters.semester_name\"\n    },\n    {\n      \"attribute_phrase\": \"semester id\",\n      \"semantic_owner\": \"Semesters.semester_id\",\n      \"schema_expression\": \"Semesters.semester_id\"\n    }\n  ],\n  \"row_constraints\": [],\n  \"grouping\": [\n    {\n      \"description\": \"Group student registrations by semester\",\n      \"schema_expression\": \"Student_Enrolment.semester_id\"\n    }\n  ],\n  \"ordering\": [\n    {\n      \"description\": \"Select the semester with the greatest count of student registrations\",\n      \"schema_expression\": \"COUNT(Student_Enrolment.student_enrolment_id) DESC\"\n    }\n  ],\n  \"selected_role_check\": \"JOIN_CARDINALITY: Student_Enrolment.semester_id joins to Semesters.semester_id; grouping by semester_id and counting Student_Enrolment rows measures registrations per semester without assuming uniqueness of semester_id in Semesters beyond its role as the referenced semester key. No DISTINCT is applied because the question asks which semester has the most student registrations, and each Student_Enrolment row represents one student registration in a semester.\"\n}",
+        "SELECT s.semester_name, s.semester_id\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1",
+        "submit"
+      ],
+      "projectionGuard": {
+        "applied": false,
+        "originalSql": "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1",
+        "repairedSql": "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1",
+        "source": "public_contract_plain_column_permutation",
+        "automaticSqlSteps": 0
+      },
+      "contractDecision": "reviewed_unverified_contract"
+    },
+    {
+      "id": "spider-569",
+      "rewardDifference": -0.75,
+      "sameInitialRequest": true,
+      "sameInitialResponse": false,
+      "trainedResponsesBeforeChecker": [
+        "SELECT c.course_name\nFROM Courses c\nJOIN Sections s ON s.course_id = c.course_id\nJOIN Student_Enrolment_Courses sec ON sec.course_id = s.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "controlResponses": [
+        "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON sec.course_id = c.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "trainedResponsesAfterChecker": [
+        "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"name of the course\",\n      \"semantic_owner\": \"Courses.course_name\",\n      \"schema_expression\": \"Courses.course_name\"\n    }\n  ],\n  \"row_constraints\": [],\n  \"grouping\": [\n    \"Group by Courses.course_id, Courses.course_name to count enrolled students per course\"\n  ],\n  \"ordering\": [\n    \"Select the course with the maximum count of enrolled students\",\n    \"If multiple courses tie for the maximum count, return all tied course names\"\n  ],\n  \"selected_role_check\": \"DIRECT_QUERY: The final query must return exactly one output column, Courses.course_name, representing the requested course name. It must not add invented filters or extra identifiers. The course with the most students enrolled is determined by counting Student_Enrolment_Courses rows per course, grouped by course, and selecting the maximum count; ties are preserved unless the question explicitly requires a single row.\"\n}",
+        "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON sec.course_id = c.course_id\nGROUP BY c.course_id, c.course_name\nHAVING COUNT(*) = (\n    SELECT MAX(cnt)\n    FROM (\n        SELECT COUNT(*) AS cnt\n        FROM Student_Enrolment_Courses\n        GROUP BY course_id\n    ) AS course_counts\n)",
+        "submit"
+      ],
+      "projectionGuard": {
+        "applied": false,
+        "originalSql": "SELECT c.course_name\nFROM Courses c\nJOIN Sections s ON s.course_id = c.course_id\nJOIN Student_Enrolment_Courses sec ON sec.course_id = s.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1",
+        "repairedSql": "SELECT c.course_name\nFROM Courses c\nJOIN Sections s ON s.course_id = c.course_id\nJOIN Student_Enrolment_Courses sec ON sec.course_id = s.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1",
+        "source": "public_contract_plain_column_permutation",
+        "automaticSqlSteps": 0
+      },
+      "contractDecision": "reviewed_unverified_contract"
+    }
+  ],
+  "goldAnswersRead": false,
+  "newModelCalls": 0,
+  "newOfficialScores": 0,
+  "interpretation": "Descriptive within-run trace attribution only. Shared initial requests may produce different responses; no isolated causal training estimate."
+}

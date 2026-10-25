@@ -1,0 +1,37 @@
+{
+  "generatedBy": "preflight.assign_split",
+  "protocol": "janus_skillflow_main_table_v1",
+  "assignmentSeed": 20261008,
+  "lockedMayOpen": false,
+  "counts": {
+    "development": 8,
+    "gate": 4,
+    "locked": 8
+  },
+  "development": [
+    "Healthcare-Cost-Benefit-Analysis",
+    "DMAIC-Quality-Analysis",
+    "SEC-13F-Financial-Analysis",
+    "Compensation-Scenario-Modeling",
+    "Weighted-Risk-Assessment",
+    "Embedded-Data-Repair",
+    "Inventory-&-Finance-Integration",
+    "Operational-Recovery-Planning"
+  ],
+  "gate": [
+    "Financial-Statement-Rolling",
+    "OCR-Data-Extraction",
+    "Sales-Pivot-Analysis",
+    "Distribution-Center-Auditing"
+  ],
+  "locked": [
+    "Medical-Data-Standardization",
+    "Supply-Chain-Replenishment",
+    "Production-Capacity-Planning",
+    "Document-Fraud-Detection",
+    "HWPX-Document-Automation",
+    "PPT-Formatting-Optimization",
+    "Cross-Format-Data-Reconciliation",
+    "Industry-Correlation-Analysis"
+  ]
+}

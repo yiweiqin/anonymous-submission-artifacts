@@ -1,0 +1,69 @@
+{
+  "schema": "janus-tb-prompt-development-v1",
+  "arms": [
+    "trained-terminal-v5",
+    "control-terminal-interface-v3"
+  ],
+  "hypothesis": "A real frozen Qwen role selection plus plan/work/check execution guidance improves complete terminal deliverables under a matched executor interface. This composite comparison does not isolate LoRA causality.",
+  "changes": [
+    "globally state-aware terminal execution and bounded validation",
+    "explicit ownership of transient validation processes",
+    "verify the exact final saved artifact after completing commands",
+    "COMMON, actual executor, frozen weights, model and budgets unchanged"
+  ],
+  "control": "Reuse exactly the63 locked control-terminal-interface-v3 source receipts when COMMON and executor fingerprints match. Preserve original score/root/manifest/request/verifier evidence; these are inherited grades, never new executions.",
+  "budgets": {
+    "model": "openai/deepseek-flash",
+    "temperature": 0,
+    "maxTokens": 4096,
+    "maxCalls": 40,
+    "plannerMaxInputTokens": 7424,
+    "plannerClassificationPositions": 1,
+    "automaticPlannerRetries": 0
+  },
+  "expansionGate": "All 12 paired finite clean official grades, all package/input/budget/resource checks pass, sum(trained)>sum(control). Carry all pilot receipts unchanged to 63, score remaining only. No win claim outside this composite pilot.",
+  "retryPolicy": "At most 3 infrastructure attempts only if no finite official reward and no successful executor response; otherwise retain and investigate without rescore. Any finite grade, even audit failure, permanently prevents rescore.",
+  "resources": {
+    "diskFloorGiB": 6,
+    "initialConcurrentTasks": 2,
+    "maxConcurrentTasks": 2,
+    "memoryAdmissionMiB": 850,
+    "staggerSeconds": 3,
+    "protected": [
+      "all intercode images and containers",
+      "mysql:8.4",
+      "uv mirror 8899",
+      "apt proxy3128"
+    ],
+    "cleanup": "only exact pinned task image references unused by any container and task-owned containers; no global prune"
+  },
+  "developmentGate": "Self-authored synthetic cases exercise real Harbor, real model, planner/profile consumption and budget, both arms, before official pilot",
+  "commonPrompt": "Terminal execution contract. Follow the public task instruction and the\nterminal response schema. Work only from observed files, commands and tool results.\nTreat additional planning advice as fallible. Do not inspect evaluator tests,\nsolutions, rewards or other trials. Before reporting completion, verify the actual\nrequested artifacts and runtime behavior. Match each explicit public requirement\nto an observed check, including required headers, fields and output locations.\nFor a reusable program, test the exact required invocation without unrequested\nmanual setup, redirection or wrapper commands. Verify that the program itself\nperforms required file creation or other side effects; a one-off artifact produced\nby a different invocation does not establish the reusable interface is complete.\nReport unresolved failures honestly.",
+  "trainedWorkflow": "JANUS TERMINAL WORKFLOW v5 (new structural variant).\nPlan: derive a concise acceptance checklist from the public instruction, including\ndeliverables, interfaces and edge cases. Inspect the relevant existing files and\nenvironment before editing. Do not assume a missing dependency or an empty repo.\nWork: prioritize the core requested behavior, then complete every required part.\nUse short commands with observable results; after an error, diagnose its cause\nbefore retrying. After a failed external dependency attempt, inspect available\nlocal alternatives and use a bounded fallback. Batch closely related short inspection commands when useful; avoid repeated\nunchanged observations or verbose restatements. The limit counts actual model\nrequests, including retries, so prioritize saving a runnable result.\nDo not spend the entire budget on\nsetup or repeatedly run the same failing action. Keep enough time for validation.\nCheck: execute the real entry point against representative public requirements;\ncompare observed outputs to the acceptance checklist. Check paths, file contents,\npermissions, formats, corner cases and any requested performance behavior.\nIf a check fails, repair the implementation and rerun the relevant check. Only\nmark task_complete after the complete artifacts and checks support completion.\nAcceptance accounting: turn every explicit requirement into its own checked\nitem. Do not group away minor requirements. Include the exact invocation and\nworking directory, input handling, required header/field names and their order,\ntypes, delimiters, trailing newline, output paths and permissions when specified.\nFor data outputs, inspect both structure and representative contents; a correct\nbody with a missing header is incomplete. For programs, test ordinary, empty or\nboundary inputs and specified error behavior. After validation, reread the public\ninstruction against the actual final artifacts, and repair any unchecked item.\nThe selected verification role below gives conditional checks, not task facts.\n\nTerminal state and process ownership:\nA sent command is not a completed command. Observe its exit status or the shell\nprompt before issuing dependent edits, copies, comparisons or completion claims.\nDo not send a batch of dependent commands into a foreground program still using\nthe terminal. After an interrupt, confirm that the intended shell is ready.\nGive expensive exploratory runs and validation commands a short explicit deadline.\nWhen a baseline exceeds it, inspect structure or a smaller faithful check instead\nof repeatedly starting the same unbounded baseline. A partial output is not a\ncompleted comparison. Keep track of the exact final candidate that was saved.\nStop only your own temporary validation and exploratory child processes that are\nno longer needed, including their children. Preserve services required by the task.\nThen validate the actual final saved artifact through its requested entry point;\nrecord a complete output and exit status, not merely that a command was issued.\nUse the staff responsibilities as internal criteria while following the public\nterminal response schema. Keep analysis concise and spend requests on completing\nand checking the deliverable. Never substitute role transcripts for the artifact.\n",
+  "roleTemplates": {
+    "BUILD_CODE": "Trace the relevant entry point, interfaces and build command. Preserve callers and required formats. Make a coherent implementation, then exercise the real entry point and at least one boundary case. A successful compile alone does not establish correct behavior.",
+    "RUNTIME_CONFIG": "Inspect the running process, effective configuration, paths, permissions and listening endpoints. Validate the required behavior through the real client or command after applying the change. Recheck persistence and working directory; do not confuse a configuration file with an effective running service.",
+    "MATH_NUMERICS": "Translate each public mathematical requirement into a checkable invariant. Check domain restrictions, normalization, numerical stability and degenerate inputs. Test the actual callable interface with reproducible small examples; avoid substituting a plausible approximation for a specified algorithm.",
+    "DATA_INTEGRITY": "Confirm input schema, encoding, ordering, missing values and requested output fields. Check counts and representative rows before and after transformation. Preserve the full dataset and exact output location. Do not silently drop difficult records or substitute a sample for the required output.",
+    "ARTIFACT_FORMAT": "Inventory the required output files and their exact formats. Inspect real artifacts using the relevant parser or application. Validate dimensions, structure, contents and readability at the requested paths. A description, stub or screenshot cannot replace a requested executable or data artifact.",
+    "RESOURCE_STRATEGY": "Determine the smallest faithful experiment that validates the method before expensive work. Reuse available packages and assets. Check runtime and storage early, use efficient algorithms, and reserve time to save and validate the complete requested result. Avoid repeated downloads or an unbounded search.",
+    "FINAL_VALIDATION": "Write a short acceptance checklist from the public instruction, then inspect the environment and implement the smallest complete solution. Before finishing, run the actual requested entry point and check every deliverable, including edge cases, paths and output formats. Remove temporary diagnostic substitutions."
+  },
+  "officialSelectionLockSha256": "d9f68c315aca34a4858a0a46b7b46d61d4987175b8482675a515534d7686da2c",
+  "originalFreezeModified": false,
+  "adaptiveDevelopment": true,
+  "targetFeedbackMaySelectNewRegisteredVariants": true,
+  "paperReady": false,
+  "costUSD": null,
+  "revision": {
+    "previous": "../tb-v4/expansion-analysis.json",
+    "reason": "V4 fixed pilot8:4, newly paired expansion50 tasks23:25, and one trained verifier timeout. Public agent traces show repeated waits/interrupts and unbounded baseline execution; no evaluator source or answers used. These observations motivate a global terminal-state/process-lifecycle correction rather than a task-specific answer.",
+    "sameOfficialPilotIds": true,
+    "sharedExecutorChanged": false,
+    "controlInterfaceRevision": "v3 unchanged",
+    "controlRegistrySha256": "18fa204230168fe65235f253175b27385df90575d94f608a3ba081de23e59cd7",
+    "developmentGate": "all self-authored cases correct in both arms, plus clean one-call budget exhaustion smoke for both arms"
+  },
+  "adoptedControlsNotNewModelCalls": true,
+  "noControlRewardEntersPlannerOrExecutorPrompt": true
+}

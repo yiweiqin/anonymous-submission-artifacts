@@ -1,0 +1,159 @@
+{
+  "header": "InterCode Spider dev 额外锁定24题验证块02；与原24题合计48题；公开反馈后的开发验证，非整库或独立未见测试",
+  "developmentOnly": true,
+  "officialRewardRecomputed": false,
+  "solverCalls": 0,
+  "arms": {
+    "trained": {
+      "official": 24,
+      "officialRewardSum": 20.71,
+      "exactReward1": 20,
+      "missing": [],
+      "errors": {},
+      "auditErrors": [
+        {
+          "id": "spider-424",
+          "error": "AssertionError:no_supported_neural_role_selection"
+        },
+        {
+          "id": "spider-765",
+          "error": "AssertionError:no_supported_neural_role_selection"
+        }
+      ],
+      "verifiedActualInputs": [
+        "spider-379",
+        "spider-473",
+        "spider-963",
+        "spider-542",
+        "spider-246",
+        "spider-502",
+        "spider-464",
+        "spider-223",
+        "spider-795",
+        "spider-518",
+        "spider-699",
+        "spider-325",
+        "spider-945",
+        "spider-311",
+        "spider-452",
+        "spider-796",
+        "spider-984",
+        "spider-814",
+        "spider-315",
+        "spider-979",
+        "spider-648",
+        "spider-547"
+      ],
+      "apiCalls": 87,
+      "emptyOutputs": 0,
+      "finishReasons": {
+        "stop": 87
+      },
+      "minWeightTokens": 494
+    },
+    "start": {
+      "official": 24,
+      "officialRewardSum": 20.71,
+      "exactReward1": 20,
+      "missing": [],
+      "errors": {},
+      "auditErrors": [],
+      "verifiedActualInputs": [
+        "spider-379",
+        "spider-542",
+        "spider-963",
+        "spider-246",
+        "spider-424",
+        "spider-464",
+        "spider-502",
+        "spider-796",
+        "spider-984",
+        "spider-452",
+        "spider-473",
+        "spider-699",
+        "spider-325",
+        "spider-518",
+        "spider-945",
+        "spider-223",
+        "spider-311",
+        "spider-648",
+        "spider-795",
+        "spider-765",
+        "spider-814",
+        "spider-315",
+        "spider-979",
+        "spider-547"
+      ],
+      "apiCalls": 68,
+      "emptyOutputs": 0,
+      "finishReasons": {
+        "stop": 68
+      },
+      "minWeightTokens": 0
+    }
+  },
+  "allPairedOfficialComplete": true,
+  "comparison": {
+    "tasks": 24,
+    "officialRewardDifference": 0.0,
+    "higher": [
+      "spider-246"
+    ],
+    "lower": [
+      "spider-765"
+    ],
+    "tied": [
+      "spider-223",
+      "spider-311",
+      "spider-315",
+      "spider-325",
+      "spider-379",
+      "spider-424",
+      "spider-452",
+      "spider-464",
+      "spider-473",
+      "spider-502",
+      "spider-518",
+      "spider-542",
+      "spider-547",
+      "spider-648",
+      "spider-699",
+      "spider-795",
+      "spider-796",
+      "spider-814",
+      "spider-945",
+      "spider-963",
+      "spider-979",
+      "spider-984"
+    ],
+    "perTaskDifferences": {
+      "spider-223": 0.0,
+      "spider-246": 1.0,
+      "spider-311": 0.0,
+      "spider-315": 0.0,
+      "spider-325": 0.0,
+      "spider-379": 0.0,
+      "spider-424": 0.0,
+      "spider-452": 0.0,
+      "spider-464": 0.0,
+      "spider-473": 0.0,
+      "spider-502": 0.0,
+      "spider-518": 0.0,
+      "spider-542": 0.0,
+      "spider-547": 0.0,
+      "spider-648": 0.0,
+      "spider-699": 0.0,
+      "spider-765": -1.0,
+      "spider-795": 0.0,
+      "spider-796": 0.0,
+      "spider-814": 0.0,
+      "spider-945": 0.0,
+      "spider-963": 0.0,
+      "spider-979": 0.0,
+      "spider-984": 0.0
+    },
+    "consumptionAuditPassed": false,
+    "passesPreregisteredExpansionScreen": false,
+    "interpretation": "Development pilot screening only; no independent generalization claim. All candidates must be retained."
+  }
+}

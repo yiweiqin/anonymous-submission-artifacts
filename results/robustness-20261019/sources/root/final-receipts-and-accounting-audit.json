@@ -1,0 +1,266 @@
+{
+  "intercode": {
+    "bashFrozen": {
+      "official": 200,
+      "allAttempts": 282,
+      "nonqualifiedAttemptsRetained": 82,
+      "rewardSum": 146.83,
+      "exactOne": 44,
+      "receiptSha256": "be6dbe576d3944a95637b968e64885e3fbd2217a1e4d10424dc3e6b17dcced1e",
+      "savedRewardComponentsVerified": 200,
+      "recordedAttemptAccounting": {
+        "modelCalls": {
+          "recordedAttempts": 0,
+          "allAttempts": 282,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "promptTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 282,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "completionTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 282,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "wallSeconds": {
+          "recordedAttempts": 0,
+          "allAttempts": 282,
+          "knownSubtotal": null,
+          "complete": false
+        }
+      }
+    },
+    "sqlFrozen": {
+      "official": 1015,
+      "allAttempts": 1067,
+      "nonqualifiedAttemptsRetained": 52,
+      "rewardSum": 644.7095238095238,
+      "exactOne": 630,
+      "receiptSha256": "bd4271f7768591dbff541c39392d9bfbbf4cb05ba11d8a8d1cf7f0b879bf0056",
+      "savedRewardComponentsVerified": null,
+      "recordedAttemptAccounting": {
+        "modelCalls": {
+          "recordedAttempts": 0,
+          "allAttempts": 1067,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "promptTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1067,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "completionTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1067,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "wallSeconds": {
+          "recordedAttempts": 0,
+          "allAttempts": 1067,
+          "knownSubtotal": null,
+          "complete": false
+        }
+      }
+    },
+    "bashStart": {
+      "official": 200,
+      "allAttempts": 201,
+      "nonqualifiedAttemptsRetained": 1,
+      "rewardSum": 146.70000000000002,
+      "exactOne": 43,
+      "receiptSha256": "ee7d1fe641e8628f8c6657b636e5efe1dfc51b3f8b6463dc657a3831c85be3ff",
+      "savedRewardComponentsVerified": 200,
+      "recordedAttemptAccounting": {
+        "modelCalls": {
+          "recordedAttempts": 200,
+          "allAttempts": 201,
+          "knownSubtotal": 875.0,
+          "complete": false
+        },
+        "promptTokens": {
+          "recordedAttempts": 200,
+          "allAttempts": 201,
+          "knownSubtotal": 4046859.0,
+          "complete": false
+        },
+        "completionTokens": {
+          "recordedAttempts": 200,
+          "allAttempts": 201,
+          "knownSubtotal": 766137.0,
+          "complete": false
+        },
+        "wallSeconds": {
+          "recordedAttempts": 200,
+          "allAttempts": 201,
+          "knownSubtotal": 11516.505,
+          "complete": false
+        }
+      }
+    },
+    "sqlStart": {
+      "official": 1015,
+      "allAttempts": 1015,
+      "nonqualifiedAttemptsRetained": 0,
+      "rewardSum": 622.09,
+      "exactOne": 610,
+      "receiptSha256": "21ef83a5d281401639779ed57c4287ab0bf3936612a1c5f9dcfc7f7b95dd0de7",
+      "savedRewardComponentsVerified": null,
+      "recordedAttemptAccounting": {
+        "modelCalls": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "promptTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "completionTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "wallSeconds": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        }
+      }
+    },
+    "sqlPublicPlan": {
+      "official": 1015,
+      "allAttempts": 1015,
+      "nonqualifiedAttemptsRetained": 0,
+      "rewardSum": 761.78,
+      "exactOne": 744,
+      "receiptSha256": "5969cbd9a0ffc54b737ee2064aa5f25fc0fbcbd3f287652f21af782e147b2f5a",
+      "savedRewardComponentsVerified": null,
+      "recordedAttemptAccounting": {
+        "modelCalls": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "promptTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "completionTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "wallSeconds": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        }
+      }
+    },
+    "sqlPublicStart": {
+      "official": 1015,
+      "allAttempts": 1015,
+      "nonqualifiedAttemptsRetained": 0,
+      "rewardSum": 783.3033333333333,
+      "exactOne": 760,
+      "receiptSha256": "58e8214982561213cc6117e93984878290cad59bca075397bcc4012e90252515",
+      "savedRewardComponentsVerified": null,
+      "recordedAttemptAccounting": {
+        "modelCalls": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "promptTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "completionTokens": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        },
+        "wallSeconds": {
+          "recordedAttempts": 0,
+          "allAttempts": 1015,
+          "knownSubtotal": null,
+          "complete": false
+        }
+      }
+    }
+  },
+  "tau": {
+    "trained": {
+      "official": 165,
+      "rewardSum": 126.0,
+      "receiptSha256": "91b0d716ea48b643dea5eb38438f46619cad986553282cc0e1c18a6b0683d564",
+      "actualUsage": {
+        "executor": {
+          "calls": 2119,
+          "callsWithUsage": 2119,
+          "promptTokensKnown": 15194823,
+          "completionTokensKnown": 567022,
+          "reasoningTokensKnown": 338926,
+          "completeUsage": true
+        },
+        "simulator": {
+          "calls": 1228,
+          "callsWithUsage": 1228,
+          "promptTokensKnown": 917637,
+          "completionTokensKnown": 203746,
+          "reasoningTokensKnown": 176267,
+          "completeUsage": true
+        }
+      }
+    },
+    "start": {
+      "official": 165,
+      "rewardSum": 119.0,
+      "receiptSha256": "c73271630fded44ccd8e33b9a6ab9651df928d16f31606a4961b36ae4441911e",
+      "actualUsage": {
+        "executor": {
+          "calls": 2152,
+          "callsWithUsage": 2152,
+          "promptTokensKnown": 15270754,
+          "completionTokensKnown": 558021,
+          "reasoningTokensKnown": 329989,
+          "completeUsage": true
+        },
+        "simulator": {
+          "calls": 1236,
+          "callsWithUsage": 1236,
+          "promptTokensKnown": 980984,
+          "completionTokensKnown": 207654,
+          "reasoningTokensKnown": 179198,
+          "completeUsage": true
+        }
+      }
+    }
+  },
+  "newModelCalls": 0,
+  "newGraderCalls": 0,
+  "costUSD": null,
+  "costLimitation": "Historical input/output usage not recorded by all interfaces; absent values remain unknown, never zero. API bill/pricing not independently available. No fabricated total cost."
+}

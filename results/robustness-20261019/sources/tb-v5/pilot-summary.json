@@ -1,0 +1,125 @@
+{
+  "schema": "tb-prompt-audit-v1",
+  "synthetic": false,
+  "checks": {
+    "completeUniqueOfficialCoverage": true,
+    "allReceiptsQualified": true,
+    "allUnscoredAttemptsEligibleInfrastructure": true,
+    "allActualInputsConsumed": true,
+    "allExecutorBudgetsPass": true,
+    "allPackagesMatch": true,
+    "attemptsPerTaskAtMost3": true,
+    "allSingleOfficialVerifierOutputsMatch": true,
+    "allFrozenModelDigestsMatch": true
+  },
+  "tasks": 12,
+  "officialGrades": 24,
+  "developmentGrades": 0,
+  "sums": {
+    "trained-terminal-v5": 8.0,
+    "control-terminal-interface-v3": 4.0
+  },
+  "delta": 4.0,
+  "higher": 5,
+  "lower": 1,
+  "ties": 6,
+  "pairs": {
+    "cancel-async-tasks": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 1.0
+    },
+    "count-dataset-tokens": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 1.0
+    },
+    "custom-memory-heap-crash": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v5": 1.0
+    },
+    "distribution-search": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v5": 0.0
+    },
+    "dna-assembly": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 0.0
+    },
+    "fix-code-vulnerability": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v5": 1.0
+    },
+    "large-scale-text-editing": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 0.0
+    },
+    "model-extraction-relu-logits": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 0.0
+    },
+    "mteb-retrieve": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 1.0
+    },
+    "multi-source-data-merger": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v5": 1.0
+    },
+    "sparql-university": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 1.0
+    },
+    "sqlite-with-gcov": {
+      "control-terminal-interface-v3": 0.0,
+      "trained-terminal-v5": 1.0
+    }
+  },
+  "passed": true,
+  "passesExpansionGate": true,
+  "receiptSha256": "b64a0166cef7a2cde0512584169dd05fb3bde548ef0bbc25bc3ad70255ffddc6",
+  "costUSD": null,
+  "paperReady": false,
+  "interpretation": "Composite adaptive development evidence, no independent confirmatory or LoRA-only causal claim.",
+  "comparisonEvidenceConsumption": {
+    "executorRequests": 521,
+    "executorSuccessfulResponses": 521,
+    "promptTokens": 9570634,
+    "completionTokens": 266072,
+    "plannerInputTokens": 9248,
+    "plannerClassificationPositionsScored": 12
+  },
+  "inheritedControlConsumption": {
+    "executorRequests": 254,
+    "executorSuccessfulResponses": 254,
+    "promptTokens": 4683469,
+    "completionTokens": 140761,
+    "plannerInputTokens": 0,
+    "plannerClassificationPositionsScored": 0
+  },
+  "actualConsumption": {
+    "executorRequests": 267,
+    "executorSuccessfulResponses": 267,
+    "promptTokens": 4887165,
+    "completionTokens": 125311,
+    "plannerInputTokens": 9248,
+    "plannerClassificationPositionsScored": 12
+  },
+  "adoptedControlGrades": 12,
+  "newOfficialGradesThisRun": 12,
+  "observedRewardDifference": 4.0,
+  "qualifiedGradesByArm": {
+    "trained-terminal-v5": 12,
+    "control-terminal-interface-v3": 12
+  },
+  "completeQualifiedCoverage": true,
+  "qualifiedPairedTasks": 12,
+  "qualifiedPairedSums": {
+    "trained-terminal-v5": 8.0,
+    "control-terminal-interface-v3": 4.0
+  },
+  "qualifiedPairedDelta": 4.0,
+  "comparisonScopeNote": "Full delta is unavailable without complete qualified coverage; paired fields cover only the explicitly counted tasks. Raw observed sums are diagnostics, not an unequal-coverage comparison.",
+  "fullComparisonAudited": true,
+  "retainedUnscoredAttempts": 0,
+  "retainedUnscoredInfrastructureAttempts": 0,
+  "retainedExecutedUngradedAttempts": 0
+}

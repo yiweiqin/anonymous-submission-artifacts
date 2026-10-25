@@ -1,0 +1,42 @@
+{
+  "diagnosticOnly": true,
+  "newOfficialSolverScores": 0,
+  "modelCalls": 0,
+  "officialReceiptsRewritten": false,
+  "referenceValuesOrSqlExported": false,
+  "receiptsSha256BeforeAndAfter": "327b0031df8f8748296abf4c46537b0043fb9ac2fe0c10ad92e0476beb32353c",
+  "cases": [
+    {
+      "id": "spider-889",
+      "originalOfficialReward": 0.0,
+      "diagnosticReplayReward": 0.0,
+      "originalReceiptReplaced": false,
+      "publicQuerySha256": "e2befc6020c850003c12b67fe25d939e94ce5c5dda9f82026ce4804700af78a5",
+      "agentRowCount": 8,
+      "referenceRowCount": 8,
+      "agentColumnCount": 3,
+      "referenceColumnCount": 2,
+      "exactMultisetMatch": false,
+      "exactSequenceMatch": false,
+      "officialCorruptGold": false,
+      "classification": "other_official_result_difference"
+    },
+    {
+      "id": "spider-308",
+      "originalOfficialReward": -0.07,
+      "diagnosticReplayReward": -0.07,
+      "originalReceiptReplaced": false,
+      "publicQuerySha256": "d56318561281c571cfc215ca8b17dca792298dfca379234f5e4d69a9429ce0e3",
+      "agentRowCount": 8,
+      "referenceRowCount": 8,
+      "agentColumnCount": 1,
+      "referenceColumnCount": 1,
+      "exactMultisetMatch": true,
+      "exactSequenceMatch": false,
+      "officialCorruptGold": false,
+      "classification": "identical_rows_but_official_order_scaling_penalty"
+    }
+  ],
+  "diagnosticCollectionAttempt": 2,
+  "firstCollection": "stdout parse failure, no formal score written"
+}

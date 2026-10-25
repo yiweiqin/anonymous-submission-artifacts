@@ -1,0 +1,149 @@
+{
+  "observedAt": "2026-10-18T14:16:38.933157+00:00",
+  "header": "τ-bench 零售 115 与航空 50 的官方预检通过子集；pass^1；用户模拟器 deepseek-flash（非论文 gpt-4）；公开上下文规划结构调整版",
+  "commit": "59a200c6d575d595120f1cb70fea53cef0632f6b",
+  "userSimulator": "deepseek-flash",
+  "temperature": 0,
+  "maxTurns": 40,
+  "maxOutputTokens": 4096,
+  "trialsPerTask": 1,
+  "trained": {
+    "arm": "native-trained-public-planner-v2",
+    "tasks": 165,
+    "officialCount": 165,
+    "passed": 126,
+    "officialRewardSum": 126.0,
+    "domains": {
+      "retail": {
+        "tasks": 115,
+        "officialCount": 115,
+        "passed": 97,
+        "pass1": 0.8434782608695652,
+        "complete": true
+      },
+      "airline": {
+        "tasks": 50,
+        "officialCount": 50,
+        "passed": 29,
+        "pass1": 0.58,
+        "complete": true
+      }
+    },
+    "minFrozenWeightPromptTokens": 4133,
+    "zeroParticipation": 0,
+    "consumedPlans": 165,
+    "invalidReceiptAttempts": 0,
+    "missing": [],
+    "phase": "complete",
+    "receiptsSha256": "91b0d716ea48b643dea5eb38438f46619cad986553282cc0e1c18a6b0683d564",
+    "pass1": 0.7636363636363637,
+    "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/tau-score-public-planner-v2-59a200c6d575d595120f1cb70fea53cef0632f6b"
+  },
+  "start": {
+    "arm": "native-untrained-start",
+    "tasks": 165,
+    "officialCount": 165,
+    "passed": 119,
+    "officialRewardSum": 119.0,
+    "domains": {
+      "retail": {
+        "tasks": 115,
+        "officialCount": 115,
+        "passed": 93,
+        "pass1": 0.808695652173913,
+        "complete": true
+      },
+      "airline": {
+        "tasks": 50,
+        "officialCount": 50,
+        "passed": 26,
+        "pass1": 0.52,
+        "complete": true
+      }
+    },
+    "minFrozenWeightPromptTokens": 0,
+    "zeroParticipation": 165,
+    "consumedPlans": 0,
+    "invalidReceiptAttempts": 0,
+    "missing": [],
+    "phase": "complete",
+    "receiptsSha256": "c73271630fded44ccd8e33b9a6ab9651df928d16f31606a4961b36ae4441911e",
+    "pass1": 0.7212121212121212,
+    "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/tau-start-59a200c6d575d595120f1cb70fea53cef0632f6b"
+  },
+  "complete": true,
+  "pairedComparison": {
+    "retail": {
+      "tasks": 115,
+      "higher": [
+        "retail-106",
+        "retail-22",
+        "retail-39",
+        "retail-49",
+        "retail-6",
+        "retail-66",
+        "retail-72",
+        "retail-74",
+        "retail-93"
+      ],
+      "lower": [
+        "retail-31",
+        "retail-43",
+        "retail-47",
+        "retail-63",
+        "retail-67"
+      ],
+      "ties": 101,
+      "passedDifference": 4,
+      "pass1Difference": 0.034782608695652174
+    },
+    "airline": {
+      "tasks": 50,
+      "higher": [
+        "airline-21",
+        "airline-24",
+        "airline-32",
+        "airline-36",
+        "airline-5"
+      ],
+      "lower": [
+        "airline-13",
+        "airline-2"
+      ],
+      "ties": 43,
+      "passedDifference": 3,
+      "pass1Difference": 0.06
+    },
+    "all": {
+      "tasks": 165,
+      "higher": [
+        "airline-21",
+        "airline-24",
+        "airline-32",
+        "airline-36",
+        "airline-5",
+        "retail-106",
+        "retail-22",
+        "retail-39",
+        "retail-49",
+        "retail-6",
+        "retail-66",
+        "retail-72",
+        "retail-74",
+        "retail-93"
+      ],
+      "lower": [
+        "airline-13",
+        "airline-2",
+        "retail-31",
+        "retail-43",
+        "retail-47",
+        "retail-63",
+        "retail-67"
+      ],
+      "ties": 144,
+      "passedDifference": 7,
+      "pass1Difference": 0.04242424242424243
+    }
+  }
+}

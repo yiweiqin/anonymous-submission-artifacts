@@ -1,0 +1,21 @@
+{
+  "fixtureOraclePassed": true,
+  "results": [
+    {
+      "case": "positive",
+      "exitCode": 0,
+      "outputTail": ""
+    },
+    {
+      "case": "negative_unbounded",
+      "exitCode": 1,
+      "outputTail": ""
+    }
+  ],
+  "sourceRoot": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-fixture-oracle-1792400247023580300",
+  "imageId": "sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55",
+  "modelRequests": 0,
+  "officialBenchmarkGrades": 0,
+  "paperReady": false,
+  "fixtureSourceSha256": "b00d5d3a6d1afade58cdc8bb9beac9e43205544c4c35b89fc43c95576502dbbb"
+}

@@ -1,0 +1,1013 @@
+{
+  "hashes": {
+    "protocol.json": "e2bd4d4b4272415b8175244d7d232b2d448a936c342bfe6938ee18de68a2e5d0",
+    "model-roles.json": "9ebae5a739f89efedbf5793ea45cf9de902cf9e2562b0ca2c318e7d81d63a5d4",
+    "family-split.json": "d4afb55428c0b9de101862d112329dca5804e36a9a3b044258ad2bf5d33bbac5"
+  },
+  "passEvidence": [
+    {
+      "family": "Compensation-Scenario-Modeling",
+      "task": "07_airline_crew_model",
+      "jobName": "focus-20261012-200502-official-1791808737187749339-janus_full-Compensation-Scenario-Modeling-07_airline_crew_model",
+      "reward": 1.0,
+      "rewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-official-1791808737187749339-janus_full-Compensation-Scenario-Modeling-07_airline_crew_model/07_airline_crew_model__v3js8FK/verifier/reward.txt",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "jobName": "focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "reward": 1.0,
+      "rewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__p5nwqTF/verifier/reward.txt",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "jobName": "focus-20261012-200502-formal05retry-230209-official-1791817330633375354-janus_full-Compensation-Scenario-Modeling-05_property_management_model",
+      "reward": 1.0,
+      "rewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-formal05retry-230209-official-1791817330633375354-janus_full-Compensation-Scenario-Modeling-05_property_management_model/05_property_management_model__kjUQtaA/verifier/reward.txt",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_soc_alert_analyze_01",
+      "jobName": "focus-20261012-200502-resume-230209-official-1791817330672867181-janus_full-DMAIC-Quality-Analysis-harbor_soc_alert_analyze_01",
+      "reward": 1.0,
+      "rewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-official-1791817330672867181-janus_full-DMAIC-Quality-Analysis-harbor_soc_alert_analyze_01/harbor_soc_alert_analyze_01__vauEVeC/verifier/reward.txt",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "trialHistory": [
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-cachecheck-2333.jsonl",
+      "kind": "focus-20261012-200502-cachecheck-2333-official-1791819078792729647",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 136.932,
+      "modelCalls": 8,
+      "promptTokens": 76104,
+      "completionTokens": 16860
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-cachecheck-2333.jsonl",
+      "kind": "focus-20261012-200502-cachecheck-2333-replay-1791819234108400949",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "reward": 1.0,
+      "error": "",
+      "wallSeconds": 442.832,
+      "modelCalls": 19,
+      "promptTokens": 443645,
+      "completionTokens": 59068
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791806866020138217",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 1140.465,
+      "modelCalls": 18,
+      "promptTokens": 432402,
+      "completionTokens": 140120
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-replay-1791808025689465374",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "reward": 1.0,
+      "error": "",
+      "wallSeconds": 710.187,
+      "modelCalls": 20,
+      "promptTokens": 431714,
+      "completionTokens": 108600
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791808737187749339",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "07_airline_crew_model",
+      "reward": 1.0,
+      "error": "",
+      "wallSeconds": 637.849,
+      "modelCalls": 13,
+      "promptTokens": 131272,
+      "completionTokens": 89626
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791809391669869474",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "08_construction_union_model",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 1132.816,
+      "modelCalls": 14,
+      "promptTokens": 261928,
+      "completionTokens": 154234
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791810541891084846",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "01_orchestra_foundation_model",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 882.705,
+      "modelCalls": 14,
+      "promptTokens": 206541,
+      "completionTokens": 135618
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791811441436627467",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "02_orchestra_archive_refresh_model",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 1157.852,
+      "modelCalls": 22,
+      "promptTokens": 411596,
+      "completionTokens": 174313
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791812616258379782",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "03_university_faculty_model",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 999.281,
+      "modelCalls": 13,
+      "promptTokens": 248241,
+      "completionTokens": 152205
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791813632595456737",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "04_university_termload_refresh_model",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 1370.888,
+      "modelCalls": 23,
+      "promptTokens": 435861,
+      "completionTokens": 199780
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791815020475209858",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "06_property_portfolio_refresh_model",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 237.592,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791815274167728864",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "06_property_portfolio_refresh_model",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 196.481,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791815501811185379",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "06_property_portfolio_refresh_model",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 773.647,
+      "modelCalls": 17,
+      "promptTokens": 396786,
+      "completionTokens": 105831
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791816293108499472",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_soc_alert_analyze_01",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 221.094,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791816530349848076",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_soc_alert_analyze_01",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 207.541,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events.jsonl",
+      "kind": "focus-20261012-200502-official-1791816769276544894",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_soc_alert_analyze_01",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 219.701,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-formal05-224346.jsonl",
+      "kind": "focus-20261012-200502-formal05-224346-official-1791816228144016809",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 241.196,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-formal05-224346.jsonl",
+      "kind": "focus-20261012-200502-formal05-224346-official-1791816485517120625",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 220.648,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-formal05-224346.jsonl",
+      "kind": "focus-20261012-200502-formal05-224346-official-1791816737274077645",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "reward": null,
+      "error": "^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/terminus_2.py\", line 513, in setup\n    await self._session.start()\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/agents/terminus_2/tmux_session.py\", line 509, in start\n    raise RuntimeError(\n        f\"Failed to start tmux session. Error: {start_session_result.stderr}\"\n    )\nRuntimeError: Failed to start tmux session. Error: None\n",
+      "wallSeconds": 207.586,
+      "modelCalls": 0,
+      "promptTokens": 0,
+      "completionTokens": 0
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-cacheformal-2345.jsonl",
+      "kind": "focus-20261012-200502-cacheformal-2345-official-1791819786440226437",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "reward": 1.0,
+      "error": "",
+      "wallSeconds": 164.587,
+      "modelCalls": 11,
+      "promptTokens": 186297,
+      "completionTokens": 20167
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-formal05retry-230209.jsonl",
+      "kind": "focus-20261012-200502-formal05retry-230209-official-1791817330633375354",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "reward": 1.0,
+      "error": "",
+      "wallSeconds": 462.677,
+      "modelCalls": 8,
+      "promptTokens": 95315,
+      "completionTokens": 75691
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-official-1791817330700398057",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 124.354,
+      "modelCalls": 6,
+      "promptTokens": 61664,
+      "completionTokens": 15619
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-official-1791817330672867181",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_soc_alert_analyze_01",
+      "reward": 1.0,
+      "error": "",
+      "wallSeconds": 198.339,
+      "modelCalls": 7,
+      "promptTokens": 40558,
+      "completionTokens": 27994
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-official-1791817544436225683",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_hospital_safety_01",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 551.654,
+      "modelCalls": 15,
+      "promptTokens": 264913,
+      "completionTokens": 103261
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-official-1791818112911015043",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_devops_pipeline_02",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 475.58,
+      "modelCalls": 9,
+      "promptTokens": 97365,
+      "completionTokens": 85949
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-replay-1791818605464287205",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_devops_pipeline_02",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 195.272,
+      "modelCalls": 6,
+      "promptTokens": 46455,
+      "completionTokens": 31298
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-official-1791818802128560643",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_logistics_chain_03",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 387.314,
+      "modelCalls": 12,
+      "promptTokens": 150544,
+      "completionTokens": 64710
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-replay-1791819206558453695",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_logistics_chain_03",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 303.578,
+      "modelCalls": 6,
+      "promptTokens": 49482,
+      "completionTokens": 45135
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-official-1791819511478659828",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_gdpval_37",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 535.316,
+      "modelCalls": 13,
+      "promptTokens": 181640,
+      "completionTokens": 84712
+    },
+    {
+      "eventFile": "/benchmark/skillflow-main-20261008/focus-20261012-200502/events-resume-230209.jsonl",
+      "kind": "focus-20261012-200502-resume-230209-replay-1791820063807773687",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_gdpval_37",
+      "reward": 0.0,
+      "error": "",
+      "wallSeconds": 192.82,
+      "modelCalls": 9,
+      "promptTokens": 98469,
+      "completionTokens": 28069
+    }
+  ],
+  "diskFreeBytes": 35586289664,
+  "containers": [],
+  "originalRowsUnchanged": true,
+  "frozenFilesMatch": {
+    "protocol.json": true,
+    "model-roles.json": true,
+    "family-split.json": true
+  },
+  "runId": "focus-20261012-200502",
+  "evaluationScope": "development adaptive focused reruns; not gate or locked evaluation",
+  "table": {
+    "complete": true,
+    "families": [
+      {
+        "family": "Healthcare-Cost-Benefit-Analysis",
+        "tasks": 9,
+        "complete": true,
+        "vanillaPassRate": 0.2222222222222222,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": 0.1111111111111111,
+            "passRate": 0.3333333333333333,
+            "scored": 9
+          },
+          {
+            "arm": "awm",
+            "lift": -0.2222222222222222,
+            "passRate": 0.0,
+            "scored": 9
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": 0.0,
+            "passRate": 0.2222222222222222,
+            "scored": 9
+          },
+          {
+            "arm": "skillrl",
+            "lift": 0.2222222222222222,
+            "passRate": 0.4444444444444444,
+            "scored": 9
+          },
+          {
+            "arm": "cowork_x",
+            "lift": 0.2222222222222222,
+            "passRate": 0.4444444444444444,
+            "scored": 9
+          },
+          {
+            "arm": "rsea",
+            "lift": 0.2222222222222222,
+            "passRate": 0.4444444444444444,
+            "scored": 9
+          },
+          {
+            "arm": "janus_full",
+            "lift": 0.5555555555555556,
+            "passRate": 0.7777777777777778,
+            "scored": 9
+          }
+        ]
+      },
+      {
+        "family": "DMAIC-Quality-Analysis",
+        "tasks": 9,
+        "complete": true,
+        "vanillaPassRate": 0.2222222222222222,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": 0.0,
+            "passRate": 0.2222222222222222,
+            "scored": 9
+          },
+          {
+            "arm": "awm",
+            "lift": -0.1111111111111111,
+            "passRate": 0.1111111111111111,
+            "scored": 9
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": -0.1111111111111111,
+            "passRate": 0.1111111111111111,
+            "scored": 9
+          },
+          {
+            "arm": "skillrl",
+            "lift": 0.0,
+            "passRate": 0.2222222222222222,
+            "scored": 9
+          },
+          {
+            "arm": "cowork_x",
+            "lift": -0.1111111111111111,
+            "passRate": 0.1111111111111111,
+            "scored": 9
+          },
+          {
+            "arm": "rsea",
+            "lift": -0.1111111111111111,
+            "passRate": 0.1111111111111111,
+            "scored": 9
+          },
+          {
+            "arm": "janus_full",
+            "lift": 0.3333333333333333,
+            "passRate": 0.5555555555555556,
+            "scored": 9
+          }
+        ]
+      },
+      {
+        "family": "SEC-13F-Financial-Analysis",
+        "tasks": 8,
+        "complete": true,
+        "vanillaPassRate": 0.375,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": -0.125,
+            "passRate": 0.25,
+            "scored": 8
+          },
+          {
+            "arm": "awm",
+            "lift": 0.0,
+            "passRate": 0.375,
+            "scored": 8
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": 0.0,
+            "passRate": 0.375,
+            "scored": 8
+          },
+          {
+            "arm": "skillrl",
+            "lift": 0.0,
+            "passRate": 0.375,
+            "scored": 8
+          },
+          {
+            "arm": "cowork_x",
+            "lift": 0.0,
+            "passRate": 0.375,
+            "scored": 8
+          },
+          {
+            "arm": "rsea",
+            "lift": 0.0,
+            "passRate": 0.375,
+            "scored": 8
+          },
+          {
+            "arm": "janus_full",
+            "lift": 0.0,
+            "passRate": 0.375,
+            "scored": 8
+          }
+        ]
+      },
+      {
+        "family": "Compensation-Scenario-Modeling",
+        "tasks": 8,
+        "complete": true,
+        "vanillaPassRate": 0.125,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": 0.0,
+            "passRate": 0.125,
+            "scored": 8
+          },
+          {
+            "arm": "awm",
+            "lift": 0.0,
+            "passRate": 0.125,
+            "scored": 8
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": 0.0,
+            "passRate": 0.125,
+            "scored": 8
+          },
+          {
+            "arm": "skillrl",
+            "lift": 0.0,
+            "passRate": 0.125,
+            "scored": 8
+          },
+          {
+            "arm": "cowork_x",
+            "lift": 0.0,
+            "passRate": 0.125,
+            "scored": 8
+          },
+          {
+            "arm": "rsea",
+            "lift": 0.0,
+            "passRate": 0.125,
+            "scored": 8
+          },
+          {
+            "arm": "janus_full",
+            "lift": 0.125,
+            "passRate": 0.25,
+            "scored": 8
+          }
+        ]
+      },
+      {
+        "family": "Weighted-Risk-Assessment",
+        "tasks": 8,
+        "complete": true,
+        "vanillaPassRate": 0.875,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "awm",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "skillrl",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "cowork_x",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "rsea",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "janus_full",
+            "lift": 0.125,
+            "passRate": 1.0,
+            "scored": 8
+          }
+        ]
+      },
+      {
+        "family": "Embedded-Data-Repair",
+        "tasks": 8,
+        "complete": true,
+        "vanillaPassRate": 0.75,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": 0.0,
+            "passRate": 0.75,
+            "scored": 8
+          },
+          {
+            "arm": "awm",
+            "lift": -0.125,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": -0.25,
+            "passRate": 0.5,
+            "scored": 8
+          },
+          {
+            "arm": "skillrl",
+            "lift": -0.25,
+            "passRate": 0.5,
+            "scored": 8
+          },
+          {
+            "arm": "cowork_x",
+            "lift": -0.125,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "rsea",
+            "lift": 0.125,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "janus_full",
+            "lift": -0.25,
+            "passRate": 0.5,
+            "scored": 8
+          }
+        ]
+      },
+      {
+        "family": "Inventory-&-Finance-Integration",
+        "tasks": 8,
+        "complete": true,
+        "vanillaPassRate": 0.625,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": 0.0,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "awm",
+            "lift": 0.0,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": 0.0,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "skillrl",
+            "lift": 0.0,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "cowork_x",
+            "lift": 0.0,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "rsea",
+            "lift": 0.0,
+            "passRate": 0.625,
+            "scored": 8
+          },
+          {
+            "arm": "janus_full",
+            "lift": 0.0,
+            "passRate": 0.625,
+            "scored": 8
+          }
+        ]
+      },
+      {
+        "family": "Operational-Recovery-Planning",
+        "tasks": 8,
+        "complete": true,
+        "vanillaPassRate": 0.875,
+        "arms": [
+          {
+            "arm": "expel",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "awm",
+            "lift": -0.125,
+            "passRate": 0.75,
+            "scored": 8
+          },
+          {
+            "arm": "reasoning_bank",
+            "lift": -0.125,
+            "passRate": 0.75,
+            "scored": 8
+          },
+          {
+            "arm": "skillrl",
+            "lift": 0.125,
+            "passRate": 1.0,
+            "scored": 8
+          },
+          {
+            "arm": "cowork_x",
+            "lift": -0.125,
+            "passRate": 0.75,
+            "scored": 8
+          },
+          {
+            "arm": "rsea",
+            "lift": 0.0,
+            "passRate": 0.875,
+            "scored": 8
+          },
+          {
+            "arm": "janus_full",
+            "lift": -0.25,
+            "passRate": 0.625,
+            "scored": 8
+          }
+        ]
+      }
+    ],
+    "meanLift": [
+      {
+        "arm": "janus_full",
+        "lift": 0.0798611111111111
+      },
+      {
+        "arm": "rsea",
+        "lift": 0.029513888888888888
+      },
+      {
+        "arm": "skillrl",
+        "lift": 0.012152777777777776
+      },
+      {
+        "arm": "expel",
+        "lift": -0.0017361111111111119
+      },
+      {
+        "arm": "cowork_x",
+        "lift": -0.017361111111111112
+      },
+      {
+        "arm": "reasoning_bank",
+        "lift": -0.06076388888888889
+      },
+      {
+        "arm": "awm",
+        "lift": -0.07291666666666666
+      }
+    ],
+    "appendixPassRate": [
+      {
+        "arm": "awm",
+        "passed": 28.0,
+        "scored": 66,
+        "passRate": 0.42424242424242425
+      },
+      {
+        "arm": "cowork_x",
+        "passed": 32.0,
+        "scored": 66,
+        "passRate": 0.48484848484848486
+      },
+      {
+        "arm": "expel",
+        "passed": 33.0,
+        "scored": 66,
+        "passRate": 0.5
+      },
+      {
+        "arm": "janus_full",
+        "passed": 39.0,
+        "scored": 66,
+        "passRate": 0.5909090909090909
+      },
+      {
+        "arm": "reasoning_bank",
+        "passed": 29.0,
+        "scored": 66,
+        "passRate": 0.4393939393939394
+      },
+      {
+        "arm": "rsea",
+        "passed": 35.0,
+        "scored": 66,
+        "passRate": 0.5303030303030303
+      },
+      {
+        "arm": "skillrl",
+        "passed": 34.0,
+        "scored": 66,
+        "passRate": 0.5151515151515151
+      }
+    ]
+  },
+  "statuses": [
+    {
+      "runId": "focus-20261012-200502-resume-230209",
+      "phase": "complete",
+      "family": "DMAIC-Quality-Analysis",
+      "task": "harbor_gdpval_37",
+      "jobName": "focus-20261012-200502-resume-230209-replay-1791820063807773687-janus_full-DMAIC-Quality-Analysis-harbor_gdpval_37",
+      "carryChars": 515,
+      "reward": 0.0,
+      "error": "",
+      "families": {
+        "DMAIC-Quality-Analysis": {
+          "phase": "recorded",
+          "family": "DMAIC-Quality-Analysis",
+          "task": "harbor_gdpval_37",
+          "jobName": "focus-20261012-200502-resume-230209-replay-1791820063807773687-janus_full-DMAIC-Quality-Analysis-harbor_gdpval_37",
+          "carryChars": 515,
+          "reward": 0.0,
+          "error": ""
+        },
+        "Weighted-Risk-Assessment": {
+          "phase": "recorded",
+          "family": "Weighted-Risk-Assessment",
+          "task": "weighted-hospital-bedflow-calc",
+          "jobName": "focus-20261012-200502-resume-230209-official-1791817330700398057-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+          "carryChars": 89,
+          "reward": 0.0,
+          "error": ""
+        }
+      }
+    },
+    {
+      "runId": "focus-20261012-200502-formal05retry-230209",
+      "phase": "complete",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "jobName": "focus-20261012-200502-formal05retry-230209-official-1791817330633375354-janus_full-Compensation-Scenario-Modeling-05_property_management_model",
+      "carryChars": 89,
+      "reward": 1.0,
+      "error": "",
+      "families": {
+        "Compensation-Scenario-Modeling": {
+          "phase": "recorded",
+          "family": "Compensation-Scenario-Modeling",
+          "task": "05_property_management_model",
+          "jobName": "focus-20261012-200502-formal05retry-230209-official-1791817330633375354-janus_full-Compensation-Scenario-Modeling-05_property_management_model",
+          "carryChars": 89,
+          "reward": 1.0,
+          "error": ""
+        }
+      }
+    },
+    {
+      "runId": "focus-20261012-200502-cachecheck-2333",
+      "phase": "complete",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "jobName": "focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "carryChars": 283,
+      "reward": 0.0,
+      "error": "",
+      "families": {
+        "Weighted-Risk-Assessment": {
+          "phase": "recorded",
+          "family": "Weighted-Risk-Assessment",
+          "task": "weighted-hospital-bedflow-calc",
+          "jobName": "focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+          "carryChars": 283,
+          "reward": 0.0,
+          "error": ""
+        }
+      }
+    },
+    {
+      "runId": "focus-20261012-200502-cacheformal-2345",
+      "phase": "complete",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "jobName": "focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "carryChars": 283,
+      "reward": 1.0,
+      "error": "",
+      "families": {
+        "Weighted-Risk-Assessment": {
+          "phase": "recorded",
+          "family": "Weighted-Risk-Assessment",
+          "task": "weighted-hospital-bedflow-calc",
+          "jobName": "focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+          "carryChars": 283,
+          "reward": 1.0,
+          "error": ""
+        }
+      }
+    }
+  ],
+  "ownProcesses": [],
+  "protectedImage": "sha256:44397015d80d7bed516cfe355743720748f3950e1f02f5f887274348e033a955",
+  "officialRows": 17,
+  "officialTaskCoverage": 14,
+  "noRerunAfterPass": true,
+  "completed": true,
+  "localRemoteLedgerMatch": true,
+  "recordValidationPassed": true,
+  "retainedCarryConstraintsPassed": true,
+  "legacyUnretainedDmaicCandidates": "Existing resumed process replayed shorter candidates; none were retained, all official DMAIC inputs and saved carries remained 515 characters, and new launcher filters such candidates before replay."
+}

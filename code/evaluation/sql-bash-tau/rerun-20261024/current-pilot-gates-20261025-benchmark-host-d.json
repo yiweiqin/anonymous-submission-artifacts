@@ -1,0 +1,162 @@
+[
+  {
+    "bench": "tau",
+    "hash": "83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5",
+    "root": "/benchmark/janus-rerun-20261025/variants/83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5",
+    "n": 28,
+    "sum": 21.0,
+    "complete": true,
+    "holdDrops": [
+      "airline-0",
+      "airline-2",
+      "airline-3",
+      "airline-13"
+    ],
+    "gapNetIncrease": "11.0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "575293876c6fa477f8a1eb3bcc74b4e20a696bef9179f5da8fb3379f2aac3877",
+    "at": 1792919434.113562,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80",
+    "root": "/benchmark/janus-rerun-20261025/variants/ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80",
+    "n": 28,
+    "sum": 19.0,
+    "complete": true,
+    "holdDrops": [
+      "airline-2",
+      "airline-3",
+      "airline-8"
+    ],
+    "gapNetIncrease": "8.0",
+    "gatePassed": false,
+    "infraFailures": 1,
+    "receiptSha256": "677d80a8d8568587fb5f8dcbfc8c4194b17c644fbc596548bab482b25aca6e36",
+    "at": 1792919434.4579012,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90",
+    "root": "/benchmark/janus-rerun-20261025/variants/088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90",
+    "n": 28,
+    "sum": 23.0,
+    "complete": true,
+    "holdDrops": [
+      "airline-8"
+    ],
+    "gapNetIncrease": "10.0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "6a88e130c442e0ff8d625f1fe5932f71549f1992be3e13355c41890eecbd145f",
+    "at": 1792919434.8073843,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6",
+    "root": "/benchmark/janus-rerun-20261025/variants/793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6",
+    "n": 19,
+    "sum": 16.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0",
+      "airline-6"
+    ],
+    "gapNetIncrease": "4.0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "ae04feccdfd96f50e8b3abc42f299bd078775c3b061830089511023581d03ebd",
+    "at": 1792919435.1851852,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d",
+    "root": "/benchmark/janus-rerun-20261025/variants/6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d",
+    "n": 17,
+    "sum": 15.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0",
+      "airline-13"
+    ],
+    "gapNetIncrease": "3.0",
+    "gatePassed": false,
+    "infraFailures": 1,
+    "receiptSha256": "b72ae5c00524db4e3237dac5db0f6c4c566de9113c6def49819f53c439770485",
+    "at": 1792919435.57488,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071",
+    "root": "/benchmark/janus-rerun-20261025/variants/b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071",
+    "n": 9,
+    "sum": 8.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-8"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "e4f5a3865c1cb06446b62cdd48633ab06b715b60f754b5a490b4817867aa14dc",
+    "at": 1792919435.948908,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b",
+    "root": "/benchmark/janus-rerun-20261025/variants/88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b",
+    "n": 1,
+    "sum": 0.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "b415a18eb74fff1c2dc7a854494df8e29c3ef772f6f4caa51c676b70a8acbd95",
+    "at": 1792919436.2855365,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa",
+    "root": "/benchmark/janus-rerun-20261025/variants/fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa",
+    "n": 1,
+    "sum": 0.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "68e576cfe4ec8604fd3f76c18976591f113c9d0148e040525cf935b66ceaed2d",
+    "at": 1792919436.6386502,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684",
+    "root": "/benchmark/janus-rerun-20261025/variants/e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684",
+    "n": 9,
+    "sum": 8.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-8"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "fb7f8480b32d81cda9b0b3aee423e185e6462c51cbc7faabef7944c3dcf410ae",
+    "at": 1792919436.9928324,
+    "paperReady": false
+  }
+]

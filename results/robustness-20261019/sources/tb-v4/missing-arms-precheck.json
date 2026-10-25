@@ -1,0 +1,15 @@
+{
+  "selectedNeverAttemptedArms": [
+    [
+      "query-optimize",
+      "control-terminal-interface-v3"
+    ]
+  ],
+  "priorPhase": "incomplete",
+  "paperReady": false,
+  "launched": true,
+  "pid": 1084267,
+  "schedulerSha256": "f748f8d43bd2bfa6609e03f26b2c8763800f58ca4f6aaa5e453814de266d077a",
+  "precheckPassed": true,
+  "checkedAtNs": 1792396363863386400
+}

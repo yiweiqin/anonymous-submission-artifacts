@@ -1,0 +1,14 @@
+{
+  "fund_query": "renaissance technologies",
+  "quarter": "2025-q3",
+  "matched_manager": "Headlands Technologies LLC",
+  "accession_number": "0001570271-25-000012",
+  "aum": 1252307416.0,
+  "stock_holdings": 11,
+  "stock_aum": 20355901.0,
+  "top3_cusips_by_value": [
+    "76655K103",
+    "Q4982L109",
+    "G65163100"
+  ]
+}

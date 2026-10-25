@@ -1,0 +1,37 @@
+{
+  "updatedAtNs": 1792368853542182500,
+  "schema": "terminal-prompt-independent-ledger-v1",
+  "paperReady": false,
+  "mainTableWrite": false,
+  "gateOpen": false,
+  "lockedOpen": false,
+  "protectedChecks": {
+    "baseline-record.jsonl": true,
+    "janus-lift.json": true,
+    "protocol.json": true,
+    "model-roles.json": true,
+    "family-split.json": true,
+    "native-system-freeze.json": true,
+    "native-target-launch.json": true
+  },
+  "artifacts": {
+    "design.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v2\\design.json",
+      "sha256": "8f423531ded1f2bb793e62e165831a691a035eed19b94cfb4018f09b3ad68fd7"
+    },
+    "pilot-lock.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v2\\pilot-lock.json",
+      "sha256": "d9f68c315aca34a4858a0a46b7b46d61d4987175b8482675a515534d7686da2c"
+    },
+    "development-runtime.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v2\\development-runtime.json",
+      "sha256": "0a6ad3eafa0bb22bd60a0d4ee8dbe2fb69d1b8208735c72edeee7b05c0447f14"
+    },
+    "development-summary.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v2\\development-summary.json",
+      "sha256": "692d1a9708700f53ac4746cff4842e62aaec073c8265fee2e0ffdf4b71035144"
+    }
+  },
+  "historicalLedger": "../robustness-ledger.json retained; coordination reported historical claim conflict, so this new work uses its own ledger.",
+  "costUSD": null
+}

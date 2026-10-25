@@ -1,0 +1,32 @@
+{
+  "schema": "tb-archive-live-metadata-race-repair-v1",
+  "recordedAtNs": 1792412112952855500,
+  "initialFailureSnapshot": "experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence\\snapshots\\1792411662967568537.json",
+  "initialFailureManifestSha256": "c34539177ce152c92b39408554ac5cb0c8bc12f70310ba9df339052f2fa015c8",
+  "initialObservedSourceHashDrift": [
+    "started-attempts.jsonl",
+    "status.json"
+  ],
+  "initialMatchingFilesConfiguredKeyDetections": [],
+  "repair": "Capture dynamic execution metadata bytes in immutable per-snapshot files while recording original observed source paths.",
+  "repairedSnapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence\\snapshots\\1792411938251879940.json",
+  "repairedManifestSha256": "07ddd8d668da486b8f718a6cc4c4ce4e99bda9ec7a1948db80b874a59e9d1c6d",
+  "regressionEvidence": {
+    "sourceHashDrift": [],
+    "sourceUnavailable": [],
+    "configuredKeyDetectedInMatchingFiles": [],
+    "liveSourcesUpdatedAfterSnapshot": [
+      "started-attempts.jsonl",
+      "status.json"
+    ],
+    "checkedMappings": 768,
+    "credentialValuesReturned": false,
+    "snapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence\\snapshots\\1792411938251879940.json",
+    "manifestSha256": "07ddd8d668da486b8f718a6cc4c4ce4e99bda9ec7a1948db80b874a59e9d1c6d",
+    "paperReady": false
+  },
+  "officialGradesOrReceiptsModified": false,
+  "coreInferenceOrGraderModified": false,
+  "oldSnapshotRetained": true,
+  "paperReady": false
+}

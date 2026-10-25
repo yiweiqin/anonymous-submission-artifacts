@@ -1,0 +1,40 @@
+{
+  "schema": "tb-goal-completion-audit-v1",
+  "observedAtNs": 1792415833607791200,
+  "checks": {
+    "registeredNewVariant": true,
+    "selfAuthoredDevelopmentAndBudgetSmokePassed": true,
+    "completePositiveAuditedPilot": true,
+    "lockedPublicSelectionAndResourceUniverse": true,
+    "positivePilotActuallyExpanded": true,
+    "all63PairsUniqueQualifiedOfficialGrades": true,
+    "finalSummaryMatchesCurrentReceipts": true,
+    "fullMatchedComparisonPositive": true,
+    "originalPilotBytesCarriedUnchanged": true,
+    "ownedWorkerAndTrialsActuallyTerminal": true,
+    "uniqueCompatibleControlsBoundToActualReceipts": true,
+    "finalArchiveMatchesFullSummaryAndCurrentReceipts": true,
+    "finalOfflineConsumptionModelsBudgetsAndOutputsAudited": true,
+    "finalConfiguredCredentialsAbsentFromArchive": true,
+    "protectedOriginalFilesUnchanged": true,
+    "allDeclaredTaskArmsHaveAttemptEvidence": true,
+    "supplementHasNoPreviousAttemptReplay": true,
+    "sharedProtectedResourcesAndFloorsAudited": true,
+    "sharedResourceInitialObservationBound": true,
+    "ownedTaskContainersExited": true,
+    "ownedModelServicesExited": true,
+    "independentLedgerBindsCurrentEvidence": true,
+    "interruptedAttemptsStillPreserved": true,
+    "paperReadyRemainsFalse": true
+  },
+  "readyToComplete": true,
+  "incompleteRequirements": [],
+  "qualifiedOfficialGrades": 126,
+  "sums": {
+    "trained-terminal-v5": 33.0,
+    "control-terminal-interface-v3": 29.0
+  },
+  "receiptSha256": "b12565fdcbdd5f4893cacec16f53e32cad472e7f8e2fe0933c733306d7837d96",
+  "scope": "Terminal-Bench2.1 fixed resource-compatible63; adaptive composite comparison, not89 leaderboard or LoRA causal proof",
+  "paperReady": false
+}

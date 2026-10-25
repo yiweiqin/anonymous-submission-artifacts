@@ -1,0 +1,54 @@
+[
+  {
+    "host": "benchmark-host-c",
+    "hash": "65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894",
+    "root": "/benchmark/janus-rerun-20261025/variants/65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894",
+    "live": {
+      "pid": 4094658,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894",
+      "args": "/benchmark/robustness-prep/venv/bin/python -u rerun.py tau pilot prompt-tau.txt "
+    },
+    "fullAllowed": false,
+    "paperReady": false,
+    "at": 1792907323.3612657
+  },
+  {
+    "host": "benchmark-host-c",
+    "hash": "c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03",
+    "root": "/benchmark/janus-rerun-20261025/variants/c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03",
+    "live": {
+      "pid": 4094663,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03",
+      "args": "/benchmark/robustness-prep/venv/bin/python -u rerun.py tau pilot prompt-tau.txt "
+    },
+    "fullAllowed": false,
+    "paperReady": false,
+    "at": 1792907324.1785543
+  },
+  {
+    "host": "benchmark-host-d",
+    "hash": "83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5",
+    "root": "/benchmark/janus-rerun-20261025/variants/83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5",
+    "live": {
+      "pid": 152197,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5",
+      "args": "/benchmark/robustness-prep/venv/bin/python -u rerun.py tau pilot prompt-tau.txt "
+    },
+    "fullAllowed": false,
+    "paperReady": false,
+    "at": 1792907325.677851
+  },
+  {
+    "host": "benchmark-host-d",
+    "hash": "ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80",
+    "root": "/benchmark/janus-rerun-20261025/variants/ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80",
+    "live": {
+      "pid": 152202,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80",
+      "args": "/benchmark/robustness-prep/venv/bin/python -u rerun.py tau pilot prompt-tau.txt "
+    },
+    "fullAllowed": false,
+    "paperReady": false,
+    "at": 1792907326.4853923
+  }
+]

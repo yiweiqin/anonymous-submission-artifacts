@@ -1,0 +1,101 @@
+{
+  "remoteRoot": "/benchmark/skillflow-main-20261008/focus-20261012-200502",
+  "status": {
+    "runId": "focus-20261012-200502-resume-230209",
+    "phase": "complete",
+    "family": "DMAIC-Quality-Analysis",
+    "task": "harbor_gdpval_37",
+    "jobName": "focus-20261012-200502-resume-230209-replay-1791820063807773687-janus_full-DMAIC-Quality-Analysis-harbor_gdpval_37",
+    "carryChars": 515,
+    "reward": 0.0,
+    "error": "",
+    "families": {
+      "DMAIC-Quality-Analysis": {
+        "phase": "recorded",
+        "family": "DMAIC-Quality-Analysis",
+        "task": "harbor_gdpval_37",
+        "jobName": "focus-20261012-200502-resume-230209-replay-1791820063807773687-janus_full-DMAIC-Quality-Analysis-harbor_gdpval_37",
+        "carryChars": 515,
+        "reward": 0.0,
+        "error": ""
+      },
+      "Weighted-Risk-Assessment": {
+        "phase": "recorded",
+        "family": "Weighted-Risk-Assessment",
+        "task": "weighted-hospital-bedflow-calc",
+        "jobName": "focus-20261012-200502-resume-230209-official-1791817330700398057-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+        "carryChars": 89,
+        "reward": 0.0,
+        "error": ""
+      }
+    }
+  },
+  "appended": [],
+  "officialRows": 17,
+  "supplemental": [
+    {
+      "runId": "focus-20261012-200502-cachecheck-2333",
+      "phase": "complete",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "jobName": "focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "carryChars": 283,
+      "reward": 0.0,
+      "error": "",
+      "families": {
+        "Weighted-Risk-Assessment": {
+          "phase": "recorded",
+          "family": "Weighted-Risk-Assessment",
+          "task": "weighted-hospital-bedflow-calc",
+          "jobName": "focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+          "carryChars": 283,
+          "reward": 0.0,
+          "error": ""
+        }
+      }
+    },
+    {
+      "runId": "focus-20261012-200502-cacheformal-2345",
+      "phase": "complete",
+      "family": "Weighted-Risk-Assessment",
+      "task": "weighted-hospital-bedflow-calc",
+      "jobName": "focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "carryChars": 283,
+      "reward": 1.0,
+      "error": "",
+      "families": {
+        "Weighted-Risk-Assessment": {
+          "phase": "recorded",
+          "family": "Weighted-Risk-Assessment",
+          "task": "weighted-hospital-bedflow-calc",
+          "jobName": "focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+          "carryChars": 283,
+          "reward": 1.0,
+          "error": ""
+        }
+      }
+    },
+    {
+      "runId": "focus-20261012-200502-formal05retry-230209",
+      "phase": "complete",
+      "family": "Compensation-Scenario-Modeling",
+      "task": "05_property_management_model",
+      "jobName": "focus-20261012-200502-formal05retry-230209-official-1791817330633375354-janus_full-Compensation-Scenario-Modeling-05_property_management_model",
+      "carryChars": 89,
+      "reward": 1.0,
+      "error": "",
+      "families": {
+        "Compensation-Scenario-Modeling": {
+          "phase": "recorded",
+          "family": "Compensation-Scenario-Modeling",
+          "task": "05_property_management_model",
+          "jobName": "focus-20261012-200502-formal05retry-230209-official-1791817330633375354-janus_full-Compensation-Scenario-Modeling-05_property_management_model",
+          "carryChars": 89,
+          "reward": 1.0,
+          "error": ""
+        }
+      }
+    }
+  ],
+  "runComplete": true
+}

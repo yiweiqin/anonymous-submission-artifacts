@@ -1,0 +1,56 @@
+{
+  "scope": "local available adapter training/development materials; direct benchmark identifiers only",
+  "files": [
+    {
+      "path": "experiments/rdmd_detective_dataset/sft/train.jsonl",
+      "bytes": 191748575,
+      "sha256": "f0974faa573e5168cf4196f7cafe3fa4fde5e235493a8f982a712659a5e37b67"
+    },
+    {
+      "path": "experiments/rdmd_detective_dataset/sft/development.jsonl",
+      "bytes": 39229499,
+      "sha256": "23369f24f239d31aaa2f215b66fa2040232e9fa544830436285b132e59bd307d"
+    },
+    {
+      "path": "experiments/cpdb_org_world/artifacts/cpdb-scorer-v5-100/sft/train.jsonl",
+      "bytes": 19675347,
+      "sha256": "077eb1946a157badf4e04d7a9e7f5607c6374d066818e582a81eb8170743aef0"
+    },
+    {
+      "path": "experiments/cpdb_org_world/artifacts/cpdb-scorer-v5-100/sft/development.jsonl",
+      "bytes": 11767607,
+      "sha256": "fdf454781a64d6b9f62337efb6cdd193a212640bd20848d407ebc21559a0d41e"
+    }
+  ],
+  "patternsSha256": "60a4c18b5551ef93022daddef7371a5b2f537ce9fc7b9b3fdefb30f52143d623",
+  "markerMatches": [],
+  "detectiveCorpusMatchesDeclaredManifest": true,
+  "officialTargetTasksScored": 0,
+  "remoteWeightsToLocalCorpusLineageVerified": false,
+  "limitations": [
+    "No direct identifier match does not prove semantic non-overlap.",
+    "The remote adapter copy lacks a training run manifest linking these local corpus hashes to its exact weights.",
+    "Base-model pretraining and Docker-embedded target inputs remain outside this scan."
+  ],
+  "earlierDetectiveCorpusRelevance": "The rdmd_detective_dataset v5 files are a separate locator corpus, not the declared training task of the currently configured minimal-evolution adapter.",
+  "configuredDetectiveTrainingMaterials": {
+    "files": [
+      {
+        "path": "experiments/rdmd_minimal_evolution/data/train.sft.jsonl",
+        "bytes": 20696885,
+        "sha256": "aaa6b946d25f7daa406ac6cb9652e74b50fc107490e472696bbe2b3f9ec086aa",
+        "manifestMatched": true
+      },
+      {
+        "path": "experiments/rdmd_minimal_evolution/data/development.sft.jsonl",
+        "bytes": 2770847,
+        "sha256": "e864feb80a60444f38841b142a2c17d793c805db12ce399c2dff940daafff861",
+        "manifestMatched": true
+      }
+    ],
+    "markerMatches": [],
+    "trainingSchema": "rdmd_minimal_evolution_v1",
+    "engineMatchesManifest": true,
+    "adapterMatchesDocumentedTrainingRun": true
+  }
+}

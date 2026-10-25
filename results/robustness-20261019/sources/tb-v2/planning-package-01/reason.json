@@ -1,0 +1,1 @@
+{"officialTrials": 0, "executorTrials": 0, "reason": "Preplanning-only package superseded before execution to reserve declared task memory and prevent unsafe container overcommit. Prompt and planner unchanged. All public plans retained."}

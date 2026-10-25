@@ -1,0 +1,578 @@
+{
+  "scope": "Full compiled staff profile in actual user/system trajectory followed by observed deepseek-flash call, and weight-token evidence from journal; not proof of independent agents or causal training benefit.",
+  "tasks": 63,
+  "verified": 63,
+  "minimumWeightPromptTokens": 551,
+  "results": [
+    {
+      "task": "feal-linear-cryptanalysis",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 680,
+      "trajectorySha256": [
+        "063cec0db7115c03eee6880e062c7565c876a240f3c39e224dbeb8bfb13cc139"
+      ],
+      "errors": []
+    },
+    {
+      "task": "code-from-image",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 592,
+      "trajectorySha256": [
+        "361cc3ca1c62be4415a7a85d33e3f87a0d92a3462aeb352dcac74279d3d70637"
+      ],
+      "errors": []
+    },
+    {
+      "task": "sanitize-git-repo",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 679,
+      "trajectorySha256": [
+        "b2938c062b0d477556e4b9a2db4b6ebd4c917864f349d2556c2ef035f685fc21"
+      ],
+      "errors": []
+    },
+    {
+      "task": "prove-plus-comm",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 657,
+      "trajectorySha256": [
+        "0785a2721749d8ff338257dbad467ad5c27f045c073e2d274daf3ac1ca6b46e7"
+      ],
+      "errors": []
+    },
+    {
+      "task": "constraints-scheduling",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 955,
+      "trajectorySha256": [
+        "ee266ac800896f2f7aa8d39abfda2cef9249c2b07883b11b75f14c7e225ae7ed"
+      ],
+      "errors": []
+    },
+    {
+      "task": "cancel-async-tasks",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 585,
+      "trajectorySha256": [
+        "06ae889fd6b9a9b7d111294b6836b17dca008937990bfc7b45761ee8afacef97"
+      ],
+      "errors": []
+    },
+    {
+      "task": "password-recovery",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 649,
+      "trajectorySha256": [
+        "c20795d9f01b0a863f41f768171abc6f25a6f4855dfa6e799cda77cf8296b242"
+      ],
+      "errors": []
+    },
+    {
+      "task": "break-filter-js-from-html",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 634,
+      "trajectorySha256": [
+        "9792a86944557d5177db46be69d459ddd5ebf920125016867a81b426acc2a7ae"
+      ],
+      "errors": []
+    },
+    {
+      "task": "git-multibranch",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 767,
+      "trajectorySha256": [
+        "8587dcc5102193a3ba947fc52d22c18206b29ec8cfc67b0e12ef87acbd109a23"
+      ],
+      "errors": []
+    },
+    {
+      "task": "polyglot-rust-c",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 625,
+      "trajectorySha256": [
+        "20c9072a75b1c8c139baa8107684d057b62053962c65ec4e64767931bc303af9"
+      ],
+      "errors": []
+    },
+    {
+      "task": "largest-eigenval",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 636,
+      "trajectorySha256": [
+        "accce1f342d2117e4f3c50b8de573a58d5f5eeaeeeaf61fda700861bd685b93a"
+      ],
+      "errors": []
+    },
+    {
+      "task": "mteb-retrieve",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 567,
+      "trajectorySha256": [
+        "906b81cc734cf5b3ba4d35b74439005acd2ce96834c448a9ab6dec579ecbd2fa"
+      ],
+      "errors": []
+    },
+    {
+      "task": "distribution-search",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 794,
+      "trajectorySha256": [
+        "17c0a953006e1054102ecb1f1f77028834b7303196461e66af9183d358ee63e0"
+      ],
+      "errors": []
+    },
+    {
+      "task": "extract-elf",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 644,
+      "trajectorySha256": [
+        "1c229eba33d4d24bff4fc085e6df0487e30573482de5a969b984cc702cdb4bd9"
+      ],
+      "errors": []
+    },
+    {
+      "task": "pytorch-model-recovery",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 725,
+      "trajectorySha256": [
+        "c4aaa82be7adfb5cd8a8c450c38ce4ab65f84e0b8c721ed65ad7ba9bb235d4de"
+      ],
+      "errors": []
+    },
+    {
+      "task": "build-pov-ray",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 607,
+      "trajectorySha256": [
+        "973f8ef90cc70ec86f70821ea334e53fd04ac46d804ff632940f4efa9d6edd28"
+      ],
+      "errors": []
+    },
+    {
+      "task": "headless-terminal",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 637,
+      "trajectorySha256": [
+        "12a617c17912b6c1097cae16e3b0094fc596608ebae76408c70b64285c2764a6"
+      ],
+      "errors": []
+    },
+    {
+      "task": "llm-inference-batching-scheduler",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 1056,
+      "trajectorySha256": [
+        "ac595f33c219987eea966fdea209dfc7ad3a18855a7b6a388c9fae85c865fcc7"
+      ],
+      "errors": []
+    },
+    {
+      "task": "sqlite-with-gcov",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 552,
+      "trajectorySha256": [
+        "e889dada34518f568cc0a11857466be12f370e91939de8547f34c275c8a40fef"
+      ],
+      "errors": []
+    },
+    {
+      "task": "sparql-university",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 804,
+      "trajectorySha256": [
+        "4478af8d748530b94338e550b358148f2acb97133bc0de514f630d26b67a8c05"
+      ],
+      "errors": []
+    },
+    {
+      "task": "make-mips-interpreter",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 558,
+      "trajectorySha256": [
+        "1b8e78915205dcde520124959ccfbde35d5fe3388114019a2ab466f47ff45706"
+      ],
+      "errors": []
+    },
+    {
+      "task": "schemelike-metacircular-eval",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 705,
+      "trajectorySha256": [
+        "48fe050e66db8086da262ca37891874e594a20bb606c6c16a1115ab9279e8e6f"
+      ],
+      "errors": []
+    },
+    {
+      "task": "cobol-modernization",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 698,
+      "trajectorySha256": [
+        "9a1b12580d2720e114a7b286bed13c75d034c8e484a581892a69d5b9556c7f70"
+      ],
+      "errors": []
+    },
+    {
+      "task": "regex-log",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 775,
+      "trajectorySha256": [
+        "c667aea3a42d9d34e297c267ecb6d06ea3619a08724ded654d4b749a25914d4b"
+      ],
+      "errors": []
+    },
+    {
+      "task": "count-dataset-tokens",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 597,
+      "trajectorySha256": [
+        "d2f92172ac5a7cd7cf5e0dfb3653488ac769750b0bfa3d7c3cccc79d1029b793"
+      ],
+      "errors": []
+    },
+    {
+      "task": "vulnerable-secret",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 594,
+      "trajectorySha256": [
+        "1739d6de2a5c14c9b7fa4c9a06c46dbd050f9a321e308e84a60dec9c62147dbd"
+      ],
+      "errors": []
+    },
+    {
+      "task": "git-leak-recovery",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 663,
+      "trajectorySha256": [
+        "d88cb241167f41aaceb057f9a7cf8eed7d009b598503052e8687449cf49bed76"
+      ],
+      "errors": []
+    },
+    {
+      "task": "sqlite-db-truncate",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 563,
+      "trajectorySha256": [
+        "387131b206c2bb22a7f1441a12ed94ff6b7ea1dc6a0fef1b0513fe7992a0dbeb"
+      ],
+      "errors": []
+    },
+    {
+      "task": "path-tracing",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 644,
+      "trajectorySha256": [
+        "590757960182c90091d02ade530ca00e3e13ddbcf4f43f6957f394615ee56d43"
+      ],
+      "errors": []
+    },
+    {
+      "task": "chess-best-move",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 575,
+      "trajectorySha256": [
+        "06e30ca9ba92a18d244d7067bc2efa8f1e28ea93b2a5ae9222e2b50c8e7dc7cb"
+      ],
+      "errors": []
+    },
+    {
+      "task": "modernize-scientific-stack",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 841,
+      "trajectorySha256": [
+        "fae2091184bcad9c8ca25e1a75e5425cfae5bbc5f43dfda2e4d349f963548bf2"
+      ],
+      "errors": []
+    },
+    {
+      "task": "fix-code-vulnerability",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 1060,
+      "trajectorySha256": [
+        "22ce30b32f9854d797f5b8c03ede320b2424c1d51efa336db68e93a7f51ab132"
+      ],
+      "errors": []
+    },
+    {
+      "task": "kv-store-grpc",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 685,
+      "trajectorySha256": [
+        "4877b461483f11066c16484400d591c391a4ecdd9d41ea7ab2600b96a9c83e6b"
+      ],
+      "errors": []
+    },
+    {
+      "task": "feal-differential-cryptanalysis",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 613,
+      "trajectorySha256": [
+        "082791e6853256f78b3a7ed1a060b167e046a1b0e2563a3d179193caa9ffe984"
+      ],
+      "errors": []
+    },
+    {
+      "task": "model-extraction-relu-logits",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 562,
+      "trajectorySha256": [
+        "638791d27e624461f1be9319893a173a055b023d44d71f2b1d564157e6a53629"
+      ],
+      "errors": []
+    },
+    {
+      "task": "multi-source-data-merger",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 1050,
+      "trajectorySha256": [
+        "f34057d48c84270d6ef9702a71ab8dcbecaf310086818d8fa51c95267f0aa04b"
+      ],
+      "errors": []
+    },
+    {
+      "task": "nginx-request-logging",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 889,
+      "trajectorySha256": [
+        "ff903b79cee16e4477e6ffe07ad9ebddf9b029327e67755b5a6e6420b928e9c2"
+      ],
+      "errors": []
+    },
+    {
+      "task": "log-summary-date-ranges",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 1009,
+      "trajectorySha256": [
+        "6753f9c3a901038467bb7f851e2e792aa2263524d8e4f5d1bd26dee90eaf7025"
+      ],
+      "errors": []
+    },
+    {
+      "task": "dna-assembly",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 810,
+      "trajectorySha256": [
+        "981bcb5077f4013497be1b3ec24ff8750b13d666ad89aaaf3a816c0fb3544097"
+      ],
+      "errors": []
+    },
+    {
+      "task": "build-pmars",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 602,
+      "trajectorySha256": [
+        "9f05d04cfea4dc77cf800a77b8844b2fdc46916e3f651293a8c1888c6bbdc8ff"
+      ],
+      "errors": []
+    },
+    {
+      "task": "custom-memory-heap-crash",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 700,
+      "trajectorySha256": [
+        "9d495a38fa4e419d126f09ab0f7b04c7c7ea3ae2194e2264ef7833b12cb7715f"
+      ],
+      "errors": []
+    },
+    {
+      "task": "video-processing",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 865,
+      "trajectorySha256": [
+        "8f0e46fbd637a04a5243fc987e0491750fc6e7381dfb9759dae99440cf67daee"
+      ],
+      "errors": []
+    },
+    {
+      "task": "path-tracing-reverse",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 562,
+      "trajectorySha256": [
+        "712bb18f77d5faac664c55546394d8b8045f37d2c40277d21370ed8d84631717"
+      ],
+      "errors": []
+    },
+    {
+      "task": "write-compressor",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 582,
+      "trajectorySha256": [
+        "521a56cf980e980261a1569e6e0b58abc4b852feea4877306fd25f072d9f9a4e"
+      ],
+      "errors": []
+    },
+    {
+      "task": "fix-git",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 551,
+      "trajectorySha256": [
+        "51aff7638bfb3a5ed43f96b2a57adc3328233100e1e5a0a33806610803e6e250"
+      ],
+      "errors": []
+    },
+    {
+      "task": "openssl-selfsigned-cert",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 894,
+      "trajectorySha256": [
+        "a009057fdf88b361bc4a52fcbab207c8539b57160c755e80355bf5dd105d0651"
+      ],
+      "errors": []
+    },
+    {
+      "task": "extract-moves-from-video",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 567,
+      "trajectorySha256": [
+        "5b0b89ef037f1c8c4aa56ca1da323e6165dd88fd8304cb0ffd4bb1ea6bcd1742"
+      ],
+      "errors": []
+    },
+    {
+      "task": "bn-fit-modify",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 890,
+      "trajectorySha256": [
+        "0b970067164837257cec47f0030672c613e1979bf2a9d3bdead588b59e65bbd9"
+      ],
+      "errors": []
+    },
+    {
+      "task": "polyglot-c-py",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 626,
+      "trajectorySha256": [
+        "ff3fe7623ddf12989248b4cf7092d0cc893aac186bf124386eaddb5282547b8a"
+      ],
+      "errors": []
+    },
+    {
+      "task": "configure-git-webserver",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 676,
+      "trajectorySha256": [
+        "52acfa16afa133f9fd1cdacc80bd686fa5533b519eb43ec19262e88712a3cf79"
+      ],
+      "errors": []
+    },
+    {
+      "task": "gcode-to-text",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 569,
+      "trajectorySha256": [
+        "629718206b194238476696af8b179e4d0dc48915b315586bc5f8fadeef0a7d43"
+      ],
+      "errors": []
+    },
+    {
+      "task": "raman-fitting",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 803,
+      "trajectorySha256": [
+        "581179057fbc03502b7fba092ffb12bf53e8672139d11757cd4b7c8a8cc2d59e"
+      ],
+      "errors": []
+    },
+    {
+      "task": "db-wal-recovery",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 715,
+      "trajectorySha256": [
+        "a42780e79ff7a9f255dff09d76a187958bcdae2294d3eeced00b56fbd068d5b9"
+      ],
+      "errors": []
+    },
+    {
+      "task": "circuit-fibsqrt",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 746,
+      "trajectorySha256": [
+        "51edcadb3a002132d7c5cccf9248f18e5eb152da91a297afbf6d4d02c1c383de"
+      ],
+      "errors": []
+    },
+    {
+      "task": "fix-ocaml-gc",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 558,
+      "trajectorySha256": [
+        "fb5733855ac30ce0f914bd979aa980382fc687e598e8077f8807a912fbe115df"
+      ],
+      "errors": []
+    },
+    {
+      "task": "regex-chess",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 897,
+      "trajectorySha256": [
+        "f727ce456e2177cd097e39b6b27d45cd021d52f8a327465b91554384fc77109e"
+      ],
+      "errors": []
+    },
+    {
+      "task": "winning-avg-corewars",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 713,
+      "trajectorySha256": [
+        "8b0878a0b6f7878f272e283fc5e263f110f92ca84be7fb5eb33bd008ecb792f7"
+      ],
+      "errors": []
+    },
+    {
+      "task": "mailman",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 709,
+      "trajectorySha256": [
+        "f280b99c01e5a6ac7e40a8fc0987017f17ed7f60aaff379c3b9b87b2c85e3fd0"
+      ],
+      "errors": []
+    },
+    {
+      "task": "tune-mjcf",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 638,
+      "trajectorySha256": [
+        "705b822e3c934d67ed8084ccdcfa789656dbb5a8520bffaba72654e7779555a0"
+      ],
+      "errors": []
+    },
+    {
+      "task": "large-scale-text-editing",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 805,
+      "trajectorySha256": [
+        "b01b8a0d0d06859ce0e7d39ca16bcab5daddc55e44c95db5b5bd910f1d9836ca"
+      ],
+      "errors": []
+    },
+    {
+      "task": "query-optimize",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 590,
+      "trajectorySha256": [
+        "94eaa77b6568404d49be3cfb3fe4f36e67c6948d3b0a3863f01befc10e57ac51"
+      ],
+      "errors": []
+    },
+    {
+      "task": "adaptive-rejection-sampler",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 943,
+      "trajectorySha256": [
+        "022edadd43e8de7d1e328bd759327b5496195f88219dac724fceec6d4b793c68"
+      ],
+      "errors": []
+    },
+    {
+      "task": "make-doom-for-mips",
+      "profileConsumptionProven": true,
+      "weightPromptTokens": 565,
+      "trajectorySha256": [
+        "a36580399d35fab43d32dc5e7099180b613731012fa9d5f466be2b9cab13582b"
+      ],
+      "errors": []
+    }
+  ],
+  "receiptSha256": "84c64484f06c8834e709d65a59fba820fb37bfbda4b83496442eb4bbb281cc08",
+  "newModelCalls": 0,
+  "newGraderCalls": 0
+}

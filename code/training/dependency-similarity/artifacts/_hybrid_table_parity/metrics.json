@@ -1,0 +1,134 @@
+{
+  "schema": "cpdb_scorer_metrics/v1",
+  "kind": "ship_table",
+  "generatedAt": "2026-09-20T11:41:37Z",
+  "environment": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "seed": 20260920
+  },
+  "matrix": {
+    "dir": "experiments\\cpdb_org_world\\train_out_hybrid",
+    "rows": 8282,
+    "labelSource": {
+      "file": "artifacts/cpdb-scorer-v4-hybrid/labels.jsonl",
+      "annotators": [
+        "policy_hybrid_v1/prelabel"
+      ]
+    },
+    "inputs": {
+      "data/full/agents.jsonl": "e20eb0fa3b57a3c57b3c672007b240a39071d3aad45217d8a869617aa53028e9",
+      "data/full/agent_profiles.jsonl": "2b83f78cdff1a4d7b0ccecf0b0ccf533308684ed03ef3bcf42aadb491ea43600",
+      "data/full/pairs.jsonl": "639bde6abb9f6c943d0ad208af41bb88224d7bbd4b7aea4fffca8b63827604ef",
+      "artifacts/cpdb-scorer-v4-hybrid/labels.jsonl": "960a1f7379a0b2f5ecfc6b2e6525919b6e17a4840e608525ce044a39fbac53f2"
+    },
+    "outputs": {
+      "train_out_hybrid/X.f32": "5758fbbd284532d7a9705d1c9b18054d9e922cd21e8e30059907f3a3aef44dae",
+      "train_out_hybrid/y_dependency.i8": "4c6d630f0984844f68325b56118293d59d86748f9da00d193165aabc367e6d09",
+      "train_out_hybrid/y_similarity.i8": "a41769b341564502b11a065ebab03812656f93aaf32c7acc6d50fef27a742e05",
+      "train_out_hybrid/rows.jsonl": "a8a4bff9654c2bd9daf19a34f4752f1cb6a7426623b10d5e0608f2ed133baf87",
+      "train_out_hybrid/folds.jsonl": "eca4a3ddea3b7150f816294f8de9ca0fa1eb7e34e214c27c21715140df12a15b",
+      "train_out_hybrid/labels.jsonl": "33dfed4bd7fdc277c28800fc935cdae7ec0a069b922160524415e55eecda447a",
+      "train_out_hybrid/baselines.jsonl": "2f9da765ca6bc73353ef74bdd79726f5e4a01dac0e0c674d69b44fdb8b4d6607"
+    }
+  },
+  "cellCount": 36,
+  "facetCellCount": 533,
+  "keyKind": "hybrid_family_facet",
+  "foldMetrics": {
+    "org": {
+      "dependency": {
+        "mean": 0.7914,
+        "stdAcrossFolds": 0.1812,
+        "perFold": [
+          0.4291,
+          0.8858,
+          0.8764,
+          0.8851,
+          0.8808
+        ]
+      },
+      "similarity": {
+        "mean": 1.0,
+        "stdAcrossFolds": 0.0,
+        "perFold": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "facet_pair": {
+      "dependency": {
+        "mean": 0.9058,
+        "stdAcrossFolds": 0.0157,
+        "perFold": [
+          0.9137,
+          0.9101,
+          0.8961,
+          0.8816,
+          0.9275
+        ]
+      },
+      "similarity": {
+        "mean": 0.6812,
+        "stdAcrossFolds": 0.0523,
+        "perFold": [
+          0.653,
+          0.6904,
+          0.6775,
+          0.7717,
+          0.6135
+        ]
+      }
+    },
+    "facet": {
+      "dependency": {
+        "mean": 0.9057,
+        "stdAcrossFolds": 0.0061,
+        "perFold": [
+          0.9165,
+          0.9069,
+          0.8986,
+          0.9013,
+          0.9054
+        ]
+      },
+      "similarity": {
+        "mean": 0.6842,
+        "stdAcrossFolds": 0.0384,
+        "perFold": [
+          0.6387,
+          0.6793,
+          0.6813,
+          0.6668,
+          0.7548
+        ]
+      }
+    },
+    "family": {
+      "dependency": {
+        "mean": 0.4529,
+        "stdAcrossFolds": 0.0687,
+        "perFold": [
+          0.4704,
+          0.5269,
+          0.3613
+        ]
+      },
+      "similarity": {
+        "mean": 0.7928,
+        "stdAcrossFolds": 0.027,
+        "perFold": [
+          0.7842,
+          0.7649,
+          0.8294
+        ]
+      }
+    }
+  },
+  "warning": "这份产物的指标是**折上泛化**（表不需要训练，所以可以逐折留出），与 MLP 的拟合指标不是同一个口径，不要直接比数字。",
+  "wallSeconds": 0.5
+}

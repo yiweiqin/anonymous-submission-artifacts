@@ -1,0 +1,110 @@
+{
+  "version": "janus_skillflow_main_table_v1",
+  "created": "2026-10-08",
+  "paperReady": false,
+  "productionWritesAllowed": false,
+  "confirmatoryInference": false,
+  "realRunAllowed": false,
+  "blockedReason": "SkillFlow tasks are not on this machine yet, and the remote-host data copy is still in progress.",
+  "benchmark": {
+    "name": "SkillFlow",
+    "paper": "https://arxiv.org/abs/2604.17308",
+    "code": "https://github.com/ZhangZi-a/SkillFlow",
+    "data": "https://huggingface.co/datasets/zhang-ziao/SkillFlow-Task",
+    "verifier": "Harbor task verifier",
+    "publishedFamilies": 20,
+    "publishedTasks": 166,
+    "primaryMetric": "family_mean_paired_lift",
+    "liftDefinition": "On the same family and task order, mean(evolved_pass - vanilla_pass). Ranking uses lift, not absolute pass rate."
+  },
+  "taskBackbone": {
+    "current": "deepseek-v4.1-flash",
+    "locked": false,
+    "note": "Every main-table arm uses this same backbone. Do not start until the endpoint and revision are written into model-lock.json by the run window."
+  },
+  "systemUnderTest": "janus_full",
+  "systemRule": "The full Janus system runs each task. Only the detective's single minimal update is carried to the next task. D staffs the initial team. S chooses a replacement. Do not let every agent write its own library.",
+  "retiredMainTables": [
+    "AppWorld frozen/planning_only/capability_only/joint",
+    "Who&When attribution accuracy",
+    "SkillsBench skill-consumption pass rate"
+  ],
+  "baselines": [
+    {
+      "id": "expel",
+      "year": 2024,
+      "name": "ExpeL",
+      "venue": "AAAI 2024",
+      "paper": "https://arxiv.org/abs/2308.10144",
+      "update": "Cross-task natural-language insights plus successful trajectories as examples."
+    },
+    {
+      "id": "awm",
+      "year": 2025,
+      "name": "Agent Workflow Memory",
+      "venue": "ICML 2025",
+      "paper": "https://arxiv.org/abs/2409.07429",
+      "update": "Induce reusable workflows from successful trajectories and inject them later."
+    },
+    {
+      "id": "reasoning_bank",
+      "year": 2025,
+      "name": "ReasoningBank",
+      "venue": "arXiv 2025-09",
+      "paper": "https://arxiv.org/abs/2509.25140",
+      "update": "Distill reasoning memory from both successes and failures."
+    },
+    {
+      "id": "skillrl",
+      "year": 2026,
+      "name": "SkillRL",
+      "venue": "ICLR 2026 MemAgents workshop",
+      "paper": "https://iclr.cc/virtual/2026/10021283",
+      "update": "Hierarchical skill bank; failed validation adds skills and the policy co-evolves."
+    },
+    {
+      "id": "cowork_x",
+      "year": 2026,
+      "name": "CoWork-X",
+      "venue": "arXiv 2026-02",
+      "paper": "https://arxiv.org/abs/2602.05004",
+      "update": "Multi-agent execute-then-consolidate of the shared skill library after each episode."
+    },
+    {
+      "id": "rsea",
+      "year": 2026,
+      "name": "RSEA",
+      "venue": "arXiv 2026-06",
+      "paper": "https://arxiv.org/abs/2606.28374",
+      "update": "Recursive context rewrite kept only when a held-out slice does not get worse."
+    }
+  ],
+  "referenceArm": "vanilla",
+  "yearCount": {"2024": 1, "2025": 2, "2026": 3},
+  "droppedMisdatedBaseline": {
+    "id": "ace",
+    "actualYear": 2025,
+    "paper": "https://arxiv.org/abs/2510.04618",
+    "reason": "ACE is an October 2025 preprint. It is not the third 2026 method."
+  },
+  "laterSuitesNotInThisRun": [
+    "ablation",
+    "cost_comparison",
+    "backbone_swap",
+    "system_flowchart",
+    "robustness_transfer"
+  ],
+  "costFieldsToLogDuringMainRun": [
+    "modelCalls",
+    "promptTokens",
+    "completionTokens",
+    "wallSeconds"
+  ],
+  "split": {
+    "development": 8,
+    "gate": 4,
+    "locked": 8,
+    "assignmentSeed": 20261008,
+    "lockedMayOpen": false
+  }
+}

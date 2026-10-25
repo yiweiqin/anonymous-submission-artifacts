@@ -1,0 +1,1 @@
+{"root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/official-oracle-1791892091288396700", "pid": 925792, "reason": "Pre-score force_build=True bypassed the declared official prebuilt image and executes gen.py; use official image digest consistently instead.", "targetModelCalls": 0}

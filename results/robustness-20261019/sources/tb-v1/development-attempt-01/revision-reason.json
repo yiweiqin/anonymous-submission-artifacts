@@ -1,0 +1,5 @@
+{
+  "reason": "Add durable prelaunch attempt journal and reject unreconciled starts before pilot; support audited pilot receipt carry-forward to full63. Prompts, model and inference settings unchanged. Repeat self-authored development with final package before official scoring.",
+  "officialTrials": 0,
+  "paperReady": false
+}

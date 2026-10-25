@@ -1,0 +1,26 @@
+[
+  {
+    "host": "benchmark-host-c",
+    "hash": "822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56",
+    "root": "/benchmark/janus-rerun-20261025/variants/822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56",
+    "live": {
+      "pid": 4099029
+    },
+    "sourcePromptSha256": "7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8",
+    "scope": "retail-only appendix; old prompt unmodified",
+    "paperReady": false,
+    "at": 1792908263.524271
+  },
+  {
+    "host": "benchmark-host-d",
+    "hash": "088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90",
+    "root": "/benchmark/janus-rerun-20261025/variants/088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90",
+    "live": {
+      "pid": 156412
+    },
+    "sourcePromptSha256": "7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8",
+    "scope": "retail-only appendix; old prompt unmodified",
+    "paperReady": false,
+    "at": 1792908264.953045
+  }
+]

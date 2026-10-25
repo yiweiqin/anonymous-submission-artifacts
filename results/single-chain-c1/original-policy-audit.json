@@ -1,0 +1,21 @@
+{
+  "adoptions": 3,
+  "allLearningRoundsComplete": false,
+  "auditedLearningCommits": 277,
+  "capturedLearningCommits": 277,
+  "completeFamilySnapshots": 26,
+  "decisionReasons": {
+    "adopted_state_change": 3,
+    "candidate_equals_current": 32,
+    "candidate_failed_validation": 25,
+    "no_drift_reported": 2,
+    "no_permitted_candidate": 46,
+    "primary_already_passed_no_change": 169
+  },
+  "detectiveInputsAndCallsVerified": true,
+  "formalSConditionsTriggered": 0,
+  "limitation": "Learning prefix audit; frozen evaluations are audited separately.",
+  "originalAdoptionPolicyRecomputed": true,
+  "passed": true,
+  "realNativeInputAndResponseVerified": true
+}

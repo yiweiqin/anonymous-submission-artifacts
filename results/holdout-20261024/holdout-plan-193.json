@@ -1,0 +1,29 @@
+{
+  "families": [
+    "Production-Capacity-Planning",
+    "HWPX-Document-Automation",
+    "Cross-Format-Data-Reconciliation",
+    "Industry-Correlation-Analysis"
+  ],
+  "arms": [
+    "vanilla",
+    "expel",
+    "awm",
+    "reasoning_bank",
+    "skillrl",
+    "cowork_x",
+    "rsea"
+  ],
+  "workers": 4,
+  "host": "benchmark-host-b",
+  "counts": {
+    "Production-Capacity-Planning": 9,
+    "HWPX-Document-Automation": 8,
+    "Cross-Format-Data-Reconciliation": 8,
+    "Industry-Correlation-Analysis": 8
+  },
+  "missing": {},
+  "record": "holdout-record-193.jsonl",
+  "forceBuild": true,
+  "janusFull": false
+}

@@ -1,0 +1,15 @@
+{
+  "at": 1792923933.6929402,
+  "selectedTauPromptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+  "selectedTauScore": 126,
+  "selectedTauAirline": 29,
+  "selectedTauRetail": 97,
+  "selectedBashPromptSha256": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+  "selectedBashScore": 153.28,
+  "selectionUnit": "Choose complete prompt candidate, never per-task best-of",
+  "allOtherResultsPreserved": true,
+  "oldFrozenJanus118Untouched": true,
+  "sevenControlsUntouched": true,
+  "paperReady": false,
+  "limitation": "Airline remains below old33; baseline reuse and one-run prompt selection do not prove generalization."
+}

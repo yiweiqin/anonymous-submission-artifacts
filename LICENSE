@@ -1,0 +1,6 @@
+﻿Submission code in this archive is provided so reviewers can read and run the reported experiments.
+
+Third-party benchmarks under benchmarks/ keep the license files shipped in those checkouts.
+The Qwen3-8B base model is Apache-2.0. See NOTICE.
+The exported adapters are QLoRA weights for that base model and stay under the base model's license.
+Training JSON included here is experiment material for review. It is not a new public dataset release.

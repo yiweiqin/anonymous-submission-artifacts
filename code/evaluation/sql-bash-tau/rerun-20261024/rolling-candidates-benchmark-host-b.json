@@ -1,0 +1,46 @@
+[
+  {
+    "host": "benchmark-host-b",
+    "bench": "bash",
+    "hash": "9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0",
+    "root": "/benchmark/janus-rerun-20261025/variants/9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0",
+    "live": {
+      "pid": 3098054,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0"
+    },
+    "hypothesis": {
+      "category": "文件操作语义／输出格式",
+      "hypothesis": "Use a staged semantic checklist for selection, age predicates and archive paths instead of checksum-specific exceptions.",
+      "basis": "Captured official reward parts distinguish state/hash mismatch from output-text mismatch; actual executed commands retained.",
+      "confidence": "hypothesis; archive/hash root cause not claimed proven",
+      "sourceHash": "99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e",
+      "evidence": "rolling-evidence/99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e/failure-capture.json",
+      "beforeFirstModelCall": true,
+      "taskSpecificSolutionInjected": false
+    },
+    "at": 1792909674.9340928,
+    "paperReady": false
+  },
+  {
+    "host": "benchmark-host-b",
+    "bench": "bash",
+    "hash": "f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97",
+    "root": "/benchmark/janus-rerun-20261025/variants/f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97",
+    "live": {
+      "pid": 3098074,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97"
+    },
+    "hypothesis": {
+      "category": "输出格式／流水线语义",
+      "hypothesis": "When file-state components are both full marks, target output and intermediate-record semantics rather than mutate the filesystem.",
+      "basis": "Captured first official failures have fileDiff=0.33 and fileChanges=0.33 but answerSimilarity below 0.33; actual command/output and additional prompt preserved.",
+      "confidence": "confirmed reward-component diagnosis; command-level cause remains a hypothesis",
+      "sourceHash": "26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b",
+      "evidence": "rolling-evidence/26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b/failure-capture.json",
+      "beforeFirstModelCall": true,
+      "taskSpecificSolutionInjected": false
+    },
+    "at": 1792909676.2802358,
+    "paperReady": false
+  }
+]

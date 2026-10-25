@@ -1,0 +1,155 @@
+{
+  "developmentOnly": true,
+  "goldSqlRead": false,
+  "hiddenExpectedOutputsRead": false,
+  "pairedCasesObserved": 24,
+  "differentCases": [
+    {
+      "id": "spider-185",
+      "publicQuestion": "What are the death and injury situations caused by the ship with tonnage 't'?",
+      "publicDatabase": "battle_death",
+      "trainedReward": 0.0,
+      "startReward": 1.0,
+      "difference": -1.0,
+      "traces": {
+        "trained": {
+          "responses": [
+            "SELECT death.note, death.killed, death.injured\nFROM ship\nJOIN death ON death.caused_by_ship_id = ship.id\nWHERE ship.tonnage = 't';",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Observation: rows=11 ('Dantewada, Chhattisgarh', 8, 0), ('Dantewada, Chhattisgarh', 29, 0), ('Dantewada, Chhattisgarh', 3, 0), ('Bastar, Chattisgarh', 0, 0), ('East Champaran, Bihar', 2, 0), ('WestMidnapore, West Bengal', 0, 0), ('Erraboru, Chhattisgarh', 25, 0), ('Dantewada, Chhattisgarh', 0, 0)"
+          },
+          "emptyResponses": 0
+        },
+        "start": {
+          "responses": [
+            "",
+            "SELECT id, name, tonnage FROM ship LIMIT 20;",
+            "SELECT death.killed, death.injured\nFROM death\nJOIN ship ON death.caused_by_ship_id = ship.id\nWHERE ship.tonnage = 't';",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Observation: rows=11 (8, 0), (29, 0), (3, 0), (0, 0), (2, 0), (0, 0), (25, 0), (0, 0)"
+          },
+          "emptyResponses": 1
+        }
+      },
+      "frozenReview": "Check 1: Ensure `ship.tonnage = 't'` is correctly used in WHERE, not HAVING.  \nCheck 2: Verify `death.caused_by_ship_id` matches `ship.id` for join validity.  \nCheck 3: Confirm `death.killed` and `death.injured` are non-NULL for accurate counts."
+    },
+    {
+      "id": "spider-374",
+      "publicQuestion": "Find the first names that are used for professionals or owners but are not used as dog names.",
+      "publicDatabase": "dog_kennels",
+      "trainedReward": -0.18,
+      "startReward": 0.21,
+      "difference": -0.39,
+      "traces": {
+        "trained": {
+          "responses": [
+            "SELECT people.first_name\nFROM (\n    SELECT first_name\n    FROM Owners\n    WHERE first_name IS NOT NULL\n    UNION\n    SELECT first_name\n    FROM Professionals\n    WHERE first_name IS NOT NULL\n) AS people\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Dogs\n    WHERE Dogs.name = people.first_name\n)\nORDER BY people.first_name;",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Observation: rows=30 ('Adelle',), ('Brady',), ('Cindy',), ('Danny',), ('Domenica',), ('Emelie',), ('Ericka',), ('Gay',)"
+          },
+          "emptyResponses": 0
+        },
+        "start": {
+          "responses": [
+            "SELECT DISTINCT p.first_name\nFROM (\n    SELECT first_name\n    FROM Owners\n    WHERE first_name IS NOT NULL\n    UNION\n    SELECT first_name\n    FROM Professionals\n    WHERE first_name IS NOT NULL\n) AS p\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Dogs AS d\n    WHERE d.name = p.first_name\n);",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Observation: rows=30 ('Nora',), ('Melisa',), ('Jaclyn',), ('Tre',), ('Johann',), ('Kade',), ('Emelie',), ('Rolando',)"
+          },
+          "emptyResponses": 0
+        }
+      },
+      "frozenReview": "Check 1: Ensure `Dogs.name` is not a subset of `Owners.first_name` or `Professionals.first_name` via a `NOT IN` subquery.  \nCheck 2: Confirm `Owners.first_name` and `Professionals.first_name` are not `NULL` using `IS NOT NULL`.  \nCheck 3: Use `UNION` to combine `Owners` and `Professionals` first names, then exclude `Dogs.name` with `NOT IN`."
+    },
+    {
+      "id": "spider-569",
+      "publicQuestion": "What is the name of the course with the most students enrolled?",
+      "publicDatabase": "student_transcripts_tracking",
+      "trainedReward": 0.0,
+      "startReward": 1.0,
+      "difference": -1.0,
+      "traces": {
+        "trained": {
+          "responses": [
+            "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON c.course_id = sec.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(sec.student_course_id) DESC\nLIMIT 1;",
+            "SELECT c.course_id, c.course_name,\n       COUNT(*) AS enrollment_rows,\n       COUNT(DISTINCT se.student_id) AS distinct_students\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON c.course_id = sec.course_id\nJOIN Student_Enrolment se ON sec.student_enrolment_id = se.student_enrolment_id\nGROUP BY c.course_id, c.course_name\nORDER BY enrollment_rows DESC, distinct_students DESC;",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Observation: rows=10 (2, 'math', 2, 2), (10, 'ml', 2, 2), (13, 'rs', 2, 2), (14, 'pl', 2, 2), (3, 'os', 1, 1), (4, 'en', 1, 1), (6, 'la', 1, 1), (8, 'nlp', 1, 1)"
+          },
+          "emptyResponses": 0
+        },
+        "start": {
+          "responses": [
+            "",
+            "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON sec.course_id = c.course_id\nJOIN Student_Enrolment se ON se.student_enrolment_id = sec.student_enrolment_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT se.student_id) DESC\nLIMIT 1;",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Observation: rows=1 ('math',)"
+          },
+          "emptyResponses": 1
+        }
+      },
+      "frozenReview": "Check 1: Ensure course_id is the join key between Courses and Student_Enrolment_Courses.  \nCheck 2: Verify that Student_Enrolment_Courses.student_course_id is unique per course.  \nCheck 3: Confirm that Student_Enrolment_Courses.student_course_id is not NULL."
+    },
+    {
+      "id": "spider-703",
+      "publicQuestion": "What is the lowest grade of students who do not have any friends?",
+      "publicDatabase": "network_1",
+      "trainedReward": 0.0,
+      "startReward": 1.0,
+      "difference": -1.0,
+      "traces": {
+        "trained": {
+          "responses": [
+            "",
+            "SELECT MIN(h.grade) FROM Highschooler h WHERE NOT EXISTS (SELECT 1 FROM Friend f WHERE f.student_id = h.ID);",
+            "SELECT \n  (SELECT MIN(grade) FROM Highschooler h WHERE NOT EXISTS (SELECT 1 FROM Friend f WHERE f.student_id = h.ID)) AS min_no_out,\n  (SELECT MIN(grade) FROM Highschooler h WHERE NOT EXISTS (SELECT 1 FROM Friend f WHERE f.student_id = h.ID OR f.friend_id = h.ID)) AS min_no_any,\n  (SELECT MIN(grade) FROM Highschooler h WHERE h.ID NOT IN (SELECT student_id FROM Friend) AND h.ID NOT IN (SELECT friend_id FROM Friend)) AS min_no_both;",
+            "",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Reply with one SQL statement or submit."
+          },
+          "emptyResponses": 2
+        },
+        "start": {
+          "responses": [
+            "SELECT MIN(grade) AS min_grade\nFROM Highschooler\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Friend\n    WHERE Friend.student_id = Highschooler.ID\n       OR Friend.friend_id = Highschooler.ID\n);",
+            "SELECT h.ID, h.name, h.grade,\n       EXISTS(SELECT 1 FROM Friend f WHERE f.student_id = h.ID) AS outbound,\n       EXISTS(SELECT 1 FROM Friend f WHERE f.friend_id = h.ID) AS inbound\nFROM Highschooler h\nORDER BY h.ID;",
+            "SELECT * FROM Friend ORDER BY student_id, friend_id;",
+            "",
+            "SELECT * FROM Highschooler ORDER BY ID;",
+            "SELECT h.ID, h.name, h.grade,\n       (SELECT COUNT(*) FROM Friend f WHERE f.student_id = h.ID) AS out_count,\n       (SELECT COUNT(*) FROM Friend f WHERE f.friend_id = h.ID) AS in_count\nFROM Highschooler h\nORDER BY h.ID;",
+            "SELECT\n  (SELECT MIN(grade) FROM Highschooler h\n   WHERE NOT EXISTS (SELECT 1 FROM Friend f WHERE f.student_id = h.ID)) AS min_no_outgoing,\n  (SELECT MIN(grade) FROM Highschooler h\n   WHERE NOT EXISTS (SELECT 1 FROM Friend f WHERE f.student_id = h.ID OR f.friend_id = h.ID)) AS min_no_any;",
+            "",
+            "SELECT MIN(grade)\nFROM Highschooler\nWHERE ID NOT IN (SELECT student_id FROM Friend);",
+            "submit"
+          ],
+          "lastObservation": {
+            "role": "user",
+            "content": "Observation: rows=1 (10,)"
+          },
+          "emptyResponses": 2
+        }
+      },
+      "frozenReview": "Check 1: Ensure \"Friend\" is correctly joined on both student_id and friend_id to exclude students with any friends.  \nCheck 2: Verify that the WHERE clause correctly filters out students with any friends using Friend.student_id.  \nCheck 3: Confirm that the MIN() function is applied to the \"grade\" column after filtering out students with friends."
+    }
+  ]
+}

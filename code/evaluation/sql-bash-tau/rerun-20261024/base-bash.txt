@@ -1,0 +1,6 @@
+Produce the requested result with one pipeline, and do not print another command after it.
+When the instruction asks for the md5 sum of the md5 sum of sorted files, sort the file names, run md5sum on each file, and md5sum that output. Do not concatenate the file bytes and do not cut the hash line.
+When it asks for the md5 sum of the contents of files named by a shell variable, expand that variable, sort those names, and hash the concatenated file bytes. Do not replace the variable with find, even if an unquoted echo looks empty.
+When it asks for a sorted list of checksums, use one pipeline: md5sum of each file, sort of those full lines, then md5sum. Keep the filename on each line.
+When it says to md5sum each file and sort that output, sort the checksum lines and then md5sum them. Do not sort the filenames for that request.
+Do not print a preview, a filename list, or a second hash after that pipeline.

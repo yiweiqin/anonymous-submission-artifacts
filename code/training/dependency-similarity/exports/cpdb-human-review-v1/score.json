@@ -1,0 +1,333 @@
+{
+  "scoredAt": "2026-09-20T11:13:56.348Z",
+  "dir": "artifact\\experiments\\cpdb_org_world\\exports\\cpdb-human-review-v1",
+  "simulated": null,
+  "annotators": [
+    "cursor-grok"
+  ],
+  "cardCount": 41,
+  "answeredCount": 41,
+  "unansweredCount": 0,
+  "problems": [],
+  "byGroup": [
+    {
+      "group": "agreement_control",
+      "n": 6,
+      "axes": {
+        "dependency": {
+          "n": 6,
+          "teacher": {
+            "n": 6,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          },
+          "ai": {
+            "n": 6,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          }
+        },
+        "similarity": {
+          "n": 6,
+          "teacher": {
+            "n": 6,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          },
+          "ai": {
+            "n": 6,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          }
+        }
+      }
+    },
+    {
+      "group": "cross_family_dependency_opposed",
+      "n": 5,
+      "axes": {
+        "dependency": {
+          "n": 5,
+          "teacher": {
+            "n": 5,
+            "exact": 0.8,
+            "within25": 0.8,
+            "mae": 0.1,
+            "qwk": 0.5454545454545454
+          },
+          "ai": {
+            "n": 5,
+            "exact": 0,
+            "within25": 0.2,
+            "mae": 0.65,
+            "qwk": 0.1148325358851674
+          }
+        },
+        "similarity": {
+          "n": 5,
+          "teacher": {
+            "n": 5,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          },
+          "ai": {
+            "n": 5,
+            "exact": 0,
+            "within25": 0,
+            "mae": 0.55,
+            "qwk": 0
+          }
+        }
+      }
+    },
+    {
+      "group": "cross_family_similarity_ai_high",
+      "n": 6,
+      "axes": {
+        "dependency": {
+          "n": 6,
+          "teacher": {
+            "n": 6,
+            "exact": 0.6666666666666666,
+            "within25": 0.6666666666666666,
+            "mae": 0.20833333333333334,
+            "qwk": 0.2909090909090909
+          },
+          "ai": {
+            "n": 6,
+            "exact": 0.16666666666666666,
+            "within25": 0.3333333333333333,
+            "mae": 0.4583333333333333,
+            "qwk": -2.220446049250313e-16
+          }
+        },
+        "similarity": {
+          "n": 6,
+          "teacher": {
+            "n": 6,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          },
+          "ai": {
+            "n": 6,
+            "exact": 0,
+            "within25": 0,
+            "mae": 0.5,
+            "qwk": 0
+          }
+        }
+      }
+    },
+    {
+      "group": "same_family_agree_similarity",
+      "n": 4,
+      "axes": {
+        "dependency": {
+          "n": 4,
+          "teacher": {
+            "n": 4,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          },
+          "ai": {
+            "n": 4,
+            "exact": 0,
+            "within25": 0,
+            "mae": 0.8125,
+            "qwk": 0
+          }
+        },
+        "similarity": {
+          "n": 4,
+          "teacher": {
+            "n": 4,
+            "exact": 0.5,
+            "within25": 1,
+            "mae": 0.125,
+            "qwk": 0
+          },
+          "ai": {
+            "n": 4,
+            "exact": 0.25,
+            "within25": 1,
+            "mae": 0.1875,
+            "qwk": 0.25
+          }
+        }
+      }
+    },
+    {
+      "group": "same_family_dependency_opposed",
+      "n": 12,
+      "axes": {
+        "dependency": {
+          "n": 12,
+          "teacher": {
+            "n": 12,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          },
+          "ai": {
+            "n": 12,
+            "exact": 0,
+            "within25": 0,
+            "mae": 0.6875,
+            "qwk": 0
+          }
+        },
+        "similarity": {
+          "n": 12,
+          "teacher": {
+            "n": 12,
+            "exact": 0.25,
+            "within25": 1,
+            "mae": 0.1875,
+            "qwk": 0
+          },
+          "ai": {
+            "n": 12,
+            "exact": 0.8333333333333334,
+            "within25": 1,
+            "mae": 0.041666666666666664,
+            "qwk": 0.4285714285714285
+          }
+        }
+      }
+    },
+    {
+      "group": "same_family_similarity_ai_low",
+      "n": 8,
+      "axes": {
+        "dependency": {
+          "n": 8,
+          "teacher": {
+            "n": 8,
+            "exact": 1,
+            "within25": 1,
+            "mae": 0,
+            "qwk": 1
+          },
+          "ai": {
+            "n": 8,
+            "exact": 0,
+            "within25": 0,
+            "mae": 0.5,
+            "qwk": 0
+          }
+        },
+        "similarity": {
+          "n": 8,
+          "teacher": {
+            "n": 8,
+            "exact": 0,
+            "within25": 1,
+            "mae": 0.25,
+            "qwk": 0
+          },
+          "ai": {
+            "n": 8,
+            "exact": 0,
+            "within25": 1,
+            "mae": 0.25,
+            "qwk": 0
+          }
+        }
+      }
+    }
+  ],
+  "overall": {
+    "dependency": {
+      "n": 41,
+      "teacher": {
+        "n": 41,
+        "exact": 0.926829268292683,
+        "within25": 0.926829268292683,
+        "mae": 0.042682926829268296,
+        "qwk": 0.6010303377218088
+      },
+      "ai": {
+        "n": 41,
+        "exact": 0.17073170731707318,
+        "within25": 0.21951219512195122,
+        "mae": 0.524390243902439,
+        "qwk": 0.07572254335260131
+      }
+    },
+    "similarity": {
+      "n": 41,
+      "teacher": {
+        "n": 41,
+        "exact": 0.5365853658536586,
+        "within25": 1,
+        "mae": 0.11585365853658537,
+        "qwk": 0.8740501212611156
+      },
+      "ai": {
+        "n": 41,
+        "exact": 0.4146341463414634,
+        "within25": 0.7317073170731707,
+        "mae": 0.21951219512195122,
+        "qwk": 0.3515306122448978
+      }
+    }
+  },
+  "decisive": {
+    "groupsUsed": [
+      "same_family_dependency_opposed",
+      "same_family_similarity_ai_low",
+      "cross_family_dependency_opposed"
+    ],
+    "perAxis": {
+      "dependency": {
+        "n": 25,
+        "teacherQwk": 0.5901639344262295,
+        "aiQwk": 0.04929577464788726,
+        "closerTo": "teacher"
+      },
+      "similarity": {
+        "n": 25,
+        "teacherQwk": 0.7521865889212828,
+        "aiQwk": -0.18083670715249656,
+        "closerTo": "teacher"
+      }
+    }
+  },
+  "policyAnswers": [
+    {
+      "id": "same_family_is_sufficient_for_similarity",
+      "text": "同一个主职能（family）的两个 Agent，只要细节能力（facet）不同，作为「最小改动替换」的代价是否应当**都一样**？",
+      "note": "答 true = 主职能已是充分变量，同职能同分；答 false = 细节能力需要单独计入。",
+      "answer": false
+    },
+    {
+      "id": "same_family_dependency_always_zero",
+      "text": "同一个主职能的两个 Agent，左方的产出是否**不可能**成为右方的有效输入（因为它们是替代关系而非上下游）？",
+      "note": "答 true = 同职能依赖分恒为 0。",
+      "answer": true
+    },
+    {
+      "id": "cross_family_similarity_always_zero",
+      "text": "不同主职能的两个 Agent，是否**都不可能**互为好的替换？",
+      "note": "答 true = 跨职能相似度恒为 0。",
+      "answer": true
+    }
+  ],
+  "policyNotes": "主职能决定能不能顶替、是不是上下游：同职能不串联故依赖分恒为 0，跨职能换上去等于换了事故相似度恒为 0。但同职能内部替换代价并不都一样，细节能力（facet）仍要单独计入相似度（近的门禁/来源质量给 0.75，远的体裁或操作给 0.5）。跨职能只在产出口径对得上且任务相同时才给依赖分。",
+  "readingHint": "看 decisive.perAxis：qwk 差值绝对值 < 0.05 时 closerTo 不值得当结论，应回到 policy.json 的三个判断题。"
+}

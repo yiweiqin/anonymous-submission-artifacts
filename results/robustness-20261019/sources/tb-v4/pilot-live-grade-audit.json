@@ -1,0 +1,2642 @@
+{
+  "allPassed": false,
+  "receipts": 126,
+  "evidence": [
+    {
+      "task": "cancel-async-tasks",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-cancel-async-tasks-control-1792370432038653105",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cancel-async-tasks-control-1792370432038653105/cancel-async-tasks__rtr5UHN/result.json",
+          "sha256": "dd187c4a2676f022e7830c1b24c6e6d8f7ab601fb4dcfcdd6a4950946ae156b2",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cancel-async-tasks-control-1792370432038653105/cancel-async-tasks__rtr5UHN/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "cancel-async-tasks",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-cancel-async-tasks-trained-1792370502286995201",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cancel-async-tasks-trained-1792370502286995201/cancel-async-tasks__EpmGuiw/result.json",
+          "sha256": "f7f0eda8e5e08c27f9040a9d5e4bc3241f16566a66ca395f707f2cf64bb6b705",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cancel-async-tasks-trained-1792370502286995201/cancel-async-tasks__EpmGuiw/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "fix-code-vulnerability",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-fix-code-vulnerability-control-1792370579679927629",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-code-vulnerability-control-1792370579679927629/fix-code-vulnerability__QTHj3em/result.json",
+          "sha256": "cf28e44adfe87ed8ffbc514e81269d516cf8a9ae22d61aa6043a14a94b739ebb",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-code-vulnerability-control-1792370579679927629/fix-code-vulnerability__QTHj3em/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "fix-code-vulnerability",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-fix-code-vulnerability-trained-1792370626767827905",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-code-vulnerability-trained-1792370626767827905/fix-code-vulnerability__zMM2fen/result.json",
+          "sha256": "9b243521f7e1f4a2b8e551f9ea20f53b48d0bdb0492e99c171ccaaf2179f0eda",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-code-vulnerability-trained-1792370626767827905/fix-code-vulnerability__zMM2fen/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "dna-assembly",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-dna-assembly-control-1792370433298781798",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-dna-assembly-control-1792370433298781798/dna-assembly__Rf8iRrs/result.json",
+          "sha256": "13554ba4b9ee076e4c05d2354ea0a79cc491efa6a5347c1379c576214aecb480",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-dna-assembly-control-1792370433298781798/dna-assembly__Rf8iRrs/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "dna-assembly",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-dna-assembly-trained-1792370974026553355",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-dna-assembly-trained-1792370974026553355/dna-assembly__NcyDVQu/result.json",
+          "sha256": "4560aaa286e949a573285d82306b65b32e3a8f3cedd93f633b219275f6eff60d",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-dna-assembly-trained-1792370974026553355/dna-assembly__NcyDVQu/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "large-scale-text-editing",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-large-scale-text-editing-control-1792370708895326037",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-large-scale-text-editing-control-1792370708895326037/large-scale-text-editing__47PGdz6/result.json",
+          "sha256": "8ce3a8b6085dc4cb34043657770d58dc1e2c9ed6f0e8d6c566e09e8598b3327b",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-large-scale-text-editing-control-1792370708895326037/large-scale-text-editing__47PGdz6/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "large-scale-text-editing",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-large-scale-text-editing-trained-1792371655160833396",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-large-scale-text-editing-trained-1792371655160833396/large-scale-text-editing__3RzhMLd/result.json",
+          "sha256": "b5b391bf6a80013a7e328f5dea1a135299f457d0a2c6257abf6af0e88cd5a2ca",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-large-scale-text-editing-trained-1792371655160833396/large-scale-text-editing__3RzhMLd/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "sqlite-with-gcov",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-sqlite-with-gcov-control-1792371202808995726",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-with-gcov-control-1792371202808995726/sqlite-with-gcov__3KWjay8/result.json",
+          "sha256": "b0ea7e8fbcd4645db9a33ff380e66f22bb7facfb822a74380ba19fb7a07b1dfb",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-with-gcov-control-1792371202808995726/sqlite-with-gcov__3KWjay8/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "sqlite-with-gcov",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-sqlite-with-gcov-trained-1792372396422868014",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-with-gcov-trained-1792372396422868014/sqlite-with-gcov__F3shY89/result.json",
+          "sha256": "95663c9f0b34a75cc78521a25ba9150d2a760334228e5a137ea69f5eb67bd5ea",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-with-gcov-trained-1792372396422868014/sqlite-with-gcov__F3shY89/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "model-extraction-relu-logits",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-model-extraction-relu-logits-trained-1792372244627678525",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-model-extraction-relu-logits-trained-1792372244627678525/model-extraction-relu-logits__hFTLmyN/result.json",
+          "sha256": "03a7c2f5fddcf6ddcad45ca2c9a25dbfc909b2791e704e464ef946e709dac1de",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-model-extraction-relu-logits-trained-1792372244627678525/model-extraction-relu-logits__hFTLmyN/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "model-extraction-relu-logits",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-model-extraction-relu-logits-control-1792372698740072664",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-model-extraction-relu-logits-control-1792372698740072664/model-extraction-relu-logits__csJSC4h/result.json",
+          "sha256": "002e0b4dcc263bf1087d9a3102ba46afc8ec1c1eb7c4c62b7ee5ce3c74c51b9e",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-model-extraction-relu-logits-control-1792372698740072664/model-extraction-relu-logits__csJSC4h/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "multi-source-data-merger",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-multi-source-data-merger-trained-1792372578529230495",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-multi-source-data-merger-trained-1792372578529230495/multi-source-data-merger__LsrQ3mF/result.json",
+          "sha256": "ef3b8a98b1bfe0f7dc8a9bdb48aa83058575e1aadc71505c101d31845b74d221",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-multi-source-data-merger-trained-1792372578529230495/multi-source-data-merger__LsrQ3mF/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "multi-source-data-merger",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-multi-source-data-merger-control-1792373116167588241",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-multi-source-data-merger-control-1792373116167588241/multi-source-data-merger__onGeUH9/result.json",
+          "sha256": "a9ac54b5b1e6821bcf443d7548bb7b390427242d383e0666c9f511d9a668a2dd",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-multi-source-data-merger-control-1792373116167588241/multi-source-data-merger__onGeUH9/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "mteb-retrieve",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-mteb-retrieve-control-1792373114167079049",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mteb-retrieve-control-1792373114167079049/mteb-retrieve__YNZz7dz/result.json",
+          "sha256": "311e64354a1da55dab1b13f8b5cbaa107ecc81f5ee4db92d0a9633d2e7d2a06e",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mteb-retrieve-control-1792373114167079049/mteb-retrieve__YNZz7dz/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "mteb-retrieve",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-mteb-retrieve-trained-1792373466581115243",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mteb-retrieve-trained-1792373466581115243/mteb-retrieve__39kaD7H/result.json",
+          "sha256": "860f11f02b73d74de4a6b22d162b179717861c40c1285f7a343ee9e33d7ba995",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mteb-retrieve-trained-1792373466581115243/mteb-retrieve__39kaD7H/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "custom-memory-heap-crash",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-custom-memory-heap-crash-control-1792373357289254662",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-custom-memory-heap-crash-control-1792373357289254662/custom-memory-heap-crash__Gt9MuWA/result.json",
+          "sha256": "0b254b39e9108171c5748e525ba9be7d3a5907374767cba958b1b5cc016bc9ae",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-custom-memory-heap-crash-control-1792373357289254662/custom-memory-heap-crash__Gt9MuWA/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "custom-memory-heap-crash",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-custom-memory-heap-crash-trained-1792373952770873084",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-custom-memory-heap-crash-trained-1792373952770873084/custom-memory-heap-crash__LzCafT2/result.json",
+          "sha256": "80393d8c9d0b51c99ab30b34c7cb0893425a97627b1b3c6434a8d4afd538220d",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-custom-memory-heap-crash-trained-1792373952770873084/custom-memory-heap-crash__LzCafT2/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "distribution-search",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-distribution-search-control-1792373819390072482",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-distribution-search-control-1792373819390072482/distribution-search__eWQbiV6/result.json",
+          "sha256": "7eec7ab52d625eadc24b935eff44cbe35617db4da345ea23ed9818f30e04543d",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-distribution-search-control-1792373819390072482/distribution-search__eWQbiV6/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "distribution-search",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-distribution-search-trained-1792374331092851792",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-distribution-search-trained-1792374331092851792/distribution-search__ecpJKG6/result.json",
+          "sha256": "14e3b1e7477493a8fd132b937a0c76aee6a1ddf75441cd0acb902249280007c6",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-distribution-search-trained-1792374331092851792/distribution-search__ecpJKG6/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "count-dataset-tokens",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-count-dataset-tokens-control-1792374209587269339",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-count-dataset-tokens-control-1792374209587269339/count-dataset-tokens__cWH6qRb/result.json",
+          "sha256": "1b59935daab99c1c6c005c598d810bbc96179e9717cf89ce4320652e046422e4",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-count-dataset-tokens-control-1792374209587269339/count-dataset-tokens__cWH6qRb/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "count-dataset-tokens",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-count-dataset-tokens-trained-1792375026270395996",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-count-dataset-tokens-trained-1792375026270395996/count-dataset-tokens__eQJDgpn/result.json",
+          "sha256": "a5c5512aeb972594ef03128267383e048d63b0ad61a4fabab4583d4c8283f9c2",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-count-dataset-tokens-trained-1792375026270395996/count-dataset-tokens__eQJDgpn/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "sparql-university",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-sparql-university-trained-1792374425955189945",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sparql-university-trained-1792374425955189945/sparql-university__RirqVTn/result.json",
+          "sha256": "4802f2454fdc74c4fb777df9f99e12f2a2169f16963e64603e18b14c2913a187",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sparql-university-trained-1792374425955189945/sparql-university__RirqVTn/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "sparql-university",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-sparql-university-control-1792375321118998625",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sparql-university-control-1792375321118998625/sparql-university__AwyB75h/result.json",
+          "sha256": "f05f6fcff7f1d59623aa31c015a1fae1f2a55380980e4ddc108961f55d6f3461",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sparql-university-control-1792375321118998625/sparql-university__AwyB75h/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "sanitize-git-repo",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-sanitize-git-repo-control-1792375937772909665",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sanitize-git-repo-control-1792375937772909665/sanitize-git-repo__xtaPMcM/result.json",
+          "sha256": "ee158ec90ee0f57653c4b74e9b27673ab74a5f9e1e0c7d7706366e13360042a9",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sanitize-git-repo-control-1792375937772909665/sanitize-git-repo__xtaPMcM/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "sanitize-git-repo",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-sanitize-git-repo-trained-1792376010173232364",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sanitize-git-repo-trained-1792376010173232364/sanitize-git-repo__cgqzDTn/result.json",
+          "sha256": "3a7b3d15cadc74e5878658d2a593bd4c66a542f1b47a710bd65a32c51cbd8d15",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sanitize-git-repo-trained-1792376010173232364/sanitize-git-repo__cgqzDTn/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "code-from-image",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-code-from-image-trained-1792376088562469452",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-code-from-image-trained-1792376088562469452/code-from-image__NdBSioY/result.json",
+          "sha256": "e92908201f2f020805eb6134390b30761213630b12d276332b46c30f2e3eabbe",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-code-from-image-trained-1792376088562469452/code-from-image__NdBSioY/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "code-from-image",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-code-from-image-control-1792376307701721228",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-code-from-image-control-1792376307701721228/code-from-image__NM3NUEG/result.json",
+          "sha256": "1e4ee8f1cceba613aba6c5265ef990c5d38947d817feb1a2c9982a4dcd2bdf92",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-code-from-image-control-1792376307701721228/code-from-image__NM3NUEG/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "feal-linear-cryptanalysis",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-feal-linear-cryptanalysis-trained-1792375948710486497",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-linear-cryptanalysis-trained-1792375948710486497/feal-linear-cryptanalysis__n2TeBte/result.json",
+          "sha256": "9b6a45f7eb196e1e9bc5a972671703ecf7dc145873352ab0692fe4f601192e24",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-linear-cryptanalysis-trained-1792375948710486497/feal-linear-cryptanalysis__n2TeBte/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "feal-linear-cryptanalysis",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-feal-linear-cryptanalysis-control-1792376764175320813",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-linear-cryptanalysis-control-1792376764175320813/feal-linear-cryptanalysis__jGVFQeV/result.json",
+          "sha256": "ba125090f64d57c118bdf5c92a29d9a2fd9a07ec2d3fa8dc0bff10775f880189",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-linear-cryptanalysis-control-1792376764175320813/feal-linear-cryptanalysis__jGVFQeV/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "schemelike-metacircular-eval",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-schemelike-metacircular-eval-control-1792376675416730840",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-schemelike-metacircular-eval-control-1792376675416730840/schemelike-metacircular-eval__Do5WU3S/result.json",
+          "sha256": "a99218784fa794605f74dce77d796cf55686c5e923e87d6987e0e29a866581fb",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-schemelike-metacircular-eval-control-1792376675416730840/schemelike-metacircular-eval__Do5WU3S/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "schemelike-metacircular-eval",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-schemelike-metacircular-eval-trained-1792377202339463928",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-schemelike-metacircular-eval-trained-1792377202339463928/schemelike-metacircular-eval__uH2jZgz/result.json",
+          "sha256": "e76d0dad011b2ea05d6e1e69e03e40d7959711d66a9885eafd14e47ae372c088",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-schemelike-metacircular-eval-trained-1792377202339463928/schemelike-metacircular-eval__uH2jZgz/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "extract-elf",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-extract-elf-control-1792376985754257055",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-elf-control-1792376985754257055/extract-elf__SzhQMgK/result.json",
+          "sha256": "18be922c653f113b0d780d173abf3c0b603b41ccb8bdea4c82ee0649bb03a73b",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-elf-control-1792376985754257055/extract-elf__SzhQMgK/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "extract-elf",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-extract-elf-trained-1792377551360481586",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-elf-trained-1792377551360481586/extract-elf__7tARu5c/result.json",
+          "sha256": "54131f25aa901fee1abb527499a6259c213456d7e67a62b77f9de1a71b47196a",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-elf-trained-1792377551360481586/extract-elf__7tARu5c/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "git-multibranch",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-git-multibranch-trained-1792377471166799927",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-multibranch-trained-1792377471166799927/git-multibranch__KeqWydn/result.json",
+          "sha256": "d47c081ea76878b00e3c68c425a961433f296ddcd2c8faf9758fbcc613c1ca76",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-multibranch-trained-1792377471166799927/git-multibranch__KeqWydn/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "git-multibranch",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-git-multibranch-control-1792377834762522826",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-multibranch-control-1792377834762522826/git-multibranch__RnTe9A9/result.json",
+          "sha256": "ac3f399546fd289ff2cee7717d8957615e4e4bf3985ffbffb95cd6bf794a6782",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-multibranch-control-1792377834762522826/git-multibranch__RnTe9A9/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "polyglot-rust-c",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-polyglot-rust-c-trained-1792377742337647487",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-rust-c-trained-1792377742337647487/polyglot-rust-c__w3k3VUq/result.json",
+          "sha256": "2ca5bf9e12498cf1b13c292cc5dddc7507c56d444e42b79054dee726bcaff54f",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-rust-c-trained-1792377742337647487/polyglot-rust-c__w3k3VUq/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "polyglot-rust-c",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-polyglot-rust-c-control-1792378241459271613",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-rust-c-control-1792378241459271613/polyglot-rust-c__5dzZdLG/result.json",
+          "sha256": "14a8ef8fdec257b1d98f0b937d1e159c6977527263cf2e0d439c75215a2cfa7f",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-rust-c-control-1792378241459271613/polyglot-rust-c__5dzZdLG/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "break-filter-js-from-html",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-break-filter-js-from-html-control-1792378054699591809",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-break-filter-js-from-html-control-1792378054699591809/break-filter-js-from-html__3VzPXeA/result.json",
+          "sha256": "c3f7173919d0a7df078be06096ea24ddbe1bc01e9508c69c79b0856d324a7ef1",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-break-filter-js-from-html-control-1792378054699591809/break-filter-js-from-html__3VzPXeA/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "break-filter-js-from-html",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-break-filter-js-from-html-trained-1792378611206184708",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-break-filter-js-from-html-trained-1792378611206184708/break-filter-js-from-html__3QQ9vMD/result.json",
+          "sha256": "0269fb4363d186f4751cd152beaa8209bcfbec7d5c88a5e7eafb2e80bad73ed7",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-break-filter-js-from-html-trained-1792378611206184708/break-filter-js-from-html__3QQ9vMD/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "largest-eigenval",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-largest-eigenval-control-1792378419921232596",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-largest-eigenval-control-1792378419921232596/largest-eigenval__ryUVHdP/result.json",
+          "sha256": "41f1a6a73dae78dc748ea37636e7146600d4e257b7ac5c3d0977ef34da9531a8",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-largest-eigenval-control-1792378419921232596/largest-eigenval__ryUVHdP/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "largest-eigenval",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-largest-eigenval-trained-1792379106379061227",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-largest-eigenval-trained-1792379106379061227/largest-eigenval__FEaocQo/result.json",
+          "sha256": "dd268b3183613d5eef46f9994b0a67afa9db8e74ba348170b08cbee023f0061f",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-largest-eigenval-trained-1792379106379061227/largest-eigenval__FEaocQo/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "prove-plus-comm",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-prove-plus-comm-trained-1792378851228410421",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-prove-plus-comm-trained-1792378851228410421/prove-plus-comm__NL7Byxi/result.json",
+          "sha256": "270a926e807dee963c1d62696a783cb71d7cfc0b1b72c995278ff2a9b1615608",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-prove-plus-comm-trained-1792378851228410421/prove-plus-comm__NL7Byxi/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "prove-plus-comm",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-prove-plus-comm-control-1792379271944479063",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-prove-plus-comm-control-1792379271944479063/prove-plus-comm__nNfLCiD/result.json",
+          "sha256": "39a7cc4694e7322877079af82046bdc31574cf3f0d0478f7c18fe747d6b30981",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-prove-plus-comm-control-1792379271944479063/prove-plus-comm__nNfLCiD/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "password-recovery",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-password-recovery-control-1792379234570115694",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-password-recovery-control-1792379234570115694/password-recovery__SEmsV2G/result.json",
+          "sha256": "9e3dcccece4701e3c6d5a07b7ddbd15b343ee75715dc82e66fe297c9e4883308",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-password-recovery-control-1792379234570115694/password-recovery__SEmsV2G/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "password-recovery",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-password-recovery-trained-1792379439042854923",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-password-recovery-trained-1792379439042854923/password-recovery__Nq3RtmE/result.json",
+          "sha256": "ad21ff4afc51ecd8eec3f370b0b43af7e7e3ad5e504782e55f503070ad6453ff",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-password-recovery-trained-1792379439042854923/password-recovery__Nq3RtmE/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "make-doom-for-mips",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-make-doom-for-mips-control-1792379331559604487",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-doom-for-mips-control-1792379331559604487/make-doom-for-mips__Y9Q356e/result.json",
+          "sha256": "be4177bf74072288fb00d3e7e1171573dd0a5973620b741583b1beb6765eb4a1",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-doom-for-mips-control-1792379331559604487/make-doom-for-mips__Y9Q356e/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "make-doom-for-mips",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-make-doom-for-mips-trained-1792379895923484787",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-doom-for-mips-trained-1792379895923484787/make-doom-for-mips__bLTFciu/result.json",
+          "sha256": "aad9601fe90b3264427638dbc428a73b0424204873df5ce7a1dada5cccfd93f9",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-doom-for-mips-trained-1792379895923484787/make-doom-for-mips__bLTFciu/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "make-mips-interpreter",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-make-mips-interpreter-control-1792379724834538078",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-mips-interpreter-control-1792379724834538078/make-mips-interpreter__aH2c7bM/result.json",
+          "sha256": "4dc07480383230104219953771c014b75deb3cf416ee6d8887d276155b8a592d",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-mips-interpreter-control-1792379724834538078/make-mips-interpreter__aH2c7bM/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "make-mips-interpreter",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-make-mips-interpreter-trained-1792380385193612249",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-mips-interpreter-trained-1792380385193612249/make-mips-interpreter__spKCrcy/result.json",
+          "sha256": "07fbbd767731b8a33314842d2ab1080b3de7e3e6e327a11c37058d0302ef69ce",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-mips-interpreter-trained-1792380385193612249/make-mips-interpreter__spKCrcy/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "pytorch-model-recovery",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-pytorch-model-recovery-trained-1792380215224016853",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-pytorch-model-recovery-trained-1792380215224016853/pytorch-model-recovery__CHVg6W5/result.json",
+          "sha256": "860cb986f5fe565fb79a868d7d8c905e631486739d9eced30a86ddfd98a7a823",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-pytorch-model-recovery-trained-1792380215224016853/pytorch-model-recovery__CHVg6W5/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "pytorch-model-recovery",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-pytorch-model-recovery-control-1792380849019928525",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-pytorch-model-recovery-control-1792380849019928525/pytorch-model-recovery__F3wUBrk/result.json",
+          "sha256": "6881b25634976cf0277e25c9e5395068c0825227934a3cc478274ddc8d242fee",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-pytorch-model-recovery-control-1792380849019928525/pytorch-model-recovery__F3wUBrk/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "mailman",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-mailman-trained-1792380654339852886",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mailman-trained-1792380654339852886/mailman__cyowH3p/result.json",
+          "sha256": "914ada2158266f7d89cff850adaa05389a28fdf63a425fdf0ceb8c13989d80d9",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mailman-trained-1792380654339852886/mailman__cyowH3p/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "mailman",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-mailman-control-1792381408212554825",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mailman-control-1792381408212554825/mailman__XjgLnty/result.json",
+          "sha256": "7df57dd005a711afbcb8eba9b23e7d8c984c8f2b4f35b9d7b9f4395f6baa31c5",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mailman-control-1792381408212554825/mailman__XjgLnty/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "winning-avg-corewars",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-winning-avg-corewars-trained-1792381103741976941",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-winning-avg-corewars-trained-1792381103741976941/winning-avg-corewars__WTRiBCJ/result.json",
+          "sha256": "d0aa61a16aa484490ace92cdbc38f96bd51acb2e535939bae08dfc28bf72d348",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-winning-avg-corewars-trained-1792381103741976941/winning-avg-corewars__WTRiBCJ/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "winning-avg-corewars",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-winning-avg-corewars-control-1792381994241395109",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-winning-avg-corewars-control-1792381994241395109/winning-avg-corewars__PNXT3VH/result.json",
+          "sha256": "d4de63a90a88c6cebd92b8615c971a1c0df6495ea620ee7e1101df9c7ca2014a",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-winning-avg-corewars-control-1792381994241395109/winning-avg-corewars__PNXT3VH/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "constraints-scheduling",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-constraints-scheduling-control-1792381658734453353",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-constraints-scheduling-control-1792381658734453353/constraints-scheduling__uNsFdro/result.json",
+          "sha256": "a9f627daa23a0b77bf61430c3b875faf21c64a3f741661a3239b401ab719d9c4",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-constraints-scheduling-control-1792381658734453353/constraints-scheduling__uNsFdro/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "constraints-scheduling",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-constraints-scheduling-trained-1792382313495474747",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-constraints-scheduling-trained-1792382313495474747/constraints-scheduling__bUpvZef/result.json",
+          "sha256": "4429db3b7e4ba70cf5b3a51a4d4d1ed16d6714ac294983bec275bb6ba739d0e9",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-constraints-scheduling-trained-1792382313495474747/constraints-scheduling__bUpvZef/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "build-pov-ray",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-build-pov-ray-control-1792382240042582173",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pov-ray-control-1792382240042582173/build-pov-ray__RvHY5Y7/result.json",
+          "sha256": "5a1958b8c3b4e7227fff35c86ed77fc6ee869b10ad8ad65fb3230c29633c4177",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pov-ray-control-1792382240042582173/build-pov-ray__RvHY5Y7/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "build-pov-ray",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-build-pov-ray-trained-1792382507001781393",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pov-ray-trained-1792382507001781393/build-pov-ray__RwwNBhy/result.json",
+          "sha256": "8127b9dc091e29228fe1ad777fbbd91711a5887d76d5a9a6de21595ebc0564f9",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pov-ray-trained-1792382507001781393/build-pov-ray__RwwNBhy/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "llm-inference-batching-scheduler",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-llm-inference-batching-scheduler-control-1792382801018704932",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-llm-inference-batching-scheduler-control-1792382801018704932/llm-inference-batching-scheduler__zPJiBHu/result.json",
+          "sha256": "8fff2d9e1fd6ba4234e1f07f24047fb430cafc6ee5336b6a57907db08d5fdbf6",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-llm-inference-batching-scheduler-control-1792382801018704932/llm-inference-batching-scheduler__zPJiBHu/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "llm-inference-batching-scheduler",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-llm-inference-batching-scheduler-trained-1792383109818788661",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-llm-inference-batching-scheduler-trained-1792383109818788661/llm-inference-batching-scheduler__THhTEWN/result.json",
+          "sha256": "352dd1aa8b004a8eecc1658d043af7434471916761f74ecd837449909df69888",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-llm-inference-batching-scheduler-trained-1792383109818788661/llm-inference-batching-scheduler__THhTEWN/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "query-optimize",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-query-optimize-trained-1792382371147553390",
+      "passed": false,
+      "officialResults": [],
+      "officialRewardFiles": []
+    },
+    {
+      "task": "headless-terminal",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-headless-terminal-control-1792383215899536744",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-headless-terminal-control-1792383215899536744/headless-terminal__Z7ZpRtm/result.json",
+          "sha256": "f18f9453d37d85f90d8c4e36030dc9a788350aaebb11b30931611d6697e1919f",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-headless-terminal-control-1792383215899536744/headless-terminal__Z7ZpRtm/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "headless-terminal",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-headless-terminal-trained-1792385353110228474",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-headless-terminal-trained-1792385353110228474/headless-terminal__Y6uheQP/result.json",
+          "sha256": "98db1befecadaa39797631dde40c1f41390ab09aea75ae7d6a4a381fa05f82a0",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-headless-terminal-trained-1792385353110228474/headless-terminal__Y6uheQP/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "cobol-modernization",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-cobol-modernization-control-1792385259829407528",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cobol-modernization-control-1792385259829407528/cobol-modernization__HNQtQKA/result.json",
+          "sha256": "3ee0a232661a17bff49c4b17a85884b4f0090a7b9dbf155f2017688b72e3582a",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cobol-modernization-control-1792385259829407528/cobol-modernization__HNQtQKA/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "cobol-modernization",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-cobol-modernization-trained-1792385583284936659",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cobol-modernization-trained-1792385583284936659/cobol-modernization__3xBhKVZ/result.json",
+          "sha256": "02ba63a250d13cd4afd3fb08319f81f56c0af2f5a1463f84e2fa85f2a33454cb",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cobol-modernization-trained-1792385583284936659/cobol-modernization__3xBhKVZ/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "path-tracing",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-path-tracing-trained-1792385475225462055",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-trained-1792385475225462055/path-tracing__Bra6GsV/result.json",
+          "sha256": "b60a0819470cea31832b3f62d872bcc2b977b5cd97faf2832cb14cb06e82ae62",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-trained-1792385475225462055/path-tracing__Bra6GsV/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "path-tracing",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-path-tracing-control-1792385807940557787",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-control-1792385807940557787/path-tracing__yCHkMXK/result.json",
+          "sha256": "a4a0ccfc119f25c26ff025e82e2a7b7f830a3802cf0252148268d7756c2a15a9",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-control-1792385807940557787/path-tracing__yCHkMXK/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "adaptive-rejection-sampler",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-adaptive-rejection-sampler-trained-1792385672458656146",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-adaptive-rejection-sampler-trained-1792385672458656146/adaptive-rejection-sampler__coosAYX/result.json",
+          "sha256": "5955b6fd7d7b5db9b69816bc4df1b2f47f5b083505b5edec30de526c436fe9a6",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-adaptive-rejection-sampler-trained-1792385672458656146/adaptive-rejection-sampler__coosAYX/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "adaptive-rejection-sampler",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-adaptive-rejection-sampler-control-1792386244419711321",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-adaptive-rejection-sampler-control-1792386244419711321/adaptive-rejection-sampler__KtGTLDz/result.json",
+          "sha256": "4fc0f046277bc1b1357a398e555ebcd6ba55109d76b8a704e32bee9554844a4a",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-adaptive-rejection-sampler-control-1792386244419711321/adaptive-rejection-sampler__KtGTLDz/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "chess-best-move",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-chess-best-move-control-1792386010881604708",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-chess-best-move-control-1792386010881604708/chess-best-move__FBtngFu/result.json",
+          "sha256": "dd6153281708083dd67c8b375d23d9223c808234097fecac18a5ac5783d2771d",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-chess-best-move-control-1792386010881604708/chess-best-move__FBtngFu/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "chess-best-move",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-chess-best-move-trained-1792386671719971767",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-chess-best-move-trained-1792386671719971767/chess-best-move__yVcw9oK/result.json",
+          "sha256": "4bbb273def929dc45594c5495b2161c4914fcf5d405a79bcd2a467ac17f7ec5e",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-chess-best-move-trained-1792386671719971767/chess-best-move__yVcw9oK/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "regex-log",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-regex-log-control-1792386476950591224",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-log-control-1792386476950591224/regex-log__gMqhZrD/result.json",
+          "sha256": "58d40684bfc801d9a4b5a5f38fc1acacdd4090685ae6f1365f1c34e28677cbbf",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-log-control-1792386476950591224/regex-log__gMqhZrD/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "regex-log",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-regex-log-trained-1792386937326955592",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-log-trained-1792386937326955592/regex-log__urVbdXr/result.json",
+          "sha256": "b4da836a531f5ca9458f333e94c45b13bb367c5c4911c7245de597a796b71b4a",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-log-trained-1792386937326955592/regex-log__urVbdXr/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "tune-mjcf",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-tune-mjcf-control-1792386878710006989",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-tune-mjcf-control-1792386878710006989/tune-mjcf__BcuuHGZ/result.json",
+          "sha256": "14f0e794c83449b64378f9b40115df1733d3fb15975c987e0017f9189f8ee2a9",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-tune-mjcf-control-1792386878710006989/tune-mjcf__BcuuHGZ/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "tune-mjcf",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-tune-mjcf-trained-1792387441061316299",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-tune-mjcf-trained-1792387441061316299/tune-mjcf__kE2WUHo/result.json",
+          "sha256": "599c1838a73b8b7de58400c82fb6bae2b211dc4eb7186d06d985d185f7d5640a",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-tune-mjcf-trained-1792387441061316299/tune-mjcf__kE2WUHo/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "vulnerable-secret",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-vulnerable-secret-trained-1792387011361789377",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-vulnerable-secret-trained-1792387011361789377/vulnerable-secret__yuS5v64/result.json",
+          "sha256": "5758304debf533b30eb04eab91152c68b67f212d7b7d4af19a8dc6b273b29a8a",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-vulnerable-secret-trained-1792387011361789377/vulnerable-secret__yuS5v64/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "vulnerable-secret",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-vulnerable-secret-control-1792388023062169703",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-vulnerable-secret-control-1792388023062169703/vulnerable-secret__QJvFfNb/result.json",
+          "sha256": "c0d191cbc5619bacf40c0da5dde060cc3844be6b60a92c002ce758fec07defd4",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-vulnerable-secret-control-1792388023062169703/vulnerable-secret__QJvFfNb/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "git-leak-recovery",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-git-leak-recovery-control-1792387967394680220",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-leak-recovery-control-1792387967394680220/git-leak-recovery__9bcdi83/result.json",
+          "sha256": "2d0e27b442b9d6b9620ef5eef816f01c30cca4f6f8b6f85ef7533c4c8e35b6b8",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-leak-recovery-control-1792387967394680220/git-leak-recovery__9bcdi83/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "git-leak-recovery",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-git-leak-recovery-trained-1792388127992160623",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-leak-recovery-trained-1792388127992160623/git-leak-recovery__GLEgWW9/result.json",
+          "sha256": "fe945f9a671e1e9458b5225b40cdbf2ce235da1692d017d74f8cab9b158c11a7",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-leak-recovery-trained-1792388127992160623/git-leak-recovery__GLEgWW9/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "feal-differential-cryptanalysis",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-feal-differential-cryptanalysis-control-1792388082359644647",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-differential-cryptanalysis-control-1792388082359644647/feal-differential-cryptanalysis__LwRPjRz/result.json",
+          "sha256": "549a31e6369dc136540e7241c240378e086d142a72c95a9385ed36d556110aef",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-differential-cryptanalysis-control-1792388082359644647/feal-differential-cryptanalysis__LwRPjRz/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "feal-differential-cryptanalysis",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-feal-differential-cryptanalysis-trained-1792388401052773598",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-differential-cryptanalysis-trained-1792388401052773598/feal-differential-cryptanalysis__WTm3UFz/result.json",
+          "sha256": "45d8ae9452f955918d0424cd60611dc6c4e72b07a91c3acd7f56ad9a8be6e056",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-differential-cryptanalysis-trained-1792388401052773598/feal-differential-cryptanalysis__WTm3UFz/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "sqlite-db-truncate",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-sqlite-db-truncate-control-1792388178564872139",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-db-truncate-control-1792388178564872139/sqlite-db-truncate__hNdbFcq/result.json",
+          "sha256": "1baadfac7d35a9e7273695bdfe1f84e63e1a51a805c9b6132e80e2b5c7ec9446",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-db-truncate-control-1792388178564872139/sqlite-db-truncate__hNdbFcq/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "sqlite-db-truncate",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-sqlite-db-truncate-trained-1792388749133420466",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-db-truncate-trained-1792388749133420466/sqlite-db-truncate__EhPs2zu/result.json",
+          "sha256": "b619c2bbc82104939e627768cb3607749e50c5d237ca316b6af08a401f55050e",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-db-truncate-trained-1792388749133420466/sqlite-db-truncate__EhPs2zu/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "modernize-scientific-stack",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-modernize-scientific-stack-trained-1792388665929377096",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-modernize-scientific-stack-trained-1792388665929377096/modernize-scientific-stack__R5Z6W5m/result.json",
+          "sha256": "e244c87342f9ad5e6ba3a2b279975d3ffed933c8e35b7ec1ed38ba3cdf65e613",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-modernize-scientific-stack-trained-1792388665929377096/modernize-scientific-stack__R5Z6W5m/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "modernize-scientific-stack",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-modernize-scientific-stack-control-1792388884886939566",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-modernize-scientific-stack-control-1792388884886939566/modernize-scientific-stack__en5J4oz/result.json",
+          "sha256": "50ce805a4e65101a3d81e83c637cf9ffa82ae4be5d7e67badf3538982fa5facf",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-modernize-scientific-stack-control-1792388884886939566/modernize-scientific-stack__en5J4oz/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "kv-store-grpc",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-kv-store-grpc-control-1792388829932277230",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-kv-store-grpc-control-1792388829932277230/kv-store-grpc__yhrgX9Q/result.json",
+          "sha256": "b03145035ec03a45dd54f1bafa3f17baf003f105872b92a442a8ee9de4ed2f6c",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-kv-store-grpc-control-1792388829932277230/kv-store-grpc__yhrgX9Q/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "kv-store-grpc",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-kv-store-grpc-trained-1792389032594543754",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-kv-store-grpc-trained-1792389032594543754/kv-store-grpc__pjmaekK/result.json",
+          "sha256": "c9e76e6589cc64bc94b04cf990b52b6d56462144582e7cc3e40561f4ae154b51",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-kv-store-grpc-trained-1792389032594543754/kv-store-grpc__pjmaekK/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "path-tracing-reverse",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-path-tracing-reverse-trained-1792388954190288069",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-reverse-trained-1792388954190288069/path-tracing-reverse__ctRHg3V/result.json",
+          "sha256": "5359b4435dc79d557c3644e95314fad3669b6012c65ea5ca86ed2300e3f8c739",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-reverse-trained-1792388954190288069/path-tracing-reverse__ctRHg3V/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "path-tracing-reverse",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-path-tracing-reverse-control-1792389258932844112",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-reverse-control-1792389258932844112/path-tracing-reverse__jwQThD9/result.json",
+          "sha256": "e4b324b5cf31e54798b5d01f82217f701c94164bbd6fcace1f256769fff7f71f",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-reverse-control-1792389258932844112/path-tracing-reverse__jwQThD9/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "nginx-request-logging",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-nginx-request-logging-control-1792389400285823449",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-nginx-request-logging-control-1792389400285823449/nginx-request-logging__AKnwuJG/result.json",
+          "sha256": "bad8cb235b50c420796180eab57fa7c6ce58798b10b8b447c590d54255150f79",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-nginx-request-logging-control-1792389400285823449/nginx-request-logging__AKnwuJG/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "nginx-request-logging",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-nginx-request-logging-trained-1792389487873183082",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-nginx-request-logging-trained-1792389487873183082/nginx-request-logging__3q8gmD5/result.json",
+          "sha256": "d396461616979e65749cdec7fd9304c84b088ae52f40d36b19d4586c7a59d781",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-nginx-request-logging-trained-1792389487873183082/nginx-request-logging__3q8gmD5/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "video-processing",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-video-processing-trained-1792389119902653055",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-video-processing-trained-1792389119902653055/video-processing__SDRm3GJ/result.json",
+          "sha256": "4175c911e4a0655943945034febae93f73e3d62de6e57ac47615196efaeec9d6",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-video-processing-trained-1792389119902653055/video-processing__SDRm3GJ/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "video-processing",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-video-processing-control-1792389732633950027",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-video-processing-control-1792389732633950027/video-processing__hmbkhze/result.json",
+          "sha256": "3cbb9ae1165c4a117048f26e2e692a5cc50eeb258bb0556270557331863ec754",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-video-processing-control-1792389732633950027/video-processing__hmbkhze/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "build-pmars",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-build-pmars-trained-1792389574092538676",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pmars-trained-1792389574092538676/build-pmars__Ai9ySJd/result.json",
+          "sha256": "5342f5f66f5c14ca2756bbddd6d41b09a19fe90d52a40186a74f0c9aff5e3b8b",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pmars-trained-1792389574092538676/build-pmars__Ai9ySJd/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "build-pmars",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-build-pmars-control-1792390001575346524",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pmars-control-1792390001575346524/build-pmars__QDNwRdu/result.json",
+          "sha256": "dbc597c60d4c365f826be1b2630696d233ab93cf17a0b26f8656eca5cb552ed1",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pmars-control-1792390001575346524/build-pmars__QDNwRdu/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "write-compressor",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-write-compressor-control-1792389878782521585",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-write-compressor-control-1792389878782521585/write-compressor__TV4Huuw/result.json",
+          "sha256": "19e3d7b59e978819b32687867559b541c48fe182766519975869cc7d6291b740",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-write-compressor-control-1792389878782521585/write-compressor__TV4Huuw/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "write-compressor",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-write-compressor-trained-1792390346971472762",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-write-compressor-trained-1792390346971472762/write-compressor__cwTDodN/result.json",
+          "sha256": "407bbce957682b8a3af356139f5ee231a7fb800bb1b5e9dbbb23c30ef92c1584",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-write-compressor-trained-1792390346971472762/write-compressor__cwTDodN/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "extract-moves-from-video",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-extract-moves-from-video-control-1792390124300302944",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-moves-from-video-control-1792390124300302944/extract-moves-from-video__c4fNQfu/result.json",
+          "sha256": "179528ab784ea1d3120413134acc1f91acb468e4c44d8f5cd3f16a23a5926405",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-moves-from-video-control-1792390124300302944/extract-moves-from-video__c4fNQfu/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "extract-moves-from-video",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-extract-moves-from-video-trained-1792391096149484645",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-moves-from-video-trained-1792391096149484645/extract-moves-from-video__pw4MfBS/result.json",
+          "sha256": "89e8ef809630a5407b7aa4653ccc33c85982045c467cd8f546a70da76698694b",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-moves-from-video-trained-1792391096149484645/extract-moves-from-video__pw4MfBS/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "log-summary-date-ranges",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-log-summary-date-ranges-control-1792391470246411712",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-log-summary-date-ranges-control-1792391470246411712/log-summary-date-ranges__KUj4Hf2/result.json",
+          "sha256": "e698cf7b6affd0f0b494a79c4032942f817381a4676fa0d453c7c398feddaecb",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-log-summary-date-ranges-control-1792391470246411712/log-summary-date-ranges__KUj4Hf2/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "log-summary-date-ranges",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-log-summary-date-ranges-trained-1792391520966329484",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-log-summary-date-ranges-trained-1792391520966329484/log-summary-date-ranges__T7hy6Nk/result.json",
+          "sha256": "8c97c8db21e44ebb2f4339bbee93d82fda62aa3905c454a744f5e2b6593e4fe0",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-log-summary-date-ranges-trained-1792391520966329484/log-summary-date-ranges__T7hy6Nk/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "fix-ocaml-gc",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-fix-ocaml-gc-trained-1792390720379978173",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-ocaml-gc-trained-1792390720379978173/fix-ocaml-gc__HYBsrRN/result.json",
+          "sha256": "40ddd4c41bfbf7a49fa3d240bc4101118585f9a0c89e1182ea8d73d7457047ed",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-ocaml-gc-trained-1792390720379978173/fix-ocaml-gc__HYBsrRN/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "fix-ocaml-gc",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-fix-ocaml-gc-control-1792391961527443731",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-ocaml-gc-control-1792391961527443731/fix-ocaml-gc__4AdTLqn/result.json",
+          "sha256": "f487c52e49220545fa2936da2b413e692a5b4c2a63068d0dd44b8ee4cf2f99f1",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-ocaml-gc-control-1792391961527443731/fix-ocaml-gc__4AdTLqn/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "openssl-selfsigned-cert",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-openssl-selfsigned-cert-trained-1792391586218217636",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-openssl-selfsigned-cert-trained-1792391586218217636/openssl-selfsigned-cert__DzG33wb/result.json",
+          "sha256": "e0abe9bbfdc61c82af0aefc3f2187003e806d177f605cffac91ec5e911dcb02d",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-openssl-selfsigned-cert-trained-1792391586218217636/openssl-selfsigned-cert__DzG33wb/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "openssl-selfsigned-cert",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-openssl-selfsigned-cert-control-1792392491302774242",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-openssl-selfsigned-cert-control-1792392491302774242/openssl-selfsigned-cert__EeZGAcM/result.json",
+          "sha256": "60114b8d180f1eabcfbc4bd1080d8dbca4b32af1a72495434aebe3fd7a834638",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-openssl-selfsigned-cert-control-1792392491302774242/openssl-selfsigned-cert__EeZGAcM/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "polyglot-c-py",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-polyglot-c-py-control-1792392420577215547",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-c-py-control-1792392420577215547/polyglot-c-py__EZdtjRT/result.json",
+          "sha256": "44a1c7a1e172b74952c43005f2a0936deab4e058ed63124d6431e1f6d01679aa",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-c-py-control-1792392420577215547/polyglot-c-py__EZdtjRT/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "polyglot-c-py",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-polyglot-c-py-trained-1792392652023757176",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-c-py-trained-1792392652023757176/polyglot-c-py__NdgjAXs/result.json",
+          "sha256": "4d58267751054204503a6bb8020ae819f45893f4a1fc59b4d54ec2d6b0cb19e7",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-c-py-trained-1792392652023757176/polyglot-c-py__NdgjAXs/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "fix-git",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-fix-git-control-1792392555499445200",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-git-control-1792392555499445200/fix-git__NFPNTst/result.json",
+          "sha256": "3694c7ab11ce8779e5a1f07a6daa58d08f1362bfa94ca182b3f27aaa21c3dfd9",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-git-control-1792392555499445200/fix-git__NFPNTst/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "fix-git",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-fix-git-trained-1792393091411535011",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-git-trained-1792393091411535011/fix-git__JU5y2KZ/result.json",
+          "sha256": "2c82f4b9c17ca366e5c406d670a1aeb6268183c440eb25a91a169cc1aff538c5",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-git-trained-1792393091411535011/fix-git__JU5y2KZ/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "bn-fit-modify",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-bn-fit-modify-trained-1792393028204683499",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-bn-fit-modify-trained-1792393028204683499/bn-fit-modify__xbvWTAc/result.json",
+          "sha256": "5c88d2fc67d315c4639801509e55600808283ee89ac17a5d4f382260b68dc7c0",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-bn-fit-modify-trained-1792393028204683499/bn-fit-modify__xbvWTAc/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "bn-fit-modify",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-bn-fit-modify-control-1792393510178835300",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-bn-fit-modify-control-1792393510178835300/bn-fit-modify__8TYPFEs/result.json",
+          "sha256": "401a8b6d44302f309babb9810058718250da448710939a158eac179557fed25e",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-bn-fit-modify-control-1792393510178835300/bn-fit-modify__8TYPFEs/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "configure-git-webserver",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-configure-git-webserver-control-1792393150264171604",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-configure-git-webserver-control-1792393150264171604/configure-git-webserver__rBmiNbv/result.json",
+          "sha256": "a056d2aa9c73c63ed6b4c69db8aaa4bcbd2adea4f27a07f3b4165fcdfe1a9fa9",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-configure-git-webserver-control-1792393150264171604/configure-git-webserver__rBmiNbv/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "configure-git-webserver",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-configure-git-webserver-trained-1792393918184096555",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-configure-git-webserver-trained-1792393918184096555/configure-git-webserver__pgcaJRY/result.json",
+          "sha256": "20cebb4d76a64c3e54581b5d4aa6e3f831a8d87ddce01def4d820f81c285e21a",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-configure-git-webserver-trained-1792393918184096555/configure-git-webserver__pgcaJRY/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "gcode-to-text",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-gcode-to-text-control-1792393840894150071",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-gcode-to-text-control-1792393840894150071/gcode-to-text__dAACYF7/result.json",
+          "sha256": "beb2627634315bb31136f2f6dffe1f081cd62cf34b280f0b736b5e2d0fd4e810",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-gcode-to-text-control-1792393840894150071/gcode-to-text__dAACYF7/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "gcode-to-text",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-gcode-to-text-trained-1792394258431425908",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-gcode-to-text-trained-1792394258431425908/gcode-to-text__FSQRk8K/result.json",
+          "sha256": "80939ecd8ff8910c99d69f8a674c13bcfbc6eb81a03258b42bbe8d2fc3a86df0",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-gcode-to-text-trained-1792394258431425908/gcode-to-text__FSQRk8K/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "raman-fitting",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-raman-fitting-control-1792394479907880417",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-raman-fitting-control-1792394479907880417/raman-fitting__dXPb8me/result.json",
+          "sha256": "b556f9f95fe9b4720348ac5a8f069de7c9591e3ef3694a23e90263703c5bc6c3",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-raman-fitting-control-1792394479907880417/raman-fitting__dXPb8me/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "raman-fitting",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-raman-fitting-trained-1792394696992439496",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-raman-fitting-trained-1792394696992439496/raman-fitting__24Hondd/result.json",
+          "sha256": "21075a9d5807c0a1809e193f48b309ede26cad7beb42bb6af4096eea3de85e81",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-raman-fitting-trained-1792394696992439496/raman-fitting__24Hondd/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "circuit-fibsqrt",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-circuit-fibsqrt-trained-1792394028813404845",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-circuit-fibsqrt-trained-1792394028813404845/circuit-fibsqrt__sgxaEMK/result.json",
+          "sha256": "1fbd69875d9a1e064485a1289eddbc0c4984d60a1f23b4d538d9c5f57f7efec2",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-circuit-fibsqrt-trained-1792394028813404845/circuit-fibsqrt__sgxaEMK/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "circuit-fibsqrt",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-circuit-fibsqrt-control-1792395043394750721",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-circuit-fibsqrt-control-1792395043394750721/circuit-fibsqrt__pSEMFe5/result.json",
+          "sha256": "1a8dfb0256c3a7851101be80a19e2c8688471913583633bf024fd77b95f05e7d",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-circuit-fibsqrt-control-1792395043394750721/circuit-fibsqrt__pSEMFe5/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "db-wal-recovery",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-db-wal-recovery-trained-1792394840106950701",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-db-wal-recovery-trained-1792394840106950701/db-wal-recovery__WEN8HhW/result.json",
+          "sha256": "04cc3b03cea10c3f3a9a00ed94d5e713461ddcc4f99c13c93051b26ce407489a",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-db-wal-recovery-trained-1792394840106950701/db-wal-recovery__WEN8HhW/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "db-wal-recovery",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-db-wal-recovery-control-1792395491707633752",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-db-wal-recovery-control-1792395491707633752/db-wal-recovery__RTsZ8TG/result.json",
+          "sha256": "970cd6bc4c831dae304e241648aa7d2d8703f14fa666f82fbc211eda63e37927",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-db-wal-recovery-control-1792395491707633752/db-wal-recovery__RTsZ8TG/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "regex-chess",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-regex-chess-trained-1792395240805184341",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-chess-trained-1792395240805184341/regex-chess__FyqM4iY/result.json",
+          "sha256": "c974316ea578856f72fd8a94f3f4100a6f27bb8cdb90867074bfff09ffd6fbe4",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-chess-trained-1792395240805184341/regex-chess__FyqM4iY/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "regex-chess",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-regex-chess-control-1792395785608428083",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-chess-control-1792395785608428083/regex-chess__GjTsA7v/result.json",
+          "sha256": "03a20f1302a44deb6a66d287866f098e5982959cad66b4e53d904a3c48881797",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-chess-control-1792395785608428083/regex-chess__GjTsA7v/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    },
+    {
+      "task": "query-optimize",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-query-optimize-control-1792396372510789081",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-query-optimize-control-1792396372510789081/query-optimize__Fn48xkU/result.json",
+          "sha256": "8d6a1ea108be031344404bd9474028672d850f3d4bed4e64c6afc5afeec2c23d",
+          "reward": 0.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-query-optimize-control-1792396372510789081/query-optimize__Fn48xkU/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "reward": 0.0
+        }
+      ]
+    }
+  ],
+  "officialEvaluatorSourceRead": false,
+  "expansionDecision": "not_evaluated_partial_cohort",
+  "paperReady": false
+}

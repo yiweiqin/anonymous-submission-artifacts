@@ -1,0 +1,164 @@
+{
+  "bundleSchema": "cpdb-ai-judge-bundle/v1",
+  "bundleSchemaVersion": 1,
+  "generatedAt": "2026-09-19T00:00:00.000Z",
+  "source": {
+    "worldSchema": "cpdb_org_world_v1",
+    "worldSeed": 20260912,
+    "worldGeneratedAt": "2026-09-12T00:00:00.000Z",
+    "dataDir": "data/full"
+  },
+  "counts": {
+    "pairs": 8282,
+    "cards": 8282,
+    "testCards": 799,
+    "trainDevCards": 7483,
+    "prelabelReferenceRows": 7483,
+    "trialExcludedRows": 17,
+    "splits": {
+      "train": 6705,
+      "development": 778,
+      "test": 799
+    },
+    "pairKinds": {
+      "within_owner_directed": 2400,
+      "cross_owner_similar": 2400,
+      "cross_owner_complement": 2285,
+      "hard_negative": 1197
+    },
+    "twinPairs": 2640
+  },
+  "files": [
+    {
+      "path": "IMPORT.md",
+      "bytes": 5474,
+      "lines": 111,
+      "sha256": "cbbe1430939ff7e7205f310f77a09146622341174682de2f7dc9077d5772ee41"
+    },
+    {
+      "path": "TASK.json",
+      "bytes": 2804,
+      "lines": 64,
+      "sha256": "dd7eab4cead0d4b54834d5cc494f11b3f962a06f199aaef7a954d8f181bcadd7"
+    },
+    {
+      "path": "cards/test.blind.jsonl",
+      "bytes": 1135942,
+      "lines": 799,
+      "sha256": "23a34d28163731b4985d8363e6020c6bb9fbe4a426d00754584f58aa4fa7b525"
+    },
+    {
+      "path": "cards/train.dev.jsonl",
+      "bytes": 10726824,
+      "lines": 7483,
+      "sha256": "aac66d6850f8dc9f006baaa96a36912dd0f769db06a8b556ad43e70630800427"
+    },
+    {
+      "path": "pairs/pairs.jsonl",
+      "bytes": 4586202,
+      "lines": 8282,
+      "sha256": "1db66a4a343ede93c0f7660f4602ed28ce5bfa40b9405cb5f4002dcf998e3ee6"
+    },
+    {
+      "path": "reference/prelabel.jsonl",
+      "bytes": 2187829,
+      "lines": 7483,
+      "sha256": "821a1fdb2c6b654e695e23b8b1ad9a5169185b58cbf4131d519a68125a09dfef"
+    },
+    {
+      "path": "reference/trial_excluded.jsonl",
+      "bytes": 3579,
+      "lines": 17,
+      "sha256": "421a836d787422800e0cfa6955092f3483331aeb90d37a8eeb5a239d71d1f690"
+    },
+    {
+      "path": "schema/label_row.schema.json",
+      "bytes": 1924,
+      "lines": 80,
+      "sha256": "5bb98d1ff7921a43d7c635ddf03cec36e453f50e5b72a9f9ac9b57e226dc87d0"
+    },
+    {
+      "path": "world/agent_profiles.jsonl",
+      "bytes": 1084466,
+      "lines": 600,
+      "sha256": "2b83f78cdff1a4d7b0ccecf0b0ccf533308684ed03ef3bcf42aadb491ea43600"
+    },
+    {
+      "path": "world/agents.jsonl",
+      "bytes": 1060125,
+      "lines": 600,
+      "sha256": "e20eb0fa3b57a3c57b3c672007b240a39071d3aad45217d8a869617aa53028e9"
+    },
+    {
+      "path": "world/manifest.json",
+      "bytes": 911,
+      "lines": 40,
+      "sha256": "ae5526c5e526c0adb33658b4f68b91dad95e764de3ff09f0fc23ab15d2389d62"
+    },
+    {
+      "path": "world/orgs.jsonl",
+      "bytes": 1886,
+      "lines": 12,
+      "sha256": "478645d0af18078a1edd2dc0e64f05b7bc25ac806967e5303efd98fe8199125a"
+    },
+    {
+      "path": "world/people.jsonl",
+      "bytes": 47834,
+      "lines": 120,
+      "sha256": "f20ff379a288e5f4ff8c39b23186da8dc230c4a8ee84f9feb0446b064aa6cff9"
+    },
+    {
+      "path": "world/ubuddy_profiles.jsonl",
+      "bytes": 334739,
+      "lines": 120,
+      "sha256": "5de3f6be0944ca365b8ad357509939deea92763869892a74ae783639f2acb060"
+    }
+  ],
+  "withheldFromBlind": {
+    "splits": [
+      "test"
+    ],
+    "fields": [
+      "initDependency",
+      "initSimilarity",
+      "contractDependency",
+      "contractSimilarity",
+      "humanDependency",
+      "humanSimilarity",
+      "annotatorId",
+      "rationale"
+    ],
+    "testPairsWithheld": 799,
+    "note": "test 的 teacher 分与模型基线分不在本包任何文件里。若你在包里搜到某个 test pair 的这两个数，请当作包损坏并回报。"
+  },
+  "labelSemantics": {
+    "statusIsDerived": true,
+    "note": "status 不是输入，是推导量（single/agreed/needs_adjudication/adjudicated）。不要填它。",
+    "combinedForbidden": true
+  },
+  "judgingProtocol": {
+    "reviewersPerPair": 2,
+    "independent": true,
+    "adjudicatorOnlyOnDisagreement": true,
+    "goldStatuses": [
+      "single",
+      "agreed",
+      "adjudicated"
+    ],
+    "resolveRule": [
+      "有 adjudicator 行 -> adjudicated（以最后一条 adjudicator 为准）",
+      ">=2 条 reviewer 行且两轴完全相等 -> agreed",
+      ">=2 条 reviewer 行但两轴不完全相等 -> needs_adjudication（不是金标）",
+      "恰好 1 条 reviewer 行 -> single",
+      "只有 prelabel 行 -> prelabel（不是金标）"
+    ],
+    "scale": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "axisSeparation": "dependency 与 similarity 必须各自独立打分，禁止合并成一个数"
+  }
+}

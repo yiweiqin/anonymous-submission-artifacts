@@ -1,0 +1,91 @@
+{
+  "frozenBeforeModelCall": true,
+  "countableRoot": "/benchmark/janus-rerun-20261025",
+  "ignoredRoot": "/benchmark/janus-rerun-20261024",
+  "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+  "prompts": {
+    "bash": "7697f583cdab73ff79f0efc14d8ab1213e9852437cf295fbccb2abde89bec403",
+    "tau": "7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8"
+  },
+  "pilots": {
+    "bash": [
+      "nl2bash-fs1-1",
+      "nl2bash-fs1-4",
+      "nl2bash-fs1-5",
+      "nl2bash-fs1-20",
+      "nl2bash-fs1-21",
+      "nl2bash-fs1-22",
+      "nl2bash-fs1-25",
+      "nl2bash-fs1-28",
+      "nl2bash-fs1-29",
+      "nl2bash-fs1-32",
+      "nl2bash-fs1-33",
+      "nl2bash-fs1-35",
+      "nl2bash-fs1-41",
+      "nl2bash-fs2-1",
+      "nl2bash-fs2-2",
+      "nl2bash-fs2-6",
+      "nl2bash-fs2-11",
+      "nl2bash-fs2-27",
+      "nl2bash-fs2-30",
+      "nl2bash-fs2-39",
+      "nl2bash-fs2-41",
+      "nl2bash-fs2-48",
+      "nl2bash-fs3-39",
+      "nl2bash-fs3-41",
+      "nl2bash-fs3-47",
+      "nl2bash-fs4-13",
+      "nl2bash-fs4-15",
+      "nl2bash-fs4-19",
+      "nl2bash-fs4-22",
+      "nl2bash-fs4-26"
+    ],
+    "tau": [
+      "airline-0",
+      "airline-1",
+      "airline-2",
+      "airline-3",
+      "airline-4",
+      "airline-5",
+      "airline-6",
+      "airline-7",
+      "airline-8",
+      "airline-11",
+      "airline-12",
+      "airline-13",
+      "airline-14",
+      "airline-18",
+      "airline-20",
+      "airline-27",
+      "airline-39",
+      "retail-3",
+      "retail-29",
+      "retail-33",
+      "retail-38",
+      "retail-44",
+      "retail-64",
+      "retail-74",
+      "retail-88",
+      "retail-93",
+      "retail-101",
+      "retail-113"
+    ]
+  },
+  "hosts": {
+    "tau": "benchmark-host-c",
+    "bash": "benchmark-host-a"
+  },
+  "oneTaskAtATime": true,
+  "gates": {
+    "bash": {
+      "holdsDoNotDropBelow": 1.0,
+      "gapNetIncreaseGreaterThan": 1.79,
+      "fullSumGreaterThan": 145.24
+    },
+    "tau": {
+      "missNetNewPassesAtLeast": 5,
+      "holdsStayAtLeast": 1.0,
+      "fullPassesAtLeast": 123
+    }
+  }
+}

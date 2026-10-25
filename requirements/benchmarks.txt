@@ -1,0 +1,4 @@
+﻿# SkillFlow, SQL, Bash, tau-bench, and Terminal-Bench runners.
+# Install each third-party checkout from benchmarks/ at the revision named in README.md.
+# Do not upgrade those checkouts to a later commit.
+paramiko

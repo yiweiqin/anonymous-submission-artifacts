@@ -1,0 +1,23 @@
+[
+  {
+    "task": "feal-linear-cryptanalysis",
+    "jobName": "official-oracle-feal-linear-cryptanalysis-1791894225877663194",
+    "reward": null,
+    "error": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmark/skillflow-main-20261008/SkillFlow/.venv/lib/python3.14/site-packages/harbor/trial/trial.py\", line 863, in _verify_with_timeout\n    raise VerifierTimeoutError(\n        f\"Verifier execution timed out after {timeout_sec} seconds\"\n    ) from exc\nharbor.trial.errors.VerifierTimeoutError: Verifier execution timed out after 1800.0 seconds\n",
+    "wallSeconds": 1835.628,
+    "targetModelCalls": 0,
+    "kind": "native-target-oracle-prebuilt-precheck-20261013",
+    "officialTaskUnmodified": true,
+    "officialImage": {
+      "reference": "alexgshaw/feal-linear-cryptanalysis:20251031",
+      "imageId": "sha256:ea78749a8422c6228d26c8753f45906a6a2df089906764b7e3c3e27e8f718ee7",
+      "repoDigests": [
+        "alexgshaw/feal-linear-cryptanalysis@sha256:ea78749a8422c6228d26c8753f45906a6a2df089906764b7e3c3e27e8f718ee7"
+      ],
+      "repoTags": [
+        "alexgshaw/feal-linear-cryptanalysis:20251031"
+      ],
+      "sizeBytes": 150832274
+    }
+  }
+]

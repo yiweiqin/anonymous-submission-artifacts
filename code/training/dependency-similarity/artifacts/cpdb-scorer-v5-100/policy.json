@@ -1,0 +1,10 @@
+{
+  "policyId": "cpdb_score100_v1",
+  "kind": "llm_sft",
+  "scale": "0-100",
+  "adapterReady": false,
+  "annotatorId": "astra_score_v1",
+  "imported": 8282,
+  "rejected": 0,
+  "note": "Astra 0–100 教师。有 predictions.jsonl / labels.jsonl 时 lookup 让 usable=true，分数 n/100。adapter 不进 Electron。产品开关仍关。"
+}

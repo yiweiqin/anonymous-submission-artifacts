@@ -1,0 +1,133 @@
+{
+  "goldRead": false,
+  "newModelCalls": 0,
+  "newOfficialScores": 0,
+  "savedComparisons": {
+    "control": {
+      "spider-765": {
+        "initialRequestSha256": "a52252dd63eb1637ec54af6ec8d401eddf931c0fe3e48d04e2bb275b2ef4d49e",
+        "requestSettings": {
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "max_tokens": 4096,
+          "stream": false,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "firstReply": "SELECT s.Song_Name, s.Song_release_year\nFROM singer s\nWHERE s.Age = (SELECT MIN(Age) FROM singer)",
+        "allReplies": [
+          "SELECT s.Song_Name, s.Song_release_year\nFROM singer s\nWHERE s.Age = (SELECT MIN(Age) FROM singer)",
+          "submit"
+        ],
+        "officialReward": 1.0
+      },
+      "spider-246": {
+        "initialRequestSha256": "7175c969aed9bc37fb0d0dca9da180f085fe9e6b8be04cd409bf17490e9267d1",
+        "requestSettings": {
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "max_tokens": 4096,
+          "stream": false,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "firstReply": "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\n  AND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n  );",
+        "allReplies": [
+          "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\n  AND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n  );",
+          "submit"
+        ],
+        "officialReward": 0.0
+      }
+    },
+    "v10": {
+      "spider-765": {
+        "initialRequestSha256": "9bf1ccc41715616448fb995d64f272afc779258ae85927f236c0418ce663b79e",
+        "requestSettings": {
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "max_tokens": 4096,
+          "stream": false,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "firstReply": "SELECT Name, Song_release_year\nFROM singer\nWHERE Age = (SELECT MIN(Age) FROM singer);",
+        "allReplies": [
+          "SELECT Name, Song_release_year\nFROM singer\nWHERE Age = (SELECT MIN(Age) FROM singer);",
+          "submit",
+          "SELECT Name, Song_release_year\nFROM singer\nWHERE Age = (SELECT MIN(Age) FROM singer)",
+          "submit"
+        ],
+        "officialReward": 0.0
+      },
+      "spider-246": {
+        "initialRequestSha256": "a44d9bb9d89ee0d4fa2d878453da83e21291fd891507db4eab4f8f838887a9e0",
+        "requestSettings": {
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "max_tokens": 4096,
+          "stream": false,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "firstReply": "SELECT DISTINCT a.Airline\nFROM airlines a\nJOIN flights f ON a.uid = f.Airline\nWHERE f.SourceAirport = 'CVO'\nAND NOT EXISTS (\n    SELECT 1\n    FROM flights f2\n    WHERE f2.Airline = a.uid\n    AND f2.SourceAirport = 'APG'\n)",
+        "allReplies": [
+          "SELECT DISTINCT a.Airline\nFROM airlines a\nJOIN flights f ON a.uid = f.Airline\nWHERE f.SourceAirport = 'CVO'\nAND NOT EXISTS (\n    SELECT 1\n    FROM flights f2\n    WHERE f2.Airline = a.uid\n    AND f2.SourceAirport = 'APG'\n)",
+          "submit",
+          "SELECT DISTINCT a.Airline\nFROM airlines a\nJOIN flights f ON a.uid = f.Airline\nWHERE f.SourceAirport = 'CVO'\nAND NOT EXISTS (\n    SELECT 1\n    FROM flights f2\n    WHERE f2.Airline = a.uid\n    AND f2.SourceAirport = 'APG'\n)",
+          "submit"
+        ],
+        "officialReward": 1.0
+      }
+    },
+    "v11": {
+      "spider-765": {
+        "initialRequestSha256": "a52252dd63eb1637ec54af6ec8d401eddf931c0fe3e48d04e2bb275b2ef4d49e",
+        "requestSettings": {
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "max_tokens": 4096,
+          "stream": false,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "firstReply": "SELECT s.Name, s.Song_Name, s.Song_release_year\nFROM singer s\nWHERE s.Age = (SELECT MIN(Age) FROM singer)",
+        "allReplies": [
+          "SELECT s.Name, s.Song_Name, s.Song_release_year\nFROM singer s\nWHERE s.Age = (SELECT MIN(Age) FROM singer)",
+          "submit",
+          "SELECT s.Name, s.Song_Name, s.Song_release_year\nFROM singer s\nWHERE s.Age = (SELECT MIN(Age) FROM singer)",
+          "submit"
+        ],
+        "officialReward": 0.0
+      },
+      "spider-246": {
+        "initialRequestSha256": "7175c969aed9bc37fb0d0dca9da180f085fe9e6b8be04cd409bf17490e9267d1",
+        "requestSettings": {
+          "model": "deepseek-flash",
+          "temperature": 0,
+          "max_tokens": 4096,
+          "stream": false,
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "firstReply": "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\n  AND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n  );",
+        "allReplies": [
+          "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\n  AND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n  );",
+          "submit",
+          "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\n  AND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n  )",
+          "submit"
+        ],
+        "officialReward": 0.0
+      }
+    }
+  },
+  "initialRequestsEqual": {
+    "spider-765": true,
+    "spider-246": true
+  }
+}

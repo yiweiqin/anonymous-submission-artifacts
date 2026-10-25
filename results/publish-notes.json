@@ -1,0 +1,11 @@
+{
+  "packed": 893,
+  "skipped": [],
+  "omitted": [
+    "probe, launch, and monitor scripts",
+    "runtime logs, pid files, and launch scripts",
+    "round request, receipt, and trial dumps",
+    "content-addressed evidence objects and archive tarballs",
+    "node_modules and packaging renders"
+  ]
+}

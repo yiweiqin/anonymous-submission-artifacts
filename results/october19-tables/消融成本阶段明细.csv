@@ -1,0 +1,69 @@
+变体,阶段,调用,输入 tokens,输出 tokens,阶段墙钟 s
+reference,Harbor,812,10854236,3954665,27907.344
+reference,Detective,66,59174,976,
+reference,D/S,48,43072,3569,
+reference,API writer,0,0,0,
+m9-plan,Harbor,782,9098856,3935540,29309.002
+m9-plan,Detective,66,59235,1071,
+m9-plan,D/S,48,43072,3569,
+m9-plan,API writer,0,0,0,
+m9-staff,Harbor,798,9903259,4018603,31846.637
+m9-staff,Detective,66,59234,1014,
+m9-staff,D/S,48,43072,3569,
+m9-staff,API writer,0,0,0,
+m9-neither,Harbor,665,8001941,3121888,24853.193
+m9-neither,Detective,0,0,0,
+m9-neither,D/S,0,0,0,
+m9-neither,API writer,0,0,0,
+m1-no-plan,Harbor,819,10363504,4072513,28039.825
+m1-no-plan,Detective,66,51555,1519,
+m1-no-plan,D/S,48,43072,3569,
+m1-no-plan,API writer,0,0,0,
+m1-no-exec,Harbor,614,6983964,2920509,21416.043
+m1-no-exec,Detective,66,51168,1020,
+m1-no-exec,D/S,48,43072,3569,
+m1-no-exec,API writer,0,0,0,
+m1-outcome,Harbor,630,6948269,2793405,22132.175
+m1-outcome,Detective,66,43544,528,
+m1-outcome,D/S,48,43072,3569,
+m1-outcome,API writer,0,0,0,
+m2-no-locate,Harbor,704,8504865,3294121,25494.848
+m2-no-locate,Detective,66,59416,1057,
+m2-no-locate,D/S,48,43072,3569,
+m2-no-locate,API writer,0,0,0,
+m3-redundant,Harbor,761,9335386,3756264,30603.448
+m3-redundant,Detective,66,59309,1085,
+m3-redundant,D/S,48,43072,3569,
+m3-redundant,API writer,0,0,0,
+m4-similarity,Harbor,793,10004002,3994440,32415.999
+m4-similarity,Detective,66,59758,959,
+m4-similarity,D/S,48,43072,3569,
+m4-similarity,API writer,0,0,0,
+m4-random,Harbor,795,10239089,4023349,28792.422
+m4-random,Detective,66,59676,1019,
+m4-random,D/S,0,0,0,
+m4-random,API writer,0,0,0,
+m4-strongest,Harbor,881,11899272,4380274,32532.091
+m4-strongest,Detective,66,59942,1097,
+m4-strongest,D/S,0,0,0,
+m4-strongest,API writer,0,0,0,
+m4-dependency,Harbor,756,9371040,3830827,30421.288
+m4-dependency,Detective,66,59279,1080,
+m4-dependency,D/S,48,43072,3569,
+m4-dependency,API writer,0,0,0,
+m8-rule,Harbor,780,9601894,4077961,35035.342
+m8-rule,Detective,66,59218,1035,
+m8-rule,D/S,48,43072,3569,
+m8-rule,API writer,0,0,0,
+m8-trained,Harbor,655,7541664,3094512,23730.516
+m8-trained,Detective,66,59248,1138,
+m8-trained,D/S,48,43072,3569,
+m8-trained,API writer,0,0,0,
+m8-base,Harbor,656,7629976,3365395,22501.373
+m8-base,Detective,132,118560,3849,
+m8-base,D/S,48,43072,3569,
+m8-base,API writer,0,0,0,
+m8-api,Harbor,604,6993122,2871675,19573.409
+m8-api,Detective,66,59357,1183,
+m8-api,D/S,48,43072,3569,
+m8-api,API writer,66,60670,10546,

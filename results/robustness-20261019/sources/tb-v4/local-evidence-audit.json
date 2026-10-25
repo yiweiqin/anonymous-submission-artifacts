@@ -1,0 +1,23 @@
+{
+  "snapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v4\\evidence\\snapshots\\1792398358761054293.json",
+  "capturedReceipts": 126,
+  "officialGradesVerified": 125,
+  "uniqueFileObjectsVerified": 614,
+  "fileMappingsVerified": 857,
+  "realExecutorRequestsVerified": 2998,
+  "pilotPrefixByteIdentical": true,
+  "gradeValuesMatchOfficialOutputs": true,
+  "actualInputsAndBudgetsMatch": true,
+  "frozenModelsMatch": true,
+  "allCapturedEvidencePassed": false,
+  "full63CompletionClaimed": false,
+  "paperReady": false,
+  "schedulingSupplementAudits": [
+    {
+      "adoption": "missing-arms-adoption-1792396362967313047.json",
+      "selectedArms": 1,
+      "newAttemptsObserved": 1,
+      "allSelectedArmsAttempted": true
+    }
+  ]
+}

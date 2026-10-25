@@ -1,0 +1,1172 @@
+{
+  "synthetic": true,
+  "benchmarkTasksUsed": 0,
+  "officialScoresGenerated": 0,
+  "reports": [
+    {
+      "id": "grouped-total",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          10,
+          5
+        ],
+        [
+          30,
+          4
+        ]
+      ],
+      "expectedRows": [
+        [
+          10,
+          5
+        ],
+        [
+          30,
+          4
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_grouped-total\nSchema:\nsales(sale_id INTEGER PRIMARY KEY, product_id INTEGER, quantity INTEGER)\n\nQuestion:\nList product IDs whose total sold quantity is greater than 3, and that total, ordered by product ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT product_id, COUNT(*) FROM sales GROUP BY product_id HAVING COUNT(*)>3 ORDER BY product_id",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_grouped-total\nSchema:\nsales(sale_id INTEGER PRIMARY KEY, product_id INTEGER, quantity INTEGER)\n\nQuestion:\nList product IDs whose total sold quantity is greater than 3, and that total, ordered by product ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT product_id, COUNT(*) FROM sales GROUP BY product_id HAVING COUNT(*)>3 ORDER BY product_id"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=0 "
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_grouped-total\nSchema:\nsales(sale_id INTEGER PRIMARY KEY, product_id INTEGER, quantity INTEGER)\n\nQuestion:\nList product IDs whose total sold quantity is greater than 3, and that total, ordered by product ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT product_id, SUM(quantity) AS total_quantity\nFROM sales\nGROUP BY product_id\nHAVING SUM(quantity) > 3\nORDER BY product_id;",
+          "usage": {
+            "prompt_tokens": 506,
+            "completion_tokens": 37,
+            "total_tokens": 543,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 250
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_grouped-total\nSchema:\nsales(sale_id INTEGER PRIMARY KEY, product_id INTEGER, quantity INTEGER)\n\nQuestion:\nList product IDs whose total sold quantity is greater than 3, and that total, ordered by product ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT product_id, COUNT(*) FROM sales GROUP BY product_id HAVING COUNT(*)>3 ORDER BY product_id"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=0 "
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT product_id, SUM(quantity) AS total_quantity\nFROM sales\nGROUP BY product_id\nHAVING SUM(quantity) > 3\nORDER BY product_id;"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 [10, 5], [30, 4]"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 602,
+            "completion_tokens": 1,
+            "total_tokens": 603,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 346
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "3e54b707b7f87f9c2dc15e8dc00bb5d3c9e74b506caf991fcacf890b2a2e793b",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    },
+    {
+      "id": "join-multiplicity",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          "Ada",
+          2
+        ],
+        [
+          "Bo",
+          1
+        ]
+      ],
+      "expectedRows": [
+        [
+          "Ada",
+          2
+        ],
+        [
+          "Bo",
+          1
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_join-multiplicity\nSchema:\nauthors(author_id INTEGER PRIMARY KEY, name TEXT); books(book_id INTEGER PRIMARY KEY, author_id INTEGER); tags(book_id INTEGER, tag TEXT)\n\nQuestion:\nHow many distinct books have at least one tag, for each author? Return author name and count, ordered by author name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT a.name,COUNT(*) FROM authors a JOIN books b ON a.author_id=b.author_id JOIN tags t ON b.book_id=t.book_id GROUP BY a.author_id,a.name ORDER BY a.name",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_join-multiplicity\nSchema:\nauthors(author_id INTEGER PRIMARY KEY, name TEXT); books(book_id INTEGER PRIMARY KEY, author_id INTEGER); tags(book_id INTEGER, tag TEXT)\n\nQuestion:\nHow many distinct books have at least one tag, for each author? Return author name and count, ordered by author name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT a.name,COUNT(*) FROM authors a JOIN books b ON a.author_id=b.author_id JOIN tags t ON b.book_id=t.book_id GROUP BY a.author_id,a.name ORDER BY a.name"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['Ada', 3], ['Bo', 1]"
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_join-multiplicity\nSchema:\nauthors(author_id INTEGER PRIMARY KEY, name TEXT); books(book_id INTEGER PRIMARY KEY, author_id INTEGER); tags(book_id INTEGER, tag TEXT)\n\nQuestion:\nHow many distinct books have at least one tag, for each author? Return author name and count, ordered by author name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT a.name, COUNT(DISTINCT t.book_id) AS book_count\nFROM authors a\nJOIN books b ON b.author_id = a.author_id\nJOIN tags t ON t.book_id = b.book_id\nGROUP BY a.author_id, a.name\nORDER BY a.name;",
+          "usage": {
+            "prompt_tokens": 541,
+            "completion_tokens": 60,
+            "total_tokens": 601,
+            "prompt_tokens_details": {
+              "cached_tokens": 384
+            },
+            "prompt_cache_hit_tokens": 384,
+            "prompt_cache_miss_tokens": 157
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_join-multiplicity\nSchema:\nauthors(author_id INTEGER PRIMARY KEY, name TEXT); books(book_id INTEGER PRIMARY KEY, author_id INTEGER); tags(book_id INTEGER, tag TEXT)\n\nQuestion:\nHow many distinct books have at least one tag, for each author? Return author name and count, ordered by author name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT a.name,COUNT(*) FROM authors a JOIN books b ON a.author_id=b.author_id JOIN tags t ON b.book_id=t.book_id GROUP BY a.author_id,a.name ORDER BY a.name"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['Ada', 3], ['Bo', 1]"
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT a.name, COUNT(DISTINCT t.book_id) AS book_count\nFROM authors a\nJOIN books b ON b.author_id = a.author_id\nJOIN tags t ON t.book_id = b.book_id\nGROUP BY a.author_id, a.name\nORDER BY a.name;"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['Ada', 2], ['Bo', 1]"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 688,
+            "completion_tokens": 1,
+            "total_tokens": 689,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 432
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "59249e13d87e198b9f8eb3086a9084c86e9d18e2fa9682b5b2741657539b969f",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    },
+    {
+      "id": "nullable-anti-join",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          "Bea"
+        ],
+        [
+          "Cora"
+        ]
+      ],
+      "expectedRows": [
+        [
+          "Bea"
+        ],
+        [
+          "Cora"
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_nullable-anti-join\nSchema:\ncustomers(customer_id INTEGER PRIMARY KEY, name TEXT); purchases(purchase_id INTEGER PRIMARY KEY, customer_id INTEGER NULL)\n\nQuestion:\nList the names of customers who have never made a purchase, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT name FROM customers WHERE customer_id NOT IN (SELECT customer_id FROM purchases) ORDER BY name",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_nullable-anti-join\nSchema:\ncustomers(customer_id INTEGER PRIMARY KEY, name TEXT); purchases(purchase_id INTEGER PRIMARY KEY, customer_id INTEGER NULL)\n\nQuestion:\nList the names of customers who have never made a purchase, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT name FROM customers WHERE customer_id NOT IN (SELECT customer_id FROM purchases) ORDER BY name"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=0 "
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_nullable-anti-join\nSchema:\ncustomers(customer_id INTEGER PRIMARY KEY, name TEXT); purchases(purchase_id INTEGER PRIMARY KEY, customer_id INTEGER NULL)\n\nQuestion:\nList the names of customers who have never made a purchase, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nNEGATION_NULLS: Verify which entity and relationship the exclusion applies to, including NULL behavior. Do not assume a directed relation is symmetric.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT c.name\nFROM customers c\nLEFT JOIN purchases p ON p.customer_id = c.customer_id\nWHERE p.purchase_id IS NULL\nORDER BY c.name;",
+          "usage": {
+            "prompt_tokens": 519,
+            "completion_tokens": 36,
+            "total_tokens": 555,
+            "prompt_tokens_details": {
+              "cached_tokens": 384
+            },
+            "prompt_cache_hit_tokens": 384,
+            "prompt_cache_miss_tokens": 135
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_nullable-anti-join\nSchema:\ncustomers(customer_id INTEGER PRIMARY KEY, name TEXT); purchases(purchase_id INTEGER PRIMARY KEY, customer_id INTEGER NULL)\n\nQuestion:\nList the names of customers who have never made a purchase, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT name FROM customers WHERE customer_id NOT IN (SELECT customer_id FROM purchases) ORDER BY name"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=0 "
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nNEGATION_NULLS: Verify which entity and relationship the exclusion applies to, including NULL behavior. Do not assume a directed relation is symmetric.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT c.name\nFROM customers c\nLEFT JOIN purchases p ON p.customer_id = c.customer_id\nWHERE p.purchase_id IS NULL\nORDER BY c.name;"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['Bea'], ['Cora']"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 606,
+            "completion_tokens": 1,
+            "total_tokens": 607,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 350
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "69eb911a86565703c174259a8696bae3fc85d15b66277771f36aaf5299063973",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    },
+    {
+      "id": "include-zero-count",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          "Blue",
+          2
+        ],
+        [
+          "Green",
+          0
+        ],
+        [
+          "Red",
+          1
+        ]
+      ],
+      "expectedRows": [
+        [
+          "Blue",
+          2
+        ],
+        [
+          "Green",
+          0
+        ],
+        [
+          "Red",
+          1
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_include-zero-count\nSchema:\nteams(team_id INTEGER PRIMARY KEY, name TEXT); members(member_id INTEGER PRIMARY KEY, team_id INTEGER)\n\nQuestion:\nList every team name and its number of members, including teams with zero members, ordered by team name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT t.name,COUNT(m.member_id) FROM teams t JOIN members m ON t.team_id=m.team_id GROUP BY t.team_id,t.name ORDER BY t.name",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_include-zero-count\nSchema:\nteams(team_id INTEGER PRIMARY KEY, name TEXT); members(member_id INTEGER PRIMARY KEY, team_id INTEGER)\n\nQuestion:\nList every team name and its number of members, including teams with zero members, ordered by team name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT t.name,COUNT(m.member_id) FROM teams t JOIN members m ON t.team_id=m.team_id GROUP BY t.team_id,t.name ORDER BY t.name"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['Blue', 2], ['Red', 1]"
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_include-zero-count\nSchema:\nteams(team_id INTEGER PRIMARY KEY, name TEXT); members(member_id INTEGER PRIMARY KEY, team_id INTEGER)\n\nQuestion:\nList every team name and its number of members, including teams with zero members, ordered by team name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nSET_COMBINATION: Verify the question's AND/OR or set-combination meaning and duplicate semantics; do not add conditions or cosmetic sorting.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT t.name, COUNT(m.member_id) AS member_count\nFROM teams t\nLEFT JOIN members m ON m.team_id = t.team_id\nGROUP BY t.team_id, t.name\nORDER BY t.name;",
+          "usage": {
+            "prompt_tokens": 521,
+            "completion_tokens": 48,
+            "total_tokens": 569,
+            "prompt_tokens_details": {
+              "cached_tokens": 384
+            },
+            "prompt_cache_hit_tokens": 384,
+            "prompt_cache_miss_tokens": 137
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_include-zero-count\nSchema:\nteams(team_id INTEGER PRIMARY KEY, name TEXT); members(member_id INTEGER PRIMARY KEY, team_id INTEGER)\n\nQuestion:\nList every team name and its number of members, including teams with zero members, ordered by team name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT t.name,COUNT(m.member_id) FROM teams t JOIN members m ON t.team_id=m.team_id GROUP BY t.team_id,t.name ORDER BY t.name"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['Blue', 2], ['Red', 1]"
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nSET_COMBINATION: Verify the question's AND/OR or set-combination meaning and duplicate semantics; do not add conditions or cosmetic sorting.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT t.name, COUNT(m.member_id) AS member_count\nFROM teams t\nLEFT JOIN members m ON m.team_id = t.team_id\nGROUP BY t.team_id, t.name\nORDER BY t.name;"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=3 ['Blue', 2], ['Green', 0], ['Red', 1]"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 659,
+            "completion_tokens": 1,
+            "total_tokens": 660,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 403
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "137e52c922e80b6c87c56ce27ad3fb4e9ff69788ce2b5b19f7a1c6c6b7d564e9",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    },
+    {
+      "id": "all-max-ties",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          "Al",
+          20
+        ],
+        [
+          "Cy",
+          20
+        ]
+      ],
+      "expectedRows": [
+        [
+          "Al",
+          20
+        ],
+        [
+          "Cy",
+          20
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_all-max-ties\nSchema:\nplayers(player_id INTEGER PRIMARY KEY, name TEXT, points INTEGER)\n\nQuestion:\nReturn the name and points of every player tied for the highest points total, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT name,points FROM players ORDER BY points DESC,name LIMIT 1",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_all-max-ties\nSchema:\nplayers(player_id INTEGER PRIMARY KEY, name TEXT, points INTEGER)\n\nQuestion:\nReturn the name and points of every player tied for the highest points total, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT name,points FROM players ORDER BY points DESC,name LIMIT 1"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=1 ['Al', 20]"
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_all-max-ties\nSchema:\nplayers(player_id INTEGER PRIMARY KEY, name TEXT, points INTEGER)\n\nQuestion:\nReturn the name and points of every player tied for the highest points total, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nRANKING: Verify whether the request asks for one ranked result or all ties. Project only requested fields and use ordering or limits only as the question requires.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT name, points\nFROM players\nWHERE points = (SELECT MAX(points) FROM players)\nORDER BY name;",
+          "usage": {
+            "prompt_tokens": 510,
+            "completion_tokens": 24,
+            "total_tokens": 534,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 254
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_all-max-ties\nSchema:\nplayers(player_id INTEGER PRIMARY KEY, name TEXT, points INTEGER)\n\nQuestion:\nReturn the name and points of every player tied for the highest points total, ordered by name.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT name,points FROM players ORDER BY points DESC,name LIMIT 1"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=1 ['Al', 20]"
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nRANKING: Verify whether the request asks for one ranked result or all ties. Project only requested fields and use ordering or limits only as the question requires.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT name, points\nFROM players\nWHERE points = (SELECT MAX(points) FROM players)\nORDER BY name;"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['Al', 20], ['Cy', 20]"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 590,
+            "completion_tokens": 1,
+            "total_tokens": 591,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 334
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "c45eff0909508aed13b4e4bdec5a47b594b3ee6b884c73205b78da50e4200af2",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    },
+    {
+      "id": "above-group-average",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          10
+        ]
+      ],
+      "expectedRows": [
+        [
+          10
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_above-group-average\nSchema:\norders(order_id INTEGER PRIMARY KEY, customer_id INTEGER)\n\nQuestion:\nAmong customers who placed orders, return the customer IDs whose number of orders is greater than the average number of orders per such customer. Order by customer ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT DISTINCT customer_id FROM orders ORDER BY customer_id",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_above-group-average\nSchema:\norders(order_id INTEGER PRIMARY KEY, customer_id INTEGER)\n\nQuestion:\nAmong customers who placed orders, return the customer IDs whose number of orders is greater than the average number of orders per such customer. Order by customer ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT DISTINCT customer_id FROM orders ORDER BY customer_id"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=3 [10], [20], [30]"
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_above-group-average\nSchema:\norders(order_id INTEGER PRIMARY KEY, customer_id INTEGER)\n\nQuestion:\nAmong customers who placed orders, return the customer IDs whose number of orders is greater than the average number of orders per such customer. Order by customer ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT customer_id\nFROM orders\nGROUP BY customer_id\nHAVING COUNT(*) > (\n    SELECT AVG(order_count)\n    FROM (\n        SELECT COUNT(*) AS order_count\n        FROM orders\n        GROUP BY customer_id\n    ) AS per_customer\n)\nORDER BY customer_id;",
+          "usage": {
+            "prompt_tokens": 525,
+            "completion_tokens": 60,
+            "total_tokens": 585,
+            "prompt_tokens_details": {
+              "cached_tokens": 384
+            },
+            "prompt_cache_hit_tokens": 384,
+            "prompt_cache_miss_tokens": 141
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_above-group-average\nSchema:\norders(order_id INTEGER PRIMARY KEY, customer_id INTEGER)\n\nQuestion:\nAmong customers who placed orders, return the customer IDs whose number of orders is greater than the average number of orders per such customer. Order by customer ID.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT DISTINCT customer_id FROM orders ORDER BY customer_id"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=3 [10], [20], [30]"
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT customer_id\nFROM orders\nGROUP BY customer_id\nHAVING COUNT(*) > (\n    SELECT AVG(order_count)\n    FROM (\n        SELECT COUNT(*) AS order_count\n        FROM orders\n        GROUP BY customer_id\n    ) AS per_customer\n)\nORDER BY customer_id;"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=1 [10]"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 631,
+            "completion_tokens": 1,
+            "total_tokens": 632,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 375
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "cfc32a1c5d6afecac7014c43a42a952528592fa96751039e0373e61a057db589",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    },
+    {
+      "id": "semantic-owner",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          "Orchard"
+        ]
+      ],
+      "expectedRows": [
+        [
+          "Orchard"
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_semantic-owner\nSchema:\nprojects(project_id INTEGER PRIMARY KEY, title TEXT, manager_id INTEGER); managers(manager_id INTEGER PRIMARY KEY, name TEXT)\n\nQuestion:\nReturn the titles of projects managed by Mira.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT m.name FROM projects p JOIN managers m ON p.manager_id=m.manager_id WHERE m.name='Mira'",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_semantic-owner\nSchema:\nprojects(project_id INTEGER PRIMARY KEY, title TEXT, manager_id INTEGER); managers(manager_id INTEGER PRIMARY KEY, name TEXT)\n\nQuestion:\nReturn the titles of projects managed by Mira.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT m.name FROM projects p JOIN managers m ON p.manager_id=m.manager_id WHERE m.name='Mira'"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=1 ['Mira']"
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_semantic-owner\nSchema:\nprojects(project_id INTEGER PRIMARY KEY, title TEXT, manager_id INTEGER); managers(manager_id INTEGER PRIMARY KEY, name TEXT)\n\nQuestion:\nReturn the titles of projects managed by Mira.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT p.title\nFROM projects p\nJOIN managers m ON p.manager_id = m.manager_id\nWHERE m.name = 'Mira';",
+          "usage": {
+            "prompt_tokens": 505,
+            "completion_tokens": 31,
+            "total_tokens": 536,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 249
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_semantic-owner\nSchema:\nprojects(project_id INTEGER PRIMARY KEY, title TEXT, manager_id INTEGER); managers(manager_id INTEGER PRIMARY KEY, name TEXT)\n\nQuestion:\nReturn the titles of projects managed by Mira.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT m.name FROM projects p JOIN managers m ON p.manager_id=m.manager_id WHERE m.name='Mira'"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=1 ['Mira']"
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT p.title\nFROM projects p\nJOIN managers m ON p.manager_id = m.manager_id\nWHERE m.name = 'Mira';"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=1 ['Orchard']"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 592,
+            "completion_tokens": 1,
+            "total_tokens": 593,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 336
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "7524b3ebab86ab7450beb379f8d2bd401d3d17194ccfb88684c5b8ff1fd6530d",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    },
+    {
+      "id": "requested-field-sequence",
+      "trainedReview": true,
+      "correct": true,
+      "observedRows": [
+        [
+          "South",
+          2
+        ],
+        [
+          "North",
+          8
+        ]
+      ],
+      "expectedRows": [
+        [
+          "South",
+          2
+        ],
+        [
+          "North",
+          8
+        ]
+      ],
+      "calls": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_requested-field-sequence\nSchema:\nbranches(branch_code INTEGER PRIMARY KEY, label TEXT, open_year INTEGER)\n\nQuestion:\nList branch label followed by branch code, ordered by code.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            }
+          ],
+          "response": "SELECT branch_code,label FROM branches ORDER BY branch_code",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_requested-field-sequence\nSchema:\nbranches(branch_code INTEGER PRIMARY KEY, label TEXT, open_year INTEGER)\n\nQuestion:\nList branch label followed by branch code, ordered by code.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT branch_code,label FROM branches ORDER BY branch_code"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 [2, 'South'], [8, 'North']"
+            }
+          ],
+          "response": "submit",
+          "injectedDevelopmentFault": true
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_requested-field-sequence\nSchema:\nbranches(branch_code INTEGER PRIMARY KEY, label TEXT, open_year INTEGER)\n\nQuestion:\nList branch label followed by branch code, ordered by code.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            }
+          ],
+          "response": "SELECT label, branch_code FROM branches ORDER BY branch_code;",
+          "usage": {
+            "prompt_tokens": 497,
+            "completion_tokens": 12,
+            "total_tokens": 509,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 241
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        },
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the public question with read-only MySQL using the actual\nschema. Preserve ONLY_FULL_GROUP_BY and all database settings; do not modify\ndata. Work out the requested output columns and row granularity first. Return\nonly those columns, without extra identifiers, notes or debugging aggregates.\nCheck row versus entity counts, supported joins, multiplicity and NULLs. Apply\nrow conditions before grouping and grouped conditions with HAVING or a suitable\nsubquery. Do not invent schema constraints or impose additional conditions.\nAdd sorting only when requested or needed to select an explicitly requested\nrank; do not add cosmetic sorting. Inspect schema or data when necessary, but\nan inspection query is never the answer query. IMPORTANT: submit grades only\nthe LAST executed SQL. After any diagnostic query, execute your final answer\nquery again before submit. Its columns, rows, aggregation and limit must answer\nthe question directly. A frozen output proposal is fallible advice: derive the\nSQL independently, reject unsupported details, and do not replace a correct\nanswer with diagnostic output. Return one SQL statement or submit per turn;\nkeep reasoning internal.\nDatabase: synthetic_requested-field-sequence\nSchema:\nbranches(branch_code INTEGER PRIMARY KEY, label TEXT, open_year INTEGER)\n\nQuestion:\nList branch label followed by branch code, ordered by code.\n\nReply with one SQL statement. After you see a result, reply submit if it should be graded, or send a corrected SQL statement."
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT branch_code,label FROM branches ORDER BY branch_code"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 [2, 'South'], [8, 'North']"
+            },
+            {
+              "role": "assistant",
+              "content": "submit"
+            },
+            {
+              "role": "user",
+              "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nIndependently derive one final SQL statement from the public question and\nschema in the first message. The prior candidate and its results are withheld\nso that their choice of fields and joins cannot anchor your derivation.\nFirst resolve each requested attribute to its semantic owner and actual schema\ncolumn. Preserve the requested order and exactly the requested output fields.\nDerive row granularity, filters, relationship direction, grouping, extrema and\ntie requirements from public evidence. Apply the selected frozen-model role\nas an additional check. Do not assume hidden constraints or add extra fields.\nReturn exactly one read-only final-answer SQL statement. Do not reply submit\nduring this independent derivation. Do not mention rewards or expected answers.\n"
+            },
+            {
+              "role": "assistant",
+              "content": "SELECT label, branch_code FROM branches ORDER BY branch_code;"
+            },
+            {
+              "role": "user",
+              "content": "Observation: rows=2 ['South', 2], ['North', 8]"
+            }
+          ],
+          "response": "submit",
+          "usage": {
+            "prompt_tokens": 567,
+            "completion_tokens": 1,
+            "total_tokens": 568,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "prompt_cache_hit_tokens": 256,
+            "prompt_cache_miss_tokens": 311
+          },
+          "finishReason": "stop",
+          "requestSettings": {
+            "model": "deepseek-flash",
+            "temperature": 0,
+            "max_tokens": 4096,
+            "stream": false,
+            "thinking": {
+              "type": "disabled"
+            }
+          }
+        }
+      ],
+      "actualReviewConsumed": true,
+      "checkerTriggered": true,
+      "checkerConsumed": true,
+      "checkerRequestSha256": "089ff75c3231500382fb023116cf3d893ec0334b0090ba96c4b5c9491e870fca",
+      "productionEpisodeCodeUsed": true,
+      "officialReward": null
+    }
+  ],
+  "diagnostic": "injected_initial_SQL_faults_on_invented_fixtures",
+  "newOfficialScores": 0,
+  "goldBenchmarkRead": false,
+  "sourceHelperSha256": "b9934646477cd460a92798d0e7efff637a50388d7685341b024bb5f1f4d78e91",
+  "reusedFrozenSyntheticPlans": "development-plans.json"
+}

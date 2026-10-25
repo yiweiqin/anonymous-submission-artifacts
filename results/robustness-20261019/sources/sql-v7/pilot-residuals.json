@@ -1,0 +1,86 @@
+{
+  "goldSqlRead": false,
+  "solverCalls": 0,
+  "officialRewardRecomputed": false,
+  "residualCases": [
+    {
+      "id": "spider-889",
+      "officialReward": 0.0,
+      "publicQuestion": "List the name, date and result of each battle.",
+      "publicSchema": {
+        "battle": [
+          "id",
+          "name",
+          "date",
+          "bulgarian_commander",
+          "latin_commander",
+          "result"
+        ],
+        "ship": [
+          "lost_in_battle",
+          "id",
+          "name",
+          "tonnage",
+          "ship_type",
+          "location",
+          "disposition_of_ship"
+        ],
+        "death": [
+          "caused_by_ship_id",
+          "id",
+          "note",
+          "killed",
+          "injured"
+        ]
+      },
+      "selectedRoles": [
+        "DIRECT_QUERY"
+      ],
+      "responses": [
+        "SELECT name, date, result FROM battle;",
+        "submit",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nThe last executed statement is about to be graded. Independently verify it\nagainst the public question, schema and observed results using these selected\nresponsibilities. Correct a concrete mistake, missing requirement or diagnostic\nquery by returning one final answer SQL statement. If it already answers the\nquestion, reply submit. Do not invent new conditions or add output columns.\nIf you run another inspection, restore the final answer query before submit.\nDo not mention a reward or guess an expected answer."
+      },
+      "checkerConsumed": true
+    },
+    {
+      "id": "spider-308",
+      "officialReward": -0.07,
+      "publicQuestion": "Show the ids of high schoolers who have friends and are also liked by someone else.",
+      "publicSchema": {
+        "Highschooler": [
+          "ID",
+          "name",
+          "grade"
+        ],
+        "Friend": [
+          "student_id",
+          "friend_id"
+        ],
+        "Likes": [
+          "student_id",
+          "liked_id"
+        ]
+      },
+      "selectedRoles": [
+        "DIRECT_QUERY",
+        "JOIN_CARDINALITY",
+        "SET_COMBINATION"
+      ],
+      "responses": [
+        "SELECT DISTINCT h.ID\nFROM Highschooler h\nJOIN Friend f ON h.ID = f.student_id\nJOIN Likes l ON h.ID = l.liked_id;",
+        "submit",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nDIRECT_QUERY: Verify that the final query returns exactly the requested fields and entities, without invented conditions.\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nSET_COMBINATION: Verify the question's AND/OR or set-combination meaning and duplicate semantics; do not add conditions or cosmetic sorting.\nThe last executed statement is about to be graded. Independently verify it\nagainst the public question, schema and observed results using these selected\nresponsibilities. Correct a concrete mistake, missing requirement or diagnostic\nquery by returning one final answer SQL statement. If it already answers the\nquestion, reply submit. Do not invent new conditions or add output columns.\nIf you run another inspection, restore the final answer query before submit.\nDo not mention a reward or guess an expected answer."
+      },
+      "checkerConsumed": true
+    }
+  ]
+}

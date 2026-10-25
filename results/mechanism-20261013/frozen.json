@@ -1,0 +1,110 @@
+[
+  {
+    "family": "Compensation-Scenario-Modeling",
+    "variant": "full",
+    "candidate": "",
+    "verdict": {
+      "status": "no_drift",
+      "nodeId": "",
+      "edgeId": "",
+      "type": "",
+      "changedFields": [],
+      "evidenceNodeIds": [],
+      "valid": true,
+      "raw": "{\"status\":\"no_drift\"}"
+    },
+    "eligibleForUpdate": false,
+    "kept": false,
+    "carry": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "selectionJob": "mechanism-20261013-1791853782463105500-selection-full-1791855750313821375-04_university_termload_refresh_model",
+    "sourceReward": 1.0
+  },
+  {
+    "family": "Compensation-Scenario-Modeling",
+    "variant": "no-localization",
+    "candidate": "",
+    "verdict": null,
+    "eligibleForUpdate": false,
+    "kept": false,
+    "carry": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "selectionJob": "mechanism-20261013-1791853782463105500-selection-no-localization-1791857118926267573-04_university_termload_refresh_model",
+    "sourceReward": 1.0
+  },
+  {
+    "family": "Compensation-Scenario-Modeling",
+    "variant": "redundant",
+    "candidate": "",
+    "verdict": null,
+    "eligibleForUpdate": false,
+    "kept": false,
+    "carry": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "selectionJob": "mechanism-20261013-1791853782463105500-selection-redundant-1791857883780330617-04_university_termload_refresh_model",
+    "sourceReward": 1.0
+  },
+  {
+    "family": "Compensation-Scenario-Modeling",
+    "variant": "no-plan",
+    "candidate": "",
+    "verdict": {
+      "status": "no_drift",
+      "nodeId": "",
+      "edgeId": "",
+      "type": "",
+      "changedFields": [],
+      "evidenceNodeIds": [],
+      "valid": true,
+      "raw": "{\"status\":\"no_drift\",\"evidenceNodeIds\":[],\"type\":\"\",\"changedFields\":{}}"
+    },
+    "eligibleForUpdate": false,
+    "kept": false,
+    "carry": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "selectionJob": "mechanism-20261013-1791853782463105500-selection-no-plan-1791859050116252339-04_university_termload_refresh_model",
+    "sourceReward": 1.0
+  },
+  {
+    "family": "Compensation-Scenario-Modeling",
+    "variant": "no-execution",
+    "candidate": "",
+    "verdict": {
+      "status": "no_drift",
+      "nodeId": "",
+      "edgeId": "",
+      "type": "",
+      "changedFields": [],
+      "evidenceNodeIds": [],
+      "valid": true,
+      "raw": "{\"status\":\"no_drift\"}"
+    },
+    "eligibleForUpdate": false,
+    "kept": false,
+    "carry": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "selectionJob": "mechanism-20261013-1791853782463105500-selection-no-execution-1791860139174598613-04_university_termload_refresh_model",
+    "sourceReward": 1.0
+  },
+  {
+    "family": "Compensation-Scenario-Modeling",
+    "variant": "terminal-only",
+    "candidate": "",
+    "verdict": {
+      "status": "no_drift",
+      "nodeId": "",
+      "edgeId": "",
+      "type": "",
+      "changedFields": [],
+      "evidenceNodeIds": [],
+      "valid": true,
+      "raw": "{\"status\":\"no_drift\",\"type\":\"\",\"changedFields\":[],\"evidenceNodeIds\":[]}"
+    },
+    "eligibleForUpdate": false,
+    "kept": false,
+    "carry": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "selectionJob": "mechanism-20261013-1791853782463105500-selection-terminal-only-1791861020266601472-04_university_termload_refresh_model",
+    "sourceReward": 1.0
+  }
+]

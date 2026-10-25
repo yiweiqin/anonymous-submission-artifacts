@@ -1,0 +1,11 @@
+[
+  {
+    "surface": "harbor",
+    "benchmarkDirs": [],
+    "knownSubdirs": []
+  },
+  {
+    "surface": "model",
+    "error": "inventory_failed"
+  }
+]

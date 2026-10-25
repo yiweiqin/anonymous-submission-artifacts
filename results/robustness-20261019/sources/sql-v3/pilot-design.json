@@ -1,0 +1,13 @@
+{
+  "schema": "janus-sql-v3-pilot-package",
+  "baseDesignSha256": "47d5983cb11ffed32755ca269f84171a7bc0dece98011a55ecd5f25c78a1e780",
+  "pilotLockSha256": "f0b11c4c4dedae489ec965dd779de0c8f4523a9dd9c7ec5b7b0da852e03c86f1",
+  "initialSqlConcurrency": 10,
+  "concurrencyReason": "Pilot SQL starts at validated 10 while the existing tau worker continues at 16; SQL gate may grow to 12/16 only under its registered resource checks. No score-dependent scheduling.",
+  "sameInferenceAsV3": true,
+  "coexistenceRequiresPostMysqlMemoryBytes": 1073741824,
+  "wrapperFiles": {
+    "sql_v3_pilot_worker.py": "bba580aa461223c0c5bbacb4e54d32152d3c0bfd4db8efb0a6dc8eed2254e9c4",
+    "sql_v3_pilot_preplan.py": "bb880749c92f851cb75ef2c9ac13602a1907fae63d357ca50cd3fffc3429bc13"
+  }
+}

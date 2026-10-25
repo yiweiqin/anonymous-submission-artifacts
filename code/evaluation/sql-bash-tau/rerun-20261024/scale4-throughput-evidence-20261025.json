@@ -1,0 +1,29 @@
+{
+  "at": 1792922290.3963552,
+  "rates": [
+    {
+      "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "at": 1792922180.8194618,
+      "completed": 129,
+      "passed": "99.0",
+      "infra": 8,
+      "beforeTasksPerMinute": 1.8984440414382178,
+      "afterTasksPerMinute": 7.365586233076909,
+      "newOfficialAfterHandoff": 54
+    },
+    {
+      "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+      "at": 1792922178.8429914,
+      "completed": 131,
+      "passed": "93.0",
+      "infra": 8,
+      "beforeTasksPerMinute": 1.8944963617273878,
+      "afterTasksPerMinute": 7.261815041568037,
+      "newOfficialAfterHandoff": 53
+    }
+  ],
+  "beforeTotalTasksPerMinute": 3.7929404031656055,
+  "afterTotalTasksPerMinute": 14.627401274644946,
+  "limitation": "Different observed task windows and task mixes; no controlled causal speedup claim.",
+  "paperReady": false
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "tb-public-agent-failure-analysis-v1",
+  "variant": "trained-terminal-v4",
+  "task": "query-optimize",
+  "jobName": "tb-v4-query-optimize-trained-1792382371147553390",
+  "evidenceSnapshot": "evidence/snapshots/1792385432685922837.json",
+  "sourceTrajectory": "runtime/jobs/tb-v4-query-optimize-trained-1792382371147553390/query-optimize__ZchyMm3/agent/trajectory.json",
+  "sourceTrajectorySha256": "66e2d9db2d390ddef6fac147da7c57d1e6c78dce53f583964793e721319ccdeb",
+  "nativeOutcome": {
+    "exception": "VerifierTimeoutError",
+    "verifierTimeoutSeconds": 1800,
+    "officialReward": null,
+    "successfulExecutorResponses": 40,
+    "retryEligible": false,
+    "countedAsZero": false
+  },
+  "observedAgentOperations": {
+    "agentSteps": 40,
+    "toolCalls": 75,
+    "emptyTerminalWaitCalls": 12,
+    "interruptKeystrokes": 6,
+    "backgroundNohupStarts": 1,
+    "explicitShellTimeoutCommands": 0,
+    "description": "The agent repeatedly timed original/candidate commands, waited or interrupted, and eventually exhausted its actual request budget. It issued multiple copies to the requested output path and repeated validation attempts. Command issuance alone does not prove those commands completed or that the saved candidate passed verification."
+  },
+  "hypothesesNotProvenRootCauses": [
+    "Unbounded validation commands and shell job ownership may waste the fixed request budget and leave incomplete validation or competing work.",
+    "The trace does not establish which statement in the untouched official verifier consumed the timeout; agent behavior alone cannot prove a verifier root cause."
+  ],
+  "genericRevisionCandidatesDeferredUntilCohortEnds": [
+    "Use bounded foreground validation; record exit status and complete output before comparing artifacts or declaring a benchmark complete.",
+    "For expensive baseline comparisons, establish a bounded measurement plan first and stop repeating unchanged full executions.",
+    "Keep ownership of any self-started child process and verify it is stopped before final artifact validation and handoff.",
+    "Reserve actual model requests for checking the final saved artifact through its real entry point."
+  ],
+  "nextVariantValidation": "After this cohort is terminal, review all generic failures, register any trained-only prompt change, exercise it on entirely self-authored bounded-execution scenarios, then evaluate the same fixed12 pilot with the unchanged compatible unique controls before another full run. Do not rescore this v4 attempt, mutate the official timeout, or use evaluator answers.",
+  "evaluatorSourceOrExpectedOutputsRead": false,
+  "currentRuntimeOrPromptChanged": false,
+  "paperReady": false
+}

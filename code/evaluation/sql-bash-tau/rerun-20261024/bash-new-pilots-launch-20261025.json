@@ -1,0 +1,45 @@
+[
+  {
+    "host": "benchmark-host-a",
+    "root": "/benchmark/janus-rerun-20261025",
+    "hash": "7697f583cdab73ff79f0efc14d8ab1213e9852437cf295fbccb2abde89bec403",
+    "resume": true,
+    "live": {
+      "pid": 2234470,
+      "cwd": "/benchmark/janus-rerun-20261025"
+    }
+  },
+  {
+    "host": "benchmark-host-a",
+    "root": "/benchmark/janus-rerun-20261025/variants/318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be",
+    "hash": "318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be",
+    "resume": false,
+    "live": {
+      "pid": 2234484,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be"
+    },
+    "paperReady": false
+  },
+  {
+    "host": "benchmark-host-b",
+    "root": "/benchmark/janus-rerun-20261025/variants/99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e",
+    "hash": "99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e",
+    "resume": false,
+    "live": {
+      "pid": 2986564,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e"
+    },
+    "paperReady": false
+  },
+  {
+    "host": "benchmark-host-b",
+    "root": "/benchmark/janus-rerun-20261025/variants/26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b",
+    "hash": "26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b",
+    "resume": false,
+    "live": {
+      "pid": 2986570,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b"
+    },
+    "paperReady": false
+  }
+]

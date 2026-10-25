@@ -1,0 +1,24 @@
+{
+  "schema": "janus-local-memory-cleanup-v1",
+  "atNs": 1792410329557212400,
+  "userAuthorized": true,
+  "operation": "Windows EmptyWorkingSet on idle background user-session applications",
+  "trimmedProcesses": 12,
+  "terminatedProcesses": 0,
+  "foregroundApplicationPreserved": true,
+  "experimentalOrUserFilesDeleted": false,
+  "availableGiBBeforeCleanup": 1.11,
+  "availableGiBImmediatelyAfterCleanup": 1.48,
+  "availableGiBAfterSettling": 2.74,
+  "guardedObserverAfterCleanupPassed": true,
+  "originalRemoteGuardPid": 1227320,
+  "originalRemoteGuardConfirmedLive": true,
+  "remoteRestartOrStopIssued": false,
+  "goalStatusObserved": "active",
+  "observedMatchedPairs": 35,
+  "observedPairedSums": {
+    "trained-terminal-v5": 20,
+    "control-terminal-interface-v3": 15
+  },
+  "paperReady": false
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "tb-query-new-variant-outcome-v1",
+  "atNs": 1792409502687875200,
+  "sourceSnapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence\\snapshots\\1792409389686409799.json",
+  "sourceManifestSha256": "e84a92b0c335f29a4d6fbac3e9ad315dc99f1c126842f812edb9256b72fd5b99",
+  "snapshotReceiptObjectSha256": "a2f6a331d10bd159cccd57d4e648e590bb95d3cc7384a02adacb2786b81fb42e",
+  "trainedReceipt": {
+    "task": "query-optimize",
+    "jobName": "tb-v5-query-optimize-trained-1792408284055958029",
+    "reward": 1.0,
+    "error": "",
+    "costUSD": null,
+    "modelCalls": 15,
+    "promptTokens": 104474,
+    "completionTokens": 4617,
+    "budgetStopEvents": [],
+    "callBudget": 40,
+    "executorCalls": 15,
+    "successfulExecutorResponses": 15,
+    "extraConsumed": true,
+    "requestJournalSha256": "432f910a842d036723ff2f2a57899e9e3873d3fb59de920d2e0d1d3b62a5c6fb",
+    "extraSha256": "630bbccbaf1897baf9876d855a01d179f3ef18c69554f005f3d3506f758b76db",
+    "budgetAudit": true,
+    "wallSeconds": 879.886,
+    "arm": "trained-terminal-v5",
+    "synthetic": false,
+    "implementationLockSha256": "401c1ee8cd5e33f7b0ea1aa84e7a1a5313c852665f6fe44e4090aa373d7ffa9c",
+    "officialImage": {
+      "reference": "alexgshaw/query-optimize:20251031",
+      "imageId": "sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14",
+      "repoDigests": [
+        "alexgshaw/query-optimize@sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14"
+      ],
+      "repoTags": [
+        "alexgshaw/query-optimize:20251031",
+        "alexgshaw/query-optimize@sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14"
+      ],
+      "sizeBytes": 120494963
+    },
+    "frozenWeightPromptTokens": 607,
+    "plannerEvidenceSha256": "a78566a76ff30673b6f757376013067d47c34627497ff61b4eff758df112925f",
+    "staffInputConsumption": {
+      "consumptionProven": true,
+      "trajectoryReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-pilot-1792401726008510100/runtime/jobs/tb-v5-query-optimize-trained-1792408284055958029/query-optimize__tXjtcsH/agent/trajectory.json",
+          "trajectorySha256": "869e5bc6e5ae251e311416e352452ec902fd73acd8cadca443bef963dbb56142",
+          "consumptionProven": true,
+          "inputSha256": "60e8ae0e2aa79e05ab4825943f97f8aad04ae1434de77af96f59fd7be6a4ff13",
+          "matches": [
+            {
+              "inputStepId": 1,
+              "actualMessageSha256": "47ed612ea264e05752bdfe5d6f56128e172c4d8d5ee1f4856134d40a770a83e3",
+              "firstModelStepId": 2,
+              "modelName": "deepseek-flash",
+              "promptTokens": 1953
+            }
+          ]
+        }
+      ],
+      "scope": "profile text in actual model input; not proof of independent agents or causal benefit"
+    },
+    "budgetSmoke": false,
+    "qualified": true
+  },
+  "originalMatchedControlReceipt": {
+    "task": "query-optimize",
+    "jobName": "tb-v4-query-optimize-control-1792396372510789081",
+    "reward": 0.0,
+    "error": "",
+    "costUSD": null,
+    "modelCalls": 28,
+    "promptTokens": 381511,
+    "completionTokens": 8795,
+    "budgetStopEvents": [],
+    "callBudget": 40,
+    "executorCalls": 28,
+    "successfulExecutorResponses": 28,
+    "extraConsumed": true,
+    "requestJournalSha256": "33fe0c2eefa40d3ad0a5595dab82870208ff6f12332dc5f85c7f1686578f3de0",
+    "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+    "budgetAudit": true,
+    "wallSeconds": 940.356,
+    "arm": "control-terminal-interface-v3",
+    "synthetic": false,
+    "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+    "officialImage": {
+      "reference": "alexgshaw/query-optimize:20251031",
+      "imageId": "sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14",
+      "repoDigests": [
+        "alexgshaw/query-optimize@sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14"
+      ],
+      "repoTags": [
+        "alexgshaw/query-optimize:20251031",
+        "alexgshaw/query-optimize@sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14"
+      ],
+      "sizeBytes": 120494963
+    },
+    "frozenWeightPromptTokens": 0,
+    "plannerEvidenceSha256": null,
+    "staffInputConsumption": null,
+    "budgetSmoke": false,
+    "qualified": true
+  },
+  "officialGradeEvidence": {
+    "task": "query-optimize",
+    "arm": "trained-terminal-v5",
+    "jobName": "tb-v5-query-optimize-trained-1792408284055958029",
+    "passed": true,
+    "officialResults": [
+      {
+        "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-pilot-1792401726008510100/runtime/jobs/tb-v5-query-optimize-trained-1792408284055958029/query-optimize__tXjtcsH/result.json",
+        "sha256": "68229d6e469e6b137c12f26f62afaa2b0b46835a99fb5b3a6c0f920988887847",
+        "reward": 1.0,
+        "exceptionInfo": null
+      }
+    ],
+    "officialRewardFiles": [
+      {
+        "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-pilot-1792401726008510100/runtime/jobs/tb-v5-query-optimize-trained-1792408284055958029/query-optimize__tXjtcsH/verifier/reward.txt",
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+        "reward": 1.0
+      }
+    ],
+    "originScore": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-pilot-1792401726008510100",
+    "originRoot": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-pilot-1792401726008510100/runtime",
+    "adoptedControl": false
+  },
+  "previousV4FailureRetainedUnchanged": true,
+  "previousVariantWasNotRescored": true,
+  "interpretation": "Independent receipt for registered v5, not a replacement v4 score or an isolated causal attribution.",
+  "fullGoalComplete": false,
+  "paperReady": false
+}

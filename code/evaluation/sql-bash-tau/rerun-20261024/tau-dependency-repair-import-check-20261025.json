@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "stdout": "{\"importsPassed\": true, \"packages\": {\"mcp\": \"2.3.0\", \"mcp-types\": \"2.3.0\", \"sse-starlette\": \"3.5.1\", \"python-multipart\": \"0.0.32\", \"litellm\": \"1.106.2\"}}\n",
+  "stderr": ""
+}

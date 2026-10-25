@@ -1,0 +1,5 @@
+﻿# Versions recorded by the exported adapter config.
+# torch, transformers, accelerate, and bitsandbytes were imported by the training
+# preflight at run time. This archive does not contain a frozen pin for them.
+peft==0.20.0
+safetensors

@@ -1,0 +1,76 @@
+{
+  "adoptions": 2,
+  "chainVarianceEstimable": false,
+  "chains": [
+    "c1"
+  ],
+  "checkpointBundlesEqualHistorical": {
+    "2": {
+      "c1": true
+    },
+    "3": {
+      "c1": true
+    },
+    "4": {
+      "c1": true
+    }
+  },
+  "conditionalProbesPassed": true,
+  "errors": [],
+  "frozenEvaluation": false,
+  "frozenNativeCarryEqualsHistorical": {
+    "2": {
+      "c1": true
+    },
+    "3": {
+      "c1": true
+    },
+    "4": {
+      "c1": true
+    }
+  },
+  "frozenTasks": 0,
+  "fullNativePersonnelConsumption": false,
+  "historicalCapabilityBoundary": "Only legacy carry enters native actor; internal plans and personnel are not directly consumed.",
+  "historicalRound1States": 1,
+  "initialNativeCarryBundleSha256": "28b2dc07486ad56becaa9487ec5e08fffd5b0e4ec11c30bb28b244b524e87691",
+  "initialStateBundleSha256": "bf55813ff239125fc2466624b09eeac2c52db1b91947d380a176d916876fe0a7",
+  "learningTasks": 198,
+  "nativeCarryAdoptions": 2,
+  "noAdoptedChanges": false,
+  "noChangeInterpretation": "If frozen native carry inputs stay identical, score variation cannot establish a native execution benefit, even if internal unconsumed personnel or planning fields change.",
+  "passed": true,
+  "protocolHashes": [
+    "3c14e7808de337d0f59aeae24d0e75d68830c78abdff0511a5860fc92dbb7839"
+  ],
+  "realDetectiveEvidence": 198,
+  "roundNativeCarryBundleHashes": {
+    "2": {
+      "c1": "28b2dc07486ad56becaa9487ec5e08fffd5b0e4ec11c30bb28b244b524e87691"
+    },
+    "3": {
+      "c1": "28b2dc07486ad56becaa9487ec5e08fffd5b0e4ec11c30bb28b244b524e87691"
+    },
+    "4": {
+      "c1": "28b2dc07486ad56becaa9487ec5e08fffd5b0e4ec11c30bb28b244b524e87691"
+    }
+  },
+  "roundStateBundleHashes": {
+    "2": {
+      "c1": "bf55813ff239125fc2466624b09eeac2c52db1b91947d380a176d916876fe0a7"
+    },
+    "3": {
+      "c1": "bf55813ff239125fc2466624b09eeac2c52db1b91947d380a176d916876fe0a7"
+    },
+    "4": {
+      "c1": "bf55813ff239125fc2466624b09eeac2c52db1b91947d380a176d916876fe0a7"
+    }
+  },
+  "scope": "state continuity, task order, chain/family separation, real native carry consumption, frozen reads and real detective evidence",
+  "snapshots": 24,
+  "uniqueStateBundlesByRound": {
+    "2": 1,
+    "3": 1,
+    "4": 1
+  }
+}

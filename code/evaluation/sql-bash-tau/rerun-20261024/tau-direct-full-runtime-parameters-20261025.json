@@ -1,0 +1,56 @@
+{
+  "parameters": [
+    {
+      "line": 1,
+      "text": "\ufeff\"\"\"One official \u03c4-bench episode. User simulator and executor are both deepseek-flash.\"\"\""
+    },
+    {
+      "line": 23,
+      "text": "            model=\"deepseek-flash\","
+    },
+    {
+      "line": 25,
+      "text": "            api_base=\"https://api.deepseek.com/v1\","
+    },
+    {
+      "line": 27,
+      "text": "            temperature=0,"
+    },
+    {
+      "line": 28,
+      "text": "            max_tokens=4096,"
+    },
+    {
+      "line": 29,
+      "text": "            timeout=240,"
+    },
+    {
+      "line": 32,
+      "text": "        kwargs[\"extra_body\"] = {\"thinking\": {\"type\": \"disabled\"}}"
+    },
+    {
+      "line": 77,
+      "text": "            user_strategy=\"llm\","
+    },
+    {
+      "line": 78,
+      "text": "            user_model=\"deepseek-flash\","
+    },
+    {
+      "line": 90,
+      "text": "        agent = ToolCallingAgent(env.tools_info, wiki, \"deepseek-flash\", \"openai\", temperature=0)"
+    },
+    {
+      "line": 91,
+      "text": "        solved = agent.solve(env, task_index=index, max_num_steps=40)"
+    },
+    {
+      "line": 96,
+      "text": "        payload[\"trace\"] = \"\\n\".join(LOCAL.trace)[-4000:]"
+    },
+    {
+      "line": 98,
+      "text": "        payload[\"error\"] = type(exc).__name__ + \":\" + scrub(str(exc))[:240]"
+    }
+  ]
+}

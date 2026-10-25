@@ -1,0 +1,1539 @@
+{
+  "schema": "cpdb_scorer_diagnosis/v1",
+  "generatedAt": "2026-09-20T05:31:04Z",
+  "environment": {
+    "python": "3.10.11",
+    "torch": "2.11.0+cpu",
+    "device": "cpu",
+    "gpu": null
+  },
+  "matrix": {
+    "rows": 8282,
+    "featureSpec": "cpdb_pair_features_v1",
+    "labelSource": {
+      "file": "data/full/human_labels.jsonl",
+      "annotators": [
+        "prelabel_v1/prelabel"
+      ]
+    },
+    "inputs": {
+      "data/full/agents.jsonl": "e20eb0fa3b57a3c57b3c672007b240a39071d3aad45217d8a869617aa53028e9",
+      "data/full/agent_profiles.jsonl": "2b83f78cdff1a4d7b0ccecf0b0ccf533308684ed03ef3bcf42aadb491ea43600",
+      "data/full/pairs.jsonl": "639bde6abb9f6c943d0ad208af41bb88224d7bbd4b7aea4fffca8b63827604ef",
+      "data/full/human_labels.jsonl": "71f8b548114ffc287ac02ec972c5a37b22ad5ef0381df9e97f878f3fb20be439"
+    },
+    "outputs": {
+      "train_out/X.f32": "5758fbbd284532d7a9705d1c9b18054d9e922cd21e8e30059907f3a3aef44dae",
+      "train_out/y_dependency.i8": "413bc01942b10ff16f450442ba12528916ebbc73b8d8beeb3b30e66315e3b5a0",
+      "train_out/y_similarity.i8": "9114e1a77805196342157b6d0eb4d4eca6411a611d9eb5329bc5e350299206fe",
+      "train_out/rows.jsonl": "a8a4bff9654c2bd9daf19a34f4752f1cb6a7426623b10d5e0608f2ed133baf87",
+      "train_out/folds.jsonl": "eca4a3ddea3b7150f816294f8de9ca0fa1eb7e34e214c27c21715140df12a15b",
+      "train_out/labels.jsonl": "5792cf1e005200688e2dd3cc2348bacda1ec71df3033ab9d7acadbd4b0ab2401",
+      "train_out/baselines.jsonl": "2f9da765ca6bc73353ef74bdd79726f5e4a01dac0e0c674d69b44fdb8b4d6607"
+    }
+  },
+  "seeds": [
+    20260920,
+    1
+  ],
+  "configs": {
+    "mlp": {
+      "name": "mlp-diagnose",
+      "hidden": [
+        256,
+        128
+      ],
+      "dropout": 0.1,
+      "lr": 0.002,
+      "weight_decay": 0.0001,
+      "epochs": 60,
+      "patience": 10
+    },
+    "logreg": {
+      "name": "logreg",
+      "hidden": [],
+      "dropout": 0.0,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "epochs": 60,
+      "patience": 10
+    }
+  },
+  "note": "mlp/logreg 每个格子跑 len(seeds) 个种子，报 mean±std（std 是**跨种子**的，因此也是判据里那个 2σ 的来源）。",
+  "cells": [
+    {
+      "scheme": "facet",
+      "variant": "no_identity",
+      "width": 32,
+      "foldCount": 5,
+      "folds": [
+        {
+          "fold": 0,
+          "trainN": 5179,
+          "evalN": 3103,
+          "majorityGlobal": {
+            "dependency": {
+              "n": 3103,
+              "majority_class": 0.0,
+              "exact": 0.553,
+              "mae_argmax": 0.2742
+            },
+            "similarity": {
+              "n": 3103,
+              "majority_class": 0.0,
+              "exact": 0.6374,
+              "mae_argmax": 0.2713
+            }
+          },
+          "lookupFacetPair": {
+            "dependency": {
+              "n": 3103,
+              "tableCells": 334,
+              "unseen": 3103,
+              "unseenRate": 1.0,
+              "exact": 0.553,
+              "within_one_step": 0.6861,
+              "mae_argmax": 0.2742
+            },
+            "similarity": {
+              "n": 3103,
+              "tableCells": 334,
+              "unseen": 3103,
+              "unseenRate": 1.0,
+              "exact": 0.6374,
+              "within_one_step": 0.6387,
+              "mae_argmax": 0.2713
+            }
+          },
+          "lookupFamilyPair": {
+            "dependency": {
+              "n": 3103,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.9745,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0064
+            },
+            "similarity": {
+              "n": 3103,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.9987,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0003
+            }
+          },
+          "mlp": {
+            "dependency": {
+              "n": {
+                "mean": 3103.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0072,
+                "std": 0.0003
+              },
+              "mae_argmax": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1716,
+                "1": 413,
+                "2": 398,
+                "3": 110,
+                "4": 466
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 3103.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9987,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.001,
+                "std": 0.0002
+              },
+              "mae_argmax": {
+                "mean": 0.0003,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0013,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1982,
+                "1": 0,
+                "2": 0,
+                "3": 1121,
+                "4": 0
+              }
+            }
+          },
+          "logreg": {
+            "dependency": {
+              "n": {
+                "mean": 3103.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.808,
+                "std": 0.0027
+              },
+              "within_one_step": {
+                "mean": 0.935,
+                "std": 0.0046
+              },
+              "mae_expected": {
+                "mean": 0.1783,
+                "std": 0.0021
+              },
+              "mae_argmax": {
+                "mean": 0.0784,
+                "std": 0.0015
+              },
+              "mean_step_error": {
+                "mean": 0.3137,
+                "std": 0.0059
+              },
+              "predicted_class_counts": {
+                "0": 1545,
+                "1": 650,
+                "2": 301,
+                "3": 79,
+                "4": 528
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 3103.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9974,
+                "std": 0.0013
+              },
+              "within_one_step": {
+                "mean": 0.9984,
+                "std": 0.0016
+              },
+              "mae_expected": {
+                "mean": 0.1103,
+                "std": 0.0288
+              },
+              "mae_argmax": {
+                "mean": 0.0013,
+                "std": 0.001
+              },
+              "mean_step_error": {
+                "mean": 0.0055,
+                "std": 0.0042
+              },
+              "predicted_class_counts": {
+                "0": 1972,
+                "1": 0,
+                "2": 0,
+                "3": 1131,
+                "4": 0
+              }
+            }
+          }
+        },
+        {
+          "fold": 1,
+          "trainN": 5285,
+          "evalN": 2997,
+          "majorityGlobal": {
+            "dependency": {
+              "n": 2997,
+              "majority_class": 0.0,
+              "exact": 0.5699,
+              "mae_argmax": 0.2533
+            },
+            "similarity": {
+              "n": 2997,
+              "majority_class": 0.0,
+              "exact": 0.67,
+              "mae_argmax": 0.2428
+            }
+          },
+          "lookupFacetPair": {
+            "dependency": {
+              "n": 2997,
+              "tableCells": 327,
+              "unseen": 2997,
+              "unseenRate": 1.0,
+              "exact": 0.5699,
+              "within_one_step": 0.7157,
+              "mae_argmax": 0.2533
+            },
+            "similarity": {
+              "n": 2997,
+              "tableCells": 327,
+              "unseen": 2997,
+              "unseenRate": 1.0,
+              "exact": 0.67,
+              "within_one_step": 0.6793,
+              "mae_argmax": 0.2428
+            }
+          },
+          "lookupFamilyPair": {
+            "dependency": {
+              "n": 2997,
+              "tableCells": 35,
+              "unseen": 420,
+              "unseenRate": 0.1401,
+              "exact": 0.9696,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0076
+            },
+            "similarity": {
+              "n": 2997,
+              "tableCells": 35,
+              "unseen": 420,
+              "unseenRate": 0.1401,
+              "exact": 0.8505,
+              "within_one_step": 0.8599,
+              "mae_argmax": 0.1074
+            }
+          },
+          "mlp": {
+            "dependency": {
+              "n": {
+                "mean": 2997.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9953,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0089,
+                "std": 0.0
+              },
+              "mae_argmax": {
+                "mean": 0.0012,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0047,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1694,
+                "1": 451,
+                "2": 302,
+                "3": 205,
+                "4": 345
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 2997.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9907,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0023,
+                "std": 0.0
+              },
+              "mae_argmax": {
+                "mean": 0.0023,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0093,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 2036,
+                "1": 0,
+                "2": 0,
+                "3": 961,
+                "4": 0
+              }
+            }
+          },
+          "logreg": {
+            "dependency": {
+              "n": {
+                "mean": 2997.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.7696,
+                "std": 0.0028
+              },
+              "within_one_step": {
+                "mean": 0.9318,
+                "std": 0.0128
+              },
+              "mae_expected": {
+                "mean": 0.182,
+                "std": 0.0013
+              },
+              "mae_argmax": {
+                "mean": 0.1008,
+                "std": 0.0088
+              },
+              "mean_step_error": {
+                "mean": 0.4032,
+                "std": 0.0352
+              },
+              "predicted_class_counts": {
+                "0": 1486,
+                "1": 718,
+                "2": 0,
+                "3": 144,
+                "4": 649
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 2997.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9907,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.1294,
+                "std": 0.0331
+              },
+              "mae_argmax": {
+                "mean": 0.0023,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0093,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 2036,
+                "1": 0,
+                "2": 0,
+                "3": 961,
+                "4": 0
+              }
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "trainN": 5176,
+          "evalN": 3106,
+          "majorityGlobal": {
+            "dependency": {
+              "n": 3106,
+              "majority_class": 0.0,
+              "exact": 0.5299,
+              "mae_argmax": 0.2978
+            },
+            "similarity": {
+              "n": 3106,
+              "majority_class": 0.0,
+              "exact": 0.6787,
+              "mae_argmax": 0.2397
+            }
+          },
+          "lookupFacetPair": {
+            "dependency": {
+              "n": 3106,
+              "tableCells": 325,
+              "unseen": 3106,
+              "unseenRate": 1.0,
+              "exact": 0.5299,
+              "within_one_step": 0.659,
+              "mae_argmax": 0.2978
+            },
+            "similarity": {
+              "n": 3106,
+              "tableCells": 325,
+              "unseen": 3106,
+              "unseenRate": 1.0,
+              "exact": 0.6787,
+              "within_one_step": 0.6813,
+              "mae_argmax": 0.2397
+            }
+          },
+          "lookupFamilyPair": {
+            "dependency": {
+              "n": 3106,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.9723,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0069
+            },
+            "similarity": {
+              "n": 3106,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.9974,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0006
+            }
+          },
+          "mlp": {
+            "dependency": {
+              "n": {
+                "mean": 3106.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0079,
+                "std": 0.0002
+              },
+              "mae_argmax": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1646,
+                "1": 401,
+                "2": 379,
+                "3": 179,
+                "4": 501
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 3106.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9974,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0022,
+                "std": 0.0001
+              },
+              "mae_argmax": {
+                "mean": 0.0006,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0026,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 2116,
+                "1": 0,
+                "2": 0,
+                "3": 990,
+                "4": 0
+              }
+            }
+          },
+          "logreg": {
+            "dependency": {
+              "n": {
+                "mean": 3106.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.8143,
+                "std": 0.0015
+              },
+              "within_one_step": {
+                "mean": 0.9145,
+                "std": 0.0076
+              },
+              "mae_expected": {
+                "mean": 0.1829,
+                "std": 0.0002
+              },
+              "mae_argmax": {
+                "mean": 0.0824,
+                "std": 0.003
+              },
+              "mean_step_error": {
+                "mean": 0.3296,
+                "std": 0.0117
+              },
+              "predicted_class_counts": {
+                "0": 1482,
+                "1": 430,
+                "2": 435,
+                "3": 154,
+                "4": 605
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 3106.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.993,
+                "std": 0.0043
+              },
+              "within_one_step": {
+                "mean": 0.995,
+                "std": 0.005
+              },
+              "mae_expected": {
+                "mean": 0.123,
+                "std": 0.0321
+              },
+              "mae_argmax": {
+                "mean": 0.004,
+                "std": 0.0034
+              },
+              "mean_step_error": {
+                "mean": 0.0163,
+                "std": 0.0137
+              },
+              "predicted_class_counts": {
+                "0": 2085,
+                "1": 0,
+                "2": 0,
+                "3": 1021,
+                "4": 0
+              }
+            }
+          }
+        },
+        {
+          "fold": 3,
+          "trainN": 5383,
+          "evalN": 2899,
+          "majorityGlobal": {
+            "dependency": {
+              "n": 2899,
+              "majority_class": 0.0,
+              "exact": 0.5357,
+              "mae_argmax": 0.3012
+            },
+            "similarity": {
+              "n": 2899,
+              "majority_class": 0.0,
+              "exact": 0.6654,
+              "mae_argmax": 0.2503
+            }
+          },
+          "lookupFacetPair": {
+            "dependency": {
+              "n": 2899,
+              "tableCells": 366,
+              "unseen": 2899,
+              "unseenRate": 1.0,
+              "exact": 0.5357,
+              "within_one_step": 0.6675,
+              "mae_argmax": 0.3012
+            },
+            "similarity": {
+              "n": 2899,
+              "tableCells": 366,
+              "unseen": 2899,
+              "unseenRate": 1.0,
+              "exact": 0.6654,
+              "within_one_step": 0.6668,
+              "mae_argmax": 0.2503
+            }
+          },
+          "lookupFamilyPair": {
+            "dependency": {
+              "n": 2899,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.9838,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0041
+            },
+            "similarity": {
+              "n": 2899,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.9986,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0003
+            }
+          },
+          "mlp": {
+            "dependency": {
+              "n": {
+                "mean": 2899.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0049,
+                "std": 0.0002
+              },
+              "mae_argmax": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1553,
+                "1": 382,
+                "2": 263,
+                "3": 219,
+                "4": 482
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 2899.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9986,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0038,
+                "std": 0.0001
+              },
+              "mae_argmax": {
+                "mean": 0.0003,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0014,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1933,
+                "1": 0,
+                "2": 0,
+                "3": 966,
+                "4": 0
+              }
+            }
+          },
+          "logreg": {
+            "dependency": {
+              "n": {
+                "mean": 2899.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.8505,
+                "std": 0.0043
+              },
+              "within_one_step": {
+                "mean": 0.9327,
+                "std": 0.0072
+              },
+              "mae_expected": {
+                "mean": 0.1788,
+                "std": 0.0001
+              },
+              "mae_argmax": {
+                "mean": 0.0675,
+                "std": 0.0047
+              },
+              "mean_step_error": {
+                "mean": 0.2701,
+                "std": 0.0186
+              },
+              "predicted_class_counts": {
+                "0": 1443,
+                "1": 324,
+                "2": 288,
+                "3": 188,
+                "4": 656
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 2899.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9986,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.1274,
+                "std": 0.0307
+              },
+              "mae_argmax": {
+                "mean": 0.0003,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0014,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1933,
+                "1": 0,
+                "2": 0,
+                "3": 966,
+                "4": 0
+              }
+            }
+          }
+        },
+        {
+          "fold": 4,
+          "trainN": 5089,
+          "evalN": 3193,
+          "majorityGlobal": {
+            "dependency": {
+              "n": 3193,
+              "majority_class": 0.0,
+              "exact": 0.4309,
+              "mae_argmax": 0.3687
+            },
+            "similarity": {
+              "n": 3193,
+              "majority_class": 0.0,
+              "exact": 0.751,
+              "mae_argmax": 0.1849
+            }
+          },
+          "lookupFacetPair": {
+            "dependency": {
+              "n": 3193,
+              "tableCells": 337,
+              "unseen": 3193,
+              "unseenRate": 1.0,
+              "exact": 0.4309,
+              "within_one_step": 0.6135,
+              "mae_argmax": 0.3687
+            },
+            "similarity": {
+              "n": 3193,
+              "tableCells": 337,
+              "unseen": 3193,
+              "unseenRate": 1.0,
+              "exact": 0.751,
+              "within_one_step": 0.7548,
+              "mae_argmax": 0.1849
+            }
+          },
+          "lookupFamilyPair": {
+            "dependency": {
+              "n": 3193,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.98,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.005
+            },
+            "similarity": {
+              "n": 3193,
+              "tableCells": 36,
+              "unseen": 0,
+              "unseenRate": 0.0,
+              "exact": 0.9962,
+              "within_one_step": 1.0,
+              "mae_argmax": 0.0009
+            }
+          },
+          "mlp": {
+            "dependency": {
+              "n": {
+                "mean": 3193.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0086,
+                "std": 0.0003
+              },
+              "mae_argmax": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 1376,
+                "1": 583,
+                "2": 405,
+                "3": 0,
+                "4": 829
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 3193.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9962,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 1.0,
+                "std": 0.0
+              },
+              "mae_expected": {
+                "mean": 0.0015,
+                "std": 0.0001
+              },
+              "mae_argmax": {
+                "mean": 0.0009,
+                "std": 0.0
+              },
+              "mean_step_error": {
+                "mean": 0.0038,
+                "std": 0.0
+              },
+              "predicted_class_counts": {
+                "0": 2410,
+                "1": 0,
+                "2": 0,
+                "3": 783,
+                "4": 0
+              }
+            }
+          },
+          "logreg": {
+            "dependency": {
+              "n": {
+                "mean": 3193.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.7525,
+                "std": 0.0005
+              },
+              "within_one_step": {
+                "mean": 0.8779,
+                "std": 0.0129
+              },
+              "mae_expected": {
+                "mean": 0.2134,
+                "std": 0.0049
+              },
+              "mae_argmax": {
+                "mean": 0.1207,
+                "std": 0.0037
+              },
+              "mean_step_error": {
+                "mean": 0.4831,
+                "std": 0.0146
+              },
+              "predicted_class_counts": {
+                "0": 1087,
+                "1": 690,
+                "2": 349,
+                "3": 116,
+                "4": 951
+              }
+            },
+            "similarity": {
+              "n": {
+                "mean": 3193.0,
+                "std": 0.0
+              },
+              "exact": {
+                "mean": 0.9962,
+                "std": 0.0
+              },
+              "within_one_step": {
+                "mean": 0.999,
+                "std": 0.001
+              },
+              "mae_expected": {
+                "mean": 0.1378,
+                "std": 0.0312
+              },
+              "mae_argmax": {
+                "mean": 0.0011,
+                "std": 0.0003
+              },
+              "mean_step_error": {
+                "mean": 0.0047,
+                "std": 0.0009
+              },
+              "predicted_class_counts": {
+                "0": 2404,
+                "1": 0,
+                "2": 0,
+                "3": 789,
+                "4": 0
+              }
+            }
+          }
+        }
+      ],
+      "summary": {
+        "mlp": {
+          "dependency": {
+            "mean": 0.9991,
+            "stdAcrossFolds": 0.0019,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              1.0,
+              0.9953,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "similarity": {
+            "mean": 0.9963,
+            "stdAcrossFolds": 0.003,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.9987,
+              0.9907,
+              0.9974,
+              0.9986,
+              0.9962
+            ]
+          }
+        },
+        "logreg": {
+          "dependency": {
+            "mean": 0.799,
+            "stdAcrossFolds": 0.0346,
+            "meanSeedStd": 0.0024,
+            "perFold": [
+              0.808,
+              0.7696,
+              0.8143,
+              0.8505,
+              0.7525
+            ]
+          },
+          "similarity": {
+            "mean": 0.9952,
+            "stdAcrossFolds": 0.0029,
+            "meanSeedStd": 0.0011,
+            "perFold": [
+              0.9974,
+              0.9907,
+              0.993,
+              0.9986,
+              0.9962
+            ]
+          }
+        },
+        "majorityGlobal": {
+          "dependency": {
+            "mean": 0.5239,
+            "stdAcrossFolds": 0.0486,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.553,
+              0.5699,
+              0.5299,
+              0.5357,
+              0.4309
+            ]
+          },
+          "similarity": {
+            "mean": 0.6805,
+            "stdAcrossFolds": 0.0379,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.6374,
+              0.67,
+              0.6787,
+              0.6654,
+              0.751
+            ]
+          }
+        },
+        "lookupFacetPair": {
+          "dependency": {
+            "mean": 0.5239,
+            "stdAcrossFolds": 0.0486,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.553,
+              0.5699,
+              0.5299,
+              0.5357,
+              0.4309
+            ]
+          },
+          "similarity": {
+            "mean": 0.6805,
+            "stdAcrossFolds": 0.0379,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.6374,
+              0.67,
+              0.6787,
+              0.6654,
+              0.751
+            ]
+          }
+        },
+        "lookupFamilyPair": {
+          "dependency": {
+            "mean": 0.976,
+            "stdAcrossFolds": 0.0052,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.9745,
+              0.9696,
+              0.9723,
+              0.9838,
+              0.98
+            ]
+          },
+          "similarity": {
+            "mean": 0.9683,
+            "stdAcrossFolds": 0.0589,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.9987,
+              0.8505,
+              0.9974,
+              0.9986,
+              0.9962
+            ]
+          }
+        },
+        "mlpMae": {
+          "dependency": {
+            "mean": 0.0002,
+            "stdAcrossFolds": 0.0005,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.0,
+              0.0012,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "similarity": {
+            "mean": 0.0009,
+            "stdAcrossFolds": 0.0007,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.0003,
+              0.0023,
+              0.0006,
+              0.0003,
+              0.0009
+            ]
+          }
+        },
+        "majorityMae": {
+          "dependency": {
+            "mean": 0.299,
+            "stdAcrossFolds": 0.0389,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.2742,
+              0.2533,
+              0.2978,
+              0.3012,
+              0.3687
+            ]
+          },
+          "similarity": {
+            "mean": 0.2378,
+            "stdAcrossFolds": 0.0287,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.2713,
+              0.2428,
+              0.2397,
+              0.2503,
+              0.1849
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "kindProbe": {
+    "classes": {
+      "cross_owner_complement": 2285,
+      "cross_owner_similar": 2400,
+      "hard_negative": 1197,
+      "within_owner_directed": 2400
+    },
+    "majorityClass": "within_owner_directed",
+    "majorityRate": 0.2898,
+    "note": "majorityRate 是「不看特征瞎猜」的上界；线性探针的准确率若接近它，说明特征没编码 kind。",
+    "probeAccuracy": 0.8949,
+    "probeN": 799,
+    "probeUsable": true,
+    "reading": "探针有效（明显好于众数），特征编码了数据集构造规则；模型学到的可能部分是「这两条为什么被采进来」。"
+  },
+  "selected": {
+    "schemes": [
+      "facet"
+    ],
+    "variants": [
+      "no_identity"
+    ]
+  },
+  "calibration": {
+    "dependency": {
+      "bins": [
+        {
+          "bin": [
+            0.0,
+            0.2
+          ],
+          "n": 7999,
+          "meanExpected": 0.0006,
+          "meanActual": 0.0,
+          "gap": 0.0006
+        },
+        {
+          "bin": [
+            0.2,
+            0.4
+          ],
+          "n": 2216,
+          "meanExpected": 0.2755,
+          "meanActual": 0.25,
+          "gap": 0.0255
+        },
+        {
+          "bin": [
+            0.4,
+            0.6
+          ],
+          "n": 1747,
+          "meanExpected": 0.476,
+          "meanActual": 0.5,
+          "gap": -0.024
+        },
+        {
+          "bin": [
+            0.6,
+            0.8
+          ],
+          "n": 713,
+          "meanExpected": 0.7409,
+          "meanActual": 0.75,
+          "gap": -0.0091
+        },
+        {
+          "bin": [
+            0.8,
+            1.0
+          ],
+          "n": 2623,
+          "meanExpected": 0.9996,
+          "meanActual": 1.0,
+          "gap": -0.0004
+        }
+      ],
+      "maeExpected": 0.0073
+    },
+    "similarity": {
+      "bins": [
+        {
+          "bin": [
+            0.0,
+            0.2
+          ],
+          "n": 10475,
+          "meanExpected": 0.0022,
+          "meanActual": 0.0013,
+          "gap": 0.0009
+        },
+        {
+          "bin": [
+            0.2,
+            0.4
+          ],
+          "n": 2,
+          "meanExpected": 0.2022,
+          "meanActual": 0.25,
+          "gap": -0.0478
+        },
+        {
+          "bin": [
+            0.4,
+            0.6
+          ],
+          "n": 0
+        },
+        {
+          "bin": [
+            0.6,
+            0.8
+          ],
+          "n": 4821,
+          "meanExpected": 0.75,
+          "meanActual": 0.75,
+          "gap": -0.0
+        },
+        {
+          "bin": [
+            0.8,
+            1.0
+          ],
+          "n": 0
+        }
+      ],
+      "maeExpected": 0.0021
+    }
+  },
+  "verdict": {
+    "criteria": [
+      "MLP 同档率 − 查表同档率 < 2σ → 模型不被证实，交表/规则",
+      "MLP 掉到接近 majority_global → 能力描述里没有可迁移信号，方案二前提需重做",
+      "MLP 明显赢过查表且赢过 logreg → 确有可迁移信号，进入下一轮"
+    ],
+    "subject": "facet 折 × no_identity 特征 × similarity 轴",
+    "primaryAxis": "similarity",
+    "primaryReason": "契约里 similarity 承担「执行不佳时换谁、以最小能力改动归因」，是方案二的核心用法。",
+    "byAxis": {
+      "dependency": {
+        "axis": "dependency",
+        "outcome": "continue",
+        "reading": "该轴上 MLP 同时明显赢过最强查表器与 logreg：**确有可迁移的非线性信号**，进入下一轮（接契约 + 端到端效用 A/B）。",
+        "numbers": {
+          "mlp": {
+            "mean": 0.9991,
+            "stdAcrossFolds": 0.0019,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              1.0,
+              0.9953,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "logreg": {
+            "mean": 0.799,
+            "stdAcrossFolds": 0.0346,
+            "meanSeedStd": 0.0024,
+            "perFold": [
+              0.808,
+              0.7696,
+              0.8143,
+              0.8505,
+              0.7525
+            ]
+          },
+          "majorityGlobal": {
+            "mean": 0.5239,
+            "stdAcrossFolds": 0.0486,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.553,
+              0.5699,
+              0.5299,
+              0.5357,
+              0.4309
+            ]
+          },
+          "lookupFacetPair": {
+            "mean": 0.5239,
+            "stdAcrossFolds": 0.0486,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.553,
+              0.5699,
+              0.5299,
+              0.5357,
+              0.4309
+            ]
+          },
+          "lookupFamilyPair": {
+            "mean": 0.976,
+            "stdAcrossFolds": 0.0052,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.9745,
+              0.9696,
+              0.9723,
+              0.9838,
+              0.98
+            ]
+          },
+          "bestTable": {
+            "name": "lookupFamilyPair",
+            "mean": 0.976
+          },
+          "gapVsBestTable": 0.0231,
+          "gapVsLogreg": 0.2001,
+          "gapVsMajority": 0.4752,
+          "sigmaUsed": 0.0019,
+          "threshold2Sigma": 0.0038
+        },
+        "flags": {
+          "beatsBestTableBeyondNoise": true,
+          "beatsLogregBeyondNoise": true,
+          "nearMajority": false
+        }
+      },
+      "similarity": {
+        "axis": "similarity",
+        "outcome": "ship_linear",
+        "reading": "该轴上 MLP 赢过所有查表器，但与 logreg（同一批特征上的线性模型）差距小于噪声：**信号是真的，但它是线性的**。该交付的是线性模型或规则，而不是 MLP —— 同样效果下参数少一个量级、可解释、可手改。",
+        "numbers": {
+          "mlp": {
+            "mean": 0.9963,
+            "stdAcrossFolds": 0.003,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.9987,
+              0.9907,
+              0.9974,
+              0.9986,
+              0.9962
+            ]
+          },
+          "logreg": {
+            "mean": 0.9952,
+            "stdAcrossFolds": 0.0029,
+            "meanSeedStd": 0.0011,
+            "perFold": [
+              0.9974,
+              0.9907,
+              0.993,
+              0.9986,
+              0.9962
+            ]
+          },
+          "majorityGlobal": {
+            "mean": 0.6805,
+            "stdAcrossFolds": 0.0379,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.6374,
+              0.67,
+              0.6787,
+              0.6654,
+              0.751
+            ]
+          },
+          "lookupFacetPair": {
+            "mean": 0.6805,
+            "stdAcrossFolds": 0.0379,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.6374,
+              0.67,
+              0.6787,
+              0.6654,
+              0.751
+            ]
+          },
+          "lookupFamilyPair": {
+            "mean": 0.9683,
+            "stdAcrossFolds": 0.0589,
+            "meanSeedStd": 0.0,
+            "perFold": [
+              0.9987,
+              0.8505,
+              0.9974,
+              0.9986,
+              0.9962
+            ]
+          },
+          "bestTable": {
+            "name": "lookupFamilyPair",
+            "mean": 0.9683
+          },
+          "gapVsBestTable": 0.028,
+          "gapVsLogreg": 0.0011,
+          "gapVsMajority": 0.3158,
+          "sigmaUsed": 0.003,
+          "threshold2Sigma": 0.006
+        },
+        "flags": {
+          "beatsBestTableBeyondNoise": true,
+          "beatsLogregBeyondNoise": false,
+          "nearMajority": false
+        }
+      }
+    },
+    "outcome": "ship_linear",
+    "reading": "该轴上 MLP 赢过所有查表器，但与 logreg（同一批特征上的线性模型）差距小于噪声：**信号是真的，但它是线性的**。该交付的是线性模型或规则，而不是 MLP —— 同样效果下参数少一个量级、可解释、可手改。",
+    "crossAxisNote": "两条轴的结论不一致时，不要取平均或只报一条。dependency 与 similarity 是两个独立契约字段，各自按自己的结论落地。",
+    "agreement": false
+  }
+}

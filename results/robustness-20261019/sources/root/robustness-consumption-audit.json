@@ -1,0 +1,22 @@
+{
+  "sql": {
+    "journals": 1079,
+    "decisions": {
+      "calls": 1027,
+      "adopted": 0,
+      "valid": 0,
+      "reason:false_no_change": 1027
+    }
+  },
+  "bash": {
+    "journals": 299,
+    "decisions": {
+      "calls": 223,
+      "adopted": 1,
+      "valid": 1,
+      "reason:false_no_change": 222,
+      "reason:replay_pass": 1
+    },
+    "trialsWithErrors": []
+  }
+}

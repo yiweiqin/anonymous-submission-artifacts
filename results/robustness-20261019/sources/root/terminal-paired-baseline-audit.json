@@ -1,0 +1,527 @@
+{
+  "header": "Terminal-Bench 2.1 资源兼容63题子集；历史正式对照可比59题，不是89题整榜",
+  "comparedTasks": 59,
+  "trainedRewardSum": 45.0,
+  "baselineRewardSum": 46.0,
+  "higher": [
+    "cancel-async-tasks",
+    "regex-chess"
+  ],
+  "lower": [
+    "adaptive-rejection-sampler",
+    "configure-git-webserver",
+    "count-dataset-tokens"
+  ],
+  "ties": 54,
+  "unpaired": {
+    "large-scale-text-editing": 1.0,
+    "make-doom-for-mips": 0.0,
+    "raman-fitting": 1.0,
+    "tune-mjcf": 0.0
+  },
+  "baselineEvidence": [
+    {
+      "task": "bn-fit-modify",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "break-filter-js-from-html",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "build-pmars",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "build-pov-ray",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "cancel-async-tasks",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "task": "chess-best-move",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "circuit-fibsqrt",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "task": "cobol-modernization",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "code-from-image",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "constraints-scheduling",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "count-dataset-tokens",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "custom-memory-heap-crash",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "db-wal-recovery",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "distribution-search",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "extract-elf",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "feal-differential-cryptanalysis",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "feal-linear-cryptanalysis",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "fix-code-vulnerability",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "fix-git",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "gcode-to-text",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "git-leak-recovery",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "git-multibranch",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "headless-terminal",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "kv-store-grpc",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "largest-eigenval",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "llm-inference-batching-scheduler",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "log-summary-date-ranges",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "mailman",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "task": "make-mips-interpreter",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "model-extraction-relu-logits",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "task": "modernize-scientific-stack",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "mteb-retrieve",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "task": "multi-source-data-merger",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "nginx-request-logging",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "openssl-selfsigned-cert",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "password-recovery",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "path-tracing",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "polyglot-rust-c",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "prove-plus-comm",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "pytorch-model-recovery",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "regex-chess",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "regex-log",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "sanitize-git-repo",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "schemelike-metacircular-eval",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "sparql-university",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "sqlite-db-truncate",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "sqlite-with-gcov",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "video-processing",
+      "baseline": 0.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "vulnerable-secret",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "winning-avg-corewars",
+      "baseline": 1.0,
+      "source": "lower_of_two_old_official_arms",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "configure-git-webserver",
+      "baseline": 1.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "dna-assembly",
+      "baseline": 0.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "extract-moves-from-video",
+      "baseline": 0.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "fix-ocaml-gc",
+      "baseline": 1.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "polyglot-c-py",
+      "baseline": 1.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "write-compressor",
+      "baseline": 1.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "adaptive-rejection-sampler",
+      "baseline": 1.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "path-tracing-reverse",
+      "baseline": 0.0,
+      "source": "sole_clean_start_gap_receipt"
+    },
+    {
+      "task": "query-optimize",
+      "baseline": 1.0,
+      "source": "sole_clean_start_gap_receipt"
+    }
+  ],
+  "receiptDigests": {
+    "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/native-target-1792237113891730500": "97828d1a739d5ba4feb1f7ae315ecd4231b7ce9e0bb5489cef00a19672a3486d",
+    "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/native-target-start-gap-1792289513905441700": "2180f360bce6ae95da86965d660e477d2488fc318a2e61f3c6e787c1de503fd4",
+    "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/native-target-1792253052206330700": "84c64484f06c8834e709d65a59fba820fb37bfbda4b83496442eb4bbb281cc08"
+  },
+  "newModelCalls": 0,
+  "newGraderCalls": 0,
+  "historicalSelectionRuleRestrictedToTerminalBench": true
+}

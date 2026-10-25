@@ -1,0 +1,8 @@
+{
+  "sourceReceiptSha256": "edb30f96f0d761adc6200c0fd2aafbd16733d5db531cac368ee73812b27484a2",
+  "localBeforeSha256": "553b1873b1dbfa25e5f03daeaeb31a64020bdb704e07a9593e4291c106330550",
+  "remoteBeforeSha256": "8fe806fe09654d9dcb2932137a446003ea8822bf74fe6d667f85cf35134768cd",
+  "reason": "Correct the legacy unscored infrastructure counter: executed ungraded failures are not retry-eligible infrastructure.",
+  "officialReceiptsOrRewardsChanged": false,
+  "paperReady": false
+}

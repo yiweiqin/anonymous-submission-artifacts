@@ -1,0 +1,63 @@
+[
+  {
+    "bench": "bash",
+    "hash": "7697f583cdab73ff79f0efc14d8ab1213e9852437cf295fbccb2abde89bec403",
+    "root": "/benchmark/janus-rerun-20261025",
+    "n": 30,
+    "sum": 24.320000000000007,
+    "complete": true,
+    "holdDrops": [
+      "nl2bash-fs1-1",
+      "nl2bash-fs1-22",
+      "nl2bash-fs1-32",
+      "nl2bash-fs2-1",
+      "nl2bash-fs2-2",
+      "nl2bash-fs2-27",
+      "nl2bash-fs2-41",
+      "nl2bash-fs2-48"
+    ],
+    "gapNetIncrease": "1.59",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "9b55c5fab2dddccfe28e1b88346a157fe59a5efd19a4e050c186081c8e9584cf",
+    "at": 1792919435.6617749,
+    "paperReady": false
+  },
+  {
+    "bench": "bash",
+    "hash": "318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be",
+    "root": "/benchmark/janus-rerun-20261025/variants/318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be",
+    "n": 30,
+    "sum": 25.44,
+    "complete": true,
+    "holdDrops": [
+      "nl2bash-fs1-4",
+      "nl2bash-fs1-32",
+      "nl2bash-fs2-1",
+      "nl2bash-fs2-11"
+    ],
+    "gapNetIncrease": "1.83",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "0be852562fdecf54c74a7be52e5cba4b9ac76ce42dff5bb20be864c0eb46353d",
+    "at": 1792919436.057714,
+    "paperReady": false
+  },
+  {
+    "bench": "bash",
+    "hash": "6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e",
+    "root": "/benchmark/janus-rerun-20261025/variants/6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e",
+    "n": 9,
+    "sum": 8.67,
+    "complete": false,
+    "holdDrops": [
+      "nl2bash-fs1-29"
+    ],
+    "gapNetIncrease": "0.66",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "446c5468f7eaab4fc4f6b18e9c8e3e2b3ee1248d30d0c1db48d8e1737552a035",
+    "at": 1792919436.4644654,
+    "paperReady": false
+  }
+]

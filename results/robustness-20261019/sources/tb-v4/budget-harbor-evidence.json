@@ -1,0 +1,49 @@
+{
+  "allPassed": true,
+  "receipts": 2,
+  "evidence": [
+    {
+      "task": "synthetic-budget-exhaustion",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v4-synthetic-budget-exhaustion-control-1792370043257633069",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-development-1792369972817025600/runtime/jobs/tb-v4-synthetic-budget-exhaustion-control-1792370043257633069/synthetic-budget-exhaustion__xsw923P/result.json",
+          "sha256": "4af8305ada6e30f932eebb65ec5f377ab87ef69af63e3f5bd048cfe895b352ff",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-development-1792369972817025600/runtime/jobs/tb-v4-synthetic-budget-exhaustion-control-1792370043257633069/synthetic-budget-exhaustion__xsw923P/verifier/reward.txt",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "task": "synthetic-budget-exhaustion",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-synthetic-budget-exhaustion-trained-1792370067330590317",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-development-1792369972817025600/runtime/jobs/tb-v4-synthetic-budget-exhaustion-trained-1792370067330590317/synthetic-budget-exhaustion__8V3eKPD/result.json",
+          "sha256": "4a09f86a29cf5e47dafe84c4da479dd81b1685262948af5e0c84b0ce4040e4a6",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-development-1792369972817025600/runtime/jobs/tb-v4-synthetic-budget-exhaustion-trained-1792370067330590317/synthetic-budget-exhaustion__8V3eKPD/verifier/reward.txt",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "reward": 1.0
+        }
+      ]
+    }
+  ],
+  "officialEvaluatorSourceRead": false
+}

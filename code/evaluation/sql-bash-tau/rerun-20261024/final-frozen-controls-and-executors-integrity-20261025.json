@@ -1,0 +1,31 @@
+{
+  "at": 1792922590.207115,
+  "allUnchanged": true,
+  "checks": [
+    {
+      "host": "benchmark-host-c",
+      "bench": "tau",
+      "controls": 8,
+      "unchanged": true
+    },
+    {
+      "host": "benchmark-host-d",
+      "bench": "bash",
+      "controls": 5,
+      "unchanged": true
+    },
+    {
+      "host": "benchmark-host-a",
+      "bench": "bash",
+      "controls": 1,
+      "unchanged": true
+    },
+    {
+      "host": "benchmark-host-b",
+      "bench": "bash",
+      "controls": 2,
+      "unchanged": true
+    }
+  ],
+  "paperReady": false
+}

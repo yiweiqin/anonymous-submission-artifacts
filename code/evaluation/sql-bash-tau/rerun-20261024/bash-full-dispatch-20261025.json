@@ -1,0 +1,43 @@
+{
+  "gate": {
+    "bench": "bash",
+    "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+    "root": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+    "n": 30,
+    "sum": 28.6,
+    "complete": true,
+    "holdDrops": [],
+    "gapNetIncrease": "4.03",
+    "gatePassed": true,
+    "infraFailures": 0,
+    "receiptSha256": "4816cf2b6f446fb633a3d18032cb10de28ae6fd45fa6a49640fcd0b4b2b4403b",
+    "at": 1792910819.5676382,
+    "paperReady": false
+  },
+  "shards": [
+    {
+      "host": "benchmark-host-a",
+      "shard": 0,
+      "root": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+      "processEvidence": {
+        "queuePid": 2412518,
+        "queueLive": false,
+        "fullPid": 2412519,
+        "fullLive": true
+      }
+    },
+    {
+      "host": "benchmark-host-b",
+      "shard": 1,
+      "root": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+      "processEvidence": {
+        "queuePid": 3121427,
+        "queueLive": false,
+        "fullPid": 3121428,
+        "fullLive": true
+      }
+    }
+  ],
+  "completeDispatch": true,
+  "paperReady": false
+}

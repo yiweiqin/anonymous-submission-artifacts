@@ -1,0 +1,27 @@
+{
+  "families": [
+    "Financial-Statement-Rolling",
+    "Sales-Pivot-Analysis",
+    "Distribution-Center-Auditing"
+  ],
+  "arms": [
+    "vanilla",
+    "expel",
+    "awm",
+    "reasoning_bank",
+    "skillrl",
+    "cowork_x",
+    "rsea"
+  ],
+  "workers": 3,
+  "host": "benchmark-host-c",
+  "counts": {
+    "Financial-Statement-Rolling": 8,
+    "Sales-Pivot-Analysis": 8,
+    "Distribution-Center-Auditing": 8
+  },
+  "missing": {},
+  "record": "holdout-record.jsonl",
+  "forceBuild": true,
+  "janusFull": false
+}

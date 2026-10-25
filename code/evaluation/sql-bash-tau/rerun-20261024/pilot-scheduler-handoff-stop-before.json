@@ -1,0 +1,9 @@
+{
+  "remoteProcessesStopped": false,
+  "scheduler": 45492,
+  "reason": "User reassigned 43/193 to two direct-full tau candidates; obsolete automatic pilot scheduling stopped",
+  "at": "2026-10-25T09:10:55.6920057+00:00",
+  "containersStopped": false,
+  "sqlTouched": false,
+  "guard": 56048
+}

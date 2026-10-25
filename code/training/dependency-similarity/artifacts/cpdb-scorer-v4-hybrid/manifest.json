@@ -1,0 +1,26 @@
+{
+  "schema": "cpdb_ship_manifest/v1",
+  "artifactId": "cpdb-scorer-v4-hybrid",
+  "generatedAt": "2026-09-20T11:21:42.422Z",
+  "defaultScorer": "hybrid_rules",
+  "reason": "41 张人标冻结混合口径。MLP 不做。v3 AI 表降为对照物。",
+  "rows": 8282,
+  "tally": {
+    "dependency": {
+      "0": 4356,
+      "1": 0,
+      "0.25": 1621,
+      "0.5": 727,
+      "0.75": 1578
+    },
+    "similarity": {
+      "0": 5642,
+      "1": 0,
+      "0.25": 0,
+      "0.5": 2387,
+      "0.75": 253
+    }
+  },
+  "familyCellCount": 36,
+  "facetCellCount": 533
+}

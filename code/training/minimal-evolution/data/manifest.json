@@ -1,0 +1,145 @@
+{
+  "schema": "rdmd_minimal_evolution_v1",
+  "seed": 20260923,
+  "status": "PREPARED_NOT_TRAINED",
+  "scope": "synthetic_executable_table_workflows",
+  "files": {
+    "development.cases.jsonl": {
+      "sha256": "2c7e7dc256a809f583c0d49d06669bf7b9bd4f8f0e9ccc6368563bf73bce8d78",
+      "bytes": 7196459,
+      "rows": 640
+    },
+    "development.preferences.jsonl": {
+      "sha256": "2c42cbf61c0538b865bddc031015ec5f785b7b7887cb07736687fdba27511d37",
+      "bytes": 775444,
+      "rows": 1604
+    },
+    "development.sft.jsonl": {
+      "sha256": "e864feb80a60444f38841b142a2c17d793c805db12ce399c2dff940daafff861",
+      "bytes": 2770847,
+      "rows": 640
+    },
+    "holdout.cases.jsonl": {
+      "sha256": "72906b7df0f4156aec80096158fde42a679a24d5e85d0eb3b1b407cd506a068d",
+      "bytes": 10931281,
+      "rows": 960
+    },
+    "holdout.preferences.jsonl": {
+      "sha256": "9306f55bedb326f10f542ce88be1cdb5b376c184ea7803d8361e0588fbbe55d6",
+      "bytes": 1378257,
+      "rows": 2640
+    },
+    "holdout.sft.jsonl": {
+      "sha256": "4d1c77a1d14a4950215731b88cd5b1719432deaf2edf98c6ef326ba3dc7040b7",
+      "bytes": 4334911,
+      "rows": 960
+    },
+    "test.cases.jsonl": {
+      "sha256": "dc80387326d8d766accee860b28f56e139d8778e09549bb665959273e4e1230f",
+      "bytes": 7178816,
+      "rows": 640
+    },
+    "test.preferences.jsonl": {
+      "sha256": "b8612137859d189602916831b20750b0858b6aa6ba03da35a571cafe186719cf",
+      "bytes": 738561,
+      "rows": 1584
+    },
+    "test.sft.jsonl": {
+      "sha256": "a40911ba0705c1fbcd737f97fe306b172ef1028d6867442b0c0173e671cbc306",
+      "bytes": 2754536,
+      "rows": 640
+    },
+    "train.cases.jsonl": {
+      "sha256": "20c0e1e3aad412dc9a45c1c67e4d81f0a2e0b611f1e4a755e80cc488c1be50f8",
+      "bytes": 53892037,
+      "rows": 4800
+    },
+    "train.preferences.jsonl": {
+      "sha256": "9194a478019e3a4eeab09e8b6c4373f7f0b7fc5cc2cbc156c37bbf82c221f313",
+      "bytes": 5707619,
+      "rows": 12080
+    },
+    "train.sft.jsonl": {
+      "sha256": "aaa6b946d25f7daa406ac6cb9652e74b50fc107490e472696bbe2b3f9ec086aa",
+      "bytes": 20696885,
+      "rows": 4800
+    }
+  },
+  "splits": {
+    "train": {
+      "groups": 600,
+      "rows": 4800,
+      "decisions": {
+        "adopt": 2120,
+        "no_change": 880,
+        "abstain": 1800
+      },
+      "minimumCosts": {
+        "1": 600,
+        "2": 600,
+        "4": 600,
+        "9": 320
+      },
+      "maxCandidates": 5
+    },
+    "development": {
+      "groups": 80,
+      "rows": 640,
+      "decisions": {
+        "adopt": 281,
+        "no_change": 119,
+        "abstain": 240
+      },
+      "minimumCosts": {
+        "1": 80,
+        "2": 80,
+        "4": 80,
+        "9": 41
+      },
+      "maxCandidates": 5
+    },
+    "test": {
+      "groups": 80,
+      "rows": 640,
+      "decisions": {
+        "adopt": 276,
+        "no_change": 124,
+        "abstain": 240
+      },
+      "minimumCosts": {
+        "1": 80,
+        "2": 80,
+        "4": 80,
+        "9": 36
+      },
+      "maxCandidates": 5
+    },
+    "holdout": {
+      "groups": 120,
+      "rows": 960,
+      "decisions": {
+        "adopt": 480,
+        "no_change": 120,
+        "abstain": 360
+      },
+      "minimumCosts": {
+        "1": 120,
+        "3": 120,
+        "4": 120,
+        "9": 120
+      },
+      "maxCandidates": 5
+    }
+  },
+  "heldout": {
+    "aggregate": "mean",
+    "insertedOperation": "dedup",
+    "rewiredOperation": "dedup",
+    "simultaneousParameterChanges": 3
+  },
+  "labelWorlds": "observed+verification",
+  "transferWorldsUsedForLabels": false,
+  "generatorSha256": "782dd1f3e42e064aba0422341765e4908557c2ded45f5aafeac2e1f10b93adaa",
+  "engineSha256": "2c124345b380bdeb6297fdecf6b93cbe70d7691b9b3f805acfc51346dfbdfff9",
+  "configSha256": "dd642c604f876f4340c4d3bb58201920d33e3d349d06d4a3b7a7ff6321bb3178"
+}

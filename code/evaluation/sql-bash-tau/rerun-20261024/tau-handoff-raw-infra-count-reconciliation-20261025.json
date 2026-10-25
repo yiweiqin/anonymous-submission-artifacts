@@ -1,0 +1,9 @@
+{
+  "at": 1792922290.3963552,
+  "knownMissingMcpFailuresPerCandidate": 8,
+  "totalAcrossTwoCandidates": 16,
+  "explanation": "The original phase receipts recorded six per candidate, while two additional failed raw attempts on airline-5 remained unreceipted at the environment hold. Recovery used attempt-2 for that task, within the default three-attempt cap; only airline-1 and airline-3 used the separately authorized fourth attempt. Counts now derive from raw owned attempts and receipt records without editing historical lines.",
+  "scoreChanges": false,
+  "rawAttemptsPreserved": true,
+  "paperReady": false
+}

@@ -1,0 +1,97 @@
+{
+  "at": 1792923933.6939373,
+  "passed": true,
+  "requirements": [
+    {
+      "requirement": "Latest explicit direct-full authorization supersedes old 28-task gate for new candidates",
+      "evidence": [
+        "tau-handoff-candidate-freeze-20261025.json",
+        "scale4-ownership-plan-20261025.json"
+      ],
+      "passed": true
+    },
+    {
+      "requirement": "Both exact prompt hashes each complete165; first finite official scores, zeros, retry caps and four authorized exceptions audited",
+      "evidence": [
+        "full-attempt-prefix-audit-20261025.json",
+        "final-evidence-archive-audit-20261025.json"
+      ],
+      "passed": true
+    },
+    {
+      "requirement": "Ownership disjoint and complete; no duplicate full tasks or pilot/historical reward reuse",
+      "evidence": [
+        "scale4-ownership-plan-20261025.json",
+        "tau-cc8f861abd39-full-progress-20261025.json",
+        "tau-32f50cc029d9-full-progress-20261025.json"
+      ],
+      "passed": true
+    },
+    {
+      "requirement": "Bash200 complete, original threshold and seven frozen comparisons intact",
+      "evidence": [
+        "bash-a0bb60055734-full-progress-20261025.json",
+        "final-frozen-controls-and-executors-integrity-20261025.json"
+      ],
+      "passed": true
+    },
+    {
+      "requirement": "All candidates and failed attempts preserved; raw archive integrity, paired gains/losses and reported usage delivered",
+      "evidence": [
+        "all-candidates-inventory-20261025.csv",
+        "\u03c4\u5019\u9009\u9010\u9898\u589e\u76ca\u9000\u5316\u8ba1\u6570-20261025.csv",
+        "\u5168\u90e8\u5b8c\u6574\u5019\u9009\u6210\u672c\u8bb0\u5f55-20261025.csv",
+        "\u5168\u90e8\u03c4\u5b8c\u6574\u5019\u9009\u6709\u6548\u96f6\u5206\u4e0e\u8bca\u65ad\u5c40\u9650-20261025.csv"
+      ],
+      "passed": true
+    },
+    {
+      "requirement": "Owned jobs/containers finished, SQL and unrelated services untouched",
+      "evidence": [
+        "final-resource-closeout-20261025.json",
+        "pilot-scheduler-handoff-stop-complete.json"
+      ],
+      "passed": true
+    },
+    {
+      "requirement": "Public-policy prompt interventions only, no reference/hidden-target injection, no native executor or model-parameter changes",
+      "evidence": [
+        "tau-handoff-candidate-freeze-20261025.json",
+        "scale4-environment-checks-20261025.json",
+        "final-frozen-controls-and-executors-integrity-20261025.json"
+      ],
+      "passed": true
+    },
+    {
+      "requirement": "Uncertainties and known environment/cost/tool-logging limitations disclosed; paperReady remainsfalse",
+      "evidence": [
+        "\u6700\u7ec8\u5b9e\u9a8c\u7ed3\u8bba-\u03c4\u4e0eBash-20261025.md",
+        "tau-handoff-error-usage-clarification-20261025.json",
+        "executor-budget-audit-20261025.json"
+      ],
+      "passed": true
+    }
+  ],
+  "resultSelection": {
+    "at": 1792923933.6929402,
+    "selectedTauPromptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+    "selectedTauScore": 126,
+    "selectedTauAirline": 29,
+    "selectedTauRetail": 97,
+    "selectedBashPromptSha256": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+    "selectedBashScore": 153.28,
+    "selectionUnit": "Choose complete prompt candidate, never per-task best-of",
+    "allOtherResultsPreserved": true,
+    "oldFrozenJanus118Untouched": true,
+    "sevenControlsUntouched": true,
+    "paperReady": false,
+    "limitation": "Airline remains below old33; baseline reuse and one-run prompt selection do not prove generalization."
+  },
+  "documents": {
+    "\u6700\u7ec8\u5b9e\u9a8c\u7ed3\u8bba-\u03c4\u4e0eBash-20261025.md": "28e1a8bbeba742992fba3033764ac688e04cd1e503767a26362d97174c85c0af",
+    "\u6700\u7ec8\u5168\u96c6\u6210\u7ee9\u6c47\u603b-20261025.csv": "7c7c57106d3169e5331e721448171936cd1267b4f831e8f583b21a4940628cd8",
+    "tau-completed-paired-tasks-20261025.csv": "c45436149f7d14c06fed3867db0287f2dd323a1f63d7bfd2c0efbf23225a6dd4",
+    "\u5168\u90e8\u5b8c\u6574\u5019\u9009\u6210\u672c\u8bb0\u5f55-20261025.csv": "e2c5a634a4e3e61b2a38c588188114644f3034b2da15c76972a9d929f9901e94"
+  },
+  "paperReady": false
+}

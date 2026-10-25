@@ -1,0 +1,257 @@
+{
+  "schema": "native-finite-workflow-freeze-v1",
+  "variants": {
+    "native-untrained-start": {
+      "staffContract": {
+        "instructions": "JANUS FROZEN EXECUTION CONTRACT v1 / 078dd5b990c03d0210c301077ccd0a30a4b92d1f3d4f53cc024b1f4184ded84f\nFollow the plan, work, and check stages below using the current task requirements. The task requirements take precedence.\n\nStage plan / profile planner:\nrole: planner\ninputs: instruction\nartifact: 任务拆解\noutput: 要交的文件和题目指定的字段\nsummary: 把题目拆成要交的文件和指定字段，不改数字。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1\n\nStage work / profile worker:\nrole: worker\ninputs: plan\nartifact: 输出文件\noutput: 按题目字段写出的输出文件\nsummary: 按题目指定的字段写出要求的输出文件。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1\n\nStage check / profile checker:\nrole: checker\ninputs: output file\nartifact: 验收结论\noutput: 对照题目后的验收结论\nsummary: 对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1",
+        "fingerprint": "078dd5b990c03d0210c301077ccd0a30a4b92d1f3d4f53cc024b1f4184ded84f",
+        "inputSha256": "60e8ae0e2aa79e05ab4825943f97f8aad04ae1434de77af96f59fd7be6a4ff13",
+        "compiledPlanFields": [
+          {
+            "slot": "plan",
+            "profile": "planner",
+            "fields": {
+              "role": "planner",
+              "inputs": "instruction",
+              "artifact": "任务拆解",
+              "output": "要交的文件和题目指定的字段",
+              "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          },
+          {
+            "slot": "work",
+            "profile": "worker",
+            "fields": {
+              "role": "worker",
+              "inputs": "plan",
+              "artifact": "输出文件",
+              "output": "按题目字段写出的输出文件",
+              "summary": "按题目指定的字段写出要求的输出文件。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          },
+          {
+            "slot": "check",
+            "profile": "checker",
+            "fields": {
+              "role": "checker",
+              "inputs": "output file",
+              "artifact": "验收结论",
+              "output": "对照题目后的验收结论",
+              "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          }
+        ],
+        "carrySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "interfaceRevision": "text-profile-consumer-v1",
+        "scope": "single shared task executor; staffing profiles enter its instructions, not independent agent processes"
+      },
+      "updates": [],
+      "liveModelArm": "base-native",
+      "actualInputSha256": "8841b01507130abd196e005d5ba4604052d85f1f2c2b2ae3cb5255c03a3c9089",
+      "updatePackageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "executablePackageSha256": "f4dede9ab1c6a4198923b8b9e57320e770156006dc8fe5c98b31ddca28de7a7e"
+    },
+    "native-trained-empty": {
+      "staffContract": {
+        "instructions": "JANUS FROZEN EXECUTION CONTRACT v1 / 078dd5b990c03d0210c301077ccd0a30a4b92d1f3d4f53cc024b1f4184ded84f\nFollow the plan, work, and check stages below using the current task requirements. The task requirements take precedence.\n\nStage plan / profile planner:\nrole: planner\ninputs: instruction\nartifact: 任务拆解\noutput: 要交的文件和题目指定的字段\nsummary: 把题目拆成要交的文件和指定字段，不改数字。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1\n\nStage work / profile worker:\nrole: worker\ninputs: plan\nartifact: 输出文件\noutput: 按题目字段写出的输出文件\nsummary: 按题目指定的字段写出要求的输出文件。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1\n\nStage check / profile checker:\nrole: checker\ninputs: output file\nartifact: 验收结论\noutput: 对照题目后的验收结论\nsummary: 对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1",
+        "fingerprint": "078dd5b990c03d0210c301077ccd0a30a4b92d1f3d4f53cc024b1f4184ded84f",
+        "inputSha256": "60e8ae0e2aa79e05ab4825943f97f8aad04ae1434de77af96f59fd7be6a4ff13",
+        "compiledPlanFields": [
+          {
+            "slot": "plan",
+            "profile": "planner",
+            "fields": {
+              "role": "planner",
+              "inputs": "instruction",
+              "artifact": "任务拆解",
+              "output": "要交的文件和题目指定的字段",
+              "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          },
+          {
+            "slot": "work",
+            "profile": "worker",
+            "fields": {
+              "role": "worker",
+              "inputs": "plan",
+              "artifact": "输出文件",
+              "output": "按题目字段写出的输出文件",
+              "summary": "按题目指定的字段写出要求的输出文件。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          },
+          {
+            "slot": "check",
+            "profile": "checker",
+            "fields": {
+              "role": "checker",
+              "inputs": "output file",
+              "artifact": "验收结论",
+              "output": "对照题目后的验收结论",
+              "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          }
+        ],
+        "carrySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "interfaceRevision": "text-profile-consumer-v1",
+        "scope": "single shared task executor; staffing profiles enter its instructions, not independent agent processes"
+      },
+      "updates": [],
+      "liveModelArm": "trained-native",
+      "actualInputSha256": "8841b01507130abd196e005d5ba4604052d85f1f2c2b2ae3cb5255c03a3c9089",
+      "updatePackageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "executablePackageSha256": "16781ee8f265f8a9605997f323797bdaf323a41d554e05e115840d421e9ecbbf"
+    },
+    "native-trained-frozen-source": {
+      "staffContract": {
+        "instructions": "JANUS FROZEN EXECUTION CONTRACT v1 / 078dd5b990c03d0210c301077ccd0a30a4b92d1f3d4f53cc024b1f4184ded84f\nFollow the plan, work, and check stages below using the current task requirements. The task requirements take precedence.\n\nStage plan / profile planner:\nrole: planner\ninputs: instruction\nartifact: 任务拆解\noutput: 要交的文件和题目指定的字段\nsummary: 把题目拆成要交的文件和指定字段，不改数字。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1\n\nStage work / profile worker:\nrole: worker\ninputs: plan\nartifact: 输出文件\noutput: 按题目字段写出的输出文件\nsummary: 按题目指定的字段写出要求的输出文件。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1\n\nStage check / profile checker:\nrole: checker\ninputs: output file\nartifact: 验收结论\noutput: 对照题目后的验收结论\nsummary: 对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Terminal-Bench 2.1。\nacceptance: standard\nversion: v1",
+        "fingerprint": "078dd5b990c03d0210c301077ccd0a30a4b92d1f3d4f53cc024b1f4184ded84f",
+        "inputSha256": "60e8ae0e2aa79e05ab4825943f97f8aad04ae1434de77af96f59fd7be6a4ff13",
+        "compiledPlanFields": [
+          {
+            "slot": "plan",
+            "profile": "planner",
+            "fields": {
+              "role": "planner",
+              "inputs": "instruction",
+              "artifact": "任务拆解",
+              "output": "要交的文件和题目指定的字段",
+              "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          },
+          {
+            "slot": "work",
+            "profile": "worker",
+            "fields": {
+              "role": "worker",
+              "inputs": "plan",
+              "artifact": "输出文件",
+              "output": "按题目字段写出的输出文件",
+              "summary": "按题目指定的字段写出要求的输出文件。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          },
+          {
+            "slot": "check",
+            "profile": "checker",
+            "fields": {
+              "role": "checker",
+              "inputs": "output file",
+              "artifact": "验收结论",
+              "output": "对照题目后的验收结论",
+              "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Terminal-Bench 2.1。",
+              "acceptance": "standard",
+              "version": "v1"
+            }
+          }
+        ],
+        "carrySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "interfaceRevision": "text-profile-consumer-v1",
+        "scope": "single shared task executor; staffing profiles enter its instructions, not independent agent processes"
+      },
+      "updates": [],
+      "liveModelArm": "trained-native",
+      "actualInputSha256": "8841b01507130abd196e005d5ba4604052d85f1f2c2b2ae3cb5255c03a3c9089",
+      "updatePackageSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "executablePackageSha256": "16781ee8f265f8a9605997f323797bdaf323a41d554e05e115840d421e9ecbbf"
+    }
+  },
+  "sourceCaseSnapshotSha256": "49a3779854790d38e3a4fa53cd93d43d8349d202e05be99ce3b0557b0bf54d57",
+  "sourcePredictionSha256": "ea0eabf6e8efb50b9ab89586e2f9a8701273f4f45f4c8ae579137c027d052215",
+  "sourceReceiptsSha256": "4655c8acdcef357ecbea13b4da7927f5971df6abdcc81e622d405bd32646b24b",
+  "nativeModelProvenance": {
+    "adapterSha256": "8755e26df3f370a8396e7acdae6670f2a45c6cdcdbca4ea3d0ce911a059afebc",
+    "adapterConfigSha256": "06af8a125a26bc3fa571865de5dddfc1e2ab1246833d643054bc70d9884d2712",
+    "baseFileDigests": {
+      "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+      "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+      "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+      "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+      "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff"
+    },
+    "tokenizerFileDigests": {
+      "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+      "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+      "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    },
+    "engineSha256": "2c124345b380bdeb6297fdecf6b93cbe70d7691b9b3f805acfc51346dfbdfff9",
+    "modelIoSha256": "6a5a156feebe02771d8dd9274ca14c80b577a0e3eb29b2fb3d0b1763209b898a",
+    "maxNewTokens": 1536,
+    "maxLength": 8192,
+    "doSample": false,
+    "quantization": "nf4-double-quant",
+    "computeDtype": "bfloat16",
+    "instructionSha256": "abaa877909cc1545bfcfeeeeb5b0a0ff422c6b49a9a597113efd68ae7c88351a"
+  },
+  "dsModelProvenance": {
+    "adapterSha256": "86974ad6106845a5e4b6e7d80486414058c4955e30cbe4d7e24698e1a31c8fb9",
+    "baseFileDigests": {
+      "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+      "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+      "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+      "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+      "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff"
+    },
+    "maxNewTokens": 120,
+    "doSample": false,
+    "dtype": "bfloat16",
+    "inputFileSha256": "45a17e4bb8500c076fa77e7f2b43a9ac83eb2b04f27c5d1468473303d191d4df",
+    "scope": "existing curated profiles; shared text executor"
+  },
+  "staffFreezeSha256": "369cc2330a582e0a91e5cdab872f737d2b46e6f221c642e3fbe7767a926eefce",
+  "runtimeFileDigests": {
+    "native_workflow.py": "d804cb1c2f3ce0d8b852cef684b3e8e036dbb99d765e8ec8663359f4b3e5d5ca",
+    "native_terminal.py": "231e51aac6b87666aa611dbd18595851b62f5da448c384dff5277bc4a0456a04",
+    "native_inputs.py": "e597c8f1c2d57b78c9c117918937c084dab6f6556ea8bef70a0f3c2fc15597e8",
+    "native_one_trial.py": "edc0c9417909968af4ba9b38b88979837c46434e3dac11160f48f6da975e3198",
+    "native_live.py": "0e39a0a2399aba1d25dc88ceea31a64fd35e93a4c26c229a768195601f14e7f6",
+    "native_rpc_server.py": "5aa280d10524ff22662c03f8f507ed3bece1b8aa8cc8271ef54bf6aed295ba5b",
+    "native_rpc_broker.py": "d74c2e800e4340a50da5a723564f9266d6956427bf7612258506ddcd758128cc",
+    "native_target_worker.py": "a3999d679e590621356c2f1552490f96f41984ab49f47e916cbb5172e25f4b9b",
+    "native_source_worker.py": "3ad9d55c8e5fd56828129be3ce78122b94270c9a850f9037ba92a24ce51e1121",
+    "consume_plan.py": "3b107049d6d9793a4ed11a29ed74dc52b5705e8df418f8ebfc0578fc34c333ce"
+  },
+  "formalRunnerSha256": "972e67ccca571702abc09b7371da96cc7aa0ee7f5363b3787b8fc8c20381b2f9",
+  "modelRolesSha256": "9ebae5a739f89efedbf5793ea45cf9de902cf9e2562b0ca2c318e7d81d63a5d4",
+  "nativeInstructions": "A host-owned table workflow tool is available. Use it for actual\ninteger-valued table operations when relevant to the task, not to manufacture\ntraining examples. Ordinary shell tools remain available for other operations.\nWhen the public task requires preserving every record of an original table,\nuse this tool to count its unique actual identifiers and reconcile the count\nwith the delivered records. Use original table headers and bounds, not a\nreplacement input sheet. This is a common executor check, not learned guidance.\nRun a tool request as ONE command: janus-native '<JSON>'. No shell chaining.\nFirst register your complete best initial plan BEFORE executing/correcting it.\nRegistration fields: action=\"register\", workflowId=<unique string>, source,\ntask, graph. Source fields: path=<actual public input>, format=\"csv\", and\ncolumns={\"id\":<actual header>,\"category\":<actual header>,\"quality\":<actual header>,\n\"value\":<actual header>}. Task fields: name=<describe the actual public goal>,\nminimum=<required qualifying threshold>, factor=<required multiplier>,\ndedupKey=\"id\" or \"category\", aggregate=\"sum\" or \"count\" or \"mean\",\noutputNodeId=<actual delivery node ID>. Graph fields: nodes, edges.\nEach node has id, op, params. Edges are [fromId,toId] pairs.\nDefine ALL task semantics from the public instruction, independently of your\ngraph. Do not copy sample defaults as the task specification. If a task requests\na quality threshold or scaling, reflect it in both task and your best plan.\nminimum is a threshold applied to EACH ROW's quality, never an expected row\ncount or aggregate result. For an operation covering every row, use a threshold\nno greater than the smallest observed quality. factor is a multiplier, never\nan expected result. If the public goal cannot be expressed by this contract,\nuse ordinary tools rather than registering an unrelated workflow.\nOperators: source, identity, filter(minimum), scale(factor), dedup(key=id/category),\naggregate(method=sum/count/mean). Every non-source node has exactly one input.\nSource and identity params must be {}; source path belongs only in source,\nnever in a graph node. Read the file header with ordinary shell tools first.\nRows map to id/category/quality/value; quality/value and numeric parameters must\nbe integers. Maximum 128 rows, 24 nodes. CSV header names must be exact. XLSX is\nalso supported with format=xlsx and sheet=<sheet name>; header is row 1, cached\nvalues only. An original XLSX table starting later may specify headerRow (1-32).\nFor genuine row-count operations lacking native numeric fields, only these\nneutral projections are permitted: category={\"constant\":\"all\"},\nquality={\"constant\":0}, value={\"constant\":1}. id must use an actual identifier\nheader; all other mappings must use actual headers. Constants are schema\nadaptation only, never expected outputs or wages. Do not create a replacement\ninput sheet to obtain a supported header. Unsupported operations use ordinary\ntools. Never fabricate data, goals, expected values, failed plans or\ncorrections to trigger an update. Unsupported operations use ordinary tools.\nPublic CSV/XLSX input paths named in the task are snapshotted by the host before\nyour first terminal action. Native reads of these paths use that immutable input.\nDerived files may be executed but are not eligible as original learning evidence.\nThen execute the returned active plan:\n{\"action\":\"execute\",\"workflowId\":\"unique-name\"}\nIf public task semantics require a genuine correction, execute with graph=<full\ncorrected graph> under the SAME workflowId. Task goals and input snapshot cannot\nbe changed. Use the real returned result in your task deliverable. A public DSL\ncheck is not the official benchmark reward. Unsupported inputs are rejected.\n",
+  "taskModel": "deepseek-flash",
+  "temperature": 0,
+  "maxTurns": 40,
+  "targetFeedbackMaySelectUpdates": false,
+  "frozenBeforeTargetScoring": true,
+  "liveWithinTaskInference": true,
+  "crossTaskPersistentLearning": false,
+  "liveModelPolicy": "Invoke frozen weights only after actual native execution; independent replay and minimum certificate gate adoption; no official task reward enters inference.",
+  "evaluationArms": [
+    "native-untrained-start",
+    "native-trained-frozen-source"
+  ],
+  "structurallyIdenticalVariants": {
+    "native-trained-empty": "native-trained-frozen-source"
+  },
+  "identicalVariantReporting": "No separate formal score is claimed for an unrun identical variant; its distinct causal contrast is unidentifiable.",
+  "scope": "native finite workflow evolution plus actual D profile selection in shared executor",
+  "independentAgentProcesses": false,
+  "replacementTriggerVerified": false,
+  "trainedPatchAdoptions": 0,
+  "genuineSourceCorrections": 0,
+  "mainTableModified": false,
+  "mainProtocolModified": false,
+  "formalTargetCallsAtFreeze": 0,
+  "packageSha256": "83e7b349a3eac7c169328e564ba6f31b0d10fe6ba8d4f93b96a14a876c616cc1"
+}

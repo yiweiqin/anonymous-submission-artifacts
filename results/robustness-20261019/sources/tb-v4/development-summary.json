@@ -1,0 +1,55 @@
+{
+  "schema": "tb-prompt-audit-v1",
+  "synthetic": true,
+  "checks": {
+    "completeUniqueOfficialCoverage": true,
+    "allReceiptsQualified": true,
+    "allUnscoredAttemptsEligibleInfrastructure": true,
+    "allActualInputsConsumed": true,
+    "allExecutorBudgetsPass": true,
+    "allPackagesMatch": true,
+    "attemptsPerTaskAtMost3": true,
+    "allSingleOfficialVerifierOutputsMatch": true,
+    "allFrozenModelDigestsMatch": true
+  },
+  "tasks": 3,
+  "officialGrades": 0,
+  "developmentGrades": 6,
+  "sums": {
+    "trained-terminal-v4": 3.0,
+    "control-terminal-interface-v3": 3.0
+  },
+  "delta": 0.0,
+  "higher": 0,
+  "lower": 0,
+  "ties": 3,
+  "pairs": {
+    "synthetic-data-deliverable": {
+      "trained-terminal-v4": 1.0,
+      "control-terminal-interface-v3": 1.0
+    },
+    "synthetic-interface-contract": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v4": 1.0
+    },
+    "synthetic-shell-boundaries": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v4": 1.0
+    }
+  },
+  "passed": true,
+  "passesExpansionGate": false,
+  "receiptSha256": "228b7d9eda2d21f7d4677422c041b1e7440685b268c8d8e904370a30f3d36527",
+  "costUSD": null,
+  "paperReady": false,
+  "interpretation": "Composite adaptive development evidence, no independent confirmatory or LoRA-only causal claim.",
+  "actualConsumption": {
+    "executorRequests": 44,
+    "executorSuccessfulResponses": 44,
+    "promptTokens": 163841,
+    "completionTokens": 13346,
+    "plannerInputTokens": 1718,
+    "plannerClassificationPositionsScored": 3
+  },
+  "retainedUnscoredInfrastructureAttempts": 0
+}

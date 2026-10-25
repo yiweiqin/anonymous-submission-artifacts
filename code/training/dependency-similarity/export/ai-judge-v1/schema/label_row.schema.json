@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "cpdb_ai_judge_label_row",
+  "type": "object",
+  "required": [
+    "id",
+    "reviewerId",
+    "dependency",
+    "similarity"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "pair id，来自 cards/*.jsonl 或 pairs/pairs.jsonl"
+    },
+    "reviewerId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "本次判分的署名人。不得以 prelabel 开头（保留前缀）。同一 pair 的 2 份判分必须用不同 reviewerId。",
+      "not": {
+        "pattern": "^prelabel"
+      }
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "reviewer",
+        "adjudicator"
+      ],
+      "default": "reviewer",
+      "description": "缺省即 reviewer。adjudicator 只用于裁分歧。"
+    },
+    "dependency": {
+      "type": "number",
+      "enum": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "description": "规划依赖分。必须是数字，且严格落在标尺上。"
+    },
+    "similarity": {
+      "type": "number",
+      "enum": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "description": "最小改动替换分。必须是数字，且严格落在标尺上。"
+    },
+    "rationale": {
+      "type": "string",
+      "description": "可选，一句话说明为什么。"
+    },
+    "split": {
+      "type": "string",
+      "enum": [
+        "train",
+        "development",
+        "test"
+      ],
+      "description": "冗余字段，服务端会按 pair id 覆盖。"
+    },
+    "kind": {
+      "type": "string",
+      "description": "冗余字段，服务端会按 pair id 覆盖。"
+    }
+  },
+  "not": {
+    "required": [
+      "combined"
+    ]
+  },
+  "description": "禁止出现 combined / combinedScore 字段。也不要有 status（它是推导量）。"
+}

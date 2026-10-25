@@ -1,0 +1,1163 @@
+{
+  "sourceInstructions": 66,
+  "targets": 165,
+  "flagged": 0,
+  "rows": [
+    {
+      "domain": "retail",
+      "index": 0,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 1,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 2,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 3,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 4,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 5,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 6,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 7,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 8,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 9,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 10,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 11,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 12,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 13,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 14,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 15,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 16,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 17,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 18,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 19,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 20,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 21,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 22,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 23,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 24,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 25,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 26,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 27,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 28,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 29,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 30,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 31,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 32,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 33,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 34,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 35,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 36,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 37,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 38,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 39,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 40,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 41,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 42,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 43,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 44,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 45,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 46,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 47,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 48,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 49,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 50,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 51,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 52,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 53,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 54,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 55,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 56,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 57,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 58,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 59,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 60,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 61,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 62,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 63,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 64,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 65,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 66,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 67,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 68,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 69,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 70,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 71,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 72,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 73,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 74,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 75,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 76,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 77,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 78,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 79,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 80,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 81,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 82,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 83,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 84,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 85,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 86,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 87,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 88,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 89,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 90,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 91,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 92,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 93,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 94,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 95,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 96,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 97,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 98,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 99,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 100,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 101,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 102,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 103,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 104,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 105,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 106,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 107,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 108,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 109,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 110,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 111,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 112,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 113,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "retail",
+      "index": 114,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 0,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 1,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 2,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 3,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 4,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 5,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 6,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 7,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 8,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 9,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 10,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 11,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 12,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 13,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 14,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 15,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 16,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 17,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 18,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 19,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 20,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 21,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 22,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 23,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 24,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 25,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 26,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 27,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 28,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 29,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 30,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 31,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 32,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 33,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 34,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 35,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 36,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 37,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 38,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 39,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 40,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 41,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 42,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 43,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 44,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 45,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 46,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 47,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 48,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    },
+    {
+      "domain": "airline",
+      "index": 49,
+      "maxFiveGramJaccard": 0.0,
+      "closestSource": "Weighted-Risk-Assessment/weighted-port-throughput-calc/instruction.md",
+      "flagged": false
+    }
+  ],
+  "limitations": "Lexical instruction audit only; adapter training data coverage and base-model pretraining are not established."
+}

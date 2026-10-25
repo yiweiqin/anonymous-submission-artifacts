@@ -1,0 +1,12 @@
+{
+  "pid": 575378,
+  "pythonBytes": 33517986,
+  "pythonSha256": "c0ccda275948c79996e46993c2c5476ff5cca606dee530f1dea712179131b348",
+  "source": "https://ghfast.top/https://github.com/astral-sh/python-build-standalone/releases",
+  "sourceKBps": 160,
+  "workerSha256": "817adfaceaffe31171780ee604ad4f0d917a1ebe49973280a37c19a9caa730d9",
+  "diskFreeBytes": 27117182976,
+  "mirrorErrors": [
+    "URLError:<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
+  ]
+}

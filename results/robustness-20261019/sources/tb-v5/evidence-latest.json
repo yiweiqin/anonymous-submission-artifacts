@@ -1,0 +1,13 @@
+{
+  "snapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence\\snapshots\\1792415641549038899.json",
+  "manifestSha256": "d9589b4f9c41a7bb1a290885f9ee0f0f1bd37a3294338ad1f16a09619ee0cb09",
+  "capturedReceipts": 126,
+  "qualifiedReceipts": 126,
+  "allObjectsVerified": true,
+  "files": 878,
+  "objects": 617,
+  "newObjects": 17,
+  "newBytes": 10322263,
+  "officialOutputAuditPassed": true,
+  "paperReady": false
+}

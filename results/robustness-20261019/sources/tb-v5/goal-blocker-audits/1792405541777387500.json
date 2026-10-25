@@ -1,0 +1,81 @@
+{
+  "schema": "tb-goal-blocker-audit-v1",
+  "observedAtNs": 1792405541777387500,
+  "sameBlockerConsecutiveGoalTurns": 3,
+  "blocker": "local_available_memory_below_frozen_2_GiB_guard_threshold",
+  "currentAvailableGiB": 1.26,
+  "requiredAvailableGiB": 2,
+  "observations": [
+    {
+      "goalTurn": "initial_encounter_with_full_launch_progress",
+      "availableGiB": [
+        2.13,
+        1.78,
+        1.87
+      ],
+      "result": "archive_guard_resource_pressure"
+    },
+    {
+      "goalTurn": "previous_continuation",
+      "availableGiB": [
+        1.58,
+        1.84,
+        1.5
+      ],
+      "result": "inspection_guard_refused"
+    },
+    {
+      "goalTurn": "current_continuation",
+      "availableGiB": [
+        1.26
+      ],
+      "result": "inspection_guard_refused"
+    }
+  ],
+  "currentRemoteStateUnverified": true,
+  "lastVerifiedRemoteEvidence": {
+    "path": "experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-live-snapshot.json",
+    "sha256": "f8dd0928226ca000ae0c6f5d2530137d9743cad4beb39c389e37bac144bae9ee",
+    "status": {
+      "phase": "running",
+      "synthetic": false,
+      "tasks": 63,
+      "receipts": 77,
+      "maxConcurrentTasks": 2,
+      "memoryReservationBudgetBytes": 2700247040,
+      "memoryAdmission": "reserve each declared container budget before launch; reduce actual concurrency when host headroom requires",
+      "paperReady": false
+    },
+    "ownedProcesses": [
+      {
+        "pid": 1227320,
+        "startTicks": 89401601,
+        "state": "S",
+        "entry": "run_guarded.mjs"
+      },
+      {
+        "pid": 1227327,
+        "startTicks": 89401606,
+        "state": "S",
+        "entry": "tb_full_pending_worker.py"
+      },
+      {
+        "pid": 1244380,
+        "startTicks": 89431279,
+        "state": "S",
+        "entry": "tb_trial.py"
+      }
+    ]
+  },
+  "safeActionsExhausted": "Guarded inspection and archive cannot start; frozen threshold cannot be lowered. Unrelated user processes are not authorized cleanup targets. No stopped or missing remote handle has been observed.",
+  "remoteStopOrRestartIssued": false,
+  "completionEstablished": false,
+  "requestedGoalTransition": "blocked",
+  "resumeRequirements": [
+    "Restore local available memory above2GiB with headroom for observation and transfer.",
+    "Resume this goal and first inspect existing remote handles; do not launch a replacement experiment solely because observation was unavailable.",
+    "Continue guarded content-addressed archive; verify each existing partial object before reuse.",
+    "Finish full63 receipts, summary, expansion analysis and completion audits; register next changed variant if no qualified full win."
+  ],
+  "paperReady": false
+}

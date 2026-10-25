@@ -1,0 +1,32 @@
+[
+  {
+    "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+    "pid": 3416356,
+    "cwd": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+    "args": [
+      "/benchmark/robustness-prep/venv/bin/python",
+      "-u",
+      "resume-authorized-tau.py",
+      "tau",
+      "full",
+      "prompt-tau.txt"
+    ],
+    "wrapperSha256": "cd8ab476c424c8fbbffacceff1abc07526ef6ecadab6cc3f8f2a923f21c9f568",
+    "originalRunnerSha256": "d47c6059b3f766158b41b6db299ee10d668d921eb3b3aae31936a6a50435bf7c"
+  },
+  {
+    "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+    "pid": 3416364,
+    "cwd": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+    "args": [
+      "/benchmark/robustness-prep/venv/bin/python",
+      "-u",
+      "resume-authorized-tau.py",
+      "tau",
+      "full",
+      "prompt-tau.txt"
+    ],
+    "wrapperSha256": "cd8ab476c424c8fbbffacceff1abc07526ef6ecadab6cc3f8f2a923f21c9f568",
+    "originalRunnerSha256": "d47c6059b3f766158b41b6db299ee10d668d921eb3b3aae31936a6a50435bf7c"
+  }
+]

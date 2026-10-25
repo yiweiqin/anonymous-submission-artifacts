@@ -1,0 +1,230 @@
+[
+  {
+    "hash": "old-janus",
+    "total": 118.0,
+    "categories": {
+      "airline:stable_pass": 33,
+      "airline:persistent_fail": 17,
+      "retail:stable_pass": 85,
+      "retail:persistent_fail": 30
+    },
+    "at40Calls": {
+      "airline:persistent_fail": 2
+    },
+    "rawOfficialMismatches": [],
+    "errors": [
+      {
+        "task": "airline-8",
+        "error": "JSONDecodeError:Unterminated string starting at: line 1 column 13 (char 12)",
+        "reward": null
+      }
+    ],
+    "actualPromptHashes": [
+      "f78def2e904230e8049264e8c10bb201c8c5eb180ccdd0b71085c4db51212da7"
+    ]
+  },
+  {
+    "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+    "total": 122.0,
+    "categories": {
+      "airline:regression": 7,
+      "airline:stable_pass": 26,
+      "airline:persistent_fail": 15,
+      "airline:gain": 2,
+      "retail:stable_pass": 82,
+      "retail:persistent_fail": 18,
+      "retail:gain": 12,
+      "retail:regression": 3
+    },
+    "at40Calls": {},
+    "rawOfficialMismatches": [],
+    "errors": [
+      {
+        "task": "airline-1",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-1",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-1",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-3",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-3",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-3",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-5",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-5",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      }
+    ],
+    "actualPromptHashes": [
+      "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29"
+    ]
+  },
+  {
+    "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+    "total": 112.0,
+    "categories": {
+      "airline:regression": 7,
+      "airline:stable_pass": 26,
+      "airline:persistent_fail": 16,
+      "retail:stable_pass": 76,
+      "retail:regression": 9,
+      "retail:persistent_fail": 21,
+      "retail:gain": 9,
+      "airline:gain": 1
+    },
+    "at40Calls": {},
+    "rawOfficialMismatches": [],
+    "errors": [
+      {
+        "task": "airline-14",
+        "error": "JSONDecodeError:Unterminated string starting at: line 1 column 13 (char 12)",
+        "reward": null
+      },
+      {
+        "task": "airline-33",
+        "error": "JSONDecodeError:Unterminated string starting at: line 1 column 13 (char 12)",
+        "reward": null
+      }
+    ],
+    "actualPromptHashes": [
+      "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db"
+    ]
+  },
+  {
+    "hash": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+    "total": 116.0,
+    "categories": {
+      "airline:stable_pass": 24,
+      "airline:regression": 9,
+      "airline:persistent_fail": 14,
+      "airline:gain": 3,
+      "retail:stable_pass": 80,
+      "retail:persistent_fail": 21,
+      "retail:gain": 9,
+      "retail:regression": 5
+    },
+    "at40Calls": {
+      "airline:regression": 1
+    },
+    "rawOfficialMismatches": [],
+    "errors": [
+      {
+        "task": "airline-9",
+        "error": "JSONDecodeError:Unterminated string starting at: line 1 column 13 (char 12)",
+        "reward": null
+      }
+    ],
+    "actualPromptHashes": [
+      "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6"
+    ]
+  },
+  {
+    "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+    "total": 110.0,
+    "categories": {
+      "airline:regression": 8,
+      "airline:stable_pass": 25,
+      "airline:persistent_fail": 15,
+      "airline:gain": 2,
+      "retail:stable_pass": 76,
+      "retail:regression": 9,
+      "retail:persistent_fail": 23,
+      "retail:gain": 7
+    },
+    "at40Calls": {},
+    "rawOfficialMismatches": [],
+    "errors": [],
+    "actualPromptHashes": [
+      "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda"
+    ]
+  },
+  {
+    "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+    "total": 126.0,
+    "categories": {
+      "airline:stable_pass": 27,
+      "airline:regression": 6,
+      "airline:persistent_fail": 15,
+      "airline:gain": 2,
+      "retail:stable_pass": 81,
+      "retail:persistent_fail": 14,
+      "retail:gain": 16,
+      "retail:regression": 4
+    },
+    "at40Calls": {
+      "airline:regression": 1,
+      "airline:persistent_fail": 1
+    },
+    "rawOfficialMismatches": [],
+    "errors": [
+      {
+        "task": "airline-1",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-1",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-1",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-3",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-3",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-3",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-5",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      },
+      {
+        "task": "airline-5",
+        "error": "ModuleNotFoundError:No module named 'mcp'",
+        "reward": null
+      }
+    ],
+    "actualPromptHashes": [
+      "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f"
+    ]
+  }
+]

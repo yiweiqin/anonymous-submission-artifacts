@@ -1,0 +1,88 @@
+{
+  "schema": "tb-goal-blocker-audit-v1",
+  "observedAtNs": 1792409892319076200,
+  "sameBlockerConsecutiveGoalTurns": 3,
+  "freshResumedBlockAudit": true,
+  "blocker": "local_available_memory_below_frozen_2_GiB_guard_threshold",
+  "currentAvailableGiB": 1.82,
+  "requiredAvailableGiB": 2,
+  "observations": [
+    {
+      "goalTurn": "first_consecutive_blocked_turn",
+      "availableGiB": [
+        1.21,
+        1.65,
+        1.64
+      ],
+      "result": "inspection_guard_refused"
+    },
+    {
+      "goalTurn": "second_consecutive_blocked_turn",
+      "availableGiB": [
+        0.93,
+        1.27
+      ],
+      "result": "inspection_guard_refused"
+    },
+    {
+      "goalTurn": "current_third_consecutive_blocked_turn",
+      "availableGiB": [
+        1.82
+      ],
+      "result": "inspection_guard_refused"
+    }
+  ],
+  "currentRemoteStateUnverified": true,
+  "lastVerifiedRemoteEvidence": {
+    "path": "experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-live-snapshot.json",
+    "sha256": "a9274cede38920e2384c6235e33dbaea6c43f6b887d652c139d14229bf0db492",
+    "ownedProcesses": [
+      {
+        "pid": 1227320,
+        "startTicks": 89401601,
+        "state": "S",
+        "entry": "run_guarded.mjs"
+      },
+      {
+        "pid": 1227327,
+        "startTicks": 89401606,
+        "state": "S",
+        "entry": "tb_full_pending_worker.py"
+      },
+      {
+        "pid": 1363082,
+        "startTicks": 89865362,
+        "state": "S",
+        "entry": "tb_trial.py"
+      }
+    ]
+  },
+  "lastIndependentlyVerifiedArchive": {
+    "snapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence\\snapshots\\1792409389686409799.json",
+    "manifestSha256": "e84a92b0c335f29a4d6fbac3e9ad315dc99f1c126842f812edb9256b72fd5b99",
+    "capturedReceipts": 94,
+    "qualifiedReceipts": 94,
+    "allObjectsVerified": true,
+    "files": 684,
+    "objects": 487,
+    "newObjects": 7,
+    "newBytes": 617250,
+    "officialOutputAuditPassed": true,
+    "paperReady": false
+  },
+  "lastVerifiedMatchedPairs": 31,
+  "lastVerifiedPairedSums": {
+    "trained-terminal-v5": 19,
+    "control-terminal-interface-v3": 13
+  },
+  "safeActionsExhausted": "Guarded inspection and archive cannot start below the frozen threshold; unrelated applications are not authorized cleanup targets. No terminal remote handle was observed.",
+  "remoteStopOrRestartIssued": false,
+  "completionEstablished": false,
+  "requestedGoalTransition": "blocked",
+  "resumeRequirements": [
+    "Restore local available memory above2GiB with operating headroom.",
+    "Resume and inspect existing full guard/worker/trial handles before any further action.",
+    "Continue full63 scoring evidence and audits; never replay a valid grade or executed ungraded attempt."
+  ],
+  "paperReady": false
+}

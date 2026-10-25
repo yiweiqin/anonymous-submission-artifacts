@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "summary_cells": 32,
+  "per_task_rows": 11568,
+  "unique_task_ids_per_method": true,
+  "matched_task_sets": true,
+  "all_scores_match_requested_table": true,
+  "paperReady": false
+}

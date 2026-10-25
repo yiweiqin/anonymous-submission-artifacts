@@ -1,0 +1,12 @@
+{
+  "label": "A-request-dependency",
+  "mainEvidence": "All three completed fulls lose retail-98 after described item-before-address locking; airline-3 shows dropped baggage after flight retry; retail-29 gains use correct source/target order; these are samples within exhaustive paired score categories.",
+  "hypothesis": "A compact request ledger and dependency-aware write order will preserve multiple requested actions and feasible search constraints without chained scenario-specific rules.",
+  "changes": [
+    "Replace accumulated case clauses with one request ledger",
+    "Order state-preserving writes before one-shot operations",
+    "Track feasibility and user objective through retries",
+    "Do not execute alternative transactions without authorization"
+  ],
+  "risk": "Planning and broader feasible search can consume turns or add clarification; a rigid ledger could over-confirm. Do not infer all zero causes from retained text."
+}

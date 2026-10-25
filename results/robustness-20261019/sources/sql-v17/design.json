@@ -1,0 +1,153 @@
+{
+  "schema": "janus-sql-review-deadline-v17",
+  "registeredAt": "2026-10-18T16:58:25.521793+00:00",
+  "status": "development_passed_not_scored",
+  "header": "InterCode Spider dev 固定48题开发验证；冻结职责与截止轮复核和保守语义修正 v17；非思考模式、请求温度0；不是整库或未见测试",
+  "commit": "c3e46d827cfc9d4c704ec078f7abf9f41e3191d8",
+  "arms": [
+    "native-trained-sql-closed-choice-v17",
+    "native-untrained-sql-interface-v6"
+  ],
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "maxTurns": 40,
+  "maxOutputTokens": 4096,
+  "initialConcurrency": 16,
+  "maximumConcurrency": 16,
+  "sameSubset": true,
+  "sameOfficialReward": true,
+  "structuralChange": true,
+  "originalFreezeModified": false,
+  "paperReady": false,
+  "changes": [
+    "Same frozen closed-choice role inference and initial executor prompt as v13/control.",
+    "Contract arrays may contain structured requirement objects as explicitly documented; no retrospective qualification of v13.",
+    "Withhold candidate during contract generation; then compare the existing query against the proposed contract. Preserve existing SQL unless a publicly supported defect warrants a change.",
+    "Reject unsupported reciprocity, symmetry, uniqueness and NULL assumptions. Permit read-only metadata inspection to establish join keys within40 calls.",
+    "Malformed contracts are rejected and original last query is submitted; explicitly count rejected proposals rather than claim their adoption. All48 grades remain in the comparison.",
+    "Synthetic normal+fault recovery first; one fixed48 pilot, sole unchanged controls, all earlier results retained.",
+    "Explicitly compare supported output-contract columns position by position. Wrong column count/order is a concrete defect requiring corrected SQL, not cosmetic row sorting.",
+    "v14 failed7/8 synthetic error recovery and produced no official target score; retain it rather than repeat it until passing.",
+    "Register a deterministic guard which can only permute the already-executed query plain-column list to the independently proposed contract when sets, counts and table match. No new fields, predicates, joins or SQL expressions are synthesized.",
+    "Reject set operations and any numeric ordering/grouping context; retain original SQL for unsupported shapes. Record every guard event and actual review of repaired SQL.",
+    "Reserve one of40 actions: trained model calls at most39 plus at most1 automatic SQL step; control remains the unchanged40-call branch.",
+    "Fix the unconditional Reply submit wording so preservation is explicitly conditional on every public requirement. v15 failed7/8 recovery and produced no official target score.",
+    "Before first target score, disallow retries of any already observed finite official reward or non-infrastructure failure. Only declared transport/resource failures may resume, with all failed attempts retained.",
+    "Record new episode actual model-call count, automatic SQL steps, complete API input/output usage when available, and enforce their combined40-action limit. This does not change any old receipt.",
+    "v16 full training has1015 finite official grades but4 fail real role consumption after39 calls; preserve them, never retry them or call that arm fully qualified. Full control was not launched because its qualification gate did not pass.",
+    "Trigger the independent contract at model turn36 at the latest if the executor never submits, reserving actual contract review within39 model calls plus at most1 automatic SQL action. Original control remains identical.",
+    "Reject unsupported all-ties expansion of singular/ambiguous extrema and do not treat an empty result as proof that a query is invalid. This is a generic public-meaning prompt change; no reference SQL used.",
+    "One new synthetic development run with10 invented fixtures, including empty valid results and a single-ranked-result case, plus fault recovery and explicit delayed-submit budget tests before the same sole48 pilot."
+  ],
+  "question": "Can deadline-triggered frozen-role review guarantee consumption under budget exhaustion while conservative contract semantics avoid unsupported ranking changes?",
+  "primaryMetric": "paired official reward sum difference over all 1015 locked cases",
+  "secondaryMetrics": [
+    "exact reward 1",
+    "weight prompt tokens",
+    "actual review consumption",
+    "empty outputs",
+    "finish reasons"
+  ],
+  "selectionRule": "One registered candidate. Synthetic development checks first. One valid official receipt per ID per arm; infrastructure errors only may resume. Preserve every version and score regardless of sign. No repeated target-score selection until winning.",
+  "targetExposure": "Adaptive pilot development after v3 and v4; no gold SQL or hidden expected outputs. Explicit mode correction changes the evaluation regime; old official rewards remain valid for their recorded regime.",
+  "targetQuestionOrGoldUsedForPromptSelection": true,
+  "plannerSystemSha256": "fb4828e8212b955ac8765c33946e70ff7ee95401c561f2110865cff9eb8c165d",
+  "implementationFiles": {
+    "sql_capacity_gate.py": "d9a5fbc81fcbd2c5489c9696df9fefcff0dcf77c9098c6dea6d03128702730fc",
+    "sql_locked_environment.py": "5beb77169a304ca823a03ccb2096fc58466d149075ff82cae17fff8419b6d826",
+    "sql_v17_generation.py": "23a7cef28a5b6305053d5136fbfa764949579b925b6e3ed46dc1aa49aaefc914",
+    "sql_v17_planner_server.py": "b2bcbb1fa279b32623df6c964d1cfa194ea70486414445f633f54f67f82c83c7",
+    "sql_v17_preplan_worker.py": "896a14a3fd887140366cc536e08f119f2e014d77a7a5f9f5fddf3c68576d9102",
+    "sql_v17_rpc.py": "20ed17db777e29b9d40280aa8888a6cc42625ff5f10d0717a6f9427100f57d03",
+    "sql_v17_worker.py": "493e63f344977e40e0127b4c429e58a78e9003a7c4f47c62a5faf2e3be0ce6e5",
+    "sql_final_checker.py": "2d3a37a641b7fd5c7be2bed33ed19126e6b58a2e790cb84960bac3feaa0507cc",
+    "sql_checker_synthetic_executor.py": "42069a951c1339115dcc5e2a0d2728b87fbeaa4cff9bbf76be83249ab271f26d",
+    "sql_role_templates.json": "3aded6df1d50181e9a3b48ba3523f62bef0fa35706e4fbc33fdd0d38658de86b",
+    "sql_receipt_policy.py": "69e693e38610feb35634487749061f647e091ca770f261a962ec9201d1372638"
+  },
+  "publicInputs": [
+    "query",
+    "db",
+    "db_tables"
+  ],
+  "prohibitedInputs": [
+    "gold SQL",
+    "reference outputs",
+    "official rewards",
+    "oracle receipts"
+  ],
+  "immutableOldResults": [
+    "sql-public-plan-v2",
+    "sql-public-start-v2",
+    "original trained",
+    "original start"
+  ],
+  "launchCondition": "No other benchmark worker; existing SQL container only; disk >=6 GiB; development checks passed; model resources safe. Do not alter active tau runtime.",
+  "previousCandidate": "sql-v16/design.json",
+  "previousCandidatePreserved": true,
+  "fullExpansionRequires": "All48 grade and role/checker consumption audits complete and positive paired reward difference over all48; retain every prior result and carry each valid pilot receipt forward once.",
+  "goldSqlUsedForPromptSelection": false,
+  "hiddenExpectedOutputsUsedForPromptSelection": false,
+  "publicTargetQuestionsInspectedDuringDevelopment": true,
+  "thinking": {
+    "type": "disabled"
+  },
+  "modeAudit": "deepseek-mode-audit.json",
+  "previousCandidateOfficialScores": 1015,
+  "previousCandidateSyntheticCorrect": 11,
+  "previousCandidateSyntheticRuns": 12,
+  "coreInferenceChanged": true,
+  "renderedTemplateOrigin": "Human authored before v6 scores, no target gold SQL or expected outputs. Only role selection is generated by frozen weights.",
+  "templates": {
+    "DIRECT_QUERY": "Verify that the final query returns exactly the requested fields and entities, without invented conditions.",
+    "AGGREGATION": "Verify the requested counting unit, grouping level and aggregate conditions. Distinguish rows from entities, count from sum. Never add an aggregate output column unless requested.",
+    "JOIN_CARDINALITY": "Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.",
+    "NEGATION_NULLS": "Verify which entity and relationship the exclusion applies to, including NULL behavior. Do not assume a directed relation is symmetric.",
+    "RANKING": "Verify whether the request asks for one ranked result or all ties. Project only requested fields and use ordering or limits only as the question requires.",
+    "SET_COMBINATION": "Verify the question's AND/OR or set-combination meaning and duplicate semantics; do not add conditions or cosmetic sorting.",
+    "FINAL_QUERY": "After every inspection or diagnostic SQL statement, execute the final answer query before submit. Submit grades only the last executed query."
+  },
+  "templatesSha256": "709ff2b955c4d31cd10134ab28c7f2508f7051e2a97d7592beb3fc8ed5e3e35e",
+  "zeroSupportedProfilesMustBeReported": true,
+  "controlReuse": {
+    "sourceRoots": [
+      "intercode-sql-routing-v6-pilot-start-",
+      "intercode-sql-independent-v8-validation02-pilot-start-"
+    ],
+    "arm": "native-untrained-sql-interface-v6",
+    "tasks": 48,
+    "rewardSum": 42.64,
+    "newControlRuns": 0
+  },
+  "previousCandidateRewardDifference": 0,
+  "choiceLabels": [
+    "DIRECT_QUERY",
+    "AGGREGATION",
+    "JOIN_CARDINALITY",
+    "NEGATION_NULLS",
+    "RANKING",
+    "SET_COMBINATION",
+    "FINAL_QUERY"
+  ],
+  "decodingMode": "closed_choice_next_token_logits",
+  "previousCandidateAuditedRoleFailures": 2,
+  "previousCandidateQualifiedConsumption": 1011,
+  "previousCandidateUnconsumedFiniteGrades": 4,
+  "previousCandidateFullControlLaunched": false,
+  "syntheticChecksPassed": true,
+  "syntheticCases": 10,
+  "syntheticExecutorRuns": 20,
+  "developmentResultSha256": "17713b5050bc0712c241f622bc53a3fa874ea240230146377ac25e57542636c2",
+  "developmentPlanSha256": "d48553cf4be6c60b4f44c59750203e4f9289eab052a423f519e10891fc5ae82f",
+  "syntheticNonThinkingVerified": true,
+  "syntheticReasoningTokens": 0,
+  "syntheticApiCalls": 63,
+  "syntheticProductionCheckerConsumed": 10,
+  "syntheticClosedChoiceVerified": 10,
+  "controlEquivalenceTests": {
+    "source": "test_final_checker.py",
+    "sourceSha256": "fedbbf283f9a2d457da4edb5ed386a11ecda8c6751a601e2a00acf996e9dfc4d",
+    "testsPassed": 10,
+    "controlScenarios": 4
+  }
+}

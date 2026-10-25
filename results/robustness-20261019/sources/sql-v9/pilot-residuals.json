@@ -1,0 +1,373 @@
+{
+  "goldSqlRead": false,
+  "solverCalls": 0,
+  "officialRewardRecomputed": false,
+  "residualCases": [
+    {
+      "id": "spider-889",
+      "officialReward": 0.0,
+      "publicQuestion": "List the name, date and result of each battle.",
+      "publicSchema": {
+        "battle": [
+          "id",
+          "name",
+          "date",
+          "bulgarian_commander",
+          "latin_commander",
+          "result"
+        ],
+        "ship": [
+          "lost_in_battle",
+          "id",
+          "name",
+          "tonnage",
+          "ship_type",
+          "location",
+          "disposition_of_ship"
+        ],
+        "death": [
+          "caused_by_ship_id",
+          "id",
+          "note",
+          "killed",
+          "injured"
+        ]
+      },
+      "selectedRoles": [
+        "DIRECT_QUERY"
+      ],
+      "responses": [
+        "SELECT name, date, result FROM battle;",
+        "submit",
+        "SELECT name, date, result FROM battle",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Observation: rows=8 ('Battle of Adrianople', '14 April 1205', 'Bulgarian victory'), ('Battle of Serres', 'June 1205', 'Bulgarian victory'), ('Battle of Rusion', '31 January 1206', 'Bulgarian victory'), ('Battle of Rodosto', 'February 1206', 'Bulgarian victory'), ('Battle of Messinopolis', '4 September 1207', 'Bulgarian victory'), ('Battle of Boruy', 'June 1205', 'Bulgarian victory'), ('Battle of Philippopolis', '31 June 1208', 'Latin victory'), ('Siege of Constantinople', '1235', 'Two Year Truce')"
+      },
+      "checkerConsumed": true
+    },
+    {
+      "id": "spider-308",
+      "officialReward": -0.07,
+      "publicQuestion": "Show the ids of high schoolers who have friends and are also liked by someone else.",
+      "publicSchema": {
+        "Highschooler": [
+          "ID",
+          "name",
+          "grade"
+        ],
+        "Friend": [
+          "student_id",
+          "friend_id"
+        ],
+        "Likes": [
+          "student_id",
+          "liked_id"
+        ]
+      },
+      "selectedRoles": [
+        "JOIN_CARDINALITY"
+      ],
+      "responses": [
+        "SELECT DISTINCT h.ID\nFROM Highschooler h\nJOIN Friend f ON h.ID = f.student_id\nJOIN Likes l ON h.ID = l.liked_id;",
+        "submit",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nThe last executed statement is about to be graded. Independently verify it\nagainst the public question, schema and observed results using these selected\nresponsibilities. Correct a concrete mistake, missing requirement or diagnostic\nquery by returning one final answer SQL statement. If it already answers the\nquestion, reply submit. Do not invent new conditions or add output columns.\nIf you run another inspection, restore the final answer query before submit.\nDo not mention a reward or guess an expected answer.\nIndependent verification context: use the public question/schema in the first message. The prior conversation is intentionally omitted to avoid merely repeating its conclusion. Evaluate the candidate only against public requirements and observations.\nCandidate SQL:\nSELECT DISTINCT h.ID\nFROM Highschooler h\nJOIN Friend f ON h.ID = f.student_id\nJOIN Likes l ON h.ID = l.liked_id\nObserved candidate output:\nrows=8 (1101,), (1247,), (1304,), (1468,), (1501,), (1689,), (1709,), (1934,)"
+      },
+      "checkerConsumed": true
+    },
+    {
+      "id": "spider-246",
+      "officialReward": 0.0,
+      "publicQuestion": "Find all airlines that have flights from airport 'CVO' but not from 'APG'.",
+      "publicSchema": {
+        "airlines": [
+          "uid",
+          "Airline",
+          "Abbreviation",
+          "Country"
+        ],
+        "airports": [
+          "City",
+          "AirportCode",
+          "AirportName",
+          "Country",
+          "CountryAbbrev"
+        ],
+        "flights": [
+          "Airline",
+          "FlightNo",
+          "SourceAirport",
+          "DestAirport"
+        ]
+      },
+      "selectedRoles": [
+        "JOIN_CARDINALITY"
+      ],
+      "responses": [
+        "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\nAND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n)",
+        "submit",
+        "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\nAND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n)",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Observation: rows=1 (5,)"
+      },
+      "checkerConsumed": true
+    },
+    {
+      "id": "spider-518",
+      "officialReward": 0.71,
+      "publicQuestion": "Show all document ids and the number of paragraphs in each document. Order by document id.",
+      "publicSchema": {
+        "Ref_Template_Types": [
+          "Template_Type_Code",
+          "Template_Type_Description"
+        ],
+        "Templates": [
+          "Template_ID",
+          "Version_Number",
+          "Template_Type_Code",
+          "Date_Effective_From",
+          "Date_Effective_To",
+          "Template_Details"
+        ],
+        "Documents": [
+          "Document_ID",
+          "Template_ID",
+          "Document_Name",
+          "Document_Description",
+          "Other_Details"
+        ],
+        "Paragraphs": [
+          "Paragraph_ID",
+          "Document_ID",
+          "Paragraph_Text",
+          "Other_Details"
+        ]
+      },
+      "selectedRoles": [
+        "JOIN_CARDINALITY"
+      ],
+      "responses": [
+        "SELECT d.Document_ID, COUNT(p.Paragraph_ID) AS paragraph_count\nFROM Documents d\nLEFT JOIN Paragraphs p ON d.Document_ID = p.Document_ID\nGROUP BY d.Document_ID\nORDER BY d.Document_ID;",
+        "submit",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nThe last executed statement is about to be graded. Independently verify it\nagainst the public question, schema and observed results using these selected\nresponsibilities. Correct a concrete mistake, missing requirement or diagnostic\nquery by returning one final answer SQL statement. If it already answers the\nquestion, reply submit. Do not invent new conditions or add output columns.\nIf you run another inspection, restore the final answer query before submit.\nDo not mention a reward or guess an expected answer.\nIndependent verification context: use the public question/schema in the first message. The prior conversation is intentionally omitted to avoid merely repeating its conclusion. Evaluate the candidate only against public requirements and observations.\nCandidate SQL:\nSELECT d.Document_ID, COUNT(p.Paragraph_ID) AS paragraph_count\nFROM Documents d\nLEFT JOIN Paragraphs p ON d.Document_ID = p.Document_ID\nGROUP BY d.Document_ID\nORDER BY d.Document_ID\nObserved candidate output:\nrows=14 (1, 0), (3, 1), (76, 0), (80, 2), (82, 0), (2394, 3), (3830, 1), (33930, 1)"
+      },
+      "checkerConsumed": true
+    },
+    {
+      "id": "spider-464",
+      "officialReward": 0.0,
+      "publicQuestion": "What is the semester which most student registered in? Show both the name and the id.",
+      "publicSchema": {
+        "Addresses": [
+          "address_id",
+          "line_1",
+          "line_2",
+          "line_3",
+          "city",
+          "zip_postcode",
+          "state_province_county",
+          "country",
+          "other_address_details"
+        ],
+        "Courses": [
+          "course_id",
+          "course_name",
+          "course_description",
+          "other_details"
+        ],
+        "Departments": [
+          "department_id",
+          "department_name",
+          "department_description",
+          "other_details"
+        ],
+        "Degree_Programs": [
+          "degree_program_id",
+          "department_id",
+          "degree_summary_name",
+          "degree_summary_description",
+          "other_details"
+        ],
+        "Sections": [
+          "section_id",
+          "course_id",
+          "section_name",
+          "section_description",
+          "other_details"
+        ],
+        "Semesters": [
+          "semester_id",
+          "semester_name",
+          "semester_description",
+          "other_details"
+        ],
+        "Students": [
+          "student_id",
+          "current_address_id",
+          "permanent_address_id",
+          "first_name",
+          "middle_name",
+          "last_name",
+          "cell_mobile_number",
+          "email_address",
+          "ssn",
+          "date_first_registered",
+          "date_left",
+          "other_student_details"
+        ],
+        "Student_Enrolment": [
+          "student_enrolment_id",
+          "degree_program_id",
+          "semester_id",
+          "student_id",
+          "other_details"
+        ],
+        "Student_Enrolment_Courses": [
+          "student_course_id",
+          "course_id",
+          "student_enrolment_id"
+        ],
+        "Transcripts": [
+          "transcript_id",
+          "transcript_date",
+          "other_details"
+        ],
+        "Transcript_Contents": [
+          "student_course_id",
+          "transcript_id"
+        ]
+      },
+      "selectedRoles": [
+        "JOIN_CARDINALITY"
+      ],
+      "responses": [
+        "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+        "submit",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Frozen staff final checker pass (selected responsibilities):\nFrozen model selected verification roles (human-authored conditional checks; no generated SQL facts):\nJOIN_CARDINALITY: Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.\nThe last executed statement is about to be graded. Independently verify it\nagainst the public question, schema and observed results using these selected\nresponsibilities. Correct a concrete mistake, missing requirement or diagnostic\nquery by returning one final answer SQL statement. If it already answers the\nquestion, reply submit. Do not invent new conditions or add output columns.\nIf you run another inspection, restore the final answer query before submit.\nDo not mention a reward or guess an expected answer.\nIndependent verification context: use the public question/schema in the first message. The prior conversation is intentionally omitted to avoid merely repeating its conclusion. Evaluate the candidate only against public requirements and observations.\nCandidate SQL:\nSELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1\nObserved candidate output:\nrows=1 (2, 'summer 2010')"
+      },
+      "checkerConsumed": true
+    },
+    {
+      "id": "spider-542",
+      "officialReward": 0.0,
+      "publicQuestion": "Find the number of cities in each district whose population is greater than the average population of cities?",
+      "publicSchema": {
+        "city": [
+          "ID",
+          "Name",
+          "CountryCode",
+          "District",
+          "Population"
+        ],
+        "sqlite_sequence": [
+          "name",
+          "seq"
+        ],
+        "country": [
+          "Code",
+          "Name",
+          "Continent",
+          "Region",
+          "SurfaceArea",
+          "IndepYear",
+          "Population",
+          "LifeExpectancy",
+          "GNP",
+          "GNPOld",
+          "LocalName",
+          "GovernmentForm",
+          "HeadOfState",
+          "Capital",
+          "Code2"
+        ],
+        "countrylanguage": [
+          "CountryCode",
+          "Language",
+          "IsOfficial",
+          "Percentage"
+        ]
+      },
+      "selectedRoles": [
+        "JOIN_CARDINALITY"
+      ],
+      "responses": [
+        "SELECT District, COUNT(*) AS city_count\nFROM city\nWHERE Population > (SELECT AVG(Population) FROM city)\nGROUP BY District;",
+        "submit",
+        "SELECT District, COUNT(*) AS city_count\nFROM city\nWHERE Population > (SELECT AVG(Population) FROM city)\nGROUP BY District",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Observation: rows=539 ('Kabol', 1), ('Noord-Holland', 1), ('Zuid-Holland', 2), ('Alger', 1), ('Oran', 1), ('Constantine', 1), ('Luanda', 1), ('Dubai', 1)"
+      },
+      "checkerConsumed": true
+    },
+    {
+      "id": "spider-765",
+      "officialReward": 0.0,
+      "publicQuestion": "What are the names and release years for all the songs of the youngest singer?",
+      "publicSchema": {
+        "stadium": [
+          "Stadium_ID",
+          "Location",
+          "Name",
+          "Capacity",
+          "Highest",
+          "Lowest",
+          "Average"
+        ],
+        "singer": [
+          "Singer_ID",
+          "Name",
+          "Country",
+          "Song_Name",
+          "Song_release_year",
+          "Age",
+          "Is_male"
+        ],
+        "concert": [
+          "concert_ID",
+          "concert_Name",
+          "Theme",
+          "Stadium_ID",
+          "Year"
+        ],
+        "singer_in_concert": [
+          "concert_ID",
+          "Singer_ID"
+        ]
+      },
+      "selectedRoles": [
+        "DIRECT_QUERY"
+      ],
+      "responses": [
+        "SELECT Name, Song_release_year\nFROM singer\nWHERE Age = (SELECT MIN(Age) FROM singer);",
+        "submit",
+        "SELECT Name, Song_release_year\nFROM singer\nWHERE Age = (SELECT MIN(Age) FROM singer)",
+        "submit"
+      ],
+      "lastObservation": {
+        "role": "user",
+        "content": "Observation: rows=1 ('Tribal King', '2016')"
+      },
+      "checkerConsumed": true
+    }
+  ]
+}

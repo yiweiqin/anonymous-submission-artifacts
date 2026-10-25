@@ -1,0 +1,17 @@
+{"id":"ag_p_01_00_0>ag_p_01_00_1","split":"train","kind":"within_owner_directed","reviewerId":"试标","source":"data/smoke/human_labels.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_00_3>ag_p_12_03_4","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_01_2>ag_p_12_06_4","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_01_4>ag_p_12_03_4","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_03_2>ag_p_12_09_1","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_03_3>ag_p_12_02_3","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_05_2>ag_p_12_08_2","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_05_4>ag_p_12_08_2","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_06_1>ag_p_12_08_4","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_06_1>ag_p_12_07_0","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_07_4>ag_p_12_06_3","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_08_0>ag_p_12_00_2","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_08_4>ag_p_12_06_3","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_01_09_1>ag_p_12_04_2","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_02_02_1>ag_p_12_04_1","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_02_02_1>ag_p_12_01_0","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}
+{"id":"ag_p_02_03_2>ag_p_12_03_0","split":"test","kind":"hard_negative","reviewerId":"张亦弛","source":"data/full/_archive/human_labels.smoke.jsonl","scoresWithheld":true,"reason":"trial_pass_not_full_gold"}

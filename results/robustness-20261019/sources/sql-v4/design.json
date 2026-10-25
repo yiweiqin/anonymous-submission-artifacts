@@ -1,0 +1,79 @@
+{
+  "schema": "janus-sql-output-contract-v4",
+  "registeredAt": "2026-10-18T13:17:35.409562+00:00",
+  "status": "development_passed_not_scored",
+  "header": "InterCode Spider dev 官方预检通过的 1015 题；公开测试反馈后的输出契约开发修订 v4，不是整库或独立未见测试",
+  "commit": "c3e46d827cfc9d4c704ec078f7abf9f41e3191d8",
+  "arms": [
+    "native-trained-sql-output-contract-v4",
+    "native-untrained-sql-interface-v4"
+  ],
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "maxTurns": 40,
+  "maxOutputTokens": 4096,
+  "initialConcurrency": 16,
+  "maximumConcurrency": 16,
+  "sameSubset": true,
+  "sameOfficialReward": true,
+  "structuralChange": true,
+  "originalFreezeModified": false,
+  "paperReady": false,
+  "changes": [
+    "Frozen planner extracts only requested output shape plus one semantic check, <=70 words; no SQL clauses or invented schema constraints.",
+    "Both arms receive identical explicit final-query restoration, exact projection and requested-order-only policy.",
+    "Keep model deepseek-flash, T0, maxTurns40 and API cap4096 identical to v3."
+  ],
+  "question": "Does a short frozen output contract help the executor after explicitly separating diagnostic SQL from the graded final query?",
+  "primaryMetric": "paired official reward sum difference over all 1015 locked cases",
+  "secondaryMetrics": [
+    "exact reward 1",
+    "weight prompt tokens",
+    "actual review consumption",
+    "empty outputs",
+    "finish reasons"
+  ],
+  "selectionRule": "One registered candidate. Synthetic development checks first. One valid official receipt per ID per arm; infrastructure errors only may resume. Preserve every version and score regardless of sign. No repeated target-score selection until winning.",
+  "targetExposure": "Adaptive development after all 24 v3 paired official results and public execution traces; no gold SQL or hidden expected outputs read.",
+  "targetQuestionOrGoldUsedForPromptSelection": true,
+  "syntheticChecksPassed": true,
+  "plannerSystemSha256": "87704c232a40076012a5c62b482cadf8e99536c3faf5d5eab2d06f52e887d84b",
+  "implementationFiles": {
+    "sql_capacity_gate.py": "d99d3f1b8505c8e033d73086f0d12413cab540afab79207463a2657911c3a3d7",
+    "sql_locked_environment.py": "68cd2a5c49dd88e4108e5f86261743b878506ad6633f428e6c995bf14ec695dc",
+    "sql_v4_generation.py": "43cbfc212ad312060676aa30c3703350deb183f5c83681f82b6b69492aa38420",
+    "sql_v4_planner_server.py": "ba8a7f04b7fb529d3ac4c990ce8f633155e96597f873b9e88daf747fa3356097",
+    "sql_v4_preplan_worker.py": "5442147b60718d50afe0545aa5b6926d6a510d36046a953a28e351020ee0d7e0",
+    "sql_v4_rpc.py": "804f3420ba870d0a364bf4f9269cda6d2e5944aac587830f892bcbefb0e85dd2",
+    "sql_v4_worker.py": "3d0e795fb6ac6d61d8ad4e33095e3ead93cebfd299052edf9187b9f8580d6ba7"
+  },
+  "publicInputs": [
+    "query",
+    "db",
+    "db_tables"
+  ],
+  "prohibitedInputs": [
+    "gold SQL",
+    "reference outputs",
+    "official rewards",
+    "oracle receipts"
+  ],
+  "immutableOldResults": [
+    "sql-public-plan-v2",
+    "sql-public-start-v2",
+    "original trained",
+    "original start"
+  ],
+  "launchCondition": "No other benchmark worker; existing SQL container only; disk >=6 GiB; development checks passed; model resources safe. Do not alter active tau runtime.",
+  "previousCandidate": "sql-v3/pilot-summary.json",
+  "previousCandidateRewardDifference": -3.39,
+  "previousCandidatePreserved": true,
+  "fullExpansionRequires": "Complete same fixed 24-case pilot and all consumption audits, with positive trained-minus-matched-control official reward sum. No expansion on ties or losses.",
+  "syntheticCases": 6,
+  "syntheticExecutorRuns": 12,
+  "developmentResultSha256": "a384f39c2b00b65357e496cd1126c14697432f67b251a4d8b3e6e24dec1696a4",
+  "developmentPlanSha256": "f9710292e633d5ae558978359abbb0ed87df11a98c441e30abcb1a6284b4d136",
+  "goldSqlUsedForPromptSelection": false,
+  "hiddenExpectedOutputsUsedForPromptSelection": false,
+  "publicTargetQuestionsInspectedDuringDevelopment": true
+}

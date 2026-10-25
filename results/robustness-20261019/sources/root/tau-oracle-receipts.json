@@ -1,0 +1,1928 @@
+[
+  {
+    "domain": "retail",
+    "index": 0,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5ed21c65cf9e8d0c20ad0210721146bb6abad19bedce7c2e08472311dabbeec8"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 1,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4adebec00ba70d55dd0c5a53c768d8853f475d0cec8f2b1264887c3602fb86a3"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 2,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "10": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 3,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "10": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 4,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "10": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 5,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "9bb4517442bcf7ec19ccd50213968429ac918f6a3ef9cd4648ffcff7d287a7fa"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 6,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "299a65bbc6f69869d68dbb17b30a6096c4800dad69bf6bb31c1425f366272551"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 7,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "8eb6e62a6a46e757995088d0883526c5cfd4525935e1862598dc502ec4dfb24c"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 8,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "e31e92f673a796f1cd7112f5f1aa498caffb5f27c1a61834feb41a0a53c52b4c"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 9,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ea3e1d179aacc4730ec43ae664bf16fa56f98b7809403851c2f39a88214f28e2"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 10,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5a4b2cb59f4d12dea7e4adff24a7f8fada510ead49372ea4a729a82bbb5f49b5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 11,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ddab449abf9b77ef06fc36db22a9dc8484ffef47540d161546d2f761030f34c7"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 12,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5a4b2cb59f4d12dea7e4adff24a7f8fada510ead49372ea4a729a82bbb5f49b5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 13,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "86b77bcec51554ec8eb01fea530187d71d83c161803491aff1f8a9cd43644b4b"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 14,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "636000d5cd4aadfb249e53bf421e8589c2bfcd7c315f8c5cacdac97b9f9d6653"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 15,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "0b02151099c6ea88d6d3113225fcb6da7f654b82d6b5cb74af10cd5c15ae7104"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 16,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "8276.23": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 17,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "7e156ff0396da8aa1b2bc983c68f884cfc8cfc35ac7902c91a2045de3a63578f"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 18,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "80084410b325f6d376c95f8dd8d464080cbc9f396208ddc5ea0252d65ae3277f"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 19,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "54.04": true,
+        "41.64": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 20,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "0b4a918b56806f8b6ed1c5bce11e0168a85fff1549670de15a99ad42d76b796d"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 21,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "44.08": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 22,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "c72b4299c0ccf3410422d51196cdf7d670c899dde8ed15c96084521eba63f621"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 23,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "770c13954b21276ee1a412412a834bc820d36673f221b6c4684cb249e03745de"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 24,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "polyester": true,
+        "cotton": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 25,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5a4b2cb59f4d12dea7e4adff24a7f8fada510ead49372ea4a729a82bbb5f49b5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 26,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "3670234c06fad0b9d77071f447d388962d92d452350ce70ca2acba43a5ad553e"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 27,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ce8c6da2f7cb52fd3e6c5cf7082fdfc35761240b045e69daef24806c73304f18"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 28,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "918.43": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 29,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "180.1": true,
+        "189.57": true,
+        "208.6": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 30,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "746342064230": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 31,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "746342064230": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 32,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "746342064230": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 33,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "423a3b3ddd7e7cb1a64f5a2fd3fc9db8000d4799716b93193358d09ba67e37ea"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 34,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "1093.34": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 35,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5893a89e3da42253f81633d8c67b473e0c97286939d07f7f73d36b7961dcedd5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 36,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "camera": true,
+        "481.5": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 37,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "camera": true,
+        "481.5": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 38,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "camera": true,
+        "481.5": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 39,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "46.66": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 40,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "60": true,
+        "mastercard": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 41,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "52ff07721cd84089830002c05cb4929cbd8ddccb4e5e160e22c74c6ca7284837"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 42,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "52ff07721cd84089830002c05cb4929cbd8ddccb4e5e160e22c74c6ca7284837"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 43,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "840887978435": true,
+        "943 Maple Drive": true,
+        "Suite 356": true,
+        "Chicago": true,
+        "IL": true,
+        "60621": true,
+        "64GB": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 44,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "17.99": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 45,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "9.89": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 46,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "1126.04": true,
+        "1497.65": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 47,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "1095.55": true,
+        "1528.14": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 48,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "bb392e8f1ad5c3799051b8c5ba0093de60f569d3b22b3af97ca75ecc96ce7c1f"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 49,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "39f445dce286b1d2b2395bc9418a663228a70082a216e8816d30e363356314b7"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 50,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5a4b2cb59f4d12dea7e4adff24a7f8fada510ead49372ea4a729a82bbb5f49b5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 51,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "bf2b721b2df3fa851ff1582ec00050571f325bc1a3a2d9e85c0d2cb4114e9388"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 52,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "428bcac5bc8a24ef0fe774de6bbd04c85299be19b955123eabd87a7edface6de"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 53,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "39038a069909ff43e5480fedb38e0583bd1e57e33d2df3cb42228d79db581494"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 54,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "3646.68": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 55,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "30281f8a100936df1fdbaa3dbf1a1c94a36db1acc80f30305e61d0b734ffef90"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 56,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "49600d3de532bc47f042890162da5927022b80821af48c0c9c726862a782158d"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 57,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5a4b2cb59f4d12dea7e4adff24a7f8fada510ead49372ea4a729a82bbb5f49b5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 58,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "6cbba4d97e6a6d6f05b7a6bb4772f8947875cde91b37fbd18850a0b997a333e0"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 59,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "164.28": true,
+        "625.60": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 60,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "242.92": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 61,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "f2c00012ec51fdff23685a0f526dd08e59898d0b2a4bf0cab8081911d23b9fde"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 62,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "302.67": true,
+        "20 hours": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 63,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "302.67": true,
+        "20 hours": true,
+        "1288.65": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 64,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "2a282ccca256816fa07d4c214e29622e4a57e17899ba12810c053b091937098d"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 65,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5a4b2cb59f4d12dea7e4adff24a7f8fada510ead49372ea4a729a82bbb5f49b5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 66,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "a6585d21e64d642d2fc393bd7d969cd882a18a552221b5e7177785b5675f5f80"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 67,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "829.43": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 68,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "829.43": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 69,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4406fe3c3c844ffa3bc3490681adcd6dab713c4ae850c892af0ed7397ab1511d"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 70,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "22.55": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 71,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "fa10dca7b09e41dc1baa9d4702f36d415261e8363377a43e52a1905e42b6f9b0"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 72,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "fa10dca7b09e41dc1baa9d4702f36d415261e8363377a43e52a1905e42b6f9b0"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 73,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "93a1a42a830a1314badded04a32d69115ba49e992f3b82357a14da1f62d9875c"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 74,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "8fbea1d456a6c2c316b8f45517f95920aa3f83588b2e80fc24a0f83921b2782d"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 75,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "62e8190460b58f7784145e3d37838f2535d22eae7b52afaaa291ba45924c318f"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 76,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "1939.05": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 77,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "925eb0ef7d5a802b59713b0dc757b304989c9acf79f31297041359ad2b9ef8bc"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 78,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "71aed07d92e36a7f1c90b64be8c05748713687bbb54807c8d926532b95dffed4"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 79,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "7412484f7f51e9eb861c3ce44ea05a9806d0c2a2e521e6d44efecfb7fdd83b6b"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 80,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "bb4a916d7a9c528bfc958ae7722f4e80ad2b79c633dbb89561bd9dbefd32e4cc"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 81,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "60fd60d902a8d79ddeef8162744e1bec1c8d2a3c01026e00ad9322310c5a2cc8"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 82,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "9ab155c2450b8aa7e4566984ed049917ee2676697a87949d8ce7454ae03264da"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 83,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "d8fe0e314af3d6de5fe87dd82f481461f6c0570a9a26b3da1fc8b90654104ab7"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 84,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "d8fe0e314af3d6de5fe87dd82f481461f6c0570a9a26b3da1fc8b90654104ab7"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 85,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "7220398f04e5e6771ac675a4d45de2a0d55012b325d97809ffa6f2a2a5c5c6d3"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 86,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "8d3f08fa0e18a7e5408bc3635bb84992a7ff907dd77309cf769b7798bf841fe8"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 87,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "6f9dee549d9bb788f4d4f075a0a9c498f77879e8627b589927b1eb99aee5c11d"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 88,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "52c92379af66b5e67e96dc6f1263e1ce0680d40901d0c94cf635758d3609f18f"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 89,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "226.11": true,
+        "tactile": true,
+        "white": true,
+        "full": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 90,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "0fddb34a05b1774fb70f6f9e146321582ca6a33b745d592c24936db1ac40a326"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 91,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "8a348ac2ded3142ac54cb3d4a3d0aed8839787f6b926129ea899cb1c001fe8d4"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 92,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "2aa2c679948f0e91ea6c5760d146750f03dcfff73915993002275341bcea52d9"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 93,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "62d264e0475e5212c05c7da227e25ef845ca149d44c04575fbc177a026593cfc"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 94,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "127da8b43536a219dd5a74e80320e8a5590b4db3c2a13d874ad3380364ed4ed6"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 95,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "62d264e0475e5212c05c7da227e25ef845ca149d44c04575fbc177a026593cfc"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 96,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "167.87": true,
+        "60.78": true,
+        "107.09": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 97,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ea808eefcc00eeb576893c49177f6b4c79d734bbce0adf26d6fbf770d0fc8e51"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 98,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ea808eefcc00eeb576893c49177f6b4c79d734bbce0adf26d6fbf770d0fc8e51"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 99,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "9f52641ecf003b9f8f70270b1fed678879b56c1f36c29c48852c70c786a93673"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 100,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "b0d5d855ff0f205f58086fbd5dc84a00cfa9e5cbd89b4b4ddb4576888180c522"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 101,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "83a00900e6d6131701a2876e4942d088ddfaec13010209a74e4cc01ebe3d607e"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 102,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "0f8e99fd127d1fa9a347f587c6f21618875a10a5134b005a34b3867bf5cfeb75"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 103,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "c3b82b2d98523c9328cfab49911f5319a90dd59c9b272811e81d91961fea6544"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 104,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "286422338955": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 105,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "286422338955": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 106,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "5a4b2cb59f4d12dea7e4adff24a7f8fada510ead49372ea4a729a82bbb5f49b5"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 107,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "717966cc589a72a22118cd6021e9191c5b3a8c9f352e654bc2dd8d4b3f807dbc"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 108,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "b487a62a8d5e689c1bed742b01ef0743c54f3b95c538f705341ec9af955748c6"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 109,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "346.93": true
+      }
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 110,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "2085953e0c526b4ad95cbdb4635ffe81f25ab1d57602f9d88ba89ec0570a896e"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 111,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "175047d2f65b1160c55b2c0c11b229bc01c23b496261b1bfb03b5dc1b52aca9a"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 112,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "d33035afcfd03d150f51b1f4756ccd64a7789d2615d5f806f7c7bc1016e34080"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 113,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "8df7a98e6fe721b6ee1d8f94d303a2617555ff6e76f554a6f243f803e0e8a716"
+    }
+  },
+  {
+    "domain": "retail",
+    "index": 114,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "158d3381f60ee3ca2294eca88fe3ceb70d0eb696d9a94b516d9473fed1983916"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 0,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "a825bc534ee4abad2f0f36d5d162989dcbae16dd509bd675feb7e9ffc86a1001"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 1,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "a9810f488716b2601f8bb10a5f4c55ede595a33ccef1d826c45957fdcfb73653"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 2,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "23553": true
+      }
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 3,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "b7d5970b354019f52ef64393fd4e345532045173f6d60e2efd1a39c2642362b2"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 4,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "af79a3ba06bcc4c649f1d6b1dd6f6c333cb04a3a461f79ef8eb98ba7a6708313"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 5,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "af79a3ba06bcc4c649f1d6b1dd6f6c333cb04a3a461f79ef8eb98ba7a6708313"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 6,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "8a4a0713cf1e4c10fb11c801f60e733c6f39388e045c663418d874f9680bfe24"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 7,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "8a4a0713cf1e4c10fb11c801f60e733c6f39388e045c663418d874f9680bfe24"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 8,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "327": true,
+        "1000": true,
+        "1786": true
+      }
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 9,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "327": true,
+        "1000": true,
+        "1286": true
+      }
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 10,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ee62d975ca00d58d3eb7c78c21f42a9b2ec978325909f7c79c0cea014fd5071c"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 11,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "0b006dde0a77c7918b80c791e9e40f37519f0d18581c04668512b407002cf5f2"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 12,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 13,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 14,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "27d892d661dc7582024ec52926fed87fdbd74a9682278cafb8c12befb44bc37f"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 15,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 16,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "196c89b4d8050bd39fbcf7fff0e7c031d61fe90ad992c3e61256ade858013d6c"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 17,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 18,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 19,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ccdfcc6443564e2cc55dcb7972e559d7913e1d04a4129ed4b43b1b2664325a36"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 20,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "dd5a6f044e9551d1cac4d38fdc581f7a8db62785419b4f83fdfb5f7da4d954ea"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 21,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 22,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "e65fa27507133dd38a963089220c4fe572e2d334d32e152717664595a043640d"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 23,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "ab332f06c7b21fd0a3bbae13bdab8223108b5045b59b6dc877e1dedf1a3cef17"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 24,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 25,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "90ffcbcbdc75c5ffbb0614436afa86fb50ad55e9cb13eb198888c6c8187384b1"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 26,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "989dedfa6228fcddc7cc44bf3e67325463035a530d3446d8dc0c65284bec6b6f"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 27,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "06e7fd6c2455e65f63abf6d8b36cef334357784d587c50ea6041fe850aae8877"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 28,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "f695793a6fe5ea0629ba6e6ec5b25ada288551fb3d2b96bd9bacfa3de0f66263"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 29,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 30,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "e25182e61a783be90e4932da0f9b4cce0a4ba71d43f16c6318d7bfa65917cefc"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 31,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "f202a1c73cb1bcde0ff71f0998610ffafbfa16a250b170b4450417fad0a924c0"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 32,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "81a0a405248e8ae7e8b2c27db6308e765b75621730bce53a1b1f793396ca1ff6"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 33,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "05d8e8de682bc4d89ef00c5286ae723252c1df7246f6bc51cc9441f0ab9be252"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 34,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "3d5434ae0f79868b36a81163c059a399e4081480c815ca160a5da9779c27353b"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 35,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 36,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 37,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 38,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 39,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 40,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 41,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 42,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 43,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "00da04f85438aebd098e217ffb9b5a6b9524e775bab6783f5c20c0ff1762e071"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 44,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_outputs": 1.0,
+      "outputs": {
+        "4": true
+      }
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 45,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "a453bd4c58a80143bd31230383dcd4f5daf93a50a250c2fcc917fc5766471b34"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 46,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "a453bd4c58a80143bd31230383dcd4f5daf93a50a250c2fcc917fc5766471b34"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 47,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 48,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  },
+  {
+    "domain": "airline",
+    "index": 49,
+    "reward": 1.0,
+    "error": "",
+    "solverModelCalls": 0,
+    "rewardInfo": {
+      "r_actions": 1.0,
+      "gt_data_hash": "4587e6b48ad2b2c4f3e1fecb40aabec7bb2286513273b8f8cec3f5865222f290"
+    }
+  }
+]

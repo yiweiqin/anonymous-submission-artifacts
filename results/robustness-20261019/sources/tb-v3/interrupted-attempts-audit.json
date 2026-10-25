@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "jobName": "tb-v3-cancel-async-tasks-control-1792369432117556058",
+      "actualRequests": 14,
+      "successfulResponses": 13,
+      "rewardFiles": [],
+      "officialResults": []
+    },
+    {
+      "jobName": "tb-v3-dna-assembly-control-1792369431267226993",
+      "actualRequests": 40,
+      "successfulResponses": 40,
+      "rewardFiles": [],
+      "officialResults": []
+    }
+  ],
+  "allGeneratedOfficialGradeFilesPreserved": true,
+  "evaluatorSourceRead": false,
+  "paperReady": false
+}

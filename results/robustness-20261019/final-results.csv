@@ -1,0 +1,5 @@
+benchmark,variant,tasks,metric,system_score,control_score,difference,system_mean,control_mean,scope,source,paperReady,higher,lower,ties,control
+Terminal-Bench 2.1,trained-terminal-v5,63,official pass count,33.0,29.0,4.0,0.5238095238095238,0.4603174603174603,资源兼容63题；不是89题整榜,sources/tb-v5/full-summary.json,False,12,8,43,control-terminal-interface-v3
+InterCode Bash,native-trained-frozen-source,200,official reward sum,146.83,146.70000000000002,0.12999999999999545,0.7341500000000001,0.7335,Bash200题,sources/root/intercode-official-summary.json,False,30,21,149,native-untrained-start
+InterCode SQL,native-trained-sql-closed-choice-v21,1015,official reward sum,865.1833333333333,856.3433333333334,8.839999999999918,0.8523973727422003,0.843688013136289,Spider dev预检通过1015/1034题；排除19题,sources/sql-v21/full-summary.json,False,23,13,979,唯一匹配v18接口无规划对照，原样复用
+τ-bench,native-trained-public-planner-v2,165,official pass^1 count,126,119,7,0.7636363636363637,0.7212121212121212,零售115+航空50；实际用户模拟器deepseek-flash,sources/root/tau-official-summary.json,False,14,7,144,native-untrained-start

@@ -1,0 +1,16 @@
+{
+  "schema": "robustness-bundle-verification-v1",
+  "checkedAt": "2026-10-19T14:00:22.450410+00:00",
+  "passed": true,
+  "fileManifestSha256": "f98ce40d3aad54f1b15d8d8cd944b113cd58e1edc59e3588f986dd2b777770e6",
+  "filesVerified": 1342,
+  "originalSourceFilesUnchanged": 345,
+  "remoteReceiptFilesVerified": 34,
+  "tbEvidenceMappingsVerified": 1735,
+  "finalTaskPairsVerified": 1443,
+  "finalComparisons": 4,
+  "newModelCalls": 0,
+  "newGraderCalls": 0,
+  "paperReady": false,
+  "scope": "Local bytes, source digests, archived receipt counts, existing audit gates and per-task aggregates. No model calls, official regrading or independent reenactment of remote SQL/tau trajectories."
+}

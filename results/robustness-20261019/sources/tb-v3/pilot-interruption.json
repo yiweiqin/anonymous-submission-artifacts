@@ -1,0 +1,21 @@
+{
+  "reason": "actual40-call cap aborts inside retry before official verifier; retain all attempts, repair new structural interface before further scoring",
+  "stoppedPids": [
+    128552,
+    128560,
+    135999
+  ],
+  "removedOwnedContainers": [
+    "8d03c3d3eb0730454625d0d8fb9ec40b7afe0ce1d23ae0bd89113089ada8ecf4"
+  ],
+  "retainedOutputs": [
+    {
+      "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v3-pilot-1792369330398595800/tb-v3-dna-assembly-control-1792369431267226993.json",
+      "sha256": "2b2810c15e140995cf4f0205baa9d8ba36fd56acb74d6cf9f7fc3f346b580a02",
+      "reward": null,
+      "error": "official_harness_exception:ome/ubuntu/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v3-pilot-1792369330398595800/runtime/tb_trial.py\", line 16, in completion\n    assert calls<40,'executor_call_budget'\n           ^^^^^^^^\nAssertionError: executor_call_budget\n",
+      "successfulExecutorResponses": 40
+    }
+  ],
+  "paperReady": false
+}

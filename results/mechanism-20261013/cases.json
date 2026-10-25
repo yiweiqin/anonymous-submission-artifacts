@@ -1,0 +1,994 @@
+[
+  {
+    "id": "Compensation-Scenario-Modeling/full",
+    "G_star": {
+      "domain": "skillflow",
+      "title": "Compensation-Scenario-Modeling",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "输出文件",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "按题目字段写出的输出文件",
+          "summary": "按题目指定的字段写出要求的输出文件。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "验收结论",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "对照题目后的验收结论",
+          "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Compensation-Scenario-Modeling。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    },
+    "G_prime": {
+      "domain": "skillflow",
+      "title": "Compensation-Scenario-Modeling",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "输出文件",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "按题目字段写出的输出文件",
+          "summary": "按题目指定的字段写出要求的输出文件。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "验收结论",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "对照题目后的验收结论",
+          "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Compensation-Scenario-Modeling。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Compensation-Scenario-Modeling/no-plan",
+    "G_star": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    },
+    "G_prime": {
+      "domain": "skillflow",
+      "title": "Compensation-Scenario-Modeling",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "输出文件",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "按题目字段写出的输出文件",
+          "summary": "按题目指定的字段写出要求的输出文件。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "验收结论",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "对照题目后的验收结论",
+          "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Compensation-Scenario-Modeling。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Compensation-Scenario-Modeling/no-execution",
+    "G_star": {
+      "domain": "skillflow",
+      "title": "Compensation-Scenario-Modeling",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "输出文件",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "按题目字段写出的输出文件",
+          "summary": "按题目指定的字段写出要求的输出文件。 当前家族：Compensation-Scenario-Modeling。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "验收结论",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "对照题目后的验收结论",
+          "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：Compensation-Scenario-Modeling。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    },
+    "G_prime": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    }
+  },
+  {
+    "id": "Compensation-Scenario-Modeling/terminal-only",
+    "G_star": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    },
+    "G_prime": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "Official Harbor reward: 1.0",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    }
+  },
+  {
+    "id": "DMAIC-Quality-Analysis/full",
+    "G_star": {
+      "domain": "skillflow",
+      "title": "DMAIC-Quality-Analysis",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：DMAIC-Quality-Analysis。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "输出文件",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "按题目字段写出的输出文件",
+          "summary": "按题目指定的字段写出要求的输出文件。 当前家族：DMAIC-Quality-Analysis。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "验收结论",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "对照题目后的验收结论",
+          "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：DMAIC-Quality-Analysis。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    },
+    "G_prime": {
+      "domain": "skillflow",
+      "title": "DMAIC-Quality-Analysis",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：DMAIC-Quality-Analysis。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "verifier-failed",
+          "status": "pending",
+          "artifact": "未通过验收",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "re_rate. good.\\n\\nPotential issue: \\\"Use exact formulas\\\" did.\\n\\nNow final response must be JSON with task_complete true again. Commands empty. Analysis and plan. Could mention no",
+          "summary": "交付没有满足题目里的验收条件。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "未通过复核",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "复核看到验收未通过，数字和字段对不上。",
+          "summary": "对外结果仍是未通过验收的那一版。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DMAIC-Quality-Analysis/no-plan",
+    "G_star": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    },
+    "G_prime": {
+      "domain": "skillflow",
+      "title": "DMAIC-Quality-Analysis",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：DMAIC-Quality-Analysis。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "verifier-failed",
+          "status": "pending",
+          "artifact": "未通过验收",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "re_rate. good.\\n\\nPotential issue: \\\"Use exact formulas\\\" did.\\n\\nNow final response must be JSON with task_complete true again. Commands empty. Analysis and plan. Could mention no",
+          "summary": "交付没有满足题目里的验收条件。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "未通过复核",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "复核看到验收未通过，数字和字段对不上。",
+          "summary": "对外结果仍是未通过验收的那一版。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DMAIC-Quality-Analysis/no-execution",
+    "G_star": {
+      "domain": "skillflow",
+      "title": "DMAIC-Quality-Analysis",
+      "topic": "skillflow-canary",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "Plan the workflow from the instruction",
+          "role": "planner",
+          "agentId": "planner",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "任务拆解",
+          "stage": "交付",
+          "inputs": "instruction",
+          "output": "要交的文件和题目指定的字段",
+          "summary": "把题目拆成要交的文件和指定字段，不改数字。 当前家族：DMAIC-Quality-Analysis。"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "Produce the files the instruction requires",
+          "role": "worker",
+          "agentId": "worker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "输出文件",
+          "stage": "交付",
+          "inputs": "plan",
+          "output": "按题目字段写出的输出文件",
+          "summary": "按题目指定的字段写出要求的输出文件。 当前家族：DMAIC-Quality-Analysis。"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "Check the files against the instruction before stopping",
+          "role": "checker",
+          "agentId": "checker",
+          "version": "v1",
+          "acceptance": "standard",
+          "status": "pending",
+          "artifact": "验收结论",
+          "stage": "交付",
+          "inputs": "output file",
+          "output": "对照题目后的验收结论",
+          "summary": "对照题目检查输出文件是否存在，数字是否和指定字段一致。 当前家族：DMAIC-Quality-Analysis。"
+        }
+      ],
+      "edges": [
+        {
+          "id": "plan-work",
+          "from": "plan",
+          "to": "work"
+        },
+        {
+          "id": "work-check",
+          "from": "work",
+          "to": "check"
+        }
+      ]
+    },
+    "G_prime": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    }
+  },
+  {
+    "id": "DMAIC-Quality-Analysis/terminal-only",
+    "G_star": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    },
+    "G_prime": {
+      "domain": "[information withheld]",
+      "title": "[information withheld]",
+      "topic": "[information withheld]",
+      "taskModel": "deepseek-flash",
+      "dependencyAdapter": "dependency-similarity/adapter",
+      "nodes": [
+        {
+          "id": "plan",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "Official Harbor reward: 0.0",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "work",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        },
+        {
+          "id": "check",
+          "kind": "agent_task",
+          "title": "[information withheld]",
+          "role": "[information withheld]",
+          "agentId": "[information withheld]",
+          "version": "[information withheld]",
+          "acceptance": "[information withheld]",
+          "status": "[information withheld]",
+          "artifact": "[information withheld]",
+          "stage": "[information withheld]",
+          "inputs": "[information withheld]",
+          "output": "[information withheld]",
+          "summary": "[information withheld]"
+        }
+      ],
+      "edges": []
+    }
+  }
+]

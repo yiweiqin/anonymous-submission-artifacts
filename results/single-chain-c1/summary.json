@@ -1,0 +1,131 @@
+{
+  "complete": true,
+  "scope": {
+    "version": "single-online-c1-user-20261023",
+    "approvedAt": 1792736477.1506774,
+    "chains": [
+      "c1"
+    ],
+    "rounds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "round1": "historical main table; not remeasured",
+    "frozenEvaluation": false,
+    "scoreRule": "first auditable online primary reward; candidate validation adoption-only",
+    "matchedVanilla": "one complete fresh execution; reuse existing valid commits",
+    "excludedChains": [
+      "c2",
+      "c3"
+    ],
+    "retainAllExistingArtifacts": true,
+    "chainVarianceEstimable": false,
+    "authorization": "优先一天内交付：保留一条链的第2—4轮在线成绩，取消额外冻结测分；保留全部已有记录，结论注明无链间方差（推荐）"
+  },
+  "coverage": [
+    {
+      "kind": "c1-online",
+      "round": 2,
+      "n": 66,
+      "complete": true
+    },
+    {
+      "kind": "c1-online",
+      "round": 3,
+      "n": 66,
+      "complete": true
+    },
+    {
+      "kind": "c1-online",
+      "round": 4,
+      "n": 66,
+      "complete": true
+    },
+    {
+      "kind": "fresh-matched-vanilla",
+      "round": 1,
+      "n": 66,
+      "complete": true
+    }
+  ],
+  "bestOnlineRound": 3,
+  "ranking": "R2/R3/R4 uniform c1 online scores; tie favors fewer rounds; historical R1 shown separately",
+  "chainVarianceEstimable": false,
+  "sampleStdPP": null,
+  "methods": [
+    {
+      "kind": "historical-selected-janus",
+      "round": 1,
+      "n": 66,
+      "passed": 39,
+      "passRatePct": 59.09090909090909,
+      "familyMeanPct": 58.854166666666664,
+      "chains": 1,
+      "sampleStdPP": null,
+      "liftVsHistoricalVanillaPP": 7.986111111111111
+    },
+    {
+      "kind": "historical-selected-vanilla",
+      "round": 1,
+      "n": 66,
+      "passed": 33,
+      "passRatePct": 50.0,
+      "familyMeanPct": 50.86805555555556,
+      "chains": 1,
+      "sampleStdPP": null
+    },
+    {
+      "kind": "fresh-matched-vanilla",
+      "round": 1,
+      "n": 66,
+      "passed": 36,
+      "passRatePct": 54.54545454545455,
+      "familyMeanPct": 55.38194444444444,
+      "chains": 1,
+      "sampleStdPP": null
+    },
+    {
+      "kind": "c1-online",
+      "round": 2,
+      "n": 66,
+      "passed": 41,
+      "passRatePct": 62.121212121212125,
+      "familyMeanPct": 62.326388888888886,
+      "chains": 1,
+      "sampleStdPP": null,
+      "differenceVsHistoricalR1PP": 3.4722222222222223,
+      "r1Caveat": "descriptive comparison: historical adaptive selection versus uniform online primary scores",
+      "liftVsFreshVanillaPP": 6.944444444444445
+    },
+    {
+      "kind": "c1-online",
+      "round": 3,
+      "n": 66,
+      "passed": 42,
+      "passRatePct": 63.63636363636363,
+      "familyMeanPct": 63.888888888888886,
+      "chains": 1,
+      "sampleStdPP": null,
+      "differenceVsHistoricalR1PP": 5.034722222222222,
+      "r1Caveat": "descriptive comparison: historical adaptive selection versus uniform online primary scores",
+      "liftVsFreshVanillaPP": 8.506944444444445
+    },
+    {
+      "kind": "c1-online",
+      "round": 4,
+      "n": 66,
+      "passed": 38,
+      "passRatePct": 57.57575757575758,
+      "familyMeanPct": 57.291666666666664,
+      "chains": 1,
+      "sampleStdPP": null,
+      "differenceVsHistoricalR1PP": -1.5625,
+      "r1Caveat": "descriptive comparison: historical adaptive selection versus uniform online primary scores",
+      "liftVsFreshVanillaPP": 1.9097222222222223
+    }
+  ],
+  "uncertainty": "One continuation chain and one matched baseline; no chain-to-chain uncertainty estimate. Online scores are not terminal frozen evaluations.",
+  "goalComplete": false
+}

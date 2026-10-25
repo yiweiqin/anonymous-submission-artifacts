@@ -1,0 +1,640 @@
+[
+  {
+    "host": "benchmark-host-a",
+    "versions": {
+      "mcp": "2.3.0",
+      "litellm": "1.106.2",
+      "pydantic": "2.14.1",
+      "httpx": "0.28.1",
+      "httpx-sse": null,
+      "sse-starlette": "3.5.1",
+      "starlette": "1.9.0",
+      "uvicorn": "0.54.0",
+      "anyio": "4.15.1",
+      "jsonschema": "4.26.0",
+      "pydantic-settings": "2.16.1",
+      "python-multipart": "0.0.32",
+      "pyjwt": "2.15.1"
+    },
+    "mcpRequires": [
+      "anyio>=4.10; python_version >= '3.14'",
+      "anyio>=4.9; python_version < '3.14'",
+      "httpx2>=2.10.0",
+      "jsonschema>=4.20.0",
+      "mcp-types==2.3.0",
+      "opentelemetry-api>=1.28.0",
+      "pydantic>=2.12.0",
+      "pyjwt[crypto]>=2.10.1",
+      "python-multipart>=0.0.9",
+      "pywin32>=311; sys_platform == 'win32'",
+      "sse-starlette>=3.0.0",
+      "starlette>=0.27; python_version < '3.14'",
+      "starlette>=0.48.0; python_version >= '3.14'",
+      "typing-extensions>=4.13.0",
+      "typing-inspection>=0.4.1",
+      "uvicorn>=0.31.1; sys_platform != 'emscripten'",
+      "python-dotenv>=1.0.0; extra == 'cli'",
+      "typer>=0.16.0; extra == 'cli'",
+      "rich>=13.9.4; extra == 'rich'"
+    ],
+    "importExit": 0,
+    "importStderr": "17:15:20 - LiteLLM:WARNING: get_model_cost_map.py:318 - LiteLLM: model cost map fetch attempt 1/3 failed (ConnectError fetching https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json: [Errno 101] Network is unreachable); retrying in 3.0s\n17:15:20 - LiteLLM:WARNING: get_model_cost_map.py:675 - LiteLLM: Failed to fetch remote model cost map from https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json: ConnectError fetching https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json: [Errno 101] Network is unreachable. Falling back to local backup.\n",
+    "candidates": [
+      {
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "rows": [
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-0",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 18,
+            "promptTokens": 151262,
+            "completionTokens": 2629,
+            "wallSeconds": 39.838,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-2",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 36,
+            "promptTokens": 369545,
+            "completionTokens": 5029,
+            "wallSeconds": 53.025,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-4",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 22,
+            "promptTokens": 158956,
+            "completionTokens": 2014,
+            "wallSeconds": 35.883,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-6",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 12,
+            "promptTokens": 78239,
+            "completionTokens": 1154,
+            "wallSeconds": 24.354,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-8",
+            "reward": 0.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 19,
+            "promptTokens": 142902,
+            "completionTokens": 2604,
+            "wallSeconds": 37.958,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-10",
+            "reward": 0.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 36,
+            "promptTokens": 267519,
+            "completionTokens": 4292,
+            "wallSeconds": 64.352,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-12",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 7,
+            "promptTokens": 35585,
+            "completionTokens": 648,
+            "wallSeconds": 35.862,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-14",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 12,
+            "promptTokens": 69495,
+            "completionTokens": 1373,
+            "wallSeconds": 44.547,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          }
+        ],
+        "rawErrors": [
+          {
+            "file": "rerun-cc8f861a-tau-airline-2-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 36,
+            "wallSeconds": 53.025
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-14-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 12,
+            "wallSeconds": 44.547
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-0-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 18,
+            "wallSeconds": 39.838
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-8-0.json",
+            "reward": 0.0,
+            "error": "",
+            "modelCalls": 19,
+            "wallSeconds": 37.958
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-10-0.json",
+            "reward": 0.0,
+            "error": "",
+            "modelCalls": 36,
+            "wallSeconds": 64.352
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-4-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 22,
+            "wallSeconds": 35.883
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-12-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 7,
+            "wallSeconds": 35.862
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-6-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 12,
+            "wallSeconds": 24.354
+          }
+        ]
+      },
+      {
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "rows": [
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-0",
+            "reward": 0.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 12,
+            "promptTokens": 74030,
+            "completionTokens": 1638,
+            "wallSeconds": 30.85,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-2",
+            "reward": 0.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 34,
+            "promptTokens": 337853,
+            "completionTokens": 3793,
+            "wallSeconds": 49.715,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-4",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 15,
+            "promptTokens": 100050,
+            "completionTokens": 1535,
+            "wallSeconds": 30.851,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-6",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 11,
+            "promptTokens": 71249,
+            "completionTokens": 1086,
+            "wallSeconds": 27.883,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-8",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 20,
+            "promptTokens": 160724,
+            "completionTokens": 3289,
+            "wallSeconds": 40.584,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-10",
+            "reward": 0.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 36,
+            "promptTokens": 272304,
+            "completionTokens": 3997,
+            "wallSeconds": 57.706,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-12",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 7,
+            "promptTokens": 36162,
+            "completionTokens": 598,
+            "wallSeconds": 25.728,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-14",
+            "reward": 1.0,
+            "error": "",
+            "official": true,
+            "infraFailures": 0,
+            "modelCalls": 15,
+            "promptTokens": 91157,
+            "completionTokens": 1421,
+            "wallSeconds": 43.842,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          }
+        ],
+        "rawErrors": [
+          {
+            "file": "rerun-32f50cc0-tau-airline-10-0.json",
+            "reward": 0.0,
+            "error": "",
+            "modelCalls": 36,
+            "wallSeconds": 57.706
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-2-0.json",
+            "reward": 0.0,
+            "error": "",
+            "modelCalls": 34,
+            "wallSeconds": 49.715
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-14-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 15,
+            "wallSeconds": 43.842
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-4-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 15,
+            "wallSeconds": 30.851
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-6-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 11,
+            "wallSeconds": 27.883
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-0-0.json",
+            "reward": 0.0,
+            "error": "",
+            "modelCalls": 12,
+            "wallSeconds": 30.85
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-8-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 20,
+            "wallSeconds": 40.584
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-12-0.json",
+            "reward": 1.0,
+            "error": "",
+            "modelCalls": 7,
+            "wallSeconds": 25.728
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "host": "benchmark-host-b",
+    "versions": {
+      "mcp": null,
+      "litellm": "1.106.2",
+      "pydantic": "2.14.1",
+      "httpx": "0.28.1",
+      "httpx-sse": null,
+      "sse-starlette": null,
+      "starlette": "1.9.0",
+      "uvicorn": "0.54.0",
+      "anyio": "4.15.1",
+      "jsonschema": "4.26.0",
+      "pydantic-settings": "2.16.1",
+      "python-multipart": null,
+      "pyjwt": "2.15.1"
+    },
+    "mcpRequires": null,
+    "importExit": 0,
+    "importStderr": "",
+    "candidates": [
+      {
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "rows": [
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-1",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "official": false,
+            "infraFailures": 3,
+            "modelCalls": 0,
+            "promptTokens": 0,
+            "completionTokens": 0,
+            "wallSeconds": 16.523,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-3",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "official": false,
+            "infraFailures": 3,
+            "modelCalls": 0,
+            "promptTokens": 0,
+            "completionTokens": 0,
+            "wallSeconds": 26.249,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+            "scope": "full"
+          }
+        ],
+        "rawErrors": [
+          {
+            "file": "rerun-cc8f861a-tau-airline-1-2.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 16.523
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-5-0.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 15.955
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-3-0.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 17.273
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-1-1.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 12.697
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-3-1.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 26.598
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-5-1.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 12.59
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-3-2.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 26.249
+          },
+          {
+            "file": "rerun-cc8f861a-tau-airline-1-0.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 11.455
+          }
+        ]
+      },
+      {
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "rows": [
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-1",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "official": false,
+            "infraFailures": 3,
+            "modelCalls": 0,
+            "promptTokens": 0,
+            "completionTokens": 0,
+            "wallSeconds": 11.276,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          },
+          {
+            "benchmark": "tau",
+            "arm": "janus",
+            "task": "airline-3",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "official": false,
+            "infraFailures": 3,
+            "modelCalls": 0,
+            "promptTokens": 0,
+            "completionTokens": 0,
+            "wallSeconds": 26.193,
+            "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+            "promptSha256": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+            "scope": "full"
+          }
+        ],
+        "rawErrors": [
+          {
+            "file": "rerun-32f50cc0-tau-airline-1-0.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 7.917
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-1-2.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 11.276
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-5-0.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 22.65
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-5-1.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 24.181
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-3-2.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 26.193
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-3-1.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 26.958
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-1-1.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 13.008
+          },
+          {
+            "file": "rerun-32f50cc0-tau-airline-3-0.json",
+            "reward": null,
+            "error": "ModuleNotFoundError:No module named 'mcp'",
+            "modelCalls": 0,
+            "wallSeconds": 21.733
+          }
+        ]
+      }
+    ]
+  }
+]

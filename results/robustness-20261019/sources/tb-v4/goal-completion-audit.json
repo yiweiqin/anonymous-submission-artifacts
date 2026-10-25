@@ -1,0 +1,40 @@
+{
+  "schema": "tb-goal-completion-audit-v1",
+  "observedAtNs": 1792398868820285000,
+  "checks": {
+    "registeredNewVariant": true,
+    "selfAuthoredDevelopmentAndBudgetSmokePassed": true,
+    "completePositiveAuditedPilot": true,
+    "lockedPublicSelectionAndResourceUniverse": true,
+    "positivePilotActuallyExpanded": true,
+    "all63PairsUniqueQualifiedOfficialGrades": false,
+    "finalSummaryMatchesCurrentReceipts": true,
+    "fullMatchedComparisonPositive": false,
+    "originalPilotBytesCarriedUnchanged": true,
+    "ownedWorkerAndTrialsActuallyTerminal": true,
+    "uniqueCompatibleControlsBoundToActualReceipts": true,
+    "finalArchiveMatchesFullSummaryAndCurrentReceipts": true,
+    "finalOfflineConsumptionModelsBudgetsAndOutputsAudited": true,
+    "finalConfiguredCredentialsAbsentFromArchive": true,
+    "protectedOriginalFilesUnchanged": true,
+    "allDeclaredTaskArmsHaveAttemptEvidence": true,
+    "supplementHasNoPreviousAttemptReplay": true,
+    "ownedModelServicesExited": true,
+    "independentLedgerBindsCurrentEvidence": true,
+    "interruptedAttemptsStillPreserved": true,
+    "paperReadyRemainsFalse": true
+  },
+  "readyToComplete": false,
+  "incompleteRequirements": [
+    "all63PairsUniqueQualifiedOfficialGrades",
+    "fullMatchedComparisonPositive"
+  ],
+  "qualifiedOfficialGrades": 125,
+  "sums": {
+    "trained-terminal-v4": 31.0,
+    "control-terminal-interface-v3": 29.0
+  },
+  "receiptSha256": "edb30f96f0d761adc6200c0fd2aafbd16733d5db531cac368ee73812b27484a2",
+  "scope": "Terminal-Bench2.1 fixed resource-compatible63; adaptive composite comparison, not89 leaderboard or LoRA causal proof",
+  "paperReady": false
+}

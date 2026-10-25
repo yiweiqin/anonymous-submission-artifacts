@@ -1,0 +1,64 @@
+{
+  "taskSchema": "cpdb-ai-judge-task/v1",
+  "language": "zh-CN",
+  "goal": "为每个 pair 独立打两个分：dependency（规划时的上下游依赖）与 similarity（失败时可做最小能力改动的替换）。",
+  "criticalRules": [
+    "dependency 与 similarity 必须分开打，禁止合成一个总分（combined 一律拒收）。",
+    "两个分都必须严格落在 [0, 0.25, 0.5, 0.75, 1] 这五个档位上，不允许 0.6 这样的中间值。",
+    "status 不要填 —— 它是从行推导出来的，填了也会被丢掉。",
+    "reviewerId 不得以 prelabel 开头（那是保留前缀）。",
+    "同一个 pair 必须由 2 个互不可见的 reviewerId 各打一遍；分歧再由第 3 个 adjudicator 裁。"
+  ],
+  "axes": {
+    "dependency": {
+      "question": "规划时，左方产出是否适合作为右方输入？（不要看他们像不像）",
+      "anchor0": "产出与右方的输入完全对不上",
+      "anchor1": "左方产出正好是右方的核心输入"
+    },
+    "similarity": {
+      "question": "若左方执行不佳，右方是否适合做**最小能力改动**的替换？（不要看他们是否该协作）",
+      "anchor0": "职能不同，换上去等于换了件事",
+      "anchor1": "同职能且细节能力几乎重合，换上去改动最小"
+    }
+  },
+  "scale": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "scaleNote": "0 / 0.25 / 0.5 / 0.75 / 1 五档。两个档位之间没有合法取值。",
+  "perKind": {
+    "within_owner_directed": {
+      "count": 2400,
+      "expect": "同一个 uBuddy 手下的直属协作：依赖通常偏高，相似度通常偏低（职能互补）。"
+    },
+    "cross_owner_similar": {
+      "count": 2400,
+      "expect": "跨人的近邻同职能：相似度通常偏高（可替换），依赖通常偏低。"
+    },
+    "cross_owner_complement": {
+      "count": 2285,
+      "expect": "跨人的职能互补：依赖可能偏高，相似度偏低。"
+    },
+    "hard_negative": {
+      "count": 1197,
+      "expect": "跨组织 + 职能不同：两轴都应偏低。"
+    }
+  },
+  "splits": {
+    "train": 6705,
+    "development": 778,
+    "test": 799
+  },
+  "blindSplits": [
+    "test"
+  ],
+  "blindNote": "test 的判分必须盲做：本包不含 test 的 teacher 分与模型基线分。train/development 的参考分在 reference/prelabel.jsonl。",
+  "referenceFiles": {
+    "teacher": "reference/prelabel.jsonl",
+    "note": "teacher = 规则基线（由 produces/consumes 推得），不是人类金标。可用来校准，但不要当成正确答案去拟合。"
+  },
+  "contractBaselineWarning": "pairs/pairs.jsonl 里的 contractDependency / contractSimilarity 是**契约模型自己的基线**，与 teacher 不是一回事。只有 train/development 有。"
+}

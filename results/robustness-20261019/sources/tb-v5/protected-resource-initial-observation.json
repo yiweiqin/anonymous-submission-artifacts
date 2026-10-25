@@ -1,0 +1,94 @@
+{
+  "schema": "tb-protected-resources-current-audit-v1",
+  "observedAtNs": 1792413393903584500,
+  "protectedImages": [
+    {
+      "imageId": "sha256:cf98717ba86f9551fc0f5abbf5b2fd7ba75586f6d34342eed3cb9ee7a3411eb5",
+      "protectedTags": [
+        "intercode-nl2bash-fs1:latest"
+      ]
+    },
+    {
+      "imageId": "sha256:3798958891b7b994f7992f561bd6a0286650f56074059fac6c89311c97b5f92b",
+      "protectedTags": [
+        "intercode-nl2bash-fs2:latest"
+      ]
+    },
+    {
+      "imageId": "sha256:97772f8043ace04947d578831b36ba3ff1fd17a0b3de5fb6a4285daa8bb246a4",
+      "protectedTags": [
+        "intercode-nl2bash-fs3:latest"
+      ]
+    },
+    {
+      "imageId": "sha256:efdcd35e35b242841fb492004563fb72f4a5349a51d7543f813dc510ca7bc9f3",
+      "protectedTags": [
+        "intercode-nl2bash-fs4:latest"
+      ]
+    },
+    {
+      "imageId": "sha256:52a146ea9e0046df301700e31e14e90046bdb35fef17b1b681f615cb6b28a25a",
+      "protectedTags": [
+        "intercode-sql-spider:latest"
+      ]
+    },
+    {
+      "imageId": "sha256:24989179f58856db763f418010c1169fecc944e3ec1ea7e921572d83eb070f70",
+      "protectedTags": [
+        "mysql:8.4"
+      ]
+    },
+    {
+      "imageId": "sha256:796d89c5bf93e24493b4aa2ae5b4079f861e56c95274fc1b0f97c5597d4501b8",
+      "protectedTags": [
+        "skillevlove/harbor-cli-openhands:ubuntu24.04",
+        "skillflow/harbor-cli-base:ubuntu24.04"
+      ]
+    },
+    {
+      "imageId": "sha256:44397015d80d7bed516cfe355743720748f3950e1f02f5f887274348e033a955",
+      "protectedTags": [
+        "skillevlove/harbor-cli-openhands:ubuntu24.04-orig"
+      ]
+    },
+    {
+      "imageId": "sha256:796d89c5bf93e24493b4aa2ae5b4079f861e56c95274fc1b0f97c5597d4501b8",
+      "protectedTags": [
+        "skillevlove/harbor-cli-openhands:ubuntu24.04",
+        "skillflow/harbor-cli-base:ubuntu24.04"
+      ]
+    },
+    {
+      "imageId": "sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55",
+      "protectedTags": [
+        "ubuntu:24.04"
+      ]
+    }
+  ],
+  "sharedMysql": {
+    "name": "intercode-sql-spider_ic_ctr",
+    "containerId": "4e91dff734e3",
+    "running": true,
+    "imageId": "sha256:52a146ea9e0046df301700e31e14e90046bdb35fef17b1b681f615cb6b28a25a"
+  },
+  "mirrorPortsListening": {
+    "8899": true,
+    "3128": true
+  },
+  "diskFreeBytes": 27635544064,
+  "availableMemoryBytes": 2517610496,
+  "resourceMutations": 0,
+  "checks": {
+    "ubuntuFixtureImageIdentityUnchanged": true,
+    "mysql84ImagePresent": true,
+    "intercodeSqlImagePresent": true,
+    "sharedMysqlRunning": true,
+    "uvMirror8899Listening": true,
+    "aptProxy3128Listening": true,
+    "diskAbove6GiB": true,
+    "memoryAboveRemote512MiBFloor": true
+  },
+  "allChecksPassed": true,
+  "scope": "Current named shared resources and self-fixture Ubuntu identity. Does not infer unrecorded historical states.",
+  "paperReady": false
+}

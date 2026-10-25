@@ -1,0 +1,44 @@
+{
+  "families": [
+    "Financial-Statement-Rolling",
+    "OCR-Data-Extraction",
+    "Sales-Pivot-Analysis",
+    "Distribution-Center-Auditing",
+    "Medical-Data-Standardization",
+    "Supply-Chain-Replenishment",
+    "Production-Capacity-Planning",
+    "Document-Fraud-Detection",
+    "HWPX-Document-Automation",
+    "PPT-Formatting-Optimization",
+    "Cross-Format-Data-Reconciliation",
+    "Industry-Correlation-Analysis"
+  ],
+  "arms": [
+    "vanilla",
+    "expel",
+    "awm",
+    "reasoning_bank",
+    "skillrl",
+    "cowork_x",
+    "rsea"
+  ],
+  "workers": 2,
+  "host": "benchmark-host-c",
+  "counts": {
+    "Financial-Statement-Rolling": 8,
+    "OCR-Data-Extraction": 8,
+    "Sales-Pivot-Analysis": 8,
+    "Distribution-Center-Auditing": 8,
+    "Medical-Data-Standardization": 9,
+    "Supply-Chain-Replenishment": 8,
+    "Production-Capacity-Planning": 9,
+    "Document-Fraud-Detection": 8,
+    "HWPX-Document-Automation": 8,
+    "PPT-Formatting-Optimization": 8,
+    "Cross-Format-Data-Reconciliation": 8,
+    "Industry-Correlation-Analysis": 8
+  },
+  "missing": {},
+  "record": "holdout-record.jsonl",
+  "janusFull": false
+}

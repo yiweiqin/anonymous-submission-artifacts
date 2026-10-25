@@ -1,0 +1,12 @@
+{
+  "label": "B-record-policy-arithmetic",
+  "mainEvidence": "Completed full outputs show wrong gold/silver economy allowances, identity disagreement, explicitly invalid sums at retail-109, and airline-26/48 inferring passenger use from dates/availability; stable successes and gains reviewed for comparison.",
+  "hypothesis": "Explicit record binding, operation-specific policy checks and calculator-backed arithmetic with a small public-policy reminder will reduce policy and amount errors more than generic recheck wording.",
+  "changes": [
+    "Bind account, actual person and source/target object",
+    "Separate operation types and scheduled/available/used evidence",
+    "Repeat only public baggage/payment policy, with official-policy precedence",
+    "Require calculator for money and exact elapsed-time reasoning"
+  ],
+  "risk": "Policy reminders duplicate official context and can overconstrain if read outside the airline domain; text explicitly scopes airline facts. Validation may cause unnecessary refusals where evidence is unavailable."
+}

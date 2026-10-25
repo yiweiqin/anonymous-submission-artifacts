@@ -1,0 +1,12 @@
+﻿{
+  "JANUS_GPU_DIR": "janus-runtime",
+  "JANUS_GPU_PYTHON": "python",
+  "JANUS_EXPECTED_HOST": "",
+  "JANUS_REQUIRED_GPU": "",
+  "JANUS_MODEL_STORE": "/data/modelstore",
+  "JANUS_SKILLFLOW_REMOTE": "",
+  "JANUS_BASE_MODEL": "Qwen/Qwen3-8B",
+  "JANUS_BASE_REVISION": "b968826d9c46dd6066d109eabc6255188de91218",
+  "JANUS_MINIMAL_ADAPTER": "minimal-evolution/adapter",
+  "JANUS_DEPENDENCY_ADAPTER": "dependency-similarity/adapter"
+}

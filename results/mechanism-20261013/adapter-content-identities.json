@@ -1,0 +1,14 @@
+[
+  {
+    "role": "detective",
+    "weightSha256": "8755e26df3f370a8396e7acdae6670f2a45c6cdcdbca4ea3d0ce911a059afebc",
+    "weightBytes": 174655536,
+    "configSha256": "06af8a125a26bc3fa571865de5dddfc1e2ab1246833d643054bc70d9884d2712"
+  },
+  {
+    "role": "ds",
+    "weightSha256": "86974ad6106845a5e4b6e7d80486414058c4955e30cbe4d7e24698e1a31c8fb9",
+    "weightBytes": 174655536,
+    "configSha256": "2dc85cf0f3444b2d77f34904cbecb4732d7ca3a5cfa19d13316f95343c888471"
+  }
+]

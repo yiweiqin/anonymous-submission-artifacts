@@ -1,0 +1,17 @@
+{
+  "at": 1792920739.9554708,
+  "userAuthorized": true,
+  "authorization": "\u7528\u6237\u660e\u786e\u56de\u590d\uff1a\u5141\u8bb8\u8fd94\u4e2a\u7ec4\u5408\u5404\u8865\u6267\u884c\u4e00\u6b21\uff08\u63a8\u8350\uff09",
+  "promptSha256": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+  "allowedExtraAttemptTasks": [
+    "airline-1",
+    "airline-3"
+  ],
+  "defaultMaximumAttempts": 3,
+  "exceptionMaximumAttempts": 4,
+  "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+  "reason": "Three missing-mcp pre-model failures per task, no finite reward; preserve all twelve failures and actual recorded costs.",
+  "executorSourcesUnchanged": true,
+  "modelParametersUnchanged": true,
+  "paperReady": false
+}

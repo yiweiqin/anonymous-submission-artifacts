@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "cpdb-qlora-eval-v1",
+  "adapter": "dependency-similarity/adapter",
+  "model": "Qwen/Qwen3-8B",
+  "metric": "mae_spearman_0_100",
+  "gold": "astra_score_v1 median of 3",
+  "note": "Facet fold 0 hold-out. Five-bin exact match is not the success metric. Hybrid x100 is a control, not gold.",
+  "splits": {
+    "development": {
+      "n": 3103,
+      "scored": 3103,
+      "parseError": 0,
+      "missing": 0,
+      "note": "MAE/Spearman on 0-100 integers. Not five-bin exact match.",
+      "dependency": {
+        "n": 3103,
+        "mae": 8.692,
+        "rmse": 17.26,
+        "spearman": 0.7639,
+        "pearson": 0.8639
+      },
+      "similarity": {
+        "n": 3103,
+        "mae": 7.145,
+        "rmse": 9.149,
+        "spearman": 0.9041,
+        "pearson": 0.9149
+      },
+      "name": "qlora:development"
+    },
+    "train": {
+      "n": 256,
+      "scored": 256,
+      "parseError": 0,
+      "missing": 0,
+      "note": "MAE/Spearman on 0-100 integers. Not five-bin exact match.",
+      "dependency": {
+        "n": 256,
+        "mae": 8.059,
+        "rmse": 18.848,
+        "spearman": 0.9068,
+        "pearson": 0.883
+      },
+      "similarity": {
+        "n": 256,
+        "mae": 4.961,
+        "rmse": 6.615,
+        "spearman": 0.9605,
+        "pearson": 0.9562
+      },
+      "name": "qlora:train"
+    }
+  },
+  "controls": {
+    "developmentHybridFiveBinTimes100": {
+      "dependency": { "mae": 11.008, "spearman": 0.7002 },
+      "similarity": { "mae": 15.257, "spearman": 0.8232 },
+      "gold": false
+    },
+    "developmentMeanConstant": {
+      "dependency": { "mae": 25.727, "constant": 27 },
+      "similarity": { "mae": 19.333, "constant": 32 }
+    }
+  }
+}

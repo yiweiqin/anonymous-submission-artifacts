@@ -1,0 +1,46 @@
+{
+  "protectedSourceDigests": {
+    "baseline-record.jsonl": {
+      "expected": "4155f38aa5188453a3664aef693a47d52d273fa541e402b1445e85b14bde270a",
+      "actual": "4155f38aa5188453a3664aef693a47d52d273fa541e402b1445e85b14bde270a",
+      "matches": true
+    },
+    "janus-lift.json": {
+      "expected": "0138d6c1f7423bcd7a926beebd2c2f995d331f7af5ab3b6715d7be6fb02053bc",
+      "actual": "0138d6c1f7423bcd7a926beebd2c2f995d331f7af5ab3b6715d7be6fb02053bc",
+      "matches": true
+    },
+    "protocol.json": {
+      "expected": "e2bd4d4b4272415b8175244d7d232b2d448a936c342bfe6938ee18de68a2e5d0",
+      "actual": "e2bd4d4b4272415b8175244d7d232b2d448a936c342bfe6938ee18de68a2e5d0",
+      "matches": true
+    },
+    "model-roles.json": {
+      "expected": "9ebae5a739f89efedbf5793ea45cf9de902cf9e2562b0ca2c318e7d81d63a5d4",
+      "actual": "9ebae5a739f89efedbf5793ea45cf9de902cf9e2562b0ca2c318e7d81d63a5d4",
+      "matches": true
+    },
+    "family-split.json": {
+      "expected": "d4afb55428c0b9de101862d112329dca5804e36a9a3b044258ad2bf5d33bbac5",
+      "actual": "d4afb55428c0b9de101862d112329dca5804e36a9a3b044258ad2bf5d33bbac5",
+      "matches": true
+    }
+  },
+  "allComparedProtectedFilesUnchanged": true,
+  "currentProtectedRobustnessFiles": {
+    "native-system-freeze.json": "3a8112e04830d6add9098381b92db975c9ed35d30973df48454ba0dd4a3b18c1",
+    "native-target-launch.json": "8033ca4e83d69d00cc0e954c90016f0e137d166ad02cbf9818781aa1539bee23"
+  },
+  "historicalRobustnessHashScope": "Native freeze is separately compared against both tau arm implementation locks by tau-consumption-audit.json. Current native target launch hash is recorded; no historical hash claim is inferred from timestamp alone.",
+  "ledgerFlags": {
+    "paperReady": false,
+    "mainTableWrite": false,
+    "protocolJsonChanged": false,
+    "gateOpen": false,
+    "lockedOpen": false,
+    "adaptersChanged": false,
+    "backboneLedgersCopied": false
+  },
+  "newModelCalls": 0,
+  "newScores": 0
+}

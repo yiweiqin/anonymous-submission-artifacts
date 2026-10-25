@@ -1,0 +1,72 @@
+{
+  "schema": "janus-sql-semantic-review-v3",
+  "registeredAt": "2026-10-18T12:52:45.999644+00:00",
+  "status": "development_passed_not_scored",
+  "header": "InterCode Spider dev 官方预检通过的 1015 题；公开测试集反馈后的开发修订 v3，不是整库或独立未见测试",
+  "commit": "c3e46d827cfc9d4c704ec078f7abf9f41e3191d8",
+  "arms": [
+    "native-trained-sql-semantic-review-v3",
+    "native-untrained-sql-interface-v3"
+  ],
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "maxTurns": 40,
+  "maxOutputTokens": 4096,
+  "initialConcurrency": 16,
+  "maximumConcurrency": 16,
+  "sameSubset": true,
+  "sameOfficialReward": true,
+  "structuralChange": true,
+  "originalFreezeModified": false,
+  "paperReady": false,
+  "changes": [
+    "Replace prescriptive eight-step plan with <=3 semantic checks and <=100 words (prompt instruction, not postselection).",
+    "Both arms use identical independent SQL derivation policy instead of ambiguous follow-plan staff contract.",
+    "Both arms increase API output cap from 512 to 4096; preserve actual usage and finish reason."
+  ],
+  "question": "Does a short frozen semantic review add value under the revised, matched executor interface?",
+  "primaryMetric": "paired official reward sum difference over all 1015 locked cases",
+  "secondaryMetrics": [
+    "exact reward 1",
+    "weight prompt tokens",
+    "actual review consumption",
+    "empty outputs",
+    "finish reasons"
+  ],
+  "selectionRule": "One registered candidate. Synthetic development checks first. One valid official receipt per ID per arm; infrastructure errors only may resume. Preserve every version and score regardless of sign. No repeated target-score selection until winning.",
+  "targetExposure": "Revision motivated by already observed v2 aggregate results and synthetic canary defect; adaptive public-benchmark development, not independent confirmation.",
+  "targetQuestionOrGoldUsedForPromptSelection": false,
+  "syntheticChecksPassed": true,
+  "plannerSystemSha256": "34c65077a3b9f823481613c84af7be81c2be6c9a2b87f6c9dfb81e4fd8245fb9",
+  "implementationFiles": {
+    "sql_capacity_gate.py": "d99d3f1b8505c8e033d73086f0d12413cab540afab79207463a2657911c3a3d7",
+    "sql_locked_environment.py": "68cd2a5c49dd88e4108e5f86261743b878506ad6633f428e6c995bf14ec695dc",
+    "sql_v3_generation.py": "43cbfc212ad312060676aa30c3703350deb183f5c83681f82b6b69492aa38420",
+    "sql_v3_planner_server.py": "8ad997c82428c48ae1a6f5567cd2718238ba4dcf2f4d1c47b976812932c5a944",
+    "sql_v3_preplan_worker.py": "0ca0db3094126203adef3e4457a8568bc9ad57dbe430b22b09a636059e9dbd83",
+    "sql_v3_rpc.py": "804f3420ba870d0a364bf4f9269cda6d2e5944aac587830f892bcbefb0e85dd2",
+    "sql_v3_worker.py": "2fe4a36c580d6bc3c0d53f67e2b0bacbbe0cda3e267664aaa898172a769c975d"
+  },
+  "publicInputs": [
+    "query",
+    "db",
+    "db_tables"
+  ],
+  "prohibitedInputs": [
+    "gold SQL",
+    "reference outputs",
+    "official rewards",
+    "oracle receipts"
+  ],
+  "immutableOldResults": [
+    "sql-public-plan-v2",
+    "sql-public-start-v2",
+    "original trained",
+    "original start"
+  ],
+  "launchCondition": "No other benchmark worker; existing SQL container only; disk >=6 GiB; development checks passed; model resources safe. Do not alter active tau runtime.",
+  "syntheticCases": 6,
+  "syntheticExecutorRuns": 12,
+  "developmentResultSha256": "43305a45d50bb530351cec453b32ae9bcc1aef37f68fc628bc6a7cb5f9303e43",
+  "developmentPlanSha256": "65066847a85f51bba875fd22d1bfa6c412571d578d8afbff6ad33f87d3bcf81e"
+}

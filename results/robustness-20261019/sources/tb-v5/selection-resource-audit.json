@@ -1,0 +1,19 @@
+{
+  "sampleUnchangedAcrossAllVersions": {
+    "tb-v1": true,
+    "tb-v2": true,
+    "tb-v3": true,
+    "tb-v4": true,
+    "tb-v5": true
+  },
+  "pilotTasks": 12,
+  "fullTasks": 63,
+  "selectionSource": "public category and task id only",
+  "originalTargetPlanUsedAsFixedResourceUniverse": true,
+  "memoryReservationMiBPerOfficialTask": 2048,
+  "maxConcurrentTasks": 2,
+  "actualConcurrencyDependsOnAvailableMemory": true,
+  "previousInterruptedAttempts": "../tb-v3/interrupted-attempts-audit.json",
+  "priorFiniteOfficialScoresRetained": true,
+  "paperReady": false
+}

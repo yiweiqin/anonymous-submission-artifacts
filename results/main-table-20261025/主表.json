@@ -1,0 +1,67 @@
+{
+  "paperReady": false,
+  "rows": [
+    {
+      "method": "Vanilla",
+      "SkillFlow": "50.00",
+      "SQL": "84.11",
+      "Bash": "72.62",
+      "tau-bench": "70.30"
+    },
+    {
+      "method": "ExpeL",
+      "SkillFlow": "50.00",
+      "SQL": "85.51",
+      "Bash": "71.56",
+      "tau-bench": "68.48"
+    },
+    {
+      "method": "AWM",
+      "SkillFlow": "42.42",
+      "SQL": "85.91",
+      "Bash": "69.97",
+      "tau-bench": "72.73"
+    },
+    {
+      "method": "ReasoningBank",
+      "SkillFlow": "43.94",
+      "SQL": "85.29",
+      "Bash": "69.65",
+      "tau-bench": "67.88"
+    },
+    {
+      "method": "SkillRL",
+      "SkillFlow": "51.52",
+      "SQL": "84.69",
+      "Bash": "72.29",
+      "tau-bench": "73.94"
+    },
+    {
+      "method": "CoWork-X",
+      "SkillFlow": "48.48",
+      "SQL": "84.49",
+      "Bash": "71.28",
+      "tau-bench": "69.70"
+    },
+    {
+      "method": "RSEA",
+      "SkillFlow": "53.03",
+      "SQL": "85.72",
+      "Bash": "72.31",
+      "tau-bench": "66.67"
+    },
+    {
+      "method": "Janus",
+      "SkillFlow": "59.09",
+      "SQL": "85.79",
+      "Bash": "76.64",
+      "tau-bench": "76.36"
+    }
+  ],
+  "metrics": {
+    "SkillFlow": "100 * count(reward >= 1) / 66",
+    "SQL": "100 * sum(reward) / 1015",
+    "Bash": "100 * sum(reward) / 200",
+    "tau-bench": "100 * count(reward >= 1) / 165"
+  }
+}

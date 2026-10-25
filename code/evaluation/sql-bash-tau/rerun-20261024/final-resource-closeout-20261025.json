@@ -1,0 +1,48 @@
+{
+  "at": 1792923685.9525955,
+  "allOwnedJobsAndContainersEnded": true,
+  "sqlUnchanged": true,
+  "hosts": [
+    {
+      "host": "benchmark-host-c",
+      "at": 1792923684.3802102,
+      "ownedLiveProcesses": [],
+      "ownedContainers": [],
+      "sqlPids": [
+        4116429
+      ],
+      "sqlTouched": false,
+      "cleanupRequired": false
+    },
+    {
+      "host": "benchmark-host-d",
+      "at": 1792923684.3122797,
+      "ownedLiveProcesses": [],
+      "ownedContainers": [],
+      "sqlPids": [],
+      "sqlTouched": false,
+      "cleanupRequired": false
+    },
+    {
+      "host": "benchmark-host-a",
+      "at": 1792923684.3904822,
+      "ownedLiveProcesses": [],
+      "ownedContainers": [],
+      "sqlPids": [
+        60186
+      ],
+      "sqlTouched": false,
+      "cleanupRequired": false
+    },
+    {
+      "host": "benchmark-host-b",
+      "at": 1792923684.36016,
+      "ownedLiveProcesses": [],
+      "ownedContainers": [],
+      "sqlPids": [],
+      "sqlTouched": false,
+      "cleanupRequired": false
+    }
+  ],
+  "paperReady": false
+}

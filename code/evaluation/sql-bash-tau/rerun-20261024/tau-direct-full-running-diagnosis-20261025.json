@@ -1,0 +1,37 @@
+{
+  "at": 1792916100.161963,
+  "hash": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+  "source": "tau-direct-full-first-failures-20261025.json",
+  "scoredPhase": "full",
+  "promptChangedDuringRun": false,
+  "observations": [
+    {
+      "category": "time arithmetic",
+      "evidence": "Saved assistant output itself cites previous day 16:03 and current day 15:00, yet states over 24 hours.",
+      "supportedConclusion": "Those quoted times are 22 hours 57 minutes apart on the same stated time basis; the output eligibility rationale is arithmetically inconsistent.",
+      "limitation": "Underlying tool timestamps and full conversation unavailable."
+    },
+    {
+      "category": "policy interpretation",
+      "evidence": "Saved output treats the restriction on changing basic-economy flights as including cabin changes; public airline policy distinguishes these actions.",
+      "supportedConclusion": "The displayed policy explanation conflates operation types.",
+      "limitation": "Official zero alone does not isolate this as the sole cause."
+    },
+    {
+      "category": "payment policy",
+      "evidence": "Saved output describes completing a booking paid with three certificates, then later acknowledges the at-most-one rule.",
+      "supportedConclusion": "A general policy-recheck instruction did not consistently prevent the output from describing a disallowed payment composition.",
+      "limitation": "Exact write parameters were not retained by inherited executor; execution-level policy compliance cannot be reconstructed from assistant output alone."
+    },
+    {
+      "category": "budget",
+      "evidence": "One saved zero result reports 40 executor model calls.",
+      "supportedConclusion": "It reached the configured model-call limit; useful tool work versus repetition cannot be distinguished from retained output.",
+      "limitation": "Full tool trace unavailable; do not label a broken tool chain or infrastructure hang."
+    }
+  ],
+  "conclusion": "Preserve the fixed prompt and every official score. These observations support the final limitations and possible future general policy/quantity verification changes; no task-specific solutions or hidden references used.",
+  "referenceAnswersRead": false,
+  "targetStatesRead": false,
+  "taskSpecificPromptBranches": false
+}

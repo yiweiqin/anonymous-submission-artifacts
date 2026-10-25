@@ -1,0 +1,24 @@
+{
+  "instructions": "三个判断题。若与逐卡打分冲突，以这里为准；备注里请写一句理由。answers 里填 true / false / \"unsure\"。",
+  "questions": [
+    {
+      "id": "same_family_is_sufficient_for_similarity",
+      "text": "同一个主职能（family）的两个 Agent，只要细节能力（facet）不同，作为「最小改动替换」的代价是否应当**都一样**？",
+      "note": "答 true = 主职能已是充分变量，同职能同分；答 false = 细节能力需要单独计入。",
+      "answer": false
+    },
+    {
+      "id": "same_family_dependency_always_zero",
+      "text": "同一个主职能的两个 Agent，左方的产出是否**不可能**成为右方的有效输入（因为它们是替代关系而非上下游）？",
+      "note": "答 true = 同职能依赖分恒为 0。",
+      "answer": true
+    },
+    {
+      "id": "cross_family_similarity_always_zero",
+      "text": "不同主职能的两个 Agent，是否**都不可能**互为好的替换？",
+      "note": "答 true = 跨职能相似度恒为 0。",
+      "answer": true
+    }
+  ],
+  "notes": "主职能决定能不能顶替、是不是上下游：同职能不串联故依赖分恒为 0，跨职能换上去等于换了事故相似度恒为 0。但同职能内部替换代价并不都一样，细节能力（facet）仍要单独计入相似度（近的门禁/来源质量给 0.75，远的体裁或操作给 0.5）。跨职能只在产出口径对得上且任务相同时才给依赖分。"
+}

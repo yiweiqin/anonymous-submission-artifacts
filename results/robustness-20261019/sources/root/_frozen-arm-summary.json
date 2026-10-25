@@ -1,0 +1,102 @@
+{
+  "phase": "complete",
+  "officialCount": 63,
+  "missing": [],
+  "passes": 47,
+  "failures": [
+    "adaptive-rejection-sampler",
+    "circuit-fibsqrt",
+    "configure-git-webserver",
+    "count-dataset-tokens",
+    "dna-assembly",
+    "extract-moves-from-video",
+    "gcode-to-text",
+    "mailman",
+    "make-doom-for-mips",
+    "make-mips-interpreter",
+    "model-extraction-relu-logits",
+    "mteb-retrieve",
+    "path-tracing-reverse",
+    "schemelike-metacircular-eval",
+    "tune-mjcf",
+    "video-processing"
+  ],
+  "rewardSum": 47.0,
+  "minTokens": 551,
+  "zeroParticipation": [],
+  "compared": 50,
+  "higher": [
+    {
+      "task": "cancel-async-tasks",
+      "reward": 1.0,
+      "baseline": 0.0
+    },
+    {
+      "task": "regex-chess",
+      "reward": 1.0,
+      "baseline": 0.0
+    }
+  ],
+  "lower": [
+    {
+      "task": "count-dataset-tokens",
+      "reward": 0.0,
+      "baseline": 1.0
+    }
+  ],
+  "ties": 47,
+  "unpaired": [
+    {
+      "task": "adaptive-rejection-sampler",
+      "reward": 0.0
+    },
+    {
+      "task": "configure-git-webserver",
+      "reward": 0.0
+    },
+    {
+      "task": "dna-assembly",
+      "reward": 0.0
+    },
+    {
+      "task": "extract-moves-from-video",
+      "reward": 0.0
+    },
+    {
+      "task": "fix-ocaml-gc",
+      "reward": 1.0
+    },
+    {
+      "task": "large-scale-text-editing",
+      "reward": 1.0
+    },
+    {
+      "task": "make-doom-for-mips",
+      "reward": 0.0
+    },
+    {
+      "task": "path-tracing-reverse",
+      "reward": 0.0
+    },
+    {
+      "task": "polyglot-c-py",
+      "reward": 1.0
+    },
+    {
+      "task": "query-optimize",
+      "reward": 1.0
+    },
+    {
+      "task": "raman-fitting",
+      "reward": 1.0
+    },
+    {
+      "task": "tune-mjcf",
+      "reward": 0.0
+    },
+    {
+      "task": "write-compressor",
+      "reward": 1.0
+    }
+  ]
+}

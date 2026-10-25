@@ -1,0 +1,19 @@
+{
+  "schema": "tb-pilot-carry-forward-v1",
+  "pilotReceiptSha256": "b64a0166cef7a2cde0512584169dd05fb3bde548ef0bbc25bc3ad70255ffddc6",
+  "pilotReceipts": 24,
+  "pilotTasks": 12,
+  "fullTasks": 63,
+  "remainingTasks": 51,
+  "pilotScoresReusedUnchanged": true,
+  "pilotSummarySha256": "741ecdd354d8e84a757c8e5cff36c8fe9c51993f85dd8c90b42b91a1d22f1d93",
+  "score": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-pilot-1792401726008510100",
+  "paperReady": false,
+  "pilotEvidenceManifestSha256": "8d6ec62a4dea9d232aafed066489ceb92fdf08df4bb4a48a7214a89c4cf5d0c1",
+  "pilotResourcesFreshlyAudited": true,
+  "selectionResourceAuditSha256": "0923a0eb97ee96bb30c88ecbb37940cf1955aa039341763f278e3d72cd39bf58",
+  "pilotAdoptedControls": 12,
+  "newFullTrainedExecutions": 51,
+  "newFullControlExecutions": 0,
+  "pendingSchedulerSha256": "aae3af39fbd8c9d4426aa256b23ecd7ebee60323886aab91b549dd448b9c0464"
+}

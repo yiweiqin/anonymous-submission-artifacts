@@ -1,0 +1,70 @@
+{
+  "schema": "tb-fixed-pilot-expansion-analysis-v1",
+  "sourceReceiptSha256": "b12565fdcbdd5f4893cacec16f53e32cad472e7f8e2fe0933c733306d7837d96",
+  "sourceFullSummarySha256": "824caa6cb9381dc0cb1a9363e4d085a2802d6d121f1d1fb7b6c9ff02780b57f0",
+  "allBothArmFirstAttemptsPresent": true,
+  "fullQualifiedComparisonAvailable": true,
+  "overall": {
+    "delta": 4.0,
+    "observedRewardDifference": 4.0,
+    "qualifiedGradesByArm": {
+      "trained-terminal-v5": 63,
+      "control-terminal-interface-v3": 63
+    },
+    "completeQualifiedCoverage": true,
+    "qualifiedPairedTasks": 63,
+    "qualifiedPairedSums": {
+      "trained-terminal-v5": 33.0,
+      "control-terminal-interface-v3": 29.0
+    },
+    "qualifiedPairedDelta": 4.0,
+    "comparisonScopeNote": "Full delta is unavailable without complete qualified coverage; paired fields cover only the explicitly counted tasks. Raw observed sums are diagnostics, not an unequal-coverage comparison.",
+    "universeTasks": 63,
+    "higher": 12,
+    "lower": 8,
+    "ties": 43
+  },
+  "carriedPilot": {
+    "delta": 4.0,
+    "observedRewardDifference": 4.0,
+    "qualifiedGradesByArm": {
+      "trained-terminal-v5": 12,
+      "control-terminal-interface-v3": 12
+    },
+    "completeQualifiedCoverage": true,
+    "qualifiedPairedTasks": 12,
+    "qualifiedPairedSums": {
+      "trained-terminal-v5": 8.0,
+      "control-terminal-interface-v3": 4.0
+    },
+    "qualifiedPairedDelta": 4.0,
+    "comparisonScopeNote": "Full delta is unavailable without complete qualified coverage; paired fields cover only the explicitly counted tasks. Raw observed sums are diagnostics, not an unequal-coverage comparison.",
+    "universeTasks": 12,
+    "higher": 5,
+    "lower": 1,
+    "ties": 6
+  },
+  "expansionOnly": {
+    "delta": 0.0,
+    "observedRewardDifference": 0.0,
+    "qualifiedGradesByArm": {
+      "trained-terminal-v5": 51,
+      "control-terminal-interface-v3": 51
+    },
+    "completeQualifiedCoverage": true,
+    "qualifiedPairedTasks": 51,
+    "qualifiedPairedSums": {
+      "trained-terminal-v5": 25.0,
+      "control-terminal-interface-v3": 25.0
+    },
+    "qualifiedPairedDelta": 0.0,
+    "comparisonScopeNote": "Full delta is unavailable without complete qualified coverage; paired fields cover only the explicitly counted tasks. Raw observed sums are diagnostics, not an unequal-coverage comparison.",
+    "universeTasks": 51,
+    "higher": 7,
+    "lower": 7,
+    "ties": 37
+  },
+  "ungradedExecutedFailures": [],
+  "interpretation": "Adaptive development. The positive carried pilot must not be presented as independent expansion success. Missing trained grades remain ungraded, never0. No full89 leaderboard or LoRA-only causal claim.",
+  "paperReady": false
+}

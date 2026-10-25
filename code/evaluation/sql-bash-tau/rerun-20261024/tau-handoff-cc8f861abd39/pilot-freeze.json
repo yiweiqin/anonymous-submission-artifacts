@@ -1,0 +1,13 @@
+{
+  "frozenBeforeModelCall": true,
+  "paperReady": false,
+  "measurementMode": "user-authorized-direct-full",
+  "pilotGateRequired": false,
+  "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+  "prompts": {
+    "tau": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f"
+  },
+  "pilots": {},
+  "countableRoot": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+  "compatibilityNote": "Fresh initial input manifest; unchanged runner requires this filename. No pilot or prior gate acceptance claimed."
+}

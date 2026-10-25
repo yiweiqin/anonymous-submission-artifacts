@@ -1,0 +1,13 @@
+{
+  "schema": "janus-sql-v4-pilot-package",
+  "baseDesignSha256": "4aa259e0c6a07a96a966beb1d14a9af3ffda80859723f3ac14dbbffb3a01d51c",
+  "pilotLockSha256": "fca6575f1c1bd13f9d9cdad8ce42f9d67b4a6cf417fbcaf86ad3d86cc4ac6537",
+  "initialSqlConcurrency": 10,
+  "concurrencyReason": "Reuse the stable pilot SQL 10 while the existing tau worker finishes at 16; SQL gate has resource-only expansion/backoff.",
+  "sameInferenceAsV4": true,
+  "coexistenceRequiresPostMysqlMemoryBytes": 1073741824,
+  "wrapperFiles": {
+    "sql_v4_pilot_worker.py": "c3f6fc17a84c3dbe4e0dead2dd98f850edf0ee6d3ad0d650641465db5e619c88",
+    "sql_v4_pilot_preplan.py": "9f622eb73ab27ea32730a1d4463afa45d05fef66c8ee15f2248655626495637b"
+  }
+}

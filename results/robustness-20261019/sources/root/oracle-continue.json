@@ -1,0 +1,15 @@
+{
+  "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/official-oracle-1791894223892268400",
+  "pid": 554432,
+  "commit": "7131e4375048a0e408a8fb404b5f499d726b695b",
+  "resumedFrom": "VerifierTimeoutError on feal-linear-cryptanalysis while orphan containers held the host",
+  "taskModel": "deepseek-flash",
+  "temperature": 0,
+  "maxTurns": 40,
+  "targetModelCalls": 0,
+  "subsetLocked": false,
+  "diskFreeBytesAtResume": 27835514880,
+  "stoppedContainers": 0,
+  "workerSha256": "22b1bda78d4d1b74191ffd8556670ed0b64ccd2807e337d54569c6d8740ab741",
+  "startedAt": "2026-10-17T14:36:08"
+}

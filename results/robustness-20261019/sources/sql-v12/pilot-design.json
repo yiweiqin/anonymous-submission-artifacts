@@ -1,0 +1,13 @@
+{
+  "schema": "janus-sql-v12-fixed48-package",
+  "baseDesignSha256": "9ebc7fd6eb6b10f8088dd388d3ee64e296c79eca8e9bb76c9bfba93d1277f37c",
+  "pilotLockSha256": "efafa4a21b850e933b75e1a7920bc611950b7174ec347cdf2302aaa96a802fb6",
+  "initialSqlConcurrency": 10,
+  "sameInferenceAsV9": true,
+  "pilotCases": 48,
+  "coexistenceRequiresPostMysqlMemoryBytes": 1073741824,
+  "wrapperFiles": {
+    "sql_v12_pilot_worker.py": "552039257e91df2cfd0e10e534055e5814852e80396d31acc4cc8a0663f06e08",
+    "sql_v12_pilot_preplan.py": "e40336453ef576eb67b5ecbebfd8aa38eb115ca3f273cf6ad8264623df735c1f"
+  }
+}

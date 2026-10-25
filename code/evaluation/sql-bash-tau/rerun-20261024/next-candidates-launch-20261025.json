@@ -1,0 +1,62 @@
+[
+  {
+    "host": "benchmark-host-c",
+    "bench": "tau",
+    "root": "/benchmark/janus-rerun-20261025/variants/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935",
+    "hash": "c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935",
+    "live": {
+      "pid": 4102172,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935"
+    },
+    "paperReady": false,
+    "at": 1792908903.862463
+  },
+  {
+    "host": "benchmark-host-c",
+    "bench": "tau",
+    "root": "/benchmark/janus-rerun-20261025/variants/fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450",
+    "hash": "fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450",
+    "live": {
+      "pid": 4102231,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450"
+    },
+    "paperReady": false,
+    "at": 1792908905.5318272
+  },
+  {
+    "host": "benchmark-host-d",
+    "bench": "tau",
+    "root": "/benchmark/janus-rerun-20261025/variants/793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6",
+    "hash": "793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6",
+    "live": {
+      "pid": 159503,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6"
+    },
+    "paperReady": false,
+    "at": 1792908906.9009337
+  },
+  {
+    "host": "benchmark-host-d",
+    "bench": "tau",
+    "root": "/benchmark/janus-rerun-20261025/variants/6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d",
+    "hash": "6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d",
+    "live": {
+      "pid": 159560,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d"
+    },
+    "paperReady": false,
+    "at": 1792908907.992078
+  },
+  {
+    "host": "benchmark-host-a",
+    "bench": "bash",
+    "root": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+    "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+    "live": {
+      "pid": 2319415,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484"
+    },
+    "paperReady": false,
+    "at": 1792908909.399019
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "phase": "pilot",
+  "adoptedControlTasks": [
+    "cancel-async-tasks",
+    "dna-assembly",
+    "fix-code-vulnerability",
+    "large-scale-text-editing",
+    "sqlite-with-gcov",
+    "model-extraction-relu-logits",
+    "multi-source-data-merger",
+    "mteb-retrieve",
+    "custom-memory-heap-crash",
+    "distribution-search",
+    "count-dataset-tokens",
+    "sparql-university"
+  ],
+  "newlyAppendedControls": [
+    "cancel-async-tasks",
+    "dna-assembly",
+    "fix-code-vulnerability",
+    "large-scale-text-editing",
+    "sqlite-with-gcov",
+    "model-extraction-relu-logits",
+    "multi-source-data-merger",
+    "mteb-retrieve",
+    "custom-memory-heap-crash",
+    "distribution-search",
+    "count-dataset-tokens",
+    "sparql-university"
+  ],
+  "sourceRegistrySha256": "18fa204230168fe65235f253175b27385df90575d94f608a3ba081de23e59cd7",
+  "controlLockSha256": "a49b06e142591cc805771e2794fb1c1acee985716ee42a3c410c9128ff95d012",
+  "receiptSha256AfterAdoption": "5fdec762c7b9d7e8fabc48f58d14619f7bfb898a39744e0a82322b1073fb5ce3",
+  "newModelRequests": 0,
+  "newGraderInvocations": 0,
+  "paperReady": false
+}

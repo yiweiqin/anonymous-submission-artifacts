@@ -1,0 +1,6 @@
+{
+  "at": 1792921027.0084233,
+  "statement": "Native tau_one.py initializes usage counters to zero and copies real counters only after success; error payload zero counters are not proof of zero billable calls. Prior supplemental pre-model wording is not a verified timing claim; all failed attempt costs remain unknown.",
+  "evidence": "Unchanged tau_one.py exception handler and preserved missing-mcp payloads",
+  "paperReady": false
+}

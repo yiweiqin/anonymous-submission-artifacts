@@ -1,0 +1,9 @@
+{
+  "DIRECT_QUERY": "Verify that the final query returns exactly the requested fields and entities, without invented conditions.",
+  "AGGREGATION": "Verify the requested counting unit, grouping level and aggregate conditions. Distinguish rows from entities, count from sum. Never add an aggregate output column unless requested.",
+  "JOIN_CARDINALITY": "Verify join keys against the actual schema and check whether joins multiply rows. Do not assume uniqueness, foreign keys or a need for DISTINCT without evidence.",
+  "NEGATION_NULLS": "Verify which entity and relationship the exclusion applies to, including NULL behavior. Do not assume a directed relation is symmetric.",
+  "RANKING": "Verify whether the request asks for one ranked result or all ties. Project only requested fields and use ordering or limits only as the question requires.",
+  "SET_COMBINATION": "Verify the question's AND/OR or set-combination meaning and duplicate semantics; do not add conditions or cosmetic sorting.",
+  "FINAL_QUERY": "After every inspection or diagnostic SQL statement, execute the final answer query before submit. Submit grades only the last executed query."
+}

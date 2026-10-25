@@ -1,0 +1,60 @@
+{
+  "at": 1792923768.665856,
+  "bench": "bash",
+  "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+  "n": 200,
+  "expected": 200,
+  "officialSum": "153.28",
+  "complete": true,
+  "eligibleToReplace": true,
+  "formalRank": 1,
+  "infraFailures": 0,
+  "infraFailuresFromReceiptRows": 0,
+  "rawInfraFailuresByOwnedTasks": 0,
+  "paperReady": false,
+  "shards": [
+    {
+      "host": "benchmark-host-a",
+      "shard": 0,
+      "pid": 2412519,
+      "live": false,
+      "assigned": 100,
+      "completed": 100,
+      "receiptSha256": "392e9d0ec371c592672261e4b1d7da06251d913d27d97c9402495bfeb3ab511e"
+    },
+    {
+      "host": "benchmark-host-b",
+      "shard": 1,
+      "pid": 3121428,
+      "live": false,
+      "assigned": 100,
+      "completed": 100,
+      "receiptSha256": "bc4456bf1aa67795552727fff9b7f2094467a08c2687880d16a09a1a9f70c48b"
+    }
+  ],
+  "controls": "verified-frozen-controls-20261025.json",
+  "rankingReportedOnlyForCompleteFull": true,
+  "measurementMode": "pilot-gated-full",
+  "receiptAudit": {
+    "noCrossWorkerDuplicates": true,
+    "noWithinWorkerOfficialDuplicates": true,
+    "taskPartitionValidated": true,
+    "fullScopeOnly": true,
+    "promptHashValidated": true,
+    "orderHashValidated": true
+  },
+  "differenceVsOldJanus": "9.83",
+  "differenceVsVanilla": "8.04",
+  "controlReceiptHashes": {
+    "vanilla": "16e99863678615f523b67fb252802c118b145ca50c0ec3145d2421797a50eb5e",
+    "expel": "060ddea36061e0dd3abc856ab22971ba7d2cfb792c6740a922d3d81a5bd7dbea",
+    "skillrl": "ac262a211f235a512f4210b1c13d9c76033a82e70d7ef1d0dfe219066967d88e",
+    "cowork_x": "a3be1aa9ddebaf7777498502777e5120692344c5182cb2fd9eb240c3657ac675",
+    "janus": "6dbe3ca6b3fd1eac9d1e8efe205d278a0b2b49b4c9a2903232db10dc7ceab09d",
+    "rsea": "b65075232f02136c6d2c9769214def3bb4448f4b214ffcf524dca02e2c4102f6",
+    "awm": "9d9b75e48b923a1e75e3378270c48d5b135192954094296540879f7b42b900df",
+    "reasoning_bank": "1ede1ba44b46b7d8039ebac49b8b40acd53ad5683046706fac2a66b3defcb177"
+  },
+  "differenceVsAWM": "13.35",
+  "differenceVsSkillRL": "8.70"
+}

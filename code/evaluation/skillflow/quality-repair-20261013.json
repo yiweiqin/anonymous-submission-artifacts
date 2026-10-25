@@ -1,0 +1,139 @@
+﻿{
+  "date": "2026-10-13",
+  "objective": "Audit all experiment problems and repair non-Janus issues; preserve existing formal scores; never select fixes based on whether a baseline outranks Janus.",
+  "completed": true,
+  "scopeTasks": 66,
+  "families": [
+    "Compensation-Scenario-Modeling",
+    "DMAIC-Quality-Analysis",
+    "Embedded-Data-Repair",
+    "Healthcare-Cost-Benefit-Analysis",
+    "Inventory-&-Finance-Integration",
+    "Operational-Recovery-Planning",
+    "SEC-13F-Financial-Analysis",
+    "Weighted-Risk-Assessment"
+  ],
+  "remoteRoot": "/benchmark/skillflow-main-20261008",
+  "remoteInventory": "/benchmark/skillflow-main-20261008/quality-inventory-20261013.json",
+  "localInventory": "skillflow-quality-inventory-20261013.json",
+  "protectedDigests": {
+    "baseline-record.jsonl": "4155f38aa5188453a3664aef693a47d52d273fa541e402b1445e85b14bde270a",
+    "janus-lift.json": "0138d6c1f7423bcd7a926beebd2c2f995d331f7af5ab3b6715d7be6fb02053bc",
+    "protocol.json": "e2bd4d4b4272415b8175244d7d232b2d448a936c342bfe6938ee18de68a2e5d0",
+    "model-roles.json": "9ebae5a739f89efedbf5793ea45cf9de902cf9e2562b0ca2c318e7d81d63a5d4",
+    "family-split.json": "d4afb55428c0b9de101862d112329dca5804e36a9a3b044258ad2bf5d33bbac5",
+    "janus_full.py": "5a25568e0e79e5588c5010a4dce8edd6883381594b41da54fe35ef0eb6bfc5e1",
+    "harbor_bridge.py": "1d62d64a4669a21ce241db4e25ab5ac9e4b256b08ebed4c74d577794011c801b",
+    "remote_one_trial.py": "972e67ccca571702abc09b7371da96cc7aa0ee7f5363b3787b8fc8c20381b2f9"
+  },
+  "verifiedFixes": [
+    {
+      "id": "baseline-reflection-feedback",
+      "files": [
+        "baseline_updates.py",
+        "baselines.py",
+        "reflection_feedback.py"
+      ],
+      "verification": "20 local regression tests and 12 remote writer tests passed; real verifier feedback/actions exposed; reflection transport failures preserve official outcomes; replay uses the exact bounded candidate carried forward.",
+      "scoreMutation": false
+    },
+    {
+      "id": "baseline-memory-fit",
+      "verification": "Oversized singleton retains bounded information; whole retained 6000-character library visible to reflection; regression checks passed."
+    },
+    {
+      "id": "SEC-canonical-reference",
+      "verification": "Reference follows stated normalization, Levenshtein and stock substring filter; independent regex count agrees; unchanged 7 original tests and 2 negative controls passed; actual solve.py also passed 7 tests.",
+      "remoteEvidence": "/benchmark/skillflow-main-20261008/quality-20261013/canonical-repair.json",
+      "scoreMutation": false
+    },
+    {
+      "id": "baseline-execution-accounting",
+      "verification": "All retry costs counted; attempted reflection calls reported; invalid formal results rejected; replay errors preserve official result; worker count capped at 4 and disk checks fail closed.",
+      "scoreMutation": false
+    },
+    {
+      "id": "public-task-contracts",
+      "verification": "26 public task contracts clarified and 23 public skill installations restored. All 66 reference solutions pass unchanged verifier source (198 files); original canonical expected data corrected as documented.",
+      "scoreMutation": false
+    },
+    {
+      "id": "baseline-scope-label",
+      "file": "BASELINE-IMPLEMENTATION-SCOPE.zh-CN.md",
+      "verification": "Explicitly labels six methods as text-adapted mechanisms, RSEA as same-task replay, and distinguishes original-paper systems."
+    },
+    {
+      "id": "development-reference-audit",
+      "verification": "All 66 development reference solutions pass after correcting audit input placement and providing task-declared LibreOffice; no formal model runs or reward appends.",
+      "evidence": "quality-evidence-20261013.json"
+    }
+  ],
+  "pending": [],
+  "userConfirmedScope": "Repair engineering faults in text-adapted baselines and explicitly label scope; no original-paper replacement or protocol change.",
+  "liveAudit": {
+    "allProcessesTerminal": true,
+    "activeAuditContainers": 0,
+    "formalModelRuns": 0,
+    "referenceReport": "quality-evidence-20261013.json",
+    "repairPatch": "task-repairs-20261013.patch"
+  },
+  "verification": {
+    "referenceTasksPassed": 66,
+    "families": {
+      "Healthcare-Cost-Benefit-Analysis": 9,
+      "DMAIC-Quality-Analysis": 9,
+      "SEC-13F-Financial-Analysis": 8,
+      "Compensation-Scenario-Modeling": 8,
+      "Weighted-Risk-Assessment": 8,
+      "Embedded-Data-Repair": 8,
+      "Inventory-&-Finance-Integration": 8,
+      "Operational-Recovery-Planning": 8
+    },
+    "verifierSourceFilesUnchanged": 198,
+    "publicContractTasks": 26,
+    "publicSkillInstallationsVerified": 23,
+    "localRegressionTestsPassed": 20,
+    "remoteWriterRegressionTestsPassed": 12,
+    "localRemoteCodeDigestsMatch": true,
+    "protectedDigestsUnchanged": true,
+    "protocolFalseFlagsPreserved": true,
+    "allAuditProcessesTerminal": true,
+    "originalImagePreserved": "sha256:44397015d80d7bed516cfe355743720748f3950e1f02f5f887274348e033a955",
+    "diskFreeBytes": 31249752064,
+    "modelCalls": 0,
+    "formalScoreRowsAppended": 0
+  },
+  "scoreInterpretation": "The main table remains the frozen historical formal-reward table. Reference tests are diagnostics, not replacement rewards. Repairs do not establish post-repair method ranking; six baselines remain text-adapted implementations.",
+  "diagnosedCauses": [
+    {
+      "cause": "Reflection feedback corruption",
+      "evidence": "142/246 inspected historical reflection prompt files contain logging contamination; no explicit failure marker in any of 111 failed-task prompts. Structured collector now exposes actual verifier failures and actions."
+    },
+    {
+      "cause": "Hidden or inconsistent task contracts",
+      "evidence": "26 public task contracts clarified; canonical SEC stock count expectation recomputed from its stated rule (450 to 11), with unchanged assertion functions and negative controls."
+    },
+    {
+      "cause": "Missing public assets",
+      "evidence": "23 existing public skill directories were omitted from Docker installation; all installation directives restored consistently across development tasks."
+    },
+    {
+      "cause": "Reference engineering faults",
+      "evidence": "SEC grid looked up Q2 while its task supplies Q3; DMAIC reference forcibly reinstalled dependencies despite preinstalled environment. Both fixed and validated."
+    },
+    {
+      "cause": "All-or-nothing official rewards and actual artifact errors",
+      "evidence": "AWM Mailer had 4 passing checks and 1 formatting failure; faculty output stored Philosophy in numeric service-year column; Embedded output had missing formula cache. These are distinct from implementation scope and remain genuine output requirements."
+    },
+    {
+      "cause": "Narrower adapted baseline scope",
+      "evidence": "Shared executor with bounded text updates; no full original-paper training/retrieval systems. RSEA selection is same-task replay; explicit scope document saved."
+    }
+  ],
+  "deployedCodeDigests": {
+    "baselines.py": "a9aa15420ede01138bf89eadcbf36b0dab26333e4cfa28f6a6c2a7e10c672156",
+    "baseline_updates.py": "ff25bc033156f97a42f8106dcc245b04bb8af7c3de823508f4dda8265f2a4b2d",
+    "reflection_feedback.py": "4309b4507b9d2637f4139c2cbb63c189b3acb2fb7ebd7c55bc0fa499429cbb8b",
+    "remote_reflect.py": "f36efed7fc4c615027dd86636a89101fb9ec104a4d1846453c2d078a959d8f05"
+  }
+}

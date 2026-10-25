@@ -1,0 +1,174 @@
+[
+  {
+    "host": "benchmark-host-c",
+    "at": 1792922117.0473075,
+    "workers": [
+      {
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "workerId": "scale4-0-benchmark-host-c",
+        "pid": 110128,
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-0",
+        "assigned": 23,
+        "inFlight": [
+          {
+            "pid": 112502,
+            "task": "retail-63"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      },
+      {
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "workerId": "scale4-0-benchmark-host-c",
+        "pid": 110183,
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-0",
+        "assigned": 22,
+        "inFlight": [
+          {
+            "pid": 112540,
+            "task": "retail-76"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      }
+    ],
+    "memoryKB": 2325860,
+    "load": [
+      0.24755859375,
+      0.35595703125,
+      0.26123046875
+    ],
+    "sql60186Present": false
+  },
+  {
+    "host": "benchmark-host-d",
+    "at": 1792922116.7787852,
+    "workers": [
+      {
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "workerId": "scale4-1-benchmark-host-d",
+        "pid": 380619,
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-1",
+        "assigned": 23,
+        "inFlight": [
+          {
+            "pid": 382959,
+            "task": "retail-82"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      },
+      {
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "workerId": "scale4-1-benchmark-host-d",
+        "pid": 380676,
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-1",
+        "assigned": 22,
+        "inFlight": [
+          {
+            "pid": 382900,
+            "task": "retail-77"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      }
+    ],
+    "memoryKB": 2446864,
+    "load": [
+      0.55810546875,
+      0.38916015625,
+      0.26416015625
+    ],
+    "sql60186Present": false
+  },
+  {
+    "host": "benchmark-host-a",
+    "at": 1792922116.797366,
+    "workers": [
+      {
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "workerId": "scale4-2-benchmark-host-a",
+        "pid": 2710725,
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-2",
+        "assigned": 22,
+        "inFlight": [
+          {
+            "pid": 2713103,
+            "task": "retail-83"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      },
+      {
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "workerId": "scale4-2-benchmark-host-a",
+        "pid": 2710780,
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-2",
+        "assigned": 22,
+        "inFlight": [
+          {
+            "pid": 2713005,
+            "task": "retail-82"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      }
+    ],
+    "memoryKB": 2211272,
+    "load": [
+      0.7294921875,
+      0.56494140625,
+      0.5224609375
+    ],
+    "sql60186Present": true
+  },
+  {
+    "host": "benchmark-host-b",
+    "at": 1792922117.002964,
+    "workers": [
+      {
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "workerId": "scale4-3-benchmark-host-b",
+        "pid": 3421394,
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-3",
+        "assigned": 22,
+        "inFlight": [
+          {
+            "pid": 3423593,
+            "task": "retail-68"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      },
+      {
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "workerId": "scale4-3-benchmark-host-b",
+        "pid": 3421454,
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-3",
+        "assigned": 21,
+        "inFlight": [
+          {
+            "pid": 3423617,
+            "task": "retail-71"
+          }
+        ],
+        "promptVerified": true,
+        "workerCodeVerified": true
+      }
+    ],
+    "memoryKB": 2562732,
+    "load": [
+      0.275390625,
+      0.3193359375,
+      0.26953125
+    ],
+    "sql60186Present": false
+  }
+]

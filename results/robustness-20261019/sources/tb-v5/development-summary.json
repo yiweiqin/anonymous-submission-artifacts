@@ -1,0 +1,93 @@
+{
+  "schema": "tb-prompt-audit-v1",
+  "synthetic": true,
+  "checks": {
+    "completeUniqueOfficialCoverage": true,
+    "allReceiptsQualified": true,
+    "allUnscoredAttemptsEligibleInfrastructure": true,
+    "allActualInputsConsumed": true,
+    "allExecutorBudgetsPass": true,
+    "allPackagesMatch": true,
+    "attemptsPerTaskAtMost3": true,
+    "allSingleOfficialVerifierOutputsMatch": true,
+    "allFrozenModelDigestsMatch": true
+  },
+  "tasks": 4,
+  "officialGrades": 0,
+  "developmentGrades": 8,
+  "sums": {
+    "trained-terminal-v5": 4.0,
+    "control-terminal-interface-v3": 4.0
+  },
+  "delta": 0.0,
+  "higher": 0,
+  "lower": 0,
+  "ties": 4,
+  "pairs": {
+    "synthetic-bounded-lifecycle": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v5": 1.0
+    },
+    "synthetic-data-deliverable": {
+      "trained-terminal-v5": 1.0,
+      "control-terminal-interface-v3": 1.0
+    },
+    "synthetic-interface-contract": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v5": 1.0
+    },
+    "synthetic-shell-boundaries": {
+      "control-terminal-interface-v3": 1.0,
+      "trained-terminal-v5": 1.0
+    }
+  },
+  "passed": true,
+  "passesExpansionGate": false,
+  "receiptSha256": "4bae195f2e31f8e6fb20f0b920d76fc53315cc126a68e96eb56ef5e1333a09b0",
+  "costUSD": null,
+  "paperReady": false,
+  "interpretation": "Composite adaptive development evidence, no independent confirmatory or LoRA-only causal claim.",
+  "comparisonEvidenceConsumption": {
+    "executorRequests": 84,
+    "executorSuccessfulResponses": 84,
+    "promptTokens": 518585,
+    "completionTokens": 30090,
+    "plannerInputTokens": 2417,
+    "plannerClassificationPositionsScored": 4
+  },
+  "inheritedControlConsumption": {
+    "executorRequests": 0,
+    "executorSuccessfulResponses": 0,
+    "promptTokens": 0,
+    "completionTokens": 0,
+    "plannerInputTokens": 0,
+    "plannerClassificationPositionsScored": 0
+  },
+  "actualConsumption": {
+    "executorRequests": 84,
+    "executorSuccessfulResponses": 84,
+    "promptTokens": 518585,
+    "completionTokens": 30090,
+    "plannerInputTokens": 2417,
+    "plannerClassificationPositionsScored": 4
+  },
+  "adoptedControlGrades": 0,
+  "newOfficialGradesThisRun": 0,
+  "observedRewardDifference": 0.0,
+  "qualifiedGradesByArm": {
+    "trained-terminal-v5": 4,
+    "control-terminal-interface-v3": 4
+  },
+  "completeQualifiedCoverage": true,
+  "qualifiedPairedTasks": 4,
+  "qualifiedPairedSums": {
+    "trained-terminal-v5": 4.0,
+    "control-terminal-interface-v3": 4.0
+  },
+  "qualifiedPairedDelta": 0.0,
+  "comparisonScopeNote": "Full delta is unavailable without complete qualified coverage; paired fields cover only the explicitly counted tasks. Raw observed sums are diagnostics, not an unequal-coverage comparison.",
+  "fullComparisonAudited": true,
+  "retainedUnscoredAttempts": 0,
+  "retainedUnscoredInfrastructureAttempts": 0,
+  "retainedExecutedUngradedAttempts": 0
+}

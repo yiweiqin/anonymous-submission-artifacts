@@ -1,0 +1,49 @@
+{
+  "configuredDetectiveWeightSha256": "8755e26df3f370a8396e7acdae6670f2a45c6cdcdbca4ea3d0ce911a059afebc",
+  "documentedTrainingRunMatched": true,
+  "trainingTask": "finite executable table-workflow minimal planning evolution",
+  "trainingInputKeys": [
+    "task",
+    "G_plan",
+    "G_exec",
+    "executionEvidence",
+    "catalog",
+    "observations"
+  ],
+  "trainingOutputKeys": [
+    "decision",
+    "direction",
+    "sourceNodeIds",
+    "edits"
+  ],
+  "currentBridgeInputKeys": [
+    "G_star",
+    "G_prime"
+  ],
+  "currentBridgeOutputKeys": [
+    "status",
+    "nodeId",
+    "edgeId",
+    "type",
+    "changedFields",
+    "evidenceNodeIds"
+  ],
+  "nativeTrainingMaxNewTokens": 1536,
+  "currentPilotMaxNewTokens": 160,
+  "originalEngineSha256": "2c124345b380bdeb6297fdecf6b93cbe70d7691b9b3f805acfc51346dfbdfff9",
+  "originalModelIoSha256": "6a5a156feebe02771d8dd9274ca14c80b577a0e3eb29b2fb3d0b1763209b898a",
+  "sourceTrainingReport": "docs/rdmd-minimal-evolution-evaluation.zh-CN.md",
+  "inference": "Configured minimal-evolution weights are reused under a different locator contract. Missing locator fields do not establish failure under the native trained task.",
+  "trainingInstructionChanged": false,
+  "detectiveInstructionChanged": false,
+  "roleConfigChanged": false,
+  "nativePatchSystemCrossBenchmarkComplete": false,
+  "nativeCaseDataKeys": [
+    "task",
+    "G_plan",
+    "G_exec",
+    "executionEvidence",
+    "observedWorlds"
+  ],
+  "userSelectedNativeContractFirst": true
+}

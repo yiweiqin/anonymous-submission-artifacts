@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "cpdb-sft-v1",
+  "task": "cpdb_score100_sft",
+  "annotatorId": "astra_score_v1",
+  "smoke": false,
+  "scheme": "facet",
+  "evalFold": 0,
+  "k": 5,
+  "rows": {
+    "train": 5179,
+    "development": 3103
+  },
+  "note": "Facet fold hold-out. Not org test. Completion is generative JSON, not a 101-class head."
+}

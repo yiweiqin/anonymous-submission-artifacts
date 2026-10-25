@@ -1,0 +1,2123 @@
+[
+  {
+    "host": "benchmark-host-c",
+    "at": 1792922743.6129918,
+    "processes": [],
+    "receipts": [
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "7e0fd0eaa1a12bb14dafc9d29908691d25ce4357f8473e056ea7e4e0f2ada8dd",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 20.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 7.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/7e0fd0eaa1a12bb14dafc9d29908691d25ce4357f8473e056ea7e4e0f2ada8dd/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8",
+        "scope": "full",
+        "n": 88,
+        "sum": 64.0,
+        "holdsMeasured": 12,
+        "holdDrops": {
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 5.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 21.0,
+        "holdsMeasured": 14,
+        "holdDrops": {},
+        "gapNetIncrease": 7.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "ef6674d7524fce8d27aa8389677ca39c4366952fa49d52fdb7afc29762bd34bf",
+        "scope": "pilot",
+        "n": 5,
+        "sum": 4.0,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/ef6674d7524fce8d27aa8389677ca39c4366952fa49d52fdb7afc29762bd34bf/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "4ad8d44bf86421791c9ec566f3738c12f6881d434ca891f0c6222e64b3550219",
+        "scope": "pilot",
+        "n": 5,
+        "sum": 4.0,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/4ad8d44bf86421791c9ec566f3738c12f6881d434ca891f0c6222e64b3550219/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "3ea4e2f000e37db8974a9df3ad0d07a628fd84e1a8377143e9e7ccd5dffbd80f",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 23.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-3": 0.0
+        },
+        "gapNetIncrease": 10.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/3ea4e2f000e37db8974a9df3ad0d07a628fd84e1a8377143e9e7ccd5dffbd80f/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "03a0ae3f2082a26e9f4dc2f9e01ff6d39a922af78a2dea7de723e787438fcee9",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 22.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-13": 0.0
+        },
+        "gapNetIncrease": 9.0,
+        "fullAllowed": true,
+        "infraFailures": 2,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/03a0ae3f2082a26e9f4dc2f9e01ff6d39a922af78a2dea7de723e787438fcee9/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-1668046f6ec6",
+        "bench": "tau",
+        "hash": "1668046f6ec66a7dee49e235cbc6390ec8ca6d0aad547a1ecafa0a2aea4d55e7",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.0,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-1668046f6ec6/runs/tau/1668046f6ec66a7dee49e235cbc6390ec8ca6d0aad547a1ecafa0a2aea4d55e7/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-a65af501b000",
+        "bench": "tau",
+        "hash": "a65af501b00006ffee084ee6678b5dcc3abf093f3a20116b40823500ed9f50dc",
+        "scope": "pilot",
+        "n": 11,
+        "sum": 10.0,
+        "holdsMeasured": 11,
+        "holdDrops": {
+          "airline-3": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-a65af501b000/runs/tau/a65af501b00006ffee084ee6678b5dcc3abf093f3a20116b40823500ed9f50dc/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-988390dfd852",
+        "bench": "tau",
+        "hash": "988390dfd852ccdeb44f3a145f8a93edce2f333c633e14d585c51bc011e7c83c",
+        "scope": "pilot",
+        "n": 19,
+        "sum": 16.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-8": 0.0,
+          "airline-11": 0.0
+        },
+        "gapNetIncrease": 4.0,
+        "fullAllowed": false,
+        "infraFailures": 2,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-988390dfd852/runs/tau/988390dfd852ccdeb44f3a145f8a93edce2f333c633e14d585c51bc011e7c83c/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+        "bench": "tau",
+        "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+        "scope": "full",
+        "n": 83,
+        "sum": 60.0,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 3.0,
+        "fullAllowed": true,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db/runs/tau/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+        "bench": "tau",
+        "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 21.0,
+        "holdsMeasured": 14,
+        "holdDrops": {},
+        "gapNetIncrease": 7.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db/runs/tau/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+        "bench": "tau",
+        "hash": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+        "scope": "full",
+        "n": 83,
+        "sum": 60.0,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "airline-2": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 4.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6/runs/tau/969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03",
+        "bench": "tau",
+        "hash": "c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 22.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-2": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 10.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03/runs/tau/c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/b8eb39de2ee91fcce7de62366f44bca65a742add5fa8d16cfcab77e2644d2e50",
+        "bench": "tau",
+        "hash": "b8eb39de2ee91fcce7de62366f44bca65a742add5fa8d16cfcab77e2644d2e50",
+        "scope": "pilot",
+        "n": 2,
+        "sum": 1.0,
+        "holdsMeasured": 2,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/b8eb39de2ee91fcce7de62366f44bca65a742add5fa8d16cfcab77e2644d2e50/runs/tau/b8eb39de2ee91fcce7de62366f44bca65a742add5fa8d16cfcab77e2644d2e50/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/b3b7a35160791d081c5794f45951af866644c11896888a98c8528da661db506d",
+        "bench": "tau",
+        "hash": "b3b7a35160791d081c5794f45951af866644c11896888a98c8528da661db506d",
+        "scope": "pilot",
+        "n": 4,
+        "sum": 3.0,
+        "holdsMeasured": 4,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/b3b7a35160791d081c5794f45951af866644c11896888a98c8528da661db506d/runs/tau/b3b7a35160791d081c5794f45951af866644c11896888a98c8528da661db506d/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894",
+        "bench": "tau",
+        "hash": "65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 18.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-2": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 7.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894/runs/tau/65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56",
+        "bench": "tau",
+        "hash": "822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 19.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-6": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 8.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56/runs/tau/822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935",
+        "bench": "tau",
+        "hash": "c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935",
+        "scope": "pilot",
+        "n": 15,
+        "sum": 13.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": false,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935/runs/tau/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450",
+        "bench": "tau",
+        "hash": "fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450",
+        "scope": "pilot",
+        "n": 12,
+        "sum": 10.0,
+        "holdsMeasured": 12,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450/runs/tau/fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/bd80b427d0edbb8364d88abbb0a7c479507b7eb6cff7afeb37b0b94ddfa36d1d",
+        "bench": "tau",
+        "hash": "bd80b427d0edbb8364d88abbb0a7c479507b7eb6cff7afeb37b0b94ddfa36d1d",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.0,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/bd80b427d0edbb8364d88abbb0a7c479507b7eb6cff7afeb37b0b94ddfa36d1d/runs/tau/bd80b427d0edbb8364d88abbb0a7c479507b7eb6cff7afeb37b0b94ddfa36d1d/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+        "bench": "tau",
+        "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+        "scope": "full",
+        "n": 83,
+        "sum": 60.0,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 3.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda/runs/tau/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-0",
+        "bench": "tau",
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "scope": "full",
+        "n": 23,
+        "sum": 20.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 2.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-0/runs/tau/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-0",
+        "bench": "tau",
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "scope": "full",
+        "n": 22,
+        "sum": 17.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 2.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-0/runs/tau/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/full/janus/receipts.jsonl"
+      }
+    ],
+    "memAvailableKB": 2437844,
+    "diskFree": 14849732608
+  },
+  {
+    "host": "benchmark-host-d",
+    "at": 1792922743.5527868,
+    "processes": [],
+    "receipts": [
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "tau",
+        "hash": "7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8",
+        "scope": "full",
+        "n": 82,
+        "sum": 58.0,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "airline-11": 0.0
+        },
+        "gapNetIncrease": 5.0,
+        "fullAllowed": true,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/tau/7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-0f92a1c4d926",
+        "bench": "tau",
+        "hash": "0f92a1c4d9266cab742cb271bd634b5db1b2bf2c37b57f1409b263387690d6ca",
+        "scope": "pilot",
+        "n": 6,
+        "sum": 5.0,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "airline-3": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-0f92a1c4d926/runs/tau/0f92a1c4d9266cab742cb271bd634b5db1b2bf2c37b57f1409b263387690d6ca/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-97c397ab709a",
+        "bench": "tau",
+        "hash": "97c397ab709aebba5e3a6ec1d63c97789158dcbab51b0a1690301da868182350",
+        "scope": "pilot",
+        "n": 11,
+        "sum": 9.0,
+        "holdsMeasured": 11,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-97c397ab709a/runs/tau/97c397ab709aebba5e3a6ec1d63c97789158dcbab51b0a1690301da868182350/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-8ce958e2cc88",
+        "bench": "tau",
+        "hash": "8ce958e2cc887f41cdc8b72def01a1b9aec878a03577e947f8e87e36241b8807",
+        "scope": "pilot",
+        "n": 14,
+        "sum": 11.0,
+        "holdsMeasured": 13,
+        "holdDrops": {
+          "airline-11": 0.0,
+          "airline-13": 0.0
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": false,
+        "infraFailures": 3,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-8ce958e2cc88/runs/tau/8ce958e2cc887f41cdc8b72def01a1b9aec878a03577e947f8e87e36241b8807/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-8b615b151792",
+        "bench": "tau",
+        "hash": "8b615b151792613573b7393ecb7f4a29d5af6f7f9e52ff78e27db20b44a36854",
+        "scope": "pilot",
+        "n": 3,
+        "sum": 2.0,
+        "holdsMeasured": 3,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-8b615b151792/runs/tau/8b615b151792613573b7393ecb7f4a29d5af6f7f9e52ff78e27db20b44a36854/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80",
+        "bench": "tau",
+        "hash": "ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 19.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-2": 0.0,
+          "airline-3": 0.0,
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 8.0,
+        "fullAllowed": false,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80/runs/tau/ec169277a3ce14ddfe2284fcc054dadc43058cf7aca88b40edef33c54380dc80/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa",
+        "bench": "tau",
+        "hash": "fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.0,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa/runs/tau/fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+        "bench": "tau",
+        "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+        "scope": "full",
+        "n": 82,
+        "sum": 52.0,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "airline-3": 0.0,
+          "airline-13": 0.0
+        },
+        "gapNetIncrease": 5.0,
+        "fullAllowed": true,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db/runs/tau/8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+        "bench": "tau",
+        "hash": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+        "scope": "full",
+        "n": 82,
+        "sum": 56.0,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "airline-3": 0.0,
+          "airline-13": 0.0
+        },
+        "gapNetIncrease": 6.0,
+        "fullAllowed": true,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6/runs/tau/969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5",
+        "bench": "tau",
+        "hash": "83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 21.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-2": 0.0,
+          "airline-3": 0.0,
+          "airline-13": 0.0
+        },
+        "gapNetIncrease": 11.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5/runs/tau/83a3d3eccf019d2fb60c748a96607dc4a193d1730fd5efa3b2f4a95d311f28d5/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6",
+        "bench": "tau",
+        "hash": "793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6",
+        "scope": "pilot",
+        "n": 19,
+        "sum": 16.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-6": 0.0
+        },
+        "gapNetIncrease": 4.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6/runs/tau/793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b",
+        "bench": "tau",
+        "hash": "88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.0,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "airline-0": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b/runs/tau/88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90",
+        "bench": "tau",
+        "hash": "088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 23.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 10.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90/runs/tau/088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684",
+        "bench": "tau",
+        "hash": "e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.0,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684/runs/tau/e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d",
+        "bench": "tau",
+        "hash": "6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d",
+        "scope": "pilot",
+        "n": 17,
+        "sum": 15.0,
+        "holdsMeasured": 14,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-13": 0.0
+        },
+        "gapNetIncrease": 3.0,
+        "fullAllowed": false,
+        "infraFailures": 1,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d/runs/tau/6aa9ac67b44f95b96c38b48d484381d8df87c170b56647221a0b99c3d441ca1d/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071",
+        "bench": "tau",
+        "hash": "b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.0,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071/runs/tau/b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+        "bench": "tau",
+        "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+        "scope": "full",
+        "n": 82,
+        "sum": 50.0,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "airline-3": 0.0,
+          "airline-13": 0.0
+        },
+        "gapNetIncrease": 3.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda/runs/tau/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+        "bench": "tau",
+        "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 22.0,
+        "holdsMeasured": 14,
+        "holdDrops": {},
+        "gapNetIncrease": 8.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda/runs/tau/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-1",
+        "bench": "tau",
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "scope": "full",
+        "n": 23,
+        "sum": 19.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 2.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-1/runs/tau/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-1",
+        "bench": "tau",
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "scope": "full",
+        "n": 22,
+        "sum": 15.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 2.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-1/runs/tau/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/full/janus/receipts.jsonl"
+      }
+    ],
+    "memAvailableKB": 2890304,
+    "diskFree": 24486723584
+  },
+  {
+    "host": "benchmark-host-a",
+    "at": 1792922743.594687,
+    "processes": [],
+    "receipts": [
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "079a897ed3dd24862ebbdd9ac0375fa6b6fb7c88edc87d4aae125c4bd950817d",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 26.5,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs2-1": 0.86,
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-41": 0.67,
+          "nl2bash-fs2-48": 0.96
+        },
+        "gapNetIncrease": 3.07,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/079a897ed3dd24862ebbdd9ac0375fa6b6fb7c88edc87d4aae125c4bd950817d/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "97eafb3136495a61ff3cbaf1f76b65069dcc2b7b3096d762c8382ab9104567b1",
+        "scope": "pilot",
+        "n": 8,
+        "sum": 7.7,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/97eafb3136495a61ff3cbaf1f76b65069dcc2b7b3096d762c8382ab9104567b1/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "2058599019c865efb013737442d3f776bf85b1be1ec9a10219e882ff7b12b02a",
+        "scope": "pilot",
+        "n": 13,
+        "sum": 11.96,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs1-22": 0.67,
+          "nl2bash-fs1-28": 0.67
+        },
+        "gapNetIncrease": 1.2,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/2058599019c865efb013737442d3f776bf85b1be1ec9a10219e882ff7b12b02a/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "7697f583cdab73ff79f0efc14d8ab1213e9852437cf295fbccb2abde89bec403",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 24.32,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7,
+          "nl2bash-fs1-22": 0.67,
+          "nl2bash-fs1-32": 0.67,
+          "nl2bash-fs2-1": 0.86,
+          "nl2bash-fs2-2": 0.96,
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-41": 0.67,
+          "nl2bash-fs2-48": 0.96
+        },
+        "gapNetIncrease": 1.5899999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/7697f583cdab73ff79f0efc14d8ab1213e9852437cf295fbccb2abde89bec403/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "a99b31379ded232bd4e2ac5ad423f40ab895bfbd66e48a164c0a67b2f4ecfb15",
+        "scope": "pilot",
+        "n": 12,
+        "sum": 11.29,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "nl2bash-fs1-28": 0.67,
+          "nl2bash-fs1-33": 0.7
+        },
+        "gapNetIncrease": 0.87,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/a99b31379ded232bd4e2ac5ad423f40ab895bfbd66e48a164c0a67b2f4ecfb15/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "2f031741ea4323cf15db09babc1dbd899558c2f92e216153721dce33464b6d80",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 26.73,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7,
+          "nl2bash-fs2-41": 0.67
+        },
+        "gapNetIncrease": 2.79,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/2f031741ea4323cf15db09babc1dbd899558c2f92e216153721dce33464b6d80/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "1d2c5d2ca5b2c83330627793e95dbe45ac7102c075fe648de14ade6a7fd2b8fc",
+        "scope": "pilot",
+        "n": 28,
+        "sum": 23.77,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-28": 0.67,
+          "nl2bash-fs1-33": 0.7,
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-48": 0.96
+        },
+        "gapNetIncrease": 1.5699999999999998,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/1d2c5d2ca5b2c83330627793e95dbe45ac7102c075fe648de14ade6a7fd2b8fc/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025",
+        "bench": "bash",
+        "hash": "cbdcbda327d342df0502ae6952fc6a051f5ff508c1cb6f2383733c1b189eb01f",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.67,
+        "holdsMeasured": 7,
+        "holdDrops": {
+          "nl2bash-fs1-22": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/runs/bash/cbdcbda327d342df0502ae6952fc6a051f5ff508c1cb6f2383733c1b189eb01f/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-a9d113df1d7e",
+        "bench": "bash",
+        "hash": "a9d113df1d7e6f6d980b6c34dc80ad24b2ecffa86237bab8cae290b9beff95c0",
+        "scope": "pilot",
+        "n": 7,
+        "sum": 6.67,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-a9d113df1d7e/runs/bash/a9d113df1d7e6f6d980b6c34dc80ad24b2ecffa86237bab8cae290b9beff95c0/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-7ee913671e0a",
+        "bench": "bash",
+        "hash": "7ee913671e0ab3ead99bf3096cc1c879b8584649ea1251745f147b3ae7cc0f10",
+        "scope": "pilot",
+        "n": 10,
+        "sum": 9.01,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.67
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-7ee913671e0a/runs/bash/7ee913671e0ab3ead99bf3096cc1c879b8584649ea1251745f147b3ae7cc0f10/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-8b503f43ecff",
+        "bench": "bash",
+        "hash": "8b503f43ecff4e030222fae924c19bb2d028f95b9db56dfb5e21ab2963afc4bd",
+        "scope": "pilot",
+        "n": 11,
+        "sum": 10.01,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "nl2bash-fs1-21": 0.67,
+          "nl2bash-fs1-29": 0.67,
+          "nl2bash-fs1-32": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-8b503f43ecff/runs/bash/8b503f43ecff4e030222fae924c19bb2d028f95b9db56dfb5e21ab2963afc4bd/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-7567bc08ba51",
+        "bench": "bash",
+        "hash": "7567bc08ba5115a1ce06c8fe0ebf4181abf7e4ecfc2cc48636c208f2eab36f48",
+        "scope": "pilot",
+        "n": 5,
+        "sum": 4.07,
+        "holdsMeasured": 4,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7,
+          "nl2bash-fs1-4": 0.7,
+          "nl2bash-fs1-5": 0.67
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-7567bc08ba51/runs/bash/7567bc08ba5115a1ce06c8fe0ebf4181abf7e4ecfc2cc48636c208f2eab36f48/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-7a38bc09a253",
+        "bench": "bash",
+        "hash": "7a38bc09a2539555ae73bb8f72b7f979a3979fbe01bc3f7a3e1b4809caef4c79",
+        "scope": "pilot",
+        "n": 14,
+        "sum": 12.72,
+        "holdsMeasured": 10,
+        "holdDrops": {
+          "nl2bash-fs1-21": 0.67
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-7a38bc09a253/runs/bash/7a38bc09a2539555ae73bb8f72b7f979a3979fbe01bc3f7a3e1b4809caef4c79/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-d8e254164d67",
+        "bench": "bash",
+        "hash": "d8e254164d67ba5a8cde4b15ea9c36a08eb5f24f54c06d996ba4e2e591eae205",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 24.51,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7,
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs1-28": 0.67,
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-48": 0.96
+        },
+        "gapNetIncrease": 1.24,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-d8e254164d67/runs/bash/d8e254164d67ba5a8cde4b15ea9c36a08eb5f24f54c06d996ba4e2e591eae205/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-df8caa321302",
+        "bench": "bash",
+        "hash": "df8caa321302d8757e34120f9b3004b2448dcc92ddaac454b46b62d9706fdb43",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 23.64,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.7,
+          "nl2bash-fs1-22": 0.67,
+          "nl2bash-fs1-28": 0.67,
+          "nl2bash-fs1-33": 0.7,
+          "nl2bash-fs2-1": 0.86,
+          "nl2bash-fs2-11": 0.81,
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-41": 0.67
+        },
+        "gapNetIncrease": 1.3199999999999998,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-df8caa321302/runs/bash/df8caa321302d8757e34120f9b3004b2448dcc92ddaac454b46b62d9706fdb43/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-18275a478c62",
+        "bench": "bash",
+        "hash": "18275a478c627d45ff108685128fc873d87286701be628dc67e3cad53835d03e",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 25.1,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-21": 0.67,
+          "nl2bash-fs1-28": 0.67,
+          "nl2bash-fs1-29": 0.67,
+          "nl2bash-fs1-32": 0.67,
+          "nl2bash-fs2-1": 0.86,
+          "nl2bash-fs2-2": 0.99,
+          "nl2bash-fs2-11": 0.81,
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-48": 0.96
+        },
+        "gapNetIncrease": 2.5599999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-18275a478c62/runs/bash/18275a478c627d45ff108685128fc873d87286701be628dc67e3cad53835d03e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-4fd911492a57",
+        "bench": "bash",
+        "hash": "4fd911492a57108988e30923b3b7904176622f5404f07200ac0429d8e178de4e",
+        "scope": "pilot",
+        "n": 10,
+        "sum": 9.67,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "nl2bash-fs1-29": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-4fd911492a57/runs/bash/4fd911492a57108988e30923b3b7904176622f5404f07200ac0429d8e178de4e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-197c97786abe",
+        "bench": "bash",
+        "hash": "197c97786abef12f2b68568a20458134d385590de86757b6bfe883d54c1a3827",
+        "scope": "pilot",
+        "n": 6,
+        "sum": 4.77,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7,
+          "nl2bash-fs1-4": 0.7,
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-197c97786abe/runs/bash/197c97786abef12f2b68568a20458134d385590de86757b6bfe883d54c1a3827/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-2e84c2bcb356",
+        "bench": "bash",
+        "hash": "2e84c2bcb356443ec44aa722d776718cf9777bcc76a3c9c57ec2bebeb2084fab",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.37,
+        "holdsMeasured": 7,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs1-21": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-2e84c2bcb356/runs/bash/2e84c2bcb356443ec44aa722d776718cf9777bcc76a3c9c57ec2bebeb2084fab/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-f94aba488db3",
+        "bench": "bash",
+        "hash": "f94aba488db33f2656c41549db01680884b7e29126d022dbbbca066e005c702d",
+        "scope": "pilot",
+        "n": 10,
+        "sum": 8.71,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs1-21": 0.67,
+          "nl2bash-fs1-29": 0.67,
+          "nl2bash-fs1-32": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-f94aba488db3/runs/bash/f94aba488db33f2656c41549db01680884b7e29126d022dbbbca066e005c702d/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-e83c362598b5",
+        "bench": "bash",
+        "hash": "e83c362598b539328d6becf1ade001fa16674e87c010faa9a5f696683c767b19",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 24.68,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7,
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs1-21": 0.67,
+          "nl2bash-fs2-11": 0.81,
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-41": 0.67,
+          "nl2bash-fs2-48": 0.96
+        },
+        "gapNetIncrease": 1.9299999999999997,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-e83c362598b5/runs/bash/e83c362598b539328d6becf1ade001fa16674e87c010faa9a5f696683c767b19/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-c4293d079f69",
+        "bench": "bash",
+        "hash": "c4293d079f6998db6923c73a925a57946736cf2adba96197b0a47253a342ec1f",
+        "scope": "pilot",
+        "n": 12,
+        "sum": 10.93,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "nl2bash-fs1-22": 0.67,
+          "nl2bash-fs1-29": 0.67
+        },
+        "gapNetIncrease": 0.54,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-c4293d079f69/runs/bash/c4293d079f6998db6923c73a925a57946736cf2adba96197b0a47253a342ec1f/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be",
+        "bench": "bash",
+        "hash": "318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 25.44,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.7,
+          "nl2bash-fs1-32": 0.67,
+          "nl2bash-fs2-1": 0.86,
+          "nl2bash-fs2-11": 0.81
+        },
+        "gapNetIncrease": 1.83,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be/runs/bash/318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e",
+        "bench": "bash",
+        "hash": "6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.67,
+        "holdsMeasured": 7,
+        "holdDrops": {
+          "nl2bash-fs1-29": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e/runs/bash/6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+        "bench": "bash",
+        "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+        "scope": "full",
+        "n": 100,
+        "sum": 79.23,
+        "holdsMeasured": 6,
+        "holdDrops": {},
+        "gapNetIncrease": 1.87,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484/runs/bash/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+        "bench": "bash",
+        "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 28.6,
+        "holdsMeasured": 15,
+        "holdDrops": {},
+        "gapNetIncrease": 4.03,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484/runs/bash/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "bench": "tau",
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "scope": "full",
+        "n": 59,
+        "sum": 44.0,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "airline-8": 0.0
+        },
+        "gapNetIncrease": 3.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/runs/tau/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "bench": "tau",
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "scope": "full",
+        "n": 61,
+        "sum": 47.0,
+        "holdsMeasured": 8,
+        "holdDrops": {
+          "airline-0": 0.0,
+          "airline-2": 0.0
+        },
+        "gapNetIncrease": 3.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/runs/tau/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-2",
+        "bench": "tau",
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "scope": "full",
+        "n": 22,
+        "sum": 18.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 1.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-2/runs/tau/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-2",
+        "bench": "tau",
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "scope": "full",
+        "n": 22,
+        "sum": 21.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 3.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-2/runs/tau/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/full/janus/receipts.jsonl"
+      }
+    ],
+    "memAvailableKB": 2508968,
+    "diskFree": 38656847872
+  },
+  {
+    "host": "benchmark-host-b",
+    "at": 1792922743.5626297,
+    "processes": [],
+    "receipts": [
+      {
+        "root": "/benchmark/janus-slot-5de7247650ca",
+        "bench": "bash",
+        "hash": "5de7247650ca33b279b5968eb2d51d8cd8d6d578277ed920bffc5c4ee343b92b",
+        "scope": "pilot",
+        "n": 2,
+        "sum": 1.7,
+        "holdsMeasured": 2,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-5de7247650ca/runs/bash/5de7247650ca33b279b5968eb2d51d8cd8d6d578277ed920bffc5c4ee343b92b/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-f0c3c130de84",
+        "bench": "bash",
+        "hash": "f0c3c130de8415cd056e14037153c9c1c1c708c1984eeea563fefb557d257ca0",
+        "scope": "pilot",
+        "n": 3,
+        "sum": 2.7,
+        "holdsMeasured": 3,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-f0c3c130de84/runs/bash/f0c3c130de8415cd056e14037153c9c1c1c708c1984eeea563fefb557d257ca0/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-2dd6cb1c016b",
+        "bench": "bash",
+        "hash": "2dd6cb1c016b97e6fe0958d61e5cabd82ebc655d84d12574f05b2e14c87b81ab",
+        "scope": "pilot",
+        "n": 3,
+        "sum": 2.7,
+        "holdsMeasured": 3,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-2dd6cb1c016b/runs/bash/2dd6cb1c016b97e6fe0958d61e5cabd82ebc655d84d12574f05b2e14c87b81ab/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-4a8fdaa6059a",
+        "bench": "bash",
+        "hash": "4a8fdaa6059a98d98358a18785f207f74a09e6739249af22053ff383fb0b295d",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-4a8fdaa6059a/runs/bash/4a8fdaa6059a98d98358a18785f207f74a09e6739249af22053ff383fb0b295d/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-90933f4d26ad",
+        "bench": "bash",
+        "hash": "90933f4d26ada11f9e51cf177eec1a6a5c167a2738dfd1fc4c03a78b58e44bb3",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.67,
+        "holdsMeasured": 7,
+        "holdDrops": {
+          "nl2bash-fs1-29": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-90933f4d26ad/runs/bash/90933f4d26ada11f9e51cf177eec1a6a5c167a2738dfd1fc4c03a78b58e44bb3/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-de6719f94f50",
+        "bench": "bash",
+        "hash": "de6719f94f5042f10194bb4e12acf1d650cf9fc8830f4cf96918c697bd17e110",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-de6719f94f50/runs/bash/de6719f94f5042f10194bb4e12acf1d650cf9fc8830f4cf96918c697bd17e110/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-00350108635c",
+        "bench": "bash",
+        "hash": "00350108635cc6ef9d2d8430fc0ca76051d286233e00ec05ca8ca840f553dbba",
+        "scope": "pilot",
+        "n": 9,
+        "sum": 8.67,
+        "holdsMeasured": 7,
+        "holdDrops": {
+          "nl2bash-fs1-29": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-00350108635c/runs/bash/00350108635cc6ef9d2d8430fc0ca76051d286233e00ec05ca8ca840f553dbba/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-dd6387c933c1",
+        "bench": "bash",
+        "hash": "dd6387c933c155c14a3deabdb0258accf01923ef2aab2067635b59d72454eeb4",
+        "scope": "pilot",
+        "n": 3,
+        "sum": 2.7,
+        "holdsMeasured": 3,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-dd6387c933c1/runs/bash/dd6387c933c155c14a3deabdb0258accf01923ef2aab2067635b59d72454eeb4/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-6841c2d97c35",
+        "bench": "bash",
+        "hash": "6841c2d97c353a720d79b42edea21194f534840bd6c49040d2400438ebfb4d5e",
+        "scope": "pilot",
+        "n": 2,
+        "sum": 1.67,
+        "holdsMeasured": 2,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.67
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-6841c2d97c35/runs/bash/6841c2d97c353a720d79b42edea21194f534840bd6c49040d2400438ebfb4d5e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-1a886e0c802c",
+        "bench": "bash",
+        "hash": "1a886e0c802c5e8d5c14c8e55fc72dd1ae69279fe6dbd8494b5fc71fa3e0030a",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-1a886e0c802c/runs/bash/1a886e0c802c5e8d5c14c8e55fc72dd1ae69279fe6dbd8494b5fc71fa3e0030a/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-71a054e11a93",
+        "bench": "bash",
+        "hash": "71a054e11a9334c43ebacbba3487d6f6b5079657bc3eea8343c54be7d2ed0a77",
+        "scope": "pilot",
+        "n": 15,
+        "sum": 14.04,
+        "holdsMeasured": 11,
+        "holdDrops": {
+          "nl2bash-fs2-2": 0.99
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-71a054e11a93/runs/bash/71a054e11a9334c43ebacbba3487d6f6b5079657bc3eea8343c54be7d2ed0a77/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-940636a3d24c",
+        "bench": "bash",
+        "hash": "940636a3d24cca1862612eec5d6d48784aa79a33247428c5d5942f2a92f69dc6",
+        "scope": "pilot",
+        "n": 6,
+        "sum": 5.67,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "nl2bash-fs1-22": 0.67
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-940636a3d24c/runs/bash/940636a3d24cca1862612eec5d6d48784aa79a33247428c5d5942f2a92f69dc6/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-e0db4e3d4606",
+        "bench": "bash",
+        "hash": "e0db4e3d4606b5d2d358e52e11a9166da7e8dedde413c1c2ddad1f134ac34009",
+        "scope": "pilot",
+        "n": 5,
+        "sum": 4.37,
+        "holdsMeasured": 4,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-e0db4e3d4606/runs/bash/e0db4e3d4606b5d2d358e52e11a9166da7e8dedde413c1c2ddad1f134ac34009/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-8f8c9650f7f8",
+        "bench": "bash",
+        "hash": "8f8c9650f7f808055d2ea4054af42036af8710775b9553024c1a94d7c2834ec4",
+        "scope": "pilot",
+        "n": 6,
+        "sum": 5.34,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "nl2bash-fs1-22": 0.67
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-8f8c9650f7f8/runs/bash/8f8c9650f7f808055d2ea4054af42036af8710775b9553024c1a94d7c2834ec4/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-6a314ffac14e",
+        "bench": "bash",
+        "hash": "6a314ffac14eb46b87482a10081d4ffea8a4d0d83f62bdbb7afe211d9ea4a496",
+        "scope": "pilot",
+        "n": 6,
+        "sum": 5.67,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "nl2bash-fs1-22": 0.67
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-6a314ffac14e/runs/bash/6a314ffac14eb46b87482a10081d4ffea8a4d0d83f62bdbb7afe211d9ea4a496/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-7d6da26ecbce",
+        "bench": "bash",
+        "hash": "7d6da26ecbce26fc4f175d394b2e8d2082f7b428bd3e02061d4923b78ac3db1e",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-7d6da26ecbce/runs/bash/7d6da26ecbce26fc4f175d394b2e8d2082f7b428bd3e02061d4923b78ac3db1e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-b804a2f69e4f",
+        "bench": "bash",
+        "hash": "b804a2f69e4f20c9f32d4be1388923fd91c1b90ed473430e929cc4821b1c3eca",
+        "scope": "pilot",
+        "n": 3,
+        "sum": 2.7,
+        "holdsMeasured": 3,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-b804a2f69e4f/runs/bash/b804a2f69e4f20c9f32d4be1388923fd91c1b90ed473430e929cc4821b1c3eca/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-2bbc5db701d4",
+        "bench": "bash",
+        "hash": "2bbc5db701d4a77dd5dc4292b4365e2fc065267950fb967f23ed950e393a2c5c",
+        "scope": "pilot",
+        "n": 2,
+        "sum": 1.7,
+        "holdsMeasured": 2,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-2bbc5db701d4/runs/bash/2bbc5db701d4a77dd5dc4292b4365e2fc065267950fb967f23ed950e393a2c5c/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-69b9adbe5eda",
+        "bench": "bash",
+        "hash": "69b9adbe5eda98cb46f8630706425f9232b36d208f1245f8b24b40812cdac1ab",
+        "scope": "pilot",
+        "n": 7,
+        "sum": 6.37,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs1-22": 0.67
+        },
+        "gapNetIncrease": 0.6599999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-69b9adbe5eda/runs/bash/69b9adbe5eda98cb46f8630706425f9232b36d208f1245f8b24b40812cdac1ab/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-47de9b6f48fd",
+        "bench": "bash",
+        "hash": "47de9b6f48fd531a5ca6aed73ae206e88c539d49bd0abf282702c531c87629c8",
+        "scope": "pilot",
+        "n": 5,
+        "sum": 4.67,
+        "holdsMeasured": 4,
+        "holdDrops": {
+          "nl2bash-fs1-21": 0.67
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-47de9b6f48fd/runs/bash/47de9b6f48fd531a5ca6aed73ae206e88c539d49bd0abf282702c531c87629c8/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-00fc4eb1097a",
+        "bench": "bash",
+        "hash": "00fc4eb1097ac54dd445e6d648ba281375bcfaaef46c722271dddff99857da59",
+        "scope": "pilot",
+        "n": 5,
+        "sum": 4.34,
+        "holdsMeasured": 4,
+        "holdDrops": {
+          "nl2bash-fs1-21": 0.67
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-00fc4eb1097a/runs/bash/00fc4eb1097ac54dd445e6d648ba281375bcfaaef46c722271dddff99857da59/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-0fb13e567b4b",
+        "bench": "bash",
+        "hash": "0fb13e567b4bbb637d2af5be497d227f8fa0042f35e1e147143ee66bc5f72564",
+        "scope": "pilot",
+        "n": 3,
+        "sum": 2.7,
+        "holdsMeasured": 3,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-0fb13e567b4b/runs/bash/0fb13e567b4bbb637d2af5be497d227f8fa0042f35e1e147143ee66bc5f72564/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-01bbee8e2631",
+        "bench": "bash",
+        "hash": "01bbee8e2631c8d00a6dcbfd61db2b74e93c67018710ff01a12096cb58f253a3",
+        "scope": "pilot",
+        "n": 6,
+        "sum": 5.67,
+        "holdsMeasured": 5,
+        "holdDrops": {
+          "nl2bash-fs1-22": 0.67
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-01bbee8e2631/runs/bash/01bbee8e2631c8d00a6dcbfd61db2b74e93c67018710ff01a12096cb58f253a3/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-dfe2bae87c44",
+        "bench": "bash",
+        "hash": "dfe2bae87c44682b0ed65f587540aaa39c2863a1eb6716f48929042b6745c42a",
+        "scope": "pilot",
+        "n": 2,
+        "sum": 1.67,
+        "holdsMeasured": 2,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.67
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-dfe2bae87c44/runs/bash/dfe2bae87c44682b0ed65f587540aaa39c2863a1eb6716f48929042b6745c42a/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-89f322238516",
+        "bench": "bash",
+        "hash": "89f322238516f37dd440ea333bbc652158de64c98c597781ba8a12c119273d82",
+        "scope": "pilot",
+        "n": 19,
+        "sum": 17.72,
+        "holdsMeasured": 13,
+        "holdDrops": {
+          "nl2bash-fs2-27": 0.67
+        },
+        "gapNetIncrease": 0.9899999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-89f322238516/runs/bash/89f322238516f37dd440ea333bbc652158de64c98c597781ba8a12c119273d82/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-0a206f924952",
+        "bench": "bash",
+        "hash": "0a206f9249526762b1fd35146b040ddc1a3880df11b478a667efe61893331a7e",
+        "scope": "pilot",
+        "n": 3,
+        "sum": 2.7,
+        "holdsMeasured": 3,
+        "holdDrops": {
+          "nl2bash-fs1-5": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-0a206f924952/runs/bash/0a206f9249526762b1fd35146b040ddc1a3880df11b478a667efe61893331a7e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-a4c93d740feb",
+        "bench": "bash",
+        "hash": "a4c93d740feb4c31f78b4c5dc159eca317a752e605f07c88acf76339e17cad3c",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-a4c93d740feb/runs/bash/a4c93d740feb4c31f78b4c5dc159eca317a752e605f07c88acf76339e17cad3c/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-8fd56c90cb64",
+        "bench": "bash",
+        "hash": "8fd56c90cb647f39fba0c0f1b98602ea0508980d3d05ff57088f6592e005486c",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-8fd56c90cb64/runs/bash/8fd56c90cb647f39fba0c0f1b98602ea0508980d3d05ff57088f6592e005486c/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-f6786f2de618",
+        "bench": "bash",
+        "hash": "f6786f2de6182f0241887d35550de4d8951b716ecc5032a038bd249cddb1651c",
+        "scope": "pilot",
+        "n": 12,
+        "sum": 10.75,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "nl2bash-fs1-29": 0.67,
+          "nl2bash-fs1-33": 0.7
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-f6786f2de618/runs/bash/f6786f2de6182f0241887d35550de4d8951b716ecc5032a038bd249cddb1651c/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-305794c0d951",
+        "bench": "bash",
+        "hash": "305794c0d95124c962f7c01526ab97252cd645f715f5e08fb5891bb7fc89c7a9",
+        "scope": "pilot",
+        "n": 18,
+        "sum": 16.6,
+        "holdsMeasured": 13,
+        "holdDrops": {
+          "nl2bash-fs2-27": 0.67
+        },
+        "gapNetIncrease": 0.54,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-305794c0d951/runs/bash/305794c0d95124c962f7c01526ab97252cd645f715f5e08fb5891bb7fc89c7a9/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-30c010802ff6",
+        "bench": "bash",
+        "hash": "30c010802ff634d192490e8d3e20324a632db536ce876eb84205fae17621d701",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-30c010802ff6/runs/bash/30c010802ff634d192490e8d3e20324a632db536ce876eb84205fae17621d701/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-32748e436b27",
+        "bench": "bash",
+        "hash": "32748e436b274271436ece6f0c463839d8adc48511222c1fe9acc0019aab603c",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-32748e436b27/runs/bash/32748e436b274271436ece6f0c463839d8adc48511222c1fe9acc0019aab603c/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-ca0fe66e43bf",
+        "bench": "bash",
+        "hash": "ca0fe66e43bf393d1b21b3836ac288e367b7db40d1ad53c4a0c47970d5eb18b0",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-ca0fe66e43bf/runs/bash/ca0fe66e43bf393d1b21b3836ac288e367b7db40d1ad53c4a0c47970d5eb18b0/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-d8375900c00e",
+        "bench": "bash",
+        "hash": "d8375900c00e936f87ba6353672eb976f0129af2481915da1d772b968d187190",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-d8375900c00e/runs/bash/d8375900c00e936f87ba6353672eb976f0129af2481915da1d772b968d187190/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-dcfcd44f83ff",
+        "bench": "bash",
+        "hash": "dcfcd44f83ff462d8ca87990e9ac5ef0af029c3abe95265d7e7a326d31ecdf68",
+        "scope": "pilot",
+        "n": 11,
+        "sum": 10.37,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "nl2bash-fs1-33": 0.7
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-dcfcd44f83ff/runs/bash/dcfcd44f83ff462d8ca87990e9ac5ef0af029c3abe95265d7e7a326d31ecdf68/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-slot-80c6a929b1a9",
+        "bench": "bash",
+        "hash": "80c6a929b1a9ec80f8ab4ffcc2f581ee69cb1c0659f0c6f5363837aa7863589e",
+        "scope": "pilot",
+        "n": 17,
+        "sum": 15.53,
+        "holdsMeasured": 12,
+        "holdDrops": {
+          "nl2bash-fs2-11": 0.81
+        },
+        "gapNetIncrease": 0.32999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-slot-80c6a929b1a9/runs/bash/80c6a929b1a9ec80f8ab4ffcc2f581ee69cb1c0659f0c6f5363837aa7863589e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "bench": "tau",
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "scope": "full",
+        "n": 16,
+        "sum": 6.0,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "airline-3": 0.0
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": true,
+        "infraFailures": 6,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/runs/tau/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97",
+        "bench": "bash",
+        "hash": "f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97",
+        "scope": "pilot",
+        "n": 1,
+        "sum": 0.7,
+        "holdsMeasured": 1,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97/runs/bash/f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "bench": "tau",
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "scope": "full",
+        "n": 17,
+        "sum": 7.0,
+        "holdsMeasured": 6,
+        "holdDrops": {
+          "airline-3": 0.0
+        },
+        "gapNetIncrease": 0.0,
+        "fullAllowed": true,
+        "infraFailures": 6,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/runs/tau/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0",
+        "bench": "bash",
+        "hash": "9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0",
+        "scope": "pilot",
+        "n": 2,
+        "sum": 1.8199999999999998,
+        "holdsMeasured": 2,
+        "holdDrops": {
+          "nl2bash-fs1-4": 0.82
+        },
+        "gapNetIncrease": 0,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0/runs/bash/9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b",
+        "bench": "bash",
+        "hash": "26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 24.240000000000002,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs1-1": 0.7,
+          "nl2bash-fs1-5": 0.7,
+          "nl2bash-fs2-1": 0.86,
+          "nl2bash-fs2-11": 0.81,
+          "nl2bash-fs2-41": 0.34,
+          "nl2bash-fs2-48": 0.67
+        },
+        "gapNetIncrease": 1.5899999999999999,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b/runs/bash/26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+        "bench": "bash",
+        "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+        "scope": "full",
+        "n": 100,
+        "sum": 74.05,
+        "holdsMeasured": 9,
+        "holdDrops": {
+          "nl2bash-fs2-27": 0.67,
+          "nl2bash-fs2-41": 0.67
+        },
+        "gapNetIncrease": 1.5,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484/runs/bash/a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e",
+        "bench": "bash",
+        "hash": "99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e",
+        "scope": "pilot",
+        "n": 30,
+        "sum": 27.01,
+        "holdsMeasured": 15,
+        "holdDrops": {
+          "nl2bash-fs2-41": 0.67,
+          "nl2bash-fs2-48": 0.67
+        },
+        "gapNetIncrease": 3.0999999999999996,
+        "fullAllowed": false,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e/runs/bash/99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e/pilot/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-3",
+        "bench": "tau",
+        "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "scope": "full",
+        "n": 22,
+        "sum": 19.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 2.0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/scale4-20261025/worker-3/runs/tau/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f/full/janus/receipts.jsonl"
+      },
+      {
+        "root": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-3",
+        "bench": "tau",
+        "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+        "scope": "full",
+        "n": 21,
+        "sum": 15.0,
+        "holdsMeasured": 0,
+        "holdDrops": {},
+        "gapNetIncrease": 0,
+        "fullAllowed": true,
+        "infraFailures": 0,
+        "wrongHashRows": 0,
+        "receipt": "/benchmark/janus-rerun-20261025/variants/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/scale4-20261025/worker-3/runs/tau/32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29/full/janus/receipts.jsonl"
+      }
+    ],
+    "memAvailableKB": 2985500,
+    "diskFree": 17132122112
+  }
+]

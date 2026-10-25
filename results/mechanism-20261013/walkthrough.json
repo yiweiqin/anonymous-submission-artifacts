@@ -1,0 +1,459 @@
+{
+  "protectedDigests": {
+    "baseline-record.jsonl": "4155f38aa5188453a3664aef693a47d52d273fa541e402b1445e85b14bde270a",
+    "janus-lift.json": "0138d6c1f7423bcd7a926beebd2c2f995d331f7af5ab3b6715d7be6fb02053bc",
+    "protocol.json": "e2bd4d4b4272415b8175244d7d232b2d448a936c342bfe6938ee18de68a2e5d0",
+    "model-roles.json": "9ebae5a739f89efedbf5793ea45cf9de902cf9e2562b0ca2c318e7d81d63a5d4",
+    "family-split.json": "d4afb55428c0b9de101862d112329dca5804e36a9a3b044258ad2bf5d33bbac5",
+    "janus_full.py": "5a25568e0e79e5588c5010a4dce8edd6883381594b41da54fe35ef0eb6bfc5e1",
+    "harbor_bridge.py": "1d62d64a4669a21ce241db4e25ab5ac9e4b256b08ebed4c74d577794011c801b",
+    "remote_one_trial.py": "972e67ccca571702abc09b7371da96cc7aa0ee7f5363b3787b8fc8c20381b2f9"
+  },
+  "cases": [
+    {
+      "case": "adopted",
+      "ledgerLine": 596,
+      "row": {
+        "arm": "janus_full",
+        "family": "Weighted-Risk-Assessment",
+        "task": "weighted-hospital-bedflow-calc",
+        "reward": 0.0,
+        "error": "",
+        "carry": "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated.",
+        "truncated": false,
+        "staff": [
+          {
+            "id": "plan",
+            "agentId": "planner"
+          },
+          {
+            "id": "work",
+            "agentId": "worker"
+          },
+          {
+            "id": "check",
+            "agentId": "checker"
+          }
+        ],
+        "staffSource": "ds",
+        "taskModel": "deepseek-flash",
+        "detective": "minimal-evolution/adapter",
+        "dependencySimilarity": "dependency-similarity/adapter",
+        "verdictStatus": "drift",
+        "nodeId": "work",
+        "field": "acceptance",
+        "modelCalls": 27,
+        "promptTokens": 519749,
+        "completionTokens": 75928,
+        "wallSeconds": 596.8,
+        "harborTrials": 2,
+        "selectionTrials": [
+          {
+            "task": "weighted-hospital-bedflow-calc",
+            "reward": 1.0,
+            "kept": true,
+            "error": ""
+          }
+        ],
+        "focusRunId": "focus-20261012-200502-cachecheck-2333",
+        "kind": "focus-20261012-200502-cachecheck-2333-official"
+      }
+    },
+    {
+      "case": "rejected",
+      "ledgerLine": 594,
+      "row": {
+        "arm": "janus_full",
+        "family": "DMAIC-Quality-Analysis",
+        "task": "harbor_devops_pipeline_02",
+        "reward": 0.0,
+        "error": "",
+        "carry": "Before you submit, set source_file to the csv base name only, fill total_primary_records, primary_business_day_records, and imr_records under record_counts, include f_stat and p_value under anova_by_weekday, fill imr_summary, regression_day_index including std_err, and ttest_vs_target, set the I-MR UCL to the center line plus 3 times MR-bar divided by 1.128 and the MR UCL to 3.267 times MR-bar, name at least two operational impacts, write Owner: on each next step, and include at least two March 2025 due dates.",
+        "truncated": false,
+        "staff": [
+          {
+            "id": "plan",
+            "agentId": "planner"
+          },
+          {
+            "id": "work",
+            "agentId": "worker"
+          },
+          {
+            "id": "check",
+            "agentId": "checker"
+          }
+        ],
+        "staffSource": "ds",
+        "taskModel": "deepseek-flash",
+        "detective": "minimal-evolution/adapter",
+        "dependencySimilarity": "dependency-similarity/adapter",
+        "verdictStatus": "drift",
+        "nodeId": "work",
+        "field": "acceptance",
+        "modelCalls": 15,
+        "promptTokens": 143820,
+        "completionTokens": 117247,
+        "wallSeconds": 686.487,
+        "harborTrials": 2,
+        "selectionTrials": [
+          {
+            "task": "harbor_devops_pipeline_02",
+            "reward": 0.0,
+            "kept": false,
+            "error": ""
+          }
+        ],
+        "focusRunId": "focus-20261012-200502-resume-230209",
+        "kind": "focus-20261012-200502-resume-230209-official"
+      }
+    },
+    {
+      "case": "regression",
+      "ledgerLine": 383,
+      "row": {
+        "arm": "janus_full",
+        "family": "Embedded-Data-Repair",
+        "task": "fx-cross-rate-inverse-fix",
+        "reward": 0.0,
+        "error": "",
+        "carry": "",
+        "truncated": false,
+        "staff": [
+          {
+            "id": "plan",
+            "agentId": "planner"
+          },
+          {
+            "id": "work",
+            "agentId": "worker"
+          },
+          {
+            "id": "check",
+            "agentId": "checker"
+          }
+        ],
+        "staffSource": "ds",
+        "taskModel": "deepseek-flash",
+        "detective": "minimal-evolution/adapter",
+        "dependencySimilarity": "dependency-similarity/adapter",
+        "verdictStatus": "drift",
+        "nodeId": "work",
+        "field": "acceptance",
+        "modelCalls": 15,
+        "promptTokens": 118057,
+        "completionTokens": 28393,
+        "wallSeconds": 299.085,
+        "harborTrials": 2,
+        "selectionTrials": [
+          {
+            "task": "fx-cross-rate-inverse-fix",
+            "reward": 1.0,
+            "kept": true,
+            "error": ""
+          }
+        ]
+      }
+    }
+  ],
+  "remoteEvidence": [
+    {
+      "case": "adopted",
+      "job": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-official-1791819078792729647-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "carry": "Before you submit, confirm the output meets every acceptance condition named in the task.",
+      "carrySha256": "3f9adb740746c7b91aba9d59b70486c8229e6d4bb1f759e341e28bc107426585",
+      "configs": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-official-1791819078792729647-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/config.json",
+          "sha256": "2d77377835408d31d4f429ac008c8d52c52744026b433bf8d7775ecf0fa442bc",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task."
+          ],
+          "agents": [
+            {
+              "name": "terminus-2",
+              "model_name": "openai/deepseek-flash"
+            }
+          ]
+        },
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-official-1791819078792729647-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__MACoxtC/config.json",
+          "sha256": "a5dcf8cd1d1bd6788dace8264e2c89f26caf1c102dd4fd0d6fb09ff78a649eff",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task."
+          ],
+          "agents": []
+        }
+      ],
+      "rewardReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-official-1791819078792729647-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__MACoxtC/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "value": "0"
+        }
+      ],
+      "promptMatches": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-official-1791819078792729647-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__MACoxtC/agent/trajectory.json",
+          "sha256": "45672488f93cdfc73695035bf362d181874e526c3f34f49430b2aa8a87fa3963",
+          "containsCarry": true
+        }
+      ]
+    },
+    {
+      "case": "adopted",
+      "job": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "carry": "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated.",
+      "carrySha256": "fa49741e69f0411795695b5b2c998f2838b429dd73e0150d6ed58a602b2a7f2d",
+      "configs": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/config.json",
+          "sha256": "13c5e3a135423ca7019090f3619a9b985348dbce707b16f069f5d2eb0089e4df",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated."
+          ],
+          "agents": [
+            {
+              "name": "terminus-2",
+              "model_name": "openai/deepseek-flash"
+            }
+          ]
+        },
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__WniS4P4/config.json",
+          "sha256": "aafa783cc884537fc29b2514e83c599f69c3fb89c29c26b2133ca81a427fbe3a",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated."
+          ],
+          "agents": []
+        }
+      ],
+      "rewardReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__WniS4P4/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "value": "1"
+        }
+      ],
+      "promptMatches": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cachecheck-2333-replay-1791819234108400949-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__WniS4P4/agent/trajectory.json",
+          "sha256": "188677606d723d5e55d9ebf60e11aa0b16466dee88f26c7390f343dbebed9e9b",
+          "containsCarry": true
+        }
+      ]
+    },
+    {
+      "case": "adopted",
+      "job": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc",
+      "carry": "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated.",
+      "carrySha256": "fa49741e69f0411795695b5b2c998f2838b429dd73e0150d6ed58a602b2a7f2d",
+      "configs": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/config.json",
+          "sha256": "58083451fbccd443140e2f4056d60d68f3f3a64850a58c49c1639124a0ac56a0",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated."
+          ],
+          "agents": [
+            {
+              "name": "terminus-2",
+              "model_name": "openai/deepseek-flash"
+            }
+          ]
+        },
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__p5nwqTF/config.json",
+          "sha256": "317dc4cecce8fe8b8f9d717f3642e2d58c291412a347ea8ff6231753b9e52a3a",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated."
+          ],
+          "agents": []
+        }
+      ],
+      "rewardReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__p5nwqTF/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "value": "1"
+        }
+      ],
+      "promptMatches": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-cacheformal-2345-official-1791819786440226437-janus_full-Weighted-Risk-Assessment-weighted-hospital-bedflow-calc/weighted-hospital-bedflow-calc__p5nwqTF/agent/trajectory.json",
+          "sha256": "edbb5b87f4b5721a9afe7ac7ef767dd8d430f5045c45741e1fc5ea10af51a29c",
+          "containsCarry": true
+        }
+      ]
+    },
+    {
+      "case": "rejected",
+      "job": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-official-1791818112911015043-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02",
+      "carry": "Before you submit, set source_file to the csv base name only, fill total_primary_records, primary_business_day_records, and imr_records under record_counts, include f_stat and p_value under anova_by_weekday, fill imr_summary, regression_day_index including std_err, and ttest_vs_target, set the I-MR UCL to the center line plus 3 times MR-bar divided by 1.128 and the MR UCL to 3.267 times MR-bar, name at least two operational impacts, write Owner: on each next step, and include at least two March 2025 due dates.",
+      "carrySha256": "9633469edf3020993524e11230fccba03255b8d3c3fbbe7af518e13b7db9e491",
+      "configs": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-official-1791818112911015043-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/config.json",
+          "sha256": "d7b59277344b14f64fa4a5dace27ee09de2ab14a5987032ad442381bda09048c",
+          "extraInstructions": [
+            "Before you submit, set source_file to the csv base name only, fill total_primary_records, primary_business_day_records, and imr_records under record_counts, include f_stat and p_value under anova_by_weekday, fill imr_summary, regression_day_index including std_err, and ttest_vs_target, set the I-MR UCL to the center line plus 3 times MR-bar divided by 1.128 and the MR UCL to 3.267 times MR-bar, name at least two operational impacts, write Owner: on each next step, and include at least two March 2025 due dates."
+          ],
+          "agents": [
+            {
+              "name": "terminus-2",
+              "model_name": "openai/deepseek-flash"
+            }
+          ]
+        },
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-official-1791818112911015043-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/harbor_devops_pipeline_02__52RxfN9/config.json",
+          "sha256": "f60ba719cf5032712f2996b4de07530895d9f4582b6c735092ea47c190b52b91",
+          "extraInstructions": [
+            "Before you submit, set source_file to the csv base name only, fill total_primary_records, primary_business_day_records, and imr_records under record_counts, include f_stat and p_value under anova_by_weekday, fill imr_summary, regression_day_index including std_err, and ttest_vs_target, set the I-MR UCL to the center line plus 3 times MR-bar divided by 1.128 and the MR UCL to 3.267 times MR-bar, name at least two operational impacts, write Owner: on each next step, and include at least two March 2025 due dates."
+          ],
+          "agents": []
+        }
+      ],
+      "rewardReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-official-1791818112911015043-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/harbor_devops_pipeline_02__52RxfN9/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "value": "0"
+        }
+      ],
+      "promptMatches": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-official-1791818112911015043-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/harbor_devops_pipeline_02__52RxfN9/agent/trajectory.json",
+          "sha256": "f8f49fce3be93bd781b523ec25d378d811546acea1bcf1006ccbc38ae31b13bb",
+          "containsCarry": true
+        }
+      ]
+    },
+    {
+      "case": "rejected",
+      "job": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-replay-1791818605464287205-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02",
+      "carry": "Before you submit, confirm the output meets every acceptance condition named in the task.",
+      "carrySha256": "3f9adb740746c7b91aba9d59b70486c8229e6d4bb1f759e341e28bc107426585",
+      "configs": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-replay-1791818605464287205-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/config.json",
+          "sha256": "3aa981958b8a482bc5607c8256650ac76c5c303a62792be9681ec4cf67ff3bef",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task."
+          ],
+          "agents": [
+            {
+              "name": "terminus-2",
+              "model_name": "openai/deepseek-flash"
+            }
+          ]
+        },
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-replay-1791818605464287205-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/harbor_devops_pipeline_02__BDziZ4e/config.json",
+          "sha256": "a4bb4f380356f2510037906500132f134147b745bccda75b1fa6ce959adb6845",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task."
+          ],
+          "agents": []
+        }
+      ],
+      "rewardReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-replay-1791818605464287205-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/harbor_devops_pipeline_02__BDziZ4e/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "value": "0"
+        }
+      ],
+      "promptMatches": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/focus-20261012-200502-resume-230209-replay-1791818605464287205-janus_full-DMAIC-Quality-Analysis-harbor_devops_pipeline_02/harbor_devops_pipeline_02__BDziZ4e/agent/trajectory.json",
+          "sha256": "165e696c4ac73a344034d30a12f3b4db9ace61b685902a03564c713f21f0e588",
+          "containsCarry": true
+        }
+      ]
+    },
+    {
+      "case": "regression",
+      "job": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix",
+      "carry": "",
+      "carrySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "configs": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix/config.json",
+          "sha256": "a57ddd3b0d95107c5c75fa01b3963881057ae2ed2a3543eb050fdb5c23397f55",
+          "extraInstructions": null,
+          "agents": [
+            {
+              "name": "terminus-2",
+              "model_name": "openai/deepseek-flash"
+            }
+          ]
+        },
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix/fx-cross-rate-inverse-fix__B8L3vxY/config.json",
+          "sha256": "8c5a50f213fb21671243a8dffd4b1d3734a29e6b5299c571c77284e4b1057a1f",
+          "extraInstructions": null,
+          "agents": []
+        }
+      ],
+      "rewardReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix/fx-cross-rate-inverse-fix__B8L3vxY/verifier/reward.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "value": "0"
+        }
+      ],
+      "promptMatches": []
+    },
+    {
+      "case": "regression",
+      "job": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-replay-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix",
+      "carry": "Before you submit, confirm the output meets every acceptance condition named in the task.",
+      "carrySha256": "3f9adb740746c7b91aba9d59b70486c8229e6d4bb1f759e341e28bc107426585",
+      "configs": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-replay-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix/config.json",
+          "sha256": "c909863246ff28c97d3f3cf43b842ee1cd977c1cd582b1672467ea937294ffa1",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task."
+          ],
+          "agents": [
+            {
+              "name": "terminus-2",
+              "model_name": "openai/deepseek-flash"
+            }
+          ]
+        },
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-replay-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix/fx-cross-rate-inverse-fix__gqdhdpn/config.json",
+          "sha256": "e451d29494996bd145e5360e233ae3775152c3caea7c51628ec2e844810a16ee",
+          "extraInstructions": [
+            "Before you submit, confirm the output meets every acceptance condition named in the task."
+          ],
+          "agents": []
+        }
+      ],
+      "rewardReceipts": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-replay-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix/fx-cross-rate-inverse-fix__gqdhdpn/verifier/reward.txt",
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+          "value": "1"
+        }
+      ],
+      "promptMatches": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/baseline-jobs/janus-replay-janus_full-Embedded-Data-Repair-fx-cross-rate-inverse-fix/fx-cross-rate-inverse-fix__gqdhdpn/agent/trajectory.json",
+          "sha256": "dc7173ff505096cd67bee73e693f0a069fcdd3b893889f3645b82826d814bf74",
+          "containsCarry": true
+        }
+      ]
+    }
+  ],
+  "findings": {
+    "staffConsumption": "broken: harbor_once passes carry only; no plan/staff argument reaches run_trial",
+    "executionGraph": "synthetic: plan copied; official failure edits work acceptance and checker consequence",
+    "proposalSource": "rules from verifier excerpt, with diagnosis gating and generic field fallback",
+    "minimality": "one sentence <=80 words; no cost minimization proof",
+    "officialReward": "selection replay never replaces official reward"
+  }
+}

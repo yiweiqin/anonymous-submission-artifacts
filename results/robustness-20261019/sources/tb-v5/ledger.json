@@ -1,0 +1,385 @@
+{
+  "schema": "terminal-prompt-independent-ledger-v2",
+  "updatedAtNs": 1792416048158816800,
+  "goalStatus": "active",
+  "paperReady": false,
+  "mainTableWrite": false,
+  "gateOpen": false,
+  "lockedOpen": false,
+  "protectedChecks": {
+    "baseline-record.jsonl": true,
+    "janus-lift.json": true,
+    "protocol.json": true,
+    "model-roles.json": true,
+    "family-split.json": true,
+    "native-system-freeze.json": true,
+    "native-target-launch.json": true,
+    "sourceControlRegistryUnchanged": true,
+    "sourceControlReceiptsUnchanged": true
+  },
+  "artifacts": {
+    "active-resource-state.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\active-resource-state.json",
+      "sha256": "8387c911b510a36697f77cf772d14b99e80cc601aa589b5cdfeb600a7325ca7a"
+    },
+    "adopted-controls-full.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\adopted-controls-full.json",
+      "sha256": "c326585fc98088e23add30e0236b3520c22bad94eeca6559f128c2814600e9a2"
+    },
+    "adopted-controls-pilot.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\adopted-controls-pilot.json",
+      "sha256": "7da76bd7b95a1636a9a0a42550e2ddef479258cb855815c2a058689db4d99cc6"
+    },
+    "archive-credential-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\archive-credential-audit.json",
+      "sha256": "7c30e43ae8f6417f31cfde38bf739cee147f42bc0ed2ef7b0ee35048f9f3bc18"
+    },
+    "archive-race-repair.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\archive-race-repair.json",
+      "sha256": "7beb3937782c0622cb8e733d794fe31a0a2cb4c4370039c972bd2c2cfa2a5b9c"
+    },
+    "archive-scan-diagnostic-history.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\archive-scan-diagnostic-history.jsonl",
+      "sha256": "f00bd19a109b3bf9bf312c5890f25eec0818e7f95602d78ab317b96521940af6"
+    },
+    "archive-scan-diagnostic.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\archive-scan-diagnostic.json",
+      "sha256": "212bdeee0a5a6b2c5a3f453a42363fb3e6d5aff1a29f4734ad1222ef6d310138"
+    },
+    "archive-transfer-attempts.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\archive-transfer-attempts.jsonl",
+      "sha256": "78f07cf469238a92a7b6c98b8d919198b20b19eb766cb800b56821174a80e7d3"
+    },
+    "audit_full_start.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_full_start.py",
+      "sha256": "94fdaf0e33cc4bab258f3d6490b18a5a01a6df75278785c01be26771b8e196ae"
+    },
+    "audit_goal_completion.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_goal_completion.py",
+      "sha256": "ccfb8edb0a5dd8bc3e208b7a9b4019368d5dcfec3b40b8071260d086c063824d"
+    },
+    "audit_harbor_results.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_harbor_results.py",
+      "sha256": "ce8aacc5d0efbf56b17745cc9e3c0c390a9001782f00f1016f815d301bee27ac"
+    },
+    "audit_live_receipts.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_live_receipts.py",
+      "sha256": "79937c04c086ba30e527f91c58eff686fe9375d286cd188d40b33ec855bb0106"
+    },
+    "audit_model_cleanup.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_model_cleanup.py",
+      "sha256": "caf5004f9ede950d148bbf46a3e5fab5788776965c54d67cf0539f800ffc1f28"
+    },
+    "audit_protected_resources.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_protected_resources.py",
+      "sha256": "ca2fcb43560b1de1daa797be1ba6570a8f9b7239e947247f24780a804d038859"
+    },
+    "audit_selection.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_selection.py",
+      "sha256": "d8c0d2b3106450f2eaa8d1d8d2f242368a40c10ce4e1dcac947dead738bf14aa"
+    },
+    "audit_ungraded_attempts.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\audit_ungraded_attempts.py",
+      "sha256": "db00de28cafdaee3bb5ef3cf60931ed3cf407e760e1463862f148ce091c96465"
+    },
+    "bootstrap_v5.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\bootstrap_v5.py",
+      "sha256": "f7de0a7de6c7bf23c7b59ccdaa291206b5d5aa32ce8a626852d0aa925be0a372"
+    },
+    "budget-harbor-evidence.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\budget-harbor-evidence.json",
+      "sha256": "1e46a5a0fdc859b941a3f19a6aeabe5b0b19dd1dd66e66ded0b80275399f705a"
+    },
+    "budget-summary.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\budget-summary.json",
+      "sha256": "a3778fb81a2f7a2a6e046fd43e37114de2ce815aef7a4b330f1929a87f5ab56c"
+    },
+    "checkpoint_goal.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\checkpoint_goal.py",
+      "sha256": "b7ddea00913117fb0ba910f906a9074c6296f5932c09b73869dee1fe99d3bd9b"
+    },
+    "collect_evidence.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\collect_evidence.py",
+      "sha256": "97697bb60ace5cad056d269430b170b0a41d18ec174f1e392d09c9823c427763"
+    },
+    "continuation-state.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\continuation-state.json",
+      "sha256": "c3e5fb8200647e0c476257cd347f92703e92644ccc46f89471e2b81518730908"
+    },
+    "control-lock.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\control-lock.json",
+      "sha256": "a49b06e142591cc805771e2794fb1c1acee985716ee42a3c410c9128ff95d012"
+    },
+    "control_sources.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\control_sources.py",
+      "sha256": "7e7b2111ac4dfa5ebdd1145452803846509dae20beedb7c50f36cde37f030937"
+    },
+    "design.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\design.json",
+      "sha256": "b8f1f69b97bd5f3a3cd8ca7e8960720f70ae32e17cc9494dd179974dd6747e0a"
+    },
+    "development-budget-launch.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-budget-launch.json",
+      "sha256": "016dec1ed757e0c7a7c0dda6e76934aa24c3ff2b6b1e041d7d12467bbe0e09b9"
+    },
+    "development-budget-live-snapshot.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-budget-live-snapshot.json",
+      "sha256": "878d0a9778d131dac5666f2f696869d180b4c41b304de99e567f451117265062"
+    },
+    "development-budget-receipts.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-budget-receipts.jsonl",
+      "sha256": "41936873489c7f405a9516f6b167248af34b4a1e89beb1a8dcc90fa210da0849"
+    },
+    "development-harbor-evidence.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-harbor-evidence.json",
+      "sha256": "deec301a220713959d75d5de9bb520c24099e7cb952e818d127f6e18fd684c8f"
+    },
+    "development-launch.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-launch.json",
+      "sha256": "543dcd5a9c1f745cfc54b1998000dbce807d60a049e2875e49cf1bf4af761319"
+    },
+    "development-live-snapshot.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-live-snapshot.json",
+      "sha256": "e7bf2f6fb70e03697d6ebac7b513607dc14d154b52f39bb3a7ce18615c8bbe2f"
+    },
+    "development-preplan-launch.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-preplan-launch.json",
+      "sha256": "26fd344accb5645eccdc4351a91eed13253c8fce321e88d7a3b57184e1e983d6"
+    },
+    "development-receipts.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-receipts.jsonl",
+      "sha256": "4bae195f2e31f8e6fb20f0b920d76fc53315cc126a68e96eb56ef5e1333a09b0"
+    },
+    "development-runtime.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-runtime.json",
+      "sha256": "3e6cf7a2cc9a128d35ec2f5595d4860198414e77a646c5e6926aac500d89155e"
+    },
+    "development-summary.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\development-summary.json",
+      "sha256": "82b5b87806b9b8318c06a0da504608d2628ebee76e3e4fba7fd7d0362e70fcf8"
+    },
+    "diagnose_archive_scan.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\diagnose_archive_scan.py",
+      "sha256": "0fd9766a5d0ab6dd9b1b7c0aec55c953460e732024293953f44c5b674be9d006"
+    },
+    "evidence-latest.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence-latest.json",
+      "sha256": "15cf5274f40056bfeaa831fd361743750ad0c4f154e6dd4b1048a6fedf60ea59"
+    },
+    "expansion-analysis.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\expansion-analysis.json",
+      "sha256": "88f2cf2aa6b1e63614738c96263900f7d3d596f52712fec0cd6c345d3ba77f57"
+    },
+    "finalize_full_analysis.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\finalize_full_analysis.py",
+      "sha256": "ffc6e776a17be441f35421f390f6160f80f0ab0ae759744370540de1c1da8868"
+    },
+    "fixture-oracle.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\fixture-oracle.json",
+      "sha256": "137b188826018edb054a2c070bb6f9daca21c2fc27b7003e8e8db8c0f54e5447"
+    },
+    "full-adoption.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\full-adoption.json",
+      "sha256": "89050b8e4d0178cccc894fb0793e12ef3aa13066891f3ca21042a7d3a3ef48b5"
+    },
+    "full-harbor-evidence.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\full-harbor-evidence.json",
+      "sha256": "e31e8cf0c1741843d06e80ae1a579f9fb8bf04602549ba6850fcd41dbe1fac6a"
+    },
+    "full-start-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\full-start-audit.json",
+      "sha256": "4037d44e9ccee95db416c928e50c81aea9b7b7a63de514c832e20b4e4357940d"
+    },
+    "full-summary.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\full-summary.json",
+      "sha256": "824caa6cb9381dc0cb1a9363e4d085a2802d6d121f1d1fb7b6c9ff02780b57f0"
+    },
+    "goal-blocker-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\goal-blocker-audit.json",
+      "sha256": "92dac387b99b6454d5ac733b0bc1982b38bf6c97713116a491c17723a72c7eab"
+    },
+    "goal-completion-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\goal-completion-audit.json",
+      "sha256": "8acf7f513c3322588ff6545163107c9b64ecc9c1fa3180ab252898d2eb91f81b"
+    },
+    "inspect_active_resources.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\inspect_active_resources.py",
+      "sha256": "b43bacae5a30a5b5c0da2fb240ce7607402225fd5bd1b605bd6629c47e8da87f"
+    },
+    "inspect_tb.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\inspect_tb.py",
+      "sha256": "e70ad9ba9766d369d232e12b3dfc8369d9061300e33719776d38ab76077d7139"
+    },
+    "launch_tb.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\launch_tb.py",
+      "sha256": "da1404e0227ebebc9697c968dd4b1cf0b0afb4c1f42a03b0eb8d89990e9ade11"
+    },
+    "local-evidence-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\local-evidence-audit.json",
+      "sha256": "91ebf267d832fd87a16323d015c079c4e95ca3182bc8cb5a085a6299b53afb1c"
+    },
+    "local-memory-cleanup-20261019.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\local-memory-cleanup-20261019.json",
+      "sha256": "90fe6d1916cd085b1cbad15112a3d1461fb6a41ccac72cbdda26551df298033c"
+    },
+    "make_synthetic.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\make_synthetic.py",
+      "sha256": "b00d5d3a6d1afade58cdc8bb9beac9e43205544c4c35b89fc43c95576502dbbb"
+    },
+    "model-cleanup-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\model-cleanup-audit.json",
+      "sha256": "56405fa2a2f0fe21dc0d5ef748369344c1918d5b007ac58927b0ae3e33ade7b2"
+    },
+    "pilot-full-launch.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-full-launch.json",
+      "sha256": "c0b33525543973e72ac722df3583af5acacbbfc875aee74d3b09fe87e5a4bbab"
+    },
+    "pilot-full-preplan-launch.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-full-preplan-launch.json",
+      "sha256": "a99ea540442e5a37b08d75a821ddf5d9d32596f3b4ada05583b9ca7ac34455a8"
+    },
+    "pilot-harbor-evidence.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-harbor-evidence.json",
+      "sha256": "6ff8e605fb695093131675bdd1c097efeb3f50f2f581e4a61e724c8ca5888978"
+    },
+    "pilot-launch.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-launch.json",
+      "sha256": "c6f80a745b2d7b7fdb4bc6cac8457b37a6cab40ac4a67ea0d0463c8932d5b5f0"
+    },
+    "pilot-live-snapshot.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-live-snapshot.json",
+      "sha256": "4b5953401235898a2e2af6c764cad45b74eafa5dd4ec88674b40065a8a33b32c"
+    },
+    "pilot-lock.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-lock.json",
+      "sha256": "d9f68c315aca34a4858a0a46b7b46d61d4987175b8482675a515534d7686da2c"
+    },
+    "pilot-preplan-launch.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-preplan-launch.json",
+      "sha256": "aee7966991200b8680bc8fe65adbedcce83a7b28954f0d7f11b75ec84b5ff6aa"
+    },
+    "pilot-receipts-frozen.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-receipts-frozen.jsonl",
+      "sha256": "b64a0166cef7a2cde0512584169dd05fb3bde548ef0bbc25bc3ad70255ffddc6"
+    },
+    "pilot-receipts.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-receipts.jsonl",
+      "sha256": "b12565fdcbdd5f4893cacec16f53e32cad472e7f8e2fe0933c733306d7837d96"
+    },
+    "pilot-runtime.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-runtime.json",
+      "sha256": "8c823e55433ec3cb8a18023acf9b25d35ab92bb3c616d93531f6f67aa8d74b22"
+    },
+    "pilot-summary.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\pilot-summary.json",
+      "sha256": "741ecdd354d8e84a757c8e5cff36c8fe9c51993f85dd8c90b42b91a1d22f1d93"
+    },
+    "prepare_full.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\prepare_full.py",
+      "sha256": "6ec20113abee1cffb0334c2790626425495d5c80a62e80bf265acf257e36fd81"
+    },
+    "protected-resource-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\protected-resource-audit.json",
+      "sha256": "23d147bc8f045078363bd574d1c86a0b772bfb414a847a1e914c0967b414ff12"
+    },
+    "protected-resource-initial-observation.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\protected-resource-initial-observation.json",
+      "sha256": "e70c960197d1a627ce78f43b1eb87a50db54f3dec2133798e6d26c530ba85964"
+    },
+    "query-optimize-outcome.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\query-optimize-outcome.json",
+      "sha256": "998faa8a2171d8662161694cdcea6f7bb4f8cb1920af646df9b7d67dd4e143c0"
+    },
+    "register_tb.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\register_tb.py",
+      "sha256": "a46f6b3203d6879813f3e6668d4dfc925d88a6f02c3d1eaca414ed7e7bac33cb"
+    },
+    "resource-recovery-history.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\resource-recovery-history.jsonl",
+      "sha256": "eda73b0b20e0f74471353f2d02a2b15ec0998fa0efbf450819242b152162c450"
+    },
+    "seed_controls.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\seed_controls.py",
+      "sha256": "5f79d06a9bfc91ddd9863e38029e16cb177529fd14592f0a2e284f7a75a640c6"
+    },
+    "selection-resource-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\selection-resource-audit.json",
+      "sha256": "0923a0eb97ee96bb30c88ecbb37940cf1955aa039341763f278e3d72cd39bf58"
+    },
+    "summarize_tb.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\summarize_tb.py",
+      "sha256": "175b6b5d9f5845660e42653d55087f8c75dda67f5db2fc4382a22aab82c26d6d"
+    },
+    "tb_budget.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_budget.py",
+      "sha256": "df8f352849c291c99075cc6f1dbd84a3bd140b5a0260e18ce08692c599bcfaaa"
+    },
+    "tb_full_pending_worker.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_full_pending_worker.py",
+      "sha256": "aae3af39fbd8c9d4426aa256b23ecd7ebee60323886aab91b549dd448b9c0464"
+    },
+    "tb_planner_server.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_planner_server.py",
+      "sha256": "9e96e599853c37c52bd6d90722708a80967ac0291e188f38792c9035d38dfa51"
+    },
+    "tb_policy.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_policy.py",
+      "sha256": "a8cec59f5c02c95e1c1a322f0f7aa66350276c4d114844fb0491016dc0f054fc"
+    },
+    "tb_preplan.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_preplan.py",
+      "sha256": "3d25c65b68e3129f7b6be62474814d2a92e26a893881d87afe7efe5d98d2c7e8"
+    },
+    "tb_role_templates.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_role_templates.json",
+      "sha256": "6c8c7a7569b6a2f662faa82e490e747c3a797d4616ddf3471dcccbd1ed4a047d"
+    },
+    "tb_trial.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_trial.py",
+      "sha256": "0292b8e9f4d3d1ca2935b908529f593523761ebc89d948e8f92d8014b740f2ab"
+    },
+    "tb_worker.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\tb_worker.py",
+      "sha256": "49df301924a6cb9c07e6677930cecf6ef003be80145a2128aede2f4c99d9638e"
+    },
+    "test_budget.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\test_budget.py",
+      "sha256": "c3fd83dc2f86d5b17dbd8218cc65143479ec3ef87c0697d011ce491f1d9b808b"
+    },
+    "test_control_origins.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\test_control_origins.py",
+      "sha256": "371ad0141eef6f59e3f98d228f85e7d22086286385ec41b46ba777270d174180"
+    },
+    "test_pending_selection.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\test_pending_selection.py",
+      "sha256": "c343c62decbf3bd623a6203fa0f80817bf963ebcc0a95527667fc0feab3fb256"
+    },
+    "ungraded-attempts-audit.json": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\ungraded-attempts-audit.json",
+      "sha256": "2416499d6efbc60c2cad9375f6bd3c7116a8ff1dc52e775246377dd2dfa1ccf4"
+    },
+    "update_ledger.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\update_ledger.py",
+      "sha256": "a5677882a33c4a4227ad333a437445115449e0b79a41be15a4bc753142625e95"
+    },
+    "verified-progress-history.jsonl": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\verified-progress-history.jsonl",
+      "sha256": "e1cd52464909a6216c107dc1af6da22a903432cba699bf64256773e16a29b241"
+    },
+    "verify_archive_credentials.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\verify_archive_credentials.py",
+      "sha256": "85bf9074ff58a56182bee0551c0e495a3ab356f474cc66a3abc0cb9948707342"
+    },
+    "verify_fixture.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\verify_fixture.py",
+      "sha256": "30847dfb5fe788da66f030963d285d5e9fbbdd871d4dce33060d1fc8169b6ae1"
+    },
+    "verify_local_evidence.py": {
+      "path": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\verify_local_evidence.py",
+      "sha256": "24fb2354c99b00aa1f19c277470335c41a12de6d09df477891dac081f29a61d9"
+    }
+  },
+  "sourceControlScore": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900",
+  "newControlExecutionsPermitted": false,
+  "costUSD": null
+}

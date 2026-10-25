@@ -1,0 +1,55 @@
+{
+  "allPassed": true,
+  "receipts": 2,
+  "evidence": [
+    {
+      "task": "synthetic-budget-exhaustion",
+      "arm": "control-terminal-interface-v3",
+      "jobName": "tb-v5-synthetic-budget-exhaustion-control-1792401017936470909",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700/runtime/jobs/tb-v5-synthetic-budget-exhaustion-control-1792401017936470909/synthetic-budget-exhaustion__FoF9PFv/result.json",
+          "sha256": "722d223685d72f2d8ed35be3e2e40dee30a01db26eac455e94673f7ff7ecfa01",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700/runtime/jobs/tb-v5-synthetic-budget-exhaustion-control-1792401017936470909/synthetic-budget-exhaustion__FoF9PFv/verifier/reward.txt",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "reward": 1.0
+        }
+      ],
+      "originScore": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700",
+      "originRoot": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700/runtime",
+      "adoptedControl": false
+    },
+    {
+      "task": "synthetic-budget-exhaustion",
+      "arm": "trained-terminal-v5",
+      "jobName": "tb-v5-synthetic-budget-exhaustion-trained-1792401042110688044",
+      "passed": true,
+      "officialResults": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700/runtime/jobs/tb-v5-synthetic-budget-exhaustion-trained-1792401042110688044/synthetic-budget-exhaustion__75A6xaM/result.json",
+          "sha256": "a15fcb244924e39c04d9bb664c89f97b5a9a8fa303cdb621e8c980ad34870901",
+          "reward": 1.0,
+          "exceptionInfo": null
+        }
+      ],
+      "officialRewardFiles": [
+        {
+          "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700/runtime/jobs/tb-v5-synthetic-budget-exhaustion-trained-1792401042110688044/synthetic-budget-exhaustion__75A6xaM/verifier/reward.txt",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "reward": 1.0
+        }
+      ],
+      "originScore": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700",
+      "originRoot": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v5-development-1792400369329814700/runtime",
+      "adoptedControl": false
+    }
+  ],
+  "officialEvaluatorSourceRead": false
+}

@@ -1,0 +1,13 @@
+{
+  "runId": "focus-20261012-200502",
+  "root": "/benchmark/skillflow-main-20261008/focus-20261012-200502",
+  "supplemental": [
+    "formal05retry-230209",
+    "cachecheck-2333",
+    "cacheformal-2345"
+  ],
+  "primarySuffix": "resume-230209",
+  "priorSuffixes": [
+    "formal05-224346"
+  ]
+}

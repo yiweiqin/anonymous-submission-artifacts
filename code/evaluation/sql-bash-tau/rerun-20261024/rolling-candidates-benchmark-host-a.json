@@ -1,0 +1,24 @@
+[
+  {
+    "host": "benchmark-host-a",
+    "bench": "bash",
+    "hash": "6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e",
+    "root": "/benchmark/janus-rerun-20261025/variants/6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e",
+    "live": {
+      "pid": 2349949,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/6376f04232a23ad66f75295360eb0129a822a29add7f89bb118a23ab02c02f8e"
+    },
+    "hypothesis": {
+      "category": "输出格式／流水线语义",
+      "hypothesis": "When file-state components are both full marks, target output and intermediate-record semantics rather than mutate the filesystem.",
+      "basis": "Captured first official failures have fileDiff=0.33 and fileChanges=0.33 but answerSimilarity below 0.33; actual command/output and additional prompt preserved.",
+      "confidence": "confirmed reward-component diagnosis; command-level cause remains a hypothesis",
+      "sourceHash": "318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be",
+      "evidence": "rolling-evidence/318b130f266548fa60e682aff59d0d7c876e722d29b49556442c0b31274059be/failure-capture.json",
+      "beforeFirstModelCall": true,
+      "taskSpecificSolutionInjected": false
+    },
+    "at": 1792909674.530788,
+    "paperReady": false
+  }
+]

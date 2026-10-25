@@ -1,0 +1,13 @@
+{
+  "taskModel": "deepseek-flash",
+  "taskEndpoint": "https://api.deepseek.com",
+  "baseModel": "Qwen/Qwen3-8B",
+  "detective": {
+    "role": "dual-tree drift localization",
+    "adapter": "minimal-evolution/adapter"
+  },
+  "dependencySimilarity": {
+    "role": "D staffs the team; S replaces after the detective reports wrong_agent",
+    "adapter": "dependency-similarity/adapter"
+  }
+}

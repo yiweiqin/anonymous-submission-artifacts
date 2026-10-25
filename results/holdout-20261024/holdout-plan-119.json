@@ -1,0 +1,31 @@
+{
+  "families": [
+    "OCR-Data-Extraction",
+    "Medical-Data-Standardization",
+    "Supply-Chain-Replenishment",
+    "Document-Fraud-Detection",
+    "PPT-Formatting-Optimization"
+  ],
+  "arms": [
+    "vanilla",
+    "expel",
+    "awm",
+    "reasoning_bank",
+    "skillrl",
+    "cowork_x",
+    "rsea"
+  ],
+  "workers": 4,
+  "host": "benchmark-host-d",
+  "counts": {
+    "OCR-Data-Extraction": 8,
+    "Medical-Data-Standardization": 9,
+    "Supply-Chain-Replenishment": 8,
+    "Document-Fraud-Detection": 8,
+    "PPT-Formatting-Optimization": 8
+  },
+  "missing": {},
+  "record": "holdout-record-119.jsonl",
+  "forceBuild": true,
+  "janusFull": false
+}

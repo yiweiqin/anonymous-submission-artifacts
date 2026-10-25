@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "cpdb-qlora-v1",
+  "task": "cpdb_score100_sft",
+  "baseModel": "Qwen/Qwen3-8B",
+  "maxLength": 8192,
+  "epochs": 2,
+  "seed": 20260920,
+  "perDeviceTrainBatchSize": 1,
+  "perDeviceEvalBatchSize": 1,
+  "gradientAccumulationSteps": 16,
+  "learningRate": 1e-4,
+  "warmupRatio": 0.03,
+  "precision": "bf16",
+  "quantization": "nf4-double-quant",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targetModules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  },
+  "scheduler": "cosine",
+  "assistantOnlyLoss": true,
+  "completion": {
+    "type": "json_object",
+    "required": ["dependency", "similarity", "rationale"],
+    "dependency": "integer 0-100",
+    "similarity": "integer 0-100",
+    "note": "Generative SFT. Do not use a 101-class head or 92-d MLP."
+  },
+  "split": {
+    "scheme": "facet",
+    "evalFold": 0,
+    "note": "development = facet fold 0 eval pairs; train = complement. Do not use org test 87%."
+  }
+}

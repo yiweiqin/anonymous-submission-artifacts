@@ -1,0 +1,16 @@
+{
+  "workers": {"106": 3, "119": 4, "193": 4},
+  "records": {
+    "106": "holdout-record.jsonl",
+    "119": "holdout-record-119.jsonl",
+    "193": "holdout-record-193.jsonl"
+  },
+  "families": {
+    "106": ["Financial-Statement-Rolling", "Sales-Pivot-Analysis", "Distribution-Center-Auditing"],
+    "119": ["OCR-Data-Extraction", "Medical-Data-Standardization", "Supply-Chain-Replenishment", "Document-Fraud-Detection", "PPT-Formatting-Optimization"],
+    "193": ["Production-Capacity-Planning", "HWPX-Document-Automation", "Cross-Format-Data-Reconciliation", "Industry-Correlation-Analysis"]
+  },
+  "forceBuild": true,
+  "reason": "Images are built on the machine that runs the task. The score is still the Harbor reward.",
+  "leftBusy": "43 stays on Bash RSEA"
+}

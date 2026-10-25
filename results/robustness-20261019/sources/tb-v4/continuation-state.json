@@ -1,0 +1,64 @@
+{
+  "savedAtNs": 1792398995993031700,
+  "goalStatus": "active",
+  "paperReady": false,
+  "phase": "tb_v4_closed_audited_full_qualified_win_not_achieved",
+  "pilotSummary": "pilot-summary.json",
+  "fullStartAudit": "full-start-audit.json",
+  "fullAdoption": "full-adoption.json",
+  "runtimePointer": "pilot-runtime.json",
+  "liveSnapshot": "pilot-live-snapshot.json",
+  "independentLedger": "ledger.json",
+  "uniqueControls": "unique-control-registry.json",
+  "status": {
+    "phase": "incomplete",
+    "synthetic": false,
+    "tasks": 63,
+    "receipts": 126,
+    "maxConcurrentTasks": 2,
+    "memoryReservationBudgetBytes": 2772123648,
+    "memoryAdmission": "reserve each declared container budget before launch; reduce actual concurrency when host headroom requires",
+    "paperReady": false,
+    "errors": [],
+    "retainedPriorErrors": [
+      {
+        "task": "query-optimize",
+        "error": "AssertionError:unqualified_receipt_retained_no_rescore"
+      }
+    ],
+    "schedulingSupplement": "missing-arms-adoption-1792396362967313047.json"
+  },
+  "qualifiedReceipts": 125,
+  "remainingOfficialGrades": null,
+  "nextActions": [
+    "V4 scoring and final evidence are CLOSED:126 first attempts,125 qualified grades, one executed-ungraded trained query-optimize timeout. All guards/trials/owned containers/model services have stopped. Do not restart v4 or retry its trained failure.",
+    "Read full-summary.json, expansion-analysis.json and goal-completion-audit.json. The fixed pilot is8 versus4; the50 newly paired expansion tasks are23 versus25. The62 paired aggregate31 versus29 is not a complete63-task qualified comparison. Keep paperReady=false and every original receipt/failure.",
+    "Prepare a genuinely changed globally applicable trained workflow as a new registered tb-v5 core inference variant. Analyze only public task/agent behavior for generic command-completion, bounded validation, transient-process ownership and final artifact acceptance failures; do not insert task-specific answers or inspect evaluator code.",
+    "Keep COMMON and actual executor interface/model/budget unchanged if reusing the63 locked v3-interface controls. Adopt each original control with its source runtime, implementation manifest, input and request/official-result hashes; never relabel it as a new run or rescore an existing compatible control. If changing the shared interface, declare a new control interface rather than mixing controls.",
+    "Self-authored real-harness validation must pass before the same fixed12-task pilot. Score each new trained variant/task only once. Reuse compatible unique controls; retain every attempted result. Promote only a complete positive pilot with weight/profile/input/budget/source/resource audits passed.",
+    "On a positive pilot, carry its effective receipts unchanged into the fixed63 resource-compatible universe and score only remaining new trained tasks. Preserve all existing v4 trained grades separately; never construct an undeclared best-of-trained mixture.",
+    "Continue to the original goal end state, including all launched scoring and audits. Do not mark complete from pilot success or partial paired superiority; do not alter original freezes, main table, protocol or gate/locked flags."
+  ],
+  "fullPreplanInitializationFailure": "preserved in preplan-attempts; model-host workspace rotation fixed; all63 public plans now exist",
+  "rules": [
+    "official resource-compatible63 subset, never claim full89 leaderboard",
+    "one valid official grade per variant/task; never replay finite grades, including zeros or audit failures",
+    "infrastructure retry only without any finite grade and with zero successful executor responses; max3 attempts",
+    "frozen base/adapter and original main artifacts unchanged",
+    "deepseek-flash temperature0 explicit thinking disabled4096 output cap40 actual model requests, identical executor interface in both arms",
+    "one actual frozen Qwen closed-choice forward per public task, human-authored conditional roles, no hidden evaluator input",
+    "disk floor6GiB, task reservations2048MiB, max2 slots and current memory limits actual concurrency; preserve MySQL/InterCode images and mirrors",
+    "do not globally prune; task-owned cleanup only"
+  ],
+  "retainedUnqualifiedAttempts": [
+    {
+      "task": "query-optimize",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-query-optimize-trained-1792382371147553390",
+      "error": "official_harness_exception:ial.py\", line 863, in _verify_with_timeout\n    raise VerifierTimeoutError(\n        f\"Verifier execution timed out after {timeout_sec} seconds\"\n    ) from exc\nharbor.trial.errors.VerifierTimeoutError: Verifier execution timed out after 1800.0 seconds\n",
+      "successfulExecutorResponses": 40
+    }
+  ],
+  "nextStage": "prepare_tb_v5_registered_global_trained_prompt_variant",
+  "v4ReplayPermitted": false
+}

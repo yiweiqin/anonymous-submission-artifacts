@@ -1,0 +1,6 @@
+﻿# Same stack as inference, plus the trainer imports.
+# No complete version lock was stored with the training run.
+-r infer.txt
+datasets
+accelerate
+bitsandbytes

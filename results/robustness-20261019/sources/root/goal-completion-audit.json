@@ -1,0 +1,167 @@
+{
+  "capturedAt": "2026-10-18T18:15:45.462856+00:00",
+  "handoffObjectiveSatisfied": true,
+  "completionScope": "Three official benchmark result sets and InterCode controls already complete; additionally achieve a positive fully qualified full1015 SQL system contrast against the unique same-interface no-planner control. This is the outstanding objective defined in the handoff.",
+  "paperReady": false,
+  "allBenchmarksHigher": false,
+  "externalSotaClaim": false,
+  "sql": {
+    "variant": 21,
+    "tasks": 1015,
+    "trainedOfficialRewardSum": 865.1833333333333,
+    "controlOfficialRewardSum": 856.3433333333334,
+    "difference": 8.84,
+    "exactReward1Trained": 836,
+    "exactReward1Control": 828,
+    "higher": 23,
+    "lower": 13,
+    "ties": 979,
+    "all2030AuditsPassed": true,
+    "newControlCallsForV21": 0,
+    "automaticSqlSteps": 8,
+    "trainedRecordedApiCalls": 5266,
+    "controlRecordedApiCalls": 3151,
+    "allFiniteGradesRetained": true
+  },
+  "otherSuites": {
+    "terminal": "Resource-compatible63 subset; historical comparable59:45 versus46; remains negative by1. Do not rerun or claim superiority.",
+    "tau": "Retail115+airline50; pass^1; actual deepseek-flash simulator, not paper gpt-4;126 versus119.",
+    "intercodeBash": "Original official200+200 results and their audits remain in the independent ledger."
+  },
+  "limitations": [
+    "SQLv3-v21 are adaptive public development; original1015 exposure and the fixed48 are retained, not an unseen confirmation.",
+    "The control removes a planning/review path and actual API usage differs despite equal40-action caps; no isolated causal LoRA-training estimate or statistical-stability claim.",
+    "All prior negative/null results, finite grades that failed consumption/package audits, and rejected synthetic candidates remain preserved.",
+    "Historical token accounting and financial bills are partly unavailable; financial cost remains null, never zero."
+  ],
+  "evidence": [
+    {
+      "path": "sql-v21/full-summary.json",
+      "sha256": "c9fa8a6e3a7874f36360aa7ec5a63eea515b233f94a38f14be047890d62ffa8f"
+    },
+    {
+      "path": "sql-v21/pilot-summary.json",
+      "sha256": "3c8c98837876a1bbab9ec2c8975b8d72b98d5b2b224666976643e4810137b617"
+    },
+    {
+      "path": "robustness-evidence-status.json",
+      "sha256": "33ed9a389eb947737be8cddad629535f4afd244187586ea1dc75ddae53f66583"
+    },
+    {
+      "path": "robustness-local-invariants-audit.json",
+      "sha256": "165e175dbeb029dae92e4998dc7bd45708375746683197a7d015547767e05e63"
+    },
+    {
+      "path": "handoff-snapshot-20261019.json",
+      "sha256": "ef7d7945f849baf4763a5d3d9bf200216d11cb44013c97fa95a3bbe0919cdb2e"
+    },
+    {
+      "path": "terminal-final-audit.json",
+      "sha256": "7af32907f56b9997a92cbee76de2f04d69ddc9431c4ff8f2c2a61d945a9a4b43"
+    },
+    {
+      "path": "terminal-profile-consumption-audit.json",
+      "sha256": "fe2675d3dbd5dcd619220d4dec8e4e4a830787e2a1437ad8f1c1828f30daea52"
+    },
+    {
+      "path": "terminal-paired-baseline-audit.json",
+      "sha256": "f2867aa01b16e18ec9947edddb790b5b493dfd4c53e022408727f4b17e33eaeb"
+    },
+    {
+      "path": "intercode-official-summary.json",
+      "sha256": "6209403d2f638bf14bbaa97b04e29e37eaf5d534b6131ac00f780543a27f078a"
+    },
+    {
+      "path": "tau-official-summary.json",
+      "sha256": "9f1c7080a5e7762affe4bbbe1126976249e22035ef7855b875b0fde6739a4a8c"
+    },
+    {
+      "path": "tau-consumption-audit.json",
+      "sha256": "144e90f431a9fb7cf0416a290b8d09be153871ab7e9f1866e691a6330c09f154"
+    },
+    {
+      "path": "final-receipts-and-accounting-audit.json",
+      "sha256": "cd91dcce9f31c35b959bccc82fc038d9075403ab299579c6100f9d719fd2fc6a"
+    }
+  ],
+  "candidateDesignsRetained": [
+    {
+      "path": "sql-v3/design.json",
+      "sha256": "47d5983cb11ffed32755ca269f84171a7bc0dece98011a55ecd5f25c78a1e780"
+    },
+    {
+      "path": "sql-v4/design.json",
+      "sha256": "4aa259e0c6a07a96a966beb1d14a9af3ffda80859723f3ac14dbbffb3a01d51c"
+    },
+    {
+      "path": "sql-v5/design.json",
+      "sha256": "e823497376471af4b9e283ed410b864ae6f75a622020ea25aece9eaaec0934f2"
+    },
+    {
+      "path": "sql-v6/design.json",
+      "sha256": "0ff50131215df345b03c09ae8e5fa3abfcded12c89b5b03db0d79be98663a179"
+    },
+    {
+      "path": "sql-v7/design.json",
+      "sha256": "90dec3355a96dbb5aaae5efc9e6ae008909e476821a47f5216947b92dafc9085"
+    },
+    {
+      "path": "sql-v8/design.json",
+      "sha256": "64a23ac1bb8d77767aa80d29187c3aba8922292e564ff7afc4bd5309a6b25642"
+    },
+    {
+      "path": "sql-v9/design.json",
+      "sha256": "d695b69a3e804e8a22ace83c06fbce845516e7d8b6bff0f9bb42413c4020185a"
+    },
+    {
+      "path": "sql-v10/design.json",
+      "sha256": "02ba894100cfd25dc2a9b7da969c4a1b06356d60bfe60278e796515c8c0b70e6"
+    },
+    {
+      "path": "sql-v11/design.json",
+      "sha256": "8a5bf6220a9807795010422654e60deed0dd49a1585f2739ad4b48dc66d584cb"
+    },
+    {
+      "path": "sql-v12/design.json",
+      "sha256": "9ebc7fd6eb6b10f8088dd388d3ee64e296c79eca8e9bb76c9bfba93d1277f37c"
+    },
+    {
+      "path": "sql-v13/design.json",
+      "sha256": "e044fa7a293b40a7580ff4230d17772fc097bfb82c3cf6a55c1a319c7ece4d29"
+    },
+    {
+      "path": "sql-v14/design.json",
+      "sha256": "5a786aa7ace03f1726f91eb5d07303b61e168a12ca68cf6263bac45282a341b4"
+    },
+    {
+      "path": "sql-v15/design.json",
+      "sha256": "28eab3f09f556883490e7248a2df35d5c872c84a972c3285d2fcc34f946d5140"
+    },
+    {
+      "path": "sql-v16/design.json",
+      "sha256": "78a0280dd964d203849887998719e0681e968467cbcc1896f09eab34c9c7d42f"
+    },
+    {
+      "path": "sql-v17/design.json",
+      "sha256": "161c1ec7076c1727b70560b52594c67df5983b2946b83154d44af7e6001550aa"
+    },
+    {
+      "path": "sql-v18/design.json",
+      "sha256": "17b331bbca6f26fcdf6194dad0243d44bc61db1a5df46eec544f11cc39f8c6cc"
+    },
+    {
+      "path": "sql-v19/design.json",
+      "sha256": "eda59cebd0220bdd66277b73db2d14110f88442dfb5463b67ddd156a3b4df1b7"
+    },
+    {
+      "path": "sql-v20/design.json",
+      "sha256": "9d3ae5d94d65bc8820e4b624cb7f8be2562f272bff61486698ebcd4e6b8db18e"
+    },
+    {
+      "path": "sql-v21/design.json",
+      "sha256": "1ddcb5391dcba0deb19e37ba6e2f059480637b87b9db22f5881b22f300cfcd85"
+    }
+  ],
+  "newModelCallsByThisAudit": 0,
+  "newOfficialScoresByThisAudit": 0
+}

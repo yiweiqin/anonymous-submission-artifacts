@@ -1,0 +1,25 @@
+{
+  "summary": "Recovered real tool actions and artifact-state observations; no invented baseline outputs.",
+  "trajectory_path": "results/case-20261024/trajectory.json",
+  "trajectory_sha256": "edbb5b87f4b5721a9afe7ac7ef767dd8d430f5045c45741e1fc5ea10af51a29c",
+  "audit_sha256": "a6e4b9a4ef918e7153470c1de7601888f01bed77fae7e3259de4830f72ce0760",
+  "actual_input_check": "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated.",
+  "before_xml": "<c r=\"H50\" s=\"6\"><f>SUMPRODUCT(H$35:H$40,H$26:H$31)/SUM(H$26:H$31)</f><v></v></c>",
+  "after_output": "H50 =SUMPRODUCT(H$35:H$40,H$26:H$31)/SUM(H$26:H$31) => 1.55973154362416",
+  "tool_command": "ssconvert --recalc /root/output/result.xlsx /root/output/result_recalc.xlsx",
+  "observed_verification": "Verified 155 formula cells with cached numeric values",
+  "self_check": "FINAL VALIDATION PASSED",
+  "independent_reward": 1,
+  "trajectory_matches_audit": true,
+  "scope": "Same successful Janus run; historical prior-attempt outcomes independently labeled.",
+  "not_established": [
+    "Vanilla artifact failure",
+    "model-localization accuracy",
+    "unique diagnosis benefit",
+    "cross-task transfer"
+  ],
+  "prior_round_study_used": false,
+  "visual_review": "Both exported figures inspected for clipping, overlap and evidence labeling; no defects observed.",
+  "editable_pptx_pages": 2,
+  "paper_sources_modified": false
+}

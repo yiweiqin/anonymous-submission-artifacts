@@ -1,0 +1,23 @@
+{
+  "policyId": "policy_hybrid_v1",
+  "version": "ubuddy_capability_dependency_bundle_v2_hybrid",
+  "artifactId": "cpdb-scorer-v4-hybrid",
+  "generatedAt": "2026-09-20T11:21:42.419Z",
+  "dependency": "same family → 0; else IO overlap gated by same-task: 0 / 0.25 / 0.5 / 0.75",
+  "similarity": "cross family → 0; same family default 0.5; listed near facets 0.75",
+  "nearFacetPairs": [
+    [
+      "test_gate",
+      "api_pin"
+    ],
+    [
+      "source_grade",
+      "primary_quote"
+    ],
+    [
+      "chart_hierarchy",
+      "number_callout"
+    ]
+  ],
+  "note": "线上加载本目录时走 hybrid_rules，不走 v3 AI 表。表只是 8282 对上的蒸馏对照。"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+    "task": "retail-109",
+    "official": 0.0,
+    "inconsistentOutputArithmetic": [
+      {
+        "quote": "$244.02 + $52.03 + $50.88 = $347.93",
+        "computed": "346.93",
+        "stated": "347.93"
+      }
+    ]
+  },
+  {
+    "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+    "task": "retail-109",
+    "official": 0.0,
+    "inconsistentOutputArithmetic": [
+      {
+        "quote": "$244.02 + $52.03 + $50.88 = $347.93",
+        "computed": "346.93",
+        "stated": "347.93"
+      }
+    ]
+  }
+]

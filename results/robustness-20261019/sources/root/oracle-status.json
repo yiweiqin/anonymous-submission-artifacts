@@ -1,0 +1,5 @@
+{
+  "phase": "stopped",
+  "reason": "RuntimeError:oracle_infrastructure_error_requires_diagnosis",
+  "targetModelCalls": 0
+}

@@ -1,0 +1,14 @@
+{
+  "sourceHashDrift": [],
+  "sourceUnavailable": [],
+  "configuredKeyDetectedInMatchingFiles": [],
+  "liveSourcesUpdatedAfterSnapshot": [
+    "started-attempts.jsonl",
+    "status.json"
+  ],
+  "checkedMappings": 768,
+  "credentialValuesReturned": false,
+  "snapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v5\\evidence\\snapshots\\1792411938251879940.json",
+  "manifestSha256": "07ddd8d668da486b8f718a6cc4c4ce4e99bda9ec7a1948db80b874a59e9d1c6d",
+  "paperReady": false
+}

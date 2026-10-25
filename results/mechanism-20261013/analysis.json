@@ -1,0 +1,176 @@
+{
+  "complete": false,
+  "allFormalTrialsValid": true,
+  "protectedFilesUnchanged": true,
+  "frozenHashesValid": true,
+  "sourcePassGuardValid": true,
+  "finishedHarborCalls": 9,
+  "plannedHarborCalls": 32,
+  "invalidFormalTrials": [],
+  "comparisons": [
+    {
+      "variant": "full",
+      "passes": 0,
+      "validTargets": 1,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    },
+    {
+      "variant": "no-localization",
+      "passes": 0,
+      "validTargets": 0,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    },
+    {
+      "variant": "redundant",
+      "passes": 0,
+      "validTargets": 0,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    },
+    {
+      "variant": "no-plan",
+      "passes": 0,
+      "validTargets": 0,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    },
+    {
+      "variant": "no-execution",
+      "passes": 0,
+      "validTargets": 0,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    },
+    {
+      "variant": "terminal-only",
+      "passes": 0,
+      "validTargets": 0,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    },
+    {
+      "variant": "historical-dmaic-check",
+      "passes": 0,
+      "validTargets": 0,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    },
+    {
+      "variant": "historical-weighted-cache",
+      "passes": 0,
+      "validTargets": 0,
+      "plannedTargets": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pairedDifference": null,
+      "pairs": []
+    }
+  ],
+  "costs": {
+    "source": {
+      "harborCalls": 2,
+      "modelCalls": 20,
+      "promptTokens": 304965,
+      "completionTokens": 210121,
+      "wallSeconds": 1329.214,
+      "estimatedUsd": null,
+      "bill": false
+    },
+    "selection": {
+      "harborCalls": 6,
+      "modelCalls": 131,
+      "promptTokens": 2810843,
+      "completionTokens": 993345,
+      "wallSeconds": 6486.817999999999,
+      "estimatedUsd": null,
+      "bill": false
+    },
+    "target": {
+      "harborCalls": 1,
+      "modelCalls": 10,
+      "promptTokens": 144043,
+      "completionTokens": 43541,
+      "wallSeconds": 306.625,
+      "estimatedUsd": null,
+      "bill": false
+    }
+  },
+  "diagnosisValid": 6,
+  "diagnosisTotal": 8,
+  "invalidDiagnoses": [
+    {
+      "id": "DMAIC-Quality-Analysis/full",
+      "warnings": [
+        "drift_without_nodeId"
+      ]
+    },
+    {
+      "id": "DMAIC-Quality-Analysis/no-plan",
+      "warnings": [
+        "drift_without_nodeId"
+      ]
+    }
+  ],
+  "interventionChecks": [
+    {
+      "family": "Compensation-Scenario-Modeling",
+      "frozenVariants": 6,
+      "plannedVariants": 6,
+      "distinctTargetInputs": 1,
+      "variantsDifferentFromFull": [],
+      "allVariantInputsIdentical": true
+    },
+    {
+      "family": "DMAIC-Quality-Analysis",
+      "frozenVariants": 0,
+      "plannedVariants": 6,
+      "distinctTargetInputs": 0,
+      "variantsDifferentFromFull": [],
+      "allVariantInputsIdentical": false
+    }
+  ],
+  "adapterWeightsContributionIdentifiable": false,
+  "crossBenchmarkRobustnessComplete": false,
+  "keptObjects": 0,
+  "limitations": [
+    "D/S plan is not consumed by current executor; M4 and M9 capability contribution is not identifiable",
+    "M1 masks graph content while retaining node identity for existing contract; masked inputs are distribution shift",
+    "M2 compares diagnostic gating vs direct rule proposal, not an independently trained proposer",
+    "M3 repeats the same check three times and retains selection validation; tests bounded text not cost optimality",
+    "Only two already-exposed development source/target pairs; no power for broad generalization",
+    "Shared fresh source evidence and one paired empty target control per task; all variant selections separately counted",
+    "Historical frozen checks already exposed target families; transfer is exploratory, source attribution retained",
+    "Identical target inputs cannot support an ablation mechanism claim, even when separate calls receive different scores."
+  ]
+}

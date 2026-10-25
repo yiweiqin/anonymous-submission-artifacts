@@ -1,0 +1,479 @@
+{
+  "complete": true,
+  "families": [
+    {
+      "family": "Healthcare-Cost-Benefit-Analysis",
+      "tasks": 9,
+      "complete": true,
+      "vanillaPassRate": 0.2222222222222222,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": 0.1111111111111111,
+          "passRate": 0.3333333333333333,
+          "scored": 9
+        },
+        {
+          "arm": "awm",
+          "lift": -0.2222222222222222,
+          "passRate": 0.0,
+          "scored": 9
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": 0.0,
+          "passRate": 0.2222222222222222,
+          "scored": 9
+        },
+        {
+          "arm": "skillrl",
+          "lift": 0.2222222222222222,
+          "passRate": 0.4444444444444444,
+          "scored": 9
+        },
+        {
+          "arm": "cowork_x",
+          "lift": 0.2222222222222222,
+          "passRate": 0.4444444444444444,
+          "scored": 9
+        },
+        {
+          "arm": "rsea",
+          "lift": 0.2222222222222222,
+          "passRate": 0.4444444444444444,
+          "scored": 9
+        },
+        {
+          "arm": "janus_full",
+          "lift": 0.5555555555555556,
+          "passRate": 0.7777777777777778,
+          "scored": 9
+        }
+      ]
+    },
+    {
+      "family": "DMAIC-Quality-Analysis",
+      "tasks": 9,
+      "complete": true,
+      "vanillaPassRate": 0.2222222222222222,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": 0.0,
+          "passRate": 0.2222222222222222,
+          "scored": 9
+        },
+        {
+          "arm": "awm",
+          "lift": -0.1111111111111111,
+          "passRate": 0.1111111111111111,
+          "scored": 9
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": -0.1111111111111111,
+          "passRate": 0.1111111111111111,
+          "scored": 9
+        },
+        {
+          "arm": "skillrl",
+          "lift": 0.0,
+          "passRate": 0.2222222222222222,
+          "scored": 9
+        },
+        {
+          "arm": "cowork_x",
+          "lift": -0.1111111111111111,
+          "passRate": 0.1111111111111111,
+          "scored": 9
+        },
+        {
+          "arm": "rsea",
+          "lift": -0.1111111111111111,
+          "passRate": 0.1111111111111111,
+          "scored": 9
+        },
+        {
+          "arm": "janus_full",
+          "lift": 0.3333333333333333,
+          "passRate": 0.5555555555555556,
+          "scored": 9
+        }
+      ]
+    },
+    {
+      "family": "SEC-13F-Financial-Analysis",
+      "tasks": 8,
+      "complete": true,
+      "vanillaPassRate": 0.375,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": -0.125,
+          "passRate": 0.25,
+          "scored": 8
+        },
+        {
+          "arm": "awm",
+          "lift": 0.0,
+          "passRate": 0.375,
+          "scored": 8
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": 0.0,
+          "passRate": 0.375,
+          "scored": 8
+        },
+        {
+          "arm": "skillrl",
+          "lift": 0.0,
+          "passRate": 0.375,
+          "scored": 8
+        },
+        {
+          "arm": "cowork_x",
+          "lift": 0.0,
+          "passRate": 0.375,
+          "scored": 8
+        },
+        {
+          "arm": "rsea",
+          "lift": 0.0,
+          "passRate": 0.375,
+          "scored": 8
+        },
+        {
+          "arm": "janus_full",
+          "lift": 0.0,
+          "passRate": 0.375,
+          "scored": 8
+        }
+      ]
+    },
+    {
+      "family": "Compensation-Scenario-Modeling",
+      "tasks": 8,
+      "complete": true,
+      "vanillaPassRate": 0.125,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": 0.0,
+          "passRate": 0.125,
+          "scored": 8
+        },
+        {
+          "arm": "awm",
+          "lift": 0.0,
+          "passRate": 0.125,
+          "scored": 8
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": 0.0,
+          "passRate": 0.125,
+          "scored": 8
+        },
+        {
+          "arm": "skillrl",
+          "lift": 0.0,
+          "passRate": 0.125,
+          "scored": 8
+        },
+        {
+          "arm": "cowork_x",
+          "lift": 0.0,
+          "passRate": 0.125,
+          "scored": 8
+        },
+        {
+          "arm": "rsea",
+          "lift": 0.0,
+          "passRate": 0.125,
+          "scored": 8
+        },
+        {
+          "arm": "janus_full",
+          "lift": 0.125,
+          "passRate": 0.25,
+          "scored": 8
+        }
+      ]
+    },
+    {
+      "family": "Weighted-Risk-Assessment",
+      "tasks": 8,
+      "complete": true,
+      "vanillaPassRate": 0.875,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "awm",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "skillrl",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "cowork_x",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "rsea",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "janus_full",
+          "lift": 0.125,
+          "passRate": 1.0,
+          "scored": 8
+        }
+      ]
+    },
+    {
+      "family": "Embedded-Data-Repair",
+      "tasks": 8,
+      "complete": true,
+      "vanillaPassRate": 0.75,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": 0.0,
+          "passRate": 0.75,
+          "scored": 8
+        },
+        {
+          "arm": "awm",
+          "lift": -0.125,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": -0.25,
+          "passRate": 0.5,
+          "scored": 8
+        },
+        {
+          "arm": "skillrl",
+          "lift": -0.25,
+          "passRate": 0.5,
+          "scored": 8
+        },
+        {
+          "arm": "cowork_x",
+          "lift": -0.125,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "rsea",
+          "lift": 0.125,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "janus_full",
+          "lift": -0.25,
+          "passRate": 0.5,
+          "scored": 8
+        }
+      ]
+    },
+    {
+      "family": "Inventory-&-Finance-Integration",
+      "tasks": 8,
+      "complete": true,
+      "vanillaPassRate": 0.625,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": 0.0,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "awm",
+          "lift": 0.0,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": 0.0,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "skillrl",
+          "lift": 0.0,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "cowork_x",
+          "lift": 0.0,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "rsea",
+          "lift": 0.0,
+          "passRate": 0.625,
+          "scored": 8
+        },
+        {
+          "arm": "janus_full",
+          "lift": 0.0,
+          "passRate": 0.625,
+          "scored": 8
+        }
+      ]
+    },
+    {
+      "family": "Operational-Recovery-Planning",
+      "tasks": 8,
+      "complete": true,
+      "vanillaPassRate": 0.875,
+      "arms": [
+        {
+          "arm": "expel",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "awm",
+          "lift": -0.125,
+          "passRate": 0.75,
+          "scored": 8
+        },
+        {
+          "arm": "reasoning_bank",
+          "lift": -0.125,
+          "passRate": 0.75,
+          "scored": 8
+        },
+        {
+          "arm": "skillrl",
+          "lift": 0.125,
+          "passRate": 1.0,
+          "scored": 8
+        },
+        {
+          "arm": "cowork_x",
+          "lift": -0.125,
+          "passRate": 0.75,
+          "scored": 8
+        },
+        {
+          "arm": "rsea",
+          "lift": 0.0,
+          "passRate": 0.875,
+          "scored": 8
+        },
+        {
+          "arm": "janus_full",
+          "lift": -0.25,
+          "passRate": 0.625,
+          "scored": 8
+        }
+      ]
+    }
+  ],
+  "meanLift": [
+    {
+      "arm": "janus_full",
+      "lift": 0.0798611111111111
+    },
+    {
+      "arm": "rsea",
+      "lift": 0.029513888888888888
+    },
+    {
+      "arm": "skillrl",
+      "lift": 0.012152777777777776
+    },
+    {
+      "arm": "expel",
+      "lift": -0.0017361111111111119
+    },
+    {
+      "arm": "cowork_x",
+      "lift": -0.017361111111111112
+    },
+    {
+      "arm": "reasoning_bank",
+      "lift": -0.06076388888888889
+    },
+    {
+      "arm": "awm",
+      "lift": -0.07291666666666666
+    }
+  ],
+  "appendixPassRate": [
+    {
+      "arm": "awm",
+      "passed": 28.0,
+      "scored": 66,
+      "passRate": 0.42424242424242425
+    },
+    {
+      "arm": "cowork_x",
+      "passed": 32.0,
+      "scored": 66,
+      "passRate": 0.48484848484848486
+    },
+    {
+      "arm": "expel",
+      "passed": 33.0,
+      "scored": 66,
+      "passRate": 0.5
+    },
+    {
+      "arm": "janus_full",
+      "passed": 39.0,
+      "scored": 66,
+      "passRate": 0.5909090909090909
+    },
+    {
+      "arm": "reasoning_bank",
+      "passed": 29.0,
+      "scored": 66,
+      "passRate": 0.4393939393939394
+    },
+    {
+      "arm": "rsea",
+      "passed": 35.0,
+      "scored": 66,
+      "passRate": 0.5303030303030303
+    },
+    {
+      "arm": "skillrl",
+      "passed": 34.0,
+      "scored": 66,
+      "passRate": 0.5151515151515151
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/official-oracle-1791894223892268400",
+  "pid": 939994,
+  "candidates": 68,
+  "targetModelCalls": 0,
+  "fileDigests": {
+    "terminal_oracle_worker.py": "2332475de9d3b14eb274a838f7cf9a22fe89a7642197c93307a1579acee07d1f",
+    "native_images.py": "93e275e032c70da53dda2ba74b397fbb76ea8a1324b75f3743d7195e51dbb226",
+    "consume_plan.py": "3b107049d6d9793a4ed11a29ed74dc52b5705e8df418f8ebfc0578fc34c333ce",
+    "native_source_worker.py": "3ad9d55c8e5fd56828129be3ce78122b94270c9a850f9037ba92a24ce51e1121",
+    "remote_one_trial.py": "972e67ccca571702abc09b7371da96cc7aa0ee7f5363b3787b8fc8c20381b2f9",
+    "run_guarded.mjs": "dba5a5bc7310408638ad9a74e40f32ea1c5889e4fe4ff5bcab4f2a90fd7aae6d",
+    "oracle-plan.json": "dee75b41260bf9077b2ae63cd50d46f615bcc93aa2514651197b71f22666d0a7"
+  }
+}

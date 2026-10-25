@@ -1,0 +1,1444 @@
+benchmark,id,system_reward,control_reward,difference
+Terminal-Bench 2.1 v5,adaptive-rejection-sampler,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,bn-fit-modify,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,break-filter-js-from-html,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,build-pmars,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,build-pov-ray,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,cancel-async-tasks,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,chess-best-move,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,circuit-fibsqrt,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,cobol-modernization,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,code-from-image,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,configure-git-webserver,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,constraints-scheduling,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,count-dataset-tokens,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,custom-memory-heap-crash,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,db-wal-recovery,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,distribution-search,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,dna-assembly,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,extract-elf,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,extract-moves-from-video,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,feal-differential-cryptanalysis,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,feal-linear-cryptanalysis,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,fix-code-vulnerability,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,fix-git,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,fix-ocaml-gc,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,gcode-to-text,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,git-leak-recovery,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,git-multibranch,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,headless-terminal,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,kv-store-grpc,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,large-scale-text-editing,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,largest-eigenval,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,llm-inference-batching-scheduler,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,log-summary-date-ranges,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,mailman,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,make-doom-for-mips,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,make-mips-interpreter,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,model-extraction-relu-logits,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,modernize-scientific-stack,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,mteb-retrieve,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,multi-source-data-merger,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,nginx-request-logging,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,openssl-selfsigned-cert,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,password-recovery,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,path-tracing,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,path-tracing-reverse,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,polyglot-c-py,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,polyglot-rust-c,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,prove-plus-comm,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,pytorch-model-recovery,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,query-optimize,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,raman-fitting,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,regex-chess,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,regex-log,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,sanitize-git-repo,0.0,1.0,-1.0
+Terminal-Bench 2.1 v5,schemelike-metacircular-eval,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,sparql-university,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,sqlite-db-truncate,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,sqlite-with-gcov,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,tune-mjcf,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,video-processing,1.0,0.0,1.0
+Terminal-Bench 2.1 v5,vulnerable-secret,1.0,1.0,0.0
+Terminal-Bench 2.1 v5,winning-avg-corewars,0.0,0.0,0.0
+Terminal-Bench 2.1 v5,write-compressor,0.0,0.0,0.0
+InterCode SQL v21,spider-0,1.0,1.0,0.0
+InterCode SQL v21,spider-1,0.84,0.84,0.0
+InterCode SQL v21,spider-10,1.0,1.0,0.0
+InterCode SQL v21,spider-100,0.0,0.0,0.0
+InterCode SQL v21,spider-1000,0.88,0.88,0.0
+InterCode SQL v21,spider-1001,1.0,1.0,0.0
+InterCode SQL v21,spider-1002,1.0,1.0,0.0
+InterCode SQL v21,spider-1003,1.0,1.0,0.0
+InterCode SQL v21,spider-1004,0.71,0.71,0.0
+InterCode SQL v21,spider-1005,1.0,1.0,0.0
+InterCode SQL v21,spider-1006,1.0,1.0,0.0
+InterCode SQL v21,spider-1007,0.0,0.0,0.0
+InterCode SQL v21,spider-1008,0.0,0.0,0.0
+InterCode SQL v21,spider-1009,1.0,1.0,0.0
+InterCode SQL v21,spider-101,1.0,1.0,0.0
+InterCode SQL v21,spider-1010,1.0,1.0,0.0
+InterCode SQL v21,spider-1011,1.0,1.0,0.0
+InterCode SQL v21,spider-1012,1.0,1.0,0.0
+InterCode SQL v21,spider-1013,1.0,1.0,0.0
+InterCode SQL v21,spider-1014,1.0,1.0,0.0
+InterCode SQL v21,spider-1015,1.0,1.0,0.0
+InterCode SQL v21,spider-1016,1.0,1.0,0.0
+InterCode SQL v21,spider-1017,1.0,1.0,0.0
+InterCode SQL v21,spider-1018,1.0,1.0,0.0
+InterCode SQL v21,spider-1019,1.0,1.0,0.0
+InterCode SQL v21,spider-102,1.0,1.0,0.0
+InterCode SQL v21,spider-1020,0.0,0.0,0.0
+InterCode SQL v21,spider-1021,1.0,1.0,0.0
+InterCode SQL v21,spider-1022,1.0,1.0,0.0
+InterCode SQL v21,spider-1023,0.0,0.0,0.0
+InterCode SQL v21,spider-1024,1.0,1.0,0.0
+InterCode SQL v21,spider-1025,1.0,1.0,0.0
+InterCode SQL v21,spider-1026,1.0,1.0,0.0
+InterCode SQL v21,spider-1027,1.0,1.0,0.0
+InterCode SQL v21,spider-1028,1.0,1.0,0.0
+InterCode SQL v21,spider-1029,1.0,1.0,0.0
+InterCode SQL v21,spider-103,1.0,1.0,0.0
+InterCode SQL v21,spider-1030,1.0,1.0,0.0
+InterCode SQL v21,spider-1031,1.0,1.0,0.0
+InterCode SQL v21,spider-1032,1.0,1.0,0.0
+InterCode SQL v21,spider-1033,0.8,0.8,0.0
+InterCode SQL v21,spider-104,1.0,1.0,0.0
+InterCode SQL v21,spider-105,1.0,1.0,0.0
+InterCode SQL v21,spider-106,1.0,1.0,0.0
+InterCode SQL v21,spider-107,1.0,1.0,0.0
+InterCode SQL v21,spider-108,1.0,1.0,0.0
+InterCode SQL v21,spider-109,1.0,1.0,0.0
+InterCode SQL v21,spider-11,1.0,1.0,0.0
+InterCode SQL v21,spider-110,1.0,1.0,0.0
+InterCode SQL v21,spider-111,0.25,0.25,0.0
+InterCode SQL v21,spider-112,1.0,1.0,0.0
+InterCode SQL v21,spider-113,1.0,1.0,0.0
+InterCode SQL v21,spider-114,1.0,1.0,0.0
+InterCode SQL v21,spider-115,1.0,1.0,0.0
+InterCode SQL v21,spider-116,1.0,1.0,0.0
+InterCode SQL v21,spider-117,1.0,1.0,0.0
+InterCode SQL v21,spider-118,1.0,1.0,0.0
+InterCode SQL v21,spider-119,0.0,0.0,0.0
+InterCode SQL v21,spider-12,1.0,1.0,0.0
+InterCode SQL v21,spider-120,0.25,0.25,0.0
+InterCode SQL v21,spider-121,1.0,1.0,0.0
+InterCode SQL v21,spider-122,0.8,0.8,0.0
+InterCode SQL v21,spider-123,1.0,1.0,0.0
+InterCode SQL v21,spider-124,1.0,1.0,0.0
+InterCode SQL v21,spider-125,0.14,0.14,0.0
+InterCode SQL v21,spider-126,0.0,0.0,0.0
+InterCode SQL v21,spider-127,1.0,1.0,0.0
+InterCode SQL v21,spider-128,1.0,1.0,0.0
+InterCode SQL v21,spider-129,1.0,1.0,0.0
+InterCode SQL v21,spider-13,1.0,1.0,0.0
+InterCode SQL v21,spider-130,0.0,0.0,0.0
+InterCode SQL v21,spider-131,0.0,0.0,0.0
+InterCode SQL v21,spider-132,1.0,1.0,0.0
+InterCode SQL v21,spider-133,1.0,1.0,0.0
+InterCode SQL v21,spider-134,0.0,0.0,0.0
+InterCode SQL v21,spider-135,1.0,1.0,0.0
+InterCode SQL v21,spider-136,1.0,1.0,0.0
+InterCode SQL v21,spider-137,1.0,1.0,0.0
+InterCode SQL v21,spider-138,1.0,1.0,0.0
+InterCode SQL v21,spider-139,1.0,1.0,0.0
+InterCode SQL v21,spider-14,1.0,1.0,0.0
+InterCode SQL v21,spider-140,1.0,1.0,0.0
+InterCode SQL v21,spider-141,1.0,1.0,0.0
+InterCode SQL v21,spider-142,1.0,1.0,0.0
+InterCode SQL v21,spider-143,1.0,1.0,0.0
+InterCode SQL v21,spider-144,1.0,1.0,0.0
+InterCode SQL v21,spider-145,1.0,1.0,0.0
+InterCode SQL v21,spider-146,1.0,1.0,0.0
+InterCode SQL v21,spider-147,1.0,1.0,0.0
+InterCode SQL v21,spider-148,0.0,0.0,0.0
+InterCode SQL v21,spider-149,0.0,0.0,0.0
+InterCode SQL v21,spider-15,1.0,1.0,0.0
+InterCode SQL v21,spider-150,1.0,1.0,0.0
+InterCode SQL v21,spider-151,0.0,0.0,0.0
+InterCode SQL v21,spider-152,1.0,1.0,0.0
+InterCode SQL v21,spider-153,1.0,1.0,0.0
+InterCode SQL v21,spider-154,0.0,0.0,0.0
+InterCode SQL v21,spider-155,1.0,1.0,0.0
+InterCode SQL v21,spider-156,0.0,0.0,0.0
+InterCode SQL v21,spider-157,1.0,1.0,0.0
+InterCode SQL v21,spider-158,1.0,1.0,0.0
+InterCode SQL v21,spider-159,1.0,1.0,0.0
+InterCode SQL v21,spider-16,1.0,1.0,0.0
+InterCode SQL v21,spider-160,1.0,1.0,0.0
+InterCode SQL v21,spider-161,1.0,1.0,0.0
+InterCode SQL v21,spider-162,1.0,1.0,0.0
+InterCode SQL v21,spider-163,1.0,1.0,0.0
+InterCode SQL v21,spider-165,1.0,1.0,0.0
+InterCode SQL v21,spider-166,1.0,1.0,0.0
+InterCode SQL v21,spider-167,1.0,1.0,0.0
+InterCode SQL v21,spider-168,1.0,1.0,0.0
+InterCode SQL v21,spider-169,1.0,1.0,0.0
+InterCode SQL v21,spider-17,1.0,1.0,0.0
+InterCode SQL v21,spider-170,1.0,1.0,0.0
+InterCode SQL v21,spider-171,1.0,1.0,0.0
+InterCode SQL v21,spider-172,0.5,0.5,0.0
+InterCode SQL v21,spider-173,0.0,0.0,0.0
+InterCode SQL v21,spider-174,1.0,1.0,0.0
+InterCode SQL v21,spider-175,1.0,1.0,0.0
+InterCode SQL v21,spider-176,1.0,1.0,0.0
+InterCode SQL v21,spider-177,1.0,1.0,0.0
+InterCode SQL v21,spider-179,1.0,1.0,0.0
+InterCode SQL v21,spider-18,1.0,1.0,0.0
+InterCode SQL v21,spider-180,1.0,1.0,0.0
+InterCode SQL v21,spider-181,1.0,1.0,0.0
+InterCode SQL v21,spider-182,1.0,1.0,0.0
+InterCode SQL v21,spider-183,1.0,1.0,0.0
+InterCode SQL v21,spider-184,1.0,1.0,0.0
+InterCode SQL v21,spider-185,1.0,1.0,0.0
+InterCode SQL v21,spider-186,1.0,1.0,0.0
+InterCode SQL v21,spider-187,0.67,0.67,0.0
+InterCode SQL v21,spider-188,1.0,1.0,0.0
+InterCode SQL v21,spider-189,1.0,1.0,0.0
+InterCode SQL v21,spider-19,1.0,1.0,0.0
+InterCode SQL v21,spider-190,1.0,1.0,0.0
+InterCode SQL v21,spider-191,1.0,1.0,0.0
+InterCode SQL v21,spider-192,1.0,1.0,0.0
+InterCode SQL v21,spider-193,1.0,1.0,0.0
+InterCode SQL v21,spider-194,1.0,1.0,0.0
+InterCode SQL v21,spider-195,1.0,1.0,0.0
+InterCode SQL v21,spider-196,1.0,1.0,0.0
+InterCode SQL v21,spider-197,1.0,1.0,0.0
+InterCode SQL v21,spider-198,0.0,0.0,0.0
+InterCode SQL v21,spider-199,1.0,1.0,0.0
+InterCode SQL v21,spider-2,1.0,1.0,0.0
+InterCode SQL v21,spider-20,1.0,1.0,0.0
+InterCode SQL v21,spider-200,1.0,1.0,0.0
+InterCode SQL v21,spider-201,1.0,1.0,0.0
+InterCode SQL v21,spider-202,1.0,1.0,0.0
+InterCode SQL v21,spider-203,1.0,1.0,0.0
+InterCode SQL v21,spider-204,0.3333333333333333,0.3333333333333333,0.0
+InterCode SQL v21,spider-205,1.0,1.0,0.0
+InterCode SQL v21,spider-206,1.0,1.0,0.0
+InterCode SQL v21,spider-207,1.0,1.0,0.0
+InterCode SQL v21,spider-208,1.0,1.0,0.0
+InterCode SQL v21,spider-209,1.0,1.0,0.0
+InterCode SQL v21,spider-21,0.0,0.0,0.0
+InterCode SQL v21,spider-210,1.0,1.0,0.0
+InterCode SQL v21,spider-211,0.0,-0.12,0.12
+InterCode SQL v21,spider-212,0.26,0.26,0.0
+InterCode SQL v21,spider-213,1.0,1.0,0.0
+InterCode SQL v21,spider-214,0.0,0.0,0.0
+InterCode SQL v21,spider-215,1.0,1.0,0.0
+InterCode SQL v21,spider-216,1.0,1.0,0.0
+InterCode SQL v21,spider-217,1.0,1.0,0.0
+InterCode SQL v21,spider-218,1.0,1.0,0.0
+InterCode SQL v21,spider-219,1.0,1.0,0.0
+InterCode SQL v21,spider-22,1.0,1.0,0.0
+InterCode SQL v21,spider-220,1.0,1.0,0.0
+InterCode SQL v21,spider-221,0.0,1.0,-1.0
+InterCode SQL v21,spider-222,1.0,1.0,0.0
+InterCode SQL v21,spider-223,1.0,1.0,0.0
+InterCode SQL v21,spider-224,1.0,1.0,0.0
+InterCode SQL v21,spider-226,1.0,1.0,0.0
+InterCode SQL v21,spider-227,1.0,1.0,0.0
+InterCode SQL v21,spider-228,1.0,1.0,0.0
+InterCode SQL v21,spider-229,1.0,1.0,0.0
+InterCode SQL v21,spider-23,1.0,1.0,0.0
+InterCode SQL v21,spider-230,1.0,1.0,0.0
+InterCode SQL v21,spider-231,1.0,1.0,0.0
+InterCode SQL v21,spider-232,1.0,1.0,0.0
+InterCode SQL v21,spider-233,1.0,1.0,0.0
+InterCode SQL v21,spider-234,1.0,1.0,0.0
+InterCode SQL v21,spider-235,1.0,1.0,0.0
+InterCode SQL v21,spider-236,1.0,1.0,0.0
+InterCode SQL v21,spider-237,1.0,1.0,0.0
+InterCode SQL v21,spider-238,1.0,1.0,0.0
+InterCode SQL v21,spider-239,1.0,1.0,0.0
+InterCode SQL v21,spider-24,1.0,1.0,0.0
+InterCode SQL v21,spider-240,1.0,1.0,0.0
+InterCode SQL v21,spider-241,1.0,1.0,0.0
+InterCode SQL v21,spider-242,1.0,1.0,0.0
+InterCode SQL v21,spider-243,1.0,1.0,0.0
+InterCode SQL v21,spider-244,1.0,1.0,0.0
+InterCode SQL v21,spider-245,0.0,0.0,0.0
+InterCode SQL v21,spider-246,0.0,0.0,0.0
+InterCode SQL v21,spider-247,0.0,0.0,0.0
+InterCode SQL v21,spider-248,1.0,1.0,0.0
+InterCode SQL v21,spider-249,0.0,0.0,0.0
+InterCode SQL v21,spider-25,1.0,1.0,0.0
+InterCode SQL v21,spider-250,1.0,1.0,0.0
+InterCode SQL v21,spider-251,1.0,1.0,0.0
+InterCode SQL v21,spider-252,1.0,1.0,0.0
+InterCode SQL v21,spider-253,1.0,1.0,0.0
+InterCode SQL v21,spider-254,1.0,1.0,0.0
+InterCode SQL v21,spider-255,1.0,1.0,0.0
+InterCode SQL v21,spider-256,1.0,1.0,0.0
+InterCode SQL v21,spider-257,1.0,1.0,0.0
+InterCode SQL v21,spider-258,1.0,1.0,0.0
+InterCode SQL v21,spider-259,1.0,1.0,0.0
+InterCode SQL v21,spider-26,1.0,1.0,0.0
+InterCode SQL v21,spider-260,0.0,0.0,0.0
+InterCode SQL v21,spider-261,1.0,1.0,0.0
+InterCode SQL v21,spider-262,1.0,1.0,0.0
+InterCode SQL v21,spider-263,1.0,1.0,0.0
+InterCode SQL v21,spider-264,1.0,1.0,0.0
+InterCode SQL v21,spider-265,1.0,1.0,0.0
+InterCode SQL v21,spider-266,1.0,1.0,0.0
+InterCode SQL v21,spider-267,1.0,1.0,0.0
+InterCode SQL v21,spider-268,1.0,1.0,0.0
+InterCode SQL v21,spider-269,1.0,1.0,0.0
+InterCode SQL v21,spider-27,1.0,1.0,0.0
+InterCode SQL v21,spider-270,1.0,1.0,0.0
+InterCode SQL v21,spider-272,1.0,0.0,1.0
+InterCode SQL v21,spider-273,1.0,1.0,0.0
+InterCode SQL v21,spider-274,0.0,0.0,0.0
+InterCode SQL v21,spider-275,0.88,0.88,0.0
+InterCode SQL v21,spider-276,1.0,1.0,0.0
+InterCode SQL v21,spider-277,1.0,1.0,0.0
+InterCode SQL v21,spider-278,1.0,1.0,0.0
+InterCode SQL v21,spider-279,1.0,1.0,0.0
+InterCode SQL v21,spider-28,1.0,1.0,0.0
+InterCode SQL v21,spider-280,0.83,0.83,0.0
+InterCode SQL v21,spider-281,1.0,1.0,0.0
+InterCode SQL v21,spider-282,1.0,1.0,0.0
+InterCode SQL v21,spider-283,1.0,1.0,0.0
+InterCode SQL v21,spider-284,0.0,0.0,0.0
+InterCode SQL v21,spider-285,0.0,1.0,-1.0
+InterCode SQL v21,spider-286,1.0,1.0,0.0
+InterCode SQL v21,spider-287,1.0,1.0,0.0
+InterCode SQL v21,spider-288,1.0,1.0,0.0
+InterCode SQL v21,spider-289,1.0,1.0,0.0
+InterCode SQL v21,spider-29,1.0,1.0,0.0
+InterCode SQL v21,spider-290,1.0,1.0,0.0
+InterCode SQL v21,spider-291,1.0,1.0,0.0
+InterCode SQL v21,spider-292,0.0,1.0,-1.0
+InterCode SQL v21,spider-293,1.0,1.0,0.0
+InterCode SQL v21,spider-294,1.0,1.0,0.0
+InterCode SQL v21,spider-295,0.0,0.0,0.0
+InterCode SQL v21,spider-296,1.0,1.0,0.0
+InterCode SQL v21,spider-297,1.0,1.0,0.0
+InterCode SQL v21,spider-298,1.0,1.0,0.0
+InterCode SQL v21,spider-299,1.0,1.0,0.0
+InterCode SQL v21,spider-3,1.0,1.0,0.0
+InterCode SQL v21,spider-30,0.0,0.0,0.0
+InterCode SQL v21,spider-300,1.0,1.0,0.0
+InterCode SQL v21,spider-302,1.0,1.0,0.0
+InterCode SQL v21,spider-303,1.0,1.0,0.0
+InterCode SQL v21,spider-304,1.0,1.0,0.0
+InterCode SQL v21,spider-305,0.0,0.0,0.0
+InterCode SQL v21,spider-306,1.0,1.0,0.0
+InterCode SQL v21,spider-307,1.0,1.0,0.0
+InterCode SQL v21,spider-308,-0.07,-0.07,0.0
+InterCode SQL v21,spider-309,1.0,1.0,0.0
+InterCode SQL v21,spider-31,1.0,1.0,0.0
+InterCode SQL v21,spider-310,1.0,1.0,0.0
+InterCode SQL v21,spider-311,1.0,1.0,0.0
+InterCode SQL v21,spider-312,1.0,1.0,0.0
+InterCode SQL v21,spider-313,1.0,1.0,0.0
+InterCode SQL v21,spider-314,1.0,1.0,0.0
+InterCode SQL v21,spider-315,1.0,1.0,0.0
+InterCode SQL v21,spider-316,1.0,1.0,0.0
+InterCode SQL v21,spider-317,1.0,1.0,0.0
+InterCode SQL v21,spider-318,1.0,1.0,0.0
+InterCode SQL v21,spider-319,1.0,1.0,0.0
+InterCode SQL v21,spider-32,1.0,1.0,0.0
+InterCode SQL v21,spider-320,1.0,1.0,0.0
+InterCode SQL v21,spider-321,1.0,1.0,0.0
+InterCode SQL v21,spider-322,1.0,1.0,0.0
+InterCode SQL v21,spider-323,1.0,1.0,0.0
+InterCode SQL v21,spider-324,1.0,1.0,0.0
+InterCode SQL v21,spider-325,1.0,1.0,0.0
+InterCode SQL v21,spider-326,1.0,1.0,0.0
+InterCode SQL v21,spider-327,1.0,1.0,0.0
+InterCode SQL v21,spider-328,1.0,1.0,0.0
+InterCode SQL v21,spider-329,1.0,1.0,0.0
+InterCode SQL v21,spider-33,0.0,0.0,0.0
+InterCode SQL v21,spider-330,0.0,0.0,0.0
+InterCode SQL v21,spider-331,1.0,1.0,0.0
+InterCode SQL v21,spider-332,1.0,1.0,0.0
+InterCode SQL v21,spider-333,1.0,1.0,0.0
+InterCode SQL v21,spider-334,1.0,1.0,0.0
+InterCode SQL v21,spider-335,1.0,1.0,0.0
+InterCode SQL v21,spider-336,1.0,1.0,0.0
+InterCode SQL v21,spider-337,1.0,1.0,0.0
+InterCode SQL v21,spider-338,1.0,1.0,0.0
+InterCode SQL v21,spider-339,1.0,1.0,0.0
+InterCode SQL v21,spider-34,0.02,0.02,0.0
+InterCode SQL v21,spider-340,1.0,1.0,0.0
+InterCode SQL v21,spider-341,1.0,1.0,0.0
+InterCode SQL v21,spider-342,1.0,1.0,0.0
+InterCode SQL v21,spider-343,1.0,1.0,0.0
+InterCode SQL v21,spider-344,1.0,1.0,0.0
+InterCode SQL v21,spider-345,1.0,1.0,0.0
+InterCode SQL v21,spider-346,1.0,1.0,0.0
+InterCode SQL v21,spider-347,1.0,1.0,0.0
+InterCode SQL v21,spider-348,1.0,1.0,0.0
+InterCode SQL v21,spider-349,0.0,0.0,0.0
+InterCode SQL v21,spider-35,0.88,0.88,0.0
+InterCode SQL v21,spider-350,1.0,1.0,0.0
+InterCode SQL v21,spider-351,1.0,0.25,0.75
+InterCode SQL v21,spider-352,1.0,1.0,0.0
+InterCode SQL v21,spider-353,1.0,1.0,0.0
+InterCode SQL v21,spider-354,1.0,1.0,0.0
+InterCode SQL v21,spider-355,0.27,0.27,0.0
+InterCode SQL v21,spider-356,1.0,1.0,0.0
+InterCode SQL v21,spider-357,0.47,0.0,0.47
+InterCode SQL v21,spider-358,1.0,1.0,0.0
+InterCode SQL v21,spider-359,1.0,1.0,0.0
+InterCode SQL v21,spider-36,1.0,1.0,0.0
+InterCode SQL v21,spider-360,1.0,1.0,0.0
+InterCode SQL v21,spider-361,1.0,1.0,0.0
+InterCode SQL v21,spider-362,1.0,1.0,0.0
+InterCode SQL v21,spider-363,1.0,1.0,0.0
+InterCode SQL v21,spider-364,1.0,1.0,0.0
+InterCode SQL v21,spider-365,1.0,1.0,0.0
+InterCode SQL v21,spider-366,1.0,1.0,0.0
+InterCode SQL v21,spider-367,1.0,0.0,1.0
+InterCode SQL v21,spider-368,1.0,1.0,0.0
+InterCode SQL v21,spider-369,1.0,1.0,0.0
+InterCode SQL v21,spider-37,0.0,0.0,0.0
+InterCode SQL v21,spider-370,1.0,1.0,0.0
+InterCode SQL v21,spider-371,1.0,1.0,0.0
+InterCode SQL v21,spider-372,1.0,1.0,0.0
+InterCode SQL v21,spider-373,1.0,1.0,0.0
+InterCode SQL v21,spider-374,1.0,1.0,0.0
+InterCode SQL v21,spider-375,1.0,1.0,0.0
+InterCode SQL v21,spider-376,1.0,1.0,0.0
+InterCode SQL v21,spider-377,1.0,1.0,0.0
+InterCode SQL v21,spider-378,1.0,1.0,0.0
+InterCode SQL v21,spider-379,1.0,1.0,0.0
+InterCode SQL v21,spider-38,1.0,1.0,0.0
+InterCode SQL v21,spider-380,1.0,1.0,0.0
+InterCode SQL v21,spider-381,1.0,1.0,0.0
+InterCode SQL v21,spider-382,1.0,1.0,0.0
+InterCode SQL v21,spider-383,0.0,0.0,0.0
+InterCode SQL v21,spider-384,1.0,1.0,0.0
+InterCode SQL v21,spider-385,1.0,1.0,0.0
+InterCode SQL v21,spider-386,1.0,1.0,0.0
+InterCode SQL v21,spider-387,1.0,1.0,0.0
+InterCode SQL v21,spider-388,0.0,0.0,0.0
+InterCode SQL v21,spider-389,1.0,1.0,0.0
+InterCode SQL v21,spider-39,0.83,0.83,0.0
+InterCode SQL v21,spider-390,1.0,1.0,0.0
+InterCode SQL v21,spider-391,1.0,1.0,0.0
+InterCode SQL v21,spider-392,1.0,1.0,0.0
+InterCode SQL v21,spider-393,1.0,1.0,0.0
+InterCode SQL v21,spider-394,1.0,1.0,0.0
+InterCode SQL v21,spider-395,1.0,0.0,1.0
+InterCode SQL v21,spider-396,0.64,0.64,0.0
+InterCode SQL v21,spider-397,1.0,1.0,0.0
+InterCode SQL v21,spider-398,1.0,1.0,0.0
+InterCode SQL v21,spider-399,0.0,0.0,0.0
+InterCode SQL v21,spider-4,1.0,1.0,0.0
+InterCode SQL v21,spider-40,1.0,1.0,0.0
+InterCode SQL v21,spider-400,1.0,1.0,0.0
+InterCode SQL v21,spider-401,1.0,1.0,0.0
+InterCode SQL v21,spider-402,1.0,1.0,0.0
+InterCode SQL v21,spider-403,1.0,1.0,0.0
+InterCode SQL v21,spider-404,1.0,1.0,0.0
+InterCode SQL v21,spider-405,1.0,1.0,0.0
+InterCode SQL v21,spider-406,1.0,1.0,0.0
+InterCode SQL v21,spider-407,1.0,1.0,0.0
+InterCode SQL v21,spider-408,1.0,1.0,0.0
+InterCode SQL v21,spider-409,1.0,1.0,0.0
+InterCode SQL v21,spider-41,1.0,1.0,0.0
+InterCode SQL v21,spider-410,1.0,1.0,0.0
+InterCode SQL v21,spider-411,1.0,1.0,0.0
+InterCode SQL v21,spider-412,1.0,1.0,0.0
+InterCode SQL v21,spider-413,0.03,0.1,-0.07
+InterCode SQL v21,spider-414,1.0,1.0,0.0
+InterCode SQL v21,spider-415,1.0,1.0,0.0
+InterCode SQL v21,spider-416,1.0,1.0,0.0
+InterCode SQL v21,spider-417,0.0,0.0,0.0
+InterCode SQL v21,spider-418,1.0,1.0,0.0
+InterCode SQL v21,spider-419,1.0,1.0,0.0
+InterCode SQL v21,spider-42,1.0,1.0,0.0
+InterCode SQL v21,spider-420,1.0,1.0,0.0
+InterCode SQL v21,spider-421,0.02,0.02,0.0
+InterCode SQL v21,spider-422,1.0,1.0,0.0
+InterCode SQL v21,spider-423,1.0,1.0,0.0
+InterCode SQL v21,spider-424,1.0,1.0,0.0
+InterCode SQL v21,spider-425,1.0,1.0,0.0
+InterCode SQL v21,spider-426,0.0,0.0,0.0
+InterCode SQL v21,spider-427,1.0,1.0,0.0
+InterCode SQL v21,spider-428,1.0,1.0,0.0
+InterCode SQL v21,spider-429,1.0,1.0,0.0
+InterCode SQL v21,spider-43,1.0,1.0,0.0
+InterCode SQL v21,spider-430,1.0,1.0,0.0
+InterCode SQL v21,spider-431,1.0,1.0,0.0
+InterCode SQL v21,spider-432,1.0,1.0,0.0
+InterCode SQL v21,spider-433,0.71,0.71,0.0
+InterCode SQL v21,spider-434,1.0,1.0,0.0
+InterCode SQL v21,spider-435,0.0,1.0,-1.0
+InterCode SQL v21,spider-436,1.0,1.0,0.0
+InterCode SQL v21,spider-437,1.0,1.0,0.0
+InterCode SQL v21,spider-438,0.0,0.0,0.0
+InterCode SQL v21,spider-439,1.0,1.0,0.0
+InterCode SQL v21,spider-44,1.0,1.0,0.0
+InterCode SQL v21,spider-440,-1.0,-1.0,0.0
+InterCode SQL v21,spider-441,1.0,1.0,0.0
+InterCode SQL v21,spider-442,1.0,1.0,0.0
+InterCode SQL v21,spider-443,1.0,1.0,0.0
+InterCode SQL v21,spider-444,1.0,1.0,0.0
+InterCode SQL v21,spider-445,1.0,1.0,0.0
+InterCode SQL v21,spider-446,1.0,1.0,0.0
+InterCode SQL v21,spider-447,0.1,0.1,0.0
+InterCode SQL v21,spider-448,1.0,1.0,0.0
+InterCode SQL v21,spider-449,1.0,1.0,0.0
+InterCode SQL v21,spider-45,1.0,1.0,0.0
+InterCode SQL v21,spider-450,1.0,1.0,0.0
+InterCode SQL v21,spider-451,1.0,1.0,0.0
+InterCode SQL v21,spider-452,1.0,1.0,0.0
+InterCode SQL v21,spider-453,1.0,1.0,0.0
+InterCode SQL v21,spider-454,1.0,1.0,0.0
+InterCode SQL v21,spider-455,1.0,1.0,0.0
+InterCode SQL v21,spider-456,1.0,1.0,0.0
+InterCode SQL v21,spider-457,1.0,1.0,0.0
+InterCode SQL v21,spider-458,0.0,0.0,0.0
+InterCode SQL v21,spider-459,1.0,1.0,0.0
+InterCode SQL v21,spider-46,1.0,1.0,0.0
+InterCode SQL v21,spider-460,1.0,1.0,0.0
+InterCode SQL v21,spider-461,1.0,1.0,0.0
+InterCode SQL v21,spider-462,1.0,1.0,0.0
+InterCode SQL v21,spider-463,1.0,1.0,0.0
+InterCode SQL v21,spider-464,1.0,0.0,1.0
+InterCode SQL v21,spider-465,1.0,1.0,0.0
+InterCode SQL v21,spider-466,1.0,1.0,0.0
+InterCode SQL v21,spider-467,1.0,1.0,0.0
+InterCode SQL v21,spider-468,1.0,1.0,0.0
+InterCode SQL v21,spider-469,1.0,0.0,1.0
+InterCode SQL v21,spider-47,1.0,1.0,0.0
+InterCode SQL v21,spider-470,1.0,1.0,0.0
+InterCode SQL v21,spider-471,0.0,0.0,0.0
+InterCode SQL v21,spider-472,1.0,1.0,0.0
+InterCode SQL v21,spider-473,1.0,1.0,0.0
+InterCode SQL v21,spider-474,1.0,0.0,1.0
+InterCode SQL v21,spider-475,1.0,1.0,0.0
+InterCode SQL v21,spider-476,1.0,0.0,1.0
+InterCode SQL v21,spider-477,0.09,0.09,0.0
+InterCode SQL v21,spider-478,1.0,1.0,0.0
+InterCode SQL v21,spider-479,1.0,1.0,0.0
+InterCode SQL v21,spider-48,1.0,1.0,0.0
+InterCode SQL v21,spider-480,1.0,1.0,0.0
+InterCode SQL v21,spider-481,1.0,1.0,0.0
+InterCode SQL v21,spider-482,0.97,0.97,0.0
+InterCode SQL v21,spider-483,1.0,1.0,0.0
+InterCode SQL v21,spider-484,1.0,1.0,0.0
+InterCode SQL v21,spider-485,1.0,1.0,0.0
+InterCode SQL v21,spider-486,1.0,1.0,0.0
+InterCode SQL v21,spider-487,1.0,1.0,0.0
+InterCode SQL v21,spider-488,0.0,0.0,0.0
+InterCode SQL v21,spider-489,1.0,1.0,0.0
+InterCode SQL v21,spider-49,1.0,1.0,0.0
+InterCode SQL v21,spider-490,1.0,1.0,0.0
+InterCode SQL v21,spider-491,1.0,1.0,0.0
+InterCode SQL v21,spider-492,1.0,1.0,0.0
+InterCode SQL v21,spider-493,1.0,1.0,0.0
+InterCode SQL v21,spider-494,1.0,1.0,0.0
+InterCode SQL v21,spider-495,1.0,0.0,1.0
+InterCode SQL v21,spider-496,1.0,1.0,0.0
+InterCode SQL v21,spider-497,1.0,1.0,0.0
+InterCode SQL v21,spider-498,1.0,1.0,0.0
+InterCode SQL v21,spider-499,1.0,1.0,0.0
+InterCode SQL v21,spider-5,1.0,1.0,0.0
+InterCode SQL v21,spider-50,0.0,0.0,0.0
+InterCode SQL v21,spider-500,1.0,1.0,0.0
+InterCode SQL v21,spider-501,1.0,1.0,0.0
+InterCode SQL v21,spider-502,1.0,1.0,0.0
+InterCode SQL v21,spider-503,1.0,1.0,0.0
+InterCode SQL v21,spider-504,0.71,0.71,0.0
+InterCode SQL v21,spider-505,1.0,1.0,0.0
+InterCode SQL v21,spider-506,1.0,1.0,0.0
+InterCode SQL v21,spider-507,1.0,1.0,0.0
+InterCode SQL v21,spider-508,1.0,1.0,0.0
+InterCode SQL v21,spider-509,1.0,1.0,0.0
+InterCode SQL v21,spider-51,1.0,1.0,0.0
+InterCode SQL v21,spider-510,1.0,1.0,0.0
+InterCode SQL v21,spider-511,1.0,1.0,0.0
+InterCode SQL v21,spider-512,1.0,1.0,0.0
+InterCode SQL v21,spider-513,0.0,0.0,0.0
+InterCode SQL v21,spider-514,1.0,1.0,0.0
+InterCode SQL v21,spider-515,1.0,1.0,0.0
+InterCode SQL v21,spider-516,1.0,1.0,0.0
+InterCode SQL v21,spider-517,0.0,0.0,0.0
+InterCode SQL v21,spider-518,0.71,0.71,0.0
+InterCode SQL v21,spider-519,1.0,1.0,0.0
+InterCode SQL v21,spider-52,1.0,1.0,0.0
+InterCode SQL v21,spider-520,0.0,0.0,0.0
+InterCode SQL v21,spider-521,1.0,1.0,0.0
+InterCode SQL v21,spider-522,1.0,0.0,1.0
+InterCode SQL v21,spider-523,1.0,0.0,1.0
+InterCode SQL v21,spider-524,1.0,1.0,0.0
+InterCode SQL v21,spider-526,1.0,1.0,0.0
+InterCode SQL v21,spider-527,1.0,1.0,0.0
+InterCode SQL v21,spider-528,1.0,1.0,0.0
+InterCode SQL v21,spider-529,0.0,1.0,-1.0
+InterCode SQL v21,spider-53,1.0,1.0,0.0
+InterCode SQL v21,spider-530,1.0,1.0,0.0
+InterCode SQL v21,spider-532,1.0,1.0,0.0
+InterCode SQL v21,spider-533,1.0,1.0,0.0
+InterCode SQL v21,spider-534,1.0,1.0,0.0
+InterCode SQL v21,spider-535,0.0,0.0,0.0
+InterCode SQL v21,spider-536,1.0,1.0,0.0
+InterCode SQL v21,spider-537,1.0,1.0,0.0
+InterCode SQL v21,spider-538,1.0,1.0,0.0
+InterCode SQL v21,spider-539,1.0,1.0,0.0
+InterCode SQL v21,spider-540,1.0,1.0,0.0
+InterCode SQL v21,spider-541,1.0,1.0,0.0
+InterCode SQL v21,spider-542,0.0,0.0,0.0
+InterCode SQL v21,spider-543,1.0,1.0,0.0
+InterCode SQL v21,spider-544,1.0,1.0,0.0
+InterCode SQL v21,spider-545,0.86,0.86,0.0
+InterCode SQL v21,spider-546,1.0,1.0,0.0
+InterCode SQL v21,spider-547,1.0,1.0,0.0
+InterCode SQL v21,spider-548,1.0,1.0,0.0
+InterCode SQL v21,spider-549,1.0,1.0,0.0
+InterCode SQL v21,spider-55,1.0,1.0,0.0
+InterCode SQL v21,spider-550,1.0,1.0,0.0
+InterCode SQL v21,spider-551,0.0,0.0,0.0
+InterCode SQL v21,spider-552,1.0,1.0,0.0
+InterCode SQL v21,spider-553,1.0,1.0,0.0
+InterCode SQL v21,spider-554,1.0,1.0,0.0
+InterCode SQL v21,spider-555,1.0,1.0,0.0
+InterCode SQL v21,spider-556,0.0,0.0,0.0
+InterCode SQL v21,spider-557,1.0,1.0,0.0
+InterCode SQL v21,spider-558,1.0,1.0,0.0
+InterCode SQL v21,spider-559,1.0,1.0,0.0
+InterCode SQL v21,spider-56,1.0,1.0,0.0
+InterCode SQL v21,spider-560,1.0,1.0,0.0
+InterCode SQL v21,spider-561,1.0,1.0,0.0
+InterCode SQL v21,spider-562,1.0,1.0,0.0
+InterCode SQL v21,spider-563,1.0,1.0,0.0
+InterCode SQL v21,spider-564,0.0,0.0,0.0
+InterCode SQL v21,spider-565,1.0,1.0,0.0
+InterCode SQL v21,spider-566,1.0,1.0,0.0
+InterCode SQL v21,spider-567,1.0,1.0,0.0
+InterCode SQL v21,spider-568,1.0,1.0,0.0
+InterCode SQL v21,spider-569,1.0,1.0,0.0
+InterCode SQL v21,spider-57,1.0,1.0,0.0
+InterCode SQL v21,spider-570,1.0,1.0,0.0
+InterCode SQL v21,spider-571,0.0,0.0,0.0
+InterCode SQL v21,spider-572,1.0,1.0,0.0
+InterCode SQL v21,spider-573,1.0,1.0,0.0
+InterCode SQL v21,spider-574,1.0,1.0,0.0
+InterCode SQL v21,spider-575,1.0,1.0,0.0
+InterCode SQL v21,spider-576,1.0,1.0,0.0
+InterCode SQL v21,spider-577,1.0,1.0,0.0
+InterCode SQL v21,spider-578,0.0,1.0,-1.0
+InterCode SQL v21,spider-579,0.0,0.0,0.0
+InterCode SQL v21,spider-58,1.0,1.0,0.0
+InterCode SQL v21,spider-580,1.0,1.0,0.0
+InterCode SQL v21,spider-581,1.0,1.0,0.0
+InterCode SQL v21,spider-582,1.0,1.0,0.0
+InterCode SQL v21,spider-583,1.0,1.0,0.0
+InterCode SQL v21,spider-584,1.0,1.0,0.0
+InterCode SQL v21,spider-585,1.0,1.0,0.0
+InterCode SQL v21,spider-586,1.0,1.0,0.0
+InterCode SQL v21,spider-587,1.0,1.0,0.0
+InterCode SQL v21,spider-588,0.8,0.8,0.0
+InterCode SQL v21,spider-589,1.0,1.0,0.0
+InterCode SQL v21,spider-59,1.0,1.0,0.0
+InterCode SQL v21,spider-590,1.0,1.0,0.0
+InterCode SQL v21,spider-591,1.0,1.0,0.0
+InterCode SQL v21,spider-592,1.0,1.0,0.0
+InterCode SQL v21,spider-593,1.0,1.0,0.0
+InterCode SQL v21,spider-594,1.0,1.0,0.0
+InterCode SQL v21,spider-595,1.0,1.0,0.0
+InterCode SQL v21,spider-596,1.0,1.0,0.0
+InterCode SQL v21,spider-597,1.0,1.0,0.0
+InterCode SQL v21,spider-598,1.0,1.0,0.0
+InterCode SQL v21,spider-599,0.27,0.27,0.0
+InterCode SQL v21,spider-6,1.0,1.0,0.0
+InterCode SQL v21,spider-60,1.0,1.0,0.0
+InterCode SQL v21,spider-600,0.67,0.67,0.0
+InterCode SQL v21,spider-601,0.0,0.0,0.0
+InterCode SQL v21,spider-602,1.0,1.0,0.0
+InterCode SQL v21,spider-603,1.0,1.0,0.0
+InterCode SQL v21,spider-604,1.0,1.0,0.0
+InterCode SQL v21,spider-605,1.0,1.0,0.0
+InterCode SQL v21,spider-606,1.0,1.0,0.0
+InterCode SQL v21,spider-607,0.05,0.05,0.0
+InterCode SQL v21,spider-608,1.0,1.0,0.0
+InterCode SQL v21,spider-609,0.0,0.0,0.0
+InterCode SQL v21,spider-61,1.0,1.0,0.0
+InterCode SQL v21,spider-610,1.0,1.0,0.0
+InterCode SQL v21,spider-611,1.0,0.0,1.0
+InterCode SQL v21,spider-612,1.0,1.0,0.0
+InterCode SQL v21,spider-613,1.0,1.0,0.0
+InterCode SQL v21,spider-614,1.0,1.0,0.0
+InterCode SQL v21,spider-615,1.0,1.0,0.0
+InterCode SQL v21,spider-616,1.0,1.0,0.0
+InterCode SQL v21,spider-617,1.0,1.0,0.0
+InterCode SQL v21,spider-618,1.0,1.0,0.0
+InterCode SQL v21,spider-619,1.0,1.0,0.0
+InterCode SQL v21,spider-62,1.0,1.0,0.0
+InterCode SQL v21,spider-620,1.0,1.0,0.0
+InterCode SQL v21,spider-621,0.0,0.0,0.0
+InterCode SQL v21,spider-622,0.0,0.0,0.0
+InterCode SQL v21,spider-623,0.0,0.0,0.0
+InterCode SQL v21,spider-624,1.0,1.0,0.0
+InterCode SQL v21,spider-625,1.0,1.0,0.0
+InterCode SQL v21,spider-626,1.0,1.0,0.0
+InterCode SQL v21,spider-627,1.0,1.0,0.0
+InterCode SQL v21,spider-628,1.0,1.0,0.0
+InterCode SQL v21,spider-629,1.0,1.0,0.0
+InterCode SQL v21,spider-63,1.0,1.0,0.0
+InterCode SQL v21,spider-630,1.0,1.0,0.0
+InterCode SQL v21,spider-631,1.0,1.0,0.0
+InterCode SQL v21,spider-632,1.0,1.0,0.0
+InterCode SQL v21,spider-633,1.0,1.0,0.0
+InterCode SQL v21,spider-634,1.0,1.0,0.0
+InterCode SQL v21,spider-635,1.0,1.0,0.0
+InterCode SQL v21,spider-636,1.0,1.0,0.0
+InterCode SQL v21,spider-637,1.0,1.0,0.0
+InterCode SQL v21,spider-639,1.0,1.0,0.0
+InterCode SQL v21,spider-64,0.63,0.63,0.0
+InterCode SQL v21,spider-640,1.0,1.0,0.0
+InterCode SQL v21,spider-641,1.0,1.0,0.0
+InterCode SQL v21,spider-642,0.5,0.5,0.0
+InterCode SQL v21,spider-643,1.0,1.0,0.0
+InterCode SQL v21,spider-644,1.0,1.0,0.0
+InterCode SQL v21,spider-645,1.0,1.0,0.0
+InterCode SQL v21,spider-646,1.0,1.0,0.0
+InterCode SQL v21,spider-647,1.0,1.0,0.0
+InterCode SQL v21,spider-648,1.0,1.0,0.0
+InterCode SQL v21,spider-649,1.0,1.0,0.0
+InterCode SQL v21,spider-65,0.83,0.83,0.0
+InterCode SQL v21,spider-650,1.0,1.0,0.0
+InterCode SQL v21,spider-651,1.0,1.0,0.0
+InterCode SQL v21,spider-652,1.0,1.0,0.0
+InterCode SQL v21,spider-653,1.0,1.0,0.0
+InterCode SQL v21,spider-654,0.0,0.0,0.0
+InterCode SQL v21,spider-655,1.0,1.0,0.0
+InterCode SQL v21,spider-656,1.0,1.0,0.0
+InterCode SQL v21,spider-657,1.0,1.0,0.0
+InterCode SQL v21,spider-658,1.0,1.0,0.0
+InterCode SQL v21,spider-659,1.0,1.0,0.0
+InterCode SQL v21,spider-66,0.56,0.56,0.0
+InterCode SQL v21,spider-660,1.0,1.0,0.0
+InterCode SQL v21,spider-661,1.0,1.0,0.0
+InterCode SQL v21,spider-662,1.0,1.0,0.0
+InterCode SQL v21,spider-663,1.0,1.0,0.0
+InterCode SQL v21,spider-664,0.0,0.0,0.0
+InterCode SQL v21,spider-665,1.0,1.0,0.0
+InterCode SQL v21,spider-666,1.0,1.0,0.0
+InterCode SQL v21,spider-667,-0.12,0.58,-0.7
+InterCode SQL v21,spider-668,1.0,1.0,0.0
+InterCode SQL v21,spider-669,0.4,0.4,0.0
+InterCode SQL v21,spider-67,1.0,1.0,0.0
+InterCode SQL v21,spider-670,1.0,1.0,0.0
+InterCode SQL v21,spider-671,1.0,1.0,0.0
+InterCode SQL v21,spider-672,1.0,1.0,0.0
+InterCode SQL v21,spider-673,0.0,0.0,0.0
+InterCode SQL v21,spider-674,0.0,0.0,0.0
+InterCode SQL v21,spider-675,1.0,1.0,0.0
+InterCode SQL v21,spider-676,1.0,1.0,0.0
+InterCode SQL v21,spider-677,1.0,1.0,0.0
+InterCode SQL v21,spider-678,1.0,1.0,0.0
+InterCode SQL v21,spider-679,0.0,0.0,0.0
+InterCode SQL v21,spider-68,1.0,1.0,0.0
+InterCode SQL v21,spider-680,1.0,1.0,0.0
+InterCode SQL v21,spider-681,0.0,0.0,0.0
+InterCode SQL v21,spider-682,1.0,0.0,1.0
+InterCode SQL v21,spider-683,1.0,1.0,0.0
+InterCode SQL v21,spider-684,0.0,0.0,0.0
+InterCode SQL v21,spider-685,0.0,0.0,0.0
+InterCode SQL v21,spider-686,1.0,1.0,0.0
+InterCode SQL v21,spider-687,1.0,1.0,0.0
+InterCode SQL v21,spider-688,1.0,1.0,0.0
+InterCode SQL v21,spider-689,1.0,1.0,0.0
+InterCode SQL v21,spider-69,1.0,1.0,0.0
+InterCode SQL v21,spider-690,1.0,1.0,0.0
+InterCode SQL v21,spider-691,1.0,1.0,0.0
+InterCode SQL v21,spider-692,0.0,0.0,0.0
+InterCode SQL v21,spider-693,0.6,0.6,0.0
+InterCode SQL v21,spider-694,1.0,1.0,0.0
+InterCode SQL v21,spider-695,1.0,1.0,0.0
+InterCode SQL v21,spider-696,1.0,1.0,0.0
+InterCode SQL v21,spider-697,0.25,0.25,0.0
+InterCode SQL v21,spider-698,1.0,1.0,0.0
+InterCode SQL v21,spider-699,1.0,1.0,0.0
+InterCode SQL v21,spider-7,1.0,0.0,1.0
+InterCode SQL v21,spider-70,1.0,1.0,0.0
+InterCode SQL v21,spider-700,0.0,0.0,0.0
+InterCode SQL v21,spider-701,1.0,1.0,0.0
+InterCode SQL v21,spider-702,1.0,1.0,0.0
+InterCode SQL v21,spider-703,1.0,1.0,0.0
+InterCode SQL v21,spider-705,1.0,1.0,0.0
+InterCode SQL v21,spider-706,1.0,1.0,0.0
+InterCode SQL v21,spider-707,1.0,1.0,0.0
+InterCode SQL v21,spider-708,1.0,1.0,0.0
+InterCode SQL v21,spider-709,1.0,1.0,0.0
+InterCode SQL v21,spider-71,1.0,1.0,0.0
+InterCode SQL v21,spider-711,1.0,1.0,0.0
+InterCode SQL v21,spider-712,1.0,1.0,0.0
+InterCode SQL v21,spider-713,0.0,0.0,0.0
+InterCode SQL v21,spider-714,1.0,1.0,0.0
+InterCode SQL v21,spider-715,1.0,1.0,0.0
+InterCode SQL v21,spider-716,1.0,1.0,0.0
+InterCode SQL v21,spider-717,1.0,1.0,0.0
+InterCode SQL v21,spider-718,1.0,1.0,0.0
+InterCode SQL v21,spider-719,1.0,1.0,0.0
+InterCode SQL v21,spider-72,1.0,1.0,0.0
+InterCode SQL v21,spider-720,0.0,0.0,0.0
+InterCode SQL v21,spider-721,1.0,1.0,0.0
+InterCode SQL v21,spider-722,1.0,1.0,0.0
+InterCode SQL v21,spider-723,1.0,1.0,0.0
+InterCode SQL v21,spider-724,1.0,1.0,0.0
+InterCode SQL v21,spider-725,1.0,1.0,0.0
+InterCode SQL v21,spider-726,1.0,1.0,0.0
+InterCode SQL v21,spider-727,1.0,1.0,0.0
+InterCode SQL v21,spider-728,1.0,1.0,0.0
+InterCode SQL v21,spider-729,1.0,1.0,0.0
+InterCode SQL v21,spider-73,1.0,1.0,0.0
+InterCode SQL v21,spider-730,1.0,1.0,0.0
+InterCode SQL v21,spider-731,1.0,1.0,0.0
+InterCode SQL v21,spider-732,1.0,1.0,0.0
+InterCode SQL v21,spider-733,1.0,1.0,0.0
+InterCode SQL v21,spider-734,1.0,1.0,0.0
+InterCode SQL v21,spider-735,1.0,1.0,0.0
+InterCode SQL v21,spider-736,1.0,1.0,0.0
+InterCode SQL v21,spider-737,1.0,1.0,0.0
+InterCode SQL v21,spider-738,1.0,1.0,0.0
+InterCode SQL v21,spider-739,1.0,1.0,0.0
+InterCode SQL v21,spider-74,1.0,1.0,0.0
+InterCode SQL v21,spider-740,1.0,1.0,0.0
+InterCode SQL v21,spider-741,1.0,1.0,0.0
+InterCode SQL v21,spider-742,1.0,1.0,0.0
+InterCode SQL v21,spider-743,0.0,0.0,0.0
+InterCode SQL v21,spider-744,1.0,1.0,0.0
+InterCode SQL v21,spider-745,1.0,1.0,0.0
+InterCode SQL v21,spider-746,-0.07,-0.07,0.0
+InterCode SQL v21,spider-747,1.0,1.0,0.0
+InterCode SQL v21,spider-748,1.0,1.0,0.0
+InterCode SQL v21,spider-749,1.0,1.0,0.0
+InterCode SQL v21,spider-75,1.0,1.0,0.0
+InterCode SQL v21,spider-750,1.0,1.0,0.0
+InterCode SQL v21,spider-751,0.0,0.0,0.0
+InterCode SQL v21,spider-752,1.0,1.0,0.0
+InterCode SQL v21,spider-753,1.0,1.0,0.0
+InterCode SQL v21,spider-754,1.0,1.0,0.0
+InterCode SQL v21,spider-755,1.0,1.0,0.0
+InterCode SQL v21,spider-756,0.0,0.0,0.0
+InterCode SQL v21,spider-757,1.0,1.0,0.0
+InterCode SQL v21,spider-758,0.71,0.71,0.0
+InterCode SQL v21,spider-759,1.0,1.0,0.0
+InterCode SQL v21,spider-76,1.0,1.0,0.0
+InterCode SQL v21,spider-760,1.0,1.0,0.0
+InterCode SQL v21,spider-761,0.0,0.0,0.0
+InterCode SQL v21,spider-762,1.0,1.0,0.0
+InterCode SQL v21,spider-763,1.0,1.0,0.0
+InterCode SQL v21,spider-764,1.0,1.0,0.0
+InterCode SQL v21,spider-765,1.0,1.0,0.0
+InterCode SQL v21,spider-766,0.0,0.0,0.0
+InterCode SQL v21,spider-767,0.0,0.0,0.0
+InterCode SQL v21,spider-768,1.0,1.0,0.0
+InterCode SQL v21,spider-769,1.0,1.0,0.0
+InterCode SQL v21,spider-77,1.0,1.0,0.0
+InterCode SQL v21,spider-770,1.0,1.0,0.0
+InterCode SQL v21,spider-771,1.0,1.0,0.0
+InterCode SQL v21,spider-772,0.0,0.0,0.0
+InterCode SQL v21,spider-773,1.0,1.0,0.0
+InterCode SQL v21,spider-774,0.0,0.0,0.0
+InterCode SQL v21,spider-775,0.0,0.0,0.0
+InterCode SQL v21,spider-776,0.0,0.0,0.0
+InterCode SQL v21,spider-777,1.0,1.0,0.0
+InterCode SQL v21,spider-778,1.0,1.0,0.0
+InterCode SQL v21,spider-779,0.0,0.0,0.0
+InterCode SQL v21,spider-78,1.0,1.0,0.0
+InterCode SQL v21,spider-780,0.0,0.0,0.0
+InterCode SQL v21,spider-781,0.0,0.0,0.0
+InterCode SQL v21,spider-782,1.0,1.0,0.0
+InterCode SQL v21,spider-783,1.0,1.0,0.0
+InterCode SQL v21,spider-784,1.0,1.0,0.0
+InterCode SQL v21,spider-785,0.88,0.88,0.0
+InterCode SQL v21,spider-786,1.0,1.0,0.0
+InterCode SQL v21,spider-787,1.0,1.0,0.0
+InterCode SQL v21,spider-788,0.5,0.5,0.0
+InterCode SQL v21,spider-789,1.0,1.0,0.0
+InterCode SQL v21,spider-79,0.0,0.0,0.0
+InterCode SQL v21,spider-790,1.0,0.0,1.0
+InterCode SQL v21,spider-791,1.0,1.0,0.0
+InterCode SQL v21,spider-792,-0.36,1.0,-1.3599999999999999
+InterCode SQL v21,spider-793,1.0,1.0,0.0
+InterCode SQL v21,spider-794,1.0,1.0,0.0
+InterCode SQL v21,spider-795,1.0,1.0,0.0
+InterCode SQL v21,spider-796,1.0,1.0,0.0
+InterCode SQL v21,spider-797,1.0,1.0,0.0
+InterCode SQL v21,spider-799,1.0,1.0,0.0
+InterCode SQL v21,spider-8,1.0,1.0,0.0
+InterCode SQL v21,spider-80,1.0,1.0,0.0
+InterCode SQL v21,spider-800,1.0,1.0,0.0
+InterCode SQL v21,spider-801,1.0,1.0,0.0
+InterCode SQL v21,spider-804,0.0,0.0,0.0
+InterCode SQL v21,spider-805,0.0,0.0,0.0
+InterCode SQL v21,spider-806,1.0,1.0,0.0
+InterCode SQL v21,spider-807,1.0,1.0,0.0
+InterCode SQL v21,spider-808,1.0,1.0,0.0
+InterCode SQL v21,spider-809,0.1,0.1,0.0
+InterCode SQL v21,spider-81,1.0,1.0,0.0
+InterCode SQL v21,spider-810,1.0,1.0,0.0
+InterCode SQL v21,spider-811,0.0,0.0,0.0
+InterCode SQL v21,spider-812,1.0,1.0,0.0
+InterCode SQL v21,spider-813,1.0,1.0,0.0
+InterCode SQL v21,spider-814,1.0,1.0,0.0
+InterCode SQL v21,spider-815,1.0,1.0,0.0
+InterCode SQL v21,spider-816,1.0,1.0,0.0
+InterCode SQL v21,spider-817,1.0,1.0,0.0
+InterCode SQL v21,spider-818,1.0,1.0,0.0
+InterCode SQL v21,spider-819,1.0,1.0,0.0
+InterCode SQL v21,spider-82,1.0,1.0,0.0
+InterCode SQL v21,spider-820,1.0,1.0,0.0
+InterCode SQL v21,spider-821,1.0,1.0,0.0
+InterCode SQL v21,spider-822,1.0,1.0,0.0
+InterCode SQL v21,spider-823,1.0,1.0,0.0
+InterCode SQL v21,spider-824,1.0,1.0,0.0
+InterCode SQL v21,spider-825,1.0,0.0,1.0
+InterCode SQL v21,spider-826,1.0,1.0,0.0
+InterCode SQL v21,spider-827,0.0,0.0,0.0
+InterCode SQL v21,spider-828,1.0,1.0,0.0
+InterCode SQL v21,spider-829,1.0,1.0,0.0
+InterCode SQL v21,spider-830,1.0,1.0,0.0
+InterCode SQL v21,spider-831,1.0,1.0,0.0
+InterCode SQL v21,spider-832,1.0,1.0,0.0
+InterCode SQL v21,spider-833,1.0,1.0,0.0
+InterCode SQL v21,spider-834,1.0,1.0,0.0
+InterCode SQL v21,spider-835,1.0,1.0,0.0
+InterCode SQL v21,spider-836,1.0,1.0,0.0
+InterCode SQL v21,spider-837,0.0,0.0,0.0
+InterCode SQL v21,spider-838,1.0,1.0,0.0
+InterCode SQL v21,spider-839,0.0,0.0,0.0
+InterCode SQL v21,spider-84,1.0,1.0,0.0
+InterCode SQL v21,spider-840,0.0,0.0,0.0
+InterCode SQL v21,spider-841,1.0,1.0,0.0
+InterCode SQL v21,spider-842,1.0,1.0,0.0
+InterCode SQL v21,spider-843,1.0,1.0,0.0
+InterCode SQL v21,spider-844,1.0,1.0,0.0
+InterCode SQL v21,spider-845,1.0,1.0,0.0
+InterCode SQL v21,spider-846,1.0,1.0,0.0
+InterCode SQL v21,spider-847,0.0,0.0,0.0
+InterCode SQL v21,spider-848,1.0,1.0,0.0
+InterCode SQL v21,spider-849,1.0,1.0,0.0
+InterCode SQL v21,spider-85,0.0,0.0,0.0
+InterCode SQL v21,spider-851,1.0,0.0,1.0
+InterCode SQL v21,spider-852,1.0,1.0,0.0
+InterCode SQL v21,spider-853,1.0,1.0,0.0
+InterCode SQL v21,spider-854,1.0,1.0,0.0
+InterCode SQL v21,spider-855,1.0,1.0,0.0
+InterCode SQL v21,spider-856,0.25,0.25,0.0
+InterCode SQL v21,spider-857,1.0,1.0,0.0
+InterCode SQL v21,spider-858,0.83,0.83,0.0
+InterCode SQL v21,spider-859,1.0,1.0,0.0
+InterCode SQL v21,spider-86,1.0,1.0,0.0
+InterCode SQL v21,spider-860,1.0,1.0,0.0
+InterCode SQL v21,spider-861,1.0,1.0,0.0
+InterCode SQL v21,spider-862,0.5,0.5,0.0
+InterCode SQL v21,spider-863,1.0,1.0,0.0
+InterCode SQL v21,spider-864,1.0,1.0,0.0
+InterCode SQL v21,spider-865,0.88,0.88,0.0
+InterCode SQL v21,spider-866,1.0,1.0,0.0
+InterCode SQL v21,spider-867,1.0,1.0,0.0
+InterCode SQL v21,spider-868,1.0,1.0,0.0
+InterCode SQL v21,spider-869,0.0,0.0,0.0
+InterCode SQL v21,spider-87,1.0,1.0,0.0
+InterCode SQL v21,spider-870,1.0,1.0,0.0
+InterCode SQL v21,spider-871,1.0,1.0,0.0
+InterCode SQL v21,spider-872,0.97,0.97,0.0
+InterCode SQL v21,spider-873,0.33,0.33,0.0
+InterCode SQL v21,spider-874,0.16666666666666666,1.0,-0.8333333333333334
+InterCode SQL v21,spider-875,1.0,1.0,0.0
+InterCode SQL v21,spider-876,0.3333333333333333,1.0,-0.6666666666666667
+InterCode SQL v21,spider-877,1.0,1.0,0.0
+InterCode SQL v21,spider-878,1.0,1.0,0.0
+InterCode SQL v21,spider-879,1.0,1.0,0.0
+InterCode SQL v21,spider-88,1.0,1.0,0.0
+InterCode SQL v21,spider-880,1.0,1.0,0.0
+InterCode SQL v21,spider-881,1.0,1.0,0.0
+InterCode SQL v21,spider-882,1.0,1.0,0.0
+InterCode SQL v21,spider-883,1.0,1.0,0.0
+InterCode SQL v21,spider-884,1.0,1.0,0.0
+InterCode SQL v21,spider-885,0.71,0.71,0.0
+InterCode SQL v21,spider-886,0.12,0.12,0.0
+InterCode SQL v21,spider-887,1.0,1.0,0.0
+InterCode SQL v21,spider-888,0.0,0.0,0.0
+InterCode SQL v21,spider-889,0.0,0.0,0.0
+InterCode SQL v21,spider-89,1.0,1.0,0.0
+InterCode SQL v21,spider-890,1.0,1.0,0.0
+InterCode SQL v21,spider-891,1.0,1.0,0.0
+InterCode SQL v21,spider-893,1.0,1.0,0.0
+InterCode SQL v21,spider-894,1.0,1.0,0.0
+InterCode SQL v21,spider-895,1.0,1.0,0.0
+InterCode SQL v21,spider-896,1.0,1.0,0.0
+InterCode SQL v21,spider-897,1.0,1.0,0.0
+InterCode SQL v21,spider-898,1.0,1.0,0.0
+InterCode SQL v21,spider-899,0.0,0.0,0.0
+InterCode SQL v21,spider-9,1.0,1.0,0.0
+InterCode SQL v21,spider-90,0.0,1.0,-1.0
+InterCode SQL v21,spider-900,0.87,0.87,0.0
+InterCode SQL v21,spider-901,1.0,1.0,0.0
+InterCode SQL v21,spider-902,1.0,1.0,0.0
+InterCode SQL v21,spider-903,0.0,1.0,-1.0
+InterCode SQL v21,spider-904,1.0,1.0,0.0
+InterCode SQL v21,spider-905,1.0,1.0,0.0
+InterCode SQL v21,spider-906,1.0,1.0,0.0
+InterCode SQL v21,spider-907,0.87,0.87,0.0
+InterCode SQL v21,spider-908,1.0,1.0,0.0
+InterCode SQL v21,spider-909,1.0,1.0,0.0
+InterCode SQL v21,spider-91,1.0,1.0,0.0
+InterCode SQL v21,spider-910,0.0,0.0,0.0
+InterCode SQL v21,spider-911,1.0,1.0,0.0
+InterCode SQL v21,spider-912,1.0,1.0,0.0
+InterCode SQL v21,spider-913,1.0,1.0,0.0
+InterCode SQL v21,spider-914,1.0,1.0,0.0
+InterCode SQL v21,spider-915,1.0,1.0,0.0
+InterCode SQL v21,spider-916,1.0,1.0,0.0
+InterCode SQL v21,spider-917,1.0,1.0,0.0
+InterCode SQL v21,spider-918,1.0,1.0,0.0
+InterCode SQL v21,spider-919,1.0,1.0,0.0
+InterCode SQL v21,spider-92,1.0,1.0,0.0
+InterCode SQL v21,spider-920,1.0,1.0,0.0
+InterCode SQL v21,spider-921,1.0,1.0,0.0
+InterCode SQL v21,spider-922,1.0,1.0,0.0
+InterCode SQL v21,spider-923,1.0,1.0,0.0
+InterCode SQL v21,spider-924,1.0,1.0,0.0
+InterCode SQL v21,spider-925,0.71,0.71,0.0
+InterCode SQL v21,spider-926,0.0,0.0,0.0
+InterCode SQL v21,spider-927,1.0,1.0,0.0
+InterCode SQL v21,spider-928,1.0,1.0,0.0
+InterCode SQL v21,spider-929,1.0,1.0,0.0
+InterCode SQL v21,spider-93,1.0,1.0,0.0
+InterCode SQL v21,spider-930,1.0,1.0,0.0
+InterCode SQL v21,spider-931,1.0,1.0,0.0
+InterCode SQL v21,spider-932,0.0,0.0,0.0
+InterCode SQL v21,spider-933,1.0,1.0,0.0
+InterCode SQL v21,spider-934,1.0,1.0,0.0
+InterCode SQL v21,spider-935,1.0,1.0,0.0
+InterCode SQL v21,spider-936,1.0,1.0,0.0
+InterCode SQL v21,spider-937,1.0,1.0,0.0
+InterCode SQL v21,spider-938,1.0,1.0,0.0
+InterCode SQL v21,spider-939,1.0,1.0,0.0
+InterCode SQL v21,spider-94,1.0,1.0,0.0
+InterCode SQL v21,spider-940,1.0,1.0,0.0
+InterCode SQL v21,spider-941,1.0,1.0,0.0
+InterCode SQL v21,spider-943,1.0,1.0,0.0
+InterCode SQL v21,spider-944,1.0,1.0,0.0
+InterCode SQL v21,spider-945,1.0,1.0,0.0
+InterCode SQL v21,spider-946,1.0,1.0,0.0
+InterCode SQL v21,spider-947,1.0,1.0,0.0
+InterCode SQL v21,spider-948,1.0,1.0,0.0
+InterCode SQL v21,spider-949,1.0,1.0,0.0
+InterCode SQL v21,spider-95,1.0,1.0,0.0
+InterCode SQL v21,spider-950,1.0,1.0,0.0
+InterCode SQL v21,spider-951,1.0,1.0,0.0
+InterCode SQL v21,spider-952,1.0,1.0,0.0
+InterCode SQL v21,spider-953,1.0,1.0,0.0
+InterCode SQL v21,spider-954,1.0,1.0,0.0
+InterCode SQL v21,spider-955,1.0,1.0,0.0
+InterCode SQL v21,spider-956,1.0,1.0,0.0
+InterCode SQL v21,spider-957,1.0,1.0,0.0
+InterCode SQL v21,spider-958,1.0,1.0,0.0
+InterCode SQL v21,spider-959,0.0,0.0,0.0
+InterCode SQL v21,spider-96,1.0,1.0,0.0
+InterCode SQL v21,spider-960,0.33,-0.07,0.4
+InterCode SQL v21,spider-961,1.0,1.0,0.0
+InterCode SQL v21,spider-962,1.0,1.0,0.0
+InterCode SQL v21,spider-963,1.0,1.0,0.0
+InterCode SQL v21,spider-964,1.0,0.0,1.0
+InterCode SQL v21,spider-965,1.0,1.0,0.0
+InterCode SQL v21,spider-966,1.0,1.0,0.0
+InterCode SQL v21,spider-968,1.0,1.0,0.0
+InterCode SQL v21,spider-969,1.0,1.0,0.0
+InterCode SQL v21,spider-97,1.0,1.0,0.0
+InterCode SQL v21,spider-970,1.0,1.0,0.0
+InterCode SQL v21,spider-971,1.0,1.0,0.0
+InterCode SQL v21,spider-972,1.0,1.0,0.0
+InterCode SQL v21,spider-973,1.0,1.0,0.0
+InterCode SQL v21,spider-974,1.0,1.0,0.0
+InterCode SQL v21,spider-975,1.0,1.0,0.0
+InterCode SQL v21,spider-976,1.0,1.0,0.0
+InterCode SQL v21,spider-977,1.0,1.0,0.0
+InterCode SQL v21,spider-978,0.0,0.0,0.0
+InterCode SQL v21,spider-979,1.0,1.0,0.0
+InterCode SQL v21,spider-98,1.0,1.0,0.0
+InterCode SQL v21,spider-980,1.0,1.0,0.0
+InterCode SQL v21,spider-981,0.0,0.0,0.0
+InterCode SQL v21,spider-982,1.0,0.0,1.0
+InterCode SQL v21,spider-983,1.0,1.0,0.0
+InterCode SQL v21,spider-984,1.0,1.0,0.0
+InterCode SQL v21,spider-985,0.73,0.0,0.73
+InterCode SQL v21,spider-986,1.0,1.0,0.0
+InterCode SQL v21,spider-987,0.0,0.0,0.0
+InterCode SQL v21,spider-988,1.0,1.0,0.0
+InterCode SQL v21,spider-989,1.0,1.0,0.0
+InterCode SQL v21,spider-99,1.0,1.0,0.0
+InterCode SQL v21,spider-990,1.0,1.0,0.0
+InterCode SQL v21,spider-991,1.0,1.0,0.0
+InterCode SQL v21,spider-992,1.0,1.0,0.0
+InterCode SQL v21,spider-993,1.0,1.0,0.0
+InterCode SQL v21,spider-994,-1.0,-1.0,0.0
+InterCode SQL v21,spider-995,1.0,1.0,0.0
+InterCode SQL v21,spider-996,1.0,1.0,0.0
+InterCode SQL v21,spider-997,0.0,0.0,0.0
+InterCode SQL v21,spider-998,1.0,1.0,0.0
+InterCode SQL v21,spider-999,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-0,1.0,0.67,0.32999999999999996
+InterCode Bash,nl2bash-fs1-1,0.39,1.0,-0.61
+InterCode Bash,nl2bash-fs1-10,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-11,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs1-12,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs1-13,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-14,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-15,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs1-16,0.62,0.69,-0.06999999999999995
+InterCode Bash,nl2bash-fs1-17,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs1-18,0.39,0.39,0.0
+InterCode Bash,nl2bash-fs1-19,0.39,0.39,0.0
+InterCode Bash,nl2bash-fs1-2,0.39,0.86,-0.47
+InterCode Bash,nl2bash-fs1-20,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-21,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-22,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-23,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-24,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-25,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-26,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs1-27,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-28,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs1-29,1.0,0.72,0.28
+InterCode Bash,nl2bash-fs1-3,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-30,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-31,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-32,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-33,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-34,0.92,1.0,-0.07999999999999996
+InterCode Bash,nl2bash-fs1-35,0.92,0.97,-0.04999999999999993
+InterCode Bash,nl2bash-fs1-36,0.94,0.67,0.2699999999999999
+InterCode Bash,nl2bash-fs1-37,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-38,0.67,0.75,-0.07999999999999996
+InterCode Bash,nl2bash-fs1-39,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-4,1.0,0.67,0.32999999999999996
+InterCode Bash,nl2bash-fs1-40,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-41,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-42,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-43,0.55,0.55,0.0
+InterCode Bash,nl2bash-fs1-44,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-45,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs1-46,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs1-47,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-48,0.78,0.78,0.0
+InterCode Bash,nl2bash-fs1-49,0.76,0.76,0.0
+InterCode Bash,nl2bash-fs1-5,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs1-50,0.8,0.8,0.0
+InterCode Bash,nl2bash-fs1-51,0.82,0.8,0.019999999999999907
+InterCode Bash,nl2bash-fs1-52,0.87,0.87,0.0
+InterCode Bash,nl2bash-fs1-53,0.83,0.67,0.15999999999999992
+InterCode Bash,nl2bash-fs1-54,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs1-55,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-56,1.0,0.67,0.32999999999999996
+InterCode Bash,nl2bash-fs1-57,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs1-58,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-59,0.93,0.93,0.0
+InterCode Bash,nl2bash-fs1-6,0.78,0.78,0.0
+InterCode Bash,nl2bash-fs1-7,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-8,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs1-9,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-0,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs2-1,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs2-10,0.97,0.72,0.25
+InterCode Bash,nl2bash-fs2-11,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs2-12,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-13,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-14,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-15,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-16,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-17,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-18,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-19,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-2,1.0,0.99,0.010000000000000009
+InterCode Bash,nl2bash-fs2-20,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-21,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-22,0.42,0.39,0.02999999999999997
+InterCode Bash,nl2bash-fs2-23,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs2-24,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-25,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-26,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-27,1.0,0.67,0.32999999999999996
+InterCode Bash,nl2bash-fs2-28,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs2-29,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs2-3,0.9,0.9,0.0
+InterCode Bash,nl2bash-fs2-30,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-31,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-32,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-33,0.39,0.39,0.0
+InterCode Bash,nl2bash-fs2-34,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs2-35,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-36,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-37,0.69,0.69,0.0
+InterCode Bash,nl2bash-fs2-38,0.98,0.67,0.30999999999999994
+InterCode Bash,nl2bash-fs2-39,0.43,0.34,0.08999999999999997
+InterCode Bash,nl2bash-fs2-4,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-40,0.39,0.39,0.0
+InterCode Bash,nl2bash-fs2-41,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-42,0.84,0.8,0.039999999999999925
+InterCode Bash,nl2bash-fs2-43,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-44,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs2-45,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs2-46,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-47,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-48,0.78,0.78,0.0
+InterCode Bash,nl2bash-fs2-49,0.67,0.39,0.28
+InterCode Bash,nl2bash-fs2-5,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs2-50,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs2-51,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs2-52,0.78,0.76,0.020000000000000018
+InterCode Bash,nl2bash-fs2-6,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-7,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-8,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs2-9,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-0,1.0,0.67,0.32999999999999996
+InterCode Bash,nl2bash-fs3-1,1.0,0.93,0.06999999999999995
+InterCode Bash,nl2bash-fs3-10,0.71,0.67,0.039999999999999925
+InterCode Bash,nl2bash-fs3-11,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-12,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-13,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-14,0.8,0.8,0.0
+InterCode Bash,nl2bash-fs3-15,1.0,0.82,0.18000000000000005
+InterCode Bash,nl2bash-fs3-16,0.83,0.83,0.0
+InterCode Bash,nl2bash-fs3-17,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-18,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-19,0.34,0.49,-0.14999999999999997
+InterCode Bash,nl2bash-fs3-2,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-20,0.91,0.91,0.0
+InterCode Bash,nl2bash-fs3-21,0.74,0.74,0.0
+InterCode Bash,nl2bash-fs3-22,0.68,0.68,0.0
+InterCode Bash,nl2bash-fs3-23,0.96,0.95,0.010000000000000009
+InterCode Bash,nl2bash-fs3-24,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-25,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-26,0.81,0.81,0.0
+InterCode Bash,nl2bash-fs3-27,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-28,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-29,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs3-3,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-30,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-31,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-32,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-33,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-34,0.89,0.89,0.0
+InterCode Bash,nl2bash-fs3-35,0.99,0.67,0.31999999999999995
+InterCode Bash,nl2bash-fs3-36,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-37,0.86,0.67,0.18999999999999995
+InterCode Bash,nl2bash-fs3-38,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs3-39,0.67,1.0,-0.32999999999999996
+InterCode Bash,nl2bash-fs3-4,0.97,0.74,0.22999999999999998
+InterCode Bash,nl2bash-fs3-40,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-41,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-42,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-43,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-44,0.68,0.9,-0.21999999999999997
+InterCode Bash,nl2bash-fs3-45,0.95,0.95,0.0
+InterCode Bash,nl2bash-fs3-46,0.91,0.9,0.010000000000000009
+InterCode Bash,nl2bash-fs3-47,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-48,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-49,0.99,0.97,0.020000000000000018
+InterCode Bash,nl2bash-fs3-5,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-50,0.78,0.72,0.06000000000000005
+InterCode Bash,nl2bash-fs3-51,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-52,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-53,0.39,0.39,0.0
+InterCode Bash,nl2bash-fs3-54,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-55,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-56,0.39,0.39,0.0
+InterCode Bash,nl2bash-fs3-57,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs3-58,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-59,0.34,0.34,0.0
+InterCode Bash,nl2bash-fs3-6,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs3-7,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs3-8,0.93,0.93,0.0
+InterCode Bash,nl2bash-fs3-9,1.0,0.98,0.020000000000000018
+InterCode Bash,nl2bash-fs4-0,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-1,0.69,0.73,-0.040000000000000036
+InterCode Bash,nl2bash-fs4-10,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-11,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-12,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-13,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-14,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-15,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-16,0.73,0.78,-0.050000000000000044
+InterCode Bash,nl2bash-fs4-17,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-18,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-19,0.39,0.67,-0.28
+InterCode Bash,nl2bash-fs4-2,0.74,0.74,0.0
+InterCode Bash,nl2bash-fs4-20,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-21,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-22,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-23,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-24,1.0,0.67,0.32999999999999996
+InterCode Bash,nl2bash-fs4-25,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-26,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-3,1.0,1.0,0.0
+InterCode Bash,nl2bash-fs4-4,0.69,0.69,0.0
+InterCode Bash,nl2bash-fs4-5,0.71,0.73,-0.020000000000000018
+InterCode Bash,nl2bash-fs4-6,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-7,0.67,0.67,0.0
+InterCode Bash,nl2bash-fs4-8,1.0,0.67,0.32999999999999996
+InterCode Bash,nl2bash-fs4-9,1.0,1.0,0.0
+τ-bench,airline-0,1.0,1.0,0.0
+τ-bench,airline-1,1.0,1.0,0.0
+τ-bench,airline-10,0.0,0.0,0.0
+τ-bench,airline-11,1.0,1.0,0.0
+τ-bench,airline-12,1.0,1.0,0.0
+τ-bench,airline-13,0.0,1.0,-1.0
+τ-bench,airline-14,1.0,1.0,0.0
+τ-bench,airline-15,0.0,0.0,0.0
+τ-bench,airline-16,0.0,0.0,0.0
+τ-bench,airline-17,0.0,0.0,0.0
+τ-bench,airline-18,1.0,1.0,0.0
+τ-bench,airline-19,0.0,0.0,0.0
+τ-bench,airline-2,0.0,1.0,-1.0
+τ-bench,airline-20,1.0,1.0,0.0
+τ-bench,airline-21,1.0,0.0,1.0
+τ-bench,airline-22,0.0,0.0,0.0
+τ-bench,airline-23,0.0,0.0,0.0
+τ-bench,airline-24,1.0,0.0,1.0
+τ-bench,airline-25,0.0,0.0,0.0
+τ-bench,airline-26,0.0,0.0,0.0
+τ-bench,airline-27,0.0,0.0,0.0
+τ-bench,airline-28,0.0,0.0,0.0
+τ-bench,airline-29,1.0,1.0,0.0
+τ-bench,airline-3,1.0,1.0,0.0
+τ-bench,airline-30,1.0,1.0,0.0
+τ-bench,airline-31,0.0,0.0,0.0
+τ-bench,airline-32,1.0,0.0,1.0
+τ-bench,airline-33,0.0,0.0,0.0
+τ-bench,airline-34,0.0,0.0,0.0
+τ-bench,airline-35,1.0,1.0,0.0
+τ-bench,airline-36,1.0,0.0,1.0
+τ-bench,airline-37,1.0,1.0,0.0
+τ-bench,airline-38,1.0,1.0,0.0
+τ-bench,airline-39,0.0,0.0,0.0
+τ-bench,airline-4,0.0,0.0,0.0
+τ-bench,airline-40,1.0,1.0,0.0
+τ-bench,airline-41,1.0,1.0,0.0
+τ-bench,airline-42,1.0,1.0,0.0
+τ-bench,airline-43,1.0,1.0,0.0
+τ-bench,airline-44,1.0,1.0,0.0
+τ-bench,airline-45,0.0,0.0,0.0
+τ-bench,airline-46,0.0,0.0,0.0
+τ-bench,airline-47,1.0,1.0,0.0
+τ-bench,airline-48,1.0,1.0,0.0
+τ-bench,airline-49,1.0,1.0,0.0
+τ-bench,airline-5,1.0,0.0,1.0
+τ-bench,airline-6,1.0,1.0,0.0
+τ-bench,airline-7,1.0,1.0,0.0
+τ-bench,airline-8,1.0,1.0,0.0
+τ-bench,airline-9,0.0,0.0,0.0
+τ-bench,retail-0,1.0,1.0,0.0
+τ-bench,retail-1,1.0,1.0,0.0
+τ-bench,retail-10,1.0,1.0,0.0
+τ-bench,retail-100,1.0,1.0,0.0
+τ-bench,retail-101,0.0,0.0,0.0
+τ-bench,retail-102,1.0,1.0,0.0
+τ-bench,retail-103,1.0,1.0,0.0
+τ-bench,retail-104,1.0,1.0,0.0
+τ-bench,retail-105,0.0,0.0,0.0
+τ-bench,retail-106,1.0,0.0,1.0
+τ-bench,retail-107,1.0,1.0,0.0
+τ-bench,retail-108,0.0,0.0,0.0
+τ-bench,retail-109,1.0,1.0,0.0
+τ-bench,retail-11,1.0,1.0,0.0
+τ-bench,retail-110,1.0,1.0,0.0
+τ-bench,retail-111,1.0,1.0,0.0
+τ-bench,retail-112,1.0,1.0,0.0
+τ-bench,retail-113,1.0,1.0,0.0
+τ-bench,retail-114,1.0,1.0,0.0
+τ-bench,retail-12,1.0,1.0,0.0
+τ-bench,retail-13,1.0,1.0,0.0
+τ-bench,retail-14,1.0,1.0,0.0
+τ-bench,retail-15,1.0,1.0,0.0
+τ-bench,retail-16,1.0,1.0,0.0
+τ-bench,retail-17,1.0,1.0,0.0
+τ-bench,retail-18,0.0,0.0,0.0
+τ-bench,retail-19,1.0,1.0,0.0
+τ-bench,retail-2,1.0,1.0,0.0
+τ-bench,retail-20,1.0,1.0,0.0
+τ-bench,retail-21,1.0,1.0,0.0
+τ-bench,retail-22,1.0,0.0,1.0
+τ-bench,retail-23,1.0,1.0,0.0
+τ-bench,retail-24,1.0,1.0,0.0
+τ-bench,retail-25,1.0,1.0,0.0
+τ-bench,retail-26,1.0,1.0,0.0
+τ-bench,retail-27,1.0,1.0,0.0
+τ-bench,retail-28,1.0,1.0,0.0
+τ-bench,retail-29,1.0,1.0,0.0
+τ-bench,retail-3,1.0,1.0,0.0
+τ-bench,retail-30,1.0,1.0,0.0
+τ-bench,retail-31,0.0,1.0,-1.0
+τ-bench,retail-32,1.0,1.0,0.0
+τ-bench,retail-33,1.0,1.0,0.0
+τ-bench,retail-34,0.0,0.0,0.0
+τ-bench,retail-35,1.0,1.0,0.0
+τ-bench,retail-36,1.0,1.0,0.0
+τ-bench,retail-37,1.0,1.0,0.0
+τ-bench,retail-38,0.0,0.0,0.0
+τ-bench,retail-39,1.0,0.0,1.0
+τ-bench,retail-4,1.0,1.0,0.0
+τ-bench,retail-40,1.0,1.0,0.0
+τ-bench,retail-41,1.0,1.0,0.0
+τ-bench,retail-42,1.0,1.0,0.0
+τ-bench,retail-43,0.0,1.0,-1.0
+τ-bench,retail-44,1.0,1.0,0.0
+τ-bench,retail-45,1.0,1.0,0.0
+τ-bench,retail-46,1.0,1.0,0.0
+τ-bench,retail-47,0.0,1.0,-1.0
+τ-bench,retail-48,1.0,1.0,0.0
+τ-bench,retail-49,1.0,0.0,1.0
+τ-bench,retail-5,1.0,1.0,0.0
+τ-bench,retail-50,1.0,1.0,0.0
+τ-bench,retail-51,1.0,1.0,0.0
+τ-bench,retail-52,0.0,0.0,0.0
+τ-bench,retail-53,1.0,1.0,0.0
+τ-bench,retail-54,0.0,0.0,0.0
+τ-bench,retail-55,1.0,1.0,0.0
+τ-bench,retail-56,1.0,1.0,0.0
+τ-bench,retail-57,1.0,1.0,0.0
+τ-bench,retail-58,1.0,1.0,0.0
+τ-bench,retail-59,0.0,0.0,0.0
+τ-bench,retail-6,1.0,0.0,1.0
+τ-bench,retail-60,1.0,1.0,0.0
+τ-bench,retail-61,1.0,1.0,0.0
+τ-bench,retail-62,1.0,1.0,0.0
+τ-bench,retail-63,0.0,1.0,-1.0
+τ-bench,retail-64,1.0,1.0,0.0
+τ-bench,retail-65,1.0,1.0,0.0
+τ-bench,retail-66,1.0,0.0,1.0
+τ-bench,retail-67,0.0,1.0,-1.0
+τ-bench,retail-68,1.0,1.0,0.0
+τ-bench,retail-69,1.0,1.0,0.0
+τ-bench,retail-7,1.0,1.0,0.0
+τ-bench,retail-70,1.0,1.0,0.0
+τ-bench,retail-71,1.0,1.0,0.0
+τ-bench,retail-72,1.0,0.0,1.0
+τ-bench,retail-73,1.0,1.0,0.0
+τ-bench,retail-74,1.0,0.0,1.0
+τ-bench,retail-75,1.0,1.0,0.0
+τ-bench,retail-76,1.0,1.0,0.0
+τ-bench,retail-77,1.0,1.0,0.0
+τ-bench,retail-78,1.0,1.0,0.0
+τ-bench,retail-79,0.0,0.0,0.0
+τ-bench,retail-8,1.0,1.0,0.0
+τ-bench,retail-80,1.0,1.0,0.0
+τ-bench,retail-81,1.0,1.0,0.0
+τ-bench,retail-82,1.0,1.0,0.0
+τ-bench,retail-83,1.0,1.0,0.0
+τ-bench,retail-84,1.0,1.0,0.0
+τ-bench,retail-85,1.0,1.0,0.0
+τ-bench,retail-86,1.0,1.0,0.0
+τ-bench,retail-87,1.0,1.0,0.0
+τ-bench,retail-88,1.0,1.0,0.0
+τ-bench,retail-89,1.0,1.0,0.0
+τ-bench,retail-9,1.0,1.0,0.0
+τ-bench,retail-90,1.0,1.0,0.0
+τ-bench,retail-91,0.0,0.0,0.0
+τ-bench,retail-92,1.0,1.0,0.0
+τ-bench,retail-93,1.0,0.0,1.0
+τ-bench,retail-94,1.0,1.0,0.0
+τ-bench,retail-95,0.0,0.0,0.0
+τ-bench,retail-96,1.0,1.0,0.0
+τ-bench,retail-97,1.0,1.0,0.0
+τ-bench,retail-98,1.0,1.0,0.0
+τ-bench,retail-99,0.0,0.0,0.0

@@ -1,0 +1,76 @@
+[
+  {
+    "bench": "bash",
+    "hash": "99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e",
+    "root": "/benchmark/janus-rerun-20261025/variants/99c92975af4c74d7f0022c801391c75531b6c71c60f649a21b6539d9948f344e",
+    "n": 30,
+    "sum": 27.010000000000005,
+    "complete": true,
+    "holdDrops": [
+      "nl2bash-fs2-41",
+      "nl2bash-fs2-48"
+    ],
+    "gapNetIncrease": "3.10",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "2a5b681390a37b771b6567b9299559c74e4e0b455a7eaca2bbe732c96f3f265f",
+    "at": 1792919432.5361276,
+    "paperReady": false
+  },
+  {
+    "bench": "bash",
+    "hash": "26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b",
+    "root": "/benchmark/janus-rerun-20261025/variants/26bf6cb403540bb27f577e705ec227ed4b0e5ecf684192bf81cfa7a1b89fae9b",
+    "n": 30,
+    "sum": 24.240000000000006,
+    "complete": true,
+    "holdDrops": [
+      "nl2bash-fs1-1",
+      "nl2bash-fs1-5",
+      "nl2bash-fs2-1",
+      "nl2bash-fs2-11",
+      "nl2bash-fs2-41",
+      "nl2bash-fs2-48"
+    ],
+    "gapNetIncrease": "1.59",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "916a7f723d23ea485917939bc94f5d6af434f1462731658747b89594d88417ca",
+    "at": 1792919432.9242656,
+    "paperReady": false
+  },
+  {
+    "bench": "bash",
+    "hash": "9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0",
+    "root": "/benchmark/janus-rerun-20261025/variants/9c602fe0d47eddfe4c0b785084b0f35be387803d56b1d5b62af58868d130c6d0",
+    "n": 2,
+    "sum": 1.8199999999999998,
+    "complete": false,
+    "holdDrops": [
+      "nl2bash-fs1-4"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "02fa0d14e4d8a1de00fd6a2421c94707cbe850db6fccd4d61107b56e21c5c791",
+    "at": 1792919433.3087065,
+    "paperReady": false
+  },
+  {
+    "bench": "bash",
+    "hash": "f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97",
+    "root": "/benchmark/janus-rerun-20261025/variants/f07a02ee3a44446c6a6bc45fb5b51a03d92ee1d6fb333b56423b1767ea14be97",
+    "n": 1,
+    "sum": 0.7,
+    "complete": false,
+    "holdDrops": [
+      "nl2bash-fs1-1"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "569a943685e770a695e44cd88b312ea792793c7421386a6786f9ec123a098c36",
+    "at": 1792919433.662266,
+    "paperReady": false
+  }
+]

@@ -1,0 +1,417 @@
+{
+  "goldRead": false,
+  "newModelCalls": 0,
+  "newGraderCalls": 0,
+  "reports": [
+    {
+      "id": "spider-866",
+      "publicQuestion": "What are the record companies of orchestras in descending order of years in which they were founded?",
+      "publicSchema": {
+        "conductor": [
+          "Conductor_ID",
+          "Name",
+          "Age",
+          "Nationality",
+          "Year_of_Work"
+        ],
+        "orchestra": [
+          "Orchestra_ID",
+          "Orchestra",
+          "Conductor_ID",
+          "Record_Company",
+          "Year_of_Founded",
+          "Major_Record_Format"
+        ],
+        "performance": [
+          "Performance_ID",
+          "Orchestra_ID",
+          "Type",
+          "Date",
+          "Official_ratings_(millions)",
+          "Weekly_rank",
+          "Share"
+        ],
+        "show": [
+          "Show_ID",
+          "Performance_ID",
+          "If_first_show",
+          "Result",
+          "Attendance"
+        ]
+      },
+      "contractValid": false,
+      "contractText": "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"record companies of orchestras\",\n      \"semantic_owner\": \"orchestra\",\n      \"schema_expression\": \"orchestra.Record_Company\"\n    }\n  ],\n  \"row_constraints\": [],\n  \"grouping\": [],\n  \"ordering\": [\n    {\n      \"attribute_phrase\": \"descending order of years in which they were founded\",\n      \"semantic_owner\": \"orchestra\",\n      \"schema_expression\": \"orchestra.Year_of_Founded\",\n      \"direction\": \"DESC\"\n    }\n  ],\n  \"selected_role_check\": \"The selected responsibility requires executing the final answer query after any inspection or diagnostic SQL, and submitting only the last executed query. The output contract projects only orchestra.Record_Company, ordered by orchestra.Year_of_Founded descending, with no extra identifiers or aggregates.\"\n}",
+      "allReplies": [
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "submit",
+        "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"record companies of orchestras\",\n      \"semantic_owner\": \"orchestra\",\n      \"schema_expression\": \"orchestra.Record_Company\"\n    }\n  ],\n  \"row_constraints\": [],\n  \"grouping\": [],\n  \"ordering\": [\n    {\n      \"attribute_phrase\": \"descending order of years in which they were founded\",\n      \"semantic_owner\": \"orchestra\",\n      \"schema_expression\": \"orchestra.Year_of_Founded\",\n      \"direction\": \"DESC\"\n    }\n  ],\n  \"selected_role_check\": \"The selected responsibility requires executing the final answer query after any inspection or diagnostic SQL, and submitting only the last executed query. The output contract projects only orchestra.Record_Company, ordered by orchestra.Year_of_Founded descending, with no extra identifiers or aggregates.\"\n}",
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "submit"
+      ],
+      "reward": 1.0
+    },
+    {
+      "id": "spider-703",
+      "publicQuestion": "What is the lowest grade of students who do not have any friends?",
+      "publicSchema": {
+        "Highschooler": [
+          "ID",
+          "name",
+          "grade"
+        ],
+        "Friend": [
+          "student_id",
+          "friend_id"
+        ],
+        "Likes": [
+          "student_id",
+          "liked_id"
+        ]
+      },
+      "contractValid": true,
+      "contractText": "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"lowest grade\",\n      \"semantic_owner\": \"Highschooler\",\n      \"schema_expression\": \"MIN(Highschooler.grade)\"\n    }\n  ],\n  \"row_constraints\": [\n    \"Students who do not have any friends: Highschooler.ID must not appear as Friend.student_id and must not appear as Friend.friend_id\"\n  ],\n  \"grouping\": [\n    \"No grouping required; aggregate over all qualifying Highschooler rows\"\n  ],\n  \"ordering\": [\n    \"Return the minimum grade value only; no additional ordering needed\"\n  ],\n  \"selected_role_check\": \"NEGATION_NULLS: The exclusion applies to the student entity's friendship relationship. Because Friend rows represent friendships, a student has no friends only if their ID is absent from both Friend.student_id and Friend.friend_id; NULLs in Friend columns do not match any Highschooler.ID and therefore do not create false friendship matches. The relation is treated as undirected for this exclusion by checking both columns.\"\n}",
+      "allReplies": [
+        "SELECT MIN(grade) AS lowest_grade\nFROM Highschooler\nWHERE ID NOT IN (SELECT student_id FROM Friend);",
+        "submit",
+        "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"lowest grade\",\n      \"semantic_owner\": \"Highschooler\",\n      \"schema_expression\": \"MIN(Highschooler.grade)\"\n    }\n  ],\n  \"row_constraints\": [\n    \"Students who do not have any friends: Highschooler.ID must not appear as Friend.student_id and must not appear as Friend.friend_id\"\n  ],\n  \"grouping\": [\n    \"No grouping required; aggregate over all qualifying Highschooler rows\"\n  ],\n  \"ordering\": [\n    \"Return the minimum grade value only; no additional ordering needed\"\n  ],\n  \"selected_role_check\": \"NEGATION_NULLS: The exclusion applies to the student entity's friendship relationship. Because Friend rows represent friendships, a student has no friends only if their ID is absent from both Friend.student_id and Friend.friend_id; NULLs in Friend columns do not match any Highschooler.ID and therefore do not create false friendship matches. The relation is treated as undirected for this exclusion by checking both columns.\"\n}",
+        "SELECT MIN(h.grade) AS lowest_grade\nFROM Highschooler h\nWHERE NOT EXISTS (\n  SELECT 1 FROM Friend f WHERE f.student_id = h.ID\n)\nAND NOT EXISTS (\n  SELECT 1 FROM Friend f WHERE f.friend_id = h.ID\n);",
+        "SELECT MIN(h.grade) AS lowest_grade\nFROM Highschooler h\nWHERE h.ID NOT IN (SELECT student_id FROM Friend)\nAND h.ID NOT IN (SELECT friend_id FROM Friend);",
+        "submit"
+      ],
+      "reward": 0.0
+    },
+    {
+      "id": "spider-728",
+      "publicQuestion": "What are the names and locations of the stadiums that had concerts that occurred in both 2014 and 2015?",
+      "publicSchema": {
+        "stadium": [
+          "Stadium_ID",
+          "Location",
+          "Name",
+          "Capacity",
+          "Highest",
+          "Lowest",
+          "Average"
+        ],
+        "singer": [
+          "Singer_ID",
+          "Name",
+          "Country",
+          "Song_Name",
+          "Song_release_year",
+          "Age",
+          "Is_male"
+        ],
+        "concert": [
+          "concert_ID",
+          "concert_Name",
+          "Theme",
+          "Stadium_ID",
+          "Year"
+        ],
+        "singer_in_concert": [
+          "concert_ID",
+          "Singer_ID"
+        ]
+      },
+      "contractValid": false,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"names of the stadiums\",\"semantic_owner\":\"stadium\",\"schema_expression\":\"stadium.Name\"},{\"attribute_phrase\":\"locations of the stadiums\",\"semantic_owner\":\"stadium\",\"schema_expression\":\"stadium.Location\"}],\"row_constraints\":[\"stadium had concerts that occurred in 2014\",\"stadium had concerts that occurred in 2015\",\"the same stadium must satisfy both years\"],\"grouping\":[{\"requirement\":\"one row per qualifying stadium\",\"granularity\":\"stadium entity (Stadium_ID), projecting Name and Location\"}],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: concert.Stadium_ID references stadium.Stadium_ID; a stadium may have multiple concerts, so joining stadium to concert can multiply rows. The year conditions must be applied to concert rows before grouping, and grouping by stadium (Stadium_ID with Name and Location) with HAVING conditions for both 2014 and 2015 ensures one row per qualifying stadium without assuming uniqueness or adding DISTINCT unnecessarily.\"}",
+      "allReplies": [
+        "SELECT s.Name, s.Location\nFROM stadium s\nJOIN concert c ON s.Stadium_ID = c.Stadium_ID\nWHERE c.Year IN (2014, 2015)\nGROUP BY s.Stadium_ID, s.Name, s.Location\nHAVING COUNT(DISTINCT c.Year) = 2;",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"names of the stadiums\",\"semantic_owner\":\"stadium\",\"schema_expression\":\"stadium.Name\"},{\"attribute_phrase\":\"locations of the stadiums\",\"semantic_owner\":\"stadium\",\"schema_expression\":\"stadium.Location\"}],\"row_constraints\":[\"stadium had concerts that occurred in 2014\",\"stadium had concerts that occurred in 2015\",\"the same stadium must satisfy both years\"],\"grouping\":[{\"requirement\":\"one row per qualifying stadium\",\"granularity\":\"stadium entity (Stadium_ID), projecting Name and Location\"}],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: concert.Stadium_ID references stadium.Stadium_ID; a stadium may have multiple concerts, so joining stadium to concert can multiply rows. The year conditions must be applied to concert rows before grouping, and grouping by stadium (Stadium_ID with Name and Location) with HAVING conditions for both 2014 and 2015 ensures one row per qualifying stadium without assuming uniqueness or adding DISTINCT unnecessarily.\"}",
+        "SELECT s.Name, s.Location\nFROM stadium s\nJOIN concert c ON s.Stadium_ID = c.Stadium_ID\nWHERE c.Year IN (2014, 2015)\nGROUP BY s.Stadium_ID, s.Name, s.Location\nHAVING COUNT(DISTINCT c.Year) = 2;",
+        "submit"
+      ],
+      "reward": 1.0
+    },
+    {
+      "id": "spider-289",
+      "publicQuestion": "Sort employee names by their age in ascending order.",
+      "publicSchema": {
+        "employee": [
+          "Employee_ID",
+          "Name",
+          "Age",
+          "City"
+        ],
+        "shop": [
+          "Shop_ID",
+          "Name",
+          "Location",
+          "District",
+          "Number_products",
+          "Manager_name"
+        ],
+        "hiring": [
+          "Shop_ID",
+          "Employee_ID",
+          "Start_from",
+          "Is_full_time"
+        ],
+        "evaluation": [
+          "Employee_ID",
+          "Year_awarded",
+          "Bonus"
+        ]
+      },
+      "contractValid": false,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"employee names\",\"semantic_owner\":\"employee\",\"schema_expression\":\"employee.Name\"}],\"row_constraints\":[],\"grouping\":[],\"ordering\":[{\"attribute_phrase\":\"age in ascending order\",\"semantic_owner\":\"employee\",\"schema_expression\":\"employee.Age\",\"direction\":\"ascending\"}],\"selected_role_check\":\"DIRECT_QUERY: The query must return exactly employee.Name as the single output column, with no invented filters, and order rows by employee.Age ascending.\"}",
+      "allReplies": [
+        "SELECT Name\nFROM employee\nORDER BY Age ASC;",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"employee names\",\"semantic_owner\":\"employee\",\"schema_expression\":\"employee.Name\"}],\"row_constraints\":[],\"grouping\":[],\"ordering\":[{\"attribute_phrase\":\"age in ascending order\",\"semantic_owner\":\"employee\",\"schema_expression\":\"employee.Age\",\"direction\":\"ascending\"}],\"selected_role_check\":\"DIRECT_QUERY: The query must return exactly employee.Name as the single output column, with no invented filters, and order rows by employee.Age ascending.\"}",
+        "SELECT Name\nFROM employee\nORDER BY Age ASC;",
+        "submit"
+      ],
+      "reward": 1.0
+    },
+    {
+      "id": "spider-170",
+      "publicQuestion": "What is the name of the conductor who has worked the greatest number of years?",
+      "publicSchema": {
+        "conductor": [
+          "Conductor_ID",
+          "Name",
+          "Age",
+          "Nationality",
+          "Year_of_Work"
+        ],
+        "orchestra": [
+          "Orchestra_ID",
+          "Orchestra",
+          "Conductor_ID",
+          "Record_Company",
+          "Year_of_Founded",
+          "Major_Record_Format"
+        ],
+        "performance": [
+          "Performance_ID",
+          "Orchestra_ID",
+          "Type",
+          "Date",
+          "Official_ratings_(millions)",
+          "Weekly_rank",
+          "Share"
+        ],
+        "show": [
+          "Show_ID",
+          "Performance_ID",
+          "If_first_show",
+          "Result",
+          "Attendance"
+        ]
+      },
+      "contractValid": false,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"name of the conductor\",\"semantic_owner\":\"conductor\",\"schema_expression\":\"conductor.Name\"}],\"row_constraints\":[],\"grouping\":[],\"ordering\":[{\"description\":\"conductor with the greatest Year_of_Work value; return that conductor's Name\",\"extrema\":\"maximum Year_of_Work\",\"tie_requirement\":\"not specified; a single name is requested\"}],\"selected_role_check\":\"SET_COMBINATION: The question asks for a single conductor identified by a maximum (greatest number of years worked), not a union/intersection of sets; no AND/OR combination or duplicate semantics apply beyond selecting the conductor(s) with maximal Year_of_Work. No additional filtering conditions are implied.\"}",
+      "allReplies": [
+        "SELECT Name\nFROM conductor\nORDER BY Year_of_Work DESC\nLIMIT 1;",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"name of the conductor\",\"semantic_owner\":\"conductor\",\"schema_expression\":\"conductor.Name\"}],\"row_constraints\":[],\"grouping\":[],\"ordering\":[{\"description\":\"conductor with the greatest Year_of_Work value; return that conductor's Name\",\"extrema\":\"maximum Year_of_Work\",\"tie_requirement\":\"not specified; a single name is requested\"}],\"selected_role_check\":\"SET_COMBINATION: The question asks for a single conductor identified by a maximum (greatest number of years worked), not a union/intersection of sets; no AND/OR combination or duplicate semantics apply beyond selecting the conductor(s) with maximal Year_of_Work. No additional filtering conditions are implied.\"}",
+        "SELECT Name\nFROM conductor\nORDER BY Year_of_Work DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "reward": 1.0
+    },
+    {
+      "id": "spider-308",
+      "publicQuestion": "Show the ids of high schoolers who have friends and are also liked by someone else.",
+      "publicSchema": {
+        "Highschooler": [
+          "ID",
+          "name",
+          "grade"
+        ],
+        "Friend": [
+          "student_id",
+          "friend_id"
+        ],
+        "Likes": [
+          "student_id",
+          "liked_id"
+        ]
+      },
+      "contractValid": true,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"ids of high schoolers\",\"semantic_owner\":\"Highschooler\",\"schema_expression\":\"Highschooler.ID\"}],\"row_constraints\":[\"high schooler has at least one friend (appears as student_id in Friend)\",\"high schooler is liked by someone else (appears as liked_id in Likes)\"],\"grouping\":[\"one row per qualifying Highschooler entity (distinct ID)\"],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: Friend and Likes can each have multiple rows per student, so joining both directly would multiply rows; use EXISTS subqueries (or DISTINCT) to test existence without row multiplication, and verify join keys are student_id/friend_id and student_id/liked_id per schema.\"}",
+      "allReplies": [
+        "SELECT DISTINCT h.ID\nFROM Highschooler h\nJOIN Friend f ON h.ID = f.student_id\nJOIN Likes l ON h.ID = l.liked_id;",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"ids of high schoolers\",\"semantic_owner\":\"Highschooler\",\"schema_expression\":\"Highschooler.ID\"}],\"row_constraints\":[\"high schooler has at least one friend (appears as student_id in Friend)\",\"high schooler is liked by someone else (appears as liked_id in Likes)\"],\"grouping\":[\"one row per qualifying Highschooler entity (distinct ID)\"],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: Friend and Likes can each have multiple rows per student, so joining both directly would multiply rows; use EXISTS subqueries (or DISTINCT) to test existence without row multiplication, and verify join keys are student_id/friend_id and student_id/liked_id per schema.\"}",
+        "SELECT DISTINCT h.ID\nFROM Highschooler h\nWHERE EXISTS (SELECT 1 FROM Friend f WHERE f.student_id = h.ID)\n  AND EXISTS (SELECT 1 FROM Likes l WHERE l.liked_id = h.ID);",
+        "submit"
+      ],
+      "reward": -0.07
+    },
+    {
+      "id": "spider-889",
+      "publicQuestion": "List the name, date and result of each battle.",
+      "publicSchema": {
+        "battle": [
+          "id",
+          "name",
+          "date",
+          "bulgarian_commander",
+          "latin_commander",
+          "result"
+        ],
+        "ship": [
+          "lost_in_battle",
+          "id",
+          "name",
+          "tonnage",
+          "ship_type",
+          "location",
+          "disposition_of_ship"
+        ],
+        "death": [
+          "caused_by_ship_id",
+          "id",
+          "note",
+          "killed",
+          "injured"
+        ]
+      },
+      "contractValid": true,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"name of each battle\",\"semantic_owner\":\"battle\",\"schema_expression\":\"battle.name\"},{\"attribute_phrase\":\"date of each battle\",\"semantic_owner\":\"battle\",\"schema_expression\":\"battle.date\"},{\"attribute_phrase\":\"result of each battle\",\"semantic_owner\":\"battle\",\"schema_expression\":\"battle.result\"}],\"row_constraints\":[],\"grouping\":[\"one row per battle entity\"],\"ordering\":[],\"selected_role_check\":\"DIRECT_QUERY: confirm the final query projects exactly battle.name, battle.date, and battle.result from the battle table, with no invented filters, joins, aggregates, or extra columns, returning one row per battle.\"}",
+      "allReplies": [
+        "SELECT name, date, result FROM battle;",
+        "SELECT name, date, result FROM battle;",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"name of each battle\",\"semantic_owner\":\"battle\",\"schema_expression\":\"battle.name\"},{\"attribute_phrase\":\"date of each battle\",\"semantic_owner\":\"battle\",\"schema_expression\":\"battle.date\"},{\"attribute_phrase\":\"result of each battle\",\"semantic_owner\":\"battle\",\"schema_expression\":\"battle.result\"}],\"row_constraints\":[],\"grouping\":[\"one row per battle entity\"],\"ordering\":[],\"selected_role_check\":\"DIRECT_QUERY: confirm the final query projects exactly battle.name, battle.date, and battle.result from the battle table, with no invented filters, joins, aggregates, or extra columns, returning one row per battle.\"}",
+        "SELECT name, date, result FROM battle;",
+        "submit"
+      ],
+      "reward": 0.0
+    },
+    {
+      "id": "spider-518",
+      "publicQuestion": "Show all document ids and the number of paragraphs in each document. Order by document id.",
+      "publicSchema": {
+        "Ref_Template_Types": [
+          "Template_Type_Code",
+          "Template_Type_Description"
+        ],
+        "Templates": [
+          "Template_ID",
+          "Version_Number",
+          "Template_Type_Code",
+          "Date_Effective_From",
+          "Date_Effective_To",
+          "Template_Details"
+        ],
+        "Documents": [
+          "Document_ID",
+          "Template_ID",
+          "Document_Name",
+          "Document_Description",
+          "Other_Details"
+        ],
+        "Paragraphs": [
+          "Paragraph_ID",
+          "Document_ID",
+          "Paragraph_Text",
+          "Other_Details"
+        ]
+      },
+      "contractValid": true,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"document ids\",\"semantic_owner\":\"Documents\",\"schema_expression\":\"Documents.Document_ID\"},{\"attribute_phrase\":\"number of paragraphs in each document\",\"semantic_owner\":\"Paragraphs\",\"schema_expression\":\"COUNT(Paragraphs.Paragraph_ID)\"}],\"row_constraints\":[],\"grouping\":[\"one row per document (Documents.Document_ID)\"],\"ordering\":[\"order by document id ascending\"],\"selected_role_check\":\"JOIN_CARDINALITY: Documents.Document_ID is the primary key of Documents, so joining Documents to Paragraphs on Document_ID does not multiply document rows; each Paragraphs row belongs to one document, so COUNT(Paragraphs.Paragraph_ID) counts paragraphs per document. A LEFT JOIN would be needed only if documents with zero paragraphs must be shown; the question asks for the number of paragraphs in each document, and grouping by Document_ID with COUNT over the joined rows yields the paragraph count per document.\"}",
+      "allReplies": [
+        "SELECT d.Document_ID, COUNT(p.Paragraph_ID) AS paragraph_count\nFROM Documents d\nLEFT JOIN Paragraphs p ON d.Document_ID = p.Document_ID\nGROUP BY d.Document_ID\nORDER BY d.Document_ID;",
+        "SELECT d.Document_ID, COUNT(p.Paragraph_ID) AS paragraph_count\nFROM Documents d\nLEFT JOIN Paragraphs p ON d.Document_ID = p.Document_ID\nGROUP BY d.Document_ID\nORDER BY d.Document_ID;",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"document ids\",\"semantic_owner\":\"Documents\",\"schema_expression\":\"Documents.Document_ID\"},{\"attribute_phrase\":\"number of paragraphs in each document\",\"semantic_owner\":\"Paragraphs\",\"schema_expression\":\"COUNT(Paragraphs.Paragraph_ID)\"}],\"row_constraints\":[],\"grouping\":[\"one row per document (Documents.Document_ID)\"],\"ordering\":[\"order by document id ascending\"],\"selected_role_check\":\"JOIN_CARDINALITY: Documents.Document_ID is the primary key of Documents, so joining Documents to Paragraphs on Document_ID does not multiply document rows; each Paragraphs row belongs to one document, so COUNT(Paragraphs.Paragraph_ID) counts paragraphs per document. A LEFT JOIN would be needed only if documents with zero paragraphs must be shown; the question asks for the number of paragraphs in each document, and grouping by Document_ID with COUNT over the joined rows yields the paragraph count per document.\"}",
+        "SELECT d.Document_ID, COUNT(p.Paragraph_ID) AS paragraph_count\nFROM Documents d\nLEFT JOIN Paragraphs p ON d.Document_ID = p.Document_ID\nGROUP BY d.Document_ID\nORDER BY d.Document_ID;",
+        "submit"
+      ],
+      "reward": 0.71
+    },
+    {
+      "id": "spider-246",
+      "publicQuestion": "Find all airlines that have flights from airport 'CVO' but not from 'APG'.",
+      "publicSchema": {
+        "airlines": [
+          "uid",
+          "Airline",
+          "Abbreviation",
+          "Country"
+        ],
+        "airports": [
+          "City",
+          "AirportCode",
+          "AirportName",
+          "Country",
+          "CountryAbbrev"
+        ],
+        "flights": [
+          "Airline",
+          "FlightNo",
+          "SourceAirport",
+          "DestAirport"
+        ]
+      },
+      "contractValid": true,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"all airlines\",\"semantic_owner\":\"airline\",\"schema_expression\":\"airlines.Airline\"}],\"row_constraints\":[\"airline has at least one flight whose SourceAirport is 'CVO'\",\"airline has no flight whose SourceAirport is 'APG'\"],\"grouping\":[\"one row per airline entity\"],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: flights joins to airlines on the airline identifier; verify the join key and whether multiple flights per airline multiply rows, requiring grouping or DISTINCT to return one row per airline without assuming uniqueness.\"}",
+      "allReplies": [
+        "SELECT DISTINCT Airline\nFROM flights\nWHERE SourceAirport = 'CVO'\nAND Airline NOT IN (\n    SELECT Airline\n    FROM flights\n    WHERE SourceAirport = 'APG'\n)",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"all airlines\",\"semantic_owner\":\"airline\",\"schema_expression\":\"airlines.Airline\"}],\"row_constraints\":[\"airline has at least one flight whose SourceAirport is 'CVO'\",\"airline has no flight whose SourceAirport is 'APG'\"],\"grouping\":[\"one row per airline entity\"],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: flights joins to airlines on the airline identifier; verify the join key and whether multiple flights per airline multiply rows, requiring grouping or DISTINCT to return one row per airline without assuming uniqueness.\"}",
+        "SELECT DISTINCT a.Airline\nFROM airlines a\nJOIN flights f ON a.Airline = f.Airline\nWHERE f.SourceAirport = 'CVO'\nAND NOT EXISTS (\n    SELECT 1\n    FROM flights f2\n    WHERE f2.Airline = a.Airline\n    AND f2.SourceAirport = 'APG'\n)",
+        "SELECT DISTINCT f.Airline\nFROM flights f\nWHERE f.SourceAirport = 'CVO'\nAND NOT EXISTS (\n    SELECT 1\n    FROM flights f2\n    WHERE f2.Airline = f.Airline\n    AND f2.SourceAirport = 'APG'\n)",
+        "submit"
+      ],
+      "reward": 0.0
+    },
+    {
+      "id": "spider-542",
+      "publicQuestion": "Find the number of cities in each district whose population is greater than the average population of cities?",
+      "publicSchema": {
+        "city": [
+          "ID",
+          "Name",
+          "CountryCode",
+          "District",
+          "Population"
+        ],
+        "sqlite_sequence": [
+          "name",
+          "seq"
+        ],
+        "country": [
+          "Code",
+          "Name",
+          "Continent",
+          "Region",
+          "SurfaceArea",
+          "IndepYear",
+          "Population",
+          "LifeExpectancy",
+          "GNP",
+          "GNPOld",
+          "LocalName",
+          "GovernmentForm",
+          "HeadOfState",
+          "Capital",
+          "Code2"
+        ],
+        "countrylanguage": [
+          "CountryCode",
+          "Language",
+          "IsOfficial",
+          "Percentage"
+        ]
+      },
+      "contractValid": true,
+      "contractText": "{\"output_columns\":[{\"attribute_phrase\":\"number of cities\",\"semantic_owner\":\"district\",\"schema_expression\":\"COUNT(city.ID)\"},{\"attribute_phrase\":\"district\",\"semantic_owner\":\"district\",\"schema_expression\":\"city.District\"}],\"row_constraints\":[\"city population is greater than the average population of cities\"],\"grouping\":[\"group by city.District\"],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: The query uses a single table (city) with no joins, so no join cardinality or row-multiplication risk exists; COUNT(city.ID) counts qualifying cities per district without needing DISTINCT.\"}",
+      "allReplies": [
+        "SELECT District, COUNT(*) AS city_count\nFROM city\nWHERE Population > (SELECT AVG(Population) FROM city)\nGROUP BY District;",
+        "submit",
+        "{\"output_columns\":[{\"attribute_phrase\":\"number of cities\",\"semantic_owner\":\"district\",\"schema_expression\":\"COUNT(city.ID)\"},{\"attribute_phrase\":\"district\",\"semantic_owner\":\"district\",\"schema_expression\":\"city.District\"}],\"row_constraints\":[\"city population is greater than the average population of cities\"],\"grouping\":[\"group by city.District\"],\"ordering\":[],\"selected_role_check\":\"JOIN_CARDINALITY: The query uses a single table (city) with no joins, so no join cardinality or row-multiplication risk exists; COUNT(city.ID) counts qualifying cities per district without needing DISTINCT.\"}",
+        "SELECT District, COUNT(ID) AS city_count\nFROM city\nWHERE Population > (SELECT AVG(Population) FROM city)\nGROUP BY District;",
+        "submit"
+      ],
+      "reward": 0.0
+    }
+  ]
+}

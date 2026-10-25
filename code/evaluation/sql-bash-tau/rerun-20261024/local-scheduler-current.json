@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-25T08:04:54.5080879Z",
+  "newScheduler": 45492,
+  "scope": "Local scheduler only; no remote experiment processes stopped",
+  "stdout": "artifact\\experiments\\janus_rerun_20261024\\rolling-controller-20261025160454.log",
+  "oldScheduler": 29416,
+  "stderr": "artifact\\experiments\\janus_rerun_20261024\\rolling-controller-20261025160454.err",
+  "oldGuard": 45416,
+  "newGuard": 56048
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "host": "benchmark-host-d",
+    "bench": "tau",
+    "hash": "b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071",
+    "root": "/benchmark/janus-rerun-20261025/variants/b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071",
+    "live": {
+      "pid": 162454,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/b20f46c906fb232f5dc31813018fe8ec5faf0e29c92c8049c80dd383dcda9071"
+    },
+    "hypothesis": {
+      "category": "提示歧义／条件作用域",
+      "hypothesis": "Replace ambiguous flat trailing conditionals with explicit airline/retail scope; preserve official-policy precedence. Tool-level cause remains unverified.",
+      "basis": "Captured actual prompts contain chained conditional scopes; saved assistant output shows constraint carry-over failures. No hidden answers or task-specific solutions used.",
+      "confidence": "hypothesis; tau tool-call logging gap explicitly retained",
+      "sourceHash": "793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6",
+      "evidence": "rolling-evidence/793e56659eae62b80aecbb8a9f77c47c3f4f022aaadc6044d763a6df56eec0e6/failure-capture.json",
+      "beforeFirstModelCall": true,
+      "taskSpecificSolutionInjected": false
+    },
+    "at": 1792909461.5957403,
+    "paperReady": false
+  }
+]

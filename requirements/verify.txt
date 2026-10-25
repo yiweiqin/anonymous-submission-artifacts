@@ -1,0 +1,4 @@
+﻿# Offline checks use the Python standard library only.
+# python scripts/check_layout.py
+# python scripts/rebuild_paper_numbers.py
+# python reassemble.py

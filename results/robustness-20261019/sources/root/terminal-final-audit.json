@@ -1,0 +1,402 @@
+{
+  "schema": "terminal-final-official-receipt-audit",
+  "header": "Terminal-Bench 2.1 资源兼容63题子集，不是89题整榜",
+  "receiptSha256": "84c64484f06c8834e709d65a59fba820fb37bfbda4b83496442eb4bbb281cc08",
+  "totalHistoricalRows": 82,
+  "officialTrainedRows": 63,
+  "uniqueTasks": 63,
+  "rewardSum": 47.0,
+  "exactOne": 47,
+  "minimumWeightPromptTokens": 551,
+  "zeroWeightParticipation": 0,
+  "verified": 63,
+  "results": [
+    {
+      "task": "feal-linear-cryptanalysis",
+      "reward": 1.0,
+      "weightPromptTokens": 680,
+      "errors": []
+    },
+    {
+      "task": "code-from-image",
+      "reward": 1.0,
+      "weightPromptTokens": 592,
+      "errors": []
+    },
+    {
+      "task": "sanitize-git-repo",
+      "reward": 1.0,
+      "weightPromptTokens": 679,
+      "errors": []
+    },
+    {
+      "task": "prove-plus-comm",
+      "reward": 1.0,
+      "weightPromptTokens": 657,
+      "errors": []
+    },
+    {
+      "task": "constraints-scheduling",
+      "reward": 1.0,
+      "weightPromptTokens": 955,
+      "errors": []
+    },
+    {
+      "task": "cancel-async-tasks",
+      "reward": 1.0,
+      "weightPromptTokens": 585,
+      "errors": []
+    },
+    {
+      "task": "password-recovery",
+      "reward": 1.0,
+      "weightPromptTokens": 649,
+      "errors": []
+    },
+    {
+      "task": "break-filter-js-from-html",
+      "reward": 1.0,
+      "weightPromptTokens": 634,
+      "errors": []
+    },
+    {
+      "task": "git-multibranch",
+      "reward": 1.0,
+      "weightPromptTokens": 767,
+      "errors": []
+    },
+    {
+      "task": "polyglot-rust-c",
+      "reward": 1.0,
+      "weightPromptTokens": 625,
+      "errors": []
+    },
+    {
+      "task": "largest-eigenval",
+      "reward": 1.0,
+      "weightPromptTokens": 636,
+      "errors": []
+    },
+    {
+      "task": "mteb-retrieve",
+      "reward": 0.0,
+      "weightPromptTokens": 567,
+      "errors": []
+    },
+    {
+      "task": "distribution-search",
+      "reward": 1.0,
+      "weightPromptTokens": 794,
+      "errors": []
+    },
+    {
+      "task": "extract-elf",
+      "reward": 1.0,
+      "weightPromptTokens": 644,
+      "errors": []
+    },
+    {
+      "task": "pytorch-model-recovery",
+      "reward": 1.0,
+      "weightPromptTokens": 725,
+      "errors": []
+    },
+    {
+      "task": "build-pov-ray",
+      "reward": 1.0,
+      "weightPromptTokens": 607,
+      "errors": []
+    },
+    {
+      "task": "headless-terminal",
+      "reward": 1.0,
+      "weightPromptTokens": 637,
+      "errors": []
+    },
+    {
+      "task": "llm-inference-batching-scheduler",
+      "reward": 1.0,
+      "weightPromptTokens": 1056,
+      "errors": []
+    },
+    {
+      "task": "sqlite-with-gcov",
+      "reward": 1.0,
+      "weightPromptTokens": 552,
+      "errors": []
+    },
+    {
+      "task": "sparql-university",
+      "reward": 1.0,
+      "weightPromptTokens": 804,
+      "errors": []
+    },
+    {
+      "task": "make-mips-interpreter",
+      "reward": 0.0,
+      "weightPromptTokens": 558,
+      "errors": []
+    },
+    {
+      "task": "schemelike-metacircular-eval",
+      "reward": 0.0,
+      "weightPromptTokens": 705,
+      "errors": []
+    },
+    {
+      "task": "cobol-modernization",
+      "reward": 1.0,
+      "weightPromptTokens": 698,
+      "errors": []
+    },
+    {
+      "task": "regex-log",
+      "reward": 1.0,
+      "weightPromptTokens": 775,
+      "errors": []
+    },
+    {
+      "task": "count-dataset-tokens",
+      "reward": 0.0,
+      "weightPromptTokens": 597,
+      "errors": []
+    },
+    {
+      "task": "vulnerable-secret",
+      "reward": 1.0,
+      "weightPromptTokens": 594,
+      "errors": []
+    },
+    {
+      "task": "git-leak-recovery",
+      "reward": 1.0,
+      "weightPromptTokens": 663,
+      "errors": []
+    },
+    {
+      "task": "sqlite-db-truncate",
+      "reward": 1.0,
+      "weightPromptTokens": 563,
+      "errors": []
+    },
+    {
+      "task": "path-tracing",
+      "reward": 1.0,
+      "weightPromptTokens": 644,
+      "errors": []
+    },
+    {
+      "task": "chess-best-move",
+      "reward": 1.0,
+      "weightPromptTokens": 575,
+      "errors": []
+    },
+    {
+      "task": "modernize-scientific-stack",
+      "reward": 1.0,
+      "weightPromptTokens": 841,
+      "errors": []
+    },
+    {
+      "task": "fix-code-vulnerability",
+      "reward": 1.0,
+      "weightPromptTokens": 1060,
+      "errors": []
+    },
+    {
+      "task": "kv-store-grpc",
+      "reward": 1.0,
+      "weightPromptTokens": 685,
+      "errors": []
+    },
+    {
+      "task": "feal-differential-cryptanalysis",
+      "reward": 1.0,
+      "weightPromptTokens": 613,
+      "errors": []
+    },
+    {
+      "task": "model-extraction-relu-logits",
+      "reward": 0.0,
+      "weightPromptTokens": 562,
+      "errors": []
+    },
+    {
+      "task": "multi-source-data-merger",
+      "reward": 1.0,
+      "weightPromptTokens": 1050,
+      "errors": []
+    },
+    {
+      "task": "nginx-request-logging",
+      "reward": 1.0,
+      "weightPromptTokens": 889,
+      "errors": []
+    },
+    {
+      "task": "log-summary-date-ranges",
+      "reward": 1.0,
+      "weightPromptTokens": 1009,
+      "errors": []
+    },
+    {
+      "task": "dna-assembly",
+      "reward": 0.0,
+      "weightPromptTokens": 810,
+      "errors": []
+    },
+    {
+      "task": "build-pmars",
+      "reward": 1.0,
+      "weightPromptTokens": 602,
+      "errors": []
+    },
+    {
+      "task": "custom-memory-heap-crash",
+      "reward": 1.0,
+      "weightPromptTokens": 700,
+      "errors": []
+    },
+    {
+      "task": "video-processing",
+      "reward": 0.0,
+      "weightPromptTokens": 865,
+      "errors": []
+    },
+    {
+      "task": "path-tracing-reverse",
+      "reward": 0.0,
+      "weightPromptTokens": 562,
+      "errors": []
+    },
+    {
+      "task": "write-compressor",
+      "reward": 1.0,
+      "weightPromptTokens": 582,
+      "errors": []
+    },
+    {
+      "task": "fix-git",
+      "reward": 1.0,
+      "weightPromptTokens": 551,
+      "errors": []
+    },
+    {
+      "task": "openssl-selfsigned-cert",
+      "reward": 1.0,
+      "weightPromptTokens": 894,
+      "errors": []
+    },
+    {
+      "task": "extract-moves-from-video",
+      "reward": 0.0,
+      "weightPromptTokens": 567,
+      "errors": []
+    },
+    {
+      "task": "bn-fit-modify",
+      "reward": 1.0,
+      "weightPromptTokens": 890,
+      "errors": []
+    },
+    {
+      "task": "polyglot-c-py",
+      "reward": 1.0,
+      "weightPromptTokens": 626,
+      "errors": []
+    },
+    {
+      "task": "configure-git-webserver",
+      "reward": 0.0,
+      "weightPromptTokens": 676,
+      "errors": []
+    },
+    {
+      "task": "gcode-to-text",
+      "reward": 0.0,
+      "weightPromptTokens": 569,
+      "errors": []
+    },
+    {
+      "task": "raman-fitting",
+      "reward": 1.0,
+      "weightPromptTokens": 803,
+      "errors": []
+    },
+    {
+      "task": "db-wal-recovery",
+      "reward": 1.0,
+      "weightPromptTokens": 715,
+      "errors": []
+    },
+    {
+      "task": "circuit-fibsqrt",
+      "reward": 0.0,
+      "weightPromptTokens": 746,
+      "errors": []
+    },
+    {
+      "task": "fix-ocaml-gc",
+      "reward": 1.0,
+      "weightPromptTokens": 558,
+      "errors": []
+    },
+    {
+      "task": "regex-chess",
+      "reward": 1.0,
+      "weightPromptTokens": 897,
+      "errors": []
+    },
+    {
+      "task": "winning-avg-corewars",
+      "reward": 1.0,
+      "weightPromptTokens": 713,
+      "errors": []
+    },
+    {
+      "task": "mailman",
+      "reward": 0.0,
+      "weightPromptTokens": 709,
+      "errors": []
+    },
+    {
+      "task": "tune-mjcf",
+      "reward": 0.0,
+      "weightPromptTokens": 638,
+      "errors": []
+    },
+    {
+      "task": "large-scale-text-editing",
+      "reward": 1.0,
+      "weightPromptTokens": 805,
+      "errors": []
+    },
+    {
+      "task": "query-optimize",
+      "reward": 1.0,
+      "weightPromptTokens": 590,
+      "errors": []
+    },
+    {
+      "task": "adaptive-rejection-sampler",
+      "reward": 0.0,
+      "weightPromptTokens": 943,
+      "errors": []
+    },
+    {
+      "task": "make-doom-for-mips",
+      "reward": 0.0,
+      "weightPromptTokens": 565,
+      "errors": []
+    }
+  ],
+  "usageFromSavedReceipts": {
+    "modelCalls": 1376,
+    "promptTokens": 34383474,
+    "completionTokens": 3825081,
+    "wallSeconds": 42775.721
+  },
+  "newModelCalls": 0,
+  "newGraderCalls": 0,
+  "originalReceiptsUnchanged": true
+}

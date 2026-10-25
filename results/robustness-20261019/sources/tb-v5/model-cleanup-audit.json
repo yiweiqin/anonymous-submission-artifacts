@@ -1,0 +1,24 @@
+{
+  "schema": "tb-preplanning-cleanup-audit-v1",
+  "observedAtNs": 1792415827574895800,
+  "liveOwnedModelProcesses": [],
+  "ownedModelRootsChecked": [
+    "/data/modelstore/janus-terminal-preplan-1792400373223327200",
+    "/data/modelstore/janus-terminal-preplan-1792401729523440400",
+    "/data/modelstore/janus-terminal-preplan-1792404522943861100",
+    "/data/modelstore/skillflow-native-rpc-1792400369795947300",
+    "/data/modelstore/skillflow-native-rpc-1792401726316555400"
+  ],
+  "rootEvidence": [
+    "preplan-attempts\\1792400373223327200\\initialization.json",
+    "preplan-attempts\\1792401729523440400\\initialization.json",
+    "preplan-attempts\\1792404522943861100\\initialization.json",
+    "pilot-runtime.json -> native-rpc-config.json:modelRoot",
+    "development-runtime.json -> native-rpc-config.json:modelRoot"
+  ],
+  "cleanupPendingMarkers": [],
+  "noOwnedModelProcessesRemain": true,
+  "scope": "Only exact model guard/server paths in recorded v5 model workspaces; unrelated host processes are not reported.",
+  "processesStoppedByThisAudit": false,
+  "paperReady": false
+}

@@ -1,0 +1,14 @@
+{
+  "registeredTemplateSha256": "3aded6df1d50181e9a3b48ba3523f62bef0fa35706e4fbc33fdd0d38658de86b",
+  "localBytesSha256": "3aded6df1d50181e9a3b48ba3523f62bef0fa35706e4fbc33fdd0d38658de86b",
+  "normalizedLfSha256": "539c214a970e599bfb76ad2c495446ab01046bc406a11b1be24ecf118f58e413",
+  "actualPlannerReportedTemplateSha256": "539c214a970e599bfb76ad2c495446ab01046bc406a11b1be24ecf118f58e413",
+  "localHasCrlf": true,
+  "lfBytesExplainActualPlannerHash": true,
+  "semanticTemplateObjectUnchanged": true,
+  "qualificationRemainsFailed": true,
+  "oldDesignOrReceiptRewritten": false,
+  "newModelCalls": 0,
+  "newScores": 0,
+  "interpretation": "Template semantic content agrees but registered raw bytes differ from deployed normalized bytes. Keep all48 v17 package-audit failures; normalize and verify v18 before scoring instead of requalifying v17."
+}

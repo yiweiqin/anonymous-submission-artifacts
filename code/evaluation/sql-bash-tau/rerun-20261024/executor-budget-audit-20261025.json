@@ -1,0 +1,109 @@
+{
+  "at": 1792912405.3247054,
+  "paperReady": false,
+  "configurationChangedByThisRun": false,
+  "sourceHashes": {
+    "benchmark-host-c": {
+      "/benchmark/robustness-baselines/order-lock.json": "cdc5f5741c425576e7382a81bebac48bd8bd3a3793f489c7f5aa87daa6ed2074",
+      "/benchmark/robustness-baselines/bash_one.py": "8ac2a493939972218e2519d5aae75d034853d4a4187d99c55ad3fb9949c85b5a",
+      "/benchmark/robustness-baselines/tau_one.py": "7e4221fadc8859ef8c5c9f0b5a330fc3621c207f9cfa24280ddf4643801fc7da",
+      "/benchmark/robustness-baselines/harbor_one.py": "05dcc1758cb0660397ea13d21a6dc1bc5e213bb370639afbf85a9fc92009cf3f",
+      "/benchmark/robustness-baselines/trial_entry.py": "2876af3d3dc4c1d953b7dfe51dcd5e783c5ad53af55f885205bcb2adf1d37a2a"
+    },
+    "benchmark-host-d": {
+      "/benchmark/robustness-baselines/order-lock.json": "cdc5f5741c425576e7382a81bebac48bd8bd3a3793f489c7f5aa87daa6ed2074",
+      "/benchmark/robustness-baselines/bash_one.py": "8ac2a493939972218e2519d5aae75d034853d4a4187d99c55ad3fb9949c85b5a",
+      "/benchmark/robustness-baselines/tau_one.py": "7e4221fadc8859ef8c5c9f0b5a330fc3621c207f9cfa24280ddf4643801fc7da",
+      "/benchmark/robustness-baselines/harbor_one.py": "cd44594fa6c29c27b39ca01c8450214584f0e657e49ded88565562dd56da0677",
+      "/benchmark/robustness-baselines/trial_entry.py": "85c240acd0c0115c90cbd42a0a4f812d4bbee2eba8d9238d932e3b553474453a"
+    },
+    "benchmark-host-a": {
+      "/benchmark/robustness-baselines/order-lock.json": "cdc5f5741c425576e7382a81bebac48bd8bd3a3793f489c7f5aa87daa6ed2074",
+      "/benchmark/robustness-baselines/bash_one.py": "8ac2a493939972218e2519d5aae75d034853d4a4187d99c55ad3fb9949c85b5a",
+      "/benchmark/robustness-baselines/tau_one.py": "7e4221fadc8859ef8c5c9f0b5a330fc3621c207f9cfa24280ddf4643801fc7da",
+      "/benchmark/robustness-baselines/harbor_one.py": "cd44594fa6c29c27b39ca01c8450214584f0e657e49ded88565562dd56da0677",
+      "/benchmark/robustness-baselines/trial_entry.py": "85c240acd0c0115c90cbd42a0a4f812d4bbee2eba8d9238d932e3b553474453a"
+    },
+    "benchmark-host-b": {
+      "/benchmark/robustness-baselines/order-lock.json": "cdc5f5741c425576e7382a81bebac48bd8bd3a3793f489c7f5aa87daa6ed2074",
+      "/benchmark/robustness-baselines/bash_one.py": "8ac2a493939972218e2519d5aae75d034853d4a4187d99c55ad3fb9949c85b5a",
+      "/benchmark/robustness-baselines/tau_one.py": "7e4221fadc8859ef8c5c9f0b5a330fc3621c207f9cfa24280ddf4643801fc7da",
+      "/benchmark/robustness-baselines/harbor_one.py": "05dcc1758cb0660397ea13d21a6dc1bc5e213bb370639afbf85a9fc92009cf3f",
+      "/benchmark/robustness-baselines/trial_entry.py": "2876af3d3dc4c1d953b7dfe51dcd5e783c5ad53af55f885205bcb2adf1d37a2a"
+    }
+  },
+  "observedDifferences": {
+    "harbor_one.py": [
+      "193 has additional UV download-mirror environment defaults",
+      "193 explicitly sets agent_timeout_multiplier=2 and verifier_timeout_multiplier=2; 43 omits both"
+    ],
+    "trial_entry.py": [
+      "Terminal-Bench-only task mirror lookup differs; Terminal-Bench is not run"
+    ]
+  },
+  "officialBashScoringSourceIdenticalAcrossHosts": true,
+  "officialTauSourceIdenticalAcrossHosts": true,
+  "taskOrderSourceIdenticalAcrossHosts": true,
+  "historicalReportedWallStatistics": [
+    {
+      "host": "benchmark-host-d",
+      "arm": "vanilla",
+      "n": 200,
+      "maxReportedWallSeconds": 497.331,
+      "reportedWallOver600": 0
+    },
+    {
+      "host": "benchmark-host-d",
+      "arm": "expel",
+      "n": 200,
+      "maxReportedWallSeconds": 585.973,
+      "reportedWallOver600": 0
+    },
+    {
+      "host": "benchmark-host-d",
+      "arm": "skillrl",
+      "n": 200,
+      "maxReportedWallSeconds": 458.174,
+      "reportedWallOver600": 0
+    },
+    {
+      "host": "benchmark-host-d",
+      "arm": "cowork_x",
+      "n": 200,
+      "maxReportedWallSeconds": 472.465,
+      "reportedWallOver600": 0
+    },
+    {
+      "host": "benchmark-host-d",
+      "arm": "janus",
+      "n": 200,
+      "maxReportedWallSeconds": 467.1,
+      "reportedWallOver600": 0
+    },
+    {
+      "host": "benchmark-host-a",
+      "arm": "rsea",
+      "n": 200,
+      "maxReportedWallSeconds": 891.094,
+      "reportedWallOver600": 1
+    },
+    {
+      "host": "benchmark-host-b",
+      "arm": "awm",
+      "n": 200,
+      "maxReportedWallSeconds": 455.748,
+      "reportedWallOver600": 0
+    },
+    {
+      "host": "benchmark-host-b",
+      "arm": "reasoning_bank",
+      "n": 200,
+      "maxReportedWallSeconds": 424.834,
+      "reportedWallOver600": 0
+    }
+  ],
+  "newCompletedBashTasks": 29,
+  "newMaxReportedWallSeconds": 351.475,
+  "limitation": "Total reported wall time includes overhead and does not isolate agent/verifier durations. Historical files were not fingerprinted at their original execution time. Do not claim all historical or present budgets identical or all timeout differences nonbinding.",
+  "treatment": "Preserve user-required existing executors and frozen controls, retain every official reward, recheck this difference at delivery; no protocol normalization silently applied."
+}

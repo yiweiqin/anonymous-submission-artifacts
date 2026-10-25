@@ -1,0 +1,44 @@
+{
+  "kind": "skillflow-ablation-20261013",
+  "exploratory": true,
+  "significanceClaim": false,
+  "randomSeed": 20261013,
+  "strengthOrder": [
+    "calculator",
+    "checker",
+    "reviewer",
+    "worker",
+    "planner"
+  ],
+  "development": [
+    "Healthcare-Cost-Benefit-Analysis",
+    "DMAIC-Quality-Analysis",
+    "SEC-13F-Financial-Analysis",
+    "Compensation-Scenario-Modeling",
+    "Weighted-Risk-Assessment",
+    "Embedded-Data-Repair",
+    "Inventory-&-Finance-Integration",
+    "Operational-Recovery-Planning"
+  ],
+  "canary": [
+    "Healthcare-Cost-Benefit-Analysis",
+    "DMAIC-Quality-Analysis"
+  ],
+  "gateClosed": true,
+  "lockedClosed": true,
+  "taskModel": "deepseek-flash",
+  "temperature": 0,
+  "harborConcurrency": 6,
+  "detectiveAdapter": "minimal-evolution/adapter",
+  "dsAdapter": "dependency-similarity/adapter",
+  "baseModel": "Qwen/Qwen3-8B",
+  "fileSha256": {
+    "ablation.py": "db390cda85c828837e1894206af1ae675fb9bc6a8b1bfcd05dd156fe556a10d6",
+    "package.py": "bc9fcb92fee5c6f275bc45e0124211d67cf495c353bb8cb2db5183548b526d5b",
+    "harbor_bridge.py": "1d62d64a4669a21ce241db4e25ab5ac9e4b256b08ebed4c74d577794011c801b",
+    "janus_full.py": "942c0dc562499db2744644555cd0e3719de39f757cbdd34eacad96e76334cba2",
+    "remote_one_trial.py": "972e67ccca571702abc09b7371da96cc7aa0ee7f5363b3787b8fc8c20381b2f9",
+    "rdmd_detective.py": "7f28296aacb2817ebfc66d60a3b3496a07ae335bfb04de09a48e238f68efded3"
+  },
+  "executionGraph": "terminal projection, not stepwise tool events"
+}

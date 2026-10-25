@@ -1,0 +1,1600 @@
+{
+  "savedAt": "2026-10-17",
+  "paperReady": false,
+  "selectionRule": "When one requested model has two finished rounds, the comparison uses the higher family-mean lift. Official reward is never replaced by a replay.",
+  "rounds": {
+    "qwen": {
+      "slug": "qwen",
+      "ledger": "qwen.jsonl",
+      "taskModel": "qwen3.8-flash",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.4444444444444444,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.2222222222222222,
+              "passRate": 0.6666666666666666,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.0,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.125,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.25,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.25,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.375,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.625,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.25,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.125,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.07465277777777778
+        }
+      ],
+      "familyMeanLift": 0.07465277777777778,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 33.0,
+          "scored": 66,
+          "passRate": 0.5
+        }
+      ],
+      "enableThinking": false,
+      "reasoningEffort": "",
+      "apiBase": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 24,
+      "selectionReplays": 9,
+      "selectionReplaysKept": 4,
+      "replayReplacesOfficialReward": false
+    },
+    "glm": {
+      "slug": "glm",
+      "ledger": "glm.jsonl",
+      "taskModel": "glm-5.3-flash",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.3333333333333333,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.1111111111111111,
+              "passRate": 0.4444444444444444,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.3333333333333333,
+              "passRate": 0.3333333333333333,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 1.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.375,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.25,
+              "passRate": 0.125,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.25,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.03993055555555555
+        }
+      ],
+      "familyMeanLift": 0.03993055555555555,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 43.0,
+          "scored": 66,
+          "passRate": 0.6515151515151515
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "",
+      "apiBase": "https://open.bigmodel.cn/api/paas/v4",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 24,
+      "selectionReplays": 11,
+      "selectionReplaysKept": 4,
+      "replayReplacesOfficialReward": false
+    },
+    "qwen-max": {
+      "slug": "qwen-max",
+      "ledger": "qwen-max.jsonl",
+      "taskModel": "qwen3.8-max",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.5555555555555556,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.1111111111111111,
+              "passRate": 0.6666666666666666,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.0,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.125,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 1.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": -0.0017361111111111119
+        }
+      ],
+      "familyMeanLift": -0.0017361111111111119,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 36.0,
+          "scored": 66,
+          "passRate": 0.5454545454545454
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "",
+      "apiBase": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 8,
+      "selectionReplays": 15,
+      "selectionReplaysKept": 2,
+      "replayReplacesOfficialReward": false
+    },
+    "glm-max": {
+      "slug": "glm-max",
+      "ledger": "glm-max.jsonl",
+      "taskModel": "glm-5.3",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.3333333333333333,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.2222222222222222,
+              "passRate": 0.5555555555555556,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.3333333333333333,
+              "passRate": 0.3333333333333333,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 1.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.375,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 1.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.25,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.05381944444444445
+        }
+      ],
+      "familyMeanLift": 0.05381944444444445,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 44.0,
+          "scored": 66,
+          "passRate": 0.6666666666666666
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "",
+      "apiBase": "https://open.bigmodel.cn/api/paas/v4",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 17,
+      "selectionReplays": 11,
+      "selectionReplaysKept": 2,
+      "replayReplacesOfficialReward": false
+    },
+    "qwen-max-nt": {
+      "slug": "qwen-max-nt",
+      "ledger": "qwen-max-nt.jsonl",
+      "taskModel": "qwen3.8-max",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.3333333333333333,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.1111111111111111,
+              "passRate": 0.4444444444444444,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.0,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.25,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.125,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.625,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": -0.017361111111111112
+        }
+      ],
+      "familyMeanLift": -0.017361111111111112,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 32.0,
+          "scored": 66,
+          "passRate": 0.48484848484848486
+        }
+      ],
+      "enableThinking": false,
+      "reasoningEffort": "",
+      "apiBase": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 19,
+      "selectionReplays": 14,
+      "selectionReplaysKept": 4,
+      "replayReplacesOfficialReward": false
+    },
+    "glm-low": {
+      "slug": "glm-low",
+      "ledger": "glm-low.jsonl",
+      "taskModel": "glm-5.3-flash",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.5555555555555556,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.2222222222222222,
+              "passRate": 0.7777777777777778,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.4444444444444444,
+              "passRate": 0.4444444444444444,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 1.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.375,
+              "passRate": 0.375,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.19270833333333331
+        }
+      ],
+      "familyMeanLift": 0.19270833333333331,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 44.0,
+          "scored": 66,
+          "passRate": 0.6666666666666666
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "low",
+      "apiBase": "https://open.bigmodel.cn/api/paas/v4",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 19,
+      "selectionReplays": 11,
+      "selectionReplaysKept": 3,
+      "replayReplacesOfficialReward": false
+    },
+    "glm-max-low": {
+      "slug": "glm-max-low",
+      "ledger": "glm-max-low.jsonl",
+      "taskModel": "glm-5.3",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.6666666666666666,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.6666666666666666,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.1111111111111111,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.1111111111111111,
+              "passRate": 0.2222222222222222,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.25,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.625,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.625,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.375,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.0920138888888889
+        }
+      ],
+      "familyMeanLift": 0.0920138888888889,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 40.0,
+          "scored": 66,
+          "passRate": 0.6060606060606061
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "low",
+      "apiBase": "https://open.bigmodel.cn/api/paas/v4",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 23,
+      "selectionReplays": 12,
+      "selectionReplaysKept": 5,
+      "replayReplacesOfficialReward": false
+    }
+  },
+  "models": {
+    "qwen3.8-flash": {
+      "ledger": "qwen.jsonl",
+      "taskModel": "qwen3.8-flash",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.4444444444444444,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.2222222222222222,
+              "passRate": 0.6666666666666666,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.0,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.125,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.25,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.875,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.25,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.375,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.625,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.25,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.125,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.07465277777777778
+        }
+      ],
+      "familyMeanLift": 0.07465277777777778,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 33.0,
+          "scored": 66,
+          "passRate": 0.5
+        }
+      ],
+      "enableThinking": false,
+      "reasoningEffort": "",
+      "apiBase": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 24,
+      "selectionReplays": 9,
+      "selectionReplaysKept": 4,
+      "replayReplacesOfficialReward": false
+    },
+    "glm-5.3-flash": {
+      "ledger": "glm-low.jsonl",
+      "taskModel": "glm-5.3-flash",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.5555555555555556,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.2222222222222222,
+              "passRate": 0.7777777777777778,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.4444444444444444,
+              "passRate": 0.4444444444444444,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 1.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.375,
+              "passRate": 0.375,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.75,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.19270833333333331
+        }
+      ],
+      "familyMeanLift": 0.19270833333333331,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 44.0,
+          "scored": 66,
+          "passRate": 0.6666666666666666
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "low",
+      "apiBase": "https://open.bigmodel.cn/api/paas/v4",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 19,
+      "selectionReplays": 11,
+      "selectionReplaysKept": 3,
+      "replayReplacesOfficialReward": false
+    },
+    "qwen3.8-max": {
+      "ledger": "qwen-max.jsonl",
+      "taskModel": "qwen3.8-max",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.5555555555555556,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.1111111111111111,
+              "passRate": 0.6666666666666666,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.0,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.125,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 1.0,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.75,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": -0.0017361111111111119
+        }
+      ],
+      "familyMeanLift": -0.0017361111111111119,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 36.0,
+          "scored": 66,
+          "passRate": 0.5454545454545454
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "",
+      "apiBase": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 8,
+      "selectionReplays": 15,
+      "selectionReplaysKept": 2,
+      "replayReplacesOfficialReward": false
+    },
+    "glm-5.3": {
+      "ledger": "glm-max-low.jsonl",
+      "taskModel": "glm-5.3",
+      "complete": true,
+      "scored": 132,
+      "invalidRows": 0,
+      "families": [
+        {
+          "family": "Healthcare-Cost-Benefit-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.6666666666666666,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.6666666666666666,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "DMAIC-Quality-Analysis",
+          "tasks": 9,
+          "complete": true,
+          "vanillaPassRate": 0.1111111111111111,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.1111111111111111,
+              "passRate": 0.2222222222222222,
+              "scored": 9
+            }
+          ]
+        },
+        {
+          "family": "SEC-13F-Financial-Analysis",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 1.0,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": -0.125,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Compensation-Scenario-Modeling",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.25,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Weighted-Risk-Assessment",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.625,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.25,
+              "passRate": 0.875,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Embedded-Data-Repair",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.5,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Inventory-&-Finance-Integration",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.625,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.0,
+              "passRate": 0.625,
+              "scored": 8
+            }
+          ]
+        },
+        {
+          "family": "Operational-Recovery-Planning",
+          "tasks": 8,
+          "complete": true,
+          "vanillaPassRate": 0.375,
+          "arms": [
+            {
+              "arm": "janus_full",
+              "lift": 0.125,
+              "passRate": 0.5,
+              "scored": 8
+            }
+          ]
+        }
+      ],
+      "meanLift": [
+        {
+          "arm": "janus_full",
+          "lift": 0.0920138888888889
+        }
+      ],
+      "familyMeanLift": 0.0920138888888889,
+      "appendixPassRate": [
+        {
+          "arm": "janus_full",
+          "passed": 40.0,
+          "scored": 66,
+          "passRate": 0.6060606060606061
+        }
+      ],
+      "enableThinking": true,
+      "reasoningEffort": "low",
+      "apiBase": "https://open.bigmodel.cn/api/paas/v4",
+      "truncations": 0,
+      "janusOutgoingNonemptyChecks": 23,
+      "selectionReplays": 12,
+      "selectionReplaysKept": 5,
+      "replayReplacesOfficialReward": false
+    }
+  }
+}

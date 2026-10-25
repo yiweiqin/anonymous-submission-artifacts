@@ -1,0 +1,9259 @@
+{
+  "schema": "cpdb_scorer_table/v1",
+  "generatedAt": "2026-09-20T11:41:37Z",
+  "keyKind": "hybrid_family_facet",
+  "keyFormat": "D 用 familyL>familyR；S 用 facetL>facetR",
+  "featureSpec": "cpdb_pair_features_v1",
+  "scale": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "cells": {
+    "research>writing": {
+      "dependency": [
+        0.0,
+        0.342629,
+        0.0,
+        0.657371,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "research>ppt": {
+      "dependency": [
+        0.0,
+        0.361702,
+        0.638298,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "research>review": {
+      "dependency": [
+        0.0,
+        0.416,
+        0.584,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "writing>research": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "writing>ppt": {
+      "dependency": [
+        0.0,
+        0.396552,
+        0.0,
+        0.603448,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "writing>review": {
+      "dependency": [
+        0.0,
+        0.328244,
+        0.0,
+        0.671756,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "writing>writing": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ppt>research": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ppt>writing": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ppt>review": {
+      "dependency": [
+        0.0,
+        0.064516,
+        0.0,
+        0.935484,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "review>research": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "review>writing": {
+      "dependency": [
+        0.0,
+        0.104859,
+        0.895141,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "review>ppt": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "research>data": {
+      "dependency": [
+        0.0,
+        0.78437,
+        0.0,
+        0.21563,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "research>code": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "research>research": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.84375,
+        0.15625,
+        0.0
+      ]
+    },
+    "data>research": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "data>writing": {
+      "dependency": [
+        0.0,
+        0.147222,
+        0.0,
+        0.852778,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "data>code": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "writing>data": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "writing>code": {
+      "dependency": [
+        0.0,
+        0.824536,
+        0.0,
+        0.175464,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "code>research": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "code>data": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "code>writing": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "code>review": {
+      "dependency": [
+        0.0,
+        0.070423,
+        0.0,
+        0.929577,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "code>code": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.653571,
+        0.346429,
+        0.0
+      ]
+    },
+    "review>code": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ppt>data": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ppt>ppt": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.842857,
+        0.157143,
+        0.0
+      ]
+    },
+    "data>ppt": {
+      "dependency": [
+        0.0,
+        0.150685,
+        0.849315,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "data>data": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "data>review": {
+      "dependency": [
+        0.0,
+        0.490909,
+        0.509091,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "review>data": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "review>review": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ppt>code": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "code>ppt": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "prior": {
+    "dependency": [
+      0.52596,
+      0.195726,
+      0.087781,
+      0.190534,
+      0.0
+    ],
+    "similarity": [
+      0.681236,
+      0.0,
+      0.288215,
+      0.030548,
+      0.0
+    ]
+  },
+  "unseenFallback": "prior",
+  "foldMetrics": {
+    "org": {
+      "dependency": {
+        "mean": 0.7914,
+        "stdAcrossFolds": 0.1812,
+        "perFold": [
+          0.4291,
+          0.8858,
+          0.8764,
+          0.8851,
+          0.8808
+        ]
+      },
+      "similarity": {
+        "mean": 1.0,
+        "stdAcrossFolds": 0.0,
+        "perFold": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "facet_pair": {
+      "dependency": {
+        "mean": 0.9058,
+        "stdAcrossFolds": 0.0157,
+        "perFold": [
+          0.9137,
+          0.9101,
+          0.8961,
+          0.8816,
+          0.9275
+        ]
+      },
+      "similarity": {
+        "mean": 0.6812,
+        "stdAcrossFolds": 0.0523,
+        "perFold": [
+          0.653,
+          0.6904,
+          0.6775,
+          0.7717,
+          0.6135
+        ]
+      }
+    },
+    "facet": {
+      "dependency": {
+        "mean": 0.9057,
+        "stdAcrossFolds": 0.0061,
+        "perFold": [
+          0.9165,
+          0.9069,
+          0.8986,
+          0.9013,
+          0.9054
+        ]
+      },
+      "similarity": {
+        "mean": 0.6842,
+        "stdAcrossFolds": 0.0384,
+        "perFold": [
+          0.6387,
+          0.6793,
+          0.6813,
+          0.6668,
+          0.7548
+        ]
+      }
+    },
+    "family": {
+      "dependency": {
+        "mean": 0.4529,
+        "stdAcrossFolds": 0.0687,
+        "perFold": [
+          0.4704,
+          0.5269,
+          0.3613
+        ]
+      },
+      "similarity": {
+        "mean": 0.7928,
+        "stdAcrossFolds": 0.027,
+        "perFold": [
+          0.7842,
+          0.7649,
+          0.8294
+        ]
+      }
+    }
+  },
+  "labelSource": {
+    "file": "artifacts/cpdb-scorer-v4-hybrid/labels.jsonl",
+    "annotators": [
+      "policy_hybrid_v1/prelabel"
+    ]
+  },
+  "provenance": {
+    "matrixDir": "experiments/cpdb_org_world/train_out_hybrid",
+    "inputs": {
+      "data/full/agents.jsonl": "e20eb0fa3b57a3c57b3c672007b240a39071d3aad45217d8a869617aa53028e9",
+      "data/full/agent_profiles.jsonl": "2b83f78cdff1a4d7b0ccecf0b0ccf533308684ed03ef3bcf42aadb491ea43600",
+      "data/full/pairs.jsonl": "639bde6abb9f6c943d0ad208af41bb88224d7bbd4b7aea4fffca8b63827604ef",
+      "artifacts/cpdb-scorer-v4-hybrid/labels.jsonl": "960a1f7379a0b2f5ecfc6b2e6525919b6e17a4840e608525ce044a39fbac53f2"
+    },
+    "outputs": {
+      "train_out_hybrid/X.f32": "5758fbbd284532d7a9705d1c9b18054d9e922cd21e8e30059907f3a3aef44dae",
+      "train_out_hybrid/y_dependency.i8": "4c6d630f0984844f68325b56118293d59d86748f9da00d193165aabc367e6d09",
+      "train_out_hybrid/y_similarity.i8": "a41769b341564502b11a065ebab03812656f93aaf32c7acc6d50fef27a742e05",
+      "train_out_hybrid/rows.jsonl": "a8a4bff9654c2bd9daf19a34f4752f1cb6a7426623b10d5e0608f2ed133baf87",
+      "train_out_hybrid/folds.jsonl": "eca4a3ddea3b7150f816294f8de9ca0fa1eb7e34e214c27c21715140df12a15b",
+      "train_out_hybrid/labels.jsonl": "33dfed4bd7fdc277c28800fc935cdae7ec0a069b922160524415e55eecda447a",
+      "train_out_hybrid/baselines.jsonl": "2f9da765ca6bc73353ef74bdd79726f5e4a01dac0e0c674d69b44fdb8b4d6607"
+    },
+    "rows": 8282
+  },
+  "note": "混合口径：D 按 family 对蒸馏会抹掉任务门，S 必须按 facet 对才能保住 0.75。线上默认仍走 hybrid_rules；这张表只是蒸馏对照。未知键回落到 prior。",
+  "facetCells": {
+    "year_window>citation_bind": {
+      "dependency": [
+        0.0,
+        0.142857,
+        0.0,
+        0.857143,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.363636,
+        0.636364,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>risk_flag": {
+      "dependency": [
+        0.0,
+        0.25,
+        0.75,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>brand_tone": {
+      "dependency": [
+        0.0,
+        0.3125,
+        0.0,
+        0.6875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.571429,
+        0.0,
+        0.428571,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>risk_flag": {
+      "dependency": [
+        0.0,
+        0.375,
+        0.0,
+        0.625,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>risk_flag": {
+      "dependency": [
+        0.0,
+        0.125,
+        0.0,
+        0.875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>citation_bind": {
+      "dependency": [
+        0.0,
+        0.1875,
+        0.8125,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>brand_tone": {
+      "dependency": [
+        0.0,
+        0.105263,
+        0.894737,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.363636,
+        0.0,
+        0.636364,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>risk_flag": {
+      "dependency": [
+        0.0,
+        0.571429,
+        0.0,
+        0.428571,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>outlier_note": {
+      "dependency": [
+        0.0,
+        0.755556,
+        0.0,
+        0.244444,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>citation_bind": {
+      "dependency": [
+        0.0,
+        0.052632,
+        0.0,
+        0.947368,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>perm_scope": {
+      "dependency": [
+        0.0,
+        0.857143,
+        0.0,
+        0.142857,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>outlier_note": {
+      "dependency": [
+        0.0,
+        0.821429,
+        0.0,
+        0.178571,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>citation_bind": {
+      "dependency": [
+        0.0,
+        0.3,
+        0.0,
+        0.7,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>accept_gate": {
+      "dependency": [
+        0.0,
+        0.1,
+        0.9,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>brand_tone": {
+      "dependency": [
+        0.0,
+        0.375,
+        0.0,
+        0.625,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>accept_gate": {
+      "dependency": [
+        0.0,
+        0.074074,
+        0.0,
+        0.925926,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "accept_gate>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>brand_tone": {
+      "dependency": [
+        0.0,
+        0.121212,
+        0.878788,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>test_gate": {
+      "dependency": [
+        0.0,
+        0.769231,
+        0.0,
+        0.230769,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>accept_gate": {
+      "dependency": [
+        0.0,
+        0.125,
+        0.0,
+        0.875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>api_pin": {
+      "dependency": [
+        0.0,
+        0.852632,
+        0.0,
+        0.147368,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "api_pin>accept_gate": {
+      "dependency": [
+        0.0,
+        0.066667,
+        0.0,
+        0.933333,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>exec_brief": {
+      "dependency": [
+        0.0,
+        0.388889,
+        0.0,
+        0.611111,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>brand_layout": {
+      "dependency": [
+        0.0,
+        0.428571,
+        0.571429,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>unit_align": {
+      "dependency": [
+        0.0,
+        0.80303,
+        0.0,
+        0.19697,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.307692,
+        0.692308,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>brand_layout": {
+      "dependency": [
+        0.0,
+        0.461538,
+        0.0,
+        0.538462,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.423077,
+        0.0,
+        0.576923,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>exec_brief": {
+      "dependency": [
+        0.0,
+        0.193548,
+        0.0,
+        0.806452,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>brand_layout": {
+      "dependency": [
+        0.0,
+        0.058824,
+        0.941176,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.151515,
+        0.848485,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>brand_tone": {
+      "dependency": [
+        0.0,
+        0.178571,
+        0.0,
+        0.821429,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>number_callout": {
+      "dependency": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>missing_mark": {
+      "dependency": [
+        0.0,
+        0.770833,
+        0.0,
+        0.229167,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>number_callout": {
+      "dependency": [
+        0.0,
+        0.428571,
+        0.571429,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>unit_align": {
+      "dependency": [
+        0.0,
+        0.769231,
+        0.0,
+        0.230769,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>number_callout": {
+      "dependency": [
+        0.0,
+        0.25,
+        0.0,
+        0.75,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>brand_tone": {
+      "dependency": [
+        0.0,
+        0.181818,
+        0.0,
+        0.818182,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>number_callout": {
+      "dependency": [
+        0.0,
+        0.235294,
+        0.764706,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>missing_mark": {
+      "dependency": [
+        0.0,
+        0.794872,
+        0.0,
+        0.205128,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>risk_flag": {
+      "dependency": [
+        0.0,
+        0.285714,
+        0.714286,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>exec_brief": {
+      "dependency": [
+        0.0,
+        0.272727,
+        0.0,
+        0.727273,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>source_trace": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>risk_flag": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>exec_brief": {
+      "dependency": [
+        0.0,
+        0.176471,
+        0.0,
+        0.823529,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>source_trace": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>exec_brief": {
+      "dependency": [
+        0.0,
+        0.142857,
+        0.857143,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>source_trace": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>risk_flag": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>source_trace": {
+      "dependency": [
+        0.0,
+        0.071429,
+        0.0,
+        0.928571,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>risk_flag": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>exec_brief": {
+      "dependency": [
+        0.0,
+        0.051282,
+        0.948718,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.272727,
+        0.727273,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>version_pin": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>brand_layout": {
+      "dependency": [
+        0.0,
+        0.4,
+        0.6,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>version_pin": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>version_pin": {
+      "dependency": [
+        0.0,
+        0.12,
+        0.0,
+        0.88,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>exec_brief": {
+      "dependency": [
+        0.0,
+        0.222222,
+        0.777778,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>version_pin": {
+      "dependency": [
+        0.0,
+        0.111111,
+        0.0,
+        0.888889,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>outlier_note": {
+      "dependency": [
+        0.0,
+        0.736842,
+        0.0,
+        0.263158,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>tech_spec": {
+      "dependency": [
+        0.0,
+        0.285714,
+        0.0,
+        0.714286,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>brand_tone": {
+      "dependency": [
+        0.0,
+        0.153846,
+        0.0,
+        0.846154,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>tech_spec": {
+      "dependency": [
+        0.0,
+        0.190476,
+        0.0,
+        0.809524,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>brand_tone": {
+      "dependency": [
+        0.0,
+        0.15,
+        0.0,
+        0.85,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>api_pin": {
+      "dependency": [
+        0.0,
+        0.907895,
+        0.0,
+        0.092105,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>citation_bind": {
+      "dependency": [
+        0.0,
+        0.375,
+        0.0,
+        0.625,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>talk_track": {
+      "dependency": [
+        0.0,
+        0.181818,
+        0.818182,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>version_pin": {
+      "dependency": [
+        0.0,
+        0.428571,
+        0.571429,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>talk_track": {
+      "dependency": [
+        0.0,
+        0.714286,
+        0.0,
+        0.285714,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>version_pin": {
+      "dependency": [
+        0.0,
+        0.6,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>version_pin": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>citation_bind": {
+      "dependency": [
+        0.0,
+        0.055556,
+        0.944444,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>brand_tone": {
+      "dependency": [
+        0.0,
+        0.076923,
+        0.923077,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>talk_track": {
+      "dependency": [
+        0.0,
+        0.2,
+        0.0,
+        0.8,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>version_pin": {
+      "dependency": [
+        0.0,
+        0.416667,
+        0.0,
+        0.583333,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>missing_mark": {
+      "dependency": [
+        0.0,
+        0.843137,
+        0.0,
+        0.156863,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>exec_brief": {
+      "dependency": [
+        0.0,
+        0.263158,
+        0.0,
+        0.736842,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>test_gate": {
+      "dependency": [
+        0.0,
+        0.795455,
+        0.0,
+        0.204545,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>exec_brief": {
+      "dependency": [
+        0.0,
+        0.444444,
+        0.0,
+        0.555556,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>citation_bind": {
+      "dependency": [
+        0.0,
+        0.125,
+        0.0,
+        0.875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>test_gate": {
+      "dependency": [
+        0.0,
+        0.75,
+        0.0,
+        0.25,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>unit_align": {
+      "dependency": [
+        0.0,
+        0.861386,
+        0.0,
+        0.138614,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>risk_flag": {
+      "dependency": [
+        0.0,
+        0.133333,
+        0.0,
+        0.866667,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>tech_spec": {
+      "dependency": [
+        0.0,
+        0.076923,
+        0.923077,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>risk_flag": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>test_gate": {
+      "dependency": [
+        0.0,
+        0.860465,
+        0.0,
+        0.139535,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>risk_flag": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>tech_spec": {
+      "dependency": [
+        0.0,
+        0.230769,
+        0.0,
+        0.769231,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>brand_layout": {
+      "dependency": [
+        0.0,
+        0.6,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>brand_layout": {
+      "dependency": [
+        0.0,
+        0.285714,
+        0.0,
+        0.714286,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.384615,
+        0.0,
+        0.615385,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>tech_spec": {
+      "dependency": [
+        0.0,
+        0.125,
+        0.0,
+        0.875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>talk_track": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>citation_bind": {
+      "dependency": [
+        0.0,
+        0.3,
+        0.0,
+        0.7,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>talk_track": {
+      "dependency": [
+        0.0,
+        0.2,
+        0.8,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>unit_align": {
+      "dependency": [
+        0.0,
+        0.828125,
+        0.0,
+        0.171875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>talk_track": {
+      "dependency": [
+        0.0,
+        0.1875,
+        0.8125,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>version_pin": {
+      "dependency": [
+        0.0,
+        0.375,
+        0.625,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>source_trace": {
+      "dependency": [
+        0.0,
+        0.590909,
+        0.409091,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>version_pin": {
+      "dependency": [
+        0.0,
+        0.666667,
+        0.333333,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>exec_brief": {
+      "dependency": [
+        0.0,
+        0.111111,
+        0.0,
+        0.888889,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>source_trace": {
+      "dependency": [
+        0.0,
+        0.166667,
+        0.833333,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>source_trace": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>version_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>tech_spec": {
+      "dependency": [
+        0.0,
+        0.52,
+        0.0,
+        0.48,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.375,
+        0.625,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>source_trace": {
+      "dependency": [
+        0.0,
+        0.571429,
+        0.428571,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>brand_layout": {
+      "dependency": [
+        0.0,
+        0.181818,
+        0.818182,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>source_trace": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>source_trace": {
+      "dependency": [
+        0.0,
+        0.083333,
+        0.0,
+        0.916667,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>tech_spec": {
+      "dependency": [
+        0.0,
+        0.152174,
+        0.847826,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>source_trace": {
+      "dependency": [
+        0.0,
+        0.045455,
+        0.0,
+        0.954545,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>citation_bind": {
+      "dependency": [
+        0.0,
+        0.058824,
+        0.0,
+        0.941176,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>perm_scope": {
+      "dependency": [
+        0.0,
+        0.875,
+        0.0,
+        0.125,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>talk_track": {
+      "dependency": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>version_pin": {
+      "dependency": [
+        0.0,
+        0.428571,
+        0.571429,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>brand_tone": {
+      "dependency": [
+        0.0,
+        0.481481,
+        0.0,
+        0.518519,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>talk_track": {
+      "dependency": [
+        0.0,
+        0.125,
+        0.0,
+        0.875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>version_pin": {
+      "dependency": [
+        0.0,
+        0.333333,
+        0.0,
+        0.666667,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>tech_spec": {
+      "dependency": [
+        0.0,
+        0.103448,
+        0.896552,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>compat_window": {
+      "dependency": [
+        0.0,
+        0.142857,
+        0.0,
+        0.857143,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>version_pin": {
+      "dependency": [
+        0.0,
+        0.2,
+        0.0,
+        0.8,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>perm_scope": {
+      "dependency": [
+        0.0,
+        0.853659,
+        0.0,
+        0.146341,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>api_pin": {
+      "dependency": [
+        0.0,
+        0.845238,
+        0.0,
+        0.154762,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>version_pin": {
+      "dependency": [
+        0.0,
+        0.055556,
+        0.0,
+        0.944444,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>version_pin": {
+      "dependency": [
+        0.0,
+        0.1875,
+        0.0,
+        0.8125,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>talk_track": {
+      "dependency": [
+        0.0,
+        0.25,
+        0.75,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>tech_spec": {
+      "dependency": [
+        0.0,
+        0.115385,
+        0.0,
+        0.884615,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>talk_track": {
+      "dependency": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.095238,
+        0.904762,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>accept_gate": {
+      "dependency": [
+        0.0,
+        0.6,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>accept_gate": {
+      "dependency": [
+        0.0,
+        0.25,
+        0.75,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>source_trace": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>source_trace": {
+      "dependency": [
+        0.0,
+        0.357143,
+        0.0,
+        0.642857,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>accept_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>brand_tone": {
+      "dependency": [
+        0.0,
+        0.023256,
+        0.976744,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>brand_layout": {
+      "dependency": [
+        0.0,
+        0.4,
+        0.0,
+        0.6,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>risk_flag": {
+      "dependency": [
+        0.0,
+        0.1,
+        0.0,
+        0.9,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>join_key": {
+      "dependency": [
+        0.0,
+        0.222222,
+        0.0,
+        0.777778,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>brand_tone": {
+      "dependency": [
+        0.0,
+        0.172414,
+        0.0,
+        0.827586,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>tech_spec": {
+      "dependency": [
+        0.0,
+        0.083333,
+        0.0,
+        0.916667,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>compat_window": {
+      "dependency": [
+        0.0,
+        0.571429,
+        0.0,
+        0.428571,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>api_pin": {
+      "dependency": [
+        0.0,
+        0.816901,
+        0.0,
+        0.183099,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>accept_gate": {
+      "dependency": [
+        0.0,
+        0.0625,
+        0.0,
+        0.9375,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>exec_brief": {
+      "dependency": [
+        0.0,
+        0.12,
+        0.88,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>compat_window": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>accept_gate": {
+      "dependency": [
+        0.0,
+        0.363636,
+        0.0,
+        0.636364,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>join_key": {
+      "dependency": [
+        0.0,
+        0.230769,
+        0.0,
+        0.769231,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>exec_brief": {
+      "dependency": [
+        0.0,
+        0.25,
+        0.0,
+        0.75,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.095238,
+        0.904762,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>brand_layout": {
+      "dependency": [
+        0.0,
+        0.076923,
+        0.923077,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>brand_layout": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>brand_layout": {
+      "dependency": [
+        0.0,
+        0.083333,
+        0.916667,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>chart_hierarchy": {
+      "dependency": [
+        0.0,
+        0.166667,
+        0.833333,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>citation_bind": {
+      "dependency": [
+        0.0,
+        0.076923,
+        0.0,
+        0.923077,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>number_callout": {
+      "dependency": [
+        0.0,
+        0.125,
+        0.875,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>join_key": {
+      "dependency": [
+        0.0,
+        0.25,
+        0.0,
+        0.75,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>number_callout": {
+      "dependency": [
+        0.0,
+        0.2,
+        0.8,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>number_callout": {
+      "dependency": [
+        0.0,
+        0.333333,
+        0.0,
+        0.666667,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>accept_gate": {
+      "dependency": [
+        0.0,
+        0.2,
+        0.8,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>source_trace": {
+      "dependency": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>accept_gate": {
+      "dependency": [
+        0.0,
+        0.666667,
+        0.333333,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>accept_gate": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>talk_track": {
+      "dependency": [
+        0.0,
+        0.3,
+        0.0,
+        0.7,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>missing_mark": {
+      "dependency": [
+        0.0,
+        0.756757,
+        0.0,
+        0.243243,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>tech_spec": {
+      "dependency": [
+        0.0,
+        0.333333,
+        0.0,
+        0.666667,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>tech_spec": {
+      "dependency": [
+        0.0,
+        0.086957,
+        0.913043,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>accept_gate": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>citation_bind": {
+      "dependency": [
+        0.0,
+        0.153846,
+        0.846154,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>accept_gate": {
+      "dependency": [
+        0.0,
+        0.333333,
+        0.0,
+        0.666667,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>risk_flag": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>source_trace": {
+      "dependency": [
+        0.0,
+        0.111111,
+        0.888889,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>accept_gate": {
+      "dependency": [
+        0.0,
+        0.25,
+        0.75,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>number_callout": {
+      "dependency": [
+        0.0,
+        0.625,
+        0.375,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>number_callout": {
+      "dependency": [
+        0.0,
+        0.555556,
+        0.0,
+        0.444444,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>source_trace": {
+      "dependency": [
+        0.0,
+        0.03125,
+        0.0,
+        0.96875,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "source_trace>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "join_key>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>brand_tone": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_tone>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>compat_window": {
+      "dependency": [
+        0.0,
+        0.4,
+        0.0,
+        0.6,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>risk_flag": {
+      "dependency": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>number_callout": {
+      "dependency": [
+        0.0,
+        0.666667,
+        0.333333,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>number_callout": {
+      "dependency": [
+        0.0,
+        0.166667,
+        0.0,
+        0.833333,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>risk_flag": {
+      "dependency": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>source_trace": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>citation_bind": {
+      "dependency": [
+        0.0,
+        0.130435,
+        0.869565,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>source_trace": {
+      "dependency": [
+        0.0,
+        0.111111,
+        0.0,
+        0.888889,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>source_trace": {
+      "dependency": [
+        0.0,
+        0.055556,
+        0.0,
+        0.944444,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>source_trace": {
+      "dependency": [
+        0.0,
+        0.026316,
+        0.0,
+        0.973684,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "join_key>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "perm_scope>source_trace": {
+      "dependency": [
+        0.0,
+        0.1,
+        0.0,
+        0.9,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>talk_track": {
+      "dependency": [
+        0.0,
+        0.142857,
+        0.857143,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>accept_gate": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>risk_flag": {
+      "dependency": [
+        0.0,
+        0.142857,
+        0.0,
+        0.857143,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>source_trace": {
+      "dependency": [
+        0.0,
+        0.090909,
+        0.0,
+        0.909091,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>accept_gate": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>source_trace": {
+      "dependency": [
+        0.0,
+        0.8,
+        0.2,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_trace>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>accept_gate": {
+      "dependency": [
+        0.0,
+        0.043478,
+        0.0,
+        0.956522,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>accept_gate": {
+      "dependency": [
+        0.0,
+        0.025,
+        0.0,
+        0.975,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>source_grade": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "source_grade>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>version_pin": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>version_pin": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>accept_gate": {
+      "dependency": [
+        0.0,
+        0.0625,
+        0.0,
+        0.9375,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>perm_scope": {
+      "dependency": [
+        0.0,
+        0.944444,
+        0.0,
+        0.055556,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>accept_gate": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>brand_layout": {
+      "dependency": [
+        0.0,
+        0.333333,
+        0.666667,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>version_pin": {
+      "dependency": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>number_callout": {
+      "dependency": [
+        0.0,
+        0.444444,
+        0.555556,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "year_window>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>accept_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>version_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>risk_flag": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>outlier_note": {
+      "dependency": [
+        0.0,
+        0.896552,
+        0.0,
+        0.103448,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>risk_flag": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "accept_gate>version_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "claim_split>primary_quote": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>risk_flag": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>accept_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>citation_bind": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>risk_flag": {
+      "dependency": [
+        0.0,
+        0.1,
+        0.0,
+        0.9,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "citation_bind>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tech_spec>exec_brief": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exec_brief>tech_spec": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>risk_flag": {
+      "dependency": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "missing_mark>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "outlier_note>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>outlier_note": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>claim_split": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "risk_flag>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "unit_align>risk_flag": {
+      "dependency": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>unit_align": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "test_gate>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>join_key": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "version_pin>missing_mark": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>year_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "join_key>version_pin": {
+      "dependency": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "chart_hierarchy>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "brand_layout>compat_window": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>perm_scope": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "primary_quote>risk_flag": {
+      "dependency": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>number_callout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "api_pin>brand_layout": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "number_callout>api_pin": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "compat_window>chart_hierarchy": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "perm_scope>talk_track": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "talk_track>test_gate": {
+      "dependency": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "similarity": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

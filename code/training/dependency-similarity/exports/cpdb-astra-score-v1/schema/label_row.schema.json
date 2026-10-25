@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cpdb-astra-score-v1/label_row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "dependency",
+    "similarity",
+    "rationale"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dependency": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "similarity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "rationale": {
+      "type": "string"
+    }
+  }
+}

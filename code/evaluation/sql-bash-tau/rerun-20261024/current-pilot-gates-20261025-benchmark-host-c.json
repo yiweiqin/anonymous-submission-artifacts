@@ -1,0 +1,144 @@
+[
+  {
+    "bench": "tau",
+    "hash": "65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894",
+    "root": "/benchmark/janus-rerun-20261025/variants/65668e31c22c6d27e75115e3a0f6879d99ecc067b5a741af3230def7369b2894",
+    "n": 28,
+    "sum": 18.0,
+    "complete": true,
+    "holdDrops": [
+      "airline-0",
+      "airline-2",
+      "airline-8"
+    ],
+    "gapNetIncrease": "7.0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "087773db9add77a4e9f9dc1453eb6bee700399d5c0338d9d4d744347ed4c0386",
+    "at": 1792919438.7092054,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03",
+    "root": "/benchmark/janus-rerun-20261025/variants/c830f1ff9b7690071f3eb119febc1d91bb5c853690408c802d744479dae2fa03",
+    "n": 28,
+    "sum": 22.0,
+    "complete": true,
+    "holdDrops": [
+      "airline-2",
+      "airline-8"
+    ],
+    "gapNetIncrease": "10.0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "3adf1d16f2311f974f8abb87ae4ac8a6f0bfc55cd9b03ff7fce8fda998ace9af",
+    "at": 1792919439.1298223,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56",
+    "root": "/benchmark/janus-rerun-20261025/variants/822438c386b741045ec1a1962def6d12761aae454d996eee56d75726da9dea56",
+    "n": 28,
+    "sum": 19.0,
+    "complete": true,
+    "holdDrops": [
+      "airline-0",
+      "airline-6",
+      "airline-8"
+    ],
+    "gapNetIncrease": "8.0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "22b48d663b1825ccddd0ed918e435f445cbd4fa31dcee242e6696baf3ca94786",
+    "at": 1792919439.5424342,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935",
+    "root": "/benchmark/janus-rerun-20261025/variants/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935",
+    "n": 15,
+    "sum": 13.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0"
+    ],
+    "gapNetIncrease": "0.0",
+    "gatePassed": false,
+    "infraFailures": 1,
+    "receiptSha256": "a927f539943f5919a294386d2fb523307b5f70e30a69cbaa23395132d70af3bb",
+    "at": 1792919439.9637299,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450",
+    "root": "/benchmark/janus-rerun-20261025/variants/fb19a3f67ed58ba31b097bd445d5ee5519904952279c65141e3a379793e8b450",
+    "n": 12,
+    "sum": 10.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0",
+      "airline-8"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 1,
+    "receiptSha256": "d573ad9a69d4fc7e2b2534e7da4636e5bbe3bbedaa404d75fde5861aac822029",
+    "at": 1792919440.3763762,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "b3b7a35160791d081c5794f45951af866644c11896888a98c8528da661db506d",
+    "root": "/benchmark/janus-rerun-20261025/variants/b3b7a35160791d081c5794f45951af866644c11896888a98c8528da661db506d",
+    "n": 4,
+    "sum": 3.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "37c69adfb8f01b7a3714464962f8a4258f53c1be865b86bcdd283ab358303f38",
+    "at": 1792919440.7885978,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "bd80b427d0edbb8364d88abbb0a7c479507b7eb6cff7afeb37b0b94ddfa36d1d",
+    "root": "/benchmark/janus-rerun-20261025/variants/bd80b427d0edbb8364d88abbb0a7c479507b7eb6cff7afeb37b0b94ddfa36d1d",
+    "n": 1,
+    "sum": 0.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "62c498c476d62125427dc9c2c6d684bc434800642e8c459370ff58eb2af3403a",
+    "at": 1792919441.192146,
+    "paperReady": false
+  },
+  {
+    "bench": "tau",
+    "hash": "b8eb39de2ee91fcce7de62366f44bca65a742add5fa8d16cfcab77e2644d2e50",
+    "root": "/benchmark/janus-rerun-20261025/variants/b8eb39de2ee91fcce7de62366f44bca65a742add5fa8d16cfcab77e2644d2e50",
+    "n": 2,
+    "sum": 1.0,
+    "complete": false,
+    "holdDrops": [
+      "airline-0"
+    ],
+    "gapNetIncrease": "0",
+    "gatePassed": false,
+    "infraFailures": 0,
+    "receiptSha256": "dffa8c400710a68a4932746fd6251de4ceed29033a32ee328b35bb369bece4bf",
+    "at": 1792919441.6338227,
+    "paperReady": false
+  }
+]

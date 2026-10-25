@@ -1,0 +1,4151 @@
+{
+  "schema": "tb-compatible-control-origins-v1",
+  "interface": {
+    "commonInputSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+    "runtimeFiles": {
+      "tb_trial.py": "0292b8e9f4d3d1ca2935b908529f593523761ebc89d948e8f92d8014b740f2ab",
+      "tb_budget.py": "df8f352849c291c99075cc6f1dbd84a3bd140b5a0260e18ce08692c599bcfaaa",
+      "native_target_trial.py": "9c6b14e70770ae5b979a68c8c4c4eddfa406e98a35e210d7ba61ec755394d83f",
+      "remote_one_trial.py": "fc1bdda999a6e8d2e0444397b7435f20219bb846fa3a7c7f57fac1d8ffa29d99",
+      "run_guarded.mjs": "cf746fb7bda625ade39c318b18347b547a75f0573d7fb1153508e58d1af15240"
+    },
+    "model": "openai/deepseek-flash",
+    "temperature": 0,
+    "maxTokens": 4096,
+    "maxActualCalls": 40,
+    "thinking": "disabled",
+    "interface": "control-terminal-interface-v3",
+    "noFrozenPlannerOrStaff": true
+  },
+  "sourceRegistrySha256": "18fa204230168fe65235f253175b27385df90575d94f608a3ba081de23e59cd7",
+  "sourceReceiptFileSha256": "edb30f96f0d761adc6200c0fd2aafbd16733d5db531cac368ee73812b27484a2",
+  "sourceScore": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900",
+  "sourceRoot": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime",
+  "sourceManifest": {
+    "files": {
+      "tb_preplan.py": "3d25c65b68e3129f7b6be62474814d2a92e26a893881d87afe7efe5d98d2c7e8",
+      "tb_trial.py": "0292b8e9f4d3d1ca2935b908529f593523761ebc89d948e8f92d8014b740f2ab",
+      "tb_worker.py": "dbd03d3706b66900a499a4821463bafaf993f3b2d686697f3e4a9ac8a331e40a",
+      "tb_policy.py": "c4409e63311d8c013af1089b4c04d4155aaafe45034bdd85f8f9ee530d788f29",
+      "tb_budget.py": "df8f352849c291c99075cc6f1dbd84a3bd140b5a0260e18ce08692c599bcfaaa",
+      "tb_role_templates.json": "6c8c7a7569b6a2f662faa82e490e747c3a797d4616ddf3471dcccbd1ed4a047d",
+      "pilot-lock.json": "d9f68c315aca34a4858a0a46b7b46d61d4987175b8482675a515534d7686da2c",
+      "design.json": "4b8148201153d2b3dc03365e774824df58691f18f01722248b9215896b47588d",
+      "make_synthetic.py": "5deb66aec5956ee57e7e4547cdfcc0e1ba8b3452c41c3998d4cf1076eb4d1356",
+      "native_source_worker.py": "3ad9d55c8e5fd56828129be3ce78122b94270c9a850f9037ba92a24ce51e1121",
+      "consume_plan.py": "3b107049d6d9793a4ed11a29ed74dc52b5705e8df418f8ebfc0578fc34c333ce",
+      "native_images.py": "93e275e032c70da53dda2ba74b397fbb76ea8a1324b75f3743d7195e51dbb226",
+      "native_target_trial.py": "9c6b14e70770ae5b979a68c8c4c4eddfa406e98a35e210d7ba61ec755394d83f",
+      "native-system-freeze.json": "db3e44968e364e858000286fa14c8131b3f1f041078931b2deb986bb21ca718b",
+      "native_rpc_server.py": "9e96e599853c37c52bd6d90722708a80967ac0291e188f38792c9035d38dfa51",
+      "native_rpc_broker.py": "23f7efdba3fc8778555bc6d51a8039de9b8cd5f824c69f27cd09a3d394d47fc7",
+      "remote_one_trial.py": "fc1bdda999a6e8d2e0444397b7435f20219bb846fa3a7c7f57fac1d8ffa29d99",
+      "run_guarded.mjs": "cf746fb7bda625ade39c318b18347b547a75f0573d7fb1153508e58d1af15240",
+      "native_modules/engine.py": "2c124345b380bdeb6297fdecf6b93cbe70d7691b9b3f805acfc51346dfbdfff9",
+      "native_modules/model_io.py": "6a5a156feebe02771d8dd9274ca14c80b577a0e3eb29b2fb3d0b1763209b898a",
+      "native_modules/shadow.py": "7555e8e59d077bd071432a9df5527c7b870d73c93eecc5b0e34c51bf10c61788"
+    },
+    "paperReady": false,
+    "phase": "pilot"
+  },
+  "controls": {
+    "cancel-async-tasks": {
+      "receipt": {
+        "task": "cancel-async-tasks",
+        "jobName": "tb-v4-cancel-async-tasks-control-1792370432038653105",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 5,
+        "promptTokens": 11631,
+        "completionTokens": 1366,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 5,
+        "successfulExecutorResponses": 5,
+        "extraConsumed": true,
+        "requestJournalSha256": "a3f409dbc66f95ec731c13f98c3091486781c609420053e15d0ff1e924198f12",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 68.342,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/cancel-async-tasks:20251031",
+          "imageId": "sha256:84c7fae6b256dcc56a350790e2a9715eefc7dad662a9d8e8a472363aa71ef18d",
+          "repoDigests": [
+            "alexgshaw/cancel-async-tasks@sha256:84c7fae6b256dcc56a350790e2a9715eefc7dad662a9d8e8a472363aa71ef18d"
+          ],
+          "repoTags": [
+            "alexgshaw/cancel-async-tasks:20251031",
+            "alexgshaw/cancel-async-tasks@sha256:84c7fae6b256dcc56a350790e2a9715eefc7dad662a9d8e8a472363aa71ef18d"
+          ],
+          "sizeBytes": 44171676
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "a27f7bd26cb4f9128ec407f5945f45456fe02220ce23fbd37300386da3b23c3c",
+      "registryPacketSha256": "b48478eda78f96b154c4a4dca4ea735334a86440082fefe4c58d0b9315b04ccf",
+      "gradeEvidence": {
+        "task": "cancel-async-tasks",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-cancel-async-tasks-control-1792370432038653105",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cancel-async-tasks-control-1792370432038653105/cancel-async-tasks__rtr5UHN/result.json",
+            "sha256": "dd187c4a2676f022e7830c1b24c6e6d8f7ab601fb4dcfcdd6a4950946ae156b2",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cancel-async-tasks-control-1792370432038653105/cancel-async-tasks__rtr5UHN/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "fix-code-vulnerability": {
+      "receipt": {
+        "task": "fix-code-vulnerability",
+        "jobName": "tb-v4-fix-code-vulnerability-control-1792370579679927629",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 9,
+        "promptTokens": 59413,
+        "completionTokens": 1688,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 9,
+        "successfulExecutorResponses": 9,
+        "extraConsumed": true,
+        "requestJournalSha256": "381f28347c995ae0e6f833fd74f25aa4952ab2bc32954ec792d40e26fc8c712a",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 45.093,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/fix-code-vulnerability:20251031",
+          "imageId": "sha256:cac325252991f823713b2d0441502972901dd782bd67f66c03d9b1e410dac5c0",
+          "repoDigests": [
+            "alexgshaw/fix-code-vulnerability@sha256:cac325252991f823713b2d0441502972901dd782bd67f66c03d9b1e410dac5c0"
+          ],
+          "repoTags": [
+            "alexgshaw/fix-code-vulnerability:20251031",
+            "alexgshaw/fix-code-vulnerability@sha256:cac325252991f823713b2d0441502972901dd782bd67f66c03d9b1e410dac5c0"
+          ],
+          "sizeBytes": 190696453
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "6387aefe5b971b9f100cc2c0252ab3daec8c2ccacd4941d413f1d2098796c654",
+      "registryPacketSha256": "cc99f7d18c8f837fee1b8c73cde7f8ef06788ff823d846a556fbd07f858df1b5",
+      "gradeEvidence": {
+        "task": "fix-code-vulnerability",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-fix-code-vulnerability-control-1792370579679927629",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-code-vulnerability-control-1792370579679927629/fix-code-vulnerability__QTHj3em/result.json",
+            "sha256": "cf28e44adfe87ed8ffbc514e81269d516cf8a9ae22d61aa6043a14a94b739ebb",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-code-vulnerability-control-1792370579679927629/fix-code-vulnerability__QTHj3em/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "dna-assembly": {
+      "receipt": {
+        "task": "dna-assembly",
+        "jobName": "tb-v4-dna-assembly-control-1792370433298781798",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 34,
+        "promptTokens": 1113780,
+        "completionTokens": 16461,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "e3179118fb45593a8a47dd147a8f9b4e6b61459915edb086b994838b4c20c09c",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 267.45,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/dna-assembly:20251031",
+          "imageId": "sha256:d1adf6835f1dd91205ba70e452c699d0aea601010038e5617f370716efb50569",
+          "repoDigests": [
+            "alexgshaw/dna-assembly@sha256:d1adf6835f1dd91205ba70e452c699d0aea601010038e5617f370716efb50569"
+          ],
+          "repoTags": [
+            "alexgshaw/dna-assembly:20251031",
+            "alexgshaw/dna-assembly@sha256:d1adf6835f1dd91205ba70e452c699d0aea601010038e5617f370716efb50569"
+          ],
+          "sizeBytes": 29727501
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "97db95e5988f532c3ac31aba9ea276776382411b3394f061e070c05efbf93e15",
+      "registryPacketSha256": "72c9dd1ba41c5723582ecd2b7cb0917701e0d64bd4a4887434476d59741d0aff",
+      "gradeEvidence": {
+        "task": "dna-assembly",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-dna-assembly-control-1792370433298781798",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-dna-assembly-control-1792370433298781798/dna-assembly__Rf8iRrs/result.json",
+            "sha256": "13554ba4b9ee076e4c05d2354ea0a79cc491efa6a5347c1379c576214aecb480",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-dna-assembly-control-1792370433298781798/dna-assembly__Rf8iRrs/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "large-scale-text-editing": {
+      "receipt": {
+        "task": "large-scale-text-editing",
+        "jobName": "tb-v4-large-scale-text-editing-control-1792370708895326037",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 36,
+        "promptTokens": 785606,
+        "completionTokens": 22208,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "a5d86f51e1b2882dcac11c006a2d84744ca1e93a9f18aa0fed3ab62dca7b4011",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 454.195,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/large-scale-text-editing:20251031",
+          "imageId": "sha256:719adca3f1388220546ce6a155eee56eff3c4fe318183100320606a210f6b59c",
+          "repoDigests": [
+            "alexgshaw/large-scale-text-editing@sha256:719adca3f1388220546ce6a155eee56eff3c4fe318183100320606a210f6b59c"
+          ],
+          "repoTags": [
+            "alexgshaw/large-scale-text-editing:20251031",
+            "alexgshaw/large-scale-text-editing@sha256:719adca3f1388220546ce6a155eee56eff3c4fe318183100320606a210f6b59c"
+          ],
+          "sizeBytes": 73316987
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "2425822ba99499e74275796ce86dccaa10e979c3437a7d0da40f87da708071d1",
+      "registryPacketSha256": "c9086a418cee6d4d42813a1926b458841d464ac9b365eddc5ab9935567d68ca9",
+      "gradeEvidence": {
+        "task": "large-scale-text-editing",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-large-scale-text-editing-control-1792370708895326037",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-large-scale-text-editing-control-1792370708895326037/large-scale-text-editing__47PGdz6/result.json",
+            "sha256": "8ce3a8b6085dc4cb34043657770d58dc1e2c9ed6f0e8d6c566e09e8598b3327b",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-large-scale-text-editing-control-1792370708895326037/large-scale-text-editing__47PGdz6/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "sqlite-with-gcov": {
+      "receipt": {
+        "task": "sqlite-with-gcov",
+        "jobName": "tb-v4-sqlite-with-gcov-control-1792371202808995726",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 13,
+        "promptTokens": 161241,
+        "completionTokens": 2462,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 13,
+        "successfulExecutorResponses": 13,
+        "extraConsumed": true,
+        "requestJournalSha256": "ab59853901b8b5250b009d841cb158a47e6fda2003e7cffa02c617d6b0957bc0",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 156.35,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/sqlite-with-gcov:20251031",
+          "imageId": "sha256:f986820b00c74ce75db7288719d364df313fde7c7917bea6eb6352a08431a89f",
+          "repoDigests": [
+            "alexgshaw/sqlite-with-gcov@sha256:f986820b00c74ce75db7288719d364df313fde7c7917bea6eb6352a08431a89f"
+          ],
+          "repoTags": [
+            "alexgshaw/sqlite-with-gcov:20251031",
+            "alexgshaw/sqlite-with-gcov@sha256:f986820b00c74ce75db7288719d364df313fde7c7917bea6eb6352a08431a89f"
+          ],
+          "sizeBytes": 42278767
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "08230f064f0a2ba5a6d6bcbdbb27715341bd8376ecc523f41ab03e27d7fd0a72",
+      "registryPacketSha256": "56e84415b1ee7bcd76542090b74fa94dacf0e4f79782825da4adc0796e45ae32",
+      "gradeEvidence": {
+        "task": "sqlite-with-gcov",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-sqlite-with-gcov-control-1792371202808995726",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-with-gcov-control-1792371202808995726/sqlite-with-gcov__3KWjay8/result.json",
+            "sha256": "b0ea7e8fbcd4645db9a33ff380e66f22bb7facfb822a74380ba19fb7a07b1dfb",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-with-gcov-control-1792371202808995726/sqlite-with-gcov__3KWjay8/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "model-extraction-relu-logits": {
+      "receipt": {
+        "task": "model-extraction-relu-logits",
+        "jobName": "tb-v4-model-extraction-relu-logits-control-1792372698740072664",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1315897,
+        "completionTokens": 25156,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "cf4e441181a2757a427b9900b2c99ea2446e19079d64ae33a0cbb572667d5c7a",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 310.457,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/model-extraction-relu-logits:20251031",
+          "imageId": "sha256:52fe1f089f38650f0dc22d7531ee6e01ebd526de1b349aaa2ecb331dca9fabce",
+          "repoDigests": [
+            "alexgshaw/model-extraction-relu-logits@sha256:52fe1f089f38650f0dc22d7531ee6e01ebd526de1b349aaa2ecb331dca9fabce"
+          ],
+          "repoTags": [
+            "alexgshaw/model-extraction-relu-logits:20251031",
+            "alexgshaw/model-extraction-relu-logits@sha256:52fe1f089f38650f0dc22d7531ee6e01ebd526de1b349aaa2ecb331dca9fabce"
+          ],
+          "sizeBytes": 83698971
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "77715444e0c1e162edd5bcee30158c6f8b0c76445776eb8a084d1e954753304b",
+      "registryPacketSha256": "75c8cca2a8367e1cd057e1f696bf98eb65c946ad79b156c51b98dbfa8b6dbe7f",
+      "gradeEvidence": {
+        "task": "model-extraction-relu-logits",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-model-extraction-relu-logits-control-1792372698740072664",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-model-extraction-relu-logits-control-1792372698740072664/model-extraction-relu-logits__csJSC4h/result.json",
+            "sha256": "002e0b4dcc263bf1087d9a3102ba46afc8ec1c1eb7c4c62b7ee5ce3c74c51b9e",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-model-extraction-relu-logits-control-1792372698740072664/model-extraction-relu-logits__csJSC4h/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "multi-source-data-merger": {
+      "receipt": {
+        "task": "multi-source-data-merger",
+        "jobName": "tb-v4-multi-source-data-merger-control-1792373116167588241",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 8,
+        "promptTokens": 32033,
+        "completionTokens": 2726,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 8,
+        "successfulExecutorResponses": 8,
+        "extraConsumed": true,
+        "requestJournalSha256": "ec6a272a29521f40e87afdf41357d3fd1588616691b534958acad22e10794ae3",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 73.208,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/multi-source-data-merger:20251031",
+          "imageId": "sha256:8b32782078ff7383a1b4e5d3cecca8ce287e30f50bb4c0e5db009a18064e666e",
+          "repoDigests": [
+            "alexgshaw/multi-source-data-merger@sha256:8b32782078ff7383a1b4e5d3cecca8ce287e30f50bb4c0e5db009a18064e666e"
+          ],
+          "repoTags": [
+            "alexgshaw/multi-source-data-merger:20251031",
+            "alexgshaw/multi-source-data-merger@sha256:8b32782078ff7383a1b4e5d3cecca8ce287e30f50bb4c0e5db009a18064e666e"
+          ],
+          "sizeBytes": 220880128
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "00bdb9c9167526bf371b56da3298c5968af9c1a99fa131b7d9bd67771ed2e2a9",
+      "registryPacketSha256": "7be6abcb9db5abff98440487c3bba0d1c2ca8911686daaa21d5f99f11c41a641",
+      "gradeEvidence": {
+        "task": "multi-source-data-merger",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-multi-source-data-merger-control-1792373116167588241",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-multi-source-data-merger-control-1792373116167588241/multi-source-data-merger__onGeUH9/result.json",
+            "sha256": "a9ac54b5b1e6821bcf443d7548bb7b390427242d383e0666c9f511d9a668a2dd",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-multi-source-data-merger-control-1792373116167588241/multi-source-data-merger__onGeUH9/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "mteb-retrieve": {
+      "receipt": {
+        "task": "mteb-retrieve",
+        "jobName": "tb-v4-mteb-retrieve-control-1792373114167079049",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 17,
+        "promptTokens": 108673,
+        "completionTokens": 3223,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 17,
+        "successfulExecutorResponses": 17,
+        "extraConsumed": true,
+        "requestJournalSha256": "9358fb3711cf49d8a8374f7d95e5d563ed75b25b061f2878297e23e8f3270f7b",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 263.327,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/mteb-retrieve:20260430",
+          "imageId": "sha256:41bdc22a2ebb9b043b1c12283e383c8dec2a8f183bc99ca680377b666cc7c3b4",
+          "repoDigests": [
+            "alexgshaw/mteb-retrieve@sha256:41bdc22a2ebb9b043b1c12283e383c8dec2a8f183bc99ca680377b666cc7c3b4"
+          ],
+          "repoTags": [
+            "alexgshaw/mteb-retrieve:20260430",
+            "alexgshaw/mteb-retrieve@sha256:41bdc22a2ebb9b043b1c12283e383c8dec2a8f183bc99ca680377b666cc7c3b4"
+          ],
+          "sizeBytes": 628649793
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "28ad549ab994f6654b8bb216b4156d325391fc6199912d11bb003648dd681cc2",
+      "registryPacketSha256": "373bb3ec49fd3e04c75a8efd586161e5fe053d09e4ab4609b02e97471a54e290",
+      "gradeEvidence": {
+        "task": "mteb-retrieve",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-mteb-retrieve-control-1792373114167079049",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mteb-retrieve-control-1792373114167079049/mteb-retrieve__YNZz7dz/result.json",
+            "sha256": "311e64354a1da55dab1b13f8b5cbaa107ecc81f5ee4db92d0a9633d2e7d2a06e",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mteb-retrieve-control-1792373114167079049/mteb-retrieve__YNZz7dz/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "custom-memory-heap-crash": {
+      "receipt": {
+        "task": "custom-memory-heap-crash",
+        "jobName": "tb-v4-custom-memory-heap-crash-control-1792373357289254662",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 14,
+        "promptTokens": 117409,
+        "completionTokens": 6731,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 14,
+        "successfulExecutorResponses": 14,
+        "extraConsumed": true,
+        "requestJournalSha256": "17db5e3afc40598ea9ac84c2bb5ee1b516c9dec3270a4cf3e85204c438aee091",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 145.295,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/custom-memory-heap-crash:20251031",
+          "imageId": "sha256:1895d7d6240d5fb2ec774d6bfdd1057d170f8d199c15c582e4585d3c63802557",
+          "repoDigests": [
+            "alexgshaw/custom-memory-heap-crash@sha256:1895d7d6240d5fb2ec774d6bfdd1057d170f8d199c15c582e4585d3c63802557"
+          ],
+          "repoTags": [
+            "alexgshaw/custom-memory-heap-crash:20251031",
+            "alexgshaw/custom-memory-heap-crash@sha256:1895d7d6240d5fb2ec774d6bfdd1057d170f8d199c15c582e4585d3c63802557"
+          ],
+          "sizeBytes": 1267999268
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "819882a0a456698170934d62826608c1cddae4c05759705b8e2147f8fc5bf1df",
+      "registryPacketSha256": "cce5c99c8c9e147fd828c645b8db2ebde9cb523734d39bad5a36416c5381b4fa",
+      "gradeEvidence": {
+        "task": "custom-memory-heap-crash",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-custom-memory-heap-crash-control-1792373357289254662",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-custom-memory-heap-crash-control-1792373357289254662/custom-memory-heap-crash__Gt9MuWA/result.json",
+            "sha256": "0b254b39e9108171c5748e525ba9be7d3a5907374767cba958b1b5cc016bc9ae",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-custom-memory-heap-crash-control-1792373357289254662/custom-memory-heap-crash__Gt9MuWA/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "distribution-search": {
+      "receipt": {
+        "task": "distribution-search",
+        "jobName": "tb-v4-distribution-search-control-1792373819390072482",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 16,
+        "promptTokens": 165077,
+        "completionTokens": 9106,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 16,
+        "successfulExecutorResponses": 16,
+        "extraConsumed": true,
+        "requestJournalSha256": "415cee0ab8b70b288bbf4a6e97c9745c5e820aec98eaf44f04ee58b547138e6a",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 128.337,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/distribution-search:20251031",
+          "imageId": "sha256:1448f7aa1c6080488251d00350e8e90477858989b1bec0accc866d7b3220738a",
+          "repoDigests": [
+            "alexgshaw/distribution-search@sha256:1448f7aa1c6080488251d00350e8e90477858989b1bec0accc866d7b3220738a"
+          ],
+          "repoTags": [
+            "alexgshaw/distribution-search:20251031",
+            "alexgshaw/distribution-search@sha256:1448f7aa1c6080488251d00350e8e90477858989b1bec0accc866d7b3220738a"
+          ],
+          "sizeBytes": 181103978
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "d4204d553800ff27675702abc47febaf528f9cb7fda029333608e25c8cc2ad6b",
+      "registryPacketSha256": "5354aed5aafcdc28561368ec0e42b767291be50240f2cfe778a53fc1ca2a4887",
+      "gradeEvidence": {
+        "task": "distribution-search",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-distribution-search-control-1792373819390072482",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-distribution-search-control-1792373819390072482/distribution-search__eWQbiV6/result.json",
+            "sha256": "7eec7ab52d625eadc24b935eff44cbe35617db4da345ea23ed9818f30e04543d",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-distribution-search-control-1792373819390072482/distribution-search__eWQbiV6/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "count-dataset-tokens": {
+      "receipt": {
+        "task": "count-dataset-tokens",
+        "jobName": "tb-v4-count-dataset-tokens-control-1792374209587269339",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 452855,
+        "completionTokens": 5866,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "c63969cbc08c5428544f226d6e0378a1598f0352467f44c6b64049b3b393816d",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 599.953,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/count-dataset-tokens:20251031",
+          "imageId": "sha256:9c513c4ba342bd95be501f6f5eadd4806a2b18749c87c251615825100130232d",
+          "repoDigests": [
+            "alexgshaw/count-dataset-tokens@sha256:9c513c4ba342bd95be501f6f5eadd4806a2b18749c87c251615825100130232d"
+          ],
+          "repoTags": [
+            "alexgshaw/count-dataset-tokens:20251031",
+            "alexgshaw/count-dataset-tokens@sha256:9c513c4ba342bd95be501f6f5eadd4806a2b18749c87c251615825100130232d"
+          ],
+          "sizeBytes": 44171678
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "0a2f6b82c5acdcf94fe07ecccf05f281d7e33b700df2b7e60d657749c48abc49",
+      "registryPacketSha256": "106b6b8ec9b6b02301a7e80a9977c44091e9ae1529c2dc1d936fc8abc2c4b48b",
+      "gradeEvidence": {
+        "task": "count-dataset-tokens",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-count-dataset-tokens-control-1792374209587269339",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-count-dataset-tokens-control-1792374209587269339/count-dataset-tokens__cWH6qRb/result.json",
+            "sha256": "1b59935daab99c1c6c005c598d810bbc96179e9717cf89ce4320652e046422e4",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-count-dataset-tokens-control-1792374209587269339/count-dataset-tokens__cWH6qRb/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "sparql-university": {
+      "receipt": {
+        "task": "sparql-university",
+        "jobName": "tb-v4-sparql-university-control-1792375321118998625",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 12,
+        "promptTokens": 96094,
+        "completionTokens": 2808,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 12,
+        "successfulExecutorResponses": 12,
+        "extraConsumed": true,
+        "requestJournalSha256": "e7c7637de393513fb77e003c260a23975357036217733977d5175db030d8c332",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 70.639,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/sparql-university:20251031",
+          "imageId": "sha256:92fa4304e51167f9fb4466144eba33ef9272a7df0ac1cab9fc3986bccd1ab708",
+          "repoDigests": [
+            "alexgshaw/sparql-university@sha256:92fa4304e51167f9fb4466144eba33ef9272a7df0ac1cab9fc3986bccd1ab708"
+          ],
+          "repoTags": [
+            "alexgshaw/sparql-university:20251031",
+            "alexgshaw/sparql-university@sha256:92fa4304e51167f9fb4466144eba33ef9272a7df0ac1cab9fc3986bccd1ab708"
+          ],
+          "sizeBytes": 29727705
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "31298351807b20920c80330e01ba840fd66f01b92f9a3589202f88916169e2c6",
+      "registryPacketSha256": "5e500710da49f3984ac3063ae0f6b997ef95ffd521dfaa2d219a5edbf8d5c2ea",
+      "gradeEvidence": {
+        "task": "sparql-university",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-sparql-university-control-1792375321118998625",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sparql-university-control-1792375321118998625/sparql-university__AwyB75h/result.json",
+            "sha256": "f05f6fcff7f1d59623aa31c015a1fae1f2a55380980e4ddc108961f55d6f3461",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sparql-university-control-1792375321118998625/sparql-university__AwyB75h/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "sanitize-git-repo": {
+      "receipt": {
+        "task": "sanitize-git-repo",
+        "jobName": "tb-v4-sanitize-git-repo-control-1792375937772909665",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 10,
+        "promptTokens": 99907,
+        "completionTokens": 2866,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 10,
+        "successfulExecutorResponses": 10,
+        "extraConsumed": true,
+        "requestJournalSha256": "becded3d5da46faaf070ccd048fd6dfbec55d0eb664cda7e9d7ab5a0f78fb961",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 70.284,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/sanitize-git-repo:20251031",
+          "imageId": "sha256:4b5234da5bb0d67f3b0bf8db40a2883c07a5219f62b64c2bf9ff1ac84cd0f672",
+          "repoDigests": [
+            "alexgshaw/sanitize-git-repo@sha256:4b5234da5bb0d67f3b0bf8db40a2883c07a5219f62b64c2bf9ff1ac84cd0f672"
+          ],
+          "repoTags": [
+            "alexgshaw/sanitize-git-repo:20251031",
+            "alexgshaw/sanitize-git-repo@sha256:4b5234da5bb0d67f3b0bf8db40a2883c07a5219f62b64c2bf9ff1ac84cd0f672"
+          ],
+          "sizeBytes": 202937050
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "13d08b059ea1a36d00261938a5f71defe61c5b6693ab5c64622483224f47130f",
+      "registryPacketSha256": "36d8c11686c751380ac1c9b637e2511d678acb915cfeefe88b836fcb9a8c0920",
+      "gradeEvidence": {
+        "task": "sanitize-git-repo",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-sanitize-git-repo-control-1792375937772909665",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sanitize-git-repo-control-1792375937772909665/sanitize-git-repo__xtaPMcM/result.json",
+            "sha256": "ee158ec90ee0f57653c4b74e9b27673ab74a5f9e1e0c7d7706366e13360042a9",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sanitize-git-repo-control-1792375937772909665/sanitize-git-repo__xtaPMcM/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "code-from-image": {
+      "receipt": {
+        "task": "code-from-image",
+        "jobName": "tb-v4-code-from-image-control-1792376307701721228",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 19,
+        "promptTokens": 210853,
+        "completionTokens": 6475,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "08ac0a78514a43fc76ca8332831b1728cc73a37b743a097ddc6450fa714dd5d9",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 361.325,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/code-from-image:20251031",
+          "imageId": "sha256:2be9cdb746ed18c1b2b1404032efae0b2235a1b8fc479ef17730c95409d89f76",
+          "repoDigests": [
+            "alexgshaw/code-from-image@sha256:2be9cdb746ed18c1b2b1404032efae0b2235a1b8fc479ef17730c95409d89f76"
+          ],
+          "repoTags": [
+            "alexgshaw/code-from-image:20251031",
+            "alexgshaw/code-from-image@sha256:2be9cdb746ed18c1b2b1404032efae0b2235a1b8fc479ef17730c95409d89f76"
+          ],
+          "sizeBytes": 44252335
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "11a0853ffdbbf9df20ab308bb862e16ab84f48964ef63cd5791d948d766e2403",
+      "registryPacketSha256": "311a5c0d140e7cb864c19779ff56df0d3fe26b875e68687be05fdc8fabd30591",
+      "gradeEvidence": {
+        "task": "code-from-image",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-code-from-image-control-1792376307701721228",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-code-from-image-control-1792376307701721228/code-from-image__NM3NUEG/result.json",
+            "sha256": "1e4ee8f1cceba613aba6c5265ef990c5d38947d817feb1a2c9982a4dcd2bdf92",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-code-from-image-control-1792376307701721228/code-from-image__NM3NUEG/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "feal-linear-cryptanalysis": {
+      "receipt": {
+        "task": "feal-linear-cryptanalysis",
+        "jobName": "tb-v4-feal-linear-cryptanalysis-control-1792376764175320813",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 37,
+        "promptTokens": 1171422,
+        "completionTokens": 33362,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "67de5e027c4676b4e57e4b8b39c760cb8e59cc2aa6e8849066401e70fc232e77",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 216.354,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/feal-linear-cryptanalysis:20251031",
+          "imageId": "sha256:ea78749a8422c6228d26c8753f45906a6a2df089906764b7e3c3e27e8f718ee7",
+          "repoDigests": [
+            "alexgshaw/feal-linear-cryptanalysis@sha256:ea78749a8422c6228d26c8753f45906a6a2df089906764b7e3c3e27e8f718ee7"
+          ],
+          "repoTags": [
+            "alexgshaw/feal-linear-cryptanalysis:20251031",
+            "alexgshaw/feal-linear-cryptanalysis@sha256:ea78749a8422c6228d26c8753f45906a6a2df089906764b7e3c3e27e8f718ee7"
+          ],
+          "sizeBytes": 150832274
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "f8c092d43581ddb78a33be64ff75e55ff7ac32a0c19e06ee5c0c0897ecb47f52",
+      "registryPacketSha256": "7c62dec65eaf07d77d950dd610d14d0bef1515276f680b1abe957e1f92970401",
+      "gradeEvidence": {
+        "task": "feal-linear-cryptanalysis",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-feal-linear-cryptanalysis-control-1792376764175320813",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-linear-cryptanalysis-control-1792376764175320813/feal-linear-cryptanalysis__jGVFQeV/result.json",
+            "sha256": "ba125090f64d57c118bdf5c92a29d9a2fd9a07ec2d3fa8dc0bff10775f880189",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-linear-cryptanalysis-control-1792376764175320813/feal-linear-cryptanalysis__jGVFQeV/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "schemelike-metacircular-eval": {
+      "receipt": {
+        "task": "schemelike-metacircular-eval",
+        "jobName": "tb-v4-schemelike-metacircular-eval-control-1792376675416730840",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1465349,
+        "completionTokens": 27062,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "51107a947dd1919bc09087758363eff5b246e63e7ea9400fe1db7c8b3c7be155",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 218.366,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/schemelike-metacircular-eval:20251031",
+          "imageId": "sha256:b485be38bf80d56c1a4cd9da95bbf7ec129dc03f6786b86c0525518a96f6d1db",
+          "repoDigests": [
+            "alexgshaw/schemelike-metacircular-eval@sha256:b485be38bf80d56c1a4cd9da95bbf7ec129dc03f6786b86c0525518a96f6d1db"
+          ],
+          "repoTags": [
+            "alexgshaw/schemelike-metacircular-eval:20251031",
+            "alexgshaw/schemelike-metacircular-eval@sha256:b485be38bf80d56c1a4cd9da95bbf7ec129dc03f6786b86c0525518a96f6d1db"
+          ],
+          "sizeBytes": 44188336
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "3996d995829024c77f0734014951a82e0bd67e9912f491637efb22939c14eeb4",
+      "registryPacketSha256": "58c93aa0aeb40f93c1466841c63e96288f977e4e0992a56a282b5e8c930d2986",
+      "gradeEvidence": {
+        "task": "schemelike-metacircular-eval",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-schemelike-metacircular-eval-control-1792376675416730840",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-schemelike-metacircular-eval-control-1792376675416730840/schemelike-metacircular-eval__Do5WU3S/result.json",
+            "sha256": "a99218784fa794605f74dce77d796cf55686c5e923e87d6987e0e29a866581fb",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-schemelike-metacircular-eval-control-1792376675416730840/schemelike-metacircular-eval__Do5WU3S/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "extract-elf": {
+      "receipt": {
+        "task": "extract-elf",
+        "jobName": "tb-v4-extract-elf-control-1792376985754257055",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 8,
+        "promptTokens": 69330,
+        "completionTokens": 3092,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 9,
+        "successfulExecutorResponses": 9,
+        "extraConsumed": true,
+        "requestJournalSha256": "d8ca02f42b1b1a427350dfa49b77c392b36e1ba1d6d5c4845db4798ef930cfef",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 98.763,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/extract-elf:20251031",
+          "imageId": "sha256:6932e4cb318464307eacd497ef8dc617eaf551b6a90231f815ec0b911895cfed",
+          "repoDigests": [
+            "alexgshaw/extract-elf@sha256:6932e4cb318464307eacd497ef8dc617eaf551b6a90231f815ec0b911895cfed"
+          ],
+          "repoTags": [
+            "alexgshaw/extract-elf:20251031",
+            "alexgshaw/extract-elf@sha256:6932e4cb318464307eacd497ef8dc617eaf551b6a90231f815ec0b911895cfed"
+          ],
+          "sizeBytes": 347389037
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "aff88c405b3d6efaaaa6019c140a6f5a7da525cb5cc36706a3d6f76d6dc76285",
+      "registryPacketSha256": "971b2c8701086bdebf18ecb2748cfb94b2f6bbb787f804655f32c63b22d83f62",
+      "gradeEvidence": {
+        "task": "extract-elf",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-extract-elf-control-1792376985754257055",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-elf-control-1792376985754257055/extract-elf__SzhQMgK/result.json",
+            "sha256": "18be922c653f113b0d780d173abf3c0b603b41ccb8bdea4c82ee0649bb03a73b",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-elf-control-1792376985754257055/extract-elf__SzhQMgK/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "git-multibranch": {
+      "receipt": {
+        "task": "git-multibranch",
+        "jobName": "tb-v4-git-multibranch-control-1792377834762522826",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 14,
+        "promptTokens": 85436,
+        "completionTokens": 4197,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 14,
+        "successfulExecutorResponses": 14,
+        "extraConsumed": true,
+        "requestJournalSha256": "2161fe8f8b306fd608abc7b2333c117c3e9d2661f92ef36d4468ca3bd9e8bf11",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 190.434,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/git-multibranch:20251031",
+          "imageId": "sha256:5bc449921c138295f6ddd8dca2977319fee2ce523811dbe56cec4ca663385fb5",
+          "repoDigests": [
+            "alexgshaw/git-multibranch@sha256:5bc449921c138295f6ddd8dca2977319fee2ce523811dbe56cec4ca663385fb5"
+          ],
+          "repoTags": [
+            "alexgshaw/git-multibranch:20251031",
+            "alexgshaw/git-multibranch@sha256:5bc449921c138295f6ddd8dca2977319fee2ce523811dbe56cec4ca663385fb5"
+          ],
+          "sizeBytes": 222134454
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "5856677346a5cc4012801670ad17e6bd465e9a12969c9d0a66a9415b3456b262",
+      "registryPacketSha256": "4b581ea8afcd98df8c79f8350c06cb9f1b804f1f9fddcc6beb0e5d3376b063ee",
+      "gradeEvidence": {
+        "task": "git-multibranch",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-git-multibranch-control-1792377834762522826",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-multibranch-control-1792377834762522826/git-multibranch__RnTe9A9/result.json",
+            "sha256": "ac3f399546fd289ff2cee7717d8957615e4e4bf3985ffbffb95cd6bf794a6782",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-multibranch-control-1792377834762522826/git-multibranch__RnTe9A9/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "polyglot-rust-c": {
+      "receipt": {
+        "task": "polyglot-rust-c",
+        "jobName": "tb-v4-polyglot-rust-c-control-1792378241459271613",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 651048,
+        "completionTokens": 20183,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "fe300522d642fa06dff5044f7baafecd90d65c315f47609bf80509f47d7def43",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 169.045,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/polyglot-rust-c:20251031",
+          "imageId": "sha256:3ba84f0e138a4b65e58c53f920a0fc852571e6402901c3bdbb876e9dab6e6c5e",
+          "repoDigests": [
+            "alexgshaw/polyglot-rust-c@sha256:3ba84f0e138a4b65e58c53f920a0fc852571e6402901c3bdbb876e9dab6e6c5e"
+          ],
+          "repoTags": [
+            "alexgshaw/polyglot-rust-c:20251031",
+            "alexgshaw/polyglot-rust-c@sha256:3ba84f0e138a4b65e58c53f920a0fc852571e6402901c3bdbb876e9dab6e6c5e"
+          ],
+          "sizeBytes": 271244257
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "2ef70f7953a842b1d9bfefcb203bcee9863bf6ddfafeae915ca83b54b4ca3a2c",
+      "registryPacketSha256": "252aea5689ce68abb0271bba538ca16526645bfd704dca54da9776a34fe2ad24",
+      "gradeEvidence": {
+        "task": "polyglot-rust-c",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-polyglot-rust-c-control-1792378241459271613",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-rust-c-control-1792378241459271613/polyglot-rust-c__5dzZdLG/result.json",
+            "sha256": "14a8ef8fdec257b1d98f0b937d1e159c6977527263cf2e0d439c75215a2cfa7f",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-rust-c-control-1792378241459271613/polyglot-rust-c__5dzZdLG/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "break-filter-js-from-html": {
+      "receipt": {
+        "task": "break-filter-js-from-html",
+        "jobName": "tb-v4-break-filter-js-from-html-control-1792378054699591809",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 15,
+        "promptTokens": 171691,
+        "completionTokens": 4038,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 17,
+        "successfulExecutorResponses": 17,
+        "extraConsumed": true,
+        "requestJournalSha256": "e4a38519f4e7bf0a08089cb1978a3a0f4507fd5f987b4296b819faf4eba91f1c",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 194.781,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/break-filter-js-from-html:20251031",
+          "imageId": "sha256:d7bfb45e47cf10d2e21dc520239215498f4eba9c1ab2d0cd7d647985dddb4fa8",
+          "repoDigests": [
+            "alexgshaw/break-filter-js-from-html@sha256:d7bfb45e47cf10d2e21dc520239215498f4eba9c1ab2d0cd7d647985dddb4fa8"
+          ],
+          "repoTags": [
+            "alexgshaw/break-filter-js-from-html:20251031",
+            "alexgshaw/break-filter-js-from-html@sha256:d7bfb45e47cf10d2e21dc520239215498f4eba9c1ab2d0cd7d647985dddb4fa8"
+          ],
+          "sizeBytes": 382374925
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "1c138ddc25c12919b00374b86f31e16e851308f769a769f4aa63d8117332da45",
+      "registryPacketSha256": "50edf2ea2d556f803458edc583d719df23daceec4337c8cb1010e5b46752a0b6",
+      "gradeEvidence": {
+        "task": "break-filter-js-from-html",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-break-filter-js-from-html-control-1792378054699591809",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-break-filter-js-from-html-control-1792378054699591809/break-filter-js-from-html__3VzPXeA/result.json",
+            "sha256": "c3f7173919d0a7df078be06096ea24ddbe1bc01e9508c69c79b0856d324a7ef1",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-break-filter-js-from-html-control-1792378054699591809/break-filter-js-from-html__3VzPXeA/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "largest-eigenval": {
+      "receipt": {
+        "task": "largest-eigenval",
+        "jobName": "tb-v4-largest-eigenval-control-1792378419921232596",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1633657,
+        "completionTokens": 45039,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "5f55131b0a1aa460816080371337ba61fddc61263333d83058bc532189472e3b",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 294.288,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/largest-eigenval:20251031",
+          "imageId": "sha256:cb9e3e3b09d0783f3bbcfeec8d77bc32d3791204fb2be6650b19be4fbc082b2e",
+          "repoDigests": [
+            "alexgshaw/largest-eigenval@sha256:cb9e3e3b09d0783f3bbcfeec8d77bc32d3791204fb2be6650b19be4fbc082b2e"
+          ],
+          "repoTags": [
+            "alexgshaw/largest-eigenval:20251031",
+            "alexgshaw/largest-eigenval@sha256:cb9e3e3b09d0783f3bbcfeec8d77bc32d3791204fb2be6650b19be4fbc082b2e"
+          ],
+          "sizeBytes": 84694865
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "d54f4404013ca1bb84067b0d0dc339809d8b5f110b832507c2bc54b5e3ef362e",
+      "registryPacketSha256": "4ceeb3f7bfdf488dc3b3aeb563c9ffb0ecd239a1cf6a56d428962295989daf78",
+      "gradeEvidence": {
+        "task": "largest-eigenval",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-largest-eigenval-control-1792378419921232596",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-largest-eigenval-control-1792378419921232596/largest-eigenval__ryUVHdP/result.json",
+            "sha256": "41f1a6a73dae78dc748ea37636e7146600d4e257b7ac5c3d0977ef34da9531a8",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-largest-eigenval-control-1792378419921232596/largest-eigenval__ryUVHdP/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "prove-plus-comm": {
+      "receipt": {
+        "task": "prove-plus-comm",
+        "jobName": "tb-v4-prove-plus-comm-control-1792379271944479063",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 4,
+        "promptTokens": 6413,
+        "completionTokens": 645,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 4,
+        "successfulExecutorResponses": 4,
+        "extraConsumed": true,
+        "requestJournalSha256": "783d2a8de8618126ab2debbe5aa379bbe37f351ef1f07521b1f34ff4615b9d44",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 41.8,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/prove-plus-comm:20251031",
+          "imageId": "sha256:e26741d01681a9da1beeff8b7b7b65fe2b921b8b122a306a3707a81ebd051f73",
+          "repoDigests": [
+            "alexgshaw/prove-plus-comm@sha256:e26741d01681a9da1beeff8b7b7b65fe2b921b8b122a306a3707a81ebd051f73"
+          ],
+          "repoTags": [
+            "alexgshaw/prove-plus-comm:20251031",
+            "alexgshaw/prove-plus-comm@sha256:e26741d01681a9da1beeff8b7b7b65fe2b921b8b122a306a3707a81ebd051f73"
+          ],
+          "sizeBytes": 491453113
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "7f9d6cc1b3b64beab0ce284e94cbd3b411a640c62f7aabf4f2d6915a92d74530",
+      "registryPacketSha256": "52b220ee4a1fa76f00c07f7df3b5e186a3cd60569fe11352094e96d999931274",
+      "gradeEvidence": {
+        "task": "prove-plus-comm",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-prove-plus-comm-control-1792379271944479063",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-prove-plus-comm-control-1792379271944479063/prove-plus-comm__nNfLCiD/result.json",
+            "sha256": "39a7cc4694e7322877079af82046bdc31574cf3f0d0478f7c18fe747d6b30981",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-prove-plus-comm-control-1792379271944479063/prove-plus-comm__nNfLCiD/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "password-recovery": {
+      "receipt": {
+        "task": "password-recovery",
+        "jobName": "tb-v4-password-recovery-control-1792379234570115694",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 21,
+        "promptTokens": 316563,
+        "completionTokens": 8964,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 21,
+        "successfulExecutorResponses": 21,
+        "extraConsumed": true,
+        "requestJournalSha256": "6f5bc805496b05d77122d885972f474b561acf9a7bde99739821e753a537ed0a",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 117.243,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/password-recovery:20251031",
+          "imageId": "sha256:15fcd84bf3b06270ee148211cc6da6599b13ec2f41ac1d0894cf75c2225872ee",
+          "repoDigests": [
+            "alexgshaw/password-recovery@sha256:15fcd84bf3b06270ee148211cc6da6599b13ec2f41ac1d0894cf75c2225872ee"
+          ],
+          "repoTags": [
+            "alexgshaw/password-recovery:20251031",
+            "alexgshaw/password-recovery@sha256:15fcd84bf3b06270ee148211cc6da6599b13ec2f41ac1d0894cf75c2225872ee"
+          ],
+          "sizeBytes": 62189109
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "d01cfefa237928c6dfcc248fba048cf3564cfa4cd3a2f52283322540dc4aefdf",
+      "registryPacketSha256": "27fb7c20fcf248c17320a8d6dfae0444678fa67a1bfb1b9d6b889dc21bf1c143",
+      "gradeEvidence": {
+        "task": "password-recovery",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-password-recovery-control-1792379234570115694",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-password-recovery-control-1792379234570115694/password-recovery__SEmsV2G/result.json",
+            "sha256": "9e3dcccece4701e3c6d5a07b7ddbd15b343ee75715dc82e66fe297c9e4883308",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-password-recovery-control-1792379234570115694/password-recovery__SEmsV2G/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "make-doom-for-mips": {
+      "receipt": {
+        "task": "make-doom-for-mips",
+        "jobName": "tb-v4-make-doom-for-mips-control-1792379331559604487",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1203359,
+        "completionTokens": 13324,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "23065795e8dbd72669c41e0d50939f61b41d8f3a5f1f445ac835bc4e049517f6",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 234.424,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/make-doom-for-mips:20251031",
+          "imageId": "sha256:80a9459f1b94b692ea8346f68e6b864f6c4d984fbdf6ffd68ad332308300c2ec",
+          "repoDigests": [
+            "alexgshaw/make-doom-for-mips@sha256:80a9459f1b94b692ea8346f68e6b864f6c4d984fbdf6ffd68ad332308300c2ec"
+          ],
+          "repoTags": [
+            "alexgshaw/make-doom-for-mips:20251031",
+            "alexgshaw/make-doom-for-mips@sha256:80a9459f1b94b692ea8346f68e6b864f6c4d984fbdf6ffd68ad332308300c2ec"
+          ],
+          "sizeBytes": 189554675
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "3a665d73350761dd1fd735dc431f8c4fce3a99e14e280556b0ca791008576ebd",
+      "registryPacketSha256": "2c6f0870c02b3064b836398b1f398eb5e3d2c95d29bd201e3563b4217db54556",
+      "gradeEvidence": {
+        "task": "make-doom-for-mips",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-make-doom-for-mips-control-1792379331559604487",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-doom-for-mips-control-1792379331559604487/make-doom-for-mips__Y9Q356e/result.json",
+            "sha256": "be4177bf74072288fb00d3e7e1171573dd0a5973620b741583b1beb6765eb4a1",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-doom-for-mips-control-1792379331559604487/make-doom-for-mips__Y9Q356e/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "make-mips-interpreter": {
+      "receipt": {
+        "task": "make-mips-interpreter",
+        "jobName": "tb-v4-make-mips-interpreter-control-1792379724834538078",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 39,
+        "promptTokens": 1409857,
+        "completionTokens": 17383,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "086eb54f83298c8f5a8d5b39957717028a45606d9c8fc42028c0e8d15117d93e",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 203.119,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/make-mips-interpreter:20251031",
+          "imageId": "sha256:082fc8821b317f30fdfbf8d08d528874ce331c03e8083aef0406d48cdd7132a2",
+          "repoDigests": [
+            "alexgshaw/make-mips-interpreter@sha256:082fc8821b317f30fdfbf8d08d528874ce331c03e8083aef0406d48cdd7132a2"
+          ],
+          "repoTags": [
+            "alexgshaw/make-mips-interpreter:20251031",
+            "alexgshaw/make-mips-interpreter@sha256:082fc8821b317f30fdfbf8d08d528874ce331c03e8083aef0406d48cdd7132a2"
+          ],
+          "sizeBytes": 518975750
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "027dc60569daf89040a9483388aa91ca106afa0ee0a508358a4b734dd9aac4f6",
+      "registryPacketSha256": "28082c54322f6db8412f17ca83f0e9c99d46c286c221f496daefbe6147b0df23",
+      "gradeEvidence": {
+        "task": "make-mips-interpreter",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-make-mips-interpreter-control-1792379724834538078",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-mips-interpreter-control-1792379724834538078/make-mips-interpreter__aH2c7bM/result.json",
+            "sha256": "4dc07480383230104219953771c014b75deb3cf416ee6d8887d276155b8a592d",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-make-mips-interpreter-control-1792379724834538078/make-mips-interpreter__aH2c7bM/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "pytorch-model-recovery": {
+      "receipt": {
+        "task": "pytorch-model-recovery",
+        "jobName": "tb-v4-pytorch-model-recovery-control-1792380849019928525",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 16,
+        "promptTokens": 134231,
+        "completionTokens": 4329,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 16,
+        "successfulExecutorResponses": 16,
+        "extraConsumed": true,
+        "requestJournalSha256": "3b5f54581eb77b985bcbf35a26e128a68abb73beb695c9208892e05f53c449fc",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 221.846,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/pytorch-model-recovery:20260430",
+          "imageId": "sha256:7c2bb52851cef25bdc3939e473496d25fbf11fd0cb7ab58bcf3cefcb751cdc0e",
+          "repoDigests": [
+            "alexgshaw/pytorch-model-recovery@sha256:7c2bb52851cef25bdc3939e473496d25fbf11fd0cb7ab58bcf3cefcb751cdc0e"
+          ],
+          "repoTags": [
+            "alexgshaw/pytorch-model-recovery:20260430",
+            "alexgshaw/pytorch-model-recovery@sha256:7c2bb52851cef25bdc3939e473496d25fbf11fd0cb7ab58bcf3cefcb751cdc0e"
+          ],
+          "sizeBytes": 269661811
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "24dc9479266bb89c52c9df6e04b4e3e1b195fb24e87664b5119dd1fb4fcf36cd",
+      "registryPacketSha256": "18b79ab28b7ad09298f38bcbb9b8dc04d21f8c1f10546523f98c759eeafef318",
+      "gradeEvidence": {
+        "task": "pytorch-model-recovery",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-pytorch-model-recovery-control-1792380849019928525",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-pytorch-model-recovery-control-1792380849019928525/pytorch-model-recovery__F3wUBrk/result.json",
+            "sha256": "6881b25634976cf0277e25c9e5395068c0825227934a3cc478274ddc8d242fee",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-pytorch-model-recovery-control-1792380849019928525/pytorch-model-recovery__F3wUBrk/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "mailman": {
+      "receipt": {
+        "task": "mailman",
+        "jobName": "tb-v4-mailman-control-1792381408212554825",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 833669,
+        "completionTokens": 13245,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "c4981e3675de1c153a43ab224df71fb66756a7c0cd2c977e8c6b8b49de011028",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 238.61,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/mailman:20251031",
+          "imageId": "sha256:04fac73db7e2b4f49d43f09fbc2266a94d70131f07efa1393d370abc059f4094",
+          "repoDigests": [
+            "alexgshaw/mailman@sha256:04fac73db7e2b4f49d43f09fbc2266a94d70131f07efa1393d370abc059f4094"
+          ],
+          "repoTags": [
+            "alexgshaw/mailman:20251031",
+            "alexgshaw/mailman@sha256:04fac73db7e2b4f49d43f09fbc2266a94d70131f07efa1393d370abc059f4094"
+          ],
+          "sizeBytes": 161827504
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "cd436cff59740571fb2c4092a13c3d77915476a695a9cc87b5f83bf2ed916f4a",
+      "registryPacketSha256": "26a277745cc6e17bc7ed76842a6ca7adfca293348dfee22f8f06e34a79cd3888",
+      "gradeEvidence": {
+        "task": "mailman",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-mailman-control-1792381408212554825",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mailman-control-1792381408212554825/mailman__XjgLnty/result.json",
+            "sha256": "7df57dd005a711afbcb8eba9b23e7d8c984c8f2b4f35b9d7b9f4395f6baa31c5",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-mailman-control-1792381408212554825/mailman__XjgLnty/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "winning-avg-corewars": {
+      "receipt": {
+        "task": "winning-avg-corewars",
+        "jobName": "tb-v4-winning-avg-corewars-control-1792381994241395109",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 37,
+        "promptTokens": 972489,
+        "completionTokens": 13708,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "3d8f23b8c9912e5d0ac6ccd160d32d419abb7ee17133ab46fc50bd96c974e11b",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 225.952,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/winning-avg-corewars:20251031",
+          "imageId": "sha256:ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6",
+          "repoDigests": [
+            "alexgshaw/winning-avg-corewars@sha256:ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6"
+          ],
+          "repoTags": [
+            "alexgshaw/winning-avg-corewars:20251031",
+            "alexgshaw/winning-avg-corewars@sha256:ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6"
+          ],
+          "sizeBytes": 293671111
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "a2129a7a6e618b9f25d57d90a19de76db2b128db0b2b123f71bf37786b8e0c4f",
+      "registryPacketSha256": "124c342699efdbfefe8a455c97e3df9ebc123beedf64b5ec4cf6949e9a13b574",
+      "gradeEvidence": {
+        "task": "winning-avg-corewars",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-winning-avg-corewars-control-1792381994241395109",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-winning-avg-corewars-control-1792381994241395109/winning-avg-corewars__PNXT3VH/result.json",
+            "sha256": "d4de63a90a88c6cebd92b8615c971a1c0df6495ea620ee7e1101df9c7ca2014a",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-winning-avg-corewars-control-1792381994241395109/winning-avg-corewars__PNXT3VH/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "constraints-scheduling": {
+      "receipt": {
+        "task": "constraints-scheduling",
+        "jobName": "tb-v4-constraints-scheduling-control-1792381658734453353",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 9,
+        "promptTokens": 99039,
+        "completionTokens": 6174,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 9,
+        "successfulExecutorResponses": 9,
+        "extraConsumed": true,
+        "requestJournalSha256": "a2b3983f6a9dae642049f9f73d4a783235b86722c6b644a8bbfab7325520385e",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 88.05,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/constraints-scheduling:20251031",
+          "imageId": "sha256:567ce5a189f8d11ac461790876e934cc7af38391baf89a78f95f4dafc1fec3b0",
+          "repoDigests": [
+            "alexgshaw/constraints-scheduling@sha256:567ce5a189f8d11ac461790876e934cc7af38391baf89a78f95f4dafc1fec3b0"
+          ],
+          "repoTags": [
+            "alexgshaw/constraints-scheduling:20251031",
+            "alexgshaw/constraints-scheduling@sha256:567ce5a189f8d11ac461790876e934cc7af38391baf89a78f95f4dafc1fec3b0"
+          ],
+          "sizeBytes": 49852952
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "bfd0717b80c1b11ec81dd5c3df71744e4bdb9c04cef93b1c2059d0fef829e034",
+      "registryPacketSha256": "3da674659a8281b1df44906af9579e1c46b2f3930d2c48c509d602648ea9b9e0",
+      "gradeEvidence": {
+        "task": "constraints-scheduling",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-constraints-scheduling-control-1792381658734453353",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-constraints-scheduling-control-1792381658734453353/constraints-scheduling__uNsFdro/result.json",
+            "sha256": "a9f627daa23a0b77bf61430c3b875faf21c64a3f741661a3239b401ab719d9c4",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-constraints-scheduling-control-1792381658734453353/constraints-scheduling__uNsFdro/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "build-pov-ray": {
+      "receipt": {
+        "task": "build-pov-ray",
+        "jobName": "tb-v4-build-pov-ray-control-1792382240042582173",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 18,
+        "promptTokens": 338196,
+        "completionTokens": 4162,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 18,
+        "successfulExecutorResponses": 18,
+        "extraConsumed": true,
+        "requestJournalSha256": "abba707d057a7fd34c2d75696dfd8af8df7f7a66b384e70f01c85b615f96d57c",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 143.777,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/build-pov-ray:20251031",
+          "imageId": "sha256:874baf49341e2853a15a9184e308c7eb632e97f434359fcff2891c6e5ca1b39b",
+          "repoDigests": [
+            "alexgshaw/build-pov-ray@sha256:874baf49341e2853a15a9184e308c7eb632e97f434359fcff2891c6e5ca1b39b"
+          ],
+          "repoTags": [
+            "alexgshaw/build-pov-ray:20251031",
+            "alexgshaw/build-pov-ray@sha256:874baf49341e2853a15a9184e308c7eb632e97f434359fcff2891c6e5ca1b39b"
+          ],
+          "sizeBytes": 163066497
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "74eb080281f709130015313e93fac869570978b6ef92be13b675a916f5d4bc70",
+      "registryPacketSha256": "3a5b71f1170ea5d7f097eeee4d72191d7df99d484f99a43365201f19870499fd",
+      "gradeEvidence": {
+        "task": "build-pov-ray",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-build-pov-ray-control-1792382240042582173",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pov-ray-control-1792382240042582173/build-pov-ray__RvHY5Y7/result.json",
+            "sha256": "5a1958b8c3b4e7227fff35c86ed77fc6ee869b10ad8ad65fb3230c29633c4177",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pov-ray-control-1792382240042582173/build-pov-ray__RvHY5Y7/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "llm-inference-batching-scheduler": {
+      "receipt": {
+        "task": "llm-inference-batching-scheduler",
+        "jobName": "tb-v4-llm-inference-batching-scheduler-control-1792382801018704932",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1040700,
+        "completionTokens": 15953,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "b26e33f95b1c991e0199f1c4c3eb6e8b881b6973f1a890b56aa45d25fb90bb53",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 307.043,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/llm-inference-batching-scheduler:20251031",
+          "imageId": "sha256:19e79aa49be4e55dccca1dde966515ebe6852314b6010bcb9230afb48b996774",
+          "repoDigests": [
+            "alexgshaw/llm-inference-batching-scheduler@sha256:19e79aa49be4e55dccca1dde966515ebe6852314b6010bcb9230afb48b996774"
+          ],
+          "repoTags": [
+            "alexgshaw/llm-inference-batching-scheduler:20251031",
+            "alexgshaw/llm-inference-batching-scheduler@sha256:19e79aa49be4e55dccca1dde966515ebe6852314b6010bcb9230afb48b996774"
+          ],
+          "sizeBytes": 44188631
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "cfcd357f936982688cbd25320abf5878e15f15a8db105b13fcf28c3cafdf5861",
+      "registryPacketSha256": "471c7d2e4e63e1ab29d108a9f20092e757dc745d93986fd482a7f3537646a98a",
+      "gradeEvidence": {
+        "task": "llm-inference-batching-scheduler",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-llm-inference-batching-scheduler-control-1792382801018704932",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-llm-inference-batching-scheduler-control-1792382801018704932/llm-inference-batching-scheduler__zPJiBHu/result.json",
+            "sha256": "8fff2d9e1fd6ba4234e1f07f24047fb430cafc6ee5336b6a57907db08d5fdbf6",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-llm-inference-batching-scheduler-control-1792382801018704932/llm-inference-batching-scheduler__zPJiBHu/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "headless-terminal": {
+      "receipt": {
+        "task": "headless-terminal",
+        "jobName": "tb-v4-headless-terminal-control-1792383215899536744",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 12,
+        "promptTokens": 53184,
+        "completionTokens": 4595,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 12,
+        "successfulExecutorResponses": 12,
+        "extraConsumed": true,
+        "requestJournalSha256": "6aa23227f157bd5ae78ebb2ae7ac894b23a6032b1f78e284ba0a76fcc0ac7942",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 99.192,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/headless-terminal:20251031",
+          "imageId": "sha256:eb7e209672bf6cef2785fafd9e13509b10626c327bcc2b37f5bf40ca83eaf3aa",
+          "repoDigests": [
+            "alexgshaw/headless-terminal@sha256:eb7e209672bf6cef2785fafd9e13509b10626c327bcc2b37f5bf40ca83eaf3aa"
+          ],
+          "repoTags": [
+            "alexgshaw/headless-terminal:20251031",
+            "alexgshaw/headless-terminal@sha256:eb7e209672bf6cef2785fafd9e13509b10626c327bcc2b37f5bf40ca83eaf3aa"
+          ],
+          "sizeBytes": 62285180
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "7b75982d28e0a54d14654a5a0bb9893c26fcc5683d23731ea82ca7d573c598d0",
+      "registryPacketSha256": "20d974310953b9805e835b87f79580456560e1f194610a5fe747a1b7086e0f71",
+      "gradeEvidence": {
+        "task": "headless-terminal",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-headless-terminal-control-1792383215899536744",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-headless-terminal-control-1792383215899536744/headless-terminal__Z7ZpRtm/result.json",
+            "sha256": "f18f9453d37d85f90d8c4e36030dc9a788350aaebb11b30931611d6697e1919f",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-headless-terminal-control-1792383215899536744/headless-terminal__Z7ZpRtm/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "cobol-modernization": {
+      "receipt": {
+        "task": "cobol-modernization",
+        "jobName": "tb-v4-cobol-modernization-control-1792385259829407528",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 18,
+        "promptTokens": 222528,
+        "completionTokens": 8988,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 18,
+        "successfulExecutorResponses": 18,
+        "extraConsumed": true,
+        "requestJournalSha256": "a61eb4848e20024d19661b9c037b60d24dcc9c281f35c4fdb8a1f563c56bf71c",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 140.359,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/cobol-modernization:20251031",
+          "imageId": "sha256:593ab9df3d83f771e927888b2d9436b380cdf7ec4d0af2a9f0802d541edebba0",
+          "repoDigests": [
+            "alexgshaw/cobol-modernization@sha256:593ab9df3d83f771e927888b2d9436b380cdf7ec4d0af2a9f0802d541edebba0"
+          ],
+          "repoTags": [
+            "alexgshaw/cobol-modernization:20251031",
+            "alexgshaw/cobol-modernization@sha256:593ab9df3d83f771e927888b2d9436b380cdf7ec4d0af2a9f0802d541edebba0"
+          ],
+          "sizeBytes": 162020401
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "5593f3abecaba2c81c584a12dafb9f49dd54ce93c36cae94f7a7d26e21d7e632",
+      "registryPacketSha256": "e74f30f6c760dc4bff41799fd40a8c4fa48594d1d65168e8dd360780d66311a0",
+      "gradeEvidence": {
+        "task": "cobol-modernization",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-cobol-modernization-control-1792385259829407528",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cobol-modernization-control-1792385259829407528/cobol-modernization__HNQtQKA/result.json",
+            "sha256": "3ee0a232661a17bff49c4b17a85884b4f0090a7b9dbf155f2017688b72e3582a",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-cobol-modernization-control-1792385259829407528/cobol-modernization__HNQtQKA/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "path-tracing": {
+      "receipt": {
+        "task": "path-tracing",
+        "jobName": "tb-v4-path-tracing-control-1792385807940557787",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1736067,
+        "completionTokens": 12465,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "3dcfd95bd30b13b8fa37e92cf384e6066b1aba2341682710972b7bfe360b7561",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 179.719,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/path-tracing:20251031",
+          "imageId": "sha256:4b44725102cd627dfa895191a5a30d16dae3c5623bb43da6459f79135db6b482",
+          "repoDigests": [
+            "alexgshaw/path-tracing@sha256:4b44725102cd627dfa895191a5a30d16dae3c5623bb43da6459f79135db6b482"
+          ],
+          "repoTags": [
+            "alexgshaw/path-tracing:20251031",
+            "alexgshaw/path-tracing@sha256:4b44725102cd627dfa895191a5a30d16dae3c5623bb43da6459f79135db6b482"
+          ],
+          "sizeBytes": 399390468
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "b47e49ba04f1e0c49d2cd7a9fd4e54ce295de112924639957a4162ea45f7bfd9",
+      "registryPacketSha256": "a8f0f791be019b0aaa224774eecdcce5d06e6a4eb57a2c57db5f454e3551e447",
+      "gradeEvidence": {
+        "task": "path-tracing",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-path-tracing-control-1792385807940557787",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-control-1792385807940557787/path-tracing__yCHkMXK/result.json",
+            "sha256": "a4a0ccfc119f25c26ff025e82e2a7b7f830a3802cf0252148268d7756c2a15a9",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-control-1792385807940557787/path-tracing__yCHkMXK/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "adaptive-rejection-sampler": {
+      "receipt": {
+        "task": "adaptive-rejection-sampler",
+        "jobName": "tb-v4-adaptive-rejection-sampler-control-1792386244419711321",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 29,
+        "promptTokens": 807550,
+        "completionTokens": 11324,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 30,
+        "successfulExecutorResponses": 30,
+        "extraConsumed": true,
+        "requestJournalSha256": "230b2f67fa7ce4bf1846b2fb4aa5a57257a3a63448e0b9f5f9c09a998501d7c2",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 226.308,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/adaptive-rejection-sampler:20251031",
+          "imageId": "sha256:985bed39e8448bc95f138b5f766b59003a95c4be171c96af8e76448338f3dd8f",
+          "repoDigests": [
+            "alexgshaw/adaptive-rejection-sampler@sha256:985bed39e8448bc95f138b5f766b59003a95c4be171c96af8e76448338f3dd8f"
+          ],
+          "repoTags": [
+            "alexgshaw/adaptive-rejection-sampler:20251031",
+            "alexgshaw/adaptive-rejection-sampler@sha256:985bed39e8448bc95f138b5f766b59003a95c4be171c96af8e76448338f3dd8f"
+          ],
+          "sizeBytes": 29731756
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "3a10ed147d55ab9da493b43584d425c8aa2757ed7943331e6ab7793abc62bc35",
+      "registryPacketSha256": "4d962dda610eec5d3a5e06a05cb909d16e1dbecb1f3faf83459f3b266d410d2e",
+      "gradeEvidence": {
+        "task": "adaptive-rejection-sampler",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-adaptive-rejection-sampler-control-1792386244419711321",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-adaptive-rejection-sampler-control-1792386244419711321/adaptive-rejection-sampler__KtGTLDz/result.json",
+            "sha256": "4fc0f046277bc1b1357a398e555ebcd6ba55109d76b8a704e32bee9554844a4a",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-adaptive-rejection-sampler-control-1792386244419711321/adaptive-rejection-sampler__KtGTLDz/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "chess-best-move": {
+      "receipt": {
+        "task": "chess-best-move",
+        "jobName": "tb-v4-chess-best-move-control-1792386010881604708",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 27,
+        "promptTokens": 451256,
+        "completionTokens": 13915,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 28,
+        "successfulExecutorResponses": 28,
+        "extraConsumed": true,
+        "requestJournalSha256": "f65cfd66ac8ec80122f21055ea6459c52868cf5d0761fd53913aa6271bb0af1d",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 197.513,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/chess-best-move:20251031",
+          "imageId": "sha256:bb447f94d9e2a8ed879f85c85a514b213b7418f9fe11fd7b2428a0b0e436e647",
+          "repoDigests": [
+            "alexgshaw/chess-best-move@sha256:bb447f94d9e2a8ed879f85c85a514b213b7418f9fe11fd7b2428a0b0e436e647"
+          ],
+          "repoTags": [
+            "alexgshaw/chess-best-move:20251031",
+            "alexgshaw/chess-best-move@sha256:bb447f94d9e2a8ed879f85c85a514b213b7418f9fe11fd7b2428a0b0e436e647"
+          ],
+          "sizeBytes": 240211717
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "7663f7289a5f5331006aab54ef09700002449e71aff7e6df45931f8a6890d15e",
+      "registryPacketSha256": "a95c432347d02edc460a0fdd7cace013418e1026df2a6ef3194761e3f5273665",
+      "gradeEvidence": {
+        "task": "chess-best-move",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-chess-best-move-control-1792386010881604708",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-chess-best-move-control-1792386010881604708/chess-best-move__FBtngFu/result.json",
+            "sha256": "dd6153281708083dd67c8b375d23d9223c808234097fecac18a5ac5783d2771d",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-chess-best-move-control-1792386010881604708/chess-best-move__FBtngFu/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "regex-log": {
+      "receipt": {
+        "task": "regex-log",
+        "jobName": "tb-v4-regex-log-control-1792386476950591224",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 10,
+        "promptTokens": 62771,
+        "completionTokens": 5239,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 10,
+        "successfulExecutorResponses": 10,
+        "extraConsumed": true,
+        "requestJournalSha256": "a4b384da2405e54438b9f15882ecd49746e21eb3363160f5ed43a6808bd9a037",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 65.843,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/regex-log:20251031",
+          "imageId": "sha256:90101b2e815323a8da20528a1439bebc407eb9761c9c68a3d557730856c878e9",
+          "repoDigests": [
+            "alexgshaw/regex-log@sha256:90101b2e815323a8da20528a1439bebc407eb9761c9c68a3d557730856c878e9"
+          ],
+          "repoTags": [
+            "alexgshaw/regex-log:20251031",
+            "alexgshaw/regex-log@sha256:90101b2e815323a8da20528a1439bebc407eb9761c9c68a3d557730856c878e9"
+          ],
+          "sizeBytes": 29725514
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "db54260c7b390a937f83c10556b424e4c3404d84d932e105c85ce4476bb56110",
+      "registryPacketSha256": "47fbb491652aa5b8956f6f059905aa7c96b7da745277d25e18f5806ab0650ecb",
+      "gradeEvidence": {
+        "task": "regex-log",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-regex-log-control-1792386476950591224",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-log-control-1792386476950591224/regex-log__gMqhZrD/result.json",
+            "sha256": "58d40684bfc801d9a4b5a5f38fc1acacdd4090685ae6f1365f1c34e28677cbbf",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-log-control-1792386476950591224/regex-log__gMqhZrD/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "tune-mjcf": {
+      "receipt": {
+        "task": "tune-mjcf",
+        "jobName": "tb-v4-tune-mjcf-control-1792386878710006989",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 365817,
+        "completionTokens": 8124,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "fe009445762223d943f7d0c69d17cdc13cba647319386aa99f143d5f58b7e356",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 433.753,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/tune-mjcf:20251031",
+          "imageId": "sha256:56c197739db2db79562384581fcc9d3d71e6c171bf052104b1a7ee0282e7c3cf",
+          "repoDigests": [
+            "alexgshaw/tune-mjcf@sha256:56c197739db2db79562384581fcc9d3d71e6c171bf052104b1a7ee0282e7c3cf"
+          ],
+          "repoTags": [
+            "alexgshaw/tune-mjcf:20251031",
+            "alexgshaw/tune-mjcf@sha256:56c197739db2db79562384581fcc9d3d71e6c171bf052104b1a7ee0282e7c3cf"
+          ],
+          "sizeBytes": 80263536
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "6335241259b186b19a408f2df72a2651621707d44729fc46221ad8030cb41ca5",
+      "registryPacketSha256": "e5f9c2155376a01cc22462da22d090d10cc58e66ad7bfffb3f40134d69249a56",
+      "gradeEvidence": {
+        "task": "tune-mjcf",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-tune-mjcf-control-1792386878710006989",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-tune-mjcf-control-1792386878710006989/tune-mjcf__BcuuHGZ/result.json",
+            "sha256": "14f0e794c83449b64378f9b40115df1733d3fb15975c987e0017f9189f8ee2a9",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-tune-mjcf-control-1792386878710006989/tune-mjcf__BcuuHGZ/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "vulnerable-secret": {
+      "receipt": {
+        "task": "vulnerable-secret",
+        "jobName": "tb-v4-vulnerable-secret-control-1792388023062169703",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 8,
+        "promptTokens": 33799,
+        "completionTokens": 1441,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 8,
+        "successfulExecutorResponses": 8,
+        "extraConsumed": true,
+        "requestJournalSha256": "93b2d232c2a1bee603f78cacc58cd53c7a1602f4dc69f3f3c388420b50d4de95",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 52.525,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/vulnerable-secret:20251031",
+          "imageId": "sha256:61ebb40454dd103aa2f7e71ad6dafd91cf2b301e6bb07e69d5b472412d1ee15b",
+          "repoDigests": [
+            "alexgshaw/vulnerable-secret@sha256:61ebb40454dd103aa2f7e71ad6dafd91cf2b301e6bb07e69d5b472412d1ee15b"
+          ],
+          "repoTags": [
+            "alexgshaw/vulnerable-secret:20251031",
+            "alexgshaw/vulnerable-secret@sha256:61ebb40454dd103aa2f7e71ad6dafd91cf2b301e6bb07e69d5b472412d1ee15b"
+          ],
+          "sizeBytes": 133932203
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "3ba51d0809861125385e7e0d44c2ecbcc61282ce4379d8138a5c3db94bb3ebd2",
+      "registryPacketSha256": "0e3062673f1d20160737eb95d4eade6428bd93cd8345d823746f18cf7f06156c",
+      "gradeEvidence": {
+        "task": "vulnerable-secret",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-vulnerable-secret-control-1792388023062169703",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-vulnerable-secret-control-1792388023062169703/vulnerable-secret__QJvFfNb/result.json",
+            "sha256": "c0d191cbc5619bacf40c0da5dde060cc3844be6b60a92c002ce758fec07defd4",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-vulnerable-secret-control-1792388023062169703/vulnerable-secret__QJvFfNb/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "git-leak-recovery": {
+      "receipt": {
+        "task": "git-leak-recovery",
+        "jobName": "tb-v4-git-leak-recovery-control-1792387967394680220",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 7,
+        "promptTokens": 18457,
+        "completionTokens": 1572,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 7,
+        "successfulExecutorResponses": 7,
+        "extraConsumed": true,
+        "requestJournalSha256": "7f0c6b5d6b32b2011d7c2a16a0864db4774a9c4dae6a9a9499446065b7e6474e",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 48.747,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/git-leak-recovery:20251031",
+          "imageId": "sha256:62160e522a4238b8bcd522411ea97b5b200f811e5899d34947e66809bef7e586",
+          "repoDigests": [
+            "alexgshaw/git-leak-recovery@sha256:62160e522a4238b8bcd522411ea97b5b200f811e5899d34947e66809bef7e586"
+          ],
+          "repoTags": [
+            "alexgshaw/git-leak-recovery:20251031",
+            "alexgshaw/git-leak-recovery@sha256:62160e522a4238b8bcd522411ea97b5b200f811e5899d34947e66809bef7e586"
+          ],
+          "sizeBytes": 95728320
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "958ab489868ac8db0ee5024efd1fedbf0b330b18b06ed5646d1a191ce53894dd",
+      "registryPacketSha256": "11bbcd6c0c511a29a6a6064e362efd6bee18585899560633a9621994d4e0e750",
+      "gradeEvidence": {
+        "task": "git-leak-recovery",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-git-leak-recovery-control-1792387967394680220",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-leak-recovery-control-1792387967394680220/git-leak-recovery__9bcdi83/result.json",
+            "sha256": "2d0e27b442b9d6b9620ef5eef816f01c30cca4f6f8b6f85ef7533c4c8e35b6b8",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-git-leak-recovery-control-1792387967394680220/git-leak-recovery__9bcdi83/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "feal-differential-cryptanalysis": {
+      "receipt": {
+        "task": "feal-differential-cryptanalysis",
+        "jobName": "tb-v4-feal-differential-cryptanalysis-control-1792388082359644647",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 32,
+        "promptTokens": 495358,
+        "completionTokens": 10290,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 33,
+        "successfulExecutorResponses": 33,
+        "extraConsumed": true,
+        "requestJournalSha256": "a17dd4df92aa7c48b1882ee6544f6e2270b9c4dc5df237a692e903eaea570601",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 221.93,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/feal-differential-cryptanalysis:20251031",
+          "imageId": "sha256:bea93bafe9eab601ca58729f5735a13f8339f52055322d1cf840e3742b54a287",
+          "repoDigests": [
+            "alexgshaw/feal-differential-cryptanalysis@sha256:bea93bafe9eab601ca58729f5735a13f8339f52055322d1cf840e3742b54a287"
+          ],
+          "repoTags": [
+            "alexgshaw/feal-differential-cryptanalysis:20251031",
+            "alexgshaw/feal-differential-cryptanalysis@sha256:bea93bafe9eab601ca58729f5735a13f8339f52055322d1cf840e3742b54a287"
+          ],
+          "sizeBytes": 51639593
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "0a447c6182e0792ace64eab4d4c9b3993acc4b4693e466719cc169dc77b60a98",
+      "registryPacketSha256": "dac342fb8345b6a8027c3b98402ec5c9d0616092765f004d49b2ec0ca512ffc1",
+      "gradeEvidence": {
+        "task": "feal-differential-cryptanalysis",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-feal-differential-cryptanalysis-control-1792388082359644647",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-differential-cryptanalysis-control-1792388082359644647/feal-differential-cryptanalysis__LwRPjRz/result.json",
+            "sha256": "549a31e6369dc136540e7241c240378e086d142a72c95a9385ed36d556110aef",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-feal-differential-cryptanalysis-control-1792388082359644647/feal-differential-cryptanalysis__LwRPjRz/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "sqlite-db-truncate": {
+      "receipt": {
+        "task": "sqlite-db-truncate",
+        "jobName": "tb-v4-sqlite-db-truncate-control-1792388178564872139",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 10,
+        "promptTokens": 103481,
+        "completionTokens": 7096,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 10,
+        "successfulExecutorResponses": 10,
+        "extraConsumed": true,
+        "requestJournalSha256": "91cf4436b07c82c20662de40ceba37b91cf0ec957b1955b722923ad7f1404424",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 106.702,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/sqlite-db-truncate:20251031",
+          "imageId": "sha256:aabac93c93bd1f310e6a6fb893911d7735026ed18491c72133c9196a09092ca4",
+          "repoDigests": [
+            "alexgshaw/sqlite-db-truncate@sha256:aabac93c93bd1f310e6a6fb893911d7735026ed18491c72133c9196a09092ca4"
+          ],
+          "repoTags": [
+            "alexgshaw/sqlite-db-truncate:20251031",
+            "alexgshaw/sqlite-db-truncate@sha256:aabac93c93bd1f310e6a6fb893911d7735026ed18491c72133c9196a09092ca4"
+          ],
+          "sizeBytes": 44172363
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "60b24d76b7304cee7c1647b170091d52a05aca25388efae51a26161daf63cfcd",
+      "registryPacketSha256": "ab015cf5c179990c7f56691712cd45e6079912b7ac8e6355b2dd1a4c1ea1a4e0",
+      "gradeEvidence": {
+        "task": "sqlite-db-truncate",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-sqlite-db-truncate-control-1792388178564872139",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-db-truncate-control-1792388178564872139/sqlite-db-truncate__hNdbFcq/result.json",
+            "sha256": "1baadfac7d35a9e7273695bdfe1f84e63e1a51a805c9b6132e80e2b5c7ec9446",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-sqlite-db-truncate-control-1792388178564872139/sqlite-db-truncate__hNdbFcq/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "modernize-scientific-stack": {
+      "receipt": {
+        "task": "modernize-scientific-stack",
+        "jobName": "tb-v4-modernize-scientific-stack-control-1792388884886939566",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 5,
+        "promptTokens": 17776,
+        "completionTokens": 1278,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 5,
+        "successfulExecutorResponses": 5,
+        "extraConsumed": true,
+        "requestJournalSha256": "e0e4e95c0dc7b06cb8ccd2b0d809e2a255178c76c6e1d1d23130bf19b222d9ba",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 51.816,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/modernize-scientific-stack:20251031",
+          "imageId": "sha256:64e69cee13bf6b0b9016e735b51891bce996a60f1e2d1a005bf12c949e221d71",
+          "repoDigests": [
+            "alexgshaw/modernize-scientific-stack@sha256:64e69cee13bf6b0b9016e735b51891bce996a60f1e2d1a005bf12c949e221d71"
+          ],
+          "repoTags": [
+            "alexgshaw/modernize-scientific-stack:20251031",
+            "alexgshaw/modernize-scientific-stack@sha256:64e69cee13bf6b0b9016e735b51891bce996a60f1e2d1a005bf12c949e221d71"
+          ],
+          "sizeBytes": 346671153
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "69ff8ea12a1b0818bdad90f915cb58c1ebc2b908effde29cb16a4b3cb8751a7d",
+      "registryPacketSha256": "b932117a1598f78d8e57ebef83fa5b8708e33a3b190639115826a15190c51152",
+      "gradeEvidence": {
+        "task": "modernize-scientific-stack",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-modernize-scientific-stack-control-1792388884886939566",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-modernize-scientific-stack-control-1792388884886939566/modernize-scientific-stack__en5J4oz/result.json",
+            "sha256": "50ce805a4e65101a3d81e83c637cf9ffa82ae4be5d7e67badf3538982fa5facf",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-modernize-scientific-stack-control-1792388884886939566/modernize-scientific-stack__en5J4oz/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "kv-store-grpc": {
+      "receipt": {
+        "task": "kv-store-grpc",
+        "jobName": "tb-v4-kv-store-grpc-control-1792388829932277230",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 8,
+        "promptTokens": 26473,
+        "completionTokens": 1931,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 8,
+        "successfulExecutorResponses": 8,
+        "extraConsumed": true,
+        "requestJournalSha256": "3b3375d8fa21fa4f33fe6ffe15d0f8e6aca32bba9755baef330a18643d86ee22",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 87.346,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/kv-store-grpc:20251031",
+          "imageId": "sha256:3399400800dcb207634daa42bc1b052e831e285cc9d221eea66c47bc0fc79791",
+          "repoDigests": [
+            "alexgshaw/kv-store-grpc@sha256:3399400800dcb207634daa42bc1b052e831e285cc9d221eea66c47bc0fc79791"
+          ],
+          "repoTags": [
+            "alexgshaw/kv-store-grpc:20251031",
+            "alexgshaw/kv-store-grpc@sha256:3399400800dcb207634daa42bc1b052e831e285cc9d221eea66c47bc0fc79791"
+          ],
+          "sizeBytes": 44171671
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "a0955b4715d908761801d2b659e2798ef73f88d63315cf35250b5ea878753455",
+      "registryPacketSha256": "b1e8b38df75d079efb60c5993ba667338acb364393385928b87e19967e9ae456",
+      "gradeEvidence": {
+        "task": "kv-store-grpc",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-kv-store-grpc-control-1792388829932277230",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-kv-store-grpc-control-1792388829932277230/kv-store-grpc__yhrgX9Q/result.json",
+            "sha256": "b03145035ec03a45dd54f1bafa3f17baf003f105872b92a442a8ee9de4ed2f6c",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-kv-store-grpc-control-1792388829932277230/kv-store-grpc__yhrgX9Q/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "path-tracing-reverse": {
+      "receipt": {
+        "task": "path-tracing-reverse",
+        "jobName": "tb-v4-path-tracing-reverse-control-1792389258932844112",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1564005,
+        "completionTokens": 11824,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "6378a3200c049edaa93379773909137bd09ac22fafec98e7c229eba9c784c1a9",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 137.123,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/path-tracing-reverse:20251031",
+          "imageId": "sha256:7911e42479d8f6d8af1248bc52442a0efbc5a33e3ecf535fdc20d252a2c64142",
+          "repoDigests": [
+            "alexgshaw/path-tracing-reverse@sha256:7911e42479d8f6d8af1248bc52442a0efbc5a33e3ecf535fdc20d252a2c64142"
+          ],
+          "repoTags": [
+            "alexgshaw/path-tracing-reverse:20251031",
+            "alexgshaw/path-tracing-reverse@sha256:7911e42479d8f6d8af1248bc52442a0efbc5a33e3ecf535fdc20d252a2c64142"
+          ],
+          "sizeBytes": 170984127
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "0aac8e963afc8828ebbb5720d2f0b6201c1e19fc2ee8cea6159e74fd14c7ff3c",
+      "registryPacketSha256": "f2d3178384a6fe84598be723c8a569736e2fa0cb02601303f460008975a5fdff",
+      "gradeEvidence": {
+        "task": "path-tracing-reverse",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-path-tracing-reverse-control-1792389258932844112",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-reverse-control-1792389258932844112/path-tracing-reverse__jwQThD9/result.json",
+            "sha256": "e4b324b5cf31e54798b5d01f82217f701c94164bbd6fcace1f256769fff7f71f",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-path-tracing-reverse-control-1792389258932844112/path-tracing-reverse__jwQThD9/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "nginx-request-logging": {
+      "receipt": {
+        "task": "nginx-request-logging",
+        "jobName": "tb-v4-nginx-request-logging-control-1792389400285823449",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 12,
+        "promptTokens": 83241,
+        "completionTokens": 3335,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 12,
+        "successfulExecutorResponses": 12,
+        "extraConsumed": true,
+        "requestJournalSha256": "7d84ec94fb9de49d53cc0fc46f4886b3a5c71aecd2c4a3df88be7373f9c5da32",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 85.981,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/nginx-request-logging:20251031",
+          "imageId": "sha256:693e64431a0dbf45952e8b91a298d54fd60247e501c6623fb8fa3ebc07fc3d3d",
+          "repoDigests": [
+            "alexgshaw/nginx-request-logging@sha256:693e64431a0dbf45952e8b91a298d54fd60247e501c6623fb8fa3ebc07fc3d3d"
+          ],
+          "repoTags": [
+            "alexgshaw/nginx-request-logging:20251031",
+            "alexgshaw/nginx-request-logging@sha256:693e64431a0dbf45952e8b91a298d54fd60247e501c6623fb8fa3ebc07fc3d3d"
+          ],
+          "sizeBytes": 67285778
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "5324e099b17e0664f92a20b33556aa6bf71dfb73a2f42011a77535085e1d4874",
+      "registryPacketSha256": "41e9f63116f1d9d355cc7e678d47c3533c9fcfb6ce364e44ad794d971de4b624",
+      "gradeEvidence": {
+        "task": "nginx-request-logging",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-nginx-request-logging-control-1792389400285823449",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-nginx-request-logging-control-1792389400285823449/nginx-request-logging__AKnwuJG/result.json",
+            "sha256": "bad8cb235b50c420796180eab57fa7c6ce58798b10b8b447c590d54255150f79",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-nginx-request-logging-control-1792389400285823449/nginx-request-logging__AKnwuJG/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "video-processing": {
+      "receipt": {
+        "task": "video-processing",
+        "jobName": "tb-v4-video-processing-control-1792389732633950027",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 19,
+        "promptTokens": 281477,
+        "completionTokens": 9390,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 19,
+        "successfulExecutorResponses": 19,
+        "extraConsumed": true,
+        "requestJournalSha256": "b28bccb0987490cd803b54c371b78dd0a88dcff64152485bafcc27ad7535c101",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 120.812,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/video-processing:20251031",
+          "imageId": "sha256:a2c0f39e3ab04e67ac6e49cad9167bb0d987babe32511768c01aa0c6905a875f",
+          "repoDigests": [
+            "alexgshaw/video-processing@sha256:a2c0f39e3ab04e67ac6e49cad9167bb0d987babe32511768c01aa0c6905a875f"
+          ],
+          "repoTags": [
+            "alexgshaw/video-processing:20251031",
+            "alexgshaw/video-processing@sha256:a2c0f39e3ab04e67ac6e49cad9167bb0d987babe32511768c01aa0c6905a875f"
+          ],
+          "sizeBytes": 311878553
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "220f161b09257bd27cde17bed6d79c214d5e7c3fea7fd82ae6263c39e90a4305",
+      "registryPacketSha256": "fd8fe7e6cdec56563d19982ae803b5de293f06287de163af7816d1478aa7260f",
+      "gradeEvidence": {
+        "task": "video-processing",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-video-processing-control-1792389732633950027",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-video-processing-control-1792389732633950027/video-processing__hmbkhze/result.json",
+            "sha256": "3cbb9ae1165c4a117048f26e2e692a5cc50eeb258bb0556270557331863ec754",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-video-processing-control-1792389732633950027/video-processing__hmbkhze/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "build-pmars": {
+      "receipt": {
+        "task": "build-pmars",
+        "jobName": "tb-v4-build-pmars-control-1792390001575346524",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 17,
+        "promptTokens": 227336,
+        "completionTokens": 2940,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 17,
+        "successfulExecutorResponses": 17,
+        "extraConsumed": true,
+        "requestJournalSha256": "3424e8e2c28f2412c8d8b5a679459e3d9b516ca08afe89056f4a80774485d741",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 113.591,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/build-pmars:20251031",
+          "imageId": "sha256:57a82706f7491e0b2d1ff7e927e97ae5339892dd09c47ac43290b4ba1f5abc6f",
+          "repoDigests": [
+            "alexgshaw/build-pmars@sha256:57a82706f7491e0b2d1ff7e927e97ae5339892dd09c47ac43290b4ba1f5abc6f"
+          ],
+          "repoTags": [
+            "alexgshaw/build-pmars:20251031",
+            "alexgshaw/build-pmars@sha256:57a82706f7491e0b2d1ff7e927e97ae5339892dd09c47ac43290b4ba1f5abc6f"
+          ],
+          "sizeBytes": 61142972
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "809b0dc9c850d212f335a2cc4fe5e101b934093ed1a4ad2bf84c64484cb98a1a",
+      "registryPacketSha256": "15e9bf73ea0e70672fafbb9f6f1d01e70d3d5b4f8b5e37eb33266303242a8163",
+      "gradeEvidence": {
+        "task": "build-pmars",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-build-pmars-control-1792390001575346524",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pmars-control-1792390001575346524/build-pmars__QDNwRdu/result.json",
+            "sha256": "dbc597c60d4c365f826be1b2630696d233ab93cf17a0b26f8656eca5cb552ed1",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-build-pmars-control-1792390001575346524/build-pmars__QDNwRdu/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "write-compressor": {
+      "receipt": {
+        "task": "write-compressor",
+        "jobName": "tb-v4-write-compressor-control-1792389878782521585",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 37,
+        "promptTokens": 1123102,
+        "completionTokens": 23320,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "bf254b87928d3bdae7660d312c6bc140649ba26772342981c2300e9f863d4329",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 225.751,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/write-compressor:20251031",
+          "imageId": "sha256:3618e1f8a997b437c09cd3dbaac736705809c05f6f12f584b65722175970ebe1",
+          "repoDigests": [
+            "alexgshaw/write-compressor@sha256:3618e1f8a997b437c09cd3dbaac736705809c05f6f12f584b65722175970ebe1"
+          ],
+          "repoTags": [
+            "alexgshaw/write-compressor:20251031",
+            "alexgshaw/write-compressor@sha256:3618e1f8a997b437c09cd3dbaac736705809c05f6f12f584b65722175970ebe1"
+          ],
+          "sizeBytes": 291927726
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "737f4a1083e2ccbbc8e81cec136c73d189f6deb79084b93768b801d9bc515142",
+      "registryPacketSha256": "1d9a8e083d535d2705201c5d722137bace78707c8f235e75655793d2f35b81c9",
+      "gradeEvidence": {
+        "task": "write-compressor",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-write-compressor-control-1792389878782521585",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-write-compressor-control-1792389878782521585/write-compressor__TV4Huuw/result.json",
+            "sha256": "19e3d7b59e978819b32687867559b541c48fe182766519975869cc7d6291b740",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-write-compressor-control-1792389878782521585/write-compressor__TV4Huuw/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "extract-moves-from-video": {
+      "receipt": {
+        "task": "extract-moves-from-video",
+        "jobName": "tb-v4-extract-moves-from-video-control-1792390124300302944",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 941100,
+        "completionTokens": 5339,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "d589d1aa1e95ae74fdf928761c9b0f879cf4479a2c2dd22c28060e745204394a",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 409.283,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/extract-moves-from-video:20260403",
+          "imageId": "sha256:74ef87375ce2b6332ca9fe0180eb541b64cf4ef4188edd5b1be22c272e5a5b4b",
+          "repoDigests": [
+            "alexgshaw/extract-moves-from-video@sha256:74ef87375ce2b6332ca9fe0180eb541b64cf4ef4188edd5b1be22c272e5a5b4b"
+          ],
+          "repoTags": [
+            "alexgshaw/extract-moves-from-video:20260403",
+            "alexgshaw/extract-moves-from-video@sha256:74ef87375ce2b6332ca9fe0180eb541b64cf4ef4188edd5b1be22c272e5a5b4b"
+          ],
+          "sizeBytes": 41699930
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "fe2494c7e54c8d742e385acd23eb9746307f21af278724f36dcce9524a11a497",
+      "registryPacketSha256": "6306564d31120af55aa958785f68343ecf14fe8741236df5fb34614e2800a022",
+      "gradeEvidence": {
+        "task": "extract-moves-from-video",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-extract-moves-from-video-control-1792390124300302944",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-moves-from-video-control-1792390124300302944/extract-moves-from-video__c4fNQfu/result.json",
+            "sha256": "179528ab784ea1d3120413134acc1f91acb468e4c44d8f5cd3f16a23a5926405",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-extract-moves-from-video-control-1792390124300302944/extract-moves-from-video__c4fNQfu/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "log-summary-date-ranges": {
+      "receipt": {
+        "task": "log-summary-date-ranges",
+        "jobName": "tb-v4-log-summary-date-ranges-control-1792391470246411712",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 5,
+        "promptTokens": 31245,
+        "completionTokens": 1519,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 5,
+        "successfulExecutorResponses": 5,
+        "extraConsumed": true,
+        "requestJournalSha256": "8122cea8132d6eb68c8d9fd4af97537c91c52ff323192063a60e371a4789ec07",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 48.993,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/log-summary-date-ranges:20251031",
+          "imageId": "sha256:cbeb6ba905c2fec294f16cd5e16e3ea7f2e04d38ac2484d51a11de262aa7dc51",
+          "repoDigests": [
+            "alexgshaw/log-summary-date-ranges@sha256:cbeb6ba905c2fec294f16cd5e16e3ea7f2e04d38ac2484d51a11de262aa7dc51"
+          ],
+          "repoTags": [
+            "alexgshaw/log-summary-date-ranges:20251031",
+            "alexgshaw/log-summary-date-ranges@sha256:cbeb6ba905c2fec294f16cd5e16e3ea7f2e04d38ac2484d51a11de262aa7dc51"
+          ],
+          "sizeBytes": 44866158
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "a62d5e2dfee5e82fdccad0ee29f0dcb6c8fd57fcf6afb58c955d4894eae2fd43",
+      "registryPacketSha256": "d5e8384f5013c6a2b84b93de5bf14c7b49a5d643da79d8789889b7e7d08ef457",
+      "gradeEvidence": {
+        "task": "log-summary-date-ranges",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-log-summary-date-ranges-control-1792391470246411712",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-log-summary-date-ranges-control-1792391470246411712/log-summary-date-ranges__KUj4Hf2/result.json",
+            "sha256": "e698cf7b6affd0f0b494a79c4032942f817381a4676fa0d453c7c398feddaecb",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-log-summary-date-ranges-control-1792391470246411712/log-summary-date-ranges__KUj4Hf2/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "fix-ocaml-gc": {
+      "receipt": {
+        "task": "fix-ocaml-gc",
+        "jobName": "tb-v4-fix-ocaml-gc-control-1792391961527443731",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1138127,
+        "completionTokens": 18339,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "a10c5bf1760f65c18173cd39be1e7cba507d347bfcf9ccf02ea9f912af46a76a",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 445.183,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/fix-ocaml-gc:20251031",
+          "imageId": "sha256:66a1e2293076c9ef27a118611b3089a6284fdf467fd4675592d0cce7d11e5b0b",
+          "repoDigests": [
+            "alexgshaw/fix-ocaml-gc@sha256:66a1e2293076c9ef27a118611b3089a6284fdf467fd4675592d0cce7d11e5b0b"
+          ],
+          "repoTags": [
+            "alexgshaw/fix-ocaml-gc:20251031",
+            "alexgshaw/fix-ocaml-gc@sha256:66a1e2293076c9ef27a118611b3089a6284fdf467fd4675592d0cce7d11e5b0b"
+          ],
+          "sizeBytes": 765429590
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "87b264b01cc1785a7fa23996434fd7cbc894e739122e405d34dee32ec74579c2",
+      "registryPacketSha256": "71715c838f15b3c9ca4a8a511a83ec8fe24ab5ebf01be47832144ddc3c551487",
+      "gradeEvidence": {
+        "task": "fix-ocaml-gc",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-fix-ocaml-gc-control-1792391961527443731",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-ocaml-gc-control-1792391961527443731/fix-ocaml-gc__4AdTLqn/result.json",
+            "sha256": "f487c52e49220545fa2936da2b413e692a5b4c2a63068d0dd44b8ee4cf2f99f1",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-ocaml-gc-control-1792391961527443731/fix-ocaml-gc__4AdTLqn/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "openssl-selfsigned-cert": {
+      "receipt": {
+        "task": "openssl-selfsigned-cert",
+        "jobName": "tb-v4-openssl-selfsigned-cert-control-1792392491302774242",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 4,
+        "promptTokens": 9949,
+        "completionTokens": 1248,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 4,
+        "successfulExecutorResponses": 4,
+        "extraConsumed": true,
+        "requestJournalSha256": "5506ff73f0e2ebcdbe2b0524cef752668236ec2015e4d9576c89ec9940b86515",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 48.668,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/openssl-selfsigned-cert:20251031",
+          "imageId": "sha256:4c948a4e630af2435ae0a19108fc0814a946ac2fa29a512469e0fc77b38c8c12",
+          "repoDigests": [
+            "alexgshaw/openssl-selfsigned-cert@sha256:4c948a4e630af2435ae0a19108fc0814a946ac2fa29a512469e0fc77b38c8c12"
+          ],
+          "repoTags": [
+            "alexgshaw/openssl-selfsigned-cert:20251031",
+            "alexgshaw/openssl-selfsigned-cert@sha256:4c948a4e630af2435ae0a19108fc0814a946ac2fa29a512469e0fc77b38c8c12"
+          ],
+          "sizeBytes": 44173158
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "1bd93e56fdc8d5374aa2cbf9681e7cd2fa77c77604dc242794211f33ab6588b7",
+      "registryPacketSha256": "5b3083d137993801a132481b3dc8cf9725c241f147c11297563d1e28261eec3f",
+      "gradeEvidence": {
+        "task": "openssl-selfsigned-cert",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-openssl-selfsigned-cert-control-1792392491302774242",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-openssl-selfsigned-cert-control-1792392491302774242/openssl-selfsigned-cert__EeZGAcM/result.json",
+            "sha256": "60114b8d180f1eabcfbc4bd1080d8dbca4b32af1a72495434aebe3fd7a834638",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-openssl-selfsigned-cert-control-1792392491302774242/openssl-selfsigned-cert__EeZGAcM/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "polyglot-c-py": {
+      "receipt": {
+        "task": "polyglot-c-py",
+        "jobName": "tb-v4-polyglot-c-py-control-1792392420577215547",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 14,
+        "promptTokens": 111599,
+        "completionTokens": 6244,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 14,
+        "successfulExecutorResponses": 14,
+        "extraConsumed": true,
+        "requestJournalSha256": "df768c63f765b894b46e0ef75aef0566ebe735d5d9822955a23b8d32fa35cb7c",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 104.292,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/polyglot-c-py:20251031",
+          "imageId": "sha256:0f1c3b7816d70cf5551573fd6aeef76893f2ae3000be2419997b6871b5d987ed",
+          "repoDigests": [
+            "alexgshaw/polyglot-c-py@sha256:0f1c3b7816d70cf5551573fd6aeef76893f2ae3000be2419997b6871b5d987ed"
+          ],
+          "repoTags": [
+            "alexgshaw/polyglot-c-py:20251031",
+            "alexgshaw/polyglot-c-py@sha256:0f1c3b7816d70cf5551573fd6aeef76893f2ae3000be2419997b6871b5d987ed"
+          ],
+          "sizeBytes": 148543403
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "ba336d18a40233a78ce9fded537743acba6f39389124fad1fb70ad64168a0e28",
+      "registryPacketSha256": "4d90133794581c61a752d720acdbed5497c0f984503bad1c69e89c59587ec4ee",
+      "gradeEvidence": {
+        "task": "polyglot-c-py",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-polyglot-c-py-control-1792392420577215547",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-c-py-control-1792392420577215547/polyglot-c-py__EZdtjRT/result.json",
+            "sha256": "44a1c7a1e172b74952c43005f2a0936deab4e058ed63124d6431e1f6d01679aa",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-polyglot-c-py-control-1792392420577215547/polyglot-c-py__EZdtjRT/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "fix-git": {
+      "receipt": {
+        "task": "fix-git",
+        "jobName": "tb-v4-fix-git-control-1792392555499445200",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 7,
+        "promptTokens": 21821,
+        "completionTokens": 1393,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 7,
+        "successfulExecutorResponses": 7,
+        "extraConsumed": true,
+        "requestJournalSha256": "f4c4ccc606b54aa5bf94b838dd1c6e71e22a30484f4dd5d9c42fd7e9d5dc809c",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 84.175,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/fix-git:20260403",
+          "imageId": "sha256:389b9c8247610c2c5be080b1ac00429007c2c69bf57f7f26c79f0f75ba2d5c74",
+          "repoDigests": [
+            "alexgshaw/fix-git@sha256:389b9c8247610c2c5be080b1ac00429007c2c69bf57f7f26c79f0f75ba2d5c74"
+          ],
+          "repoTags": [
+            "alexgshaw/fix-git:20260403",
+            "alexgshaw/fix-git@sha256:389b9c8247610c2c5be080b1ac00429007c2c69bf57f7f26c79f0f75ba2d5c74"
+          ],
+          "sizeBytes": 155753834
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "6d47e3c094ce0a3811da0ebde9fc94ae6a1e5e7a08e5f60195ab23cf89cfe4d4",
+      "registryPacketSha256": "16affae66b1d1b8e437027f9fbc8e728a1a8cf50d6d6476b17e0811703392d28",
+      "gradeEvidence": {
+        "task": "fix-git",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-fix-git-control-1792392555499445200",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-git-control-1792392555499445200/fix-git__NFPNTst/result.json",
+            "sha256": "3694c7ab11ce8779e5a1f07a6daa58d08f1362bfa94ca182b3f27aaa21c3dfd9",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-fix-git-control-1792392555499445200/fix-git__NFPNTst/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "bn-fit-modify": {
+      "receipt": {
+        "task": "bn-fit-modify",
+        "jobName": "tb-v4-bn-fit-modify-control-1792393510178835300",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 30,
+        "promptTokens": 520101,
+        "completionTokens": 9839,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 30,
+        "successfulExecutorResponses": 30,
+        "extraConsumed": true,
+        "requestJournalSha256": "323e7bb0dcc7ed18633a31bc624fa8921c882895c1860d5669d6970052f95523",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 319.536,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/bn-fit-modify:20251031",
+          "imageId": "sha256:5aeb11ca6e802b83816c9a31f055ac9d028309a853509400c2e3139ac2d8380d",
+          "repoDigests": [
+            "alexgshaw/bn-fit-modify@sha256:5aeb11ca6e802b83816c9a31f055ac9d028309a853509400c2e3139ac2d8380d"
+          ],
+          "repoTags": [
+            "alexgshaw/bn-fit-modify:20251031",
+            "alexgshaw/bn-fit-modify@sha256:5aeb11ca6e802b83816c9a31f055ac9d028309a853509400c2e3139ac2d8380d"
+          ],
+          "sizeBytes": 262234970
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "4c6021b6d4debace7b8736dd74eb694c77d8677715d6fec42ed904bf4b2ff72f",
+      "registryPacketSha256": "d173639afc33f2dda212d9f857a46c8e28061a0f75a8df2710b80af32731aa5c",
+      "gradeEvidence": {
+        "task": "bn-fit-modify",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-bn-fit-modify-control-1792393510178835300",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-bn-fit-modify-control-1792393510178835300/bn-fit-modify__8TYPFEs/result.json",
+            "sha256": "401a8b6d44302f309babb9810058718250da448710939a158eac179557fed25e",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-bn-fit-modify-control-1792393510178835300/bn-fit-modify__8TYPFEs/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "configure-git-webserver": {
+      "receipt": {
+        "task": "configure-git-webserver",
+        "jobName": "tb-v4-configure-git-webserver-control-1792393150264171604",
+        "reward": 1.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 10,
+        "promptTokens": 67948,
+        "completionTokens": 2126,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 10,
+        "successfulExecutorResponses": 10,
+        "extraConsumed": true,
+        "requestJournalSha256": "f9b22185520a85e799c928670bf7174db98028e48a98e7de1bf634739a51f215",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 83.087,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/configure-git-webserver:20251031",
+          "imageId": "sha256:9e48389b917fd4650dda1f64406bd7198bbf20dc1c6b0e5c4d81a3c16369f88c",
+          "repoDigests": [
+            "alexgshaw/configure-git-webserver@sha256:9e48389b917fd4650dda1f64406bd7198bbf20dc1c6b0e5c4d81a3c16369f88c"
+          ],
+          "repoTags": [
+            "alexgshaw/configure-git-webserver:20251031",
+            "alexgshaw/configure-git-webserver@sha256:9e48389b917fd4650dda1f64406bd7198bbf20dc1c6b0e5c4d81a3c16369f88c"
+          ],
+          "sizeBytes": 72341286
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "e94772f6b5eb589a1e51525106981e461074fb23ee1d40a1f82109200de94fcd",
+      "registryPacketSha256": "2ad41048f0ddc2a2688242bdf79a45060ccbd3a9d4580d8105c11c444fb6aebd",
+      "gradeEvidence": {
+        "task": "configure-git-webserver",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-configure-git-webserver-control-1792393150264171604",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-configure-git-webserver-control-1792393150264171604/configure-git-webserver__rBmiNbv/result.json",
+            "sha256": "a056d2aa9c73c63ed6b4c69db8aaa4bcbd2adea4f27a07f3b4165fcdfe1a9fa9",
+            "reward": 1.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-configure-git-webserver-control-1792393150264171604/configure-git-webserver__rBmiNbv/verifier/reward.txt",
+            "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+            "reward": 1.0
+          }
+        ]
+      }
+    },
+    "gcode-to-text": {
+      "receipt": {
+        "task": "gcode-to-text",
+        "jobName": "tb-v4-gcode-to-text-control-1792393840894150071",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1117973,
+        "completionTokens": 34147,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "cb5e77dd836ee05ca3ac266bccc443ceacccc59558aa2dc6b025706ec91e9ea6",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 235.233,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/gcode-to-text:20251031",
+          "imageId": "sha256:0979ef40c6a3e8c4e7ab5b6c2524c74625a84799e15cd45dd98dcf83b11efd4d",
+          "repoDigests": [
+            "alexgshaw/gcode-to-text@sha256:0979ef40c6a3e8c4e7ab5b6c2524c74625a84799e15cd45dd98dcf83b11efd4d"
+          ],
+          "repoTags": [
+            "alexgshaw/gcode-to-text:20251031",
+            "alexgshaw/gcode-to-text@sha256:0979ef40c6a3e8c4e7ab5b6c2524c74625a84799e15cd45dd98dcf83b11efd4d"
+          ],
+          "sizeBytes": 45044606
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "5b1672f0d9521c575274768cca38bbba45d35e0e4f2cc86d584a57da24b7f783",
+      "registryPacketSha256": "683123df48e4ebb327fcb22bbe22f13b0ac56522b1d9513a5451c30b19d65f75",
+      "gradeEvidence": {
+        "task": "gcode-to-text",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-gcode-to-text-control-1792393840894150071",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-gcode-to-text-control-1792393840894150071/gcode-to-text__dAACYF7/result.json",
+            "sha256": "beb2627634315bb31136f2f6dffe1f081cd62cf34b280f0b736b5e2d0fd4e810",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-gcode-to-text-control-1792393840894150071/gcode-to-text__dAACYF7/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "raman-fitting": {
+      "receipt": {
+        "task": "raman-fitting",
+        "jobName": "tb-v4-raman-fitting-control-1792394479907880417",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 40,
+        "promptTokens": 1035245,
+        "completionTokens": 27845,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "db82a4c6f24df3bcc9a837d951f027b925b2263cbcaec801f939730c50f1e331",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 215.476,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/raman-fitting:20251031",
+          "imageId": "sha256:401fa95d5d491f44a473eda9d2c52930f9565cc889c796eabcb6e20fec26852e",
+          "repoDigests": [
+            "alexgshaw/raman-fitting@sha256:401fa95d5d491f44a473eda9d2c52930f9565cc889c796eabcb6e20fec26852e"
+          ],
+          "repoTags": [
+            "alexgshaw/raman-fitting:20251031",
+            "alexgshaw/raman-fitting@sha256:401fa95d5d491f44a473eda9d2c52930f9565cc889c796eabcb6e20fec26852e"
+          ],
+          "sizeBytes": 44212938
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "dcbb9430def9d29d42b012b73c11a98aadcc79bdf372ae3f333b23616a26dd34",
+      "registryPacketSha256": "a817f492b9f96fd6b0608d299b02bd38d124bd5dab9eaab6344d7c1299768ae9",
+      "gradeEvidence": {
+        "task": "raman-fitting",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-raman-fitting-control-1792394479907880417",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-raman-fitting-control-1792394479907880417/raman-fitting__dXPb8me/result.json",
+            "sha256": "b556f9f95fe9b4720348ac5a8f069de7c9591e3ef3694a23e90263703c5bc6c3",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-raman-fitting-control-1792394479907880417/raman-fitting__dXPb8me/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "circuit-fibsqrt": {
+      "receipt": {
+        "task": "circuit-fibsqrt",
+        "jobName": "tb-v4-circuit-fibsqrt-control-1792395043394750721",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 39,
+        "promptTokens": 811528,
+        "completionTokens": 18775,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "1e1794a152639fc8aad90d7bc00c8fdb7582d9511cf61f172edbc49063c9857b",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 185.146,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/circuit-fibsqrt:20251031",
+          "imageId": "sha256:29783439f529eaed2145592f15af7a2281161528860392a382c825489030ae3a",
+          "repoDigests": [
+            "alexgshaw/circuit-fibsqrt@sha256:29783439f529eaed2145592f15af7a2281161528860392a382c825489030ae3a"
+          ],
+          "repoTags": [
+            "alexgshaw/circuit-fibsqrt:20251031",
+            "alexgshaw/circuit-fibsqrt@sha256:29783439f529eaed2145592f15af7a2281161528860392a382c825489030ae3a"
+          ],
+          "sizeBytes": 149136738
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "96f6e6b088758068adae7f000f9c7edea153ff37ef6c59b1401c32b5127ed7dc",
+      "registryPacketSha256": "472d4fcc3aee7566fd5074577e9521cb9635ed379a4cc3a077d9ebc3a592dd84",
+      "gradeEvidence": {
+        "task": "circuit-fibsqrt",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-circuit-fibsqrt-control-1792395043394750721",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-circuit-fibsqrt-control-1792395043394750721/circuit-fibsqrt__pSEMFe5/result.json",
+            "sha256": "1a8dfb0256c3a7851101be80a19e2c8688471913583633bf024fd77b95f05e7d",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-circuit-fibsqrt-control-1792395043394750721/circuit-fibsqrt__pSEMFe5/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "db-wal-recovery": {
+      "receipt": {
+        "task": "db-wal-recovery",
+        "jobName": "tb-v4-db-wal-recovery-control-1792395491707633752",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 14,
+        "promptTokens": 90664,
+        "completionTokens": 4248,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 14,
+        "successfulExecutorResponses": 14,
+        "extraConsumed": true,
+        "requestJournalSha256": "9f748358642564e04051c2b038619318aeb58ca6f4a0eb438a4d85118227aa4a",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 83.779,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/db-wal-recovery:20251031",
+          "imageId": "sha256:0e33ea5ec823975d1bd6c3778395c9f94251dd88f571146057bff6adb7e4594e",
+          "repoDigests": [
+            "alexgshaw/db-wal-recovery@sha256:0e33ea5ec823975d1bd6c3778395c9f94251dd88f571146057bff6adb7e4594e"
+          ],
+          "repoTags": [
+            "alexgshaw/db-wal-recovery:20251031",
+            "alexgshaw/db-wal-recovery@sha256:0e33ea5ec823975d1bd6c3778395c9f94251dd88f571146057bff6adb7e4594e"
+          ],
+          "sizeBytes": 175276145
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "5dfba4593e271a56ce676e603322804b9643fbda57d93cc6df6434b1fee5d5db",
+      "registryPacketSha256": "5670bd6974ce2028d4bbd3a8611c0b40ddf605d30de54d3edc2d910fdfaafcd2",
+      "gradeEvidence": {
+        "task": "db-wal-recovery",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-db-wal-recovery-control-1792395491707633752",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-db-wal-recovery-control-1792395491707633752/db-wal-recovery__RTsZ8TG/result.json",
+            "sha256": "970cd6bc4c831dae304e241648aa7d2d8703f14fa666f82fbc211eda63e37927",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-db-wal-recovery-control-1792395491707633752/db-wal-recovery__RTsZ8TG/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "regex-chess": {
+      "receipt": {
+        "task": "regex-chess",
+        "jobName": "tb-v4-regex-chess-control-1792395785608428083",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 38,
+        "promptTokens": 939222,
+        "completionTokens": 14891,
+        "budgetStopEvents": [
+          {
+            "kind": "budget_stop",
+            "actualCalls": 40,
+            "callBudget": 40,
+            "completionClaimSynthesized": false,
+            "officialVerifierMustGradeCurrentState": true
+          }
+        ],
+        "callBudget": 40,
+        "executorCalls": 40,
+        "successfulExecutorResponses": 40,
+        "extraConsumed": true,
+        "requestJournalSha256": "c1a6438f25532797a27bc36838db24ec7b2246db8ed2deb57cadb67f910b90d9",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 193.368,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/regex-chess:20251031",
+          "imageId": "sha256:e3b6d61d2d3930fbbdc5f7bf091a7f8b7f6125e1951ef8a7dbe165b1ef62942c",
+          "repoDigests": [
+            "alexgshaw/regex-chess@sha256:e3b6d61d2d3930fbbdc5f7bf091a7f8b7f6125e1951ef8a7dbe165b1ef62942c"
+          ],
+          "repoTags": [
+            "alexgshaw/regex-chess:20251031",
+            "alexgshaw/regex-chess@sha256:e3b6d61d2d3930fbbdc5f7bf091a7f8b7f6125e1951ef8a7dbe165b1ef62942c"
+          ],
+          "sizeBytes": 55625584
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "ff4c7cacede7d070eaf060000515523255dec24bceff2bf87663440771e3b02c",
+      "registryPacketSha256": "7f91ba3e4696b917b88809a5de18cbeba20da7e5d2d3a3583faf8f6764b41056",
+      "gradeEvidence": {
+        "task": "regex-chess",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-regex-chess-control-1792395785608428083",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-chess-control-1792395785608428083/regex-chess__GjTsA7v/result.json",
+            "sha256": "03a20f1302a44deb6a66d287866f098e5982959cad66b4e53d904a3c48881797",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-regex-chess-control-1792395785608428083/regex-chess__GjTsA7v/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    },
+    "query-optimize": {
+      "receipt": {
+        "task": "query-optimize",
+        "jobName": "tb-v4-query-optimize-control-1792396372510789081",
+        "reward": 0.0,
+        "error": "",
+        "costUSD": null,
+        "modelCalls": 28,
+        "promptTokens": 381511,
+        "completionTokens": 8795,
+        "budgetStopEvents": [],
+        "callBudget": 40,
+        "executorCalls": 28,
+        "successfulExecutorResponses": 28,
+        "extraConsumed": true,
+        "requestJournalSha256": "33fe0c2eefa40d3ad0a5595dab82870208ff6f12332dc5f85c7f1686578f3de0",
+        "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+        "budgetAudit": true,
+        "wallSeconds": 940.356,
+        "arm": "control-terminal-interface-v3",
+        "synthetic": false,
+        "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+        "officialImage": {
+          "reference": "alexgshaw/query-optimize:20251031",
+          "imageId": "sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14",
+          "repoDigests": [
+            "alexgshaw/query-optimize@sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14"
+          ],
+          "repoTags": [
+            "alexgshaw/query-optimize:20251031",
+            "alexgshaw/query-optimize@sha256:28de7da87004eab5b29bd5eaf1823579bc5b73ccea4b80349a5623185770da14"
+          ],
+          "sizeBytes": 120494963
+        },
+        "frozenWeightPromptTokens": 0,
+        "plannerEvidenceSha256": null,
+        "staffInputConsumption": null,
+        "budgetSmoke": false,
+        "qualified": true
+      },
+      "receiptLineSha256": "7c245ed7acb3c984870319be6cf39971a357738988d5271e4dbde64d3123fccf",
+      "registryPacketSha256": "0ba220d5b4eb7df958b6630b609b135e5af868ea2ad9a7d516bf8c71481c4693",
+      "gradeEvidence": {
+        "task": "query-optimize",
+        "arm": "control-terminal-interface-v3",
+        "jobName": "tb-v4-query-optimize-control-1792396372510789081",
+        "passed": true,
+        "officialResults": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-query-optimize-control-1792396372510789081/query-optimize__Fn48xkU/result.json",
+            "sha256": "8d6a1ea108be031344404bd9474028672d850f3d4bed4e64c6afc5afeec2c23d",
+            "reward": 0.0,
+            "exceptionInfo": null
+          }
+        ],
+        "officialRewardFiles": [
+          {
+            "path": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime/jobs/tb-v4-query-optimize-control-1792396372510789081/query-optimize__Fn48xkU/verifier/reward.txt",
+            "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+            "reward": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "adoptedGradesAreNewExecutions": false,
+  "paperReady": false
+}

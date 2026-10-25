@@ -1,0 +1,104 @@
+{
+  "development": {
+    "hybridFiveBinTimes100": {
+      "n": 3103,
+      "scored": 3103,
+      "parseError": 0,
+      "missing": 0,
+      "note": "Five-bin x100 control, not 0-100 gold.",
+      "dependency": {
+        "n": 3103,
+        "mae": 11.008,
+        "rmse": 14.4,
+        "spearman": 0.7002,
+        "pearson": 0.8963
+      },
+      "similarity": {
+        "n": 3103,
+        "mae": 15.257,
+        "rmse": 18.205,
+        "spearman": 0.8232,
+        "pearson": 0.8678
+      },
+      "name": "hybrid_x100:development",
+      "gold": false
+    },
+    "meanConstant": {
+      "n": 3103,
+      "scored": 3103,
+      "parseError": 0,
+      "missing": 0,
+      "note": "MAE/Spearman on 0-100 integers. Not five-bin exact match.",
+      "dependency": {
+        "n": 3103,
+        "mae": 25.727,
+        "rmse": 30.68,
+        "spearman": null,
+        "pearson": null
+      },
+      "similarity": {
+        "n": 3103,
+        "mae": 19.333,
+        "rmse": 22.351,
+        "spearman": null,
+        "pearson": null
+      },
+      "name": "mean_constant",
+      "constant": {
+        "dependency": 27,
+        "similarity": 32
+      }
+    }
+  },
+  "train256": {
+    "hybridFiveBinTimes100": {
+      "n": 256,
+      "scored": 256,
+      "parseError": 0,
+      "missing": 0,
+      "note": "Five-bin x100 control, not 0-100 gold.",
+      "dependency": {
+        "n": 256,
+        "mae": 12.316,
+        "rmse": 15.995,
+        "spearman": 0.8387,
+        "pearson": 0.938
+      },
+      "similarity": {
+        "n": 256,
+        "mae": 22.238,
+        "rmse": 25.903,
+        "spearman": 0.8137,
+        "pearson": 0.8499
+      },
+      "name": "hybrid_x100:train256",
+      "gold": false
+    },
+    "meanConstant": {
+      "n": 256,
+      "scored": 256,
+      "parseError": 0,
+      "missing": 0,
+      "note": "MAE/Spearman on 0-100 integers. Not five-bin exact match.",
+      "dependency": {
+        "n": 256,
+        "mae": 35.652,
+        "rmse": 38.198,
+        "spearman": null,
+        "pearson": null
+      },
+      "similarity": {
+        "n": 256,
+        "mae": 17.566,
+        "rmse": 20.77,
+        "spearman": null,
+        "pearson": null
+      },
+      "name": "mean_constant",
+      "constant": {
+        "dependency": 38,
+        "similarity": 39
+      }
+    }
+  }
+}

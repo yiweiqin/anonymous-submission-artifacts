@@ -1,0 +1,89 @@
+{
+  "cases": [
+    {
+      "id": "spider-464",
+      "rewardDifference": 0.0,
+      "sameInitialRequest": true,
+      "sameInitialResponse": true,
+      "trainedResponsesBeforeChecker": [
+        "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "controlResponses": [
+        "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "trainedResponsesAfterChecker": [
+        "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"semester name\",\n      \"semantic_owner\": \"Semesters.semester_name\",\n      \"schema_expression\": \"Semesters.semester_name\"\n    },\n    {\n      \"attribute_phrase\": \"semester id\",\n      \"semantic_owner\": \"Semesters.semester_id\",\n      \"schema_expression\": \"Semesters.semester_id\"\n    }\n  ],\n  \"row_constraints\": [],\n  \"grouping\": [\n    {\n      \"group_by\": [\n        \"Semesters.semester_id\",\n        \"Semesters.semester_name\"\n      ],\n      \"aggregate\": \"COUNT(Student_Enrolment.student_id) or COUNT(*) over Student_Enrolment rows per semester\"\n    }\n  ],\n  \"ordering\": [\n    {\n      \"order_by\": \"registration count descending\",\n      \"extrema\": \"maximum count\",\n      \"ties\": \"not required to return all ties unless explicitly requested; a single extremal row is acceptable\"\n    }\n  ],\n  \"selected_role_check\": \"JOIN_CARDINALITY: Student_Enrolment.semester_id joins to Semesters.semester_id; grouping by semester_id and semester_name avoids row multiplication in output. Counting Student_Enrolment rows per semester measures registrations without assuming uniqueness beyond the enrolment row granularity.\"\n}",
+        "submit"
+      ],
+      "projectionGuard": {
+        "applied": false,
+        "originalSql": "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1",
+        "repairedSql": "SELECT s.semester_id, s.semester_name\nFROM Semesters s\nJOIN Student_Enrolment se ON se.semester_id = s.semester_id\nGROUP BY s.semester_id, s.semester_name\nORDER BY COUNT(*) DESC\nLIMIT 1",
+        "source": "public_contract_plain_column_permutation",
+        "automaticSqlSteps": 0
+      },
+      "contractDecision": "reviewed_unverified_contract"
+    },
+    {
+      "id": "spider-569",
+      "rewardDifference": 0.0,
+      "sameInitialRequest": true,
+      "sameInitialResponse": true,
+      "trainedResponsesBeforeChecker": [
+        "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON sec.course_id = c.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "controlResponses": [
+        "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON sec.course_id = c.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1;",
+        "submit"
+      ],
+      "trainedResponsesAfterChecker": [
+        "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"name of the course\",\n      \"semantic_owner\": \"Courses.course_name\",\n      \"schema_expression\": \"Courses.course_name\"\n    }\n  ],\n  \"row_constraints\": [],\n  \"grouping\": [\n    \"Group enrollment counts by Courses.course_id / Courses.course_name via Student_Enrolment_Courses.course_id\"\n  ],\n  \"ordering\": [\n    \"Order by count of enrolled students per course descending\",\n    \"Select the single course with the maximum enrollment count (LIMIT 1); all ties not required\"\n  ],\n  \"selected_role_check\": \"DIRECT_QUERY: The final query must return exactly one output column, Courses.course_name, representing the course name requested. It must count students enrolled per course using Student_Enrolment_Courses joined to Courses, order by the enrollment count descending, and limit to one row to answer the singular superlative 'the course with the most students enrolled'. No extra identifiers, counts, or invented filters should appear in the output.\"\n}",
+        "submit"
+      ],
+      "projectionGuard": {
+        "applied": false,
+        "originalSql": "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON sec.course_id = c.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1",
+        "repairedSql": "SELECT c.course_name\nFROM Courses c\nJOIN Student_Enrolment_Courses sec ON sec.course_id = c.course_id\nGROUP BY c.course_id, c.course_name\nORDER BY COUNT(DISTINCT sec.student_enrolment_id) DESC\nLIMIT 1",
+        "source": "public_contract_plain_column_permutation",
+        "automaticSqlSteps": 0
+      },
+      "contractDecision": "reviewed_unverified_contract"
+    },
+    {
+      "id": "spider-866",
+      "rewardDifference": -1.0,
+      "sameInitialRequest": true,
+      "sameInitialResponse": true,
+      "trainedResponsesBeforeChecker": [
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "submit"
+      ],
+      "controlResponses": [
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC;",
+        "submit"
+      ],
+      "trainedResponsesAfterChecker": [
+        "{\n  \"output_columns\": [\n    {\n      \"attribute_phrase\": \"record companies of orchestras\",\n      \"semantic_owner\": \"orchestra\",\n      \"schema_expression\": \"orchestra.Record_Company\"\n    },\n    {\n      \"attribute_phrase\": \"years in which they were founded\",\n      \"semantic_owner\": \"orchestra\",\n      \"schema_expression\": \"orchestra.Year_of_Founded\"\n    }\n  ],\n  \"row_constraints\": [],\n  \"grouping\": [],\n  \"ordering\": [\n    {\n      \"expression\": \"orchestra.Year_of_Founded\",\n      \"direction\": \"DESC\"\n    }\n  ],\n  \"selected_role_check\": \"The selected responsibility requires executing the final answer query after any inspection or diagnostic SQL and submitting only the last executed query. The output contract projects exactly the requested attributes: Record_Company and Year_of_Founded from orchestra, ordered by Year_of_Founded descending, with no extra identifiers or aggregates.\"\n}",
+        "SELECT Record_Company, Year_of_Founded\nFROM orchestra\nORDER BY Year_of_Founded DESC",
+        "submit"
+      ],
+      "projectionGuard": {
+        "applied": false,
+        "originalSql": "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC",
+        "repairedSql": "SELECT Record_Company\nFROM orchestra\nORDER BY Year_of_Founded DESC",
+        "source": "public_contract_plain_column_permutation",
+        "automaticSqlSteps": 0
+      },
+      "contractDecision": "reviewed_unverified_contract"
+    }
+  ],
+  "goldAnswersRead": false,
+  "newModelCalls": 0,
+  "newOfficialScores": 0,
+  "interpretation": "Descriptive within-run trace attribution only. Shared initial requests may produce different responses; no isolated causal training estimate."
+}

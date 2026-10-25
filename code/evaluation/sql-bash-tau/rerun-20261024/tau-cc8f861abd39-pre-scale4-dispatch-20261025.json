@@ -1,0 +1,70 @@
+{
+  "gate": {
+    "bench": "tau",
+    "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+    "measurementMode": "user-authorized-direct-full",
+    "pilotGateRequired": false,
+    "authorization": "Bash \u5df2\u5b8c\u6210\u540e\uff0c\u628a43\u548c193\u7528\u4e8e \u03c4-bench Janus \u4e24\u4e2a\u6709\u660e\u786e\u5dee\u5f02\u7684\u65b0\u5019\u9009\uff1b\u6bcf\u4e2a\u76f4\u63a5\u5b8c\u6574\u6d4b\u822a\u7a7a50\u9898\u548c\u96f6\u552e115\u9898\uff0c\u5171165\u9898\uff0c\u4e0d\u6267\u884c28\u9898\u95e8\u7981\u3002\u6bcf\u4e2a\u5019\u900943\u4e0e193\u5404\u6267\u884c\u4e00\u4e2a\u4e92\u65a5\u5206\u7247\uff0c\u6bcf\u53f0\u6700\u591a\u4e24\u8def\u3002\u8fd9\u662f\u7528\u6237\u5bf9\u76f4\u63a5\u5168\u91cf\u7684\u660e\u786e\u6388\u6743\uff1b106/119\u5728\u9014\u4efb\u52a1\u4e0d\u642c\u8fc1\u3001\u4e0d\u91cd\u590d\u542f\u52a8\u3002",
+    "legacyFieldNote": "Legacy monitor field; no pilot gate acceptance claimed."
+  },
+  "shards": [
+    {
+      "host": "benchmark-host-a",
+      "shard": 0,
+      "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "processEvidence": {
+        "pid": 2698551,
+        "cwd": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "launchedUTC": "2026-10-25T09:09:29Z"
+      },
+      "uploadedHashes": {
+        "rerun.py": "d47c6059b3f766158b41b6db299ee10d668d921eb3b3aae31936a6a50435bf7c",
+        "prompt-tau.txt": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "selection.json": "f807f9bce7c5f020728dacec04506709fe88c095aa0206a3eecb750e4e389502",
+        "pilot-freeze.json": "2ea378554bd298af7d6652ffddef23919ab44290d536c2feebb66981c291c8d6",
+        "supplementary-direct-full-protocol.json": "627f7fd1edec051b71ea1d696d2e361ec2bd68db09c1d164136ac189df642259",
+        "candidate-hypothesis.json": "fe25860e939a39442ae582fad579647f2c844f288e4a6919cd6f38789c998bf7",
+        "runner-provenance-clarification-20261025.json": "a99542f31633f93f634fc7b757ab4167013b8949abf3f3bf20bf06cbfbe2ed0d"
+      }
+    },
+    {
+      "host": "benchmark-host-b",
+      "shard": 1,
+      "root": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "processEvidence": {
+        "pid": 3416356,
+        "cwd": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "args": [
+          "/benchmark/robustness-prep/venv/bin/python",
+          "-u",
+          "resume-authorized-tau.py",
+          "tau",
+          "full",
+          "prompt-tau.txt"
+        ]
+      },
+      "uploadedHashes": {
+        "rerun.py": "d47c6059b3f766158b41b6db299ee10d668d921eb3b3aae31936a6a50435bf7c",
+        "prompt-tau.txt": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "selection.json": "f807f9bce7c5f020728dacec04506709fe88c095aa0206a3eecb750e4e389502",
+        "pilot-freeze.json": "2ea378554bd298af7d6652ffddef23919ab44290d536c2feebb66981c291c8d6",
+        "supplementary-direct-full-protocol.json": "627f7fd1edec051b71ea1d696d2e361ec2bd68db09c1d164136ac189df642259",
+        "candidate-hypothesis.json": "fe25860e939a39442ae582fad579647f2c844f288e4a6919cd6f38789c998bf7",
+        "runner-provenance-clarification-20261025.json": "a99542f31633f93f634fc7b757ab4167013b8949abf3f3bf20bf06cbfbe2ed0d"
+      },
+      "previousProcessEvidence": {
+        "pid": 3408776,
+        "cwd": "/benchmark/janus-rerun-20261025/variants/cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+        "launchedUTC": "2026-10-25T09:09:31Z"
+      },
+      "runnerFile": "resume-authorized-tau.py",
+      "runnerSha256": "cd8ab476c424c8fbbffacceff1abc07526ef6ecadab6cc3f8f2a923f21c9f568",
+      "recoveryAuthorizationFile": "infra-retry-exception-20261025.json"
+    }
+  ],
+  "completeDispatch": true,
+  "paperReady": false,
+  "supplement": "artifact\\experiments\\janus_rerun_20261024\\tau-handoff-cc8f861abd39\\supplementary-direct-full-protocol.json",
+  "startedAt": 1792919372.8627307,
+  "recoveryAt": 1792920741.290688
+}

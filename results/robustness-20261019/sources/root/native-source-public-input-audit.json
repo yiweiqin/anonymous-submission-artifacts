@@ -1,0 +1,138 @@
+{
+  "sourceRoot": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-bench-2-1-7131e4375048a0e408a8fb404b5f499d726b695b/native-source-1791867908570261200",
+  "task": "01_orchestra_foundation_model",
+  "originalInputEventHash": "582dc3cdcc048f509fbbe45f0cd70d87a0862debc57d406bb54c9f32dd74c7f0",
+  "inputs": [
+    {
+      "publicPath": "/root/orchestra_assumptions_and_roster.xlsx",
+      "sha256": "179cdf46f7d3ab23a063831a3e680793737ec232db7da303238aecd35532a138",
+      "tables": [
+        {
+          "sheetPart": "xl/worksheets/sheet1.xml",
+          "rows": 18,
+          "maxCellsPerRow": 2,
+          "firstRows": [
+            {
+              "row": "1",
+              "cells": 1,
+              "textHeaders": [
+                "The Renaissance Popular Orchestra"
+              ]
+            },
+            {
+              "row": "3",
+              "cells": 1,
+              "textHeaders": [
+                "Pay Types"
+              ]
+            },
+            {
+              "row": "5",
+              "cells": 1,
+              "textHeaders": [
+                "Minimum Weekly Scale (MWS) - guaranteed base weekly pay earned by all musicians ($2,395)"
+              ]
+            },
+            {
+              "row": "6",
+              "cells": 1,
+              "textHeaders": [
+                "Overscale - extra weekly pay negotiated individually by all musicians (see roster), sometimes considered aggregately with Principal Pay"
+              ]
+            },
+            {
+              "row": "7",
+              "cells": 1,
+              "textHeaders": [
+                "Titled Positions/Principal Pay - extra weekly pay earned by those sitting at/toward the head of their sections, as outlined below:"
+              ]
+            },
+            {
+              "row": "8",
+              "cells": 1,
+              "textHeaders": [
+                "Principal: 20% of MWS"
+              ]
+            },
+            {
+              "row": "9",
+              "cells": 1,
+              "textHeaders": [
+                "Associate Principal: 10% of MWS"
+              ]
+            },
+            {
+              "row": "10",
+              "cells": 1,
+              "textHeaders": [
+                "Assistant Principal: 10% of MWS"
+              ]
+            }
+          ]
+        },
+        {
+          "sheetPart": "xl/worksheets/sheet2.xml",
+          "rows": 108,
+          "maxCellsPerRow": 5,
+          "firstRows": [
+            {
+              "row": "1",
+              "cells": 1,
+              "textHeaders": [
+                "The Renaissance Popular Orchestra"
+              ]
+            },
+            {
+              "row": "2",
+              "cells": 1,
+              "textHeaders": []
+            },
+            {
+              "row": "3",
+              "cells": 1,
+              "textHeaders": [
+                "Personnel Roster"
+              ]
+            },
+            {
+              "row": "4",
+              "cells": 1,
+              "textHeaders": []
+            },
+            {
+              "row": "5",
+              "cells": 5,
+              "textHeaders": [
+                "Employee #",
+                "Titled Positions",
+                "Overscale",
+                "Years of Service",
+                "Notes"
+              ]
+            },
+            {
+              "row": "6",
+              "cells": 4,
+              "textHeaders": [
+                "Principal"
+              ]
+            },
+            {
+              "row": "7",
+              "cells": 3,
+              "textHeaders": []
+            },
+            {
+              "row": "8",
+              "cells": 4,
+              "textHeaders": [
+                "Principal"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hiddenVerifierRead": false
+}

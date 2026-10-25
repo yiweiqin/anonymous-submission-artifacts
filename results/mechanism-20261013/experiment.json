@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-13",
+  "question": "Does the implemented diagnosis-gated text bridge improve paired exploratory development outcomes, and do its frozen checks transfer?",
+  "scope": "pilot; exposed development, not confirmatory full-system causality",
+  "families": [
+    "Compensation-Scenario-Modeling",
+    "DMAIC-Quality-Analysis"
+  ],
+  "pairs": [
+    {
+      "family": "Compensation-Scenario-Modeling",
+      "source": "04_university_termload_refresh_model",
+      "target": "06_property_portfolio_refresh_model"
+    },
+    {
+      "family": "DMAIC-Quality-Analysis",
+      "source": "harbor_devops_pipeline_02",
+      "target": "harbor_logistics_chain_03"
+    }
+  ],
+  "variants": [
+    "full",
+    "no-localization",
+    "redundant",
+    "no-plan",
+    "no-execution",
+    "terminal-only"
+  ],
+  "roles": {
+    "taskModel": "deepseek-flash",
+    "taskEndpoint": "https://api.deepseek.com",
+    "baseModel": "Qwen/Qwen3-8B",
+    "detective": {
+      "role": "dual-tree drift localization",
+      "adapter": "minimal-evolution/adapter"
+    },
+    "dependencySimilarity": {
+      "role": "D staffs the team; S replaces after the detective reports wrong_agent",
+      "adapter": "dependency-similarity/adapter"
+    }
+  },
+  "gpuPython": "/data/modelstore/rdmd-env/bin/python",
+  "historicalFrozen": [
+    {
+      "id": "historical-dmaic-check",
+      "family": "DMAIC-Quality-Analysis",
+      "sourceTask": "harbor_gdpval_37",
+      "carry": "Before you submit, set source_file to the csv base name only, fill total_primary_records, primary_business_day_records, and imr_records under record_counts, include f_stat and p_value under anova_by_weekday, fill imr_summary, regression_day_index including std_err, and ttest_vs_target, set the I-MR UCL to the center line plus 3 times MR-bar divided by 1.128 and the MR UCL to 3.267 times MR-bar, name at least two operational impacts, write Owner: on each next step, and include at least two March 2025 due dates.",
+      "sha256": "9633469edf3020993524e11230fccba03255b8d3c3fbbe7af518e13b7db9e491",
+      "origin": "historical rule/human check; already exposed development",
+      "ledgerSource": "baseline-record.jsonl"
+    },
+    {
+      "id": "historical-weighted-cache",
+      "family": "Weighted-Risk-Assessment",
+      "sourceTask": "weighted-hospital-bedflow-calc",
+      "carry": "Before you submit, confirm the output meets every acceptance condition named in the task. Recalculate the saved workbook with a spreadsheet engine and reopen it in both formula and value modes to verify that every required formula remains present and its numeric result is populated.",
+      "sha256": "fa49741e69f0411795695b5b2c998f2838b429dd73e0150d6ed58a602b2a7f2d",
+      "origin": "historical rule/human check; already exposed development",
+      "ledgerSource": "baseline-record.jsonl"
+    }
+  ],
+  "plannedHarborCalls": 32,
+  "sourceCalls": 2,
+  "selectionCallsPerVariantPerFamily": 1,
+  "targetCallsPerVariantPerFamily": 1,
+  "emptyControlCalls": 2,
+  "frozenTargetCalls": 4,
+  "concurrency": 1,
+  "temperature": 0,
+  "maxTurns": 40,
+  "repeatCount": 1,
+  "rewardPassThreshold": 1,
+  "paperReady": false,
+  "realRunAllowed": false,
+  "gateOpen": false,
+  "lockedOpen": false,
+  "mainScoreMutation": false,
+  "limitations": [
+    "D/S plan is not consumed by current executor; M4 and M9 capability contribution is not identifiable",
+    "M1 masks graph content while retaining node identity for existing contract; masked inputs are distribution shift",
+    "M2 compares diagnostic gating vs direct rule proposal, not an independently trained proposer",
+    "M3 repeats the same check three times and retains selection validation; tests bounded text not cost optimality",
+    "Only two already-exposed development source/target pairs; no power for broad generalization",
+    "Shared fresh source evidence and one paired empty target control per task; all variant selections separately counted",
+    "Historical frozen checks already exposed target families; transfer is exploratory, source attribution retained"
+  ],
+  "metrics": [
+    "official pass rate",
+    "paired wins/losses/ties versus empty-control",
+    "valid diagnosis / abstention",
+    "candidate kept rate",
+    "negative transfer",
+    "consumption hash",
+    "all phase calls/tokens/wall time"
+  ]
+}

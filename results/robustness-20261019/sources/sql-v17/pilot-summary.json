@@ -1,0 +1,374 @@
+{
+  "header": "InterCode Spider dev 固定48题开发验证；冻结职责与截止轮复核和保守语义修正 v17；非思考模式、请求温度0；不是整库或未见测试",
+  "developmentOnly": true,
+  "officialRewardRecomputed": false,
+  "newControlModelCalls": 0,
+  "allPairedOfficialComplete": true,
+  "trained": {
+    "official": 48,
+    "officialRewardSum": 41.64,
+    "exactReward1": 41,
+    "missing": [],
+    "errors": {},
+    "auditErrors": [
+      {
+        "id": "spider-239",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-954",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-744",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-703",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-226",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-866",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-547",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-728",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-325",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-950",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-354",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-170",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-289",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-889",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-536",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-308",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-311",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-732",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-527",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-702",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-795",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-223",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-185",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-796",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-569",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-191",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-660",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-979",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-838",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-315",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-518",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-634",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-502",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-984",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-424",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-963",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-246",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-374",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-452",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-814",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-542",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-464",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-765",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-699",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-473",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-648",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-945",
+        "error": "AssertionError:template_drift"
+      },
+      {
+        "id": "spider-379",
+        "error": "AssertionError:template_drift"
+      }
+    ],
+    "verifiedActualInputs": [],
+    "apiCalls": 219,
+    "emptyOutputs": 0,
+    "finishReasons": {},
+    "minWeightTokens": 490,
+    "apiCallsAllRewardRows": 219,
+    "apiCallsVerifiedConsumptionCases": 0
+  },
+  "trainedReceiptsSha256": "1e9103eb469736b89ba870eda58b1099c5089b534ee1a189481ffd0cdfc07ef9",
+  "control": {
+    "official": 48,
+    "officialRewardSum": 42.64,
+    "exactReward1": 42,
+    "sourceBlocks": [
+      {
+        "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-routing-v6-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8",
+        "receiptsSha256": "553c01e77a3b7ee353afc2278004d4053170253f7ad31fbbccdfd0b60caad982",
+        "info": {
+          "official": 24,
+          "officialRewardSum": 21.93,
+          "exactReward1": 22,
+          "missing": [],
+          "errors": {},
+          "auditErrors": [],
+          "verifiedActualInputs": [
+            "spider-239",
+            "spider-226",
+            "spider-289",
+            "spider-866",
+            "spider-527",
+            "spider-354",
+            "spider-191",
+            "spider-744",
+            "spider-308",
+            "spider-634",
+            "spider-954",
+            "spider-728",
+            "spider-569",
+            "spider-185",
+            "spider-889",
+            "spider-838",
+            "spider-703",
+            "spider-536",
+            "spider-950",
+            "spider-732",
+            "spider-660",
+            "spider-702",
+            "spider-374",
+            "spider-170"
+          ],
+          "apiCalls": 53,
+          "emptyOutputs": 0,
+          "finishReasons": {
+            "stop": 53
+          },
+          "minWeightTokens": 0
+        }
+      },
+      {
+        "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/intercode-sql-independent-v8-validation02-pilot-start-c3e46d827cfc9d4c704ec078f7abf9f41e3191d8",
+        "receiptsSha256": "199072ddb395d007d68dd4fcd37f59a60338ef6cafd6588fdaa6b8fdfdade534",
+        "info": {
+          "official": 24,
+          "officialRewardSum": 20.71,
+          "exactReward1": 20,
+          "missing": [],
+          "errors": {},
+          "auditErrors": [],
+          "verifiedActualInputs": [
+            "spider-379",
+            "spider-542",
+            "spider-963",
+            "spider-246",
+            "spider-424",
+            "spider-464",
+            "spider-502",
+            "spider-796",
+            "spider-984",
+            "spider-452",
+            "spider-473",
+            "spider-699",
+            "spider-325",
+            "spider-518",
+            "spider-945",
+            "spider-223",
+            "spider-311",
+            "spider-648",
+            "spider-795",
+            "spider-765",
+            "spider-814",
+            "spider-315",
+            "spider-979",
+            "spider-547"
+          ],
+          "apiCalls": 68,
+          "emptyOutputs": 0,
+          "finishReasons": {
+            "stop": 68
+          },
+          "minWeightTokens": 0
+        }
+      }
+    ],
+    "verifiedActualInputs": 48
+  },
+  "comparison": {
+    "tasks": 48,
+    "officialRewardDifference": -1.0,
+    "higher": [],
+    "lower": [
+      "spider-866"
+    ],
+    "ties": 47,
+    "perTaskDifferences": {
+      "spider-170": 0.0,
+      "spider-185": 0.0,
+      "spider-191": 0.0,
+      "spider-223": 0.0,
+      "spider-226": 0.0,
+      "spider-239": 0.0,
+      "spider-246": 0.0,
+      "spider-289": 0.0,
+      "spider-308": 0.0,
+      "spider-311": 0.0,
+      "spider-315": 0.0,
+      "spider-325": 0.0,
+      "spider-354": 0.0,
+      "spider-374": 0.0,
+      "spider-379": 0.0,
+      "spider-424": 0.0,
+      "spider-452": 0.0,
+      "spider-464": 0.0,
+      "spider-473": 0.0,
+      "spider-502": 0.0,
+      "spider-518": 0.0,
+      "spider-527": 0.0,
+      "spider-536": 0.0,
+      "spider-542": 0.0,
+      "spider-547": 0.0,
+      "spider-569": 0.0,
+      "spider-634": 0.0,
+      "spider-648": 0.0,
+      "spider-660": 0.0,
+      "spider-699": 0.0,
+      "spider-702": 0.0,
+      "spider-703": 0.0,
+      "spider-728": 0.0,
+      "spider-732": 0.0,
+      "spider-744": 0.0,
+      "spider-765": 0.0,
+      "spider-795": 0.0,
+      "spider-796": 0.0,
+      "spider-814": 0.0,
+      "spider-838": 0.0,
+      "spider-866": -1.0,
+      "spider-889": 0.0,
+      "spider-945": 0.0,
+      "spider-950": 0.0,
+      "spider-954": 0.0,
+      "spider-963": 0.0,
+      "spider-979": 0.0,
+      "spider-984": 0.0
+    },
+    "consumptionAuditPassed": false,
+    "passesPreregisteredExpansionScreen": false,
+    "interpretation": "Adaptive public development pilot. No independent generalization claim; all48 cases and all candidates retained."
+  }
+}

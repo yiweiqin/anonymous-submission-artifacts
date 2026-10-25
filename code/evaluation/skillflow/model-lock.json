@@ -1,0 +1,36 @@
+﻿{
+  "status": "verified",
+  "provider": "DeepSeek",
+  "endpoint": "https://api.deepseek.com",
+  "requestedModel": "deepseek-flash",
+  "responseModel": "deepseek-flash",
+  "documentedModelVersion": "DeepSeek-V4.1-Flash",
+  "checkedAt": "2026-10-09T02:20:00Z",
+  "probe": {
+    "id": "42cbe39d-ec89-428f-a00d-f8a51d3cb7b2",
+    "finishReason": "length",
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 8,
+      "total_tokens": 45,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37,
+      "reasoning_tokens": 8
+    },
+    "note": "Identity probe only. The 8 completion tokens were reasoning tokens and the visible reply was empty. No task was run."
+  },
+  "pricingSnapshot": {
+    "provider": "DeepSeek",
+    "model": "deepseek-flash",
+    "documentedModelVersion": "DeepSeek-V4.1-Flash",
+    "checkedDate": "2026-09-25",
+    "source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "currency": "USD",
+    "perMillionTokens": {
+      "offPeak": {"cachedInput": 0.003, "uncachedInput": 0.15, "output": 0.6},
+      "peak": {"cachedInput": 0.006, "uncachedInput": 0.3, "output": 1.2}
+    },
+    "peakSchedule": "01:00-04:00 and 06:00-10:00 UTC, Monday-Friday, excluding Chinese public holidays"
+  },
+  "secretHandling": "The API key stays in the environment and is not stored in this file."
+}

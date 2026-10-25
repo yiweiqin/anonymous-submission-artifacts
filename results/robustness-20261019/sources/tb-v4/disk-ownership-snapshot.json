@@ -1,0 +1,40 @@
+{
+  "diskFreeBytes": 18831048704,
+  "dockerAllocation": "TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE\nImages          21        5         21.81GB   7.397GB (33%)\nContainers      9         1         1.081MB   1.049MB (96%)\nLocal Volumes   4         1         880.2MB   650.6MB (73%)\nBuild Cache     329       0         8.917GB   4.668GB\n",
+  "containers": "4e91dff734e3 intercode-sql-spider_ic_ctr 32.8kB (virtual 865MB)\n7c24f4aec4e5 intercode-nl2bash-fs4_ic_ctr_eval 53.2kB (virtual 442MB)\n6782c09d53f7 intercode-nl2bash-fs4_ic_ctr 53.2kB (virtual 442MB)\n172cd49141e4 intercode-nl2bash-fs3_ic_ctr_eval 147kB (virtual 442MB)\n1acc7fc3aa43 intercode-nl2bash-fs3_ic_ctr 147kB (virtual 442MB)\n8b3dc69a4fec intercode-nl2bash-fs2_ic_ctr_eval 197kB (virtual 442MB)\n64babdfaaf5d intercode-nl2bash-fs2_ic_ctr 197kB (virtual 442MB)\n31eae903c0e0 intercode-nl2bash-fs1_ic_ctr_eval 127kB (virtual 442MB)\n72ce6cec6768 intercode-nl2bash-fs1_ic_ctr 127kB (virtual 442MB)\n",
+  "ownedExperimentOutputs": [
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v3-development-1792368911576319100",
+      "outputBytes": 1109032
+    },
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v2-development-1792368626682444100",
+      "outputBytes": 1036934
+    },
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v2-development-1792368527535719200",
+      "outputBytes": 286754
+    },
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v3-pilot-1792369330398595800",
+      "outputBytes": 4842736
+    },
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v1-development-1792368280934423200",
+      "outputBytes": 706707
+    },
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900",
+      "outputBytes": 28740644
+    },
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-development-1792369972817025600",
+      "outputBytes": 1492787
+    },
+    {
+      "root": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v1-development-1792368036938969000",
+      "outputBytes": 753300
+    }
+  ],
+  "deletedAnything": false
+}

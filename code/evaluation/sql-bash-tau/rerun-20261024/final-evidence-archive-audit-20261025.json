@@ -1,0 +1,168 @@
+{
+  "at": 1792923775.3808117,
+  "passed": true,
+  "fullMeasurements": 6,
+  "archives": [
+    {
+      "file": "bash-a0bb60055734-benchmark-host-b.tar.gz",
+      "sha256": "e713f3b078a97b8607241c6cec83b01a7d4b98c07ee7b198e6b59493d016e8e0",
+      "bench": "bash",
+      "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+      "tasks": 100,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "bash-a0bb60055734-benchmark-host-a.tar.gz",
+      "sha256": "5e239c66b9701d6bbecfcde037c47850b04f2a535338b23b03fa31b1ad92bd7b",
+      "bench": "bash",
+      "hash": "a0bb60055734749420dd30ed8ef4f431780fb1a4d079dbbc94f8f90e06348484",
+      "tasks": 100,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-32f50cc029d9-benchmark-host-c-scale4-0-benchmark-host-c.tar.gz",
+      "sha256": "d36397a5b68edfe447a41ba4431fcaae91987fc3aa4ee08533bfb4edb99936fe",
+      "bench": "tau",
+      "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+      "tasks": 22,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-32f50cc029d9-benchmark-host-d-scale4-1-benchmark-host-d.tar.gz",
+      "sha256": "77ae72b46cd9e914c9bb9d6043267829f66f0f9eed6815ddc6cccd1e627b213b",
+      "bench": "tau",
+      "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+      "tasks": 22,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-32f50cc029d9-benchmark-host-b-legacy-benchmark-host-b.tar.gz",
+      "sha256": "b734f1ed6ea84fd1f93efefc814a00dc5b87bd5c51e6ad6fe211009c3022af2c",
+      "bench": "tau",
+      "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+      "tasks": 17,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-32f50cc029d9-benchmark-host-b-scale4-3-benchmark-host-b.tar.gz",
+      "sha256": "1a3da1a06cb714a2cae7b7cdc3af3f0c010c80b1f5da525f89fcfc657424aa14",
+      "bench": "tau",
+      "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+      "tasks": 21,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-32f50cc029d9-benchmark-host-a-legacy-benchmark-host-a.tar.gz",
+      "sha256": "aafbafae0b4163260284f53a89a42fbc1931545f0594b41da55b87b10bfe98ab",
+      "bench": "tau",
+      "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+      "tasks": 61,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-32f50cc029d9-benchmark-host-a-scale4-2-benchmark-host-a.tar.gz",
+      "sha256": "fee2614329ebe57f99417a9911c5506614f8eeb242d2ff6297b17d41c7e1daa6",
+      "bench": "tau",
+      "hash": "32f50cc029d9caaf3acc782cd3efdb9a9868aa9b311d880fffce0cfae28bff29",
+      "tasks": 22,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-8f26b62ca4f2-benchmark-host-c.tar.gz",
+      "sha256": "569e6241891770276dfcd9138c4c0ae136a483d8953aba6cb31a242921b19c1d",
+      "bench": "tau",
+      "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+      "tasks": 83,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-8f26b62ca4f2-benchmark-host-d.tar.gz",
+      "sha256": "819c7c54bc0a9b93ad1245a5a3c5046064305a51079622fba442d4057bd6b05c",
+      "bench": "tau",
+      "hash": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db",
+      "tasks": 82,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-969523bcb972-benchmark-host-c.tar.gz",
+      "sha256": "a1c95938e082a510e0dc48659a315c7e74977b0a8a175abfb14a07aecfb6ce7a",
+      "bench": "tau",
+      "hash": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+      "tasks": 83,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-969523bcb972-benchmark-host-d.tar.gz",
+      "sha256": "468ba0a7ccd7647fe67e95d6892bcc3b4667988dc1d322c5a12c9b2139aff3ac",
+      "bench": "tau",
+      "hash": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+      "tasks": 82,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-ab6c90b81e08-benchmark-host-c.tar.gz",
+      "sha256": "c2784882a18dbc210654288b8c0255961776aa02f8830caa56a9c8602df6ec70",
+      "bench": "tau",
+      "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+      "tasks": 83,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-ab6c90b81e08-benchmark-host-d.tar.gz",
+      "sha256": "06d3635e80a90a1437c7594fea5bc3fa15d437b1d479a6a81d2b595164cf1ab0",
+      "bench": "tau",
+      "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+      "tasks": 82,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-cc8f861abd39-benchmark-host-c-scale4-0-benchmark-host-c.tar.gz",
+      "sha256": "dcfd2a8e42a340b37aa1b3d921ee19663f6d2bcfb4acb919367faf2845739fab",
+      "bench": "tau",
+      "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "tasks": 23,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-cc8f861abd39-benchmark-host-d-scale4-1-benchmark-host-d.tar.gz",
+      "sha256": "7acded0709ae87f6f85417392804577869de4678d6eed96c29f7019f9350980e",
+      "bench": "tau",
+      "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "tasks": 23,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-cc8f861abd39-benchmark-host-b-legacy-benchmark-host-b.tar.gz",
+      "sha256": "2e0e4e1a8d734b79e622321111256becb4ed0d63b8ff811ace6248fb98f0b7e4",
+      "bench": "tau",
+      "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "tasks": 16,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-cc8f861abd39-benchmark-host-b-scale4-3-benchmark-host-b.tar.gz",
+      "sha256": "2803d0b2efb12e603a7b86e344a49cbbb9b40bffbf045e224ff7dfca0d5f2f06",
+      "bench": "tau",
+      "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "tasks": 22,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-cc8f861abd39-benchmark-host-a-legacy-benchmark-host-a.tar.gz",
+      "sha256": "6503d9070e2abe09d6d038acfa4ed93fb4417b347a94adbcdf84f5a845975265",
+      "bench": "tau",
+      "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "tasks": 59,
+      "allMemberHashesVerified": true
+    },
+    {
+      "file": "tau-cc8f861abd39-benchmark-host-a-scale4-2-benchmark-host-a.tar.gz",
+      "sha256": "080520464b10ece86ea24e5d8b57ac3b1e4bacd4722e13d55539e324fa2ea612",
+      "bench": "tau",
+      "hash": "cc8f861abd390aa769bd4deb580b1bcfe20ad3f3b5a3fd9f8a782050c7dd306f",
+      "tasks": 22,
+      "allMemberHashesVerified": true
+    }
+  ],
+  "paperReady": false
+}

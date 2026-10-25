@@ -1,0 +1,100 @@
+{
+  "task": "winning-avg-corewars",
+  "arm": "control-terminal-interface-v3",
+  "receipt": {
+    "task": "winning-avg-corewars",
+    "jobName": "tb-v4-winning-avg-corewars-control-1792381994241395109",
+    "reward": 0.0,
+    "error": "",
+    "costUSD": null,
+    "modelCalls": 37,
+    "promptTokens": 972489,
+    "completionTokens": 13708,
+    "budgetStopEvents": [
+      {
+        "kind": "budget_stop",
+        "actualCalls": 40,
+        "callBudget": 40,
+        "completionClaimSynthesized": false,
+        "officialVerifierMustGradeCurrentState": true
+      }
+    ],
+    "callBudget": 40,
+    "executorCalls": 40,
+    "successfulExecutorResponses": 40,
+    "extraConsumed": true,
+    "requestJournalSha256": "3d8f23b8c9912e5d0ac6ccd160d32d419abb7ee17133ab46fc50bd96c974e11b",
+    "extraSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+    "budgetAudit": true,
+    "wallSeconds": 225.952,
+    "arm": "control-terminal-interface-v3",
+    "synthetic": false,
+    "implementationLockSha256": "a95dc542c719d501dc6691be0c699876ed9b1d215ab724cf96f5dde515299802",
+    "officialImage": {
+      "reference": "alexgshaw/winning-avg-corewars:20251031",
+      "imageId": "sha256:ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6",
+      "repoDigests": [
+        "alexgshaw/winning-avg-corewars@sha256:ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6"
+      ],
+      "repoTags": [
+        "alexgshaw/winning-avg-corewars:20251031",
+        "alexgshaw/winning-avg-corewars@sha256:ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6"
+      ],
+      "sizeBytes": 293671111
+    },
+    "frozenWeightPromptTokens": 0,
+    "plannerEvidenceSha256": null,
+    "staffInputConsumption": null,
+    "budgetSmoke": false,
+    "qualified": true
+  },
+  "originScore": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900",
+  "originRuntime": "/benchmark/skillflow-main-20261008/cross-benchmark-20261013/terminal-prompt-v4-pilot-1792370369096437900/runtime",
+  "originManifest": {
+    "files": {
+      "tb_preplan.py": "3d25c65b68e3129f7b6be62474814d2a92e26a893881d87afe7efe5d98d2c7e8",
+      "tb_trial.py": "0292b8e9f4d3d1ca2935b908529f593523761ebc89d948e8f92d8014b740f2ab",
+      "tb_worker.py": "dbd03d3706b66900a499a4821463bafaf993f3b2d686697f3e4a9ac8a331e40a",
+      "tb_policy.py": "c4409e63311d8c013af1089b4c04d4155aaafe45034bdd85f8f9ee530d788f29",
+      "tb_budget.py": "df8f352849c291c99075cc6f1dbd84a3bd140b5a0260e18ce08692c599bcfaaa",
+      "tb_role_templates.json": "6c8c7a7569b6a2f662faa82e490e747c3a797d4616ddf3471dcccbd1ed4a047d",
+      "pilot-lock.json": "d9f68c315aca34a4858a0a46b7b46d61d4987175b8482675a515534d7686da2c",
+      "design.json": "4b8148201153d2b3dc03365e774824df58691f18f01722248b9215896b47588d",
+      "make_synthetic.py": "5deb66aec5956ee57e7e4547cdfcc0e1ba8b3452c41c3998d4cf1076eb4d1356",
+      "native_source_worker.py": "3ad9d55c8e5fd56828129be3ce78122b94270c9a850f9037ba92a24ce51e1121",
+      "consume_plan.py": "3b107049d6d9793a4ed11a29ed74dc52b5705e8df418f8ebfc0578fc34c333ce",
+      "native_images.py": "93e275e032c70da53dda2ba74b397fbb76ea8a1324b75f3743d7195e51dbb226",
+      "native_target_trial.py": "9c6b14e70770ae5b979a68c8c4c4eddfa406e98a35e210d7ba61ec755394d83f",
+      "native-system-freeze.json": "db3e44968e364e858000286fa14c8131b3f1f041078931b2deb986bb21ca718b",
+      "native_rpc_server.py": "9e96e599853c37c52bd6d90722708a80967ac0291e188f38792c9035d38dfa51",
+      "native_rpc_broker.py": "23f7efdba3fc8778555bc6d51a8039de9b8cd5f824c69f27cd09a3d394d47fc7",
+      "remote_one_trial.py": "fc1bdda999a6e8d2e0444397b7435f20219bb846fa3a7c7f57fac1d8ffa29d99",
+      "run_guarded.mjs": "cf746fb7bda625ade39c318b18347b547a75f0573d7fb1153508e58d1af15240",
+      "native_modules/engine.py": "2c124345b380bdeb6297fdecf6b93cbe70d7691b9b3f805acfc51346dfbdfff9",
+      "native_modules/model_io.py": "6a5a156feebe02771d8dd9274ca14c80b577a0e3eb29b2fb3d0b1763209b898a",
+      "native_modules/shadow.py": "7555e8e59d077bd071432a9df5527c7b870d73c93eecc5b0e34c51bf10c61788"
+    },
+    "paperReady": false,
+    "phase": "pilot"
+  },
+  "interfaceFingerprint": {
+    "commonInputSha256": "5fc16e26fbd09abfbccc014318f551c679bfb4a5cf2eca61d3929ceea78f4a13",
+    "runtimeFiles": {
+      "tb_trial.py": "0292b8e9f4d3d1ca2935b908529f593523761ebc89d948e8f92d8014b740f2ab",
+      "tb_budget.py": "df8f352849c291c99075cc6f1dbd84a3bd140b5a0260e18ce08692c599bcfaaa",
+      "native_target_trial.py": "9c6b14e70770ae5b979a68c8c4c4eddfa406e98a35e210d7ba61ec755394d83f",
+      "remote_one_trial.py": "fc1bdda999a6e8d2e0444397b7435f20219bb846fa3a7c7f57fac1d8ffa29d99",
+      "run_guarded.mjs": "cf746fb7bda625ade39c318b18347b547a75f0573d7fb1153508e58d1af15240"
+    },
+    "model": "openai/deepseek-flash",
+    "temperature": 0,
+    "maxTokens": 4096,
+    "maxActualCalls": 40,
+    "thinking": "disabled",
+    "interface": "control-terminal-interface-v3",
+    "noFrozenPlannerOrStaff": true
+  },
+  "oneOfficialGradeLocked": true,
+  "qualified": true,
+  "paperReady": false
+}

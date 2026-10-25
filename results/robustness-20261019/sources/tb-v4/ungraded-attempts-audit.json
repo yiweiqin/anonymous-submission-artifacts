@@ -1,0 +1,24 @@
+{
+  "snapshot": "artifact\\experiments\\skillflow_mechanism_20261013\\tb-v4\\evidence\\snapshots\\1792398358761054293.json",
+  "ungradedFailures": [
+    {
+      "task": "query-optimize",
+      "arm": "trained-terminal-v4",
+      "jobName": "tb-v4-query-optimize-trained-1792382371147553390",
+      "requests": 40,
+      "successfulResponses": 40,
+      "nativeExceptionTypes": [
+        "VerifierTimeoutError"
+      ],
+      "retryEligible": false,
+      "officialGradePresent": false,
+      "countedAsZero": false,
+      "nativeFailureBytesVerified": true
+    }
+  ],
+  "ungradedFailureCount": 1,
+  "allNativeFailureBytesVerified": true,
+  "qualifiedOfficialGrades": 125,
+  "fullCohortQualified": false,
+  "paperReady": false
+}

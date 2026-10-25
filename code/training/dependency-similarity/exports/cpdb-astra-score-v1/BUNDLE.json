@@ -1,0 +1,32 @@
+{
+  "schema": "cpdb-astra-score-bundle/v1",
+  "version": 1,
+  "generatedAt": "2026-09-20T12:17:10Z",
+  "cardCount": 8282,
+  "annotatorId": "astra_score_v1",
+  "note": "盲包：无 teacher/hybrid/AI 五档分，无 kind，无 combined。reference/ 仅对照。",
+  "files": {
+    "TASK.zh-CN.md": {
+      "bytes": 2304,
+      "sha256": "66a97bb0fa1a96ecbb265c0ad74ad3a759c5cc4cf4e3118c459ed1ca346dd385"
+    },
+    "schema/label_row.schema.json": {
+      "bytes": 563,
+      "sha256": "fba65946ba9047110538484f62062133f502b7f928cd7abf7f79288dee15be28"
+    },
+    "cards.jsonl": {
+      "bytes": 7340734,
+      "sha256": "d9d28e671a3fab10c4e646edaa0be200168b5399f3c010b527e4af23bd3ba976",
+      "lines": 8282
+    },
+    "IMPORT.md": {
+      "bytes": 563,
+      "sha256": "a0fce2f9b322eae6e3303e5b5973256ed12ac534f2f392a66bcd32b8ec47960f"
+    },
+    "reference/human_review_v1_five_bin.jsonl": {
+      "bytes": 11248,
+      "sha256": "030f01b84709c426ca34a77234e1d433dc8d790047bf435b8a81b4cb85194d98",
+      "lines": 41
+    }
+  }
+}

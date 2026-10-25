@@ -1,0 +1,13 @@
+{
+  "frozenBeforeModelCall": true,
+  "measurementMode": "user-authorized-direct-full",
+  "pilotGateRequired": false,
+  "countableRoot": "/benchmark/janus-rerun-20261025/variants/969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+  "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+  "prompts": {
+    "tau": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6"
+  },
+  "pilots": {},
+  "paperReady": false,
+  "compatibilityNote": "Fresh run input manifest named pilot-freeze.json only because the unchanged runner requires that filename; no pilot or gate acceptance is claimed."
+}

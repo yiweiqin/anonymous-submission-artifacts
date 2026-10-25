@@ -1,0 +1,359 @@
+{
+  "host": "benchmark-host-a",
+  "orderSha256": "3642c5c936df7f345cdb5c7cbc874c3fcd54d949878d504ef8a42eae276ecf33",
+  "sourcePromptSha256": {
+    "bash": "c49991c47df08d63a6e5c9e7b6efd5f0d615f360cbf213eee5a32e73ce977642",
+    "tau": "44cf7ac08503a47b2b7505f3d3d456f369ffc8b3287c15d951c8f653f1e50c3b"
+  },
+  "armsRerun": [
+    "janus"
+  ],
+  "armsLeftUnchanged": [
+    "vanilla",
+    "expel",
+    "awm",
+    "reasoning_bank",
+    "skillrl",
+    "cowork_x",
+    "rsea"
+  ],
+  "bash": {
+    "promptFile": "prompt-bash.txt",
+    "promptSha256": "7697f583cdab73ff79f0efc14d8ab1213e9852437cf295fbccb2abde89bec403",
+    "fullAllowed": false,
+    "baselineJanusSum": 143.45,
+    "baselineVanillaSum": 145.24,
+    "holds": [
+      {
+        "task": "nl2bash-fs1-1",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-4",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-5",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-21",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-22",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-28",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-29",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-32",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-33",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-1",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-2",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-11",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-27",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-41",
+        "janus": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-48",
+        "janus": 1.0
+      }
+    ],
+    "gaps": [
+      {
+        "task": "nl2bash-fs1-20",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-25",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs1-41",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-6",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-30",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs3-39",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs3-41",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs4-13",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs4-22",
+        "janus": 0.67,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs2-39",
+        "janus": 0.34,
+        "vanilla": 0.64
+      },
+      {
+        "task": "nl2bash-fs3-47",
+        "janus": 0.7,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs4-15",
+        "janus": 0.7,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs4-26",
+        "janus": 0.7,
+        "vanilla": 1.0
+      },
+      {
+        "task": "nl2bash-fs4-19",
+        "janus": 0.39,
+        "vanilla": 0.67
+      },
+      {
+        "task": "nl2bash-fs1-35",
+        "janus": 0.71,
+        "vanilla": 0.97
+      }
+    ],
+    "pilot": [
+      "nl2bash-fs1-1",
+      "nl2bash-fs1-4",
+      "nl2bash-fs1-5",
+      "nl2bash-fs1-20",
+      "nl2bash-fs1-21",
+      "nl2bash-fs1-22",
+      "nl2bash-fs1-25",
+      "nl2bash-fs1-28",
+      "nl2bash-fs1-29",
+      "nl2bash-fs1-32",
+      "nl2bash-fs1-33",
+      "nl2bash-fs1-35",
+      "nl2bash-fs1-41",
+      "nl2bash-fs2-1",
+      "nl2bash-fs2-2",
+      "nl2bash-fs2-6",
+      "nl2bash-fs2-11",
+      "nl2bash-fs2-27",
+      "nl2bash-fs2-30",
+      "nl2bash-fs2-39",
+      "nl2bash-fs2-41",
+      "nl2bash-fs2-48",
+      "nl2bash-fs3-39",
+      "nl2bash-fs3-41",
+      "nl2bash-fs3-47",
+      "nl2bash-fs4-13",
+      "nl2bash-fs4-15",
+      "nl2bash-fs4-19",
+      "nl2bash-fs4-22",
+      "nl2bash-fs4-26"
+    ],
+    "gate": {
+      "holdsDoNotDropBelow": 1.0,
+      "gapNetIncreaseGreaterThan": 1.79,
+      "fullSumGreaterThan": 145.24
+    }
+  },
+  "tau": {
+    "promptFile": "prompt-tau.txt",
+    "promptSha256": "969523bcb97222db91a0e61df32cab365cf90a6be348929aeaf6e4b705e335d6",
+    "fullAllowed": true,
+    "baselineJanusPasses": 118,
+    "skillrlPasses": 122,
+    "holds": [
+      {
+        "task": "airline-0",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-1",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-2",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-3",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-4",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-5",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-6",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-7",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-8",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-11",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-12",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-13",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-18",
+        "janus": 1.0
+      },
+      {
+        "task": "airline-20",
+        "janus": 1.0
+      }
+    ],
+    "misses": [
+      {
+        "task": "airline-14",
+        "janus": 0.0
+      },
+      {
+        "task": "airline-27",
+        "janus": 0.0
+      },
+      {
+        "task": "airline-39",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-3",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-29",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-33",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-38",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-44",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-64",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-74",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-88",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-93",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-101",
+        "janus": 0.0
+      },
+      {
+        "task": "retail-113",
+        "janus": 0.0
+      }
+    ],
+    "pilot": [
+      "airline-0",
+      "airline-1",
+      "airline-2",
+      "airline-3",
+      "airline-4",
+      "airline-5",
+      "airline-6",
+      "airline-7",
+      "airline-8",
+      "airline-11",
+      "airline-12",
+      "airline-13",
+      "airline-14",
+      "airline-18",
+      "airline-20",
+      "airline-27",
+      "airline-39",
+      "retail-3",
+      "retail-29",
+      "retail-33",
+      "retail-38",
+      "retail-44",
+      "retail-64",
+      "retail-74",
+      "retail-88",
+      "retail-93",
+      "retail-101",
+      "retail-113"
+    ],
+    "measurementMode": "user-authorized-direct-full",
+    "pilotGateRequired": false,
+    "authorization": "\u8c03\u6574\u63a5\u4e0b\u6765\u7684 \u03c4-bench Janus \u5b9e\u9a8c\uff1a\u57fa\u4e8e\u5df2\u7ecf\u786e\u8ba4\u7684\u5931\u8d25\u539f\u56e0\u4fee\u6539\u63d0\u793a\u8bcd\uff0c\u53d6\u6d88\u65b0\u5019\u9009\u768428\u9898\u6210\u7ee9\u95e8\u7981\uff0c\u76f4\u63a5\u6267\u884c\u5b8c\u6574165\u9898\u3002\u6b64\u6307\u4ee4\u662f\u6211\u5bf9\u201c\u76f4\u63a5\u5168\u91cf\u6d4b\u91cf\u201d\u7684\u660e\u786e\u6388\u6743\u3002Bash \u5f53\u524d\u5b9e\u9a8c\u7ee7\u7eed\uff0c\u4e0d\u53d7\u5f71\u54cd\u3002"
+  }
+}

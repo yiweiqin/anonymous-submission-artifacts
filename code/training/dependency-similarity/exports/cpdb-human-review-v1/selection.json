@@ -1,0 +1,284 @@
+{
+  "generatedAt": "2026-09-20T07:11:03.382Z",
+  "generator": "experiments/cpdb_org_world/export_human_review.mjs",
+  "seed": 20260920,
+  "enabledGroups": null,
+  "candidatePool": 8282,
+  "cardCount": 41,
+  "scale": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "allGroups": [
+    {
+      "name": "same_family_dependency_opposed",
+      "question": "同主职能的两个 Agent，左方产出是否可能成为右方输入？"
+    },
+    {
+      "name": "same_family_similarity_ai_low",
+      "question": "同主职能但细节能力不同时，替换代价是否真的都差不多？"
+    },
+    {
+      "name": "same_family_agree_similarity",
+      "question": "同主职能且 AI 也认为可替换时，依赖分是否仍为 0？"
+    },
+    {
+      "name": "cross_family_dependency_opposed",
+      "question": "跨主职能时，依赖分是否应按能力缺口大幅变化，而不是都落在中间？"
+    },
+    {
+      "name": "cross_family_similarity_ai_high",
+      "question": "跨主职能的两个 Agent，是否可能互为好的替换？"
+    },
+    {
+      "name": "agreement_control",
+      "question": "两套口径一致时，人是否也给出同一个档？"
+    }
+  ],
+  "groups": [
+    {
+      "name": "same_family_dependency_opposed",
+      "question": "同主职能的两个 Agent，左方产出是否可能成为右方输入？",
+      "poolSize": 2640,
+      "picked": 12,
+      "strata": [
+        {
+          "key": "code",
+          "pool": 280,
+          "picked": 2
+        },
+        {
+          "key": "data",
+          "pool": 390,
+          "picked": 2
+        },
+        {
+          "key": "ppt",
+          "pool": 420,
+          "picked": 2
+        },
+        {
+          "key": "research",
+          "pool": 576,
+          "picked": 2
+        },
+        {
+          "key": "review",
+          "pool": 320,
+          "picked": 2
+        },
+        {
+          "key": "writing",
+          "pool": 654,
+          "picked": 2
+        }
+      ]
+    },
+    {
+      "name": "same_family_similarity_ai_low",
+      "question": "同主职能但细节能力不同时，替换代价是否真的都差不多？",
+      "poolSize": 76,
+      "picked": 8,
+      "strata": [
+        {
+          "key": "data",
+          "pool": 3,
+          "picked": 2
+        },
+        {
+          "key": "research",
+          "pool": 64,
+          "picked": 2
+        },
+        {
+          "key": "review",
+          "pool": 7,
+          "picked": 2
+        },
+        {
+          "key": "writing",
+          "pool": 2,
+          "picked": 2
+        }
+      ]
+    },
+    {
+      "name": "same_family_agree_similarity",
+      "question": "同主职能且 AI 也认为可替换时，依赖分是否仍为 0？",
+      "poolSize": 46,
+      "picked": 4,
+      "strata": [
+        {
+          "key": "code",
+          "pool": 3,
+          "picked": 2
+        },
+        {
+          "key": "ppt",
+          "pool": 1,
+          "picked": 0
+        },
+        {
+          "key": "writing",
+          "pool": 42,
+          "picked": 2
+        }
+      ]
+    },
+    {
+      "name": "cross_family_dependency_opposed",
+      "question": "跨主职能时，依赖分是否应按能力缺口大幅变化，而不是都落在中间？",
+      "poolSize": 339,
+      "picked": 5,
+      "strata": [
+        {
+          "key": "code",
+          "pool": 10,
+          "picked": 1
+        },
+        {
+          "key": "data",
+          "pool": 7,
+          "picked": 1
+        },
+        {
+          "key": "ppt",
+          "pool": 38,
+          "picked": 1
+        },
+        {
+          "key": "review",
+          "pool": 2,
+          "picked": 1
+        },
+        {
+          "key": "writing",
+          "pool": 282,
+          "picked": 1
+        }
+      ]
+    },
+    {
+      "name": "cross_family_similarity_ai_high",
+      "question": "跨主职能的两个 Agent，是否可能互为好的替换？",
+      "poolSize": 2810,
+      "picked": 6,
+      "strata": [
+        {
+          "key": "code",
+          "pool": 190,
+          "picked": 1
+        },
+        {
+          "key": "data",
+          "pool": 194,
+          "picked": 1
+        },
+        {
+          "key": "ppt",
+          "pool": 206,
+          "picked": 1
+        },
+        {
+          "key": "research",
+          "pool": 1049,
+          "picked": 1
+        },
+        {
+          "key": "review",
+          "pool": 392,
+          "picked": 1
+        },
+        {
+          "key": "writing",
+          "pool": 779,
+          "picked": 1
+        }
+      ]
+    },
+    {
+      "name": "agreement_control",
+      "question": "两套口径一致时，人是否也给出同一个档？",
+      "poolSize": 431,
+      "picked": 6,
+      "strata": [
+        {
+          "key": "code",
+          "pool": 174,
+          "picked": 1
+        },
+        {
+          "key": "data",
+          "pool": 45,
+          "picked": 1
+        },
+        {
+          "key": "ppt",
+          "pool": 28,
+          "picked": 1
+        },
+        {
+          "key": "research",
+          "pool": 104,
+          "picked": 1
+        },
+        {
+          "key": "review",
+          "pool": 78,
+          "picked": 1
+        },
+        {
+          "key": "writing",
+          "pool": 2,
+          "picked": 1
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/full/annotation_cards.jsonl",
+      "sha256": "4f77f77036f73db62f34ce252f818d8f55d9313e9a8f2e3028f4706fa2a240ee"
+    },
+    {
+      "path": "data/full/pairs.jsonl",
+      "sha256": "639bde6abb9f6c943d0ad208af41bb88224d7bbd4b7aea4fffca8b63827604ef"
+    },
+    {
+      "path": "train_out/labels.jsonl",
+      "sha256": "5792cf1e005200688e2dd3cc2348bacda1ec71df3033ab9d7acadbd4b0ab2401"
+    },
+    {
+      "path": "train_out_ai/labels.jsonl",
+      "sha256": "7eea62c3c194ccfca4cf4cd6dbe525595388e6b43061a4d1d0c61613f997ea50"
+    },
+    {
+      "path": "train_out_ai/folds.jsonl",
+      "sha256": "eca4a3ddea3b7150f816294f8de9ca0fa1eb7e34e214c27c21715140df12a15b"
+    }
+  ],
+  "sanitization": {
+    "rule": "白名单：卡面只保留 name / family / facet / tags / produces / consumes / skillDigest",
+    "excludedBecauseNotVisibleToAiJudge": [
+      "ownerUserId",
+      "ownerDisplayName",
+      "orgId"
+    ],
+    "excludedBecauseTheyLeakTheAnswer": [
+      "kind",
+      "isTwin",
+      "initDependency",
+      "initSimilarity",
+      "contractDependency",
+      "contractSimilarity",
+      "humanDependency",
+      "humanSimilarity",
+      "capabilityGap",
+      "school",
+      "split"
+    ]
+  }
+}

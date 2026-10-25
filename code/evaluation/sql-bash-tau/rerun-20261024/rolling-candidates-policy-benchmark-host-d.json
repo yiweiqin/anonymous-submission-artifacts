@@ -1,0 +1,102 @@
+[
+  {
+    "host": "benchmark-host-d",
+    "bench": "tau",
+    "hash": "88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b",
+    "root": "/benchmark/janus-rerun-20261025/variants/88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b",
+    "live": {
+      "pid": 172049,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b"
+    },
+    "hypothesis": {
+      "category": "\u653f\u7b56\u7406\u89e3\uff0f\u5f31\u6761\u4ef6\u6b67\u4e49",
+      "policySource": "/benchmark/robustness-prep/src/tau-bench-59a200c6d575d595120f1cb70fea53cef0632f6b/tau_bench/envs/airline/wiki.md",
+      "policySha256": "56c335801c16e26b54f600f9db99eb04d31db477e86eb160341d5c66b796c5c8",
+      "evidence": "rolling-evidence/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935/failure-capture.json",
+      "observation": "Saved actual output explicitly describes composing two certificates; public policy says at most one.",
+      "hypothesis": "Unconditional transaction-specific prewrite validation prevents policy limits being treated as optional or API-enforced.",
+      "fullToolArgumentsAvailable": false,
+      "referenceAnswersRead": false,
+      "taskSpecificSolutionsInjected": false,
+      "beforeFirstModelCall": true
+    },
+    "paperReady": false,
+    "at": 1792910134.7734115
+  },
+  {
+    "host": "benchmark-host-d",
+    "bench": "tau",
+    "hash": "fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa",
+    "root": "/benchmark/janus-rerun-20261025/variants/fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa",
+    "live": {
+      "pid": 174307,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa"
+    },
+    "hypothesis": {
+      "category": "\u653f\u7b56\u7ea6\u675f\u4e0b\u7684\u65b9\u6848\u6bd4\u8f83",
+      "policySource": "/benchmark/robustness-prep/src/tau-bench-59a200c6d575d595120f1cb70fea53cef0632f6b/tau_bench/envs/airline/wiki.md",
+      "policySha256": "56c335801c16e26b54f600f9db99eb04d31db477e86eb160341d5c66b796c5c8",
+      "evidence": "rolling-evidence/c315e586f2c1421e7d1196560d8c556cc49ce44f11467157286776f3e3da2935/failure-capture.json",
+      "observation": "Saved output compares alternatives using three certificates and later states that composition was applied; public policy permits at most one.",
+      "hypothesis": "Validate feasibility before optimization, not just before a final write, to prevent selecting an alternative based on an illegal hypothetical payment plan.",
+      "fullToolArgumentsAvailable": false,
+      "referenceAnswersRead": false,
+      "taskSpecificSolutionsInjected": false,
+      "beforeFirstModelCall": true,
+      "additionalEvidence": "rolling-evidence/088cd8af4bc7ddbaaff01add85ee989134b9d4e7650c3bb914a0ad08ffa51a90/failure-capture.json"
+    },
+    "paperReady": false,
+    "at": 1792910244.324022
+  },
+  {
+    "host": "benchmark-host-d",
+    "bench": "tau",
+    "hash": "e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684",
+    "root": "/benchmark/janus-rerun-20261025/variants/e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684",
+    "live": {
+      "pid": 182127,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/e82a8765acff796556e9ee740fd0ef0d4b6c0a55831f38c76d281e6124791684"
+    },
+    "hypothesis": {
+      "category": "\u9700\u6c42\u6f84\u6e05\uff0f\u8de8\u6b65\u9aa4\u7ea6\u675f\u4fdd\u6301",
+      "policySource": "/benchmark/robustness-prep/src/tau-bench-59a200c6d575d595120f1cb70fea53cef0632f6b/tau_bench/envs/airline/wiki.md",
+      "policySha256": "56c335801c16e26b54f600f9db99eb04d31db477e86eb160341d5c66b796c5c8",
+      "evidence": "rolling-evidence/88fe73cf77c6e91a89adf5b2747613152388e73c671f4c5aa82f6b24e376f66b/failure-capture.json",
+      "observation": "After legal payment composition was stated, saved failed outputs still differ in elicited itinerary constraints and choice between profile identity and another saved traveler.",
+      "hypothesis": "Retain the explicit public payment constraint, but elicit relevant itinerary constraints before option selection and disambiguate identity instead of assuming a saved traveler; exact hidden cause is not claimed known.",
+      "fullToolArgumentsAvailable": false,
+      "referenceAnswersRead": false,
+      "taskSpecificSolutionsInjected": false,
+      "beforeFirstModelCall": true,
+      "additionalEvidence": "rolling-evidence/fceadf8439df459aa9955f03554769e47a598407d8484be1820a480aa5d1b1aa/failure-capture.json",
+      "basePromptSha256": "7090cb8ac5cee06b0891f81737cc632e0f255be7c6844bddb3cd2bf971b5e4b8"
+    },
+    "paperReady": false,
+    "at": 1792910575.694413
+  },
+  {
+    "host": "benchmark-host-d",
+    "bench": "tau",
+    "hash": "ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+    "root": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda",
+    "live": {
+      "pid": 216011,
+      "cwd": "/benchmark/janus-rerun-20261025/variants/ab6c90b81e08b3694b9339e6220048d1323d232a87ae4a4527620d8777f39eda"
+    },
+    "hypothesis": {
+      "category": "\u8bb0\u5f55\u5b57\u6bb5\u3001\u8eab\u4efd\u4e0e\u65f6\u95f4\u7cbe\u5ea6",
+      "policySource": "/benchmark/robustness-prep/src/tau-bench-59a200c6d575d595120f1cb70fea53cef0632f6b/tau_bench/envs/airline/wiki.md",
+      "policySha256": "56c335801c16e26b54f600f9db99eb04d31db477e86eb160341d5c66b796c5c8",
+      "evidence": "tau-pilot-full-execution-contrast-20261025.json",
+      "observation": "Same prompt hash has passing pilot and failing full outputs; failing output treats per-passenger fare as total, misstates tier allowance, or decides elapsed-time eligibility from a date without its time.",
+      "hypothesis": "Preserve exact timestamp and record-field provenance before eligibility and identity decisions.",
+      "fullToolArgumentsAvailable": false,
+      "referenceAnswersRead": false,
+      "taskSpecificSolutionsInjected": false,
+      "beforeFirstModelCall": true,
+      "basePromptSha256": "8f26b62ca4f20e0d0b2114de5e3217ec22d3a573a973511c3898b083912563db"
+    },
+    "paperReady": false,
+    "at": 1792913644.7044969
+  }
+]

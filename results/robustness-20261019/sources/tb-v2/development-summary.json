@@ -1,0 +1,42 @@
+{
+  "schema": "tb-prompt-audit-v1",
+  "synthetic": true,
+  "checks": {
+    "completeUniqueOfficialCoverage": true,
+    "allReceiptsQualified": true,
+    "allActualInputsConsumed": true,
+    "allExecutorBudgetsPass": true,
+    "allPackagesMatch": true
+  },
+  "tasks": 3,
+  "officialGrades": 0,
+  "developmentGrades": 6,
+  "sums": {
+    "trained-terminal-v2": 3.0,
+    "control-terminal-interface-v1": 2.0
+  },
+  "delta": 1.0,
+  "higher": 1,
+  "lower": 0,
+  "ties": 2,
+  "pairs": {
+    "synthetic-data-deliverable": {
+      "trained-terminal-v2": 1.0,
+      "control-terminal-interface-v1": 0.0
+    },
+    "synthetic-interface-contract": {
+      "control-terminal-interface-v1": 1.0,
+      "trained-terminal-v2": 1.0
+    },
+    "synthetic-shell-boundaries": {
+      "control-terminal-interface-v1": 1.0,
+      "trained-terminal-v2": 1.0
+    }
+  },
+  "passed": false,
+  "passesExpansionGate": false,
+  "receiptSha256": "65ca152b556f1acb54de29bd561f60b7017a3d83a61562aeeca44e9114208555",
+  "costUSD": null,
+  "paperReady": false,
+  "interpretation": "Composite adaptive development evidence, no independent confirmatory or LoRA-only causal claim."
+}
